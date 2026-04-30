@@ -1,10 +1,16 @@
-# rory Profile
+# Rory Woodbridge Profile
 
 ## Positioning
-TBD
+PMM practitioner focused on practical, repeatable systems for product marketing execution.
 
 ## Why this voice matters
-TBD
+Rory's writing is operator-grade: concrete templates, decision structures, and implementation guidance that can be encoded into Commons/Flywheel workflows.
 
 ## Focus areas
-- TBD
+- PMM operating cadence
+- Messaging and positioning execution
+- AI-assisted PMM workflows
+- Launch quality and speed
+
+## AI-native relevance
+- Strong fit for transforming PMM craft into routinized yet adaptable systems.

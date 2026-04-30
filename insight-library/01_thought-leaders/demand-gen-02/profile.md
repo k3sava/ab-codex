@@ -1,10 +1,15 @@
-# demand-gen-02 Profile
+# Elena Verna Profile
 
 ## Positioning
-TBD
+Growth operator known for rigorous growth models, loop design, and experimentation systems.
 
 ## Why this voice matters
-TBD
+Brings first-principles growth thinking that translates cleanly into measurable PMM/GTM loops.
 
 ## Focus areas
-- TBD
+- Growth loops and model design
+- Prioritization and experimentation cadence
+- Leading indicators for GTM performance
+
+## AI-native relevance
+- AI can speed experiment throughput, but loop design determines whether outcomes compound.
