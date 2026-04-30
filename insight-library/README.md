@@ -32,3 +32,5 @@ This Markdown library captures thought-leader insights and converts them into re
 - Batch 01 complete: 10 additional experts added with seeded profile + insight cards.
 - Next step: enrich each with source-linked insights and contradictions.
 - Batch 02 complete: 10 additional connection-mapped experts added.
+- Batch 03 complete: 10 domain-expansion experts added (content/SEO/social/PR/brand/design/events/inbound/outbound/unbound).
+- Added domain coverage map to ensure full lifecycle support (attract -> grow) with and without AI.
