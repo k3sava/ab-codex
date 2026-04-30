@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>clearPMM GraphOS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="watch-shell">
+    <header class="topbar">
+      <div class="pill">GraphOS</div>
+      <div class="pill" id="countPill">0 nodes</div>
+    </header>
+    <main id="stage">
+      <svg id="graph"></svg>
+      <section id="cardTray" class="card-tray hidden">
+        <div class="cards" id="cards"></div>
+      </section>
+    </main>
+    <footer class="dock">
+      <button id="zoomIn">＋</button>
+      <button id="zoomOut">－</button>
+      <button id="reset">◎</button>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="app.js"></script>
+</body>
+</html>

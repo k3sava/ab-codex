@@ -1,0 +1,16 @@
+:root { --bg:#050507; --panel:#0e1016; --text:#f4f6ff; --muted:#9aa2b3; --accent:#76e0ff; }
+*{box-sizing:border-box} body{margin:0;background:radial-gradient(circle at 30% 20%,#1a2130,#07080c 65%);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif;display:grid;place-items:center;min-height:100vh}
+.watch-shell{width:min(1024px,95vw);height:min(820px,96vh);background:linear-gradient(180deg,#0c0f17,#080a11);border-radius:42px;padding:16px;box-shadow:0 35px 90px rgba(0,0,0,.6),inset 0 0 0 1px rgba(255,255,255,.06);display:grid;grid-template-rows:auto 1fr auto;gap:12px}
+.topbar,.dock{display:flex;gap:10px;align-items:center}.topbar{justify-content:space-between}
+.pill{background:rgba(255,255,255,.07);padding:8px 12px;border-radius:999px;font-size:12px;color:var(--muted)}
+#stage{position:relative;overflow:hidden;border-radius:28px;background:radial-gradient(circle at 20% 20%,#121a29,#0a0d14)}
+#graph{width:100%;height:100%}
+.node{cursor:pointer;transition:transform .2s}.node:hover{filter:drop-shadow(0 0 10px rgba(118,224,255,.45))}
+.label{font-size:10px;fill:#dce4ff;pointer-events:none}
+.link{stroke:rgba(180,210,255,.22);stroke-width:1.2}
+.dock{justify-content:center}.dock button{border:0;background:#121826;color:#d8e7ff;padding:10px 18px;border-radius:16px;font-size:20px;cursor:pointer}
+.card-tray{position:absolute;bottom:14px;left:14px;right:14px;background:rgba(10,14,22,.86);backdrop-filter:blur(15px);border:1px solid rgba(255,255,255,.08);border-radius:22px;padding:10px;overflow:hidden}
+.cards{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:4px}
+.card{min-width:240px;background:linear-gradient(180deg,#131c2b,#0e141f);border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:12px;scroll-snap-align:center}
+.card h4{margin:0 0 8px 0;font-size:14px}.card p{margin:0;color:var(--muted);font-size:12px;line-height:1.35}
+.hidden{display:none}

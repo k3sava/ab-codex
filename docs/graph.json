@@ -1,0 +1,445 @@
+{
+  "nodes": [
+    {
+      "id": "PMM",
+      "label": "PMM",
+      "color": "#73dfff",
+      "weight": 6
+    },
+    {
+      "id": "GTM",
+      "label": "GTM",
+      "color": "#8af5d8",
+      "weight": 6
+    },
+    {
+      "id": "AEO/SEO",
+      "label": "AEO/SEO",
+      "color": "#9ca8ff",
+      "weight": 5
+    },
+    {
+      "id": "CRO",
+      "label": "CRO",
+      "color": "#ffa3d0",
+      "weight": 4
+    },
+    {
+      "id": "Demand",
+      "label": "Demand",
+      "color": "#ffbf7a",
+      "weight": 5
+    },
+    {
+      "id": "Community",
+      "label": "Community",
+      "color": "#8cf2b0",
+      "weight": 4
+    },
+    {
+      "id": "CS",
+      "label": "CS",
+      "color": "#ffd86b",
+      "weight": 4
+    },
+    {
+      "id": "Support",
+      "label": "Support",
+      "color": "#caa7ff",
+      "weight": 4
+    },
+    {
+      "id": "Rory",
+      "label": "Rory",
+      "color": "#74b9ff",
+      "weight": 3
+    },
+    {
+      "id": "Dunford",
+      "label": "Dunford",
+      "color": "#8ee2ff",
+      "weight": 3
+    },
+    {
+      "id": "Raskin",
+      "label": "Raskin",
+      "color": "#8ee2ff",
+      "weight": 3
+    },
+    {
+      "id": "Indig",
+      "label": "Indig",
+      "color": "#b0b9ff",
+      "weight": 3
+    },
+    {
+      "id": "Fishkin",
+      "label": "Fishkin",
+      "color": "#b0b9ff",
+      "weight": 3
+    },
+    {
+      "id": "Walker",
+      "label": "Walker",
+      "color": "#ffc38a",
+      "weight": 3
+    },
+    {
+      "id": "Verna",
+      "label": "Verna",
+      "color": "#ffc38a",
+      "weight": 3
+    },
+    {
+      "id": "Rosie",
+      "label": "Rosie",
+      "color": "#95f1ba",
+      "weight": 3
+    },
+    {
+      "id": "Greg",
+      "label": "Greg",
+      "color": "#95f1ba",
+      "weight": 3
+    }
+  ],
+  "edges": [
+    {
+      "source": "PMM",
+      "target": "GTM"
+    },
+    {
+      "source": "PMM",
+      "target": "CRO"
+    },
+    {
+      "source": "PMM",
+      "target": "CS"
+    },
+    {
+      "source": "GTM",
+      "target": "Demand"
+    },
+    {
+      "source": "GTM",
+      "target": "AEO/SEO"
+    },
+    {
+      "source": "GTM",
+      "target": "Community"
+    },
+    {
+      "source": "CS",
+      "target": "Support"
+    },
+    {
+      "source": "CRO",
+      "target": "Demand"
+    },
+    {
+      "source": "Rory",
+      "target": "PMM"
+    },
+    {
+      "source": "Dunford",
+      "target": "PMM"
+    },
+    {
+      "source": "Raskin",
+      "target": "PMM"
+    },
+    {
+      "source": "Indig",
+      "target": "AEO/SEO"
+    },
+    {
+      "source": "Fishkin",
+      "target": "AEO/SEO"
+    },
+    {
+      "source": "Walker",
+      "target": "Demand"
+    },
+    {
+      "source": "Verna",
+      "target": "Demand"
+    },
+    {
+      "source": "Rosie",
+      "target": "Community"
+    },
+    {
+      "source": "Greg",
+      "target": "Community"
+    },
+    {
+      "source": "Demand",
+      "target": "CS"
+    },
+    {
+      "source": "AEO/SEO",
+      "target": "CRO"
+    },
+    {
+      "source": "Community",
+      "target": "Demand"
+    }
+  ],
+  "cards": [
+    {
+      "node": "PMM",
+      "title": "PMM Card 1",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "PMM",
+      "title": "PMM Card 2",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "PMM",
+      "title": "PMM Card 3",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "GTM",
+      "title": "GTM Card 1",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "GTM",
+      "title": "GTM Card 2",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "GTM",
+      "title": "GTM Card 3",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "AEO/SEO",
+      "title": "AEO/SEO Card 1",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "AEO/SEO",
+      "title": "AEO/SEO Card 2",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "AEO/SEO",
+      "title": "AEO/SEO Card 3",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "CRO",
+      "title": "CRO Card 1",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "CRO",
+      "title": "CRO Card 2",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "CRO",
+      "title": "CRO Card 3",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Demand",
+      "title": "Demand Card 1",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Demand",
+      "title": "Demand Card 2",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Demand",
+      "title": "Demand Card 3",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Community",
+      "title": "Community Card 1",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Community",
+      "title": "Community Card 2",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Community",
+      "title": "Community Card 3",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "CS",
+      "title": "CS Card 1",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "CS",
+      "title": "CS Card 2",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "CS",
+      "title": "CS Card 3",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Support",
+      "title": "Support Card 1",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Support",
+      "title": "Support Card 2",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Support",
+      "title": "Support Card 3",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Rory",
+      "title": "Rory Card 1",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Rory",
+      "title": "Rory Card 2",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Rory",
+      "title": "Rory Card 3",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Dunford",
+      "title": "Dunford Card 1",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Dunford",
+      "title": "Dunford Card 2",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Dunford",
+      "title": "Dunford Card 3",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Raskin",
+      "title": "Raskin Card 1",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Raskin",
+      "title": "Raskin Card 2",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Raskin",
+      "title": "Raskin Card 3",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Indig",
+      "title": "Indig Card 1",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Indig",
+      "title": "Indig Card 2",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Indig",
+      "title": "Indig Card 3",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Fishkin",
+      "title": "Fishkin Card 1",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Fishkin",
+      "title": "Fishkin Card 2",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Fishkin",
+      "title": "Fishkin Card 3",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Walker",
+      "title": "Walker Card 1",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Walker",
+      "title": "Walker Card 2",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Walker",
+      "title": "Walker Card 3",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Verna",
+      "title": "Verna Card 1",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Verna",
+      "title": "Verna Card 2",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Verna",
+      "title": "Verna Card 3",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Rosie",
+      "title": "Rosie Card 1",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Rosie",
+      "title": "Rosie Card 2",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Rosie",
+      "title": "Rosie Card 3",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Greg",
+      "title": "Greg Card 1",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Greg",
+      "title": "Greg Card 2",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    },
+    {
+      "node": "Greg",
+      "title": "Greg Card 3",
+      "text": "Lifecycle-linked insight with owner, artifact, and measurable outcome signal."
+    }
+  ]
+}
