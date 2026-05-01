@@ -2,25 +2,23 @@
 name: April Dunford
 slug: april-dunford
 roles:
-  - Founder, Ambient Strategy
-  - Author, Obviously Awesome
-  - Author, Sales Pitch
-domains_active: [pmm, gtm]
+  - Author of 'Obviously Awesome,' positioning consultant to technology companies
+  - former VP Marketing at multiple enterprise software firms including companies acquired by IBM and Siebel Systems
+domains_active: [pmm, product, ai-native, gtm, design]
 captured_first: 2026-05-01
-external:
-  site: https://www.aprildunford.com
 ---
 
 # April Dunford
 
 ## Bio
-Founder of Ambient Strategy. Has positioned 200+ B2B technology companies. Author of *Obviously Awesome* (positioning) and *Sales Pitch* (the setup / follow-through pitch architecture). Public reference voice on positioning as a structured discipline rather than a tagline exercise.
+April Dunford is the foremost practitioner-theorist of product positioning in B2B technology. Her central contribution is transforming positioning from a vague brand exercise into a structured, repeatable methodology with a specific workflow. She decomposes positioning into five components — Competitive Alternatives, Differentiated Features/Capabilities, Customer Value, Target Customer Segmentation, and Market Category — and insists they must be worked in that exact order.
 
 ## Operating themes
-- **Positioning is a structure, not a name.** Insight, alternatives, perfect world, then product.
-- **Status quo is the real competitor.** 40–60% of B2B losses are "no decision," not competitive losses.
-- **Setup before Follow-Through.** Most pitches skip the framing and lose the room.
-- **Differentiate on what the buyer cares about, not what the team thinks is cool.**
+- **Operating thesis:** Positioning is not a creative exercise but a structured, customer-centric analysis that follows a specific workflow order, starting with competitive alternatives and ending with market category selection.
+- **Ai Product Positioning**
+- **Competitive Alternative Analysis**
+- **Market Category Selection**
+- **Positioning Development**
 
 ## Cards
 - `ins_no-decision-is-the-real-competitor` — Status quo, not the competitor, is what kills B2B deals [Tier A]
@@ -29,6 +27,6 @@ Founder of Ambient Strategy. Has positioned 200+ B2B technology companies. Autho
 ## Sources captured
 - 2026-04-28 — Lenny's Podcast, "Positioning, setup follow-through, differentiation" (`raw/podcasts/april-dunford--positioning-setup-follow-through--2026-04-28.md`)
 - 2026-04-28 — Lenny's Podcast, "Positioning framework" (`raw/podcasts/april-dunford--positioning-framework--2026-04-28.md`)
-
-## External
-- Ambient Strategy: https://www.aprildunford.com
+- 2026-04 — `a-quickstart-guide-to-positioning-april-dunford.md` (artemis ingest)
+- 2026-04 — `a-product-positioning-exercise-april-dunford.md` (artemis ingest)
+- 2026-04 — `how-we-used-april-dunfords-10-step-method-to-overhaul-positioning-at-userlist.md` (artemis ingest)
