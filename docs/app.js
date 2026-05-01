@@ -1,58 +1,18 @@
-const width = () => document.getElementById('stage').clientWidth;
-const height = () => document.getElementById('stage').clientHeight;
-const svg = d3.select('#graph');
-const g = svg.append('g');
-const linkLayer = g.append('g');
-const nodeLayer = g.append('g');
-
-fetch('graph.json').then(r=>r.json()).then(init);
-
-function init(data){
-  document.getElementById('countPill').textContent = `${data.nodes.length} nodes`;
-  svg.attr('viewBox', `0 0 ${width()} ${height()}`);
-
-  const sim = d3.forceSimulation(data.nodes)
-    .force('link', d3.forceLink(data.edges).id(d=>d.id).distance(75).strength(0.35))
-    .force('charge', d3.forceManyBody().strength(-120))
-    .force('center', d3.forceCenter(width()/2, height()/2));
-
-  const links = linkLayer.selectAll('line').data(data.edges).enter().append('line').attr('class','link');
-
-  const nodes = nodeLayer.selectAll('g').data(data.nodes).enter().append('g').attr('class','node')
-    .call(d3.drag().on('start',dragstart).on('drag',drag).on('end',dragend))
-    .on('click',(_,d)=>showCards(d,data));
-
-  nodes.append('circle')
-    .attr('r',d=>8 + (d.weight||1))
-    .attr('fill',d=>d.color || '#76e0ff');
-
-  nodes.append('text').attr('class','label').attr('dy',-12).attr('text-anchor','middle').text(d=>d.label);
-
-  sim.on('tick',()=>{
-    links.attr('x1',d=>d.source.x).attr('y1',d=>d.source.y).attr('x2',d=>d.target.x).attr('y2',d=>d.target.y);
-    nodes.attr('transform',d=>`translate(${d.x},${d.y})`);
-  });
-
-  const zoom = d3.zoom().scaleExtent([0.3, 4]).on('zoom',e=>g.attr('transform',e.transform));
-  svg.call(zoom);
-  document.getElementById('zoomIn').onclick=()=>svg.transition().call(zoom.scaleBy,1.25);
-  document.getElementById('zoomOut').onclick=()=>svg.transition().call(zoom.scaleBy,0.8);
-  document.getElementById('reset').onclick=()=>svg.transition().call(zoom.transform,d3.zoomIdentity);
-
-  function dragstart(event,d){ if(!event.active) sim.alphaTarget(0.3).restart(); d.fx=d.x; d.fy=d.y;}
-  function drag(event,d){ d.fx=event.x; d.fy=event.y;}
-  function dragend(event,d){ if(!event.active) sim.alphaTarget(0); d.fx=null; d.fy=null;}
-}
-
-function showCards(node,data){
-  const tray=document.getElementById('cardTray');
-  const cards=document.getElementById('cards');
-  cards.innerHTML='';
-  const related=data.cards.filter(c=>c.node===node.id).slice(0,8);
-  related.forEach(c=>{
-    const el=document.createElement('article'); el.className='card';
-    el.innerHTML=`<h4>${c.title}</h4><p>${c.text}</p>`;
-    cards.appendChild(el);
-  });
-  tray.classList.remove('hidden');
-}
+const cards=[
+{id:'ins_positioning-decision-stack',operator:'April Dunford',role:'Positioning Consultant',source_title:'April Dunford Insights',source_url:'../insight-library/01_thought-leaders/ai-native-pmm-01/insights.md',source_date:'2026-05-01',domain:['pmm','gtm'],tier:'A',maturity:'foundational',claim:'Strong positioning is a sequence of clear decisions, not a tagline exercise.',mechanism:'Capture competitive alternatives, unique attributes, value themes, segment, and category frame as explicit artifacts.',conditions:'Use when messaging drifts by stakeholder preference and sales language diverges.',evidence:'Win-rate delta after narrative alignment and reduced confusion in calls.',signals:'Fewer what-do-you-do clarifications in discovery.',counter:'Fails when segment strategy is undecided.',related:['ins_segment-proof-map','ins_category-frame']},
+{id:'ins_segment-proof-map',operator:'April Dunford',role:'Positioning Consultant',source_title:'April Dunford Insights',source_url:'../insight-library/01_thought-leaders/ai-native-pmm-01/insights.md',source_date:'2026-05-01',domain:['pmm'],tier:'A',maturity:'applied',claim:'A positioning choice is incomplete without segment-specific proof.',mechanism:'For each segment map claim to required evidence to enabling asset.',conditions:'Use when buyers stall at late-stage proof requests.',evidence:'Stage-3 to close conversion changes after proof-map rollout.',signals:'Proof asset usage per segment.',counter:'Do not apply before segment strategy is decided.',related:['ins_positioning-decision-stack']},
+{id:'ins_category-frame',operator:'April Dunford',role:'Positioning Consultant',source_title:'April Dunford Insights',source_url:'../insight-library/01_thought-leaders/ai-native-pmm-01/insights.md',source_date:'2026-05-01',domain:['pmm','enablement'],tier:'A',maturity:'foundational',claim:'Category language should minimize comparison confusion and speed buyer orientation.',mechanism:'Test category labels against confusion patterns from top alternatives.',conditions:'Use when prospects compare to irrelevant alternatives.',evidence:'Discovery-call clarification time trends.',signals:'Confusion rate by category label.',counter:'Do not apply when education-first category creation is primary.',related:['ins_positioning-decision-stack']},
+{id:'ins_trust-loops-before-scale',operator:'Rosie Sherry',role:'Community Operator',source_title:'Rosie Sherry Insights',source_url:'../insight-library/01_thought-leaders/community-01/insights.md',source_date:'2026-05-01',domain:['community','gtm'],tier:'A',maturity:'applied',claim:'Healthy communities scale when trust loops are designed before growth loops.',mechanism:'Instrument onboarding rituals, contribution paths, recognition, and product feedback handoffs.',conditions:'Use when community exists but quality and trust are low.',evidence:'Returning contributor rate and time-to-first-value for members.',signals:'Reusable objection insight volume from community.',counter:'Fails when community remains creator-dependent.',related:['ins_aeo-mention-share']},
+{id:'ins_aeo-mention-share',operator:'Kevin Indig',role:'Growth Advisor',source_title:'Kevin Indig Insights',source_url:'../insight-library/01_thought-leaders/aeo-01/insights.md',source_date:'2026-05-01',domain:['aeo','gtm'],tier:'A',maturity:'applied',claim:'AI discovery favors mention and citation share, not only blue-link ranking.',mechanism:'Create owned and earned source clusters and answer-structured pages, then track mention share by topic.',conditions:'Use when organic traffic is flat but AI-assisted research rises.',evidence:'Citation frequency and mention share by topic.',signals:'Brand query growth and direct-traffic quality.',counter:'Avoid if content corpus is too small to segment by query class.',related:['ins_trust-loops-before-scale']}
+];
+const app=document.getElementById('app'); const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+function render(){const r=location.hash.replace('#','')||'/'; if(r==='/') home(); else if(r.startsWith('/ins/')) insight(r.split('/')[2]); else if(r.startsWith('/o/')) operator(decodeURIComponent(r.split('/')[2])); else if(r.startsWith('/d/')) domain(r.split('/')[2]); else if(r==='/graph') graph(); else about(); animate();}
+function home(){app.innerHTML=`<h1 class='reveal'>codex is a record of what operators said. not a feed. not a course. not a take.</h1><p class='lede reveal'>every claim has a name on it and a source link next to it. read one. cite it. move on.</p><h3>latest insights</h3><section class='grid'>${cards.map(c=>`<a class='card' href='#/ins/${c.id}'><div class='mono'>${c.id} · tier ${c.tier}</div><h4>${c.claim}</h4><p>${c.operator}, ${c.source_title}</p></a>`).join('')}</section>`}
+function insight(id){const c=cards.find(x=>x.id===id); if(!c){app.textContent='not found';return;} app.innerHTML=`<article class='insight'><section><div class='mono'>${c.id} · tier ${c.tier} · ${c.maturity}</div><h1>${c.claim}</h1><p> ${c.operator}, ${c.role}. <a class='source-link' target='_blank' href='${c.source_url}'>${c.source_title}, ${c.source_date}</a></p><div class='block'><strong>mechanism</strong><p>${c.mechanism}</p></div><div class='block'><strong>conditions</strong><p>${c.conditions}</p></div><div class='block'><strong>evidence</strong><p>${c.evidence}</p></div><div class='block'><strong>signals</strong><p>${c.signals}</p></div><div class='block'><strong>counter-evidence</strong><p>${c.counter}</p></div><p class='mono'>related: ${c.related.map(r=>`<a href='#/ins/${r}'>${r}</a>`).join(' · ')}</p><button id='citeBtn'>copy citation</button></section><aside class='card'><p>domains: ${c.domain.join(' · ')}</p><p class='mono'>captured-on ${c.source_date}</p><p><a target='_blank' href='${c.source_url}'>open raw source</a></p></aside></article>`;document.getElementById('citeBtn').onclick=()=>navigator.clipboard.writeText(`${c.operator}, "${c.source_title}," Source, ${c.source_date}. codex/${c.id}`); if(!reduced)gsap.to('.source-link:after',{})}
+function operator(name){const set=cards.filter(c=>c.operator===name);app.innerHTML=`<h1>${name}</h1><p class='lede'>${set[0]?.role||''}</p><section class='grid'>${set.map(c=>`<a class='card' href='#/ins/${c.id}'><div class='mono'>${c.id}</div><h4>${c.claim}</h4></a>`).join('')}</section>`}
+function domain(d){const set=cards.filter(c=>c.domain.includes(d));app.innerHTML=`<h1>domain: ${d}</h1><section class='grid'>${set.map(c=>`<a class='card' href='#/ins/${c.id}'><h4>${c.claim}</h4><p>${c.operator}</p></a>`).join('')}</section>`}
+function about(){app.innerHTML='<h1>about codex</h1><p class="lede">citation layer for operator insights.</p>'}
+function graph(){app.innerHTML='<svg id="graph"></svg>';const svg=d3.select('#graph');const nodes=[...new Set(cards.flatMap(c=>[c.id,c.operator]))].map(id=>({id,type:id.startsWith('ins_')?'insight':'operator'}));const edges=cards.map(c=>({source:c.operator,target:c.id})).concat(cards.flatMap(c=>c.related.map(r=>({source:c.id,target:r}))));const sim=d3.forceSimulation(nodes).force('link',d3.forceLink(edges).id(d=>d.id).distance(70)).force('charge',d3.forceManyBody().strength(-170)).force('center',d3.forceCenter(500,280));const l=svg.append('g').selectAll('line').data(edges).enter().append('line').attr('stroke','#9994');const n=svg.append('g').selectAll('circle').data(nodes).enter().append('circle').attr('r',d=>d.type==='insight'?5:8).attr('fill',d=>d.type==='insight'?'#b45a2d':'#3a6ea5').on('click',(_,d)=>{if(d.type==='insight')location.hash=`#/ins/${d.id}`;else location.hash=`#/o/${encodeURIComponent(d.id)}`});sim.on('tick',()=>{l.attr('x1',d=>d.source.x).attr('y1',d=>d.source.y).attr('x2',d=>d.target.x).attr('y2',d=>d.target.y);n.attr('cx',d=>d.x).attr('cy',d=>d.y)}); if(!reduced){gsap.to(n.nodes(),{scale:1.02,repeat:-1,yoyo:true,duration:4,stagger:{each:0.07,from:'random'}})} }
+function animate(){if(reduced)return;gsap.from('.reveal',{y:18,opacity:0,stagger:.06,duration:.8,ease:'expo.out'});}
+window.addEventListener('hashchange',render);render();
+const dlg=document.getElementById('searchDialog'); document.getElementById('searchOpen').onclick=()=>{dlg.showModal();document.getElementById('searchInput').focus()}; document.addEventListener('keydown',e=>{if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k'){e.preventDefault();dlg.showModal();document.getElementById('searchInput').focus()}}); document.getElementById('searchInput').oninput=e=>{const q=e.target.value.toLowerCase();document.getElementById('searchResults').innerHTML=cards.filter(c=>`${c.claim} ${c.operator} ${c.domain.join(' ')}`.toLowerCase().includes(q)).map(c=>`<a href='#/ins/${c.id}' onclick='document.getElementById("searchDialog").close()'>${c.claim}<span class='mono'> ${c.operator}</span></a>`).join('')};
