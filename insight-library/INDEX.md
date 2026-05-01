@@ -3,13 +3,13 @@
 _Generated 2026-05-01. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 95 insight cards
-- 36 operator profiles
-- 36 raw source files
+- 103 insight cards
+- 40 operator profiles
+- 40 raw source files
 
 ## Insights by tier
 
-### Tier A (58)
+### Tier A (62)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
 - [`ins_agents-as-team-not-tools`](insights/ins_agents-as-team-not-tools.md) — Agents work when treated as a team, not a single super-tool _(Claire Vo)_
@@ -17,6 +17,7 @@ _Generated 2026-05-01. Auto-built from frontmatter — do not edit by hand._
 - [`ins_build-for-model-six-months-out`](insights/ins_build-for-model-six-months-out.md) — Build for the model six months out, not the one that ships today _(Boris Cherny)_
 - [`ins_build-for-next-model-not-current`](insights/ins_build-for-next-model-not-current.md) — Build for the model six months out — the current model will eat your scaffolding _(Sherwin Wu)_
 - [`ins_cash-four-stage-growth-automation`](insights/ins_cash-four-stage-growth-automation.md) — Automate the four stages of a growth experiment; keep humans on alignment _(Amol Avasare)_
+- [`ins_cccd-continuous-calibration`](insights/ins_cccd-continuous-calibration.md) — Continuous Calibration, Continuous Development (CCCD) is the operating loop for AI products _(Aishwarya Naresh Reganti)_
 - [`ins_company-house-foundation-beams-mechanicals`](insights/ins_company-house-foundation-beams-mechanicals.md) — A company is a house: foundation, supporting beams, mechanicals — install all three early _(Claire Hughes Johnson)_
 - [`ins_dark-factory-pattern`](insights/ins_dark-factory-pattern.md) — The dark factory: nobody reads the code, gated by a simulated QA swarm _(Simon Willison)_
 - [`ins_date-diagnostic-framework`](insights/ins_date-diagnostic-framework.md) — Refuse the playbook ask — run DATE: Diagnose, Analyze, Take a different path, Experiment _(Krithika Shankarraman)_
@@ -35,6 +36,7 @@ _Generated 2026-05-01. Auto-built from frontmatter — do not edit by hand._
 - [`ins_going-deep-to-bedrock`](insights/ins_going-deep-to-bedrock.md) — Push past expert opinion until you reach the actual law of physics or contract _(Ayo Omojola)_
 - [`ins_illegibility-framework`](insights/ins_illegibility-framework.md) — Watch for "illegible energy" — ideas the team can't articulate but can't stop talking about _(Jenny Wen)_
 - [`ins_influence-is-discovery-not-conviction`](insights/ins_influence-is-discovery-not-conviction.md) — Treat upward influence as a discovery interview, not a sales pitch _(Jessica Fain)_
+- [`ins_intelligence-into-things-that-already-exist`](insights/ins_intelligence-into-things-that-already-exist.md) — Position AI as intelligence put into things that already exist, not as a new thing _(Qasar Younis)_
 - [`ins_jtbd-as-agent-wiring-diagram`](insights/ins_jtbd-as-agent-wiring-diagram.md) — Map agents 1:1 to enumerated jobs-to-be-done, not abstractly to "AI-augmented" workflows _(Evan Spiegel)_
 - [`ins_kill-criteria-make-pre-mortems-real`](insights/ins_kill-criteria-make-pre-mortems-real.md) — Pre-mortems only work if you commit kill criteria before starting _(Annie Duke)_
 - [`ins_kill-things-to-build-trust`](insights/ins_kill-things-to-build-trust.md) — Killing your own initiatives loudly is the highest-trust move with executives _(Jessica Fain)_
@@ -45,6 +47,8 @@ _Generated 2026-05-01. Auto-built from frontmatter — do not edit by hand._
 - [`ins_long-term-holdouts-30-40-evaporate`](insights/ins_long-term-holdouts-30-40-evaporate.md) — 30–40% of growth experiments with short-term lift show no incremental value at one year _(Archie Abrams)_
 - [`ins_manager-skill-not-technical`](insights/ins_manager-skill-not-technical.md) — The unlock for AI agent productivity is management skill, not technical skill _(Claire Vo)_
 - [`ins_marginal-user-methodology`](insights/ins_marginal-user-methodology.md) — Design for the marginal user — the person on the cusp of converting in the worst conditions _(Adriel Frederick)_
+- [`ins_marketplace-liquidity-before-dynamics`](insights/ins_marketplace-liquidity-before-dynamics.md) — Pre-PMF, stop theorizing marketplace dynamics — pick the hardest side and nail liquidity _(Benjamin Lauzier)_
+- [`ins_negotiation-starts-before-first-call`](insights/ins_negotiation-starts-before-first-call.md) — Negotiation begins with the LinkedIn snapshot, not the first call _(Jacob Warwick)_
 - [`ins_nlx-is-the-new-ux`](insights/ins_nlx-is-the-new-ux.md) — Natural language is the interface; conversation flow is the design surface _(Aparna Chennapragada)_
 - [`ins_no-decision-is-the-real-competitor`](insights/ins_no-decision-is-the-real-competitor.md) — 40–60% of B2B buyers say "no decision" — your real competitor is the status quo _(April Dunford)_
 - [`ins_november-2025-coding-inflection`](insights/ins_november-2025-coding-inflection.md) — November 2025 was the qualitative threshold — coding agents now almost always do what you tell them _(Simon Willison)_
@@ -69,11 +73,12 @@ _Generated 2026-05-01. Auto-built from frontmatter — do not edit by hand._
 - [`ins_use-case-epiphany-as-marketing-job`](insights/ins_use-case-epiphany-as-marketing-job.md) — When awareness is solved, marketing's real job is the use-case epiphany _(Krithika Shankarraman)_
 - [`ins_use-new-tools-as-new-tools`](insights/ins_use-new-tools-as-new-tools.md) — Use new tools as new tools, not as old tools — be ambitious and retry from scratch _(Benjamin Mann)_
 
-### Tier B (37)
+### Tier B (41)
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_ambition-filtered-job-ads`](insights/ins_ambition-filtered-job-ads.md) — Use the job ad itself as a self-selection filter for ambition _(Anton Osika)_
 - [`ins_benevolent-dictator-not-committee`](insights/ins_benevolent-dictator-not-committee.md) — Appoint one trusted-taste expert as the eval benevolent dictator — committees stall the loop _(Hamel Husain & Shreya Shankar)_
 - [`ins_build-products-that-dont-yet-work`](insights/ins_build-products-that-dont-yet-work.md) — Build products at the edge of what does not yet work _(Cat Wu)_
+- [`ins_build-quietly`](insights/ins_build-quietly.md) — Best work is done alone and quietly — caveat: only if you already have a network _(Qasar Younis)_
 - [`ins_capability-overhang-product-problem`](insights/ins_capability-overhang-product-problem.md) — In AI products, capability overhang is the central growth problem _(Amole Naik)_
 - [`ins_capital-vs-lowercase-marketing`](insights/ins_capital-vs-lowercase-marketing.md) — Distinguish Capital-M Marketing (the function) from lowercase-m marketing (the whole-company motion) _(Krithika Shankarraman)_
 - [`ins_comb-shape-pmm`](insights/ins_comb-shape-pmm.md) — T-shape PMM is dead; comb-shape (analytical + creative + technical + brand) is the new bar _(Krithika Shankarraman)_
@@ -83,6 +88,7 @@ _Generated 2026-05-01. Auto-built from frontmatter — do not edit by hand._
 - [`ins_four-bb-prioritization`](insights/ins_four-bb-prioritization.md) — Sort the roadmap into four buckets — Brilliant Basics, Bread-and-Butter, Big Bets, Breaking Bad _(Anuj Rathi)_
 - [`ins_frontier-program-tiered-rollout`](insights/ins_frontier-program-tiered-rollout.md) — Run a Frontier cohort — early-adopter access to bleeding-edge features — in parallel with normal rollout _(Aparna Chennapragada)_
 - [`ins_hire-spiky-not-un-weakness`](insights/ins_hire-spiky-not-un-weakness.md) — Hire spiky candidates with real strengths and real weaknesses, not the un-weakness average _(Brian Halligan)_
+- [`ins_information-asymmetry-werewolf`](insights/ins_information-asymmetry-werewolf.md) — In any infrequent negotiation, you are the werewolf with no card — close the asymmetry first _(Jacob Warwick)_
 - [`ins_innovation-is-a-choice`](insights/ins_innovation-is-a-choice.md) — Innovation is a choice, not a function of company size _(Jeetu Patel)_
 - [`ins_lead-bullets-and-cannonballs`](insights/ins_lead-bullets-and-cannonballs.md) — Growth needs both lead bullets and cannonballs — the laziness trap is shipping only lead bullets _(Adriel Frederick)_
 - [`ins_lock-s-ceo-evaluation-rubric`](insights/ins_lock-s-ceo-evaluation-rubric.md) — Evaluate CEOs and senior operators on Lovable, Obsessed, Chip-on-shoulder, Knowledge, Student _(Brian Halligan)_
@@ -96,6 +102,7 @@ _Generated 2026-05-01. Auto-built from frontmatter — do not edit by hand._
 - [`ins_obstacles-as-gates-not-problems`](insights/ins_obstacles-as-gates-not-problems.md) — Frame features as obstacles to a new game, not problems to be solved _(Andy Raskin)_
 - [`ins_outcomes-pricing-restructures-saas`](insights/ins_outcomes-pricing-restructures-saas.md) — Agents push SaaS from per-seat to outcomes-based pricing; the incentive flip changes everything _(Bret Taylor)_
 - [`ins_pain-solution-proof-interleaved-pitch`](insights/ins_pain-solution-proof-interleaved-pitch.md) — Pitch a vision as pain → solution → proof, interleaved per beat — not three sequential acts _(Mihika Kapoor)_
+- [`ins_peer-mentorship-supply-scaling`](insights/ins_peer-mentorship-supply-scaling.md) — Use peer mentorship instead of HR overhead to scale supply quality _(Benjamin Lauzier)_
 - [`ins_pm-should-not-ship-at-scale`](insights/ins_pm-should-not-ship-at-scale.md) — At scale, PMs should up-level the why and what; not ship more features _(Amol Avasare)_
 - [`ins_pocket-veto-large-companies`](insights/ins_pocket-veto-large-companies.md) — Be explicit about what's not up for debate; the pocket veto kills large-company AI work _(Jeetu Patel)_
 - [`ins_product-as-organism`](insights/ins_product-as-organism.md) — Treat the product as a living organism with a metabolism, not a shipped artifact _(Asha Sharma)_
@@ -104,12 +111,14 @@ _Generated 2026-05-01. Auto-built from frontmatter — do not edit by hand._
 - [`ins_seasons-not-roadmaps`](insights/ins_seasons-not-roadmaps.md) — Plan in seasons keyed to secular changes, not 6-month roadmaps _(Asha Sharma)_
 - [`ins_separate-behavior-from-identity`](insights/ins_separate-behavior-from-identity.md) — When addressing a behavior, name explicitly that identity is not on trial _(Becky Kennedy)_
 - [`ins_taste-as-scarce-skill`](insights/ins_taste-as-scarce-skill.md) — Taste is the scarce skill in an AI-native team _(Cat Wu)_
+- [`ins_transparency-in-uncertainty`](insights/ins_transparency-in-uncertainty.md) — Show model uncertainty in the UI; opaque confidence destroys trust _(Aishwarya Naresh Reganti)_
 - [`ins_two-week-engineer-as-mini-pm`](insights/ins_two-week-engineer-as-mini-pm.md) — Use 2 engineering weeks as the threshold for engineer-owned vs PM-owned work _(Amole Naik)_
 - [`ins_understand-then-identify-then-execute`](insights/ins_understand-then-identify-then-execute.md) — Lead with understand-work, not identify-and-justify — data informs understanding, not the reverse _(Bangaly Kaba)_
 - [`ins_willingness-to-pay-by-segment`](insights/ins_willingness-to-pay-by-segment.md) — Same service, different segment, 5x price — the variable is buyer economics, not effort _(Andrew Wilkinson)_
 
 ## Operators
 - [Adriel Frederick](operators/adriel-frederick/README.md)
+- [Aishwarya Naresh Reganti](operators/aishwarya-naresh-reganti/README.md)
 - [Amol Avasare](operators/amol-avasare/README.md)
 - [Amole Naik](operators/amole-naik/README.md)
 - [Andrej Karpathy](operators/andrej-karpathy/README.md)
@@ -125,6 +134,7 @@ _Generated 2026-05-01. Auto-built from frontmatter — do not edit by hand._
 - [Ayo Omojola](operators/ayo-omojola/README.md)
 - [Bangaly Kaba](operators/bangaly-kaba/README.md)
 - [Becky Kennedy](operators/becky-kennedy/README.md)
+- [Benjamin Lauzier](operators/benjamin-lauzier/README.md)
 - [Benjamin Mann](operators/benjamin-mann/README.md)
 - [Boris Cherny](operators/boris-cherny/README.md)
 - [Bret Taylor](operators/bret-taylor/README.md)
@@ -136,15 +146,17 @@ _Generated 2026-05-01. Auto-built from frontmatter — do not edit by hand._
 - [Elena Verna](operators/elena-verna/README.md)
 - [Evan Spiegel](operators/evan-spiegel/README.md)
 - [Hamel Husain](operators/hamel-husain/README.md)
+- [Jacob Warwick](operators/jacob-warwick/README.md)
 - [Jeetu Patel](operators/jeetu-patel/README.md)
 - [Jenny Wen](operators/jenny-wen/README.md)
 - [Jessica Fain](operators/jessica-fain/README.md)
 - [Kieran Flanagan](operators/kieran-flanagan/README.md)
 - [Krithika Shankarraman](operators/krithika-shankarraman/README.md)
 - [Mihika Kapoor](operators/mihika-kapoor/README.md)
+- [Qasar Younis](operators/qasar-younis/README.md)
 - [Sherwin Wu](operators/sherwin-wu/README.md)
 - [Shreya Shankar](operators/shreya-shankar/README.md)
 - [Simon Willison](operators/simon-willison/README.md)
 
 ## Raw sources by type
-- **unknown**: 36
+- **unknown**: 40

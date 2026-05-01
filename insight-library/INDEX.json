@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-01T18:15:30.517Z",
+  "generated_at": "2026-05-01T18:19:43.154Z",
   "counts": {
-    "insights": 95,
-    "operators": 36,
-    "raw_sources": 36
+    "insights": 103,
+    "operators": 40,
+    "raw_sources": 40
   },
   "insights": [
     {
@@ -292,6 +292,33 @@
       "raw_ref": "raw/podcasts/cat-wu--anthropic-product-team--2026-04-27.md"
     },
     {
+      "path": "insights/ins_build-quietly.md",
+      "title": "Best work is done alone and quietly — caveat: only if you already have a network",
+      "id": "ins_build-quietly",
+      "operator": "Qasar Younis",
+      "operator_role": "CEO and co-founder, Applied Intuition; ex-COO at Y Combinator",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Qasar Younis on Physical AI, radical pragmatism, build quietly — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "founder-craft",
+        "gtm"
+      ],
+      "lifecycle": [
+        "strategy-bets"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_intelligence-into-things-that-already-exist"
+      ],
+      "raw_ref": "raw/podcasts/qasar-younis--physical-ai-radical-pragmatism--2026-04-28.md"
+    },
+    {
       "path": "insights/ins_capability-overhang-product-problem.md",
       "title": "In AI products, capability overhang is the central growth problem",
       "id": "ins_capability-overhang-product-problem",
@@ -376,6 +403,35 @@
         "ins_dont-box-the-model-in"
       ],
       "raw_ref": "raw/podcasts/amol-avasare--anthropic-growth-cash--2026-04-05.md"
+    },
+    {
+      "path": "insights/ins_cccd-continuous-calibration.md",
+      "title": "Continuous Calibration, Continuous Development (CCCD) is the operating loop for AI products",
+      "id": "ins_cccd-continuous-calibration",
+      "operator": "Aishwarya Naresh Reganti",
+      "operator_role": "AI engineer / researcher; co-host with Kiriti Badam on AI product design",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Aishwarya Naresh Reganti and Kiriti Badam on AI product design and CCCD — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "ai-native",
+        "product",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "A",
+      "related": [
+        "ins_transparency-in-uncertainty"
+      ],
+      "raw_ref": "raw/podcasts/aishwarya-naresh-reganti-kiriti-badam--ai-product-design-non-determinism--2026-04-28.md"
     },
     {
       "path": "insights/ins_comb-shape-pmm.md",
@@ -1083,6 +1139,34 @@
       "raw_ref": "raw/podcasts/jessica-fain--influencing-executives--2026-04-28.md"
     },
     {
+      "path": "insights/ins_information-asymmetry-werewolf.md",
+      "title": "In any infrequent negotiation, you are the werewolf with no card — close the asymmetry first",
+      "id": "ins_information-asymmetry-werewolf",
+      "operator": "Jacob Warwick",
+      "operator_role": "Executive negotiator",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Jacob Warwick on comp negotiation, information asymmetry — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "founder-craft",
+        "gtm",
+        "leadership"
+      ],
+      "lifecycle": [
+        "strategy-bets"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_negotiation-starts-before-first-call"
+      ],
+      "raw_ref": "raw/podcasts/jacob-warwick--comp-negotiation-information-asymmetry--2026-04-28.md"
+    },
+    {
       "path": "insights/ins_innovation-is-a-choice.md",
       "title": "Innovation is a choice, not a function of company size",
       "id": "ins_innovation-is-a-choice",
@@ -1107,6 +1191,35 @@
         "ins_pocket-veto-large-companies"
       ],
       "raw_ref": "raw/podcasts/jeetu-patel--cisco-ai-first-transformation--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_intelligence-into-things-that-already-exist.md",
+      "title": "Position AI as intelligence put into things that already exist, not as a new thing",
+      "id": "ins_intelligence-into-things-that-already-exist",
+      "operator": "Qasar Younis",
+      "operator_role": "CEO and co-founder, Applied Intuition; ex-COO at Y Combinator",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Qasar Younis on Physical AI, radical pragmatism, build quietly — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "ai-native",
+        "product",
+        "founder-craft"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "positioning"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_build-quietly"
+      ],
+      "raw_ref": "raw/podcasts/qasar-younis--physical-ai-radical-pragmatism--2026-04-28.md"
     },
     {
       "path": "insights/ins_jtbd-as-agent-wiring-diagram.md",
@@ -1513,6 +1626,34 @@
       "raw_ref": "raw/podcasts/adriel-frederick--marginal-user-algorithms-growth-discipline--2026-04-28.md"
     },
     {
+      "path": "insights/ins_marketplace-liquidity-before-dynamics.md",
+      "title": "Pre-PMF, stop theorizing marketplace dynamics — pick the hardest side and nail liquidity",
+      "id": "ins_marketplace-liquidity-before-dynamics",
+      "operator": "Benjamin Lauzier",
+      "operator_role": "VP Product, Lyft and Thumbtack",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Marketplace liquidity, supply control, and mentorship scaling — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "product",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_peer-mentorship-supply-scaling"
+      ],
+      "raw_ref": "raw/podcasts/benjamin-lauzier--marketplace-liquidity-supply--2026-04-28.md"
+    },
+    {
       "path": "insights/ins_most-generous-interpretation.md",
       "title": "Adopt the Most Generous Interpretation of frustrating behaviour to find the real intervention",
       "id": "ins_most-generous-interpretation",
@@ -1567,6 +1708,33 @@
         "ins_old-game-to-new-game-narrative"
       ],
       "raw_ref": "raw/podcasts/andy-raskin--strategic-narrative-framework--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_negotiation-starts-before-first-call.md",
+      "title": "Negotiation begins with the LinkedIn snapshot, not the first call",
+      "id": "ins_negotiation-starts-before-first-call",
+      "operator": "Jacob Warwick",
+      "operator_role": "Executive negotiator; >$1B in client comp delivered",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Jacob Warwick on comp negotiation, information asymmetry — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "founder-craft",
+        "gtm"
+      ],
+      "lifecycle": [
+        "positioning"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_information-asymmetry-werewolf"
+      ],
+      "raw_ref": "raw/podcasts/jacob-warwick--comp-negotiation-information-asymmetry--2026-04-28.md"
     },
     {
       "path": "insights/ins_nlx-is-the-new-ux.md",
@@ -1879,6 +2047,34 @@
         "ins_setup-follow-through-pitch"
       ],
       "raw_ref": "raw/podcasts/mihika-kapoor--zero-to-one-vision-conviction-hype--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_peer-mentorship-supply-scaling.md",
+      "title": "Use peer mentorship instead of HR overhead to scale supply quality",
+      "id": "ins_peer-mentorship-supply-scaling",
+      "operator": "Benjamin Lauzier",
+      "operator_role": "VP Product, Lyft and Thumbtack",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Marketplace liquidity, supply control, and mentorship scaling — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "growth-demand",
+        "gtm"
+      ],
+      "lifecycle": [
+        "growth-loops",
+        "hiring-team-design"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_marketplace-liquidity-before-dynamics"
+      ],
+      "raw_ref": "raw/podcasts/benjamin-lauzier--marketplace-liquidity-supply--2026-04-28.md"
     },
     {
       "path": "insights/ins_personal-pattern-hoarding.md",
@@ -2534,6 +2730,35 @@
       "raw_ref": "raw/podcasts/sherwin-wu--openai-codex-engineers-as-managers--2026-04-28.md"
     },
     {
+      "path": "insights/ins_transparency-in-uncertainty.md",
+      "title": "Show model uncertainty in the UI; opaque confidence destroys trust",
+      "id": "ins_transparency-in-uncertainty",
+      "operator": "Aishwarya Naresh Reganti",
+      "operator_role": "AI engineer / researcher",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Aishwarya Naresh Reganti and Kiriti Badam on AI product design — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "ai-native",
+        "design-ux",
+        "product"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "onboarding-activation"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_cccd-continuous-calibration"
+      ],
+      "raw_ref": "raw/podcasts/aishwarya-naresh-reganti-kiriti-badam--ai-product-design-non-determinism--2026-04-28.md"
+    },
+    {
       "path": "insights/ins_two-week-engineer-as-mini-pm.md",
       "title": "Use 2 engineering weeks as the threshold for engineer-owned vs PM-owned work",
       "id": "ins_two-week-engineer-as-mini-pm",
@@ -2724,6 +2949,23 @@
       ],
       "captured_first": "2026-05-01",
       "external": "{}"
+    },
+    {
+      "path": "operators/aishwarya-naresh-reganti/README.md",
+      "title": "Aishwarya Naresh Reganti",
+      "name": "Aishwarya Naresh Reganti",
+      "slug": "aishwarya-naresh-reganti",
+      "roles": [
+        "AI engineer / researcher",
+        "Co-presenter with Kiriti Badam on AI product design"
+      ],
+      "domains_active": [
+        "ai-native",
+        "product",
+        "engineering"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/amol-avasare/README.md",
@@ -2982,6 +3224,22 @@
       "external": ""
     },
     {
+      "path": "operators/benjamin-lauzier/README.md",
+      "title": "Benjamin Lauzier",
+      "name": "Benjamin Lauzier",
+      "slug": "benjamin-lauzier",
+      "roles": [
+        "VP Product, Lyft (driver supply)",
+        "VP Product, Thumbtack"
+      ],
+      "domains_active": [
+        "product",
+        "growth-demand"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
       "path": "operators/benjamin-mann/README.md",
       "title": "Benjamin Mann",
       "name": "Benjamin Mann",
@@ -3173,6 +3431,23 @@
       "external": ""
     },
     {
+      "path": "operators/jacob-warwick/README.md",
+      "title": "Jacob Warwick",
+      "name": "Jacob Warwick",
+      "slug": "jacob-warwick",
+      "roles": [
+        "Executive negotiator (senior tech, professional athletes, Hollywood writers)",
+        "$1B+ in client comp delivered"
+      ],
+      "domains_active": [
+        "founder-craft",
+        "gtm",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
       "path": "operators/jeetu-patel/README.md",
       "title": "Jeetu Patel",
       "name": "Jeetu Patel",
@@ -3281,6 +3556,23 @@
       "external": ""
     },
     {
+      "path": "operators/qasar-younis/README.md",
+      "title": "Qasar Younis",
+      "name": "Qasar Younis",
+      "slug": "qasar-younis",
+      "roles": [
+        "CEO and co-founder, Applied Intuition",
+        "Former COO, Y Combinator"
+      ],
+      "domains_active": [
+        "ai-native",
+        "founder-craft",
+        "product"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
       "path": "operators/sherwin-wu/README.md",
       "title": "Sherwin Wu",
       "name": "Sherwin Wu",
@@ -3361,6 +3653,21 @@
       "relevance_to_flywheel": "Marginal user methodology + human judgment in algorithmic systems + growth experiment portfolio discipline",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Adriel Frederick.txt"
+    },
+    {
+      "path": "raw/podcasts/aishwarya-naresh-reganti-kiriti-badam--ai-product-design-non-determinism--2026-04-28.md",
+      "title": "Aishwarya Naresh Reganti + Kiriti Badam on AI product design, non-determinism, and CCCD",
+      "type": "raw",
+      "source": "Lenny's Podcast (Dropbox archive)",
+      "guests": "Aishwarya Naresh Reganti, Kiriti Badam",
+      "host": "Lenny Rachitsky",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (haiku-4-5 batch)",
+      "domain": "justcall",
+      "attribution": "verified",
+      "relevance_to_flywheel": "AI product non-determinism + agency/control trade-offs + continuous calibration continuous development (CCCD) framework + evals vs production monitoring + behavioral flywheel loops",
+      "relevance_tier": "HIGH",
+      "transcript_file": "lenny-dropbox/Aishwarya Naresh Reganti + Kiriti Badam.txt"
     },
     {
       "path": "raw/podcasts/amol-avasare--anthropic-growth-cash--2026-04-05.md",
@@ -3579,6 +3886,21 @@
       "transcript_file": "lenny-dropbox/Dr. Becky Kennedy.txt"
     },
     {
+      "path": "raw/podcasts/benjamin-lauzier--marketplace-liquidity-supply--2026-04-28.md",
+      "title": "Marketplace liquidity, supply control, and mentorship scaling",
+      "type": "raw",
+      "source": "Lenny's Podcast (Dropbox archive)",
+      "guest": "Benjamin Lauzier (VP Product, Lyft + Thumbtack)",
+      "host": "Lenny Rachitsky",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (haiku-4-5 mass-v2)",
+      "domain": "justcall",
+      "attribution": "verified",
+      "relevance_to_flywheel": "marketplace-supply-flywheel, growth-engineering-patterns",
+      "relevance_tier": "HIGH",
+      "transcript_file": "lenny-dropbox/Benjamin Lauzier.txt"
+    },
+    {
       "path": "raw/podcasts/benjamin-mann--economic-turing-test--2026-04-28.md",
       "title": "Benjamin Mann — Anthropic, the Economic Turing Test, mission over money, transformative AI",
       "type": "raw",
@@ -3757,6 +4079,21 @@
       "transcript_file": "lenny-dropbox/Hamel Husain & Shreya Shankar.txt"
     },
     {
+      "path": "raw/podcasts/jacob-warwick--comp-negotiation-information-asymmetry--2026-04-28.md",
+      "title": "Jacob Warwick — comp negotiation, information asymmetry, sell the vacation",
+      "type": "raw",
+      "source": "Lenny's Podcast (Dropbox archive)",
+      "guest": "Jacob Warwick (fingerprintless executive negotiator, $1B+ in client comp)",
+      "host": "Lenny Rachitsky",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (sonnet batch)",
+      "domain": "personal",
+      "attribution": "verified",
+      "relevance_to_flywheel": "Direct read for Kesava's 12-week exit ramp comp tactics; also a positioning playbook (consultative discovery, sell the vacation, plant champions) that maps cleanly to clearPMM enterprise sales motion and to flywheel pitch structure.",
+      "relevance_tier": "HIGH",
+      "transcript_file": "lenny-dropbox/Jacob Warwick.txt"
+    },
+    {
       "path": "raw/podcasts/jeetu-patel--cisco-ai-first-transformation--2026-04-28.md",
       "title": "Jeetu Patel — Turning Cisco AI-first, stamina over intellect, criticize in public",
       "type": "raw",
@@ -3844,6 +4181,21 @@
       "relevance_to_flywheel": "Mihika's playbook for shipping zero-to-one inside a big company maps directly onto the flywheel build inside JustCall. Scope-is-the-world ownership, vision-as-pain+solution+proof, A-minus-idea conviction, and internal hype mechanics are the operating tactics Kesava is already using and needs to formalize for the team.",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Mihika Kapoor.txt"
+    },
+    {
+      "path": "raw/podcasts/qasar-younis--physical-ai-radical-pragmatism--2026-04-28.md",
+      "title": "Qasar Younis — Physical AI, radical pragmatism, build quietly",
+      "type": "raw",
+      "source": "Lenny's Podcast (Dropbox archive)",
+      "guest": "Qasar Younis (CEO and co-founder, Applied Intuition; ex-COO at YC)",
+      "host": "Lenny Rachitsky",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (sonnet batch)",
+      "domain": "justcall|personal",
+      "attribution": "verified",
+      "relevance_to_flywheel": "Build-quietly counter-narrative to \"build in public\"; nuance over polarization; AI-native mindset for industries with chronic labor shortages; framing as \"intelligence put into things that already exist.\"",
+      "relevance_tier": "MEDIUM",
+      "transcript_file": "lenny-dropbox/Qasar Younis.txt"
     },
     {
       "path": "raw/podcasts/sherwin-wu--openai-codex-engineers-as-managers--2026-04-28.md",
