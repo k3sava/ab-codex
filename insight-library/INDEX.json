@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-01T18:20:58.392Z",
+  "generated_at": "2026-05-01T18:26:02.640Z",
   "counts": {
     "insights": 103,
-    "operators": 40,
+    "operators": 172,
     "raw_sources": 40
   },
   "insights": [
@@ -2933,6 +2933,22 @@
   ],
   "operators": [
     {
+      "path": "operators/aaron-ross/README.md",
+      "title": "Aaron Ross",
+      "name": "Aaron Ross",
+      "slug": "aaron-ross",
+      "roles": [
+        "Built the outbound sales team at Salesforce.com that added $100M+ in recurring revenue",
+        "author of 'Predictable Revenue' (the 'Sales Bible of Silicon Valley') and 'From Impossible to Inevitable,' founder of Predictable Revenue Inc"
+      ],
+      "domains_active": [
+        "sales-cs",
+        "design",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
       "path": "operators/adriel-frederick/README.md",
       "title": "Adriel Frederick",
       "name": "Adriel Frederick",
@@ -2951,6 +2967,23 @@
       "external": "{}"
     },
     {
+      "path": "operators/adrienne-barnes/README.md",
+      "title": "Adrienne Barnes",
+      "name": "Adrienne Barnes",
+      "slug": "adrienne-barnes",
+      "roles": [
+        "Founder of Best Buyer Persona",
+        "B2B SaaS content marketing consultant who has worked with Stripe",
+        "Monday.com",
+        "and Smartling"
+      ],
+      "domains_active": [
+        "research",
+        "pmm"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
       "path": "operators/aishwarya-naresh-reganti/README.md",
       "title": "Aishwarya Naresh Reganti",
       "name": "Aishwarya Naresh Reganti",
@@ -2966,6 +2999,59 @@
       ],
       "captured_first": "2026-05-01",
       "external": ""
+    },
+    {
+      "path": "operators/alex-hormozi/README.md",
+      "title": "Alex Hormozi",
+      "name": "Alex Hormozi",
+      "slug": "alex-hormozi",
+      "roles": [
+        "Co-founder of Acquisition.com",
+        "a portfolio of companies generating $200M+ in annual revenue",
+        "Author of '$100M Offers' and '$100M Leads",
+        "Built and scaled Gym Launch from zero to $100M+ in cumulative revenue"
+      ],
+      "domains_active": [
+        "pmm",
+        "sales-cs",
+        "growth"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/aleyda-solis/README.md",
+      "title": "Aleyda Solis",
+      "name": "Aleyda Solis",
+      "slug": "aleyda-solis",
+      "roles": [
+        "International SEO Consultant and Founder of Orainti",
+        "creator of the SP2 SEO audit framework",
+        "author of the definitive hreflang implementation guide",
+        "creator of the SEO Minion browser extension"
+      ],
+      "domains_active": [
+        "growth",
+        "pmm"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/amanda-natividad/README.md",
+      "title": "Amanda Natividad",
+      "name": "Amanda Natividad",
+      "slug": "amanda-natividad",
+      "roles": [
+        "VP of Marketing at SparkToro",
+        "originator of the term 'zero-click content",
+        "creator of a newsletter reaching 60",
+        "000+ subscribers with 40% open rate"
+      ],
+      "domains_active": [
+        "pmm",
+        "leadership",
+        "design"
+      ],
+      "captured_first": "2026-05-01"
     },
     {
       "path": "operators/amol-avasare/README.md",
@@ -3008,17 +3094,55 @@
       "name": "Andrej Karpathy",
       "slug": "andrej-karpathy",
       "roles": [
-        "Founder, Eureka Labs",
-        "Former Director of AI, Tesla",
-        "Founding member, OpenAI"
+        "Former founding member and VP of AI at OpenAI",
+        "former Director of AI at Tesla (Autopilot)",
+        "Stanford PhD and CS231n creator",
+        "coined the term 'vibe coding' which now has its own Wikipedia page"
       ],
       "domains_active": [
         "ai-native",
-        "engineering",
-        "research"
+        "design",
+        "product",
+        "leadership"
       ],
-      "captured_first": "2026-05-01",
-      "external": ""
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/andrew-chen/README.md",
+      "title": "Andrew Chen",
+      "name": "Andrew Chen",
+      "slug": "andrew-chen",
+      "roles": [
+        "General partner at Andreessen Horowitz",
+        "Former head of rider growth at Uber",
+        "Author of The Cold Start Problem",
+        "Published 1"
+      ],
+      "domains_active": [
+        "leadership",
+        "growth",
+        "design"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/andrew-faris/README.md",
+      "title": "Andrew Faris",
+      "name": "Andrew Faris",
+      "slug": "andrew-faris",
+      "roles": [
+        "Founder of AJF Growth (ecommerce growth consultancy)",
+        "former host of the Ecommerce Playbook podcast at Common Thread Collective",
+        "has grown brands including The North Face",
+        "DIFF Eyewear"
+      ],
+      "domains_active": [
+        "leadership",
+        "ai-native",
+        "growth",
+        "design"
+      ],
+      "captured_first": "2026-05-01"
     },
     {
       "path": "operators/andrew-wilkinson/README.md",
@@ -3038,6 +3162,26 @@
       "external": ""
     },
     {
+      "path": "operators/andy-crestodina/README.md",
+      "title": "Andy Crestodina",
+      "name": "Andy Crestodina",
+      "slug": "andy-crestodina",
+      "roles": [
+        "Co-founder and CMO of Orbit Media Studios",
+        "author of Content Chemistry (7th edition)",
+        "has published 500+ articles on content strategy",
+        "and analytics"
+      ],
+      "domains_active": [
+        "pmm",
+        "leadership",
+        "design",
+        "ai-native",
+        "research"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
       "path": "operators/andy-raskin/README.md",
       "title": "Andy Raskin",
       "name": "Andy Raskin",
@@ -3054,22 +3198,56 @@
       "external": ""
     },
     {
+      "path": "operators/ann-handley/README.md",
+      "title": "Ann Handley",
+      "name": "Ann Handley",
+      "slug": "ann-handley",
+      "roles": [
+        "Chief Content Officer of MarketingProfs",
+        "Wall Street Journal bestselling author of Everybody Writes (2nd edition, 2022) and Content Rules",
+        "creator of Total Annarchy newsletter (42,000+ subscribers)",
+        "named Forbes Top 20 Marketing and Social Media Women Bloggers"
+      ],
+      "domains_active": [
+        "pmm",
+        "design",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
       "path": "operators/annie-duke/README.md",
       "title": "Annie Duke",
       "name": "Annie Duke",
       "slug": "annie-duke",
       "roles": [
-        "Author, Thinking in Bets",
-        "Author, Quit",
-        "Former World Series of Poker champion"
+        "Former professional poker player (World Series of Poker bracelet winner, $4M+ in tournament earnings)",
+        "Special partner at First Round Capital",
+        "Author of Thinking in Bets and Quit: The Power of Knowing When to Walk Away",
+        "Co-founder of the Alliance for Decision Education"
       ],
       "domains_active": [
-        "leadership",
-        "research-discovery",
-        "founder-operator"
+        "leadership"
       ],
-      "captured_first": "2026-05-01",
-      "external": ""
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/anthony-pierri/README.md",
+      "title": "Anthony Pierri",
+      "name": "Anthony Pierri",
+      "slug": "anthony-pierri",
+      "roles": [
+        "Co-founder of Fletch PMM",
+        "helps horizontal PLG startups turn homepage messaging into sales machines",
+        "000+ LinkedIn followers sharing daily PMM frameworks"
+      ],
+      "domains_active": [
+        "pmm",
+        "product",
+        "ai-native",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01"
     },
     {
       "path": "operators/anton-osika/README.md",
@@ -3128,16 +3306,17 @@
       "name": "April Dunford",
       "slug": "april-dunford",
       "roles": [
-        "Founder, Ambient Strategy",
-        "Author, Obviously Awesome",
-        "Author, Sales Pitch"
+        "Author of 'Obviously Awesome,' positioning consultant to technology companies",
+        "former VP Marketing at multiple enterprise software firms including companies acquired by IBM and Siebel Systems"
       ],
       "domains_active": [
         "pmm",
-        "gtm"
+        "product",
+        "ai-native",
+        "gtm",
+        "design"
       ],
-      "captured_first": "2026-05-01",
-      "external": ""
+      "captured_first": "2026-05-01"
     },
     {
       "path": "operators/archie-abrams/README.md",
@@ -3153,6 +3332,22 @@
       ],
       "captured_first": "2026-05-01",
       "external": "{}"
+    },
+    {
+      "path": "operators/arvid-kahl/README.md",
+      "title": "Arvid Kahl",
+      "name": "Arvid Kahl",
+      "slug": "arvid-kahl",
+      "roles": [
+        "Co-founded FeedbackPanda (bootstrapped SaaS to $55K MRR, sold within 2 years)",
+        "author of 'Zero to Sold' and 'The Embedded Entrepreneur,' creator of The Bootstrapped Founder newsletter and podcast",
+        "builder of Podscan"
+      ],
+      "domains_active": [
+        "ai-native",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01"
     },
     {
       "path": "operators/asha-sharma/README.md",
@@ -3224,6 +3419,20 @@
       "external": ""
     },
     {
+      "path": "operators/ben-tossell/README.md",
+      "title": "Ben Tossell",
+      "name": "Ben Tossell",
+      "slug": "ben-tossell",
+      "roles": [
+        "Ben Tossell"
+      ],
+      "domains_active": [
+        "ai-native",
+        "product"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
       "path": "operators/benjamin-lauzier/README.md",
       "title": "Benjamin Lauzier",
       "name": "Benjamin Lauzier",
@@ -3256,6 +3465,59 @@
       ],
       "captured_first": "2026-05-01",
       "external": ""
+    },
+    {
+      "path": "operators/bernadette-jiwa/README.md",
+      "title": "Bernadette Jiwa",
+      "name": "Bernadette Jiwa",
+      "slug": "bernadette-jiwa",
+      "roles": [
+        "Author of ten #1 Amazon bestsellers on marketing and brand storytelling"
+      ],
+      "domains_active": [
+        "design",
+        "pmm",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/bernard-huang/README.md",
+      "title": "Bernard Huang",
+      "name": "Bernard Huang",
+      "slug": "bernard-huang",
+      "roles": [
+        "Co-founder and CEO of Clearscope (founded 2016)",
+        "built the content optimization category that now includes competitors like Surfer SEO and MarketMuse",
+        "Clearscope is used by Adobe",
+        "and Conde Nast"
+      ],
+      "domains_active": [
+        "pmm",
+        "growth",
+        "research"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/blair-enns/README.md",
+      "title": "Blair Enns",
+      "name": "Blair Enns",
+      "slug": "blair-enns",
+      "roles": [
+        "Author of 'The Win Without Pitching Manifesto",
+        "Pricing Creativity",
+        "and 'The Four Conversations",
+        "Founder of Win Without Pitching"
+      ],
+      "domains_active": [
+        "pmm",
+        "leadership",
+        "product",
+        "sales-cs",
+        "growth"
+      ],
+      "captured_first": "2026-05-01"
     },
     {
       "path": "operators/boris-cherny/README.md",
@@ -3312,6 +3574,24 @@
       "external": ""
     },
     {
+      "path": "operators/brian-dean/README.md",
+      "title": "Brian Dean",
+      "name": "Brian Dean",
+      "slug": "brian-dean",
+      "roles": [
+        "Founder of Backlinko (acquired by Semrush)",
+        "creator of the Skyscraper Technique",
+        "Semrush Academy instructor for Content-Led SEO course",
+        "built Backlinko to millions of monthly visitors through content-led SEO without paid advertising"
+      ],
+      "domains_active": [
+        "leadership",
+        "growth",
+        "pmm"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
       "path": "operators/brian-halligan/README.md",
       "title": "Brian Halligan",
       "name": "Brian Halligan",
@@ -3344,6 +3624,111 @@
       "external": ""
     },
     {
+      "path": "operators/charlie-munger/README.md",
+      "title": "Charlie Munger",
+      "name": "Charlie Munger",
+      "slug": "charlie-munger",
+      "roles": [
+        "Vice Chairman of Berkshire Hathaway (1978-2023)",
+        "Warren Buffett's intellectual partner for over 50 years. Chairman of the Daily Journal Corporation. Author of Poor Charlie's Almanack",
+        "Trained as a lawyer (Harvard Law) and meteorologist (Caltech)",
+        "Considered one of the greatest investors and multi-disciplinary thinkers of the 20th and 21st centuries"
+      ],
+      "domains_active": [
+        "leadership",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/chris-do/README.md",
+      "title": "Chris Do",
+      "name": "Chris Do",
+      "slug": "chris-do",
+      "roles": [
+        "Founder and CEO of The Futur",
+        "an education platform for creative professionals with millions of followers",
+        "Emmy award-winning designer",
+        "Former creative director of Blind"
+      ],
+      "domains_active": [
+        "pmm",
+        "product",
+        "ai-native",
+        "design"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/chris-orlob/README.md",
+      "title": "Chris Orlob",
+      "name": "Chris Orlob",
+      "slug": "chris-orlob",
+      "roles": [
+        "Former VP of Product Marketing and Director of Sales at Gong.io",
+        "architect of Gong Labs research program (519,000+ analyzed sales calls)",
+        "now CEO of pclub.io",
+        "frequent contributor to LinkedIn and SaaStr on data-driven selling"
+      ],
+      "domains_active": [
+        "sales-cs",
+        "research",
+        "ai-native",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/chris-voss/README.md",
+      "title": "Chris Voss",
+      "name": "Chris Voss",
+      "slug": "chris-voss",
+      "roles": [
+        "Former FBI lead international kidnapping negotiator (24 years)",
+        "founder of the Black Swan Group",
+        "author of 'Never Split the Difference,' MasterClass instructor on negotiation"
+      ],
+      "domains_active": [
+        "sales-cs",
+        "research"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/chris-walker/README.md",
+      "title": "Chris Walker",
+      "name": "Chris Walker",
+      "slug": "chris-walker",
+      "roles": [
+        "Founder and CEO of Passetto (GTM strategy consultancy) and Chairman of Refine Labs",
+        "has worked with 100+ B2B SaaS companies",
+        "host of the State of Demand Gen podcast",
+        "created the HIRO Pipeline metric and Split the Funnel framework"
+      ],
+      "domains_active": [
+        "leadership",
+        "ai-native",
+        "growth",
+        "design"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/christoph-janz/README.md",
+      "title": "Christoph Janz",
+      "name": "Christoph Janz",
+      "slug": "christoph-janz",
+      "roles": [
+        "General Partner and Co-founder of Point Nine Capital"
+      ],
+      "domains_active": [
+        "sales-cs",
+        "ai-native",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
       "path": "operators/claire-hughes-johnson/README.md",
       "title": "Claire Hughes Johnson",
       "name": "Claire Hughes Johnson",
@@ -3359,6 +3744,24 @@
       ],
       "captured_first": "2026-05-01",
       "external": ""
+    },
+    {
+      "path": "operators/claire-suellentrop/README.md",
+      "title": "Claire Suellentrop",
+      "name": "Claire Suellentrop",
+      "slug": "claire-suellentrop",
+      "roles": [
+        "Co-founder of Forget the Funnel",
+        "co-author of 'Forget the Funnel: A Customer-Led Approach for Driving Predictable, Recurring Revenue' (25,000+ copies sold)",
+        "former Director of Marketing at Calendly",
+        "co-creator of the Customer-Led Growth framework used by 200+ SaaS companies including Wistia"
+      ],
+      "domains_active": [
+        "pmm",
+        "growth",
+        "research"
+      ],
+      "captured_first": "2026-05-01"
     },
     {
       "path": "operators/claire-vo/README.md",
@@ -3379,21 +3782,417 @@
       "external": ""
     },
     {
+      "path": "operators/codie-sanchez/README.md",
+      "title": "Codie Sanchez",
+      "name": "Codie Sanchez",
+      "slug": "codie-sanchez",
+      "roles": [
+        "Founder of Contrarian Thinking and co-founder of Unconventional Acquisitions",
+        "Former Wall Street executive (First Trust, Goldman Sachs, State Street, Vanguard)",
+        "NYT bestselling author of 'Main Street Millionaire",
+        "Runs Main Street Holding Company"
+      ],
+      "domains_active": [
+        "leadership",
+        "growth"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/cole-schafer/README.md",
+      "title": "Cole Schafer",
+      "name": "Cole Schafer",
+      "slug": "cole-schafer",
+      "roles": [
+        "Founder of Honeycopy"
+      ],
+      "domains_active": [
+        "pmm",
+        "design"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/crayon/README.md",
+      "title": "Crayon",
+      "name": "Crayon",
+      "slug": "crayon",
+      "roles": [
+        "Competitive intelligence software platform trusted by Gong",
+        "and ZoomInfo",
+        "publishes the annual State of Competitive Intelligence report",
+        "primary author Conor Bond on the Crayon marketing team"
+      ],
+      "domains_active": [
+        "sales-cs"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/cyrus-shepard/README.md",
+      "title": "Cyrus Shepard",
+      "name": "Cyrus Shepard",
+      "slug": "cyrus-shepard",
+      "roles": [
+        "Founder of Zyppy SEO",
+        "former Chief SEO Strategist at Moz",
+        "worked as a Google Search Quality Rater",
+        "conducted landmark studies on title tag rewrites (81,000 tags) and internal linking (23 million links across 1,800 sites)"
+      ],
+      "domains_active": [
+        "growth",
+        "pmm"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/dan-ariely/README.md",
+      "title": "Dan Ariely",
+      "name": "Dan Ariely",
+      "slug": "dan-ariely",
+      "roles": [
+        "Duke Professor of Psychology and Behavioral Economics at Duke University",
+        "Bestselling author of 'Predictably Irrational,' 'The Upside of Irrationality,' and 'Dollars and Sense.' Founded the Center for Advanced Hindsight",
+        "His research on irrational decision-making has been cited over 100",
+        "000 times and directly influenced pricing strategy across industries"
+      ],
+      "domains_active": [
+        "pmm",
+        "growth",
+        "leadership",
+        "research",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/daniel-kahneman/README.md",
+      "title": "Daniel Kahneman",
+      "name": "Daniel Kahneman",
+      "slug": "daniel-kahneman",
+      "roles": [
+        "Nobel laureate in Economics (2002) for work on prospect theory",
+        "Professor emeritus of psychology at Princeton University",
+        "Author of Thinking",
+        "Fast and Slow and co-author of Noise: A Flaw in Human Judgment"
+      ],
+      "domains_active": [
+        "leadership",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/dave-gerhardt/README.md",
+      "title": "Dave Gerhardt",
+      "name": "Dave Gerhardt",
+      "slug": "dave-gerhardt",
+      "roles": [
+        "Founder and CEO of Exit Five (the largest private community for B2B marketers)",
+        "former VP Marketing at Drift ($1B exit) and CMO at Privy ($100M+ exit)",
+        "host of the B2B Marketing with Dave Gerhardt podcast",
+        "built DGMG into a media brand for B2B marketing education"
+      ],
+      "domains_active": [
+        "leadership",
+        "design",
+        "pmm",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/dave-harland/README.md",
+      "title": "Dave Harland",
+      "name": "Dave Harland",
+      "slug": "dave-harland",
+      "roles": [
+        "Founder of The Word Man",
+        "creative copywriter for Emirates",
+        "Nespresso",
+        "and other major brands"
+      ],
+      "domains_active": [
+        "pmm",
+        "design",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/david-aaker/README.md",
+      "title": "David Aaker",
+      "name": "David Aaker",
+      "slug": "david-aaker",
+      "roles": [
+        "'Building Strong Brands",
+        "'Brand Relevance",
+        "'Aaker on Branding"
+      ],
+      "domains_active": [
+        "design",
+        "leadership",
+        "growth",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/david-c-baker/README.md",
+      "title": "David C. Baker",
+      "name": "David C. Baker",
+      "slug": "david-c-baker",
+      "roles": [
+        "Author of 'The Business of Expertise",
+        "Advisory and M&A for marketing firms via Punctuation (formerly ReCourses)",
+        "Worked with 900+ firms over 30 years",
+        "Co-host of 2Bobs podcast with Blair Enns"
+      ],
+      "domains_active": [
+        "pmm",
+        "design",
+        "leadership",
+        "product",
+        "growth"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/david-skok/README.md",
+      "title": "David Skok",
+      "name": "David Skok",
+      "slug": "david-skok",
+      "roles": [
+        "Serial entrepreneur turned VC",
+        "General Partner at Matrix Partners",
+        "Five-time entrepreneur with four successful exits",
+        "His blog forEntrepreneurs.com is the definitive reference for SaaS metrics and unit economics"
+      ],
+      "domains_active": [
+        "sales-cs",
+        "pmm",
+        "leadership",
+        "growth",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/debbie-millman/README.md",
+      "title": "Debbie Millman",
+      "name": "Debbie Millman",
+      "slug": "debbie-millman",
+      "roles": [
+        "Host and founder of Design Matters",
+        "the first and longest-running podcast about design (20+ years, 500+ episodes)",
+        "Former President of the design division at Sterling Brands",
+        "where she redesigned over 200 global brands including Pepsi"
+      ],
+      "domains_active": [
+        "leadership",
+        "design",
+        "pmm",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/denise-lee-yohn/README.md",
+      "title": "Denise Lee Yohn",
+      "name": "Denise Lee Yohn",
+      "slug": "denise-lee-yohn",
+      "roles": [
+        "Regular contributor to Harvard Business Review",
+        "and Fast Company"
+      ],
+      "domains_active": [
+        "design",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/devin-reed/README.md",
+      "title": "Devin Reed",
+      "name": "Devin Reed",
+      "slug": "devin-reed",
+      "roles": [
+        "2x Head of Content at Gong (grew from $20M to $200M ARR) and Clari",
+        "founder of The Reeder (14,000+ newsletter subscribers)",
+        "created Clari CEO's LinkedIn strategy generating 6.1M views in 12 months; SaaS advisor; speaker at Content Marketing World"
+      ],
+      "domains_active": [
+        "pmm",
+        "leadership",
+        "design"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/donald-miller/README.md",
+      "title": "Donald Miller",
+      "name": "Donald Miller",
+      "slug": "donald-miller",
+      "roles": [
+        "CEO of StoryBrand (now part of the Business Made Simple platform)",
+        "New York Times bestselling author of 'Building a StoryBrand' and 'Marketing Made Simple.' His StoryBrand framework has been used by more than 500",
+        "000 businesses",
+        "Built the StoryBrand Certified Guide network of marketing professionals"
+      ],
+      "domains_active": [
+        "design",
+        "pmm"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/doug-holt/README.md",
+      "title": "Doug Holt",
+      "name": "Doug Holt",
+      "slug": "doug-holt",
+      "roles": [
+        "Patagonia",
+        "and Purina"
+      ],
+      "domains_active": [
+        "design",
+        "pmm",
+        "leadership",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/eddie-shleyner/README.md",
+      "title": "Eddie Shleyner",
+      "name": "Eddie Shleyner",
+      "slug": "eddie-shleyner",
+      "roles": [
+        "Founder of VeryGoodCopy",
+        "former Senior Copywriter at G2 where he achieved 60%+ conversion rates on landing pages",
+        "has written for Gong",
+        "Amplitude"
+      ],
+      "domains_active": [
+        "pmm"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/elad-gil/README.md",
+      "title": "Elad Gil",
+      "name": "Elad Gil",
+      "slug": "elad-gil",
+      "roles": [
+        "Serial entrepreneur (co-founder of Color Genomics and Mixer Labs)",
+        "former VP at Twitter",
+        "early Google employee",
+        "Angel investor in Airbnb"
+      ],
+      "domains_active": [
+        "leadership",
+        "sales-cs",
+        "pmm",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
       "path": "operators/elena-verna/README.md",
       "title": "Elena Verna",
       "name": "Elena Verna",
       "slug": "elena-verna",
       "roles": [
-        "Growth advisor (~50+ B2B SaaS clients)",
-        "Former head of growth at Dropbox, Miro, Amplitude, SurveyMonkey"
+        "Growth Advisor",
+        "former Head of Product at Amplitude",
+        "featured expert in Reforge's Product-Led Growth program; advises B2B SaaS companies on growth strategy"
       ],
       "domains_active": [
-        "growth-demand",
         "gtm",
-        "leadership"
+        "design",
+        "ai-native",
+        "product",
+        "growth"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/eli-schwartz/README.md",
+      "title": "Eli Schwartz",
+      "name": "Eli Schwartz",
+      "slug": "eli-schwartz",
+      "roles": [
+        "Author of 'Product-Led SEO,' former Head of Global SEO at SurveyMonkey (2012-2019) where SEO drove two-thirds of global revenue",
+        "SEO consultant to WordPress",
+        "Shutterstock",
+        "and Mixpanel"
+      ],
+      "domains_active": [
+        "growth",
+        "pmm",
+        "research",
+        "leadership",
+        "product"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/else-van-der-berg/README.md",
+      "title": "Else van der Berg",
+      "name": "Else van der Berg",
+      "slug": "else-van-der-berg",
+      "roles": [
+        "Product coach",
+        "50+ teams coached over 4 years",
+        "Substack author"
+      ],
+      "domains_active": [
+        "product",
+        "leadership",
+        "sales-cs",
+        "growth",
+        "research"
       ],
       "captured_first": "2026-05-01",
       "external": ""
+    },
+    {
+      "path": "operators/emily-kramer/README.md",
+      "title": "Emily Kramer",
+      "name": "Emily Kramer",
+      "slug": "emily-kramer",
+      "roles": [
+        "Founder of MKT1",
+        "former VP Marketing at Asana and Carta",
+        "writes the MKT1 Newsletter",
+        "one of the most widely-read B2B marketing newsletters"
+      ],
+      "domains_active": [
+        "research",
+        "design",
+        "leadership",
+        "pmm",
+        "product"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/ethan-mollick/README.md",
+      "title": "Ethan Mollick",
+      "name": "Ethan Mollick",
+      "slug": "ethan-mollick",
+      "roles": [
+        "Wharton professor of Management",
+        "author of 'Co-Intelligence: Living and Working with AI,' researcher on AI's impact on knowledge work, creator of experimental AI-integrated MBA courses"
+      ],
+      "domains_active": [
+        "ai-native",
+        "engineering",
+        "leadership",
+        "product",
+        "research"
+      ],
+      "captured_first": "2026-05-01"
     },
     {
       "path": "operators/evan-spiegel/README.md",
@@ -3411,6 +4210,64 @@
       ],
       "captured_first": "2026-05-01",
       "external": ""
+    },
+    {
+      "path": "operators/gaetano-dinardi/README.md",
+      "title": "Gaetano DiNardi",
+      "name": "Gaetano DiNardi",
+      "slug": "gaetano-dinardi",
+      "roles": [
+        "Founder of Marketing Advice (B2B SaaS growth consultancy)",
+        "former VP of Growth Marketing at Nextiva and Head of Growth at Salesforce/Cognism",
+        "contributor to CXL",
+        "and Advanced Web Ranking"
+      ],
+      "domains_active": [
+        "leadership",
+        "growth",
+        "pmm"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/georgiana-laudi/README.md",
+      "title": "Georgiana Laudi",
+      "name": "Georgiana Laudi",
+      "slug": "georgiana-laudi",
+      "roles": [
+        "Co-founder of Forget the Funnel",
+        "co-author of 'Forget the Funnel: A Customer-Led Approach for Driving Predictable, Recurring Revenue,' former VP Marketing at Unbounce",
+        "created the Customer Experience Mapping methodology",
+        "consultant to 200+ SaaS companies"
+      ],
+      "domains_active": [
+        "pmm",
+        "growth",
+        "design",
+        "ai-native",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/greg-isenberg/README.md",
+      "title": "Greg Isenberg",
+      "name": "Greg Isenberg",
+      "slug": "greg-isenberg",
+      "roles": [
+        "CEO of Late Checkout (community-focused product studio)",
+        "previously built and sold startup for $10M",
+        "advisor to Reddit",
+        "investor in community-driven businesses"
+      ],
+      "domains_active": [
+        "ai-native",
+        "gtm",
+        "design",
+        "growth",
+        "pmm"
+      ],
+      "captured_first": "2026-05-01"
     },
     {
       "path": "operators/hamel-husain/README.md",
@@ -3431,6 +4288,61 @@
       "external": ""
     },
     {
+      "path": "operators/hermann-simon/README.md",
+      "title": "Hermann Simon",
+      "name": "Hermann Simon",
+      "slug": "hermann-simon",
+      "roles": [
+        "Founder and Honorary Chairman of Simon-Kucher & Partners",
+        "'Power Pricing",
+        "and 'Price Management.' Named the most influential management thinker in the German-speaking world. Has advised hundreds of Fortune 500 companies on pricing"
+      ],
+      "domains_active": [
+        "pmm",
+        "leadership",
+        "research",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/hiten-shah/README.md",
+      "title": "Hiten Shah",
+      "name": "Hiten Shah",
+      "slug": "hiten-shah",
+      "roles": [
+        "Serial SaaS entrepreneur (FYI, KISSmetrics, Crazy Egg)"
+      ],
+      "domains_active": [
+        "product",
+        "research",
+        "growth",
+        "leadership",
+        "pmm"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/jacco-van-der-kooij/README.md",
+      "title": "Jacco van der Kooij",
+      "name": "Jacco van der Kooij",
+      "slug": "jacco-van-der-kooij",
+      "roles": [
+        "Founder of Winning by Design",
+        "author of 'Revenue Architecture,' has certified 2",
+        "000+ GTM executives and worked with 1",
+        "000+ SaaS companies on scalable revenue systems"
+      ],
+      "domains_active": [
+        "sales-cs",
+        "design",
+        "leadership",
+        "research",
+        "growth"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
       "path": "operators/jacob-warwick/README.md",
       "title": "Jacob Warwick",
       "name": "Jacob Warwick",
@@ -3446,6 +4358,94 @@
       ],
       "captured_first": "2026-05-01",
       "external": ""
+    },
+    {
+      "path": "operators/james-clear/README.md",
+      "title": "James Clear",
+      "name": "James Clear",
+      "slug": "james-clear",
+      "roles": [
+        "Author of Atomic Habits (15M+ copies sold, translated into 50+ languages)",
+        "Creator of jamesclear.com",
+        "one of the most-visited personal development sites",
+        "Speaker on habits"
+      ],
+      "domains_active": [
+        "design",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/james-doman-pipe/README.md",
+      "title": "James Doman-Pipe",
+      "name": "James Doman-Pipe",
+      "slug": "james-doman-pipe",
+      "roles": [
+        "Founder of Building Momentum",
+        "product marketing consultant",
+        "author of Customer Value Positioning framework",
+        "curator of 680+ article swipe file"
+      ],
+      "domains_active": [
+        "pmm",
+        "product",
+        "gtm",
+        "research"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/jason-fried/README.md",
+      "title": "Jason Fried",
+      "name": "Jason Fried",
+      "slug": "jason-fried",
+      "roles": [
+        "Co-founder and CEO of 37signals (makers of Basecamp, HEY, and ONCE)",
+        "Co-author of 'Rework",
+        "Remote: Office Not Required"
+      ],
+      "domains_active": [
+        "product",
+        "growth"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/jason-lemkin/README.md",
+      "title": "Jason Lemkin",
+      "name": "Jason Lemkin",
+      "slug": "jason-lemkin",
+      "roles": [
+        "Founder and CEO of SaaStr"
+      ],
+      "domains_active": [
+        "sales-cs",
+        "pmm",
+        "leadership",
+        "gtm",
+        "design"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/jay-acunzo/README.md",
+      "title": "Jay Acunzo",
+      "name": "Jay Acunzo",
+      "slug": "jay-acunzo",
+      "roles": [
+        "Author of Break the Wheel",
+        "creator and host of Unthinkable podcast (named must-listen by LinkedIn editors)",
+        "former marketing leader at Google",
+        "and NextView Ventures (VP Brand)"
+      ],
+      "domains_active": [
+        "leadership",
+        "design",
+        "pmm"
+      ],
+      "captured_first": "2026-05-01"
     },
     {
       "path": "operators/jeetu-patel/README.md",
@@ -3502,6 +4502,221 @@
       "external": ""
     },
     {
+      "path": "operators/jill-konrath/README.md",
+      "title": "Jill Konrath",
+      "name": "Jill Konrath",
+      "slug": "jill-konrath",
+      "roles": [
+        "Author of 'SNAP Selling,' 'Selling to Big Companies,' 'Agile Selling,' and 'More Sales Less Time,' keynote speaker on buyer psychology in B2B sales",
+        "former IBM and Xerox sales leader",
+        "named #1 Sales Expert to Follow by LinkedIn"
+      ],
+      "domains_active": [
+        "research",
+        "sales-cs",
+        "design"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/jim-hamilton/README.md",
+      "title": "Jim Hamilton",
+      "name": "Jim Hamilton",
+      "slug": "jim-hamilton",
+      "roles": [
+        "Creator of the Email Storyselling framework",
+        "author of 'The Email Storyselling Playbook",
+        "Known for teaching coaches",
+        "consultants"
+      ],
+      "domains_active": [
+        "pmm",
+        "ai-native",
+        "growth"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/jimmy-daly/README.md",
+      "title": "Jimmy Daly",
+      "name": "Jimmy Daly",
+      "slug": "jimmy-daly",
+      "roles": [
+        "Co-founder and former CEO of Superpath",
+        "the largest community for content marketers",
+        "former VP of Growth at Animalz",
+        "writer at jimmydaly.com"
+      ],
+      "domains_active": [
+        "pmm",
+        "design",
+        "leadership",
+        "sales-cs",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/joe-pulizzi/README.md",
+      "title": "Joe Pulizzi",
+      "name": "Joe Pulizzi",
+      "slug": "joe-pulizzi",
+      "roles": [
+        "Founder of Content Marketing Institute (sold for ~$30M in 2015)",
+        "author of Content Inc. and Epic Content Marketing (7 books, 500,000+ copies)",
+        "founder of The Tilt and Content Entrepreneur Expo",
+        "coined the term 'content marketing' in 2001"
+      ],
+      "domains_active": [
+        "pmm",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/joel-klettke/README.md",
+      "title": "Joel Klettke",
+      "name": "Joel Klettke",
+      "slug": "joel-klettke",
+      "roles": [
+        "Founder of Case Study Buddy (seven-figure business)",
+        "conversion copywriter who has written 150+ customer stories for B2B SaaS companies",
+        "Built an entire business model around the insight that customer narratives are the highest-converting content type in B2B"
+      ],
+      "domains_active": [
+        "pmm",
+        "research",
+        "sales-cs"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/john-barrows/README.md",
+      "title": "John Barrows",
+      "name": "John Barrows",
+      "slug": "john-barrows",
+      "roles": [
+        "Founder of JB Sales",
+        "has trained sales teams at Salesforce",
+        "and hundreds of high-growth SaaS companies",
+        "creator of the 'Filling the Funnel' and 'Driving to Close' training programs"
+      ],
+      "domains_active": [
+        "sales-cs",
+        "design",
+        "research"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/jonathan-stark/README.md",
+      "title": "Jonathan Stark",
+      "name": "Jonathan Stark",
+      "slug": "jonathan-stark",
+      "roles": [
+        "Author of 'Hourly Billing Is Nuts",
+        "Former software consultant turned pricing advisor",
+        "Has coached 100+ solo consultants and small firms on value pricing",
+        "Publishes a daily email on pricing for independent professionals"
+      ],
+      "domains_active": [
+        "product",
+        "pmm",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/josh-braun/README.md",
+      "title": "Josh Braun",
+      "name": "Josh Braun",
+      "slug": "josh-braun",
+      "roles": [
+        "Former Head of Sales at Basecamp (37signals)"
+      ],
+      "domains_active": [
+        "pmm",
+        "sales-cs"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/julian-shapiro/README.md",
+      "title": "Julian Shapiro",
+      "name": "Julian Shapiro",
+      "slug": "julian-shapiro",
+      "roles": [
+        "Co-founder of Demand Curve (largest professional educator in startup marketing) and Bell Curve (growth agency)",
+        "former VP of Marketing at Webflow",
+        "growth marketing columnist at TechCrunch",
+        "created Velocity.js"
+      ],
+      "domains_active": [
+        "leadership",
+        "ai-native",
+        "growth",
+        "design",
+        "pmm"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/karl-sakas/README.md",
+      "title": "Karl Sakas",
+      "name": "Karl Sakas",
+      "slug": "karl-sakas",
+      "roles": [
+        "Agency advisor at Sakas & Company",
+        "Has personally advised 600+ agencies across 36 countries on operations",
+        "leadership",
+        "and exit planning"
+      ],
+      "domains_active": [
+        "pmm",
+        "product",
+        "design",
+        "growth",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/keenan/README.md",
+      "title": "Keenan (Jim Keenan)",
+      "name": "Keenan (Jim Keenan)",
+      "slug": "keenan",
+      "roles": [
+        "CEO and President of A Sales Growth Company",
+        "author of 'Gap Selling: Getting the Customer to Yes,' sales leadership advisor",
+        "keynote speaker on problem-centric selling"
+      ],
+      "domains_active": [
+        "research",
+        "sales-cs",
+        "design"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/kevin-indig/README.md",
+      "title": "Kevin Indig",
+      "name": "Kevin Indig",
+      "slug": "kevin-indig",
+      "roles": [
+        "Former VP SEO at Shopify",
+        "former Director of SEO at G2 and Atlassian",
+        "Growth Advisor to Reddit",
+        "and Nextdoor"
+      ],
+      "domains_active": [
+        "growth",
+        "pmm",
+        "research",
+        "product"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
       "path": "operators/kieran-flanagan/README.md",
       "title": "Kieran Flanagan",
       "name": "Kieran Flanagan",
@@ -3539,6 +4754,261 @@
       "external": ""
     },
     {
+      "path": "operators/kyle-poyar/README.md",
+      "title": "Kyle Poyar",
+      "name": "Kyle Poyar",
+      "slug": "kyle-poyar",
+      "roles": [
+        "Operating Partner at OpenView Ventures (PLG-focused VC)",
+        "creator of the Growth Unhinged newsletter (75,000+ weekly readers)",
+        "Spent 15+ years helping software startups monetize and scale"
+      ],
+      "domains_active": [
+        "gtm",
+        "pmm",
+        "growth",
+        "leadership",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/leah-tharin/README.md",
+      "title": "Leah Tharin",
+      "name": "Leah Tharin",
+      "slug": "leah-tharin",
+      "roles": [
+        "Product-led growth strategist and advisor",
+        "former VP Product at Jua (AI weather foundation model) and Smallpdf",
+        "creator of the Leah's ProducTea newsletter, Maven PLG course instructor featured in university MBA programs"
+      ],
+      "domains_active": [
+        "ai-native",
+        "product",
+        "leadership",
+        "growth",
+        "pmm"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/lenny-rachitsky/README.md",
+      "title": "Lenny Rachitsky",
+      "name": "Lenny Rachitsky",
+      "slug": "lenny-rachitsky",
+      "roles": [
+        "Former growth PM at Airbnb",
+        "creator of Lenny's Newsletter (largest product management newsletter), host of Lenny's Podcast",
+        "angel investor in 100+ startups"
+      ],
+      "domains_active": [
+        "product",
+        "ai-native",
+        "leadership",
+        "growth",
+        "pmm"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/lily-ray/README.md",
+      "title": "Lily Ray",
+      "name": "Lily Ray",
+      "slug": "lily-ray",
+      "roles": [
+        "Senior Director of SEO at Amsive (formerly Amsive Digital)",
+        "one of the most cited analysts of Google algorithm updates",
+        "regular contributor to Search Engine Land",
+        "speaker at SMX"
+      ],
+      "domains_active": [
+        "growth",
+        "pmm"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/madhavan-ramanujam/README.md",
+      "title": "Madhavan Ramanujam",
+      "name": "Madhavan Ramanujam",
+      "slug": "madhavan-ramanujam",
+      "roles": [
+        "Madhavan Ramanujam"
+      ],
+      "domains_active": [
+        "ai-native",
+        "pmm",
+        "research",
+        "leadership",
+        "design"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/marcel-petitpas/README.md",
+      "title": "Marcel Petitpas",
+      "name": "Marcel Petitpas",
+      "slug": "marcel-petitpas",
+      "roles": [
+        "CEO and Co-Founder of Parakeeto",
+        "Host of The Agency Profit Podcast (#1 podcast on agency profitability)",
+        "Has audited hundreds of agencies across North America",
+        "Widely considered the leading expert on profitability optimization for service-centric businesses"
+      ],
+      "domains_active": [
+        "sales-cs",
+        "design",
+        "leadership",
+        "product",
+        "growth"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/marcus-andrews/README.md",
+      "title": "Marcus Andrews",
+      "name": "Marcus Andrews",
+      "slug": "marcus-andrews",
+      "roles": [
+        "Former Product Marketing Group Lead and Narrative Designer at HubSpot (helped develop the Flywheel narrative)",
+        "former Sr",
+        "Director of Product Marketing at Pendo",
+        "former product marketer at Google (AdWords and YouTube)"
+      ],
+      "domains_active": [
+        "pmm",
+        "product",
+        "leadership",
+        "design"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/marie-haynes/README.md",
+      "title": "Marie Haynes",
+      "name": "Marie Haynes",
+      "slug": "marie-haynes",
+      "roles": [
+        "Founder of Marie Haynes Consulting (now part of her advisory practice)"
+      ],
+      "domains_active": [
+        "growth",
+        "product"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/mark-roberge/README.md",
+      "title": "Mark Roberge",
+      "name": "Mark Roberge",
+      "slug": "mark-roberge",
+      "roles": [
+        "Former SVP of Sales and CRO at HubSpot (scaled from $0 to $100M+ ARR)",
+        "co-founder of Stage 2 Capital",
+        "Senior Lecturer at Harvard Business School",
+        "author of 'The Sales Acceleration Formula"
+      ],
+      "domains_active": [
+        "sales-cs",
+        "design",
+        "gtm",
+        "leadership",
+        "growth"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/martina-lauchengco/README.md",
+      "title": "Martina Lauchengco",
+      "name": "Martina Lauchengco",
+      "slug": "martina-lauchengco",
+      "roles": [
+        "SVPG Partner",
+        "author of 'LOVED: How to Rethink Marketing for Tech Products' (#1 Amazon bestseller)",
+        "partner at Costanoa Ventures",
+        "UC Berkeley Engineering Leadership Masters Program lecturer"
+      ],
+      "domains_active": [
+        "pmm",
+        "product",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/marty-neumeier/README.md",
+      "title": "Marty Neumeier",
+      "name": "Marty Neumeier",
+      "slug": "marty-neumeier",
+      "roles": [
+        "Author of 'The Brand Gap,' 'Zag,' 'The Brand Flip,' 'Scramble,' and 'Metaskills.' Director of Transformation at Liquid Agency",
+        "His Brand Gap SlideShare has been viewed over 20 million times",
+        "making it the most widely read work on branding"
+      ],
+      "domains_active": [
+        "design",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/matt-dixon/README.md",
+      "title": "Matt Dixon",
+      "name": "Matt Dixon",
+      "slug": "matt-dixon",
+      "roles": [
+        "Co-author of 'The Challenger Sale,' 'The Effortless Experience,' 'The Challenger Customer,' and 'The JOLT Effect,' former executive director at CEB/Gartner",
+        "frequent Harvard Business Review contributor with 20+ articles"
+      ],
+      "domains_active": [
+        "sales-cs",
+        "research",
+        "leadership",
+        "design"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/matt-gray/README.md",
+      "title": "Matt Gray",
+      "name": "Matt Gray",
+      "slug": "matt-gray",
+      "roles": [
+        "Founder of Founder OS (2,500+ community members, $12M annual revenue across ventures)",
+        "built Herb.co to a 14M-person community",
+        "founded BitMaker coding school (largest in Canada, acquired for $410M)",
+        "1M+ followers across social platforms"
+      ],
+      "domains_active": [
+        "ai-native",
+        "pmm",
+        "growth",
+        "design",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/matt-shumer/README.md",
+      "title": "Matt Shumer",
+      "name": "Matt Shumer",
+      "slug": "matt-shumer",
+      "roles": [
+        "Co-founder and CEO of OthersideAI/HyperWrite (2M+ users)",
+        "creator of GPT-Prompt-Engineer (open-source prompt optimization)",
+        "author of 'Something Big Is Happening' (80M+ views)",
+        "AI investor"
+      ],
+      "domains_active": [
+        "design",
+        "ai-native",
+        "engineering",
+        "pmm"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
       "path": "operators/mihika-kapoor/README.md",
       "title": "Mihika Kapoor",
       "name": "Mihika Kapoor",
@@ -3554,6 +5024,324 @@
       ],
       "captured_first": "2026-05-01",
       "external": ""
+    },
+    {
+      "path": "operators/mike-king/README.md",
+      "title": "Mike King",
+      "name": "Mike King",
+      "slug": "mike-king",
+      "roles": [
+        "Founder and CEO of iPullRank",
+        "named 2025 Search Marketer of the Year by Search Engine Land",
+        "creator of the Relevance Engineering framework",
+        "author of The AI Search Manual"
+      ],
+      "domains_active": [
+        "growth",
+        "pmm",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/mike-michalowicz/README.md",
+      "title": "Mike Michalowicz",
+      "name": "Mike Michalowicz",
+      "slug": "mike-michalowicz",
+      "roles": [
+        "Author of 'Profit First",
+        "The Toilet Paper Entrepreneur",
+        "Clockwork",
+        "Fix This Next"
+      ],
+      "domains_active": [
+        "leadership",
+        "sales-cs"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/momoko-price/README.md",
+      "title": "Momoko Price",
+      "name": "Momoko Price",
+      "slug": "momoko-price",
+      "roles": [
+        "Founder of Kantan Designs",
+        "conversion copywriter specializing in messaging-first optimization for SaaS and ecommerce",
+        "Clients include Intuit",
+        "Scotiabank"
+      ],
+      "domains_active": [
+        "pmm",
+        "research"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/morgan-housel/README.md",
+      "title": "Morgan Housel",
+      "name": "Morgan Housel",
+      "slug": "morgan-housel",
+      "roles": [
+        "Partner at The Collaborative Fund",
+        "Former columnist at The Motley Fool and The Wall Street Journal",
+        "Author of The Psychology of Money (10M+ copies sold) and Same As Ever",
+        "Two-time winner of the Best in Business award from the Society of American Business Editors and Writers"
+      ],
+      "domains_active": [
+        "leadership"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/nassim-taleb/README.md",
+      "title": "Nassim Nicholas Taleb",
+      "name": "Nassim Nicholas Taleb",
+      "slug": "nassim-taleb",
+      "roles": [
+        "Distinguished Professor of Risk Engineering at NYU Tandon School of Engineering",
+        "Former options trader and hedge fund manager",
+        "Author of the Incerto series: Fooled by Randomness",
+        "The Black Swan"
+      ],
+      "domains_active": [
+        "leadership"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/nate-substack/README.md",
+      "title": "Nate",
+      "name": "Nate",
+      "slug": "nate-substack",
+      "roles": [
+        "Substack author",
+        "Claude Code educator",
+        "observed 100+ early Skills adopters"
+      ],
+      "domains_active": [
+        "engineering",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/naval-ravikant/README.md",
+      "title": "Naval Ravikant",
+      "name": "Naval Ravikant",
+      "slug": "naval-ravikant",
+      "roles": [
+        "Co-founder and former CEO of AngelList",
+        "Prolific angel investor (Twitter, Uber, Postmates, 200+ startups)",
+        "Author of the 'How to Get Rich (Without Getting Lucky)' tweetstorm",
+        "Subject of The Almanack of Naval Ravikant"
+      ],
+      "domains_active": [
+        "leadership"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/neil-rackham/README.md",
+      "title": "Neil Rackham",
+      "name": "Neil Rackham",
+      "slug": "neil-rackham",
+      "roles": [
+        "Author of 'SPIN Selling' (1988)",
+        "Major Account Sales Strategy,' and 'Rethinking the Sales Force,' founder of Huthwaite International",
+        "conducted the largest empirical study of sales effectiveness ever (35,000+ calls, 12 years, 27 countries, $1M+ investment)"
+      ],
+      "domains_active": [
+        "research",
+        "sales-cs",
+        "design"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/nick-abraham/README.md",
+      "title": "Nick Abraham",
+      "name": "Nick Abraham",
+      "slug": "nick-abraham",
+      "roles": [
+        "Founder of LeadBird.io (150+ employees, 200+ active clients, 1.5M+ cold emails sent monthly)",
+        "co-founder of Scrubby.io (email validation) and Quicklines.ai (AI personalization)",
+        "recognized by Smartlead as the #2 most-replied-to account globally"
+      ],
+      "domains_active": [
+        "gtm",
+        "ai-native",
+        "growth",
+        "leadership",
+        "sales-cs"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/nik-sharma/README.md",
+      "title": "Nik Sharma",
+      "name": "Nik Sharma",
+      "slug": "nik-sharma",
+      "roles": [
+        "CEO of Sharma Brands (growth equity firm for DTC brands)",
+        "former Head of DTC at Hint (grew ad spend from zero to $1M+/month)",
+        "nicknamed 'The DTC Guy",
+        "has built or advised category leaders including Feastables"
+      ],
+      "domains_active": [
+        "growth",
+        "ai-native",
+        "design"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/packy-mccormick/README.md",
+      "title": "Packy McCormick",
+      "name": "Packy McCormick",
+      "slug": "packy-mccormick",
+      "roles": [
+        "Founder of Not Boring (top tech/business newsletter, 250K+ subscribers)",
+        "investor in Ramp/Scale AI/Replit/Varda",
+        "strategic advisor at Not Boring Capital"
+      ],
+      "domains_active": [
+        "ai-native",
+        "product",
+        "leadership",
+        "growth",
+        "pmm"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/park-howell/README.md",
+      "title": "Park Howell",
+      "name": "Park Howell",
+      "slug": "park-howell",
+      "roles": [
+        "Founder of Business of Story. 40+ year veteran of advertising",
+        "EMMY Award winner",
+        "Author of 'Brand Bewitchery' and co-author (with Dr. Randy Olson) of 'The Narrative Gym for Business.' Has grown brands by as much as 600%",
+        "Clients include Dell"
+      ],
+      "domains_active": [
+        "pmm",
+        "design",
+        "leadership",
+        "sales-cs"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/patrick-campbell/README.md",
+      "title": "Patrick Campbell",
+      "name": "Patrick Campbell",
+      "slug": "patrick-campbell",
+      "roles": [
+        "Founder and CEO of ProfitWell (acquired by Paddle for $200M)",
+        "bootstrapped pricing intelligence platform serving 25",
+        "000+ subscription companies",
+        "Background in econometrics"
+      ],
+      "domains_active": [
+        "pmm",
+        "sales-cs",
+        "growth",
+        "leadership",
+        "research"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/paul-jarvis/README.md",
+      "title": "Paul Jarvis",
+      "name": "Paul Jarvis",
+      "slug": "paul-jarvis",
+      "roles": [
+        "Author of 'Company of One: Why Staying Small Is the Next Big Thing for Business",
+        "Designer and developer who ran his own company of one for 20+ years",
+        "Co-created Fathom Analytics",
+        "a privacy-first web analytics tool"
+      ],
+      "domains_active": [
+        "product",
+        "growth",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/peep-laja/README.md",
+      "title": "Peep Laja",
+      "name": "Peep Laja",
+      "slug": "peep-laja",
+      "roles": [
+        "Peep Laja"
+      ],
+      "domains_active": [
+        "leadership",
+        "design",
+        "research",
+        "pmm"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/peter-thiel/README.md",
+      "title": "Peter Thiel",
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "roles": [
+        "Co-founder of PayPal and Palantir Technologies",
+        "First outside investor in Facebook",
+        "Partner at Founders Fund",
+        "Author of Zero to One: Notes on Startups"
+      ],
+      "domains_active": [
+        "leadership",
+        "ai-native",
+        "pmm"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/pia-silva/README.md",
+      "title": "Pia Silva",
+      "name": "Pia Silva",
+      "slug": "pia-silva",
+      "roles": [
+        "Co-founder of Worstofall Design",
+        "a branding agency that builds complete brands in 2-day intensives at $15K-$30K per project",
+        "Author of 'Badass Your Brand",
+        "Creator of No BS Agency Mastery"
+      ],
+      "domains_active": [
+        "product",
+        "pmm",
+        "ai-native",
+        "design"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/pieter-levels/README.md",
+      "title": "Pieter Levels",
+      "name": "Pieter Levels",
+      "slug": "pieter-levels",
+      "roles": [
+        "Solo founder of Photo AI ($132K+ MRR)",
+        "Nomad List",
+        "Remote OK",
+        "and 70+ other launched products"
+      ],
+      "domains_active": [
+        "product",
+        "ai-native",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01"
     },
     {
       "path": "operators/qasar-younis/README.md",
@@ -3573,6 +5361,302 @@
       "external": ""
     },
     {
+      "path": "operators/ramli-john/README.md",
+      "title": "Ramli John",
+      "name": "Ramli John",
+      "slug": "ramli-john",
+      "roles": [
+        "Founder of Delight Path",
+        "former Managing Director of ProductLed",
+        "former Director of Content at Appcues",
+        "Author of 'Product-Led Onboarding' and 'EUREKA: The Product Onboarding Playbook for B2B Companies.' Has trained hundreds of PLG companies including Mixpanel"
+      ],
+      "domains_active": [
+        "growth",
+        "pmm",
+        "leadership",
+        "product",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/rand-fishkin/README.md",
+      "title": "Rand Fishkin",
+      "name": "Rand Fishkin",
+      "slug": "rand-fishkin",
+      "roles": [
+        "Co-founder and CEO of SparkToro (audience research platform)",
+        "founder of Moz (sold 2021)",
+        "author of Lost and Founder and the upcoming Zero-Click Marketing",
+        "conducted the seminal zero-click search studies showing 58.5% of US Google searches end without a click"
+      ],
+      "domains_active": [
+        "pmm",
+        "leadership",
+        "sales-cs",
+        "research"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/reforge/README.md",
+      "title": "Reforge",
+      "name": "Reforge",
+      "slug": "reforge",
+      "roles": [
+        "Premier growth strategy platform founded by Brian Balfour (ex-VP Growth at HubSpot) and Andrew Chen",
+        "programs have trained 10",
+        "000+ growth leaders",
+        "blog is the definitive resource on growth models"
+      ],
+      "domains_active": [
+        "product",
+        "growth",
+        "leadership",
+        "design",
+        "sales-cs"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/robert-rose/README.md",
+      "title": "Robert Rose",
+      "name": "Robert Rose",
+      "slug": "robert-rose",
+      "roles": [
+        "Chief Strategy Advisor at Content Marketing Institute since 2010",
+        "CEO of The Content Advisory (formerly Seventh Bear)",
+        "co-author of Killing Marketing and Managing Content Marketing",
+        "has consulted with 500+ companies including 15 Fortune 100"
+      ],
+      "domains_active": [
+        "pmm",
+        "design",
+        "leadership",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/ross-simmonds/README.md",
+      "title": "Ross Simmonds",
+      "name": "Ross Simmonds",
+      "slug": "ross-simmonds",
+      "roles": [
+        "Founder of Foundation Marketing (B2B content marketing agency)",
+        "author of Create Once",
+        "Distribute Forever",
+        "named one of the most influential marketers in the world by multiple publications"
+      ],
+      "domains_active": [
+        "pmm",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/rowan-tonkin/README.md",
+      "title": "Rowan Tonkin",
+      "name": "Rowan Tonkin",
+      "slug": "rowan-tonkin",
+      "roles": [
+        "Chief Marketing Officer at Planful",
+        "former sales and marketing leader across multiple global SaaS organizations",
+        "pioneer of the CMO-CFO alignment methodology",
+        "frequent speaker and author on marketing performance management and finance-marketing partnership"
+      ],
+      "domains_active": [
+        "pmm",
+        "ai-native",
+        "growth",
+        "design",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/sahil-bloom/README.md",
+      "title": "Sahil Bloom",
+      "name": "Sahil Bloom",
+      "slug": "sahil-bloom",
+      "roles": [
+        "Creator of The Curiosity Chronicle newsletter (700K+ subscribers)",
+        "Author of The 5 Types of Wealth",
+        "Former private equity investor at a leading growth equity fund",
+        "Stanford University athlete and graduate"
+      ],
+      "domains_active": [
+        "leadership",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/sally-hogshead/README.md",
+      "title": "Sally Hogshead",
+      "name": "Sally Hogshead",
+      "slug": "sally-hogshead",
+      "roles": [
+        "Creator of the Fascination Advantage system",
+        "the first personality and brand assessment that measures how others perceive you",
+        "based on research with over one million participants",
+        "Author of 'Fascinate: How to Make Your Brand Impossible to Resist' and 'How the World Sees You' (#1 Wall Street Journal, #2 New York Times bestseller)"
+      ],
+      "domains_active": [
+        "design",
+        "leadership",
+        "pmm",
+        "research"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/sam-altman/README.md",
+      "title": "Sam Altman",
+      "name": "Sam Altman",
+      "slug": "sam-altman",
+      "roles": [
+        "CEO of OpenAI",
+        "former president of Y Combinator",
+        "investor in Stripe/Reddit/Airbnb/Instacart",
+        "author of 'How To Be Successful' and 'The Gentle Singularity"
+      ],
+      "domains_active": [
+        "product",
+        "ai-native",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/sam-kuehnle/README.md",
+      "title": "Sam Kuehnle",
+      "name": "Sam Kuehnle",
+      "slug": "sam-kuehnle",
+      "roles": [
+        "VP of Marketing at Loxo",
+        "formerly at Refine Labs",
+        "publishes Sam's Marketing Meditations newsletter on Substack; known for data-driven demand gen and paid media strategy in B2B SaaS"
+      ],
+      "domains_active": [
+        "leadership",
+        "ai-native",
+        "growth",
+        "design"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/sam-oh/README.md",
+      "title": "Sam Oh",
+      "name": "Sam Oh",
+      "slug": "sam-oh",
+      "roles": [
+        "VP of Marketing at Ahrefs",
+        "Director of Product Education at Ahrefs",
+        "built the Ahrefs YouTube channel into one of the most authoritative SEO education channels with 500K+ subscribers",
+        "author of Ahrefs' definitive guides on YouTube SEO and video SEO, previously grew multiple YouTube channels in different niches"
+      ],
+      "domains_active": [
+        "growth",
+        "pmm",
+        "leadership",
+        "research"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/sangram-vajre/README.md",
+      "title": "Sangram Vajre",
+      "name": "Sangram Vajre",
+      "slug": "sangram-vajre",
+      "roles": [
+        "Co-founder of Terminus (ABM platform)"
+      ],
+      "domains_active": [
+        "gtm",
+        "leadership",
+        "sales-cs",
+        "growth",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/sarah-levinger/README.md",
+      "title": "Sarah Levinger",
+      "name": "Sarah Levinger",
+      "slug": "sarah-levinger",
+      "roles": [
+        "Forbes-featured consumer behavior analyst and creative strategist",
+        "founder of Tether Insights",
+        "has helped brands including Fabletics",
+        "True Classic"
+      ],
+      "domains_active": [
+        "research",
+        "growth",
+        "leadership",
+        "pmm",
+        "design"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/scott-galloway/README.md",
+      "title": "Scott Galloway",
+      "name": "Scott Galloway",
+      "slug": "scott-galloway",
+      "roles": [
+        "Professor of Marketing at NYU Stern School of Business",
+        "Serial entrepreneur: founded nine companies including L2 (brand analytics, sold to Gartner)",
+        "Red Envelope",
+        "and Section4 (now Section)"
+      ],
+      "domains_active": [
+        "design",
+        "leadership",
+        "pmm"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/seth-godin/README.md",
+      "title": "Seth Godin",
+      "name": "Seth Godin",
+      "slug": "seth-godin",
+      "roles": [
+        "His daily blog at seths.blog is one of the most popular in the world",
+        "Inducted into the Direct Marketing Hall of Fame and the Marketing Hall of Fame",
+        "Founder of altMBA and The Akimbo Workshops"
+      ],
+      "domains_active": [
+        "design",
+        "leadership",
+        "pmm"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/shane-parrish/README.md",
+      "title": "Shane Parrish",
+      "name": "Shane Parrish",
+      "slug": "shane-parrish",
+      "roles": [
+        "Founder of Farnam Street (fs.blog)",
+        "Author of The Great Mental Models book series (4 volumes)",
+        "Host of The Knowledge Project podcast",
+        "Former Canadian intelligence analyst"
+      ],
+      "domains_active": [
+        "leadership",
+        "ai-native",
+        "pmm"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
       "path": "operators/sherwin-wu/README.md",
       "title": "Sherwin Wu",
       "name": "Sherwin Wu",
@@ -3587,6 +5671,23 @@
       ],
       "captured_first": "2026-05-01",
       "external": ""
+    },
+    {
+      "path": "operators/shireesh-gupta/README.md",
+      "title": "Shireesh Gupta",
+      "name": "Shireesh Gupta",
+      "slug": "shireesh-gupta",
+      "roles": [
+        "Product Marketing Manager",
+        "remote team across multiple time zones"
+      ],
+      "domains_active": [
+        "pmm",
+        "product",
+        "leadership",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01"
     },
     {
       "path": "operators/shreya-shankar/README.md",
@@ -3605,21 +5706,287 @@
       "external": ""
     },
     {
+      "path": "operators/simon-sinek/README.md",
+      "title": "Simon Sinek",
+      "name": "Simon Sinek",
+      "slug": "simon-sinek",
+      "roles": [
+        "Adjunct staff member at the RAND Corporation",
+        "Founder of The Optimism Company (formerly Start With Why LLC)",
+        "Teaches graduate-level strategic communications at Columbia University"
+      ],
+      "domains_active": [
+        "design",
+        "leadership",
+        "pmm"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
       "path": "operators/simon-willison/README.md",
       "title": "Simon Willison",
       "name": "Simon Willison",
       "slug": "simon-willison",
       "roles": [
-        "Co-creator, Django",
-        "Creator, Datasette",
-        "Independent AI / engineering writer"
+        "Co-creator of Django web framework",
+        "creator of Datasette",
+        "prolific open-source developer",
+        "author of Agentic Engineering Patterns guide"
       ],
       "domains_active": [
         "ai-native",
+        "engineering",
+        "design",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/steph-smith/README.md",
+      "title": "Steph Smith",
+      "name": "Steph Smith",
+      "slug": "steph-smith",
+      "roles": [
+        "Author of Doing Content Right and Doing SEO Right",
+        "formerly led growth at The Hustle (Trends product to millions in ARR)",
+        "hosted the a16z podcast",
+        "worked at HubSpot"
+      ],
+      "domains_active": [
+        "pmm",
+        "leadership",
+        "growth"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/steven-forth/README.md",
+      "title": "Steven Forth",
+      "name": "Steven Forth",
+      "slug": "steven-forth",
+      "roles": [
+        "Co-founder and Managing Partner of Ibbaka",
+        "a strategic pricing advisory firm for SaaS companies",
+        "Named one of the top 10 pricing authorities in the world by OpenView Venture Partners"
+      ],
+      "domains_active": [
+        "pmm",
+        "leadership",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/swyx/README.md",
+      "title": "Swyx (Shawn Wang)",
+      "name": "Swyx (Shawn Wang)",
+      "slug": "swyx",
+      "roles": [
+        "Founder of Latent Space (top AI engineering newsletter/podcast, 10M+ readers)",
+        "creator of AI Engineer Summit",
+        "former engineer at Vercel/Netlify/AWS",
+        "coined 'AI Engineer' as a distinct role"
+      ],
+      "domains_active": [
+        "design",
+        "ai-native",
+        "product",
+        "leadership",
         "engineering"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/tamara-grominsky/README.md",
+      "title": "Tamara Grominsky",
+      "name": "Tamara Grominsky",
+      "slug": "tamara-grominsky",
+      "roles": [
+        "Founder of PMM Camp",
+        "former VP Product Marketing & Lifecycle at Kajabi",
+        "former Chief Strategy Officer at Unbounce",
+        "created the MAP segmentation framework and Persona > Problem > Promise > Product methodology"
+      ],
+      "domains_active": [
+        "gtm",
+        "pmm",
+        "product",
+        "leadership",
+        "sales-cs"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/tas-bober/README.md",
+      "title": "Tas Bober",
+      "name": "Tas Bober",
+      "slug": "tas-bober",
+      "roles": [
+        "Founder of The Scroll Lab and Delphinium Solutions",
+        "B2B digital marketing strategist specializing in paid ads landing pages for B2B SaaS",
+        "has helped companies like Calendly drive 235% revenue increases through digital presence optimization",
+        "managed 400+ websites across her career"
+      ],
+      "domains_active": [
+        "leadership",
+        "design"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/tiago-forte/README.md",
+      "title": "Tiago Forte",
+      "name": "Tiago Forte",
+      "slug": "tiago-forte",
+      "roles": [
+        "productivity consultant"
+      ],
+      "domains_active": [
+        "ai-native",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/tim-ferriss/README.md",
+      "title": "Tim Ferriss",
+      "name": "Tim Ferriss",
+      "slug": "tim-ferriss",
+      "roles": [
+        "Author of The 4-Hour Workweek",
+        "The 4-Hour Body",
+        "The 4-Hour Chef",
+        "Tools of Titans"
+      ],
+      "domains_active": [
+        "leadership",
+        "design"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/tim-soulo/README.md",
+      "title": "Tim Soulo",
+      "name": "Tim Soulo",
+      "slug": "tim-soulo",
+      "roles": [
+        "CMO and Product Advisor at Ahrefs",
+        "15+ years in digital marketing and SEO",
+        "architect of Ahrefs' content strategy that grew the blog to 1.5M+ monthly visitors, author of multiple data-driven SEO studies"
+      ],
+      "domains_active": [
+        "growth",
+        "pmm",
+        "research",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/tk-kader/README.md",
+      "title": "TK Kader",
+      "name": "TK Kader",
+      "slug": "tk-kader",
+      "roles": [
+        "TK Kader"
+      ],
+      "domains_active": [
+        "gtm",
+        "leadership",
+        "sales-cs",
+        "product"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/tomasz-tunguz/README.md",
+      "title": "Tomasz Tunguz",
+      "name": "Tomasz Tunguz",
+      "slug": "tomasz-tunguz",
+      "roles": [
+        "General Partner at Theory Ventures (previously at Redpoint Ventures for 11 years)",
+        "Invested in companies including Looker",
+        "Expensify",
+        "and HashiCorp"
+      ],
+      "domains_active": [
+        "sales-cs",
+        "growth",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/tommy-walker/README.md",
+      "title": "Tommy Walker",
+      "name": "Tommy Walker",
+      "slug": "tommy-walker",
+      "roles": [
+        "Founder of The Content Studio",
+        "a content marketing consultancy for Fortune 1",
+        "000 companies and high-growth B2B startups",
+        "former Global Editor-in-Chief at QuickBooks (Intuit)"
+      ],
+      "domains_active": [
+        "pmm",
+        "design"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/trish-bertuzzi/README.md",
+      "title": "Trish Bertuzzi",
+      "name": "Trish Bertuzzi",
+      "slug": "trish-bertuzzi",
+      "roles": [
+        "Founder and CEO of The Bridge Group (20+ years of SDR consulting)",
+        "author of 'The Sales Development Playbook,' publisher of the most widely referenced SDR metrics benchmarks in B2B SaaS"
+      ],
+      "domains_active": [
+        "sales-cs",
+        "design",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/vivian-jordan/README.md",
+      "title": "Vivian Jordan",
+      "name": "Vivian Jordan",
+      "slug": "vivian-jordan",
+      "roles": [
+        "AI Product Marketing and GTM Strategist",
+        "helps companies translate enterprise AI complexity into clarity"
+      ],
+      "domains_active": [
+        "pmm",
+        "product",
+        "gtm",
+        "ai-native",
+        "growth"
       ],
       "captured_first": "2026-05-01",
       "external": ""
+    },
+    {
+      "path": "operators/yi-lin-pei/README.md",
+      "title": "Yi Lin Pei",
+      "name": "Yi Lin Pei",
+      "slug": "yi-lin-pei",
+      "roles": [
+        "PMM coach and consultant at Yi Lin Pei Coaching LLC (techgrowthcoach.com)",
+        "former PMM at Teachable",
+        "coaches PMMs at startups and scale-ups on positioning",
+        "messaging"
+      ],
+      "domains_active": [
+        "pmm",
+        "product",
+        "leadership",
+        "gtm",
+        "research"
+      ],
+      "captured_first": "2026-05-01"
     }
   ],
   "raw_sources": [
