@@ -2,25 +2,23 @@
 name: Annie Duke
 slug: annie-duke
 roles:
-  - Author, Thinking in Bets
-  - Author, Quit
-  - Former World Series of Poker champion
-domains_active: [leadership, research-discovery, founder-operator]
+  - Former professional poker player (World Series of Poker bracelet winner, $4M+ in tournament earnings)
+  - Special partner at First Round Capital
+  - Author of Thinking in Bets and Quit: The Power of Knowing When to Walk Away
+  - Co-founder of the Alliance for Decision Education
+domains_active: [leadership]
 captured_first: 2026-05-01
-external:
-  site: https://www.annieduke.com
 ---
 
 # Annie Duke
 
 ## Bio
-Author of *Thinking in Bets* and *Quit*. Former poker player with a World Series of Poker bracelet and over $4M in tournament winnings. Public reference for translating decision-quality discipline from poker into corporate operating practice.
+Annie Duke's intellectual project is the systematic separation of decision quality from outcome quality. Drawing on 20 years of professional poker, where the best possible decision frequently produces a losing hand, Duke demonstrates that most people commit "resulting," the error of judging decisions by their outcomes rather than by the process used to make them. A good decision made with sound reasoning can still produce a bad outcome due to luck, incomplete information, or factors outside your control. Conversely, a terrible decision can produce a great outcome.
 
 ## Operating themes
-- **Make intuition explicit.** Force gut calls into falsifiable predictions with numbers and horizons.
-- **Kill criteria over wishful thinking.** Pre-mortems work only when you commit to thresholds in writing.
-- **No such thing as a long feedback loop.** Find a correlated short signal and measure it.
-- **"Nevertheless" leadership.** Hear the dissent, then decide; do not pretend co-decision.
+- **Operating thesis:** The quality of a decision and the quality of its outcome are fundamentally different things; learning to separate the two is the single most important skill for anyone who operates under uncertainty.
+- **Decision Quality Framework**
+- **Cognitive Bias Management**
 
 ## Cards
 - `ins_kill-criteria-make-pre-mortems-real` — Pre-mortems become decision gates only with explicit kill thresholds [Tier A]
@@ -29,6 +27,7 @@ Author of *Thinking in Bets* and *Quit*. Former poker player with a World Series
 
 ## Sources captured
 - 2026-04-28 — Lenny's Podcast, "Decision quality, explicit thinking, feedback loops" (`raw/podcasts/annie-duke--decision-quality-explicit-thinking--2026-04-28.md`)
-
-## External
-- annieduke.com
+- 2026-04 — `behavioral-scientist-practical-tools-for-better-decisions-a-qa-with-annie-duke-o.md` (artemis ingest)
+- 2026-04 — `a-framework-for-making-better-decisions-annie-duke-partner-at-first-round-capita.md` (artemis ingest)
+- 2026-04 — `big-think-when-to-quit-a-simple-framework-for-lifes-toughest-decisions-annie-duk.md` (artemis ingest)
+- 2026-04 — `practical-tools-for-better-decisions-a-qa-with-annie-duke-on-how-to-decide-by-da.md` (artemis ingest)
