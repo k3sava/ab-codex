@@ -6,13 +6,16 @@
   <title>codex</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="nav reveal">
+  <header>
     <a href="#/" class="brand">codex</a>
-    <nav><a href="#/graph">graph</a><a href="#/about">about</a><button id="searchOpen">cmd-k</button></nav>
+    <nav>
+      <a href="#/">home</a><a href="#/map">map</a><a href="#/flash">flash</a><a href="#/carousel">carousel</a><a href="#/timeline">timeline</a>
+      <button id="searchOpen">cmd-k</button>
+    </nav>
   </header>
   <main id="app"></main>
   <dialog id="searchDialog"><input id="searchInput" placeholder="type operator, claim, domain"/><div id="searchResults"></div></dialog>
