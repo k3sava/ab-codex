@@ -3,28 +3,24 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>clearPMM GraphOS</title>
+  <title>codex</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="watch-shell">
-    <header class="topbar">
-      <div class="pill">GraphOS</div>
-      <div class="pill" id="countPill">0 nodes</div>
-    </header>
-    <main id="stage">
-      <svg id="graph"></svg>
-      <section id="cardTray" class="card-tray hidden">
-        <div class="cards" id="cards"></div>
-      </section>
-    </main>
-    <footer class="dock">
-      <button id="zoomIn">＋</button>
-      <button id="zoomOut">－</button>
-      <button id="reset">◎</button>
-    </footer>
-  </div>
+  <header>
+    <a href="#/" class="brand">codex</a>
+    <nav>
+      <a href="#/">home</a><a href="#/map">map</a><a href="#/flash">flash</a><a href="#/carousel">carousel</a><a href="#/timeline">timeline</a>
+      <button id="searchOpen">cmd-k</button>
+    </nav>
+  </header>
+  <main id="app"></main>
+  <dialog id="searchDialog"><input id="searchInput" placeholder="type operator, claim, domain"/><div id="searchResults"></div></dialog>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
-  <script src="app.js"></script>
+  <script src="app.js" type="module"></script>
 </body>
 </html>

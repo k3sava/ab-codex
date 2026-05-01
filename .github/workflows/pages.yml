@@ -1,7 +1,7 @@
 name: Deploy Pages
 on:
   push:
-    branches: ["main","work"]
+    branches: ["main"]
   workflow_dispatch:
 permissions:
   contents: read
@@ -19,6 +19,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+      - name: Stage data into docs
+        run: |
+          mkdir -p docs/insight-library
+          cp insight-library/INDEX.json docs/insight-library/INDEX.json
+          cp insight-library/INDEX.md docs/insight-library/INDEX.md
+          cp -r insight-library/insights docs/insight-library/
+          cp -r insight-library/operators docs/insight-library/
+          cp -r insight-library/synthesis docs/insight-library/
+          cp -r insight-library/playbooks docs/insight-library/
+          cp -r insight-library/00_meta docs/insight-library/
+      - name: Validate docs bundle
+        run: bash docs/build.sh
       - uses: actions/upload-pages-artifact@v3
         with:
           path: docs

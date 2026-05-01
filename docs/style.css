@@ -1,16 +1,16 @@
-:root { --bg:#050507; --panel:#0e1016; --text:#f4f6ff; --muted:#9aa2b3; --accent:#76e0ff; }
-*{box-sizing:border-box} body{margin:0;background:radial-gradient(circle at 30% 20%,#1a2130,#07080c 65%);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif;display:grid;place-items:center;min-height:100vh}
-.watch-shell{width:min(1024px,95vw);height:min(820px,96vh);background:linear-gradient(180deg,#0c0f17,#080a11);border-radius:42px;padding:16px;box-shadow:0 35px 90px rgba(0,0,0,.6),inset 0 0 0 1px rgba(255,255,255,.06);display:grid;grid-template-rows:auto 1fr auto;gap:12px}
-.topbar,.dock{display:flex;gap:10px;align-items:center}.topbar{justify-content:space-between}
-.pill{background:rgba(255,255,255,.07);padding:8px 12px;border-radius:999px;font-size:12px;color:var(--muted)}
-#stage{position:relative;overflow:hidden;border-radius:28px;background:radial-gradient(circle at 20% 20%,#121a29,#0a0d14)}
-#graph{width:100%;height:100%}
-.node{cursor:pointer;transition:transform .2s}.node:hover{filter:drop-shadow(0 0 10px rgba(118,224,255,.45))}
-.label{font-size:10px;fill:#dce4ff;pointer-events:none}
-.link{stroke:rgba(180,210,255,.22);stroke-width:1.2}
-.dock{justify-content:center}.dock button{border:0;background:#121826;color:#d8e7ff;padding:10px 18px;border-radius:16px;font-size:20px;cursor:pointer}
-.card-tray{position:absolute;bottom:14px;left:14px;right:14px;background:rgba(10,14,22,.86);backdrop-filter:blur(15px);border:1px solid rgba(255,255,255,.08);border-radius:22px;padding:10px;overflow:hidden}
-.cards{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:4px}
-.card{min-width:240px;background:linear-gradient(180deg,#131c2b,#0e141f);border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:12px;scroll-snap-align:center}
-.card h4{margin:0 0 8px 0;font-size:14px}.card p{margin:0;color:var(--muted);font-size:12px;line-height:1.35}
-.hidden{display:none}
+:root{--bg:#f6f1e8;--ink:#1f1b16;--accent:#cb7f46;--ui:#e8dfd2} @media (prefers-color-scheme: dark){:root{--bg:#17120f;--ink:#ece2d8;--ui:#2a211b}}
+*{box-sizing:border-box} html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif}
+body{display:flex;flex-direction:column;min-height:100vh;overflow:hidden}
+header{padding:12px 18px;border-bottom:1px solid #0002;display:flex;justify-content:space-between;align-items:center}nav{display:flex;gap:10px;align-items:center}nav a,.brand{text-decoration:none;color:inherit}.brand{font-weight:600}
+main{flex:1;overflow:auto;padding:22px;height:calc(100vh - 54px)}
+h1{font-family:Newsreader,serif;font-size:clamp(2rem,4vw,3.7rem);line-height:1.02;margin:0 0 10px}.lede{max-width:80ch;opacity:.86}
+.modes{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 20px}.modes a,.chip{padding:8px 10px;border-radius:999px;background:var(--ui);text-decoration:none;color:inherit;display:inline-block;margin:3px}
+.split{display:grid;grid-template-columns:1fr 280px;gap:14px}.panel{background:var(--ui);padding:14px;border-radius:14px;align-self:start}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}.card{display:block;background:var(--ui);padding:14px;border-radius:14px;text-decoration:none;color:inherit;transition:.2s}.card:hover{transform:translateY(-2px);box-shadow:0 14px 30px #0002}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.8rem;opacity:.75}
+.insight{display:grid;grid-template-columns:1fr 280px;gap:18px}.block{background:var(--ui);padding:10px;border-radius:12px;margin:10px 0}
+.graphWrap{display:grid;grid-template-columns:1fr 280px;gap:14px}#graph{width:100%;height:72vh;background:color-mix(in oklab,var(--ui),#000 8%);border-radius:16px}
+.carousel{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(280px,32vw);overflow:auto;gap:12px;padding-bottom:8px}
+.timeline{display:grid;gap:8px}.titem{display:grid;grid-template-columns:72px 1fr 220px;gap:12px;padding:10px;border-bottom:1px solid #0002;text-decoration:none;color:inherit}
+dialog{border:0;border-radius:12px;padding:16px;max-width:720px;width:92vw}#searchResults a{display:block;padding:8px 0;border-bottom:1px solid #0001;color:inherit;text-decoration:none}
+@media (max-width:980px){.insight,.split,.graphWrap{grid-template-columns:1fr}body{overflow:auto}main{height:auto}.titem{grid-template-columns:1fr}}
