@@ -12,7 +12,7 @@ This `docs/` directory is the deployable static site used by GitHub Pages.
 ## Add a new card
 
 1. Add or update insight content in `insight-library` matching the schema in `insight-library/00_meta/insight-card-schema.md`.
-2. Add card metadata to `docs/app.js` in the `cards` array (`id`, `operator`, `source`, `claim`, mechanism and conditions blocks).
+2. Add card metadata to `docs/app.js` in the `cards` array (`id`, `operator`, `source`, `claim`, mechanism and conditions blocks). Use GitHub blob URLs for `source_url` so source links work in Pages artifacts.
 3. Add matching searchable entry to `docs/search-index.json`.
 4. Link related cards using `related` ids for graph edges.
 5. Run `bash docs/build.sh` and commit.
