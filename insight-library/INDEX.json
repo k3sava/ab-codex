@@ -1,11 +1,91 @@
 {
-  "generated_at": "2026-05-01T17:42:46.425Z",
+  "generated_at": "2026-05-01T18:15:30.517Z",
   "counts": {
-    "insights": 5,
-    "operators": 3,
-    "raw_sources": 3
+    "insights": 95,
+    "operators": 36,
+    "raw_sources": 36
   },
   "insights": [
+    {
+      "path": "insights/ins_100-percent-automation-rule.md",
+      "title": "An automation that works 95% of the time is not an automation",
+      "id": "ins_100-percent-automation-rule",
+      "operator": "Cat Wu",
+      "operator_role": "Head of Product, Claude Code + Co-work, Anthropic",
+      "source_url": "https://www.youtube.com/watch?v=PplmzlgE0kg",
+      "source_type": "podcast",
+      "source_title": "How Anthropic's product team moves faster than anyone else — Lenny's Podcast",
+      "source_date": "2026-04-27",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/podcasts/cat-wu--anthropic-product-team--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_absolute-counts-over-conversion-rates.md",
+      "title": "Optimise for absolute count of users reaching each stage, not stage conversion rates",
+      "id": "ins_absolute-counts-over-conversion-rates",
+      "operator": "Archie Abrams",
+      "operator_role": "VP Product & Growth, Shopify",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Churn optimization & long-term holdout experiments",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "growth-demand",
+        "product"
+      ],
+      "lifecycle": [
+        "onboarding-activation",
+        "attribution-measurement"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_long-term-holdouts-30-40-evaporate"
+      ],
+      "raw_ref": "raw/podcasts/archie-abrams--churn-optimization-shopify--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_add-new-growth-model-every-18-months.md",
+      "title": "Add a new growth model every 18 months and protect it from KPIs for 12",
+      "id": "ins_add-new-growth-model-every-18-months",
+      "operator": "Elena Verna",
+      "operator_role": "Growth advisor; former Dropbox, Miro, Amplitude, SurveyMonkey",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Elena Verna 3.0 — 10 growth tactics that never work — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "growth-loops",
+        "strategy-bets"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_earned-channels-over-algorithm-channels"
+      ],
+      "raw_ref": "raw/podcasts/elena-verna--earned-channels-tactics-that-never-work--2026-04-28.md"
+    },
     {
       "path": "insights/ins_agents-as-team-not-tools.md",
       "title": "Agents work when treated as a team, not a single super-tool",
@@ -39,6 +119,1198 @@
       "raw_ref": "raw/podcasts/claire-vo--openclaw-agents-as-team--2026-04-28.md"
     },
     {
+      "path": "insights/ins_ambition-filtered-job-ads.md",
+      "title": "Use the job ad itself as a self-selection filter for ambition",
+      "id": "ins_ambition-filtered-job-ads",
+      "operator": "Anton Osika",
+      "operator_role": "Co-founder and CEO, Lovable",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Anton Osika on Lovable, the last piece of software — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "leadership"
+      ],
+      "lifecycle": [
+        "hiring-team-design"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_generalists-over-specialists-ai-native"
+      ],
+      "raw_ref": "raw/podcasts/anton-osika--lovable-ai-engineer--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_benevolent-dictator-not-committee.md",
+      "title": "Appoint one trusted-taste expert as the eval benevolent dictator — committees stall the loop",
+      "id": "ins_benevolent-dictator-not-committee",
+      "operator": "Hamel Husain & Shreya Shankar",
+      "operator_role": "Independent ML consultant and Berkeley PhD researcher",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Evals as error analysis, the benevolent dictator, LLM judges",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "ai-native",
+        "leadership",
+        "product"
+      ],
+      "lifecycle": [
+        "hiring-team-design",
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_open-coding-then-axial-coding"
+      ],
+      "raw_ref": "raw/podcasts/hamel-husain-shreya-shankar--evals-error-analysis--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_bottleneck-is-context-not-capability.md",
+      "title": "When the agent isn't doing what you want, fix the context — not the model",
+      "id": "ins_bottleneck-is-context-not-capability",
+      "operator": "Sherwin Wu",
+      "operator_role": "Head of Engineering, OpenAI API and Developer Platform",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Sherwin Wu — Codex inside OpenAI, engineers as managers — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "ai-native",
+        "engineering",
+        "product"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_personal-pattern-hoarding",
+        "ins_llm-wiki-pattern"
+      ],
+      "raw_ref": "raw/podcasts/sherwin-wu--openai-codex-engineers-as-managers--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_build-for-model-six-months-out.md",
+      "title": "Build for the model six months out, not the one that ships today",
+      "id": "ins_build-for-model-six-months-out",
+      "operator": "Boris Cherny",
+      "operator_role": "Head of Claude Code, Anthropic",
+      "source_url": "https://www.youtube.com/watch?v=We7BZVKbCVw",
+      "source_type": "podcast",
+      "source_title": "What happens after coding is solved",
+      "source_date": "2026-04-27",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "ai-native",
+        "product",
+        "strategy-bets"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 4, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_dont-box-the-model-in",
+        "ins_underfund-deliberately"
+      ],
+      "raw_ref": "raw/podcasts/boris-cherny--claude-code-after-coding-solved--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_build-for-next-model-not-current.md",
+      "title": "Build for the model six months out — the current model will eat your scaffolding",
+      "id": "ins_build-for-next-model-not-current",
+      "operator": "Sherwin Wu",
+      "operator_role": "Head of Engineering, OpenAI API and Developer Platform",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Sherwin Wu — Codex inside OpenAI, engineers as managers — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "ai-native",
+        "engineering",
+        "product"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_remove-features-as-models-improve",
+        "ins_build-products-that-dont-yet-work",
+        "ins_november-2025-coding-inflection"
+      ],
+      "raw_ref": "raw/podcasts/sherwin-wu--openai-codex-engineers-as-managers--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_build-products-that-dont-yet-work.md",
+      "title": "Build products at the edge of what does not yet work",
+      "id": "ins_build-products-that-dont-yet-work",
+      "operator": "Cat Wu",
+      "operator_role": "Head of Product, Claude Code + Co-work, Anthropic",
+      "source_url": "https://www.youtube.com/watch?v=PplmzlgE0kg",
+      "source_type": "podcast",
+      "source_title": "How Anthropic's product team moves faster than anyone else — Lenny's Podcast",
+      "source_date": "2026-04-27",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "product",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_remove-features-as-models-improve"
+      ],
+      "raw_ref": "raw/podcasts/cat-wu--anthropic-product-team--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_capability-overhang-product-problem.md",
+      "title": "In AI products, capability overhang is the central growth problem",
+      "id": "ins_capability-overhang-product-problem",
+      "operator": "Amole Naik",
+      "operator_role": "Head of Growth, Anthropic",
+      "source_url": "https://www.youtube.com/watch?v=k-H4nsOTuxU",
+      "source_type": "podcast",
+      "source_title": "Anthropic is automating its own growth — Lenny's Podcast",
+      "source_date": "2026-04-27",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "ai-native",
+        "product",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "strategy-bets"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_remove-features-as-models-improve",
+        "ins_seasons-not-roadmaps"
+      ],
+      "raw_ref": "raw/podcasts/amole-naik--anthropic-automating-growth--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_capital-vs-lowercase-marketing.md",
+      "title": "Distinguish Capital-M Marketing (the function) from lowercase-m marketing (the whole-company motion)",
+      "id": "ins_capital-vs-lowercase-marketing",
+      "operator": "Krithika Shankarraman",
+      "operator_role": "EIR, Thrive Capital; ex-VP Marketing OpenAI",
+      "source_url": "https://www.youtube.com/watch?v=QaDsk4iH1aw",
+      "source_type": "podcast",
+      "source_title": "Growth tactics from OpenAI and Stripe's first marketer — Lenny's Podcast",
+      "source_date": "2026-04-27",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "pmm",
+        "leadership"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "hiring-team-design"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/podcasts/krithika-shankarraman--openai-stripe-first-marketer--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_cash-four-stage-growth-automation.md",
+      "title": "Automate the four stages of a growth experiment; keep humans on alignment",
+      "id": "ins_cash-four-stage-growth-automation",
+      "operator": "Amol Avasare",
+      "operator_role": "Head of Growth, Anthropic (ex-Mercury, MasterClass)",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Anthropic growth, CASH, and the squeezed PM",
+      "source_date": "2026-04-05",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "growth-demand",
+        "ai-native",
+        "gtm"
+      ],
+      "lifecycle": [
+        "growth-loops",
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "workflow",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_squeezed-pm-thesis",
+        "ins_dont-box-the-model-in"
+      ],
+      "raw_ref": "raw/podcasts/amol-avasare--anthropic-growth-cash--2026-04-05.md"
+    },
+    {
+      "path": "insights/ins_comb-shape-pmm.md",
+      "title": "T-shape PMM is dead; comb-shape (analytical + creative + technical + brand) is the new bar",
+      "id": "ins_comb-shape-pmm",
+      "operator": "Krithika Shankarraman",
+      "operator_role": "EIR, Thrive Capital; ex-VP Marketing OpenAI",
+      "source_url": "https://www.youtube.com/watch?v=QaDsk4iH1aw",
+      "source_type": "podcast",
+      "source_title": "Growth tactics from OpenAI and Stripe's first marketer — Lenny's Podcast",
+      "source_date": "2026-04-27",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "pmm",
+        "leadership"
+      ],
+      "lifecycle": [
+        "hiring-team-design"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_generalists-over-specialists-ai-native"
+      ],
+      "raw_ref": "raw/podcasts/krithika-shankarraman--openai-stripe-first-marketer--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_company-house-foundation-beams-mechanicals.md",
+      "title": "A company is a house: foundation, supporting beams, mechanicals — install all three early",
+      "id": "ins_company-house-foundation-beams-mechanicals",
+      "operator": "Claire Hughes Johnson",
+      "operator_role": "Former COO, Stripe; author, Scaling People",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Scaling people, the company operating system, force for positive momentum",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "leadership",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "process-cadence",
+        "hiring-team-design"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_force-for-positive-momentum"
+      ],
+      "raw_ref": "raw/podcasts/claire-hughes-johnson--scaling-people--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_criticize-in-public.md",
+      "title": "Establish enough trust to critique and debate in public — not \"praise public, criticize private\"",
+      "id": "ins_criticize-in-public",
+      "operator": "Jeetu Patel",
+      "operator_role": "Chief Product Officer and President, Cisco",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Jeetu Patel — Turning Cisco AI-first — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "leadership"
+      ],
+      "lifecycle": [
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/podcasts/jeetu-patel--cisco-ai-first-transformation--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_dark-factory-pattern.md",
+      "title": "The dark factory: nobody reads the code, gated by a simulated QA swarm",
+      "id": "ins_dark-factory-pattern",
+      "operator": "Simon Willison",
+      "operator_role": "Independent AI/engineering writer; co-creator of Django",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Simon Willison on agentic engineering and the November 2025 inflection — Lenny's Podcast",
+      "source_date": "2026-04-02",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 5, specificity: 5, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_november-2025-coding-inflection",
+        "ins_simulated-qa-swarm"
+      ],
+      "raw_ref": "raw/podcasts/simon-willison--agentic-engineering-november-inflection--2026-04-02.md"
+    },
+    {
+      "path": "insights/ins_date-diagnostic-framework.md",
+      "title": "Refuse the playbook ask — run DATE: Diagnose, Analyze, Take a different path, Experiment",
+      "id": "ins_date-diagnostic-framework",
+      "operator": "Krithika Shankarraman",
+      "operator_role": "EIR, Thrive Capital; ex-VP Marketing OpenAI; first marketer at Stripe",
+      "source_url": "https://www.youtube.com/watch?v=QaDsk4iH1aw",
+      "source_type": "podcast",
+      "source_title": "Growth tactics from OpenAI and Stripe's first marketer — Lenny's Podcast",
+      "source_date": "2026-04-27",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "pmm",
+        "gtm"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_use-case-epiphany-as-marketing-job"
+      ],
+      "raw_ref": "raw/podcasts/krithika-shankarraman--openai-stripe-first-marketer--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_design-as-bottleneck.md",
+      "title": "Make design an explicit ship-blocking bottleneck",
+      "id": "ins_design-as-bottleneck",
+      "operator": "Evan Spiegel",
+      "operator_role": "CEO and co-founder, Snap",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Evan Spiegel — Distribution, design as bottleneck — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "design-ux",
+        "leadership",
+        "product"
+      ],
+      "lifecycle": [
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_software-is-not-a-moat"
+      ],
+      "raw_ref": "raw/podcasts/evan-spiegel--snap-distribution-design-bottleneck--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_design-pie-chart-shifted.md",
+      "title": "The design role's time mix shifted from 60% mocking to 30% mocking, 30% pairing, 20% code",
+      "id": "ins_design-pie-chart-shifted",
+      "operator": "Jenny Wen",
+      "operator_role": "Head of Design, Claude Co-work, Anthropic; ex-Figma Director",
+      "source_url": "https://www.youtube.com/watch?v=eh8bcBIAAFo",
+      "source_type": "podcast",
+      "source_title": "The design process is dead. Here's what's replacing it. — Lenny's Podcast",
+      "source_date": "2026-04-27",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "design-ux",
+        "ai-native",
+        "product"
+      ],
+      "lifecycle": [
+        "process-cadence",
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_three-design-hiring-archetypes",
+        "ins_illegibility-framework"
+      ],
+      "raw_ref": "raw/podcasts/jenny-wen--design-process-is-dead--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_different-better-and-matters.md",
+      "title": "Differentiation requires three checks: different, better, and matters viscerally to users",
+      "id": "ins_different-better-and-matters",
+      "operator": "Ayo Omojola",
+      "operator_role": "Former Cash App / Cash Card lead; advisor / angel; ex-Carbon Health",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Ayo Omojola on differentiation, design depth, regulated industries — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "pmm",
+        "product",
+        "gtm"
+      ],
+      "lifecycle": [
+        "positioning"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_going-deep-to-bedrock"
+      ],
+      "raw_ref": "raw/podcasts/ayo-omojola--differentiation-design-depth--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_distribution-platform-cycles.md",
+      "title": "Every distribution platform follows a four-step cycle; cycles are getting shorter",
+      "id": "ins_distribution-platform-cycles",
+      "operator": "Brian Balfour",
+      "operator_role": "Founder & CEO, Reforge; former VP Growth, HubSpot",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Distribution platform cycles and the ChatGPT opportunity",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "growth-demand",
+        "gtm",
+        "strategy-bets"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "growth-loops"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 4, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/podcasts/brian-balfour--distribution-platform-cycles--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_dont-box-the-model-in.md",
+      "title": "Give the model tools and a goal; do not hard-code the workflow",
+      "id": "ins_dont-box-the-model-in",
+      "operator": "Boris Cherny",
+      "operator_role": "Head of Claude Code, Anthropic",
+      "source_url": "https://www.youtube.com/watch?v=We7BZVKbCVw",
+      "source_type": "podcast",
+      "source_title": "What happens after coding is solved",
+      "source_date": "2026-04-27",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "ai-native",
+        "engineering",
+        "product"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_build-for-model-six-months-out",
+        "ins_agents-as-team-not-tools"
+      ],
+      "raw_ref": "raw/podcasts/boris-cherny--claude-code-after-coding-solved--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_earned-channels-over-algorithm-channels.md",
+      "title": "Build earned channels — every dollar in algorithm channels makes Google richer, not you",
+      "id": "ins_earned-channels-over-algorithm-channels",
+      "operator": "Elena Verna",
+      "operator_role": "Growth advisor; former Dropbox, Miro, Amplitude, SurveyMonkey head of growth",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Elena Verna 3.0 — 10 growth tactics that never work — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "growth-demand",
+        "gtm"
+      ],
+      "lifecycle": [
+        "growth-loops"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_add-new-growth-model-every-18-months",
+        "ins_no-growth-team-too-early"
+      ],
+      "raw_ref": "raw/podcasts/elena-verna--earned-channels-tactics-that-never-work--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_economic-turing-test-for-ai.md",
+      "title": "The Economic Turing Test — would you hire the agent if you didn't know it was a machine?",
+      "id": "ins_economic-turing-test-for-ai",
+      "operator": "Benjamin Mann",
+      "operator_role": "Co-founder, Anthropic; tech lead product engineering; ex-OpenAI GPT-3 architect",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "The Economic Turing Test, mission over money, transformative AI",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "ai-native",
+        "strategy-bets",
+        "gtm"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "attribution-measurement"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 5, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_use-new-tools-as-new-tools",
+        "ins_dont-box-the-model-in"
+      ],
+      "raw_ref": "raw/podcasts/benjamin-mann--economic-turing-test--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_engineers-with-product-taste.md",
+      "title": "Hire engineers with product taste rather than adding more PMs",
+      "id": "ins_engineers-with-product-taste",
+      "operator": "Cat Wu",
+      "operator_role": "Head of Product, Claude Code + Co-work, Anthropic",
+      "source_url": "https://www.youtube.com/watch?v=PplmzlgE0kg",
+      "source_type": "podcast",
+      "source_title": "How Anthropic's product team moves faster than anyone else — Lenny's Podcast",
+      "source_date": "2026-04-27",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "product",
+        "leadership"
+      ],
+      "lifecycle": [
+        "hiring-team-design"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_prds-replaced-by-metrics-and-principles",
+        "ins_taste-as-scarce-skill"
+      ],
+      "raw_ref": "raw/podcasts/cat-wu--anthropic-product-team--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_evals-are-data-analysis-on-llm-apps.md",
+      "title": "Evals are systematic data analysis on your LLM application — start with error analysis, not tests",
+      "id": "ins_evals-are-data-analysis-on-llm-apps",
+      "operator": "Hamel Husain & Shreya Shankar",
+      "operator_role": "Independent ML consultant (ex-GitHub, Airbnb) and Berkeley PhD researcher",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Evals as error analysis, the benevolent dictator, LLM judges",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "ai-native",
+        "engineering",
+        "product"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "attribution-measurement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 5, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_open-coding-then-axial-coding",
+        "ins_llm-as-judge-binary-not-likert"
+      ],
+      "raw_ref": "raw/podcasts/hamel-husain-shreya-shankar--evals-error-analysis--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_experimentation-paralysis.md",
+      "title": "Don't test what won't reach sample size in a month — pre/post is fine",
+      "id": "ins_experimentation-paralysis",
+      "operator": "Elena Verna",
+      "operator_role": "Growth advisor",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Elena Verna 3.0 — 10 growth tactics that never work — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "growth-demand",
+        "product"
+      ],
+      "lifecycle": [
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_add-new-growth-model-every-18-months"
+      ],
+      "raw_ref": "raw/podcasts/elena-verna--earned-channels-tactics-that-never-work--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_fish-where-the-fish-are.md",
+      "title": "Pick a niche where the fish are; do not deadlift 300 pounds on day one",
+      "id": "ins_fish-where-the-fish-are",
+      "operator": "Andrew Wilkinson",
+      "operator_role": "Founder, Tiny; co-founder MetaLab; bootstrapped portfolio operator",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Andrew Wilkinson on Niche Markets, Lazy Leadership, and AI Automation — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "founder-craft",
+        "gtm"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "positioning"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_willingness-to-pay-by-segment"
+      ],
+      "raw_ref": "raw/podcasts/andrew-wilkinson--niche-markets-lazy-leadership--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_force-for-positive-momentum.md",
+      "title": "When the decision-maker is unclear, you are it — be a force for positive momentum",
+      "id": "ins_force-for-positive-momentum",
+      "operator": "Claire Hughes Johnson",
+      "operator_role": "Former COO, Stripe; author, Scaling People",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Scaling people, the company operating system, force for positive momentum",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "leadership",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "process-cadence",
+        "hiring-team-design"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_company-house-foundation-beams-mechanicals",
+        "ins_make-the-implicit-explicit"
+      ],
+      "raw_ref": "raw/podcasts/claire-hughes-johnson--scaling-people--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_four-bb-prioritization.md",
+      "title": "Sort the roadmap into four buckets — Brilliant Basics, Bread-and-Butter, Big Bets, Breaking Bad",
+      "id": "ins_four-bb-prioritization",
+      "operator": "Anuj Rathi",
+      "operator_role": "VP Product (former Swiggy, Jupiter)",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Anuj Rathi on Full-Stack PM, Working Backwards, India Marketplace Dynamics — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "product",
+        "leadership"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_three-divergent-pr-faqs"
+      ],
+      "raw_ref": "raw/podcasts/anuj-rathi--full-stack-pm-working-backwards--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_friction-as-feature.md",
+      "title": "Add friction when it helps users decide whether the product is for them",
+      "id": "ins_friction-as-feature",
+      "operator": "Amole Naik",
+      "operator_role": "Head of Growth, Anthropic; ex-Mercury, ex-MasterClass",
+      "source_url": "https://www.youtube.com/watch?v=k-H4nsOTuxU",
+      "source_type": "podcast",
+      "source_title": "Anthropic is automating its own growth — Lenny's Podcast",
+      "source_date": "2026-04-27",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "growth-demand",
+        "pmm"
+      ],
+      "lifecycle": [
+        "onboarding-activation"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_quality-as-growth-lever"
+      ],
+      "raw_ref": "raw/podcasts/amole-naik--anthropic-automating-growth--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_frontier-program-tiered-rollout.md",
+      "title": "Run a Frontier cohort — early-adopter access to bleeding-edge features — in parallel with normal rollout",
+      "id": "ins_frontier-program-tiered-rollout",
+      "operator": "Aparna Chennapragada",
+      "operator_role": "CPO, Microsoft (AI product strategy across productivity)",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "NLX is the new UX, living in the future, taste over roadmaps",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "product",
+        "leadership",
+        "gtm"
+      ],
+      "lifecycle": [
+        "launch",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_research-preview-trust-cadence"
+      ],
+      "raw_ref": "raw/podcasts/aparna-chennapragada--nlx-is-the-new-ux--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_generalists-over-specialists-ai-native.md",
+      "title": "In an AI-native team, hire generalists with one deep dimension, not specialists",
+      "id": "ins_generalists-over-specialists-ai-native",
+      "operator": "Anton Osika",
+      "operator_role": "Co-founder and CEO, Lovable",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Anton Osika on Lovable, the last piece of software — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "leadership",
+        "ai-native",
+        "product"
+      ],
+      "lifecycle": [
+        "hiring-team-design"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_taste-as-scarce-skill",
+        "ins_engineers-with-product-taste"
+      ],
+      "raw_ref": "raw/podcasts/anton-osika--lovable-ai-engineer--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_going-deep-to-bedrock.md",
+      "title": "Push past expert opinion until you reach the actual law of physics or contract",
+      "id": "ins_going-deep-to-bedrock",
+      "operator": "Ayo Omojola",
+      "operator_role": "Former Cash App / Cash Card lead; advisor / angel; ex-Carbon Health",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Ayo Omojola on differentiation, design depth, regulated industries — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "product",
+        "founder-craft"
+      ],
+      "lifecycle": [
+        "strategy-bets"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_different-better-and-matters"
+      ],
+      "raw_ref": "raw/podcasts/ayo-omojola--differentiation-design-depth--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_hire-spiky-not-un-weakness.md",
+      "title": "Hire spiky candidates with real strengths and real weaknesses, not the un-weakness average",
+      "id": "ins_hire-spiky-not-un-weakness",
+      "operator": "Brian Halligan",
+      "operator_role": "Co-founder & former CEO, HubSpot; in-house CEO coach, Sequoia",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "CEO craft, the LOCK(S) algorithm, distribution as the new moat",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "leadership",
+        "hiring"
+      ],
+      "lifecycle": [
+        "hiring-team-design"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_lock-s-ceo-evaluation-rubric"
+      ],
+      "raw_ref": "raw/podcasts/brian-halligan--ceo-craft-lock-algorithm--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_illegibility-framework.md",
+      "title": "Watch for \"illegible energy\" — ideas the team can't articulate but can't stop talking about",
+      "id": "ins_illegibility-framework",
+      "operator": "Jenny Wen",
+      "operator_role": "Head of Design, Claude Co-work, Anthropic",
+      "source_url": "https://www.youtube.com/watch?v=eh8bcBIAAFo",
+      "source_type": "podcast",
+      "source_title": "The design process is dead. Here's what's replacing it. — Lenny's Podcast",
+      "source_date": "2026-04-27",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "design-ux",
+        "product",
+        "leadership"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_design-pie-chart-shifted"
+      ],
+      "raw_ref": "raw/podcasts/jenny-wen--design-process-is-dead--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_influence-is-discovery-not-conviction.md",
+      "title": "Treat upward influence as a discovery interview, not a sales pitch",
+      "id": "ins_influence-is-discovery-not-conviction",
+      "operator": "Jessica Fain",
+      "operator_role": "VP Product, Webflow; ex-Brightwheel; ex-chief of staff at Slack",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "How to influence executives (and why it's not politics)",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "leadership",
+        "product",
+        "gtm"
+      ],
+      "lifecycle": [
+        "process-cadence",
+        "sales-enablement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_kill-things-to-build-trust",
+        "ins_setup-follow-through-pitch"
+      ],
+      "raw_ref": "raw/podcasts/jessica-fain--influencing-executives--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_innovation-is-a-choice.md",
+      "title": "Innovation is a choice, not a function of company size",
+      "id": "ins_innovation-is-a-choice",
+      "operator": "Jeetu Patel",
+      "operator_role": "Chief Product Officer and President, Cisco; ex-Box, ex-Documentum",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Jeetu Patel — Turning Cisco AI-first — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "leadership"
+      ],
+      "lifecycle": [
+        "strategy-bets"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_pocket-veto-large-companies"
+      ],
+      "raw_ref": "raw/podcasts/jeetu-patel--cisco-ai-first-transformation--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_jtbd-as-agent-wiring-diagram.md",
+      "title": "Map agents 1:1 to enumerated jobs-to-be-done, not abstractly to \"AI-augmented\" workflows",
+      "id": "ins_jtbd-as-agent-wiring-diagram",
+      "operator": "Evan Spiegel",
+      "operator_role": "CEO and co-founder, Snap",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Evan Spiegel — Distribution, design as bottleneck — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "ai-native",
+        "product",
+        "leadership"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "hiring-team-design"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_software-is-not-a-moat"
+      ],
+      "raw_ref": "raw/podcasts/evan-spiegel--snap-distribution-design-bottleneck--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_kill-criteria-make-pre-mortems-real.md",
+      "title": "Pre-mortems only work if you commit kill criteria before starting",
+      "id": "ins_kill-criteria-make-pre-mortems-real",
+      "operator": "Annie Duke",
+      "operator_role": "Author, Thinking in Bets and Quit; former WSOP poker champion",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Decision quality, explicit thinking, feedback loops",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "leadership",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "process-cadence"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_make-intuition-explicit",
+        "ins_no-such-thing-as-long-feedback-loop"
+      ],
+      "raw_ref": "raw/podcasts/annie-duke--decision-quality-explicit-thinking--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_kill-things-to-build-trust.md",
+      "title": "Killing your own initiatives loudly is the highest-trust move with executives",
+      "id": "ins_kill-things-to-build-trust",
+      "operator": "Jessica Fain",
+      "operator_role": "VP Product, Webflow; ex-Brightwheel; ex-chief of staff at Slack",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "How to influence executives (and why it's not politics)",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "leadership",
+        "product"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 4, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_influence-is-discovery-not-conviction"
+      ],
+      "raw_ref": "raw/podcasts/jessica-fain--influencing-executives--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_label-confidence-explicitly.md",
+      "title": "Label every strong opinion with a confidence level so the room knows when to push back",
+      "id": "ins_label-confidence-explicitly",
+      "operator": "Mihika Kapoor",
+      "operator_role": "Product manager (design-engineering hybrid), Figma",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Vision, conviction, building hype, scope is the world",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "leadership",
+        "product",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "process-cadence"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_make-intuition-explicit",
+        "ins_force-for-positive-momentum"
+      ],
+      "raw_ref": "raw/podcasts/mihika-kapoor--zero-to-one-vision-conviction-hype--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_latent-demand-as-search-algorithm.md",
+      "title": "Latent demand — what users hack around the product to get — is the next loop",
+      "id": "ins_latent-demand-as-search-algorithm",
+      "operator": "Boris Cherny",
+      "operator_role": "Head of Claude Code, Anthropic",
+      "source_url": "https://www.youtube.com/watch?v=We7BZVKbCVw",
+      "source_type": "podcast",
+      "source_title": "What happens after coding is solved",
+      "source_date": "2026-04-27",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "product",
+        "ai-native",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_build-for-model-six-months-out"
+      ],
+      "raw_ref": "raw/podcasts/boris-cherny--claude-code-after-coding-solved--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_lead-bullets-and-cannonballs.md",
+      "title": "Growth needs both lead bullets and cannonballs — the laziness trap is shipping only lead bullets",
+      "id": "ins_lead-bullets-and-cannonballs",
+      "operator": "Adriel Frederick",
+      "operator_role": "Former growth lead, Lyft; former growth, Facebook",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Marginal users, human-in-the-loop algorithms, growth discipline",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "growth-demand",
+        "product",
+        "strategy-bets"
+      ],
+      "lifecycle": [
+        "growth-loops",
+        "strategy-bets"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_marginal-user-methodology"
+      ],
+      "raw_ref": "raw/podcasts/adriel-frederick--marginal-user-algorithms-growth-discipline--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_llm-as-judge-binary-not-likert.md",
+      "title": "Build LLM-as-judge as binary true/false, one judge per pesky failure mode — and validate against human labels",
+      "id": "ins_llm-as-judge-binary-not-likert",
+      "operator": "Hamel Husain & Shreya Shankar",
+      "operator_role": "Independent ML consultant and Berkeley PhD researcher",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Evals as error analysis, the benevolent dictator, LLM judges",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "attribution-measurement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_open-coding-then-axial-coding",
+        "ins_evals-are-data-analysis-on-llm-apps"
+      ],
+      "raw_ref": "raw/podcasts/hamel-husain-shreya-shankar--evals-error-analysis--2026-04-28.md"
+    },
+    {
       "path": "insights/ins_llm-wiki-pattern.md",
       "title": "An LLM should maintain a wiki, not re-derive knowledge per query",
       "id": "ins_llm-wiki-pattern",
@@ -66,6 +1338,119 @@
         "ins_agents-as-team-not-tools"
       ],
       "raw_ref": "raw/essays/karpathy--llm-wiki--2026-04.md"
+    },
+    {
+      "path": "insights/ins_lock-s-ceo-evaluation-rubric.md",
+      "title": "Evaluate CEOs and senior operators on Lovable, Obsessed, Chip-on-shoulder, Knowledge, Student",
+      "id": "ins_lock-s-ceo-evaluation-rubric",
+      "operator": "Brian Halligan",
+      "operator_role": "Co-founder & former CEO, HubSpot; in-house CEO coach, Sequoia",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "CEO craft, the LOCK(S) algorithm, distribution as the new moat",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "leadership",
+        "founder-operator",
+        "hiring"
+      ],
+      "lifecycle": [
+        "hiring-team-design"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_hire-spiky-not-un-weakness"
+      ],
+      "raw_ref": "raw/podcasts/brian-halligan--ceo-craft-lock-algorithm--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_long-term-holdouts-30-40-evaporate.md",
+      "title": "30–40% of growth experiments with short-term lift show no incremental value at one year",
+      "id": "ins_long-term-holdouts-30-40-evaporate",
+      "operator": "Archie Abrams",
+      "operator_role": "VP Product & Growth, Shopify",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Churn optimization & long-term holdout experiments",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "growth-demand",
+        "product"
+      ],
+      "lifecycle": [
+        "growth-loops",
+        "attribution-measurement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 5, specificity: 5, evidence: 5, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_absolute-counts-over-conversion-rates"
+      ],
+      "raw_ref": "raw/podcasts/archie-abrams--churn-optimization-shopify--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_make-intuition-explicit.md",
+      "title": "Force intuitions into explicit predictions so you can find out where you are wrong",
+      "id": "ins_make-intuition-explicit",
+      "operator": "Annie Duke",
+      "operator_role": "Author, Thinking in Bets and Quit; former WSOP poker champion",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Decision quality, explicit thinking, feedback loops",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "leadership",
+        "research-discovery"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "process-cadence"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_kill-criteria-make-pre-mortems-real",
+        "ins_no-such-thing-as-long-feedback-loop"
+      ],
+      "raw_ref": "raw/podcasts/annie-duke--decision-quality-explicit-thinking--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_make-the-implicit-explicit.md",
+      "title": "In every meeting, name the why, the decider, the criterion, and the informed",
+      "id": "ins_make-the-implicit-explicit",
+      "operator": "Claire Hughes Johnson",
+      "operator_role": "Former COO, Stripe; author, Scaling People",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Scaling people, the company operating system, force for positive momentum",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "leadership",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "process-cadence"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_force-for-positive-momentum",
+        "ins_make-intuition-explicit"
+      ],
+      "raw_ref": "raw/podcasts/claire-hughes-johnson--scaling-people--2026-04-28.md"
     },
     {
       "path": "insights/ins_manager-skill-not-technical.md",
@@ -96,6 +1481,571 @@
         "ins_progressive-trust-onboarding"
       ],
       "raw_ref": "raw/podcasts/claire-vo--openclaw-agents-as-team--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_marginal-user-methodology.md",
+      "title": "Design for the marginal user — the person on the cusp of converting in the worst conditions",
+      "id": "ins_marginal-user-methodology",
+      "operator": "Adriel Frederick",
+      "operator_role": "Former growth lead, Lyft; former growth, Facebook",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Marginal users, human-in-the-loop algorithms, growth discipline",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "growth-demand",
+        "product",
+        "research-discovery"
+      ],
+      "lifecycle": [
+        "growth-loops",
+        "onboarding-activation"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_understand-then-identify-then-execute",
+        "ins_lead-bullets-and-cannonballs"
+      ],
+      "raw_ref": "raw/podcasts/adriel-frederick--marginal-user-algorithms-growth-discipline--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_most-generous-interpretation.md",
+      "title": "Adopt the Most Generous Interpretation of frustrating behaviour to find the real intervention",
+      "id": "ins_most-generous-interpretation",
+      "operator": "Becky Kennedy",
+      "operator_role": "Clinical psychologist; founder, Good Inside",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Good Inside leadership, repair, MGI, behavior vs identity",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "leadership",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "process-cadence"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_separate-behavior-from-identity",
+        "ins_repair-as-primary-relationship-strategy"
+      ],
+      "raw_ref": "raw/podcasts/becky-kennedy--good-inside-leadership--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_name-the-shift-concisely.md",
+      "title": "Compress the shift to 1–3 words even when it loses fidelity",
+      "id": "ins_name-the-shift-concisely",
+      "operator": "Andy Raskin",
+      "operator_role": "Strategic narrative consultant; author of \"The Greatest Sales Deck I've Ever Seen\"",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Andy Raskin on the Strategic Narrative Framework — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "pmm",
+        "gtm"
+      ],
+      "lifecycle": [
+        "positioning",
+        "messaging-narrative"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_old-game-to-new-game-narrative"
+      ],
+      "raw_ref": "raw/podcasts/andy-raskin--strategic-narrative-framework--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_nlx-is-the-new-ux.md",
+      "title": "Natural language is the interface; conversation flow is the design surface",
+      "id": "ins_nlx-is-the-new-ux",
+      "operator": "Aparna Chennapragada",
+      "operator_role": "CPO, Microsoft (AI product strategy across productivity)",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "NLX is the new UX, living in the future, taste over roadmaps",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "design-ux",
+        "ai-native",
+        "product"
+      ],
+      "lifecycle": [
+        "process-cadence",
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 3, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_dont-box-the-model-in"
+      ],
+      "raw_ref": "raw/podcasts/aparna-chennapragada--nlx-is-the-new-ux--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_no-decision-is-the-real-competitor.md",
+      "title": "40–60% of B2B buyers say \"no decision\" — your real competitor is the status quo",
+      "id": "ins_no-decision-is-the-real-competitor",
+      "operator": "April Dunford",
+      "operator_role": "Founder, Ambient Strategy; author, Obviously Awesome / Sales Pitch",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Positioning, setup follow-through, differentiation",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "pmm",
+        "gtm"
+      ],
+      "lifecycle": [
+        "positioning",
+        "messaging-narrative",
+        "sales-enablement"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_setup-follow-through-pitch"
+      ],
+      "raw_ref": "raw/podcasts/april-dunford--positioning-setup-follow-through--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_no-growth-team-too-early.md",
+      "title": "Don't hire a head of growth before PMF or to fix a declining business",
+      "id": "ins_no-growth-team-too-early",
+      "operator": "Elena Verna",
+      "operator_role": "Growth advisor",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Elena Verna 3.0 — 10 growth tactics that never work — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "growth-demand",
+        "leadership"
+      ],
+      "lifecycle": [
+        "hiring-team-design",
+        "strategy-bets"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/podcasts/elena-verna--earned-channels-tactics-that-never-work--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_no-rebrands-for-growth.md",
+      "title": "Rebrands and homepage redesigns never produce performance lift",
+      "id": "ins_no-rebrands-for-growth",
+      "operator": "Elena Verna",
+      "operator_role": "Growth advisor",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Elena Verna 3.0 — 10 growth tactics that never work — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "growth-demand",
+        "pmm"
+      ],
+      "lifecycle": [
+        "positioning",
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/podcasts/elena-verna--earned-channels-tactics-that-never-work--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_no-such-thing-as-long-feedback-loop.md",
+      "title": "There is no such thing as a long feedback loop — find a correlated short signal",
+      "id": "ins_no-such-thing-as-long-feedback-loop",
+      "operator": "Annie Duke",
+      "operator_role": "Author, Thinking in Bets and Quit; former WSOP poker champion",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Decision quality, explicit thinking, feedback loops",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "research-discovery",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "process-cadence",
+        "attribution-measurement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_make-intuition-explicit"
+      ],
+      "raw_ref": "raw/podcasts/annie-duke--decision-quality-explicit-thinking--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_november-2025-coding-inflection.md",
+      "title": "November 2025 was the qualitative threshold — coding agents now almost always do what you tell them",
+      "id": "ins_november-2025-coding-inflection",
+      "operator": "Simon Willison",
+      "operator_role": "Co-creator of Django; creator of Datasette; independent AI/engineering writer",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Simon Willison on agentic engineering and the November 2025 inflection — Lenny's Podcast",
+      "source_date": "2026-04-02",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_build-for-next-model-not-current",
+        "ins_dark-factory-pattern"
+      ],
+      "raw_ref": "raw/podcasts/simon-willison--agentic-engineering-november-inflection--2026-04-02.md"
+    },
+    {
+      "path": "insights/ins_obstacles-as-gates-not-problems.md",
+      "title": "Frame features as obstacles to a new game, not problems to be solved",
+      "id": "ins_obstacles-as-gates-not-problems",
+      "operator": "Andy Raskin",
+      "operator_role": "Strategic narrative consultant",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Andy Raskin on the Strategic Narrative Framework — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "pmm",
+        "gtm"
+      ],
+      "lifecycle": [
+        "positioning",
+        "messaging-narrative"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_old-game-to-new-game-narrative"
+      ],
+      "raw_ref": "raw/podcasts/andy-raskin--strategic-narrative-framework--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_old-game-to-new-game-narrative.md",
+      "title": "Sell the world-shift, not the product comparison",
+      "id": "ins_old-game-to-new-game-narrative",
+      "operator": "Andy Raskin",
+      "operator_role": "Strategic narrative consultant; author of \"The Greatest Sales Deck I've Ever Seen\"",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Andy Raskin on the Strategic Narrative Framework — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "pmm",
+        "gtm"
+      ],
+      "lifecycle": [
+        "positioning",
+        "messaging-narrative"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_name-the-shift-concisely",
+        "ins_obstacles-as-gates-not-problems"
+      ],
+      "raw_ref": "raw/podcasts/andy-raskin--strategic-narrative-framework--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_open-coding-then-axial-coding.md",
+      "title": "Sample 100+ traces, write one free-form note per trace, let an LLM cluster the notes — humans first, machines second",
+      "id": "ins_open-coding-then-axial-coding",
+      "operator": "Hamel Husain & Shreya Shankar",
+      "operator_role": "Independent ML consultant and Berkeley PhD researcher",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Evals as error analysis, the benevolent dictator, LLM judges",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "ai-native",
+        "research-discovery",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_evals-are-data-analysis-on-llm-apps",
+        "ins_benevolent-dictator-not-committee"
+      ],
+      "raw_ref": "raw/podcasts/hamel-husain-shreya-shankar--evals-error-analysis--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_outcomes-pricing-restructures-saas.md",
+      "title": "Agents push SaaS from per-seat to outcomes-based pricing; the incentive flip changes everything",
+      "id": "ins_outcomes-pricing-restructures-saas",
+      "operator": "Bret Taylor",
+      "operator_role": "Chair, OpenAI; ex-co-CEO Salesforce; ex-CTO Meta",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Agent futures, outcomes-based pricing, Google Local to Maps",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "gtm",
+        "strategy-bets",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "pricing-packaging",
+        "strategy-bets"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_economic-turing-test-for-ai"
+      ],
+      "raw_ref": "raw/podcasts/bret-taylor--agents-outcomes-pricing--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_pain-solution-proof-interleaved-pitch.md",
+      "title": "Pitch a vision as pain → solution → proof, interleaved per beat — not three sequential acts",
+      "id": "ins_pain-solution-proof-interleaved-pitch",
+      "operator": "Mihika Kapoor",
+      "operator_role": "Product manager (design-engineering hybrid), Figma",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Vision, conviction, building hype, scope is the world",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "pmm",
+        "product",
+        "gtm"
+      ],
+      "lifecycle": [
+        "messaging-narrative",
+        "sales-enablement",
+        "launch"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_setup-follow-through-pitch"
+      ],
+      "raw_ref": "raw/podcasts/mihika-kapoor--zero-to-one-vision-conviction-hype--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_personal-pattern-hoarding.md",
+      "title": "Hoard a personal repository of things that worked — coding agents will recombine them",
+      "id": "ins_personal-pattern-hoarding",
+      "operator": "Simon Willison",
+      "operator_role": "Independent AI/engineering writer; co-creator of Django",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Simon Willison on agentic engineering and the November 2025 inflection — Lenny's Podcast",
+      "source_date": "2026-04-02",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_llm-wiki-pattern"
+      ],
+      "raw_ref": "raw/podcasts/simon-willison--agentic-engineering-november-inflection--2026-04-02.md"
+    },
+    {
+      "path": "insights/ins_pm-should-not-ship-at-scale.md",
+      "title": "At scale, PMs should up-level the why and what; not ship more features",
+      "id": "ins_pm-should-not-ship-at-scale",
+      "operator": "Amol Avasare",
+      "operator_role": "Head of Growth, Anthropic",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Anthropic growth, CASH, and the squeezed PM",
+      "source_date": "2026-04-05",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "product",
+        "leadership"
+      ],
+      "lifecycle": [
+        "process-cadence",
+        "hiring-team-design"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_squeezed-pm-thesis"
+      ],
+      "raw_ref": "raw/podcasts/amol-avasare--anthropic-growth-cash--2026-04-05.md"
+    },
+    {
+      "path": "insights/ins_pocket-veto-large-companies.md",
+      "title": "Be explicit about what's not up for debate; the pocket veto kills large-company AI work",
+      "id": "ins_pocket-veto-large-companies",
+      "operator": "Jeetu Patel",
+      "operator_role": "Chief Product Officer and President, Cisco",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Jeetu Patel — Turning Cisco AI-first — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "leadership",
+        "gtm"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_innovation-is-a-choice"
+      ],
+      "raw_ref": "raw/podcasts/jeetu-patel--cisco-ai-first-transformation--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_post-training-as-the-moat.md",
+      "title": "The economic moat in AI is post-training on proprietary data, not pre-training a base model",
+      "id": "ins_post-training-as-the-moat",
+      "operator": "Asha Sharma",
+      "operator_role": "CVP, Microsoft AI Platform",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Asha Sharma — Product as organism, post-training, agentic society — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "ai-native",
+        "product",
+        "gtm"
+      ],
+      "lifecycle": [
+        "strategy-bets"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 4, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_product-as-organism",
+        "ins_seasons-not-roadmaps"
+      ],
+      "raw_ref": "raw/podcasts/asha-sharma--product-as-organism--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_prds-replaced-by-metrics-and-principles.md",
+      "title": "Replace PRDs with weekly metrics readouts plus a written team-principles doc",
+      "id": "ins_prds-replaced-by-metrics-and-principles",
+      "operator": "Cat Wu",
+      "operator_role": "Head of Product, Claude Code + Co-work, Anthropic",
+      "source_url": "https://www.youtube.com/watch?v=PplmzlgE0kg",
+      "source_type": "podcast",
+      "source_title": "How Anthropic's product team moves faster than anyone else — Lenny's Podcast",
+      "source_date": "2026-04-27",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "product",
+        "leadership"
+      ],
+      "lifecycle": [
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_research-preview-trust-cadence",
+        "ins_engineers-with-product-taste"
+      ],
+      "raw_ref": "raw/podcasts/cat-wu--anthropic-product-team--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_product-as-organism.md",
+      "title": "Treat the product as a living organism with a metabolism, not a shipped artifact",
+      "id": "ins_product-as-organism",
+      "operator": "Asha Sharma",
+      "operator_role": "CVP, Microsoft AI Platform",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Asha Sharma — Product as organism, post-training, agentic society — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "product",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "strategy-bets"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_post-training-as-the-moat"
+      ],
+      "raw_ref": "raw/podcasts/asha-sharma--product-as-organism--2026-04-28.md"
     },
     {
       "path": "insights/ins_progressive-trust-onboarding.md",
@@ -129,6 +2079,33 @@
       "raw_ref": "raw/podcasts/claire-vo--openclaw-agents-as-team--2026-04-28.md"
     },
     {
+      "path": "insights/ins_quality-as-growth-lever.md",
+      "title": "Brand and quality are growth levers, not constraints on growth",
+      "id": "ins_quality-as-growth-lever",
+      "operator": "Amole Naik",
+      "operator_role": "Head of Growth, Anthropic",
+      "source_url": "https://www.youtube.com/watch?v=k-H4nsOTuxU",
+      "source_type": "podcast",
+      "source_title": "Anthropic is automating its own growth — Lenny's Podcast",
+      "source_date": "2026-04-27",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "growth-demand",
+        "pmm"
+      ],
+      "lifecycle": [
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_friction-as-feature"
+      ],
+      "raw_ref": "raw/podcasts/amole-naik--anthropic-automating-growth--2026-04-27.md"
+    },
+    {
       "path": "insights/ins_rebuild-gtm-around-ai.md",
       "title": "Rebuild GTM around AI; do not integrate AI into existing GTM",
       "id": "ins_rebuild-gtm-around-ai",
@@ -159,9 +2136,630 @@
         "ins_manager-skill-not-technical"
       ],
       "raw_ref": "raw/threads/kieran-flanagan--no-longer-a-marketer--2026-05-01.md"
+    },
+    {
+      "path": "insights/ins_red-green-tdd-shorthand-for-agents.md",
+      "title": "Encode jargon shorthand once, save tokens forever",
+      "id": "ins_red-green-tdd-shorthand-for-agents",
+      "operator": "Simon Willison",
+      "operator_role": "Independent AI/engineering writer; co-creator of Django",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Simon Willison on agentic engineering and the November 2025 inflection — Lenny's Podcast",
+      "source_date": "2026-04-02",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 3, specificity: 5, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_personal-pattern-hoarding"
+      ],
+      "raw_ref": "raw/podcasts/simon-willison--agentic-engineering-november-inflection--2026-04-02.md"
+    },
+    {
+      "path": "insights/ins_remove-features-as-models-improve.md",
+      "title": "When a new model lands, re-read the system prompt and remove crutches",
+      "id": "ins_remove-features-as-models-improve",
+      "operator": "Cat Wu",
+      "operator_role": "Head of Product, Claude Code + Co-work, Anthropic",
+      "source_url": "https://www.youtube.com/watch?v=PplmzlgE0kg",
+      "source_type": "podcast",
+      "source_title": "How Anthropic's product team moves faster than anyone else — Lenny's Podcast",
+      "source_date": "2026-04-27",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "product",
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "workflow",
+      "score": "{ originality: 5, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_build-products-that-dont-yet-work"
+      ],
+      "raw_ref": "raw/podcasts/cat-wu--anthropic-product-team--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_repair-as-primary-relationship-strategy.md",
+      "title": "Secure relationships are built by repair after rupture, not by avoiding rupture",
+      "id": "ins_repair-as-primary-relationship-strategy",
+      "operator": "Becky Kennedy",
+      "operator_role": "Clinical psychologist; founder, Good Inside",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Good Inside leadership, repair, MGI, behavior vs identity",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "leadership",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "process-cadence",
+        "hiring-team-design"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_separate-behavior-from-identity",
+        "ins_most-generous-interpretation"
+      ],
+      "raw_ref": "raw/podcasts/becky-kennedy--good-inside-leadership--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_research-preview-trust-cadence.md",
+      "title": "Brand work as \"research preview\" to compress timelines from quarters to weeks",
+      "id": "ins_research-preview-trust-cadence",
+      "operator": "Cat Wu",
+      "operator_role": "Head of Product, Claude Code + Co-work, Anthropic",
+      "source_url": "https://www.youtube.com/watch?v=PplmzlgE0kg",
+      "source_type": "podcast",
+      "source_title": "How Anthropic's product team moves faster than anyone else — Lenny's Podcast",
+      "source_date": "2026-04-27",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "product",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "launch",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_prds-replaced-by-metrics-and-principles",
+        "ins_engineers-with-product-taste"
+      ],
+      "raw_ref": "raw/podcasts/cat-wu--anthropic-product-team--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_right-friction-beats-no-friction.md",
+      "title": "Keep friction that helps users understand the product; cut the rest",
+      "id": "ins_right-friction-beats-no-friction",
+      "operator": "Amol Avasare",
+      "operator_role": "Head of Growth, Anthropic (ex-Mercury, MasterClass)",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Anthropic growth, CASH, and the squeezed PM",
+      "source_date": "2026-04-05",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "growth-demand",
+        "product"
+      ],
+      "lifecycle": [
+        "onboarding-activation",
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_quality-as-growth-lever"
+      ],
+      "raw_ref": "raw/podcasts/amol-avasare--anthropic-growth-cash--2026-04-05.md"
+    },
+    {
+      "path": "insights/ins_seasons-not-roadmaps.md",
+      "title": "Plan in seasons keyed to secular changes, not 6-month roadmaps",
+      "id": "ins_seasons-not-roadmaps",
+      "operator": "Asha Sharma",
+      "operator_role": "CVP, Microsoft AI Platform",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Asha Sharma — Product as organism, post-training, agentic society — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "product",
+        "ai-native",
+        "leadership"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_product-as-organism"
+      ],
+      "raw_ref": "raw/podcasts/asha-sharma--product-as-organism--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_separate-behavior-from-identity.md",
+      "title": "When addressing a behavior, name explicitly that identity is not on trial",
+      "id": "ins_separate-behavior-from-identity",
+      "operator": "Becky Kennedy",
+      "operator_role": "Clinical psychologist; founder, Good Inside",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Good Inside leadership, repair, MGI, behavior vs identity",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "leadership",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "process-cadence"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_repair-as-primary-relationship-strategy",
+        "ins_most-generous-interpretation"
+      ],
+      "raw_ref": "raw/podcasts/becky-kennedy--good-inside-leadership--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_setup-follow-through-pitch.md",
+      "title": "Sales pitches need a Setup before the Follow-Through; most pitches skip the Setup",
+      "id": "ins_setup-follow-through-pitch",
+      "operator": "April Dunford",
+      "operator_role": "Founder, Ambient Strategy; author, Obviously Awesome / Sales Pitch",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Positioning, setup follow-through, differentiation",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "pmm",
+        "gtm"
+      ],
+      "lifecycle": [
+        "positioning",
+        "sales-enablement",
+        "messaging-narrative"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_no-decision-is-the-real-competitor"
+      ],
+      "raw_ref": "raw/podcasts/april-dunford--positioning-setup-follow-through--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_software-is-not-a-moat.md",
+      "title": "Software is not a moat — ecosystems, hardware, and distribution are",
+      "id": "ins_software-is-not-a-moat",
+      "operator": "Evan Spiegel",
+      "operator_role": "CEO and co-founder, Snap",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Evan Spiegel — Distribution, design as bottleneck — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "founder-craft",
+        "ai-native",
+        "gtm"
+      ],
+      "lifecycle": [
+        "strategy-bets"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_jtbd-as-agent-wiring-diagram",
+        "ins_design-as-bottleneck"
+      ],
+      "raw_ref": "raw/podcasts/evan-spiegel--snap-distribution-design-bottleneck--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_squeezed-pm-thesis.md",
+      "title": "Claude Code multiplies engineers 2–3x; PM and design become the bottleneck",
+      "id": "ins_squeezed-pm-thesis",
+      "operator": "Amol Avasare",
+      "operator_role": "Head of Growth, Anthropic",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Anthropic growth, CASH, and the squeezed PM",
+      "source_date": "2026-04-05",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "leadership",
+        "product",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "hiring-team-design",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_cash-four-stage-growth-automation",
+        "ins_underfund-deliberately",
+        "ins_pm-should-not-ship-at-scale"
+      ],
+      "raw_ref": "raw/podcasts/amol-avasare--anthropic-growth-cash--2026-04-05.md"
+    },
+    {
+      "path": "insights/ins_taste-as-scarce-skill.md",
+      "title": "Taste is the scarce skill in an AI-native team",
+      "id": "ins_taste-as-scarce-skill",
+      "operator": "Cat Wu",
+      "operator_role": "Head of Product, Claude Code + Co-work, Anthropic",
+      "source_url": "https://www.youtube.com/watch?v=PplmzlgE0kg",
+      "source_type": "podcast",
+      "source_title": "How Anthropic's product team moves faster than anyone else — Lenny's Podcast",
+      "source_date": "2026-04-27",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "product",
+        "ai-native",
+        "leadership"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "hiring-team-design"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_engineers-with-product-taste"
+      ],
+      "raw_ref": "raw/podcasts/cat-wu--anthropic-product-team--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_three-design-hiring-archetypes.md",
+      "title": "Hire across three archetypes: block-shape generalist, deep specialist, craft new-grad",
+      "id": "ins_three-design-hiring-archetypes",
+      "operator": "Jenny Wen",
+      "operator_role": "Head of Design, Claude Co-work, Anthropic",
+      "source_url": "https://www.youtube.com/watch?v=eh8bcBIAAFo",
+      "source_type": "podcast",
+      "source_title": "The design process is dead. Here's what's replacing it. — Lenny's Podcast",
+      "source_date": "2026-04-27",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "design-ux",
+        "leadership"
+      ],
+      "lifecycle": [
+        "hiring-team-design"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_design-pie-chart-shifted"
+      ],
+      "raw_ref": "raw/podcasts/jenny-wen--design-process-is-dead--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_three-divergent-pr-faqs.md",
+      "title": "Bring three divergent PR-FAQs to a strategy decision, not one",
+      "id": "ins_three-divergent-pr-faqs",
+      "operator": "Anuj Rathi",
+      "operator_role": "VP Product (former Swiggy, Jupiter); product leader, India marketplaces",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Anuj Rathi on Full-Stack PM, Working Backwards, India Marketplace Dynamics — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "product",
+        "leadership"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/podcasts/anuj-rathi--full-stack-pm-working-backwards--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_top-performers-benefit-disproportionately.md",
+      "title": "AI tools widen the spread between top and bottom performers — invest in top performers",
+      "id": "ins_top-performers-benefit-disproportionately",
+      "operator": "Sherwin Wu",
+      "operator_role": "Head of Engineering, OpenAI API and Developer Platform",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Sherwin Wu — Codex inside OpenAI, engineers as managers — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "leadership",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "hiring-team-design"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_engineers-with-product-taste"
+      ],
+      "raw_ref": "raw/podcasts/sherwin-wu--openai-codex-engineers-as-managers--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_two-week-engineer-as-mini-pm.md",
+      "title": "Use 2 engineering weeks as the threshold for engineer-owned vs PM-owned work",
+      "id": "ins_two-week-engineer-as-mini-pm",
+      "operator": "Amole Naik",
+      "operator_role": "Head of Growth, Anthropic",
+      "source_url": "https://www.youtube.com/watch?v=k-H4nsOTuxU",
+      "source_type": "podcast",
+      "source_title": "Anthropic is automating its own growth — Lenny's Podcast",
+      "source_date": "2026-04-27",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "product",
+        "leadership"
+      ],
+      "lifecycle": [
+        "process-cadence",
+        "hiring-team-design"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 3, specificity: 5, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_engineers-with-product-taste"
+      ],
+      "raw_ref": "raw/podcasts/amole-naik--anthropic-automating-growth--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_underfund-deliberately.md",
+      "title": "Underfund teams deliberately so AI substrate, not headcount, absorbs the work",
+      "id": "ins_underfund-deliberately",
+      "operator": "Boris Cherny",
+      "operator_role": "Head of Claude Code, Anthropic",
+      "source_url": "https://www.youtube.com/watch?v=We7BZVKbCVw",
+      "source_type": "podcast",
+      "source_title": "What happens after coding is solved",
+      "source_date": "2026-04-27",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "leadership",
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "hiring-team-design",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_agents-as-team-not-tools",
+        "ins_manager-skill-not-technical"
+      ],
+      "raw_ref": "raw/podcasts/boris-cherny--claude-code-after-coding-solved--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_understand-then-identify-then-execute.md",
+      "title": "Lead with understand-work, not identify-and-justify — data informs understanding, not the reverse",
+      "id": "ins_understand-then-identify-then-execute",
+      "operator": "Bangaly Kaba",
+      "operator_role": "Former Head of Growth, Instacart; ex-Instagram, Facebook",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Understand work, adjacent user theory, impact frame",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "growth-demand",
+        "product",
+        "research-discovery"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "growth-loops"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/podcasts/bangaly-kaba--understand-work-impact-frame--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_use-case-epiphany-as-marketing-job.md",
+      "title": "When awareness is solved, marketing's real job is the use-case epiphany",
+      "id": "ins_use-case-epiphany-as-marketing-job",
+      "operator": "Krithika Shankarraman",
+      "operator_role": "EIR, Thrive Capital; ex-VP Marketing OpenAI; first marketer at Stripe and Retool",
+      "source_url": "https://www.youtube.com/watch?v=QaDsk4iH1aw",
+      "source_type": "podcast",
+      "source_title": "Growth tactics from OpenAI and Stripe's first marketer — Lenny's Podcast",
+      "source_date": "2026-04-27",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "pmm",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "messaging-narrative",
+        "onboarding-activation"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_date-diagnostic-framework",
+        "ins_comb-shape-pmm"
+      ],
+      "raw_ref": "raw/podcasts/krithika-shankarraman--openai-stripe-first-marketer--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_use-new-tools-as-new-tools.md",
+      "title": "Use new tools as new tools, not as old tools — be ambitious and retry from scratch",
+      "id": "ins_use-new-tools-as-new-tools",
+      "operator": "Benjamin Mann",
+      "operator_role": "Co-founder, Anthropic",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "The Economic Turing Test, mission over money, transformative AI",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "ai-native",
+        "engineering",
+        "leadership"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_economic-turing-test-for-ai",
+        "ins_dont-box-the-model-in"
+      ],
+      "raw_ref": "raw/podcasts/benjamin-mann--economic-turing-test--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_willingness-to-pay-by-segment.md",
+      "title": "Same service, different segment, 5x price — the variable is buyer economics, not effort",
+      "id": "ins_willingness-to-pay-by-segment",
+      "operator": "Andrew Wilkinson",
+      "operator_role": "Founder, Tiny; co-founder MetaLab",
+      "source_url": "https://www.lennysnewsletter.com/podcast",
+      "source_type": "podcast",
+      "source_title": "Andrew Wilkinson on Niche Markets, Lazy Leadership, and AI Automation — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "pmm",
+        "founder-craft"
+      ],
+      "lifecycle": [
+        "pricing-packaging",
+        "positioning"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_fish-where-the-fish-are"
+      ],
+      "raw_ref": "raw/podcasts/andrew-wilkinson--niche-markets-lazy-leadership--2026-04-28.md"
     }
   ],
   "operators": [
+    {
+      "path": "operators/adriel-frederick/README.md",
+      "title": "Adriel Frederick",
+      "name": "Adriel Frederick",
+      "slug": "adriel-frederick",
+      "roles": [
+        "Former growth lead, Lyft",
+        "Former growth, Facebook",
+        "Former Instagram"
+      ],
+      "domains_active": [
+        "growth-demand",
+        "product",
+        "research-discovery"
+      ],
+      "captured_first": "2026-05-01",
+      "external": "{}"
+    },
+    {
+      "path": "operators/amol-avasare/README.md",
+      "title": "Amol Avasare",
+      "name": "Amol Avasare",
+      "slug": "amol-avasare",
+      "roles": [
+        "Head of Growth, Anthropic",
+        "Former growth lead, Mercury",
+        "Former growth, MasterClass"
+      ],
+      "domains_active": [
+        "growth-demand",
+        "ai-native",
+        "product"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/amole-naik/README.md",
+      "title": "Amole Naik",
+      "name": "Amole Naik",
+      "slug": "amole-naik",
+      "roles": [
+        "Head of Growth, Anthropic",
+        "Former Mercury, MasterClass"
+      ],
+      "domains_active": [
+        "growth-demand",
+        "ai-native",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
     {
       "path": "operators/andrej-karpathy/README.md",
       "title": "Andrej Karpathy",
@@ -176,6 +2774,330 @@
         "ai-native",
         "engineering",
         "research"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/andrew-wilkinson/README.md",
+      "title": "Andrew Wilkinson",
+      "name": "Andrew Wilkinson",
+      "slug": "andrew-wilkinson",
+      "roles": [
+        "Founder, Tiny (bootstrapped holding company)",
+        "Co-founder, MetaLab"
+      ],
+      "domains_active": [
+        "founder-craft",
+        "gtm",
+        "pmm"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/andy-raskin/README.md",
+      "title": "Andy Raskin",
+      "name": "Andy Raskin",
+      "slug": "andy-raskin",
+      "roles": [
+        "Strategic narrative consultant for B2B founders and CMOs",
+        "Author of \"The Greatest Sales Deck I've Ever Seen\" (2M+ views)"
+      ],
+      "domains_active": [
+        "pmm",
+        "gtm"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/annie-duke/README.md",
+      "title": "Annie Duke",
+      "name": "Annie Duke",
+      "slug": "annie-duke",
+      "roles": [
+        "Author, Thinking in Bets",
+        "Author, Quit",
+        "Former World Series of Poker champion"
+      ],
+      "domains_active": [
+        "leadership",
+        "research-discovery",
+        "founder-operator"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/anton-osika/README.md",
+      "title": "Anton Osika",
+      "name": "Anton Osika",
+      "slug": "anton-osika",
+      "roles": [
+        "Co-founder and CEO, Lovable",
+        "Creator, GPT Engineer (open-source)"
+      ],
+      "domains_active": [
+        "product",
+        "ai-native",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/anuj-rathi/README.md",
+      "title": "Anuj Rathi",
+      "name": "Anuj Rathi",
+      "slug": "anuj-rathi",
+      "roles": [
+        "VP Product, formerly Swiggy and Jupiter",
+        "Lenny's most-requested India product leader (2026 poll)"
+      ],
+      "domains_active": [
+        "product",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/aparna-chennapragada/README.md",
+      "title": "Aparna Chennapragada",
+      "name": "Aparna Chennapragada",
+      "slug": "aparna-chennapragada",
+      "roles": [
+        "CPO, Microsoft (AI product strategy, productivity)",
+        "Former CPO, Robinhood",
+        "Former VP of Product, Google"
+      ],
+      "domains_active": [
+        "product",
+        "design-ux",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/april-dunford/README.md",
+      "title": "April Dunford",
+      "name": "April Dunford",
+      "slug": "april-dunford",
+      "roles": [
+        "Founder, Ambient Strategy",
+        "Author, Obviously Awesome",
+        "Author, Sales Pitch"
+      ],
+      "domains_active": [
+        "pmm",
+        "gtm"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/archie-abrams/README.md",
+      "title": "Archie Abrams",
+      "name": "Archie Abrams",
+      "slug": "archie-abrams",
+      "roles": [
+        "VP Product & Growth, Shopify"
+      ],
+      "domains_active": [
+        "growth-demand",
+        "product"
+      ],
+      "captured_first": "2026-05-01",
+      "external": "{}"
+    },
+    {
+      "path": "operators/asha-sharma/README.md",
+      "title": "Asha Sharma",
+      "name": "Asha Sharma",
+      "slug": "asha-sharma",
+      "roles": [
+        "CVP, Microsoft AI Platform",
+        "Former Instacart, Porch Group, WhatsApp"
+      ],
+      "domains_active": [
+        "product",
+        "ai-native",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/ayo-omojola/README.md",
+      "title": "Ayo Omojola",
+      "name": "Ayo Omojola",
+      "slug": "ayo-omojola",
+      "roles": [
+        "Former Cash App / Cash Card lead, Square",
+        "Former Carbon Health (vertically integrated healthcare)",
+        "Active angel investor and advisor"
+      ],
+      "domains_active": [
+        "product",
+        "founder-craft",
+        "gtm"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/bangaly-kaba/README.md",
+      "title": "Bangaly Kaba",
+      "name": "Bangaly Kaba",
+      "slug": "bangaly-kaba",
+      "roles": [
+        "Former Head of Growth, Instacart",
+        "Former growth lead, Instagram",
+        "Former growth, Facebook"
+      ],
+      "domains_active": [
+        "growth-demand",
+        "product",
+        "research-discovery"
+      ],
+      "captured_first": "2026-05-01",
+      "external": "{}"
+    },
+    {
+      "path": "operators/becky-kennedy/README.md",
+      "title": "Becky Kennedy",
+      "name": "Becky Kennedy",
+      "slug": "becky-kennedy",
+      "roles": [
+        "Clinical psychologist",
+        "Founder, Good Inside"
+      ],
+      "domains_active": [
+        "leadership",
+        "founder-operator"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/benjamin-mann/README.md",
+      "title": "Benjamin Mann",
+      "name": "Benjamin Mann",
+      "slug": "benjamin-mann",
+      "roles": [
+        "Co-founder, Anthropic",
+        "Tech lead, product engineering, Anthropic",
+        "Former GPT-3 architect, OpenAI"
+      ],
+      "domains_active": [
+        "ai-native",
+        "engineering",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/boris-cherny/README.md",
+      "title": "Boris Cherny",
+      "name": "Boris Cherny",
+      "slug": "boris-cherny",
+      "roles": [
+        "Head of Claude Code, Anthropic"
+      ],
+      "domains_active": [
+        "ai-native",
+        "engineering",
+        "product",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/bret-taylor/README.md",
+      "title": "Bret Taylor",
+      "name": "Bret Taylor",
+      "slug": "bret-taylor",
+      "roles": [
+        "Chair, OpenAI",
+        "Co-founder & CEO, Sierra",
+        "Former co-CEO, Salesforce",
+        "Former CTO, Meta",
+        "Former lead, Google Maps"
+      ],
+      "domains_active": [
+        "gtm",
+        "strategy-bets",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/brian-balfour/README.md",
+      "title": "Brian Balfour",
+      "name": "Brian Balfour",
+      "slug": "brian-balfour",
+      "roles": [
+        "Founder & CEO, Reforge",
+        "Former VP Growth, HubSpot"
+      ],
+      "domains_active": [
+        "growth-demand",
+        "gtm",
+        "strategy-bets"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/brian-halligan/README.md",
+      "title": "Brian Halligan",
+      "name": "Brian Halligan",
+      "slug": "brian-halligan",
+      "roles": [
+        "Co-founder & former CEO, HubSpot (~20 years)",
+        "In-house CEO coach, Sequoia Capital"
+      ],
+      "domains_active": [
+        "leadership",
+        "founder-operator"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/cat-wu/README.md",
+      "title": "Cat Wu",
+      "name": "Cat Wu",
+      "slug": "cat-wu",
+      "roles": [
+        "Head of Product, Claude Code + Co-work, Anthropic"
+      ],
+      "domains_active": [
+        "product",
+        "ai-native",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/claire-hughes-johnson/README.md",
+      "title": "Claire Hughes Johnson",
+      "name": "Claire Hughes Johnson",
+      "slug": "claire-hughes-johnson",
+      "roles": [
+        "Former COO, Stripe",
+        "Author, Scaling People",
+        "Former VP, Google self-driving (Waymo) and Global Online Sales"
+      ],
+      "domains_active": [
+        "leadership",
+        "founder-operator"
       ],
       "captured_first": "2026-05-01",
       "external": ""
@@ -199,6 +3121,112 @@
       "external": ""
     },
     {
+      "path": "operators/elena-verna/README.md",
+      "title": "Elena Verna",
+      "name": "Elena Verna",
+      "slug": "elena-verna",
+      "roles": [
+        "Growth advisor (~50+ B2B SaaS clients)",
+        "Former head of growth at Dropbox, Miro, Amplitude, SurveyMonkey"
+      ],
+      "domains_active": [
+        "growth-demand",
+        "gtm",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/evan-spiegel/README.md",
+      "title": "Evan Spiegel",
+      "name": "Evan Spiegel",
+      "slug": "evan-spiegel",
+      "roles": [
+        "CEO and co-founder, Snap"
+      ],
+      "domains_active": [
+        "founder-craft",
+        "product",
+        "leadership",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/hamel-husain/README.md",
+      "title": "Hamel Husain",
+      "name": "Hamel Husain",
+      "slug": "hamel-husain",
+      "roles": [
+        "Independent ML consultant",
+        "Former ML engineer, GitHub",
+        "Former ML engineer, Airbnb"
+      ],
+      "domains_active": [
+        "ai-native",
+        "engineering",
+        "product"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/jeetu-patel/README.md",
+      "title": "Jeetu Patel",
+      "name": "Jeetu Patel",
+      "slug": "jeetu-patel",
+      "roles": [
+        "Chief Product Officer and President, Cisco",
+        "Former Box, former Documentum"
+      ],
+      "domains_active": [
+        "product",
+        "leadership",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/jenny-wen/README.md",
+      "title": "Jenny Wen",
+      "name": "Jenny Wen",
+      "slug": "jenny-wen",
+      "roles": [
+        "Head of Design, Claude Co-work, Anthropic",
+        "Former Director of Design, Figma",
+        "Former Dropbox, Square, Shopify"
+      ],
+      "domains_active": [
+        "design-ux",
+        "ai-native",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/jessica-fain/README.md",
+      "title": "Jessica Fain",
+      "name": "Jessica Fain",
+      "slug": "jessica-fain",
+      "roles": [
+        "VP Product, Webflow",
+        "Former product leader, Brightwheel",
+        "Former chief of staff to two CPOs at Slack (April Underwood, Tamar Yehoshua)",
+        "Former Box"
+      ],
+      "domains_active": [
+        "product",
+        "leadership",
+        "gtm"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
       "path": "operators/kieran-flanagan/README.md",
       "title": "Kieran Flanagan",
       "name": "Kieran Flanagan",
@@ -213,6 +3241,90 @@
         "pmm",
         "ai-native",
         "leadership"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/krithika-shankarraman/README.md",
+      "title": "Krithika Shankarraman",
+      "name": "Krithika Shankarraman",
+      "slug": "krithika-shankarraman",
+      "roles": [
+        "Executive in Residence, Thrive Capital",
+        "Former VP Marketing, OpenAI",
+        "First marketer at Stripe and Retool"
+      ],
+      "domains_active": [
+        "pmm",
+        "growth-demand",
+        "gtm"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/mihika-kapoor/README.md",
+      "title": "Mihika Kapoor",
+      "name": "Mihika Kapoor",
+      "slug": "mihika-kapoor",
+      "roles": [
+        "Product manager (design-engineering hybrid), Figma",
+        "Early PM, FigJam"
+      ],
+      "domains_active": [
+        "product",
+        "design-ux",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/sherwin-wu/README.md",
+      "title": "Sherwin Wu",
+      "name": "Sherwin Wu",
+      "slug": "sherwin-wu",
+      "roles": [
+        "Head of Engineering, OpenAI API and Developer Platform"
+      ],
+      "domains_active": [
+        "engineering",
+        "ai-native",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/shreya-shankar/README.md",
+      "title": "Shreya Shankar",
+      "name": "Shreya Shankar",
+      "slug": "shreya-shankar",
+      "roles": [
+        "PhD researcher, UC Berkeley"
+      ],
+      "domains_active": [
+        "ai-native",
+        "research-discovery",
+        "engineering"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/simon-willison/README.md",
+      "title": "Simon Willison",
+      "name": "Simon Willison",
+      "slug": "simon-willison",
+      "roles": [
+        "Co-creator, Django",
+        "Creator, Datasette",
+        "Independent AI / engineering writer"
+      ],
+      "domains_active": [
+        "ai-native",
+        "engineering"
       ],
       "captured_first": "2026-05-01",
       "external": ""
@@ -236,6 +3348,355 @@
       ]
     },
     {
+      "path": "raw/podcasts/adriel-frederick--marginal-user-algorithms-growth-discipline--2026-04-28.md",
+      "title": "Adriel Frederick on marginal users, human-in-the-loop algorithms, and growth discipline",
+      "type": "raw",
+      "source": "Lenny's Podcast (Dropbox archive)",
+      "guest": "Adriel Frederick",
+      "host": "Lenny Rachitsky",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (haiku-4-5 batch)",
+      "domain": "justcall",
+      "attribution": "verified",
+      "relevance_to_flywheel": "Marginal user methodology + human judgment in algorithmic systems + growth experiment portfolio discipline",
+      "relevance_tier": "HIGH",
+      "transcript_file": "lenny-dropbox/Adriel Frederick.txt"
+    },
+    {
+      "path": "raw/podcasts/amol-avasare--anthropic-growth-cash--2026-04-05.md",
+      "title": "Amol Avasare — Anthropic growth, CASH, and the squeezed PM",
+      "type": "raw",
+      "source": "Lenny's Podcast (Dropbox archive shared by Gaurav)",
+      "guest": "Amol Avasare (Head of Growth, Anthropic; ex-Mercury, MasterClass)",
+      "host": "Lenny Rachitsky",
+      "publication": "Lenny's Podcast",
+      "published": "2026-04-05",
+      "captured": "2026-04-28",
+      "captured_via": "Dropbox transcript bundle",
+      "domain": "justcall",
+      "attribution": "verified",
+      "related": [
+        "raw/podcasts/lenny/2026-04-28-amole-naik-anthropic-automating-growth.md",
+        "raw/podcasts/lenny/2026-04-27-cat-wu-anthropic-product-team.md",
+        "raw/podcasts/lenny/2026-04-28-boris-cherny-claude-code-after-coding-solved.md",
+        "concepts/ai-native.md",
+        "projects/flywheel.md"
+      ],
+      "transcript_file": "lenny-dropbox/Amol Avasare.txt",
+      "relevance_to_flywheel": "HIGH. Different person from Amole Naik — same Anthropic growth org, deeper on operating model. Confirms CASH (Claude Accelerates Sustainable Hypergrowth) is the canonical reference for substrate-led growth experimentation. Adds the \"squeezed PM\" thesis (engineering 2-3x'd by Claude Code, PM/design now bottleneck) and the four-stage automation loop (identify → build → test → analyze; cross-functional alignment is the holdout)."
+    },
+    {
+      "path": "raw/podcasts/amole-naik--anthropic-automating-growth--2026-04-27.md",
+      "title": "Anthropic is automating its own growth",
+      "type": "raw",
+      "source_url": "https://www.youtube.com/watch?v=k-H4nsOTuxU",
+      "guest": "Amole Naik (Head of Growth, Anthropic; ex-Mercury, Masterclass)",
+      "host": "Lenny Rachitsky",
+      "publication": "Lenny's Podcast",
+      "published": "2026-04-27",
+      "captured": "2026-04-28",
+      "captured_via": "yt-dlp auto-subtitles",
+      "domain": "justcall|personal",
+      "attribution": "verified",
+      "related": [
+        "concepts/principal-marketer-flywheel.md",
+        "concepts/ai-native.md",
+        "projects/flywheel.md",
+        "raw/podcasts/lenny/2026-04-28-boris-cherny-claude-code-after-coding-solved.md",
+        "raw/podcasts/lenny/2026-04-27-cat-wu-anthropic-product-team.md"
+      ],
+      "transcript_file": "k-H4nsOTuxU.transcript.txt",
+      "relevance_to_flywheel": "This is the closest episode to the flywheel pitch. CASH (Claude Accelerates Sustainable Hypergrowth) is the literal blueprint — automate growth experimentation across 4 stages with human-in-loop on stakeholder alignment + brand. Almost everything Kesava is building maps to a piece of Amole's stack."
+    },
+    {
+      "path": "raw/podcasts/andrew-wilkinson--niche-markets-lazy-leadership--2026-04-28.md",
+      "title": "Andrew Wilkinson - Niche Markets, Lazy Leadership, and AI Automation",
+      "type": "raw",
+      "source": "Lenny's Podcast (Dropbox archive)",
+      "guest": "Andrew Wilkinson",
+      "host": "Lenny Rachitsky",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (haiku-4-5 batch)",
+      "domain": "justcall",
+      "attribution": "verified",
+      "relevance_to_flywheel": "Founder-level startup idea formation, competitive positioning via niches vs. crowded markets, lazy leadership (delegation), AI automation of routine knowledge work.",
+      "relevance_tier": "HIGH",
+      "transcript_file": "lenny-dropbox/Andrew Wilkinson.txt"
+    },
+    {
+      "path": "raw/podcasts/andy-raskin--strategic-narrative-framework--2026-04-28.md",
+      "title": "Andy Raskin — Strategic Narrative Framework (Old Game to New Game)",
+      "type": "raw",
+      "source": "Lenny's Podcast (Dropbox archive)",
+      "guest": "Andy Raskin",
+      "host": "Lenny Rachitsky",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (haiku-4-5 batch)",
+      "domain": "justcall",
+      "attribution": "verified",
+      "relevance_to_flywheel": "Positioning framework, narrative structure, go-to-market messaging, CEO alignment, sales-marketing-product coherence.",
+      "relevance_tier": "HIGH",
+      "transcript_file": "lenny-dropbox/Andy Raskin.txt"
+    },
+    {
+      "path": "raw/podcasts/annie-duke--decision-quality-explicit-thinking--2026-04-28.md",
+      "title": "Annie Duke — Decision Quality, Explicit Thinking, Feedback Loops",
+      "type": "raw",
+      "source": "Lenny's Podcast (Dropbox archive)",
+      "guest": "Annie Duke",
+      "host": "Lenny Rachitsky",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (haiku-4-5 batch)",
+      "domain": "justcall",
+      "attribution": "verified",
+      "relevance_to_flywheel": "Decision quality, pre-mortems, shortening feedback loops, mental time travel, leadership communication (nevertheless).",
+      "relevance_tier": "HIGH",
+      "transcript_file": "lenny-dropbox/Annie Duke.txt"
+    },
+    {
+      "path": "raw/podcasts/anton-osika--lovable-ai-engineer--2026-04-28.md",
+      "title": "Anton Osika on Lovable — the last piece of software",
+      "type": "raw",
+      "source": "Lenny's Podcast (Dropbox archive)",
+      "guest": "Anton Osika",
+      "host": "Lenny Rachitsky",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (haiku-4-5 batch)",
+      "domain": "justcall|personal",
+      "attribution": "verified",
+      "relevance_to_flywheel": "AI-native product teams obsess over UX/taste over engineering; scaling via generalists + shared office lunches; prioritize bottleneck identification, not roadmap theater",
+      "relevance_tier": "HIGH",
+      "transcript_file": "lenny-dropbox/Anton Osika.txt"
+    },
+    {
+      "path": "raw/podcasts/anuj-rathi--full-stack-pm-working-backwards--2026-04-28.md",
+      "title": "anuj rathi — full-stack pm, working backwards, india marketplace dynamics",
+      "type": "raw",
+      "status": "active",
+      "last_updated": "2026-04-28",
+      "related": [],
+      "domain": "justcall",
+      "attribution": "direct"
+    },
+    {
+      "path": "raw/podcasts/aparna-chennapragada--nlx-is-the-new-ux--2026-04-28.md",
+      "title": "Aparna Chennapragada — NLX is the new UX, living in the future, taste over roadmaps",
+      "type": "raw",
+      "source": "Lenny's Podcast (Dropbox archive)",
+      "guest": "Aparna Chennapragada",
+      "host": "Lenny Rachitsky",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (haiku-4-5 batch)",
+      "domain": "justcall|personal",
+      "attribution": "verified",
+      "relevance_to_flywheel": "Natural language interface becomes UX substrate; taste + territorial thinking replaces roadmap theater; \"living one year in the future\" operationalized via Frontier program",
+      "relevance_tier": "HIGH",
+      "transcript_file": "lenny-dropbox/Aparna Chennapragada.txt"
+    },
+    {
+      "path": "raw/podcasts/april-dunford--positioning-framework--2026-04-28.md",
+      "title": "april dunford - positioning authority, 200+ companies",
+      "type": "raw",
+      "source": "lenny-dropbox",
+      "guest": "April Dunford",
+      "domain": "justcall",
+      "relevance_tier": "HIGH",
+      "captured": "2026-04-28"
+    },
+    {
+      "path": "raw/podcasts/april-dunford--positioning-setup-follow-through--2026-04-28.md",
+      "title": "april dunford — positioning, setup follow-through, differentiation",
+      "type": "raw",
+      "status": "active",
+      "last_updated": "2026-04-28",
+      "related": [],
+      "domain": "justcall",
+      "attribution": "direct"
+    },
+    {
+      "path": "raw/podcasts/archie-abrams--churn-optimization-shopify--2026-04-28.md",
+      "title": "archie abrams - churn optimization & long-term holdout experiments",
+      "type": "raw",
+      "source": "lenny-dropbox",
+      "guest": "Archie Abrams",
+      "domain": "justcall",
+      "relevance_tier": "HIGH",
+      "captured": "2026-04-28"
+    },
+    {
+      "path": "raw/podcasts/asha-sharma--product-as-organism--2026-04-28.md",
+      "title": "Asha Sharma — Product as organism, post-training loops, agentic society",
+      "type": "raw",
+      "source": "Lenny's Podcast (Dropbox archive)",
+      "guest": "Asha Sharma",
+      "host": "Lenny Rachitsky",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (haiku-4-5 batch)",
+      "domain": "justcall|personal",
+      "attribution": "verified",
+      "relevance_to_flywheel": "Post-training is new moat; product metabolism = data ingest + reward model + outcome tuning; org chart becomes work chart; all software will be model-forward",
+      "relevance_tier": "HIGH",
+      "transcript_file": "lenny-dropbox/Asha Sharma.txt"
+    },
+    {
+      "path": "raw/podcasts/ayo-omojola--differentiation-design-depth--2026-04-28.md",
+      "title": "ayo omojola — differentiation, design depth, going deep, regulated industries",
+      "type": "raw",
+      "status": "active",
+      "last_updated": "2026-04-28",
+      "related": [],
+      "domain": "justcall",
+      "attribution": "direct"
+    },
+    {
+      "path": "raw/podcasts/bangaly-kaba--understand-work-impact-frame--2026-04-28.md",
+      "title": "Bangaly Kaba — Understand work, adjacent user theory, impact frame (environment + skills)",
+      "type": "raw",
+      "source": "Lenny's Podcast (Dropbox archive)",
+      "guest": "Bangaly Kaba",
+      "host": "Lenny Rachitsky",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (haiku-4-5 batch)",
+      "domain": "justcall|personal",
+      "attribution": "verified",
+      "relevance_to_flywheel": "Understand before identify-execute; environment + skills = impact potential; adjacent user is the growth lever; taste is learned",
+      "relevance_tier": "HIGH",
+      "transcript_file": "lenny-dropbox/Bangaly Kaba.txt"
+    },
+    {
+      "path": "raw/podcasts/becky-kennedy--good-inside-leadership--2026-04-28.md",
+      "title": "Dr. Becky Kennedy — Good Inside leadership, repair, MGI, behavior vs identity",
+      "type": "raw",
+      "source": "Lenny's Podcast (Dropbox archive)",
+      "guest": "Dr. Becky Kennedy (clinical psychologist; founder, Good Inside)",
+      "host": "Lenny Rachitsky",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (sonnet batch)",
+      "domain": "justcall|personal",
+      "attribution": "verified",
+      "relevance_to_flywheel": "Operating-norm playbook for high-trust teams under pressure — separate behavior from identity, repair as primary relationship strategy, most generous interpretation, sturdy leadership. Direct read for managing the JustCall PMM team during the substrate transition and the exit window.",
+      "relevance_tier": "HIGH",
+      "transcript_file": "lenny-dropbox/Dr. Becky Kennedy.txt"
+    },
+    {
+      "path": "raw/podcasts/benjamin-mann--economic-turing-test--2026-04-28.md",
+      "title": "Benjamin Mann — Anthropic, the Economic Turing Test, mission over money, transformative AI",
+      "type": "raw",
+      "source": "Lenny's Podcast (Dropbox archive)",
+      "guest": "Benjamin Mann (co-founder Anthropic; tech lead product engineering; ex-OpenAI GPT-3 architect)",
+      "host": "Lenny Rachitsky",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (sonnet batch)",
+      "domain": "justcall|personal",
+      "attribution": "verified",
+      "relevance_to_flywheel": "Mann's Economic Turing Test gives a precise external benchmark for \"AI-native\" claims. His \"use the new tools as if they were new tools\" rule is the operating discipline Kesava is enforcing on the team. The mission-over-money frame is a calibration for Anthropic-class talent retention, applicable to clearPMM and to the why-Kesava-stays-on-flywheel framing.",
+      "relevance_tier": "HIGH",
+      "transcript_file": "lenny-dropbox/Benjamin Mann.txt"
+    },
+    {
+      "path": "raw/podcasts/boris-cherny--claude-code-after-coding-solved--2026-04-27.md",
+      "title": "What happens after coding is solved",
+      "type": "raw",
+      "source_url": "https://www.youtube.com/watch?v=We7BZVKbCVw",
+      "guest": "Boris Cherny (Head of Claude Code, Anthropic)",
+      "host": "Lenny Rachitsky",
+      "publication": "Lenny's Podcast",
+      "published": "2026-04-27",
+      "captured": "2026-04-28",
+      "captured_via": "yt-dlp auto-subtitles",
+      "domain": "justcall|personal",
+      "attribution": "verified",
+      "related": [
+        "concepts/principal-marketer-flywheel.md",
+        "concepts/ai-native.md",
+        "projects/flywheel.md",
+        "raw/podcasts/lenny/2026-04-27-cat-wu-anthropic-product-team.md"
+      ],
+      "transcript_file": "We7BZVKbCVw.transcript.txt",
+      "relevance_to_flywheel": "Direct parallel to flywheel — engineering's \"everyone codes\" → marketing's \"everyone is a builder\"; latent demand + bet-on-six-months-out + underfund mechanisms."
+    },
+    {
+      "path": "raw/podcasts/bret-taylor--agents-outcomes-pricing--2026-04-28.md",
+      "title": "Agent futures, outcomes-based pricing, Google Local to Maps",
+      "type": "raw",
+      "source": "Lenny's Podcast (Dropbox archive)",
+      "guest": "Bret Taylor (ex-CTO Meta, ex-co-CEO Salesforce, Chair OpenAI)",
+      "host": "Lenny Rachitsky",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (haiku-4-5 mass-v2)",
+      "domain": "justcall",
+      "attribution": "verified",
+      "relevance_to_flywheel": "agent-market-structure, pricing-model-shift",
+      "relevance_tier": "HIGH",
+      "transcript_file": "lenny-dropbox/Bret Taylor.txt"
+    },
+    {
+      "path": "raw/podcasts/brian-balfour--distribution-platform-cycles--2026-04-28.md",
+      "title": "Brian Balfour on distribution platform cycles and the ChatGPT opportunity",
+      "type": "raw",
+      "source": "Lenny's Podcast (Dropbox archive)",
+      "guest": "Brian Balfour",
+      "host": "Lenny Rachitsky",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (haiku-4-5 mass batch)",
+      "domain": "justcall",
+      "attribution": "verified",
+      "relevance_to_flywheel": "Distribution strategy, platform cycles, escape velocity, startup timing",
+      "relevance_tier": "HIGH",
+      "transcript_file": "lenny-dropbox/Brian Balfour.txt"
+    },
+    {
+      "path": "raw/podcasts/brian-halligan--ceo-craft-lock-algorithm--2026-04-28.md",
+      "title": "Brian Halligan — CEO craft, the LOCK(S) algorithm, distribution as the new moat",
+      "type": "raw",
+      "source": "Lenny's Podcast (Dropbox archive)",
+      "guest": "Brian Halligan (co-founder and longtime CEO, HubSpot; in-house CEO coach at Sequoia)",
+      "host": "Lenny Rachitsky",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (sonnet batch)",
+      "domain": "justcall|personal",
+      "attribution": "verified",
+      "relevance_to_flywheel": "Operator-grade hiring rubric (LOCK + Student); homegrown vs Big-Tech-import bias; distribution as the new moat thesis (echoes Spiegel/Fain); peer-room learning model that maps onto commons rooms.",
+      "relevance_tier": "MEDIUM",
+      "transcript_file": "lenny-dropbox/Brian Halligan.txt"
+    },
+    {
+      "path": "raw/podcasts/cat-wu--anthropic-product-team--2026-04-27.md",
+      "title": "How Anthropic's product team moves faster than anyone else",
+      "type": "raw",
+      "source_url": "https://www.youtube.com/watch?v=PplmzlgE0kg",
+      "guest": "Cat Wu (Head of Product, Claude Code + Co-work, Anthropic)",
+      "host": "Lenny Rachitsky",
+      "publication": "Lenny's Podcast",
+      "published": "2026-04-27",
+      "captured": "2026-04-28",
+      "captured_via": "yt-dlp auto-subtitles",
+      "domain": "justcall|personal",
+      "attribution": "verified",
+      "related": [
+        "concepts/principal-marketer-flywheel.md",
+        "concepts/ai-native.md",
+        "projects/flywheel.md",
+        "raw/articles/botros-2020-principal-engineer.md"
+      ],
+      "transcript_file": "PplmzlgE0kg.transcript.txt"
+    },
+    {
+      "path": "raw/podcasts/claire-hughes-johnson--scaling-people--2026-04-28.md",
+      "title": "Claire Hughes Johnson — scaling people, the company operating system, force for positive momentum",
+      "type": "raw",
+      "source": "Lenny's Podcast (Dropbox archive)",
+      "guest": "Claire Hughes Johnson (ex-COO Stripe, ex-VP Google self-driving / global online sales; author of \"Scaling People\")",
+      "host": "Lenny Rachitsky",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (sonnet batch)",
+      "domain": "justcall|personal",
+      "attribution": "verified",
+      "relevance_to_flywheel": "Direct external precedent for the operating-cadence layer of the flywheel substrate. CHJ's house metaphor (foundation / supporting beams / mechanicals), the operating-principles framework, and the \"force for positive momentum\" decision rule are all literal templates for the AI-native marketing team operating model the flywheel pitches.",
+      "relevance_tier": "HIGH",
+      "transcript_file": "lenny-dropbox/Claire Hughes Johnson.txt"
+    },
+    {
       "path": "raw/podcasts/claire-vo--openclaw-agents-as-team--2026-04-28.md",
       "title": "Claire Vo — OpenClaw, agents as a team, manager skill as the unlock",
       "type": "raw",
@@ -249,6 +3710,178 @@
       "relevance_to_flywheel": "Multi-agent specialization (one agent per role, not one for everything); manager skillset is the unlock; tunable plain-language onboarding; treat agents like employees with progressive trust.",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Claire Vo OpenClaw.txt"
+    },
+    {
+      "path": "raw/podcasts/elena-verna--earned-channels-tactics-that-never-work--2026-04-28.md",
+      "title": "Elena Verna 3.0 — 10 growth tactics that never work, earned channels, optionality",
+      "type": "raw",
+      "source": "Lenny's Podcast (Dropbox archive)",
+      "guest": "Elena Verna (head of growth at Dropbox / Miro / Amplitude / SurveyMonkey; advisor to ~50+ B2B SaaS)",
+      "host": "Lenny Rachitsky",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (sonnet batch)",
+      "domain": "justcall|personal",
+      "attribution": "verified",
+      "relevance_to_flywheel": "Direct PMM/growth read for JustCall flywheel and clearPMM offer. Elena's earned-channel thesis maps to the substrate-as-leverage frame; her experimentation-paralysis warning maps to \"every initiative an experiment\" failure mode in Q1 reorg; her optionality vs. titles thesis aligns with Kesava's exit ramp and 4-tier clearPMM structure.",
+      "relevance_tier": "HIGH",
+      "transcript_file": "lenny-dropbox/Elena Verna 3.0.txt"
+    },
+    {
+      "path": "raw/podcasts/evan-spiegel--snap-distribution-design-bottleneck--2026-04-28.md",
+      "title": "Evan Spiegel — Distribution is the moat, design is the bottleneck",
+      "type": "raw",
+      "source": "Lenny's Podcast (Dropbox archive)",
+      "guest": "Evan Spiegel (CEO and co-founder, Snap)",
+      "host": "Lenny Rachitsky",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (sonnet batch)",
+      "domain": "justcall|personal",
+      "attribution": "verified",
+      "relevance_to_flywheel": "Software-isn't-a-moat thesis; design as bottleneck for cohesion; jobs-to-be-done as the spine for agentizing whole workflows; flat innovation team coupled to large operational org.",
+      "relevance_tier": "HIGH",
+      "transcript_file": "lenny-dropbox/Evan Spiegel.txt"
+    },
+    {
+      "path": "raw/podcasts/hamel-husain-shreya-shankar--evals-error-analysis--2026-04-28.md",
+      "title": "Hamel Husain & Shreya Shankar — evals as error analysis, the benevolent dictator, LLM judges",
+      "type": "raw",
+      "source": "Lenny's Podcast (Dropbox archive)",
+      "guest": "Hamel Husain (consultant, ex-Github/Airbnb ML) + Shreya Shankar (Berkeley PhD; \"Who Validates the Validated?\" research)",
+      "host": "Lenny Rachitsky",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (sonnet batch)",
+      "domain": "justcall|personal",
+      "attribution": "verified",
+      "relevance_to_flywheel": "Evals are the load-bearing missing skill for the AI Growth lane. Hamel + Shreya's open-coding → axial-coding → LLM-as-judge pipeline is the literal substrate for measuring flywheel output quality, for the JustCall AI agents (Fin parallel), and for the contextDB review loop. Direct external benchmark for the marketing-substrate eval shape.",
+      "relevance_tier": "HIGH",
+      "transcript_file": "lenny-dropbox/Hamel Husain & Shreya Shankar.txt"
+    },
+    {
+      "path": "raw/podcasts/jeetu-patel--cisco-ai-first-transformation--2026-04-28.md",
+      "title": "Jeetu Patel — Turning Cisco AI-first, stamina over intellect, criticize in public",
+      "type": "raw",
+      "source": "Lenny's Podcast (Dropbox archive)",
+      "guest": "Jeetu Patel (Chief Product Officer and President, Cisco; ex-Box, ex-Documentum)",
+      "host": "Lenny Rachitsky",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (sonnet batch)",
+      "domain": "justcall|personal",
+      "attribution": "verified",
+      "relevance_to_flywheel": "Large-org AI transformation playbook (90K employees); permission-to-play strategy filter; treat AI as a teammate not a tool; criticize-in-public norm for high-trust teams.",
+      "relevance_tier": "HIGH",
+      "transcript_file": "lenny-dropbox/Jeetu Patel.txt"
+    },
+    {
+      "path": "raw/podcasts/jenny-wen--design-process-is-dead--2026-04-27.md",
+      "title": "The design process is dead. Here's what's replacing it.",
+      "type": "raw",
+      "source_url": "https://www.youtube.com/watch?v=eh8bcBIAAFo",
+      "guest": "Jenny Wen (Head of Design, Claude Co-work; ex-Figma Director, Dropbox, Square, Shopify)",
+      "host": "Lenny Rachitsky",
+      "publication": "Lenny's Podcast",
+      "published": "2026-04-27",
+      "captured": "2026-04-28",
+      "captured_via": "yt-dlp auto-subtitles",
+      "domain": "justcall|personal",
+      "attribution": "verified",
+      "related": [
+        "concepts/principal-marketer-flywheel.md",
+        "concepts/ai-native.md",
+        "projects/flywheel.md",
+        "raw/podcasts/lenny/2026-04-28-boris-cherny-claude-code-after-coding-solved.md"
+      ],
+      "transcript_file": "eh8bcBIAAFo.transcript.txt",
+      "relevance_to_flywheel": "Design's mock-and-prototype phase shrank from 60-70% to 30-40% of the role; the rest is jamming with engineers, polishing in code, and pointing to vision. Direct mirror of where PMM is heading."
+    },
+    {
+      "path": "raw/podcasts/jessica-fain--influencing-executives--2026-04-28.md",
+      "title": "Jessica Fain — How to influence executives (and why it's not politics)",
+      "type": "raw",
+      "source": "Lenny's Podcast (Dropbox archive)",
+      "guest": "Jessica Fain (VP Product at Webflow; ex-Brightwheel, ex-Slack chief of staff, ex-Box)",
+      "host": "Lenny Rachitsky",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (sonnet batch)",
+      "domain": "justcall|personal",
+      "attribution": "verified",
+      "relevance_to_flywheel": "Tactical playbook for upward influence — stakeholder discovery, incentive alignment, kill-things-to-build-trust, shrink-the-change, agents-as-junior-colleagues. Direct read for flywheel pitches to Deepan/CFO and for substrate teammate onboarding.",
+      "relevance_tier": "HIGH",
+      "transcript_file": "lenny-dropbox/Jessica Fain.txt"
+    },
+    {
+      "path": "raw/podcasts/krithika-shankarraman--openai-stripe-first-marketer--2026-04-27.md",
+      "title": "Growth tactics from OpenAI and Stripe's first marketer",
+      "type": "raw",
+      "source_url": "https://www.youtube.com/watch?v=QaDsk4iH1aw",
+      "guest": "Krithika Shankarraman (Executive in Residence, Thrive Capital; ex-VP Marketing OpenAI; first marketer at Stripe, Retool; ex-Google, Dropbox)",
+      "host": "Lenny Rachitsky",
+      "publication": "Lenny's Podcast",
+      "published": "2026-04-27",
+      "captured": "2026-04-28",
+      "captured_via": "yt-dlp auto-subtitles",
+      "domain": "justcall|personal",
+      "attribution": "verified",
+      "related": [
+        "concepts/principal-marketer-flywheel.md",
+        "concepts/operator-voice.md",
+        "projects/flywheel.md",
+        "raw/podcasts/lenny/2026-04-28-amole-naik-anthropic-automating-growth.md"
+      ],
+      "transcript_file": "QaDsk4iH1aw.transcript.txt",
+      "relevance_to_flywheel": "PMM operator voice from someone who was solo-marketer at Stripe for 3 years and first marketer at OpenAI. The DATE diagnostic framework is a direct competitor/replacement for playbook-thinking — and her chamoeleon-CMO + comb-shape framing maps to flywheel's hiring needs."
+    },
+    {
+      "path": "raw/podcasts/mihika-kapoor--zero-to-one-vision-conviction-hype--2026-04-28.md",
+      "title": "Mihika Kapoor — vision, conviction, building hype, scope is the world",
+      "type": "raw",
+      "source": "Lenny's Podcast (Dropbox archive)",
+      "guest": "Mihika Kapoor (design-engineering-PM hybrid at Figma; FigJam early PM; spearheading new product launch)",
+      "host": "Lenny Rachitsky",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (sonnet batch)",
+      "domain": "justcall|personal",
+      "attribution": "verified",
+      "relevance_to_flywheel": "Mihika's playbook for shipping zero-to-one inside a big company maps directly onto the flywheel build inside JustCall. Scope-is-the-world ownership, vision-as-pain+solution+proof, A-minus-idea conviction, and internal hype mechanics are the operating tactics Kesava is already using and needs to formalize for the team.",
+      "relevance_tier": "HIGH",
+      "transcript_file": "lenny-dropbox/Mihika Kapoor.txt"
+    },
+    {
+      "path": "raw/podcasts/sherwin-wu--openai-codex-engineers-as-managers--2026-04-28.md",
+      "title": "Sherwin Wu — Codex inside OpenAI, engineers as managers, build for where the model is going",
+      "type": "raw",
+      "source": "Lenny's Podcast (Dropbox archive)",
+      "guest": "Sherwin Wu (Head of Engineering, OpenAI API and Developer Platform)",
+      "host": "Lenny Rachitsky",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (sonnet batch)",
+      "domain": "justcall|personal",
+      "attribution": "verified",
+      "relevance_to_flywheel": "Direct engineering analog of the flywheel thesis — ICs become \"tech leads of agent fleets\"; context engineering > prompt tweaking; build for the next model not today's; one-person-billion-dollar startup creates B2B SaaS golden age.",
+      "relevance_tier": "HIGH",
+      "transcript_file": "lenny-dropbox/Sherwin Wu_V2.txt"
+    },
+    {
+      "path": "raw/podcasts/simon-willison--agentic-engineering-november-inflection--2026-04-02.md",
+      "title": "Simon Willison — Agentic engineering and the November inflection",
+      "type": "raw",
+      "source": "Lenny's Podcast (Dropbox archive shared by Gaurav)",
+      "guest": "Simon Willison (co-creator of Django, creator of Datasette, prolific blogger)",
+      "host": "Lenny Rachitsky",
+      "publication": "Lenny's Podcast",
+      "published": "2026-04-02",
+      "captured": "2026-04-28",
+      "captured_via": "Dropbox transcript bundle",
+      "domain": "justcall",
+      "attribution": "verified",
+      "related": [
+        "raw/podcasts/lenny/2026-04-28-boris-cherny-claude-code-after-coding-solved.md",
+        "raw/podcasts/lenny/2026-04-05-amol-avasare-anthropic-growth-cash.md",
+        "raw/podcasts/lenny/2026-04-28-jenny-wen-design-process-is-dead.md",
+        "concepts/ai-native.md",
+        "projects/flywheel.md"
+      ],
+      "transcript_file": "lenny-dropbox/Simon Willison.txt",
+      "relevance_to_flywheel": "HIGH. Simon names the November 2025 inflection point (GPT 5.1 + Opus 4.5 crossed \"almost always works\" threshold) and provides the cleanest articulation of the agentic engineering pattern stack — dark factory testing, hoarding patterns, Red/Green TDD, template starts. Also: explicit prediction that the bottleneck has migrated from coding to everywhere else, and the \"Challenger disaster\" warning on responsible deployment."
     },
     {
       "path": "raw/threads/kieran-flanagan--no-longer-a-marketer--2026-05-01.md",
