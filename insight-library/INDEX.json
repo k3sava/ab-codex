@@ -1,0 +1,270 @@
+{
+  "generated_at": "2026-05-01T17:42:46.425Z",
+  "counts": {
+    "insights": 5,
+    "operators": 3,
+    "raw_sources": 3
+  },
+  "insights": [
+    {
+      "path": "insights/ins_agents-as-team-not-tools.md",
+      "title": "Agents work when treated as a team, not a single super-tool",
+      "id": "ins_agents-as-team-not-tools",
+      "operator": "Claire Vo",
+      "operator_role": "3x CPO; founder of ChatPRD; host of How I AI",
+      "source_url": "https://www.lennysnewsletter.com/p/claire-vo-openclaw",
+      "source_type": "podcast",
+      "source_title": "Claire Vo on running 9 AI agents — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "ai-native",
+        "leadership",
+        "product"
+      ],
+      "lifecycle": [
+        "process-cadence",
+        "ai-workflow",
+        "hiring-team-design"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_progressive-trust-onboarding",
+        "ins_manager-skill-not-technical",
+        "ins_llm-wiki-pattern"
+      ],
+      "raw_ref": "raw/podcasts/claire-vo--openclaw-agents-as-team--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_llm-wiki-pattern.md",
+      "title": "An LLM should maintain a wiki, not re-derive knowledge per query",
+      "id": "ins_llm-wiki-pattern",
+      "operator": "Andrej Karpathy",
+      "operator_role": "AI researcher; ex-OpenAI, ex-Tesla; founder of Eureka Labs",
+      "source_url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+      "source_type": "essay",
+      "source_title": "LLM Wiki (gist)",
+      "source_date": "2026-04",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "ai-native",
+        "engineering",
+        "research"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_agents-as-team-not-tools"
+      ],
+      "raw_ref": "raw/essays/karpathy--llm-wiki--2026-04.md"
+    },
+    {
+      "path": "insights/ins_manager-skill-not-technical.md",
+      "title": "The unlock for AI agent productivity is management skill, not technical skill",
+      "id": "ins_manager-skill-not-technical",
+      "operator": "Claire Vo",
+      "operator_role": "3x CPO; founder of ChatPRD",
+      "source_url": "https://www.lennysnewsletter.com/p/claire-vo-openclaw",
+      "source_type": "podcast",
+      "source_title": "Claire Vo on running 9 AI agents — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "ai-native",
+        "leadership",
+        "founder-craft"
+      ],
+      "lifecycle": [
+        "hiring-team-design",
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_agents-as-team-not-tools",
+        "ins_progressive-trust-onboarding"
+      ],
+      "raw_ref": "raw/podcasts/claire-vo--openclaw-agents-as-team--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_progressive-trust-onboarding.md",
+      "title": "Onboard agents the way you onboard an EA: progressive trust, named tiers",
+      "id": "ins_progressive-trust-onboarding",
+      "operator": "Claire Vo",
+      "operator_role": "3x CPO; founder of ChatPRD",
+      "source_url": "https://www.lennysnewsletter.com/p/claire-vo-openclaw",
+      "source_type": "podcast",
+      "source_title": "Claire Vo on running 9 AI agents — Lenny's Podcast",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "ai-native",
+        "leadership",
+        "sales-cs"
+      ],
+      "lifecycle": [
+        "hiring-team-design",
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_agents-as-team-not-tools",
+        "ins_manager-skill-not-technical"
+      ],
+      "raw_ref": "raw/podcasts/claire-vo--openclaw-agents-as-team--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_rebuild-gtm-around-ai.md",
+      "title": "Rebuild GTM around AI; do not integrate AI into existing GTM",
+      "id": "ins_rebuild-gtm-around-ai",
+      "operator": "Kieran Flanagan",
+      "operator_role": "ex-CMO HubSpot; now leading Agentic GTM & Systems at HubSpot",
+      "source_url": "https://www.linkedin.com/posts/kieranjflanagan_im-officially-no-longer-a-marketer-and-activity-7455968776593801216-4Hwm",
+      "source_type": "thread",
+      "source_title": "I'm officially no longer a marketer",
+      "source_date": "2026-05-01",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "gtm",
+        "pmm",
+        "ai-native",
+        "leadership"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "process-cadence",
+        "hiring-team-design"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_agents-as-team-not-tools",
+        "ins_manager-skill-not-technical"
+      ],
+      "raw_ref": "raw/threads/kieran-flanagan--no-longer-a-marketer--2026-05-01.md"
+    }
+  ],
+  "operators": [
+    {
+      "path": "operators/andrej-karpathy/README.md",
+      "title": "Andrej Karpathy",
+      "name": "Andrej Karpathy",
+      "slug": "andrej-karpathy",
+      "roles": [
+        "Founder, Eureka Labs",
+        "Former Director of AI, Tesla",
+        "Founding member, OpenAI"
+      ],
+      "domains_active": [
+        "ai-native",
+        "engineering",
+        "research"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/claire-vo/README.md",
+      "title": "Claire Vo",
+      "name": "Claire Vo",
+      "slug": "claire-vo",
+      "roles": [
+        "Founder, ChatPRD",
+        "Host, How I AI (podcast)",
+        "Former CPO at LaunchDarkly, Optimizely, Color Genomics (3x CPO)"
+      ],
+      "domains_active": [
+        "ai-native",
+        "product",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/kieran-flanagan/README.md",
+      "title": "Kieran Flanagan",
+      "name": "Kieran Flanagan",
+      "slug": "kieran-flanagan",
+      "roles": [
+        "Lead, Agentic GTM & Systems group, HubSpot",
+        "Former CMO, HubSpot",
+        "Co-host, Marketing Against the Grain"
+      ],
+      "domains_active": [
+        "gtm",
+        "pmm",
+        "ai-native",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    }
+  ],
+  "raw_sources": [
+    {
+      "path": "raw/essays/karpathy--llm-wiki--2026-04.md",
+      "type": "raw",
+      "source": "gist",
+      "source_url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+      "author": "Andrej Karpathy",
+      "captured": "2026-04-11",
+      "attribution": "verified",
+      "tags": [
+        "llm-wiki",
+        "karpathy",
+        "obsidian",
+        "pattern",
+        "memex"
+      ]
+    },
+    {
+      "path": "raw/podcasts/claire-vo--openclaw-agents-as-team--2026-04-28.md",
+      "title": "Claire Vo — OpenClaw, agents as a team, manager skill as the unlock",
+      "type": "raw",
+      "source": "Lenny's Podcast (Dropbox archive)",
+      "guest": "Claire Vo (host of How I AI; 3x CPO; founder, ChatPRD)",
+      "host": "Lenny Rachitsky",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (sonnet batch)",
+      "domain": "justcall|personal",
+      "attribution": "verified",
+      "relevance_to_flywheel": "Multi-agent specialization (one agent per role, not one for everything); manager skillset is the unlock; tunable plain-language onboarding; treat agents like employees with progressive trust.",
+      "relevance_tier": "HIGH",
+      "transcript_file": "lenny-dropbox/Claire Vo OpenClaw.txt"
+    },
+    {
+      "path": "raw/threads/kieran-flanagan--no-longer-a-marketer--2026-05-01.md",
+      "title": "I'm officially no longer a marketer (Kieran Flanagan, 2026-05-01)",
+      "type": "raw",
+      "source": "https://www.linkedin.com/posts/kieranjflanagan_im-officially-no-longer-a-marketer-and-activity-7455968776593801216-4Hwm",
+      "author": "Kieran Flanagan (HubSpot)",
+      "captured": "2026-05-01",
+      "attribution": "direct",
+      "domain": "pmm",
+      "related": [
+        "concepts/agent-first-gtm-hubspot.md",
+        "concepts/principal-marketer-flywheel.md",
+        "concepts/ai-native-marketing-org.md",
+        "raw/articles/agent-first-gtm-hubspot-2026-04-28.md"
+      ]
+    }
+  ]
+}
