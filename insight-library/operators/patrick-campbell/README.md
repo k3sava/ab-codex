@@ -23,7 +23,7 @@ Patrick Campbell is the foremost data-driven practitioner of SaaS pricing strate
 - **Plg Pricing Strategy**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- ins_pricing-needs-weekly-customer-calls — Without weekly customer calls you have a guess, not a pricing strategy [Tier B]
 
 ## Sources captured
 - 2026-04 — `the-price-is-right-essential-tips-for-nailing-your-pricing-strategy.md` (artemis ingest)
