@@ -2,26 +2,24 @@
 name: Simon Willison
 slug: simon-willison
 roles:
-  - Co-creator, Django
-  - Creator, Datasette
-  - Independent AI / engineering writer
-domains_active: [ai-native, engineering]
+  - Co-creator of Django web framework
+  - creator of Datasette
+  - prolific open-source developer
+  - author of Agentic Engineering Patterns guide
+domains_active: [ai-native, engineering, design, leadership]
 captured_first: 2026-05-01
-external:
-  blog: https://simonwillison.net
-  github: https://github.com/simonw
 ---
 
 # Simon Willison
 
 ## Bio
-25-year engineer; co-creator of Django and creator of Datasette. Now writes daily about AI-mediated software development from a hands-on practitioner's seat. Maintains two prolific GitHub corpora — `simonw/tools` (~193 small artifacts) and `simonw/research` (~75 AI-driven research projects) — that double as substrate for his own coding agents. Best known for the Pelican-on-a-bicycle benchmark and a string of "what does it look like when nobody types code" essays.
+Simon Willison's foundational contribution is the taxonomy of how professionals actually work with LLMs, distinguishing between "vibe coding" (fast, loose, prompt-driven, no accountability for how code works) and what he initially called "vibe engineering" before settling on "agentic engineering" -- where seasoned professionals accelerate their work with LLMs while staying accountable for production-quality output. This distinction matters because it clarifies that the highest-value use of AI is not replacing expertise but amplifying it.
 
 ## Operating themes
-- **November 2025 was the threshold.** Coding crossed from "mostly works" to "almost always works."
-- **The bottleneck moved.** Code is cheap; ideation, prototyping, alignment, and verifiability are now the gating constraints.
-- **Hoard your work.** A personal corpus of artifacts compounds across years.
-- **Encode shorthand.** Use existing jargon the model already understands.
+- **Operating thesis:** AI tools amplify existing expertise -- the more skills and experience you bring, the better results you get -- and the discipline of working with coding agents is closer to engineering management than to programming.
+- **Building With Llms**
+- **Prompt Engineering**
+- **Agentic Ai Design**
 
 ## Cards
 - `ins_november-2025-coding-inflection` — Coding agents crossed the "almost always works" threshold in Nov 2025 [Tier A]
@@ -31,8 +29,6 @@ external:
 
 ## Sources captured
 - 2026-04-02 — Lenny's Podcast, "Agentic engineering and the November inflection" (`raw/podcasts/simon-willison--agentic-engineering-november-inflection--2026-04-02.md`)
-
-## External
-- https://simonwillison.net
-- https://github.com/simonw/tools
-- https://github.com/simonw/research
+- 2026-04 — `heres-how-i-use-llms-to-help-me-write-code.md` (artemis ingest)
+- 2026-04 — `vibe-engineering.md` (artemis ingest)
+- 2026-04 — `agentic-engineering-patterns-simon-willisons-weblog.md` (artemis ingest)
