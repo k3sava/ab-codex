@@ -1,0 +1,28 @@
+---
+name: Christoph Janz
+slug: christoph-janz
+roles:
+  - General Partner and Co-founder of Point Nine Capital
+domains_active: [sales-cs, ai-native, leadership]
+captured_first: 2026-05-01
+---
+
+# Christoph Janz
+
+## Bio
+Christoph Janz provides two of the most widely-used mental models in SaaS strategy: the Five Animals framework for market architecture and the SaaS Funding Napkin for stage-gate fundraising benchmarks. Where Lemkin gives operational advice and Skok provides financial formulas, Janz gives founders a way to reason about what kind of company they are building and what it will take to get there, before they make any tactical decisions.
+
+## Operating themes
+- **Operating thesis:** The path to $100M ARR is defined by the combination of average revenue per account and number of customers; the 'animal' you are hunting determines your entire GTM architecture, and the SaaS funding napkin shows the concrete metrics required at each fundraising stage.
+- **Revenue Milestone Planning**
+- **Saas Benchmarking**
+- **Saas Unit Economics**
+- **Financial Modeling Basics**
+
+## Cards
+_None yet — see Sources captured for ingest candidates._
+
+## Sources captured
+- 2026-04 — `the-angel-vc-five-years-later-five-ways-to-build-a-100-million-saas-business.md` (artemis ingest)
+- 2026-04 — `saas-funding-napkin-2023.md` (artemis ingest)
+- 2026-04 — `christoph-janzs-5-ways-to-get-100m-arr-in-vc-backed-saas-earlynode.md` (artemis ingest)
