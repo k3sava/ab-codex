@@ -22,7 +22,8 @@ Paul Jarvis's system of thought begins with a question that most business advice
 - **Service Productization**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_company-of-one-define-enough` — A company of one questions whether growth is good — and defines 'enough' before 'more' [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `how-to-be-a-successful-company-of-one-with-paul-jarvis-the-creative-penn.md` (artemis ingest)

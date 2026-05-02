@@ -23,7 +23,8 @@ Nik Sharma's philosophy for DTC growth marketing is captured in three words: do 
 - **Conversion Optimization**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_dtc-do-less-better` — Don't even think about a second channel until you can profitably spend $5K/day on Meta [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `how-to-scale-a-brand-to-5m-in-revenue-nik-sharmas-newsletter-sharma-brands.md` (artemis ingest)

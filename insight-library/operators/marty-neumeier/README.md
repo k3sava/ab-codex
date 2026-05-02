@@ -22,7 +22,8 @@ Marty Neumeier is the most influential practitioner-author on brand strategy of 
 - **Visual Identity Strategy**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_brand-gap-five-disciplines` — A brand is not what you say it is — it is what they say it is. Close the gap with five disciplines. [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `the-brand-gap-marty-neumeier.md` (artemis ingest)

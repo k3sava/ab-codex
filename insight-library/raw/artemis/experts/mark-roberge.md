@@ -1,0 +1,17 @@
+---
+name: "Mark Roberge"
+slug: mark-roberge
+expertise: [sales-hiring-formula, predictable-revenue-model, data-driven-sales-optimization, sdr-team-design, gtm-strategy-framework]
+perspective: "Sales can and should be engineered with the same rigor as product development, using data, formulas, and iterative experimentation to make every component of revenue growth measurable, optimizable, and repeatable."
+credentials: "Former SVP of Sales and CRO at HubSpot (scaled from $0 to $100M+ ARR), co-founder of Stage 2 Capital, Senior Lecturer at Harvard Business School, author of 'The Sales Acceleration Formula'"
+sources_ingested:
+  - sales-acceleration-formula-summary-mark-roberge.md
+  - mark-roberge-data-driven-sales-hiring-scorecard.md
+  - mark-roberge-science-of-scaling-stage2-capital.md
+---
+
+Mark Roberge is the quintessential engineer-turned-sales-leader. His MIT engineering background is not incidental to his methodology; it is the methodology. Where most sales leaders rely on intuition, experience, and relationship-building, Roberge applies data science, process engineering, and iterative experimentation to every component of scaling a sales organization. His central thesis is that sales success is not a function of individual talent but of system design: hire the right traits, train with structured curricula, manage through metrics, generate demand through inbound content, and instrument everything with technology to create a continuous feedback loop.
+
+His system is organized around five interconnected formulas. The Sales Hiring Formula uses a five-trait scorecard (Coachability, Curiosity, Intelligence, Work Ethic, Prior Success) assessed on a 1-10 scale through structured behavioral interviews. His most counterintuitive finding is that coachability, not prior experience or charisma, is the strongest predictor of sales success. The Training Formula replaces "shadow a top rep" apprenticeship with a structured curriculum organized around buyer personas and buyer journeys, using certifications with pass/fail gates rather than time-based ramp milestones. The Management Formula uses data-driven coaching where managers identify 1-2 specific metrics where each rep underperforms relative to peers and build monthly coaching plans around those gaps. The Demand Generation Formula builds on HubSpot's inbound methodology with formal SLAs between marketing and sales. The Technology Formula instruments every buyer interaction to feed data back into all four preceding formulas, creating compounding improvement.
+
+His later work at Stage 2 Capital extends these principles into the "Science of Scaling" framework, which maps company growth through three stages: Product-Market Fit (founder sells, learning what works), Go-to-Market Fit (first hires validate repeatability), and Growth and Moat (scale what works while building defensibility). His most urgent warning is against premature scaling: hiring salespeople before achieving the corresponding stage of fit. This maps directly onto Jacco van der Kooij's concept of GTM Fit within Revenue Architecture, though Roberge focuses specifically on the sales organization while van der Kooij extends the model across the entire revenue system. Roberge's data-driven philosophy also shares intellectual DNA with Chris Orlob's Gong Labs approach: both argue that the path to sales improvement runs through measurement and pattern recognition, not through charisma or intuition.

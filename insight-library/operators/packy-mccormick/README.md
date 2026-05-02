@@ -21,7 +21,8 @@ Packy McCormick's thinking operates at the intersection of technology analysis a
 - **Community Led Growth**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_run-up-the-stack` — Run up the stack — use commoditized capabilities as inputs to create higher-order human value [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `everything-is-technology-not-boring-by-packy-mccormick.md` (artemis ingest)

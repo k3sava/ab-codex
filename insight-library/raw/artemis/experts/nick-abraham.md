@@ -1,0 +1,20 @@
+---
+name: "Nick Abraham"
+slug: nick-abraham
+expertise: [gtm-automation-tooling, ai-workflow-automation, demand-creation-vs-capture, cold-start-strategy]
+perspective: "Cold email at scale is not about volume or copywriting but about layering intent signals, colleague references, and AI-generated personalization so that every automated email feels like it was manually researched and written for one person."
+credentials: "Founder of LeadBird.io (150+ employees, 200+ active clients, 1.5M+ cold emails sent monthly), co-founder of Scrubby.io (email validation) and Quicklines.ai (AI personalization), recognized by Smartlead as the #2 most-replied-to account globally"
+sources_ingested:
+  - nick-abraham-the-cold-email-expert-who-redefined-lead-generation-scrubby.md
+  - how-to-copy-nick-abrahams-hyper-personalization-framework-40-response-rates-at-s.md
+  - nick-abrahams-cold-email-masterclass.md
+  - how-nick-built-a-lead-generation-empire-starter-story.md
+  - 3-game-changing-strategies-nick-abraham-recommends-to-increase-your-booked-calls.md
+  - nick-abraham-x-eric-nowoslawski-10-tactics-to-survive-the-cold-email-blood-bath.md
+---
+
+Nick Abraham's system of thought rests on a single insight: personalization and scale are not trade-offs if you architect the right signal-layering pipeline. Where most outbound practitioners choose between high-volume generic blasts and low-volume hand-crafted emails, Abraham built an infrastructure that achieves 40%+ response rates while sending 1.5 million emails monthly. His foundational lens is intent-first prospecting: instead of building lists from demographic filters and hoping some percentage is in-market, he identifies people already exhibiting buying behavior through competitor follower scraping, tool/platform engagement signals, and job posting analysis. If someone follows your competitor on LinkedIn, they are already in market. If a company is hiring SDRs, they need lead generation help. The signal comes before the message.
+
+Abraham's three-layer personalization framework is the operational core. Layer 1 (Social Follow Intent) scrapes competitor and industry leader followers to identify prospects with demonstrated interest. Layer 2 (Colleague Reference) enriches each contact with a same-company colleague name and introduces deliberate uncertainty: "Not sure if this should go to you or [colleague]." This creates urgency and internal forwarding behavior. Layer 3 (AI Personalization) uses tools like Quicklines, Clay, and GPT-4 with custom industry-specific prompts to generate contextual opening lines at scale. His 70/30 quality rule acknowledges that roughly 70% of AI-generated lines are usable as-is, making the economics work even with a 30% discard rate. The tech stack behind this (Ocean.io for lookalike companies, Apollo and Golden Leads for enrichment, Smartlead for sending, Scrubby for catch-all validation, Outlook-based infrastructure with 1:1 inbox-to-domain ratios) is purpose-built for deliverability at volume. He also pioneered aggressive tactics like pre-creating accounts for prospects and sending login credentials as the cold email itself, which converts exceptionally well for SaaS products.
+
+For agency founders, Abraham's framework offers both a delivery methodology and a business model template. His LeadBird operates on a pay-per-lead model, directly aligning revenue with client outcomes. The key lesson is that cold outreach works when it solves a top-three problem for the buyer with a strong offer and a risk-reducing guarantee. Abraham's emphasis on contact-to-lead ratio over vanity metrics like open rates, his practice of testing offers and angles continuously, and his willingness to burn and replace domains rather than repair reputation all reflect an operational mindset optimized for results over process aesthetics. For an agency selling GTM services, his system provides a concrete pipeline: build intent-based lists, layer personalization signals, automate sending with quality infrastructure, and measure only on booked meetings and closed deals.

@@ -22,7 +22,8 @@ Nick Abraham's system of thought rests on a single insight: personalization and 
 - **Cold Start Strategy**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_hyper-personalization-cold-email` — Cold email at scale isn't about volume or copywriting — it's about layering intent + colleague + AI personalization [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `nick-abraham-the-cold-email-expert-who-redefined-lead-generation-scrubby.md` (artemis ingest)

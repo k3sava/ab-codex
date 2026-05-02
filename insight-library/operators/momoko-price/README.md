@@ -22,7 +22,8 @@ Momoko Price occupies the intersection of data-driven optimization and voice-of-
 - **Customer Research For Ads**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_voc-first-then-positioning` — Customer language first, positioning built upward from it — not the reverse [Tier B]
+
 
 ## Sources captured
 _None archived in codex yet — see Artemis knowledge base for original ingest._

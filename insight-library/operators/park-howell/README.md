@@ -22,7 +22,8 @@ Park Howell is the leading practitioner of applied storytelling for business and
 - **Brand Strategy Development**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_abt-and-but-therefore` — ABT (And, But, Therefore) is the DNA of compelling communication [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `the-most-powerful-business-storytelling-starts-with-the-abt.md` (artemis ingest)

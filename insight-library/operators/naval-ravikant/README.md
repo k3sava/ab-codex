@@ -23,7 +23,8 @@ Naval Ravikant's intellectual contribution is a unified framework for individual
 - **Specific Knowledge Development**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_specific-knowledge-and-leverage` — Wealth = Specific Knowledge × Leverage × Judgment, compounding over time [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `arm-yourself-with-specific-knowledge.md` (artemis ingest)

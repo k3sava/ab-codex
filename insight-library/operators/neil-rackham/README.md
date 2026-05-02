@@ -22,7 +22,8 @@ Neil Rackham is the original scientist of sales. His 35,000-call, 12-year, 27-co
 - **Data Driven Sales Optimization**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_spin-implication-questions` — In large sales, only explicit needs predict success — Implication questions are the highest-leverage move [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `neil-rackham-spin-selling-methodology.md` (artemis ingest)

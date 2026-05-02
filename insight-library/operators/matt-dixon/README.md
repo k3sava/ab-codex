@@ -21,7 +21,8 @@ Matt Dixon is the most data-driven researcher in modern sales methodology. His w
 - **Objection Handling Methodology**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_jolt-effect-customer-indecision` — The biggest source of lost B2B deals is customer indecision, not competitor wins. JOLT them out. [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `what-is-the-challenger-sales-methodology-challenger.md` (artemis ingest)

@@ -1,0 +1,17 @@
+---
+name: "Matt Shumer"
+slug: matt-shumer
+expertise: [agentic-ai-design, prompt-engineering, building-with-llms]
+perspective: "We have crossed the threshold where AI demonstrates something indistinguishable from judgment and taste -- the practical implication is that technical work is being commoditized at a pace most people cannot comprehend, and the winners will be those who understand what to build, not how to build it."
+credentials: "Co-founder and CEO of OthersideAI/HyperWrite (2M+ users), creator of GPT-Prompt-Engineer (open-source prompt optimization), author of 'Something Big Is Happening' (80M+ views), AI investor"
+sources_ingested:
+  - something-big-is-happening-matt-shumer.md
+  - matt-shumer.md
+  - something-big-is-happening-in-ai-and-most-people-will-be-blindsided-fortune.md
+---
+
+Matt Shumer's perspective is grounded in six years of building AI products at the frontier, and his defining essay "Something Big Is Happening" (80M+ views) captures a practitioner's account of the moment AI capabilities crossed from "helpful tool" to "does my job better than I do." His core observation: he describes what he wants built in plain English, walks away for four hours, and returns to find the finished product -- not a rough draft requiring correction, but the completed work, tested by the AI itself, iterated until it meets the AI's own quality standards. The critical development he identifies is not raw capability but the emergence of something that functions like judgment and taste in AI models -- "the inexplicable sense of knowing what the right call is that people always said AI would never have."
+
+Shumer's technical contributions center on prompt engineering at scale. He pioneered the "prompt expansion" technique at HyperWrite, which uses AI to expand and refine user prompts for enhanced performance -- a technique subsequently adopted by major models including DALL-E 3 and Ideogram. His open-source GPT-Prompt-Engineer tool automates the process of testing and optimizing prompts across different models, treating prompt development as an engineering discipline with measurable outputs rather than an art form. His practical workflow for AI-assisted development includes a "cleanup prompt" step: after AI generates initial code, a secondary prompt transforms the messy output into maintainable, production-ready code. This two-pass approach acknowledges that first-draft AI output often works but lacks the organizational quality needed for long-term maintenance.
+
+His strategic analysis of AI's trajectory has profound implications for anyone building products or running an agency. He argues that AI labs deliberately focused on code generation first because code is self-reinforcing -- AI that writes better code can build better versions of itself. This means the experience tech workers have had over the past year (watching AI go from helpful to superior in their specific domain) is the experience every knowledge worker will have in 1-5 years. For agency founders, the implication is urgent: the value proposition shifts from execution (which AI will commoditize) to judgment about what to execute. His HyperWrite Agent Studio and Agent Trainer tools represent the practical end of this thesis -- systems that learn from watching humans perform tasks once, then replicate those tasks autonomously. The pattern is: demonstrate, delegate, verify. The human role becomes curator of AI capability rather than performer of work.

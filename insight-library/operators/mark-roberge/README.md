@@ -23,7 +23,8 @@ Mark Roberge is the quintessential engineer-turned-sales-leader. His MIT enginee
 - **Sdr Team Design**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_coachability-beats-experience` — Coachability — not prior experience or charisma — is the strongest predictor of sales success [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `sales-acceleration-formula-summary-mark-roberge.md` (artemis ingest)

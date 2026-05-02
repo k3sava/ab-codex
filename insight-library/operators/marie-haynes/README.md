@@ -20,7 +20,8 @@ Marie Haynes is the SEO industry's leading authority on Google algorithm recover
 - **Seo Measurement**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_qrg-recovery-roadmap` — The Quality Rater Guidelines are the closest thing Google has to a public ranking roadmap [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `the-google-quality-rater-guidelines-and-eat-wmarie-haynes.md` (artemis ingest)

@@ -23,7 +23,8 @@ Claude Code educator who publishes practical guides on Skills, hooks, MCP, and a
 - **Prompt Engineering**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_skills-as-prompts-as-code` — Prompts are code — Skills deserve testing, documentation, dependency mapping, performance profiling [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `i-watched-100-people-hit-the-same-claude-skills-problems-in-week-oneso-i-built-1.md` (artemis ingest)

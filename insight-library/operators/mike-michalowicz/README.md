@@ -21,7 +21,8 @@ Mike Michalowicz's system of thought begins with a behavioral insight borrowed f
 - **Cash Flow Management**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_profit-first-allocation` — Flip the formula: Sales − Profit = Expenses. Take profit out first; live on the rest. [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `five-steps-to-start-implementing-profit-first-in-your-small-business-mike-michal.md` (artemis ingest)

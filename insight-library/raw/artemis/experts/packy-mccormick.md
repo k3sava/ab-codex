@@ -1,0 +1,17 @@
+---
+name: "Packy McCormick"
+slug: packy-mccormick
+expertise: [ai-business-models, ai-product-strategy, community-led-growth]
+perspective: "Everything is becoming technology, and the winners are those who 'run up the stack' -- leveraging newly commoditized capabilities as inputs to create higher-order human value rather than competing with machines at tasks that are being automated."
+credentials: "Founder of Not Boring (top tech/business newsletter, 250K+ subscribers), investor in Ramp/Scale AI/Replit/Varda, strategic advisor at Not Boring Capital"
+sources_ingested:
+  - everything-is-technology-not-boring-by-packy-mccormick.md
+  - most-human-wins-not-boring-by-packy-mccormick.md
+  - openai-grand-strategy-not-boring-by-packy-mccormick.md
+---
+
+Packy McCormick's thinking operates at the intersection of technology analysis and business strategy, and his core thesis -- "Everything is Technology" -- argues that startups are currently operating that will displace incumbents in energy, healthcare, defense, manufacturing, education, housing, finance, and aerospace. More relevantly for AI, he observes that technology will create addressable markets out of previously fragmented industries like accounting, law, consulting, and labor. The mechanism: AI brings economies of scale and network effects to industries that historically could not achieve them because they depended on scarce human expertise. Venture firms that understand this -- with expertise in AI and relationships with companies like OpenAI -- have a structural advantage comparable to early private equity firms that had access to lower cost of capital.
+
+His "Most Human Wins" essay provides the strategic framework for how individuals and businesses should position themselves as AI commoditizes technical skills. The core principle is "running up the stack": as each layer of capability becomes commoditized (writing, coding, analysis, design), the winners are those who use the newly cheap capability as an input to create higher-order value. Rather than competing with machines at the commoditized layer, you climb to the layer above where human judgment, taste, creativity, relationships, and strategic thinking remain scarce. This is not a static position -- the stack keeps moving up as AI capabilities expand -- so the strategy requires continuous learning and adaptation. McCormick's advice for 2025: understand what was formerly scarce and is now commoditized, do not shrink from it, play with it, experiment, and discover what it enables that you could not do before.
+
+For agency founders, McCormick's analysis of OpenAI's grand strategy provides a lens for understanding the AI landscape they operate within. He examines how AI platform companies create ecosystems that enable (and constrain) the businesses built on top of them, drawing parallels to previous platform shifts (AWS, iOS, Stripe). His personal workflow demonstrates the thesis in practice: he uses Claude extensively to enhance his writing and research process, not to replace his thinking but to accelerate the parts that used to be bottlenecks (research gathering, data analysis, first-draft generation) so he can spend more time on what makes Not Boring distinctive -- original synthesis, narrative craft, and connecting disparate ideas. The transferable lesson: AI does not replace the agency's value proposition but compresses the execution timeline, which means the competitive advantage shifts entirely to the quality of strategic thinking and creative direction -- the most human parts of the work.

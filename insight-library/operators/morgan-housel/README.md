@@ -22,7 +22,8 @@ Morgan Housel's central thesis is that financial outcomes are driven not by inte
 - **Optionality Strategy**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_getting-vs-staying-wealthy` — Getting wealthy and staying wealthy require opposite skill sets [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `getting-wealthy-vs-staying-wealthy-collaborative-fund.md` (artemis ingest)

@@ -21,7 +21,8 @@ Nassim Nicholas Taleb's foundational contribution is the concept of antifragilit
 - **Optionality Strategy**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_antifragile-barbell` — Build for antifragility, not robustness — fragile breaks, robust survives, antifragile gains from disorder [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `antifragile-by-nassim-taleb-notes-and-review-nat-eliason.md` (artemis ingest)

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-02T16:44:43.075Z",
+  "generated_at": "2026-05-02T16:51:57.810Z",
   "counts": {
-    "insights": 368,
+    "insights": 388,
     "operators": 288,
-    "raw_sources": 153,
+    "raw_sources": 173,
     "patterns": 24,
     "contradictions": 9,
     "playbooks": 23
@@ -177,6 +177,33 @@
         "ins_long-term-holdouts-30-40-evaporate"
       ],
       "raw_ref": "raw/podcasts/archie-abrams--churn-optimization-shopify--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_abt-and-but-therefore.md",
+      "title": "ABT (And, But, Therefore) is the DNA of compelling communication",
+      "id": "ins_abt-and-but-therefore",
+      "operator": "Park Howell",
+      "operator_role": "Founder Business of Story; author Brand Bewitchery",
+      "source_url": "https://businessofstory.com/",
+      "source_type": "book",
+      "source_title": "\"ABT framework — And, But, Therefore\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "content",
+        "marketing",
+        "pmm"
+      ],
+      "lifecycle": [
+        "messaging-narrative",
+        "content"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/park-howell.md"
     },
     {
       "path": "insights/ins_action-tool-result-resume-format.md",
@@ -715,6 +742,33 @@
       "raw_ref": "raw/artemis/experts/leah-tharin.md"
     },
     {
+      "path": "insights/ins_ai-judgment-and-taste-emerging.md",
+      "title": "AI has crossed the threshold to something indistinguishable from judgment and taste — winners will know what to build, not how",
+      "id": "ins_ai-judgment-and-taste-emerging",
+      "operator": "Matt Shumer",
+      "operator_role": "Co-founder & CEO HyperWrite/OthersideAI (2M+ users)",
+      "source_url": "https://hyperwriteai.com/",
+      "source_type": "essay",
+      "source_title": "\"Something Big Is Happening — Matt Shumer\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "ai-native",
+        "engineering",
+        "strategy"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy-bets"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "research",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/matt-shumer.md"
+    },
+    {
       "path": "insights/ins_ai-slop-loop.md",
       "title": "A single seeded fake claim can self-confirm in AI Overviews",
       "id": "ins_ai-slop-loop",
@@ -935,6 +989,33 @@
         "ins_roi-evidence-most-trusted-by-b2b-buyers"
       ],
       "raw_ref": "raw/linkedin/pmm-mining/linkedin-saved-posts-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_antifragile-barbell.md",
+      "title": "Build for antifragility, not robustness — fragile breaks, robust survives, antifragile gains from disorder",
+      "id": "ins_antifragile-barbell",
+      "operator": "Nassim Nicholas Taleb",
+      "operator_role": "Distinguished Professor of Risk Engineering NYU; author Incerto series",
+      "source_url": "https://www.fooledbyrandomness.com/",
+      "source_type": "book",
+      "source_title": "\"Antifragile — barbell strategy and gain from disorder\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "strategy",
+        "leadership",
+        "risk"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "risk-quality"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/nassim-taleb.md"
     },
     {
       "path": "insights/ins_ask-revenue-impact-how-much-richard.md",
@@ -1463,6 +1544,34 @@
       "raw_ref": "raw/artemis/experts/jacco-van-der-kooij.md"
     },
     {
+      "path": "insights/ins_brand-gap-five-disciplines.md",
+      "title": "A brand is not what you say it is — it is what they say it is. Close the gap with five disciplines.",
+      "id": "ins_brand-gap-five-disciplines",
+      "operator": "Marty Neumeier",
+      "operator_role": "Author The Brand Gap, Zag, The Brand Flip",
+      "source_url": "https://www.martyneumeier.com/",
+      "source_type": "book",
+      "source_title": "\"The Brand Gap — Differentiate, Collaborate, Innovate, Validate, Cultivate\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "marketing",
+        "design-ux"
+      ],
+      "lifecycle": [
+        "positioning",
+        "messaging-narrative",
+        "ownership-org"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/marty-neumeier.md"
+    },
+    {
       "path": "insights/ins_brand-relevance-vs-preference.md",
       "title": "Stop competing on brand preference. Compete on brand relevance — make rivals irrelevant.",
       "id": "ins_brand-relevance-vs-preference",
@@ -1965,6 +2074,33 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_coachability-beats-experience.md",
+      "title": "Coachability — not prior experience or charisma — is the strongest predictor of sales success",
+      "id": "ins_coachability-beats-experience",
+      "operator": "Mark Roberge",
+      "operator_role": "Ex-CRO HubSpot ($0→$100M+); HBS Senior Lecturer",
+      "source_url": "https://markroberge.com/",
+      "source_type": "book",
+      "source_title": "\"The Sales Acceleration Formula — five-trait sales hiring scorecard\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "sales",
+        "hiring",
+        "gtm"
+      ],
+      "lifecycle": [
+        "hiring-team-design",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/mark-roberge.md"
+    },
+    {
       "path": "insights/ins_code-node-utilizes-api-key.md",
       "title": "This code node utilizes your API key and User ID to establish a connection with your Ic...",
       "id": "ins_code-node-utilizes-api-key",
@@ -2103,6 +2239,33 @@
         "ins_force-for-positive-momentum"
       ],
       "raw_ref": "raw/podcasts/claire-hughes-johnson--scaling-people--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_company-of-one-define-enough.md",
+      "title": "A company of one questions whether growth is good — and defines \"enough\" before \"more\"",
+      "id": "ins_company-of-one-define-enough",
+      "operator": "Paul Jarvis",
+      "operator_role": "Author Company of One; co-creator Fathom Analytics",
+      "source_url": "https://pjrvs.com/",
+      "source_type": "book",
+      "source_title": "\"Company of One — define 'enough' rather than chasing 'more'\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "founder-craft",
+        "founder-operator",
+        "strategy"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/paul-jarvis.md"
     },
     {
       "path": "insights/ins_company-story-is-the-strategy.md",
@@ -2661,6 +2824,32 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_delivery-margin-three-levers.md",
+      "title": "Most agencies suffer from indigestion, not starvation — measure delivery margin and the three levers that move it",
+      "id": "ins_delivery-margin-three-levers",
+      "operator": "Marcel Petitpas",
+      "operator_role": "CEO Parakeeto; host Agency Profit Podcast",
+      "source_url": "https://parakeeto.com/",
+      "source_type": "podcast",
+      "source_title": "\"Marcel Petitpas — agency profitability and delivery margin\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "strategy",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "planning-resourcing",
+        "attribution-measurement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 5, evidence: 3, transferability: 3, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/marcel-petitpas.md"
+    },
+    {
       "path": "insights/ins_demand-creation-vs-capture.md",
       "title": "Stop optimizing for the 5% in-market; build preference with the 95% who aren't",
       "id": "ins_demand-creation-vs-capture",
@@ -2966,6 +3155,32 @@
       "tier": "A",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_dtc-do-less-better.md",
+      "title": "Don't even think about a second channel until you can profitably spend $5K/day on Meta",
+      "id": "ins_dtc-do-less-better",
+      "operator": "Nik Sharma",
+      "operator_role": "CEO Sharma Brands; coined \"performance branding\" and TRACE framework",
+      "source_url": "https://sharmabrands.com/",
+      "source_type": "essay",
+      "source_title": "\"Nik Sharma — do less, better; $5K/day Meta benchmark for brand expansion\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "growth-demand",
+        "marketing"
+      ],
+      "lifecycle": [
+        "growth-loops",
+        "planning-resourcing"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 5, evidence: 3, transferability: 3, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/nik-sharma.md"
     },
     {
       "path": "insights/ins_each-prospect-gets-scored-based.md",
@@ -3796,6 +4011,33 @@
       "raw_ref": "raw/podcasts/anton-osika--lovable-ai-engineer--2026-04-28.md"
     },
     {
+      "path": "insights/ins_getting-vs-staying-wealthy.md",
+      "title": "Getting wealthy and staying wealthy require opposite skill sets",
+      "id": "ins_getting-vs-staying-wealthy",
+      "operator": "Morgan Housel",
+      "operator_role": "Partner Collaborative Fund; author The Psychology of Money",
+      "source_url": "https://collabfund.com/",
+      "source_type": "book",
+      "source_title": "\"The Psychology of Money — getting wealthy vs. staying wealthy\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "strategy",
+        "leadership",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "risk-quality"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/morgan-housel.md"
+    },
+    {
       "path": "insights/ins_ghost-citation-gap.md",
       "title": "Citation rate and mention rate are different metrics; comparative content closes the gap",
       "id": "ins_ghost-citation-gap",
@@ -4429,6 +4671,35 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_hyper-personalization-cold-email.md",
+      "title": "Cold email at scale isn't about volume or copywriting — it's about layering intent + colleague + AI personalization",
+      "id": "ins_hyper-personalization-cold-email",
+      "operator": "Nick Abraham",
+      "operator_role": "Founder LeadBird.io; co-founder Scrubby.io and Quicklines.ai",
+      "source_url": "https://leadbird.io/",
+      "source_type": "essay",
+      "source_title": "\"Nick Abraham — hyper-personalization framework, 40% reply rates at scale\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "sales",
+        "growth-demand",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "outbound",
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 3, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_messaging-equation-personalization-tiers"
+      ],
+      "raw_ref": "raw/artemis/experts/nick-abraham.md"
+    },
+    {
       "path": "insights/ins_illegibility-framework.md",
       "title": "Watch for \"illegible energy\" — ideas the team can't articulate but can't stop talking about",
       "id": "ins_illegibility-framework",
@@ -4759,6 +5030,31 @@
       "tier": "A",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_jolt-effect-customer-indecision.md",
+      "title": "The biggest source of lost B2B deals is customer indecision, not competitor wins. JOLT them out.",
+      "id": "ins_jolt-effect-customer-indecision",
+      "operator": "Matt Dixon",
+      "operator_role": "Co-author The Challenger Sale, The JOLT Effect, The Effortless Experience",
+      "source_url": "https://www.thejolteffect.com/",
+      "source_type": "book",
+      "source_title": "\"The JOLT Effect — overcoming customer indecision\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "sales",
+        "gtm"
+      ],
+      "lifecycle": [
+        "sales-enablement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/matt-dixon.md"
     },
     {
       "path": "insights/ins_jtbd-as-agent-wiring-diagram.md",
@@ -5586,6 +5882,33 @@
       "raw_ref": "raw/podcasts/benjamin-lauzier--marketplace-liquidity-supply--2026-04-28.md"
     },
     {
+      "path": "insights/ins_media-first-business.md",
+      "title": "Build media-first: long-form for trust, short-form for discovery, newsletter for retention, community for conversion",
+      "id": "ins_media-first-business",
+      "operator": "Matt Gray",
+      "operator_role": "Founder Founder OS; ex-Herb.co (14M-person community)",
+      "source_url": "https://mattgray.me/",
+      "source_type": "essay",
+      "source_title": "\"Matt Gray — Art vs Algorithm and media-first business model\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "content",
+        "growth-demand",
+        "founder-craft"
+      ],
+      "lifecycle": [
+        "content",
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/matt-gray.md"
+    },
+    {
       "path": "insights/ins_messaging-equation-personalization-tiers.md",
       "title": "Persona + Trigger + Value = Relevant Message. Personalize ~25%, no more.",
       "id": "ins_messaging-equation-personalization-tiers",
@@ -5799,6 +6122,34 @@
         "ins_old-game-to-new-game-narrative"
       ],
       "raw_ref": "raw/podcasts/andy-raskin--strategic-narrative-framework--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_narrative-design-old-way-new-way.md",
+      "title": "Lead with a narrative (Big Shift → Old Way vs. New Way → Promised Land), not features",
+      "id": "ins_narrative-design-old-way-new-way",
+      "operator": "Marcus Andrews",
+      "operator_role": "ex-PMM Group Lead HubSpot; ex-Sr Director PMM Pendo",
+      "source_url": "https://hubspot.com/",
+      "source_type": "essay",
+      "source_title": "\"Marcus Andrews — Narrative Design for Business\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "marketing",
+        "strategy"
+      ],
+      "lifecycle": [
+        "positioning",
+        "messaging-narrative",
+        "launch"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/marcus-andrews.md"
     },
     {
       "path": "insights/ins_negotiation-starts-before-first-call.md",
@@ -7323,6 +7674,32 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_profit-first-allocation.md",
+      "title": "Flip the formula: Sales − Profit = Expenses. Take profit out first; live on the rest.",
+      "id": "ins_profit-first-allocation",
+      "operator": "Mike Michalowicz",
+      "operator_role": "Author Profit First, Clockwork, Fix This Next",
+      "source_url": "https://mikemichalowicz.com/",
+      "source_type": "book",
+      "source_title": "\"Profit First — Sales − Profit = Expenses\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "founder-operator",
+        "strategy"
+      ],
+      "lifecycle": [
+        "planning-resourcing",
+        "pricing-packaging"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/mike-michalowicz.md"
+    },
+    {
       "path": "insights/ins_progressive-trust-onboarding.md",
       "title": "Onboard agents the way you onboard an EA: progressive trust, named tiers",
       "id": "ins_progressive-trust-onboarding",
@@ -7352,6 +7729,35 @@
         "ins_manager-skill-not-technical"
       ],
       "raw_ref": "raw/podcasts/claire-vo--openclaw-agents-as-team--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_qrg-recovery-roadmap.md",
+      "title": "The Quality Rater Guidelines are the closest thing Google has to a public ranking roadmap",
+      "id": "ins_qrg-recovery-roadmap",
+      "operator": "Marie Haynes",
+      "operator_role": "Founder Marie Haynes Consulting; Google algorithm-recovery authority",
+      "source_url": "https://www.mariehaynes.com/",
+      "source_type": "essay",
+      "source_title": "\"The Google Quality Rater Guidelines and E-A-T\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "content",
+        "growth-demand",
+        "marketing"
+      ],
+      "lifecycle": [
+        "content",
+        "risk-quality"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_eeat-quality-rater-perspective"
+      ],
+      "raw_ref": "raw/artemis/experts/marie-haynes.md"
     },
     {
       "path": "insights/ins_qual-quant-synthesis-claude-code.md",
@@ -7945,6 +8351,32 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_run-up-the-stack.md",
+      "title": "Run up the stack — use commoditized capabilities as inputs to create higher-order human value",
+      "id": "ins_run-up-the-stack",
+      "operator": "Packy McCormick",
+      "operator_role": "Founder Not Boring; investor in Ramp, Scale AI, Replit, Varda",
+      "source_url": "https://www.notboring.co/",
+      "source_type": "essay",
+      "source_title": "\"Most Human Wins / Everything Is Technology\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "strategy",
+        "ai-native",
+        "founder-craft"
+      ],
+      "lifecycle": [
+        "strategy-bets"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/packy-mccormick.md"
+    },
+    {
       "path": "insights/ins_safe-predictable-ultimately-why-companies.md",
       "title": "It’s safe, predictable, and ultimately, it's why companies start stagnating. This is es...",
       "id": "ins_safe-predictable-ultimately-why-companies",
@@ -8446,6 +8878,32 @@
       "raw_ref": "raw/digests/miniu-ai-digest-2026-05-02.md"
     },
     {
+      "path": "insights/ins_skills-as-prompts-as-code.md",
+      "title": "Prompts are code — Skills deserve testing, documentation, dependency mapping, performance profiling",
+      "id": "ins_skills-as-prompts-as-code",
+      "operator": "Nate (natesnewsletter.substack.com)",
+      "operator_role": "Claude Code educator; Substack author",
+      "source_url": "https://natesnewsletter.substack.com/",
+      "source_type": "essay",
+      "source_title": "\"I watched 100 people hit the same Claude Skills problems in week one\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "tooling-config"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/nate-substack.md"
+    },
+    {
       "path": "insights/ins_skyscraper-technique.md",
       "title": "Skyscraper Technique: find content with backlinks, build something demonstrably better, ask the linkers to switch",
       "id": "ins_skyscraper-technique",
@@ -8584,6 +9042,33 @@
       "raw_ref": "raw/artemis/articles/aaron-ross--predictable-revenue-15-minute-summary.md"
     },
     {
+      "path": "insights/ins_specific-knowledge-and-leverage.md",
+      "title": "Wealth = Specific Knowledge × Leverage × Judgment, compounding over time",
+      "id": "ins_specific-knowledge-and-leverage",
+      "operator": "Naval Ravikant",
+      "operator_role": "Co-founder & ex-CEO AngelList; angel investor in 200+ startups",
+      "source_url": "https://nav.al/",
+      "source_type": "thread",
+      "source_title": "\"How to Get Rich (Without Getting Lucky)\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "strategy",
+        "founder-craft",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ownership-org"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/naval-ravikant.md"
+    },
+    {
       "path": "insights/ins_specificity-becomes-profitable.md",
       "title": "AI makes specificity profitable; the Pareto distribution flattens at the long tail",
       "id": "ins_specificity-becomes-profitable",
@@ -8612,6 +9097,33 @@
         "ins_outcomes-pricing-restructures-saas"
       ],
       "raw_ref": "raw/essays/eric-seufert--pareto-collapse--2026-04-24.md"
+    },
+    {
+      "path": "insights/ins_spin-implication-questions.md",
+      "title": "In large sales, only explicit needs predict success — Implication questions are the highest-leverage move",
+      "id": "ins_spin-implication-questions",
+      "operator": "Neil Rackham",
+      "operator_role": "Author SPIN Selling; founder Huthwaite International",
+      "source_url": "https://huthwaiteinternational.com/",
+      "source_type": "book",
+      "source_title": "\"SPIN Selling — Situation, Problem, Implication, Need-Payoff\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "sales",
+        "gtm"
+      ],
+      "lifecycle": [
+        "sales-enablement"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_gap-selling-change-formula"
+      ],
+      "raw_ref": "raw/artemis/experts/neil-rackham.md"
     },
     {
       "path": "insights/ins_squeezed-pm-thesis.md",
@@ -9752,6 +10264,35 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/artemis/experts/gaetano-dinardi.md"
+    },
+    {
+      "path": "insights/ins_voc-first-then-positioning.md",
+      "title": "Customer language first, positioning built upward from it — not the reverse",
+      "id": "ins_voc-first-then-positioning",
+      "operator": "Momoko Price",
+      "operator_role": "Founder Kantan Designs; conversion copywriter for Intuit, Scotiabank, AT&T",
+      "source_url": "https://kantandesigns.com/",
+      "source_type": "essay",
+      "source_title": "\"Momoko Price — messaging-first optimization methodology\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "content",
+        "marketing",
+        "pmm"
+      ],
+      "lifecycle": [
+        "voc-research",
+        "messaging-narrative"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_relational-keywords-replace-internal-language"
+      ],
+      "raw_ref": "raw/artemis/experts/momoko-price.md"
     },
     {
       "path": "insights/ins_want-product-marketing-drive-revenue.md",
@@ -16370,6 +16911,381 @@
         "monetizing-innovation-how-smart-companies-design-the-product-around-price-by-mad.md",
         "price-before-product-the-ai-monetization-playbook-madhavan-ramanujam-49-palms.md",
         "from-concept-to-profit-monetisation-framework-seedtoscale.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/marcel-petitpas.md",
+      "name": "\"Marcel Petitpas\"",
+      "slug": "marcel-petitpas",
+      "expertise": [
+        "agency-profitability-metrics",
+        "client-acquisition-for-services",
+        "delivery-model-design",
+        "scope-management",
+        "service-productization"
+      ],
+      "perspective": "\"Most agencies suffer from indigestion, not starvation; the path to profitability lies in measuring delivery margin and the three levers that drive it.\"",
+      "credentials": "\"CEO and Co-Founder of Parakeeto. Host of The Agency Profit Podcast (#1 podcast on agency profitability). Has audited hundreds of agencies across North America. Widely considered the leading expert on profitability optimization for service-centric businesses.\"",
+      "sources_ingested": [
+        "maximizing-agency-profitability-insights-from-ceo-co-founder-marcel-petitpas.md",
+        "how-to-improve-your-agencys-profitability-with-marcel-petitpas-seven-figure-agen.md",
+        "8-vital-agency-metrics-kpis-to-improve-profitability-parakeeto.md",
+        "measuring-and-improving-your-agencys-profitability-the-2023-guide-parakeeto.md",
+        "the-definitive-guide-to-calculate-profitability-for-your-marketing-agency.md",
+        "3-key-profitability-drivers-agencies-need-to-prioritize-parakeeto.md",
+        "utilization-rate-capacity-forecasting-marketing-agencys-guide.md",
+        "parakeeto-ceo-marcel-petitpas-agency-profitability-flywheel.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/marcus-andrews.md",
+      "name": "\"Marcus Andrews\"",
+      "slug": "marcus-andrews",
+      "expertise": [
+        "enterprise-pmm",
+        "positioning-development",
+        "product-launch-strategy",
+        "product-marketing-leadership",
+        "storytelling-for-business"
+      ],
+      "perspective": "\"The best product marketing creates a narrative so compelling that it becomes the lens through which customers see their own problems; narrative design is a repeatable, structured process borrowed from game design, not a creative lightning strike.\"",
+      "credentials": "\"Former Product Marketing Group Lead and Narrative Designer at HubSpot (helped develop the Flywheel narrative), former Sr. Director of Product Marketing at Pendo, former product marketer at Google (AdWords and YouTube), co-creator and former host of the Product Marketing Experts podcast, author of 'Narrative Design for Business'\"",
+      "sources_ingested": [
+        "narrative-design-with-pendos-director-of-product-marketing-marcus-andrews-launch.md",
+        "ama-marcus-andrews-on-product-launches.md",
+        "how-to-master-narrative-design-qa-with-hubspot.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/marie-haynes.md",
+      "name": "\"Marie Haynes\"",
+      "slug": "marie-haynes",
+      "expertise": [
+        "eeat-optimization",
+        "algorithm-recovery",
+        "technical-seo-audit",
+        "seo-measurement"
+      ],
+      "perspective": "\"Algorithm recovery is a systematic diagnostic process, not guesswork; the Google Quality Rater Guidelines are the closest thing to a public roadmap for what Google considers quality, and sites that align with those guidelines recover while sites that chase shortcuts do not.\"",
+      "credentials": "\"Founder of Marie Haynes Consulting (now part of her advisory practice), one of the earliest and most recognized authorities on Google's E-A-T / E-E-A-T framework, has helped hundreds of sites recover from Google algorithm penalties, regular contributor to Search Engine Roundtable and Search Engine Journal, speaker at Pubcon, SMX, and Brighton SEO, based in Ottawa, Canada\"",
+      "sources_ingested": [
+        "the-google-quality-rater-guidelines-and-eat-wmarie-haynes.md",
+        "keeping-up-with-the-google-updates-with-marie-haynes.md",
+        "googles-quality-raters-guidelines-marie-haynes-optimisey.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/mark-roberge.md",
+      "name": "\"Mark Roberge\"",
+      "slug": "mark-roberge",
+      "expertise": [
+        "sales-hiring-formula",
+        "predictable-revenue-model",
+        "data-driven-sales-optimization",
+        "sdr-team-design",
+        "gtm-strategy-framework"
+      ],
+      "perspective": "\"Sales can and should be engineered with the same rigor as product development, using data, formulas, and iterative experimentation to make every component of revenue growth measurable, optimizable, and repeatable.\"",
+      "credentials": "\"Former SVP of Sales and CRO at HubSpot (scaled from $0 to $100M+ ARR), co-founder of Stage 2 Capital, Senior Lecturer at Harvard Business School, author of 'The Sales Acceleration Formula'\"",
+      "sources_ingested": [
+        "sales-acceleration-formula-summary-mark-roberge.md",
+        "mark-roberge-data-driven-sales-hiring-scorecard.md",
+        "mark-roberge-science-of-scaling-stage2-capital.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/marty-neumeier.md",
+      "name": "\"Marty Neumeier\"",
+      "slug": "marty-neumeier",
+      "expertise": [
+        "brand-strategy-development",
+        "brand-differentiation",
+        "brand-architecture",
+        "visual-identity-strategy",
+        "brand-measurement"
+      ],
+      "perspective": "\"A brand is not what you say it is, it is what they say it is. The gap between business strategy and creative execution is the central problem of branding, bridged by five disciplines: differentiate, collaborate, innovate, validate, cultivate.\"",
+      "credentials": "\"Author of 'The Brand Gap,' 'Zag,' 'The Brand Flip,' 'Scramble,' and 'Metaskills.' Director of Transformation at Liquid Agency. His Brand Gap SlideShare has been viewed over 20 million times, making it the most widely read work on branding.\"",
+      "sources_ingested": [
+        "the-brand-gap-marty-neumeier.md",
+        "the-onlyness-test-marty-neumeier.md",
+        "the-new-brand-model-marty-neumeier.md",
+        "a-guide-to-agile-strategy-marty-neumeier.md",
+        "the-strategic-pyramid-marty-neumeier.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/matt-dixon.md",
+      "name": "\"Matt Dixon\"",
+      "slug": "matt-dixon",
+      "expertise": [
+        "buyer-enablement",
+        "challenger-selling",
+        "discovery-call-framework",
+        "objection-handling-methodology",
+        "pipeline-management",
+        "sales-process-design"
+      ],
+      "perspective": "\"Sales success in complex B2B environments comes not from relationship-building or solution-selling, but from teaching customers something new about their business, tailoring insights to stakeholders, and addressing the fear of failure that causes indecision.\"",
+      "credentials": "\"Co-author of 'The Challenger Sale,' 'The Effortless Experience,' 'The Challenger Customer,' and 'The JOLT Effect,' former executive director at CEB/Gartner, frequent Harvard Business Review contributor with 20+ articles\"",
+      "sources_ingested": [
+        "what-is-the-challenger-sales-methodology-challenger.md",
+        "why-are-you-losing-to-customer-indecision-the-jolt-effect.md",
+        "3-challenger-skills-that-boost-sales-rep-productivity-and-motivate-buyers-challe.md",
+        "stop-losing-sales-to-customer-indecision.md",
+        "win-sales-with-challenger-the-jolt-effect-challenger.md",
+        "about-the-book.md",
+        "the-effortless-experience-an-interview-with-matt-dixon-part-1-customers-that-sti.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/matt-gray.md",
+      "name": "\"Matt Gray\"",
+      "slug": "matt-gray",
+      "expertise": [
+        "ai-agency-business-model",
+        "content-at-scale",
+        "audience-building",
+        "community-led-growth"
+      ],
+      "perspective": "\"The future of entrepreneurship is the media-first business where a personal brand built through systematic content operations becomes the primary distribution channel, and AI tools compress what used to take months of content production into days.\"",
+      "credentials": "\"Founder of Founder OS (2,500+ community members, $12M annual revenue across ventures), built Herb.co to a 14M-person community, founded BitMaker coding school (largest in Canada, acquired for $410M), 1M+ followers across social platforms\"",
+      "sources_ingested": [
+        "matt-grays-art-vs-algorithm-strategy-for-scaling-content.md",
+        "matt-gray-interview-building-personal-brands-communities-and-media-first-startup.md",
+        "the-success-journey-of-matt-gray-from-building-profitable-companies-to-cultivati.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/matt-shumer.md",
+      "name": "\"Matt Shumer\"",
+      "slug": "matt-shumer",
+      "expertise": [
+        "agentic-ai-design",
+        "prompt-engineering",
+        "building-with-llms"
+      ],
+      "perspective": "\"We have crossed the threshold where AI demonstrates something indistinguishable from judgment and taste -- the practical implication is that technical work is being commoditized at a pace most people cannot comprehend, and the winners will be those who understand what to build, not how to build it.\"",
+      "credentials": "\"Co-founder and CEO of OthersideAI/HyperWrite (2M+ users), creator of GPT-Prompt-Engineer (open-source prompt optimization), author of 'Something Big Is Happening' (80M+ views), AI investor\"",
+      "sources_ingested": [
+        "something-big-is-happening-matt-shumer.md",
+        "matt-shumer.md",
+        "something-big-is-happening-in-ai-and-most-people-will-be-blindsided-fortune.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/mike-michalowicz.md",
+      "name": "\"Mike Michalowicz\"",
+      "slug": "mike-michalowicz",
+      "expertise": [
+        "profit-first-methodology",
+        "cash-flow-management"
+      ],
+      "perspective": "\"The traditional accounting formula (Sales - Expenses = Profit) is mathematically correct but behaviorally backwards; flipping it to Sales - Profit = Expenses forces the business to live within its means and guarantees profitability from day one.\"",
+      "credentials": "\"Author of 'Profit First', 'The Toilet Paper Entrepreneur', 'Clockwork', 'Fix This Next', and 'The Pumpkin Plan'. Serial entrepreneur who built and sold two multi-million dollar companies before age 35. Creator of the Profit First methodology, now used by hundreds of thousands of small businesses worldwide. Keynote speaker on small business finance and operations.\"",
+      "sources_ingested": [
+        "five-steps-to-start-implementing-profit-first-in-your-small-business-mike-michal.md",
+        "mastering-profit-first-master-your-percentage-allocations-mike-michalowicz.md",
+        "profit-first-mike-michalowicz.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/momoko-price.md",
+      "name": "\"Momoko Price\"",
+      "slug": "momoko-price",
+      "expertise": [
+        "conversion-web-copywriting",
+        "conversion-optimization",
+        "customer-research-for-ads"
+      ],
+      "perspective": "\"Your customers' words should become your copy. Messaging-first optimization combines analytics rigor with emotional authenticity. Let customer language and data guide voice, not creative intuition.\"",
+      "credentials": "\"Founder of Kantan Designs; conversion copywriter specializing in messaging-first optimization for SaaS and ecommerce. Clients include Intuit, Scotiabank, AT&T. Known for six-figure messaging projects that combine VoC research with A/B testing methodology. $25-30K per messaging engagement.\"",
+      "sources_ingested": []
+    },
+    {
+      "path": "raw/artemis/experts/morgan-housel.md",
+      "name": "\"Morgan Housel\"",
+      "slug": "morgan-housel",
+      "expertise": [
+        "compounding-strategy",
+        "decision-quality-framework",
+        "optionality-strategy"
+      ],
+      "perspective": "\"Financial success is not about intelligence or knowledge but about behavior; the most important financial skill is getting the goalpost to stop moving, and the most powerful force in the universe is compounding, which requires the one thing most people cannot summon: patience.\"",
+      "credentials": "\"Partner at The Collaborative Fund. Former columnist at The Motley Fool and The Wall Street Journal. Author of The Psychology of Money (10M+ copies sold) and Same As Ever. Two-time winner of the Best in Business award from the Society of American Business Editors and Writers.\"",
+      "sources_ingested": [
+        "getting-wealthy-vs-staying-wealthy-collaborative-fund.md",
+        "little-rules-about-big-things-collaborative-fund.md",
+        "compounding-optimism-collaborative-fund.md",
+        "the-psychology-of-money-collaborative-fund.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/nassim-taleb.md",
+      "name": "\"Nassim Nicholas Taleb\"",
+      "slug": "nassim-taleb",
+      "expertise": [
+        "antifragility-strategy",
+        "optionality-strategy"
+      ],
+      "perspective": "\"The central problem of modernity is that we have built fragile systems optimized for efficiency and prediction while living in a world dominated by randomness and fat-tailed distributions; the solution is not better prediction but building systems that gain from disorder.\"",
+      "credentials": "\"Distinguished Professor of Risk Engineering at NYU Tandon School of Engineering. Former options trader and hedge fund manager. Author of the Incerto series: Fooled by Randomness, The Black Swan, Antifragile, Skin in the Game, and The Bed of Procrustes. His work on fat-tailed distributions and fragility has influenced fields from finance to public health to military strategy.\"",
+      "sources_ingested": [
+        "antifragile-by-nassim-taleb-notes-and-review-nat-eliason.md",
+        "the-barbell-strategy-by-nassim-nicholas-taleb-the-complete-guide-goodrebootcom.md",
+        "antifragile-how-to-live-in-a-world-we-dont-understand-by-nassim-nicholas-taleb.md",
+        "a-definition-of-antifragile-and-its-implications.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/nate-substack.md",
+      "name": "\"Nate\"",
+      "slug": "nate-substack",
+      "expertise": [
+        "claude-code-skills",
+        "agentic-workflows",
+        "prompt-engineering"
+      ],
+      "perspective": "\"Skills are super-leveraged prompts requiring engineering rigor — treat prompts as code\"",
+      "credentials": "\"Substack author, Claude Code educator, observed 100+ early Skills adopters\"",
+      "followed": "true",
+      "content_type": [
+        "substack"
+      ],
+      "sources_ingested": [
+        "i-watched-100-people-hit-the-same-claude-skills-problems-in-week-oneso-i-built-1.md"
+      ],
+      "home_url": "\"https://natesnewsletter.substack.com\""
+    },
+    {
+      "path": "raw/artemis/experts/naval-ravikant.md",
+      "name": "\"Naval Ravikant\"",
+      "slug": "naval-ravikant",
+      "expertise": [
+        "compounding-strategy",
+        "decision-framework-selection",
+        "leverage-identification",
+        "specific-knowledge-development"
+      ],
+      "perspective": "\"Wealth creation is the product of specific knowledge, leverage, and judgment compounding over time; the new leverage (code and media) is permissionless and makes individual output asymmetric.\"",
+      "credentials": "\"Co-founder and former CEO of AngelList. Prolific angel investor (Twitter, Uber, Postmates, 200+ startups). Author of the 'How to Get Rich (Without Getting Lucky)' tweetstorm. Subject of The Almanack of Naval Ravikant.\"",
+      "sources_ingested": [
+        "arm-yourself-with-specific-knowledge.md",
+        "seek-wealth-not-money-or-status.md",
+        "how-to-get-rich.md",
+        "find-a-position-of-leverage-almanack-of-naval-ravikant.md",
+        "judgment-is-the-decisive-skill.md",
+        "product-and-media-are-new-leverage.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/neil-rackham.md",
+      "name": "\"Neil Rackham\"",
+      "slug": "neil-rackham",
+      "expertise": [
+        "spin-selling",
+        "discovery-call-framework",
+        "sales-process-design",
+        "data-driven-sales-optimization"
+      ],
+      "perspective": "\"Sales effectiveness is an empirical science, not an art, and the specific verbal behaviors used during sales calls, particularly the types of questions asked, are measurable, learnable, and the primary determinant of outcomes in complex selling.\"",
+      "credentials": "\"Author of 'SPIN Selling' (1988), 'Major Account Sales Strategy,' and 'Rethinking the Sales Force,' founder of Huthwaite International, conducted the largest empirical study of sales effectiveness ever (35,000+ calls, 12 years, 27 countries, $1M+ investment)\"",
+      "sources_ingested": [
+        "neil-rackham-spin-selling-methodology.md",
+        "neil-rackham-spin-selling-implied-explicit-needs.md",
+        "neil-rackham-spin-selling-research-findings.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/nick-abraham.md",
+      "name": "\"Nick Abraham\"",
+      "slug": "nick-abraham",
+      "expertise": [
+        "gtm-automation-tooling",
+        "ai-workflow-automation",
+        "demand-creation-vs-capture",
+        "cold-start-strategy"
+      ],
+      "perspective": "\"Cold email at scale is not about volume or copywriting but about layering intent signals, colleague references, and AI-generated personalization so that every automated email feels like it was manually researched and written for one person.\"",
+      "credentials": "\"Founder of LeadBird.io (150+ employees, 200+ active clients, 1.5M+ cold emails sent monthly), co-founder of Scrubby.io (email validation) and Quicklines.ai (AI personalization), recognized by Smartlead as the #2 most-replied-to account globally\"",
+      "sources_ingested": [
+        "nick-abraham-the-cold-email-expert-who-redefined-lead-generation-scrubby.md",
+        "how-to-copy-nick-abrahams-hyper-personalization-framework-40-response-rates-at-s.md",
+        "nick-abrahams-cold-email-masterclass.md",
+        "how-nick-built-a-lead-generation-empire-starter-story.md",
+        "3-game-changing-strategies-nick-abraham-recommends-to-increase-your-booked-calls.md",
+        "nick-abraham-x-eric-nowoslawski-10-tactics-to-survive-the-cold-email-blood-bath.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/nik-sharma.md",
+      "name": "\"Nik Sharma\"",
+      "slug": "nik-sharma",
+      "expertise": [
+        "dtc-growth-marketing",
+        "paid-media-channel-selection",
+        "landing-page-optimization",
+        "conversion-optimization"
+      ],
+      "perspective": "\"Do less, better; early-stage DTC brands fail because they try to be world class at SEO, influencer marketing, paid ads, retail, and partnerships all at once, when they should master one funnel on one channel before expanding.\"",
+      "credentials": "\"CEO of Sharma Brands (growth equity firm for DTC brands); former Head of DTC at Hint (grew ad spend from zero to $1M+/month); nicknamed 'The DTC Guy'; has built or advised category leaders including Feastables, Jolie, Brightland, Caraway, JuneShine, and Spritz Society; coined the 'performance branding' concept and the TRACE growth framework.\"",
+      "sources_ingested": [
+        "how-to-scale-a-brand-to-5m-in-revenue-nik-sharmas-newsletter-sharma-brands.md",
+        "the-marketing-playbook-from-the-dtc-guy-nik-sharma-shopify.md",
+        "mastering-brand-growth-insights-from-nik-sharma-ceo-of-sharma-brands-on-the-powe.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/packy-mccormick.md",
+      "name": "\"Packy McCormick\"",
+      "slug": "packy-mccormick",
+      "expertise": [
+        "ai-business-models",
+        "ai-product-strategy",
+        "community-led-growth"
+      ],
+      "perspective": "\"Everything is becoming technology, and the winners are those who 'run up the stack' -- leveraging newly commoditized capabilities as inputs to create higher-order human value rather than competing with machines at tasks that are being automated.\"",
+      "credentials": "\"Founder of Not Boring (top tech/business newsletter, 250K+ subscribers), investor in Ramp/Scale AI/Replit/Varda, strategic advisor at Not Boring Capital\"",
+      "sources_ingested": [
+        "everything-is-technology-not-boring-by-packy-mccormick.md",
+        "most-human-wins-not-boring-by-packy-mccormick.md",
+        "openai-grand-strategy-not-boring-by-packy-mccormick.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/park-howell.md",
+      "name": "\"Park Howell\"",
+      "slug": "park-howell",
+      "expertise": [
+        "storytelling-for-business",
+        "brand-narrative-construction",
+        "brand-strategy-development"
+      ],
+      "perspective": "\"Story is not a nice-to-have marketing tactic but the operating system of human cognition. The ABT (And, But, Therefore) is the DNA of all compelling communication, and the 10-step Story Cycle System maps Joseph Campbell's Hero's Journey to business to place the customer as hero and the brand as mentor.\"",
+      "credentials": "\"Founder of Business of Story. 40+ year veteran of advertising. EMMY Award winner. Author of 'Brand Bewitchery' and co-author (with Dr. Randy Olson) of 'The Narrative Gym for Business.' Has grown brands by as much as 600%. Clients include Dell, American Express, Hilton Hotels, Cummins, McCormick, and the United States Air Force.\"",
+      "sources_ingested": [
+        "the-most-powerful-business-storytelling-starts-with-the-abt.md",
+        "the-10-step-storytelling-process-to-create-abundance-in-your-business.md",
+        "learn-this-proven-brand-story-framework.md",
+        "this-brand-storytelling-book-will-help-you-find-your-story.md",
+        "the-7-primal-elements-to-every-business-story-that-our-caveman-brain-cant-resist.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/paul-jarvis.md",
+      "name": "\"Paul Jarvis\"",
+      "slug": "paul-jarvis",
+      "expertise": [
+        "calm-company-operations",
+        "productized-consulting",
+        "service-productization"
+      ],
+      "perspective": "\"A company of one is not a freelancer with a website; it is a business that questions the assumption that growth is always good and deliberately optimizes for 'enough' rather than 'more'.\"",
+      "credentials": "\"Author of 'Company of One: Why Staying Small Is the Next Big Thing for Business'. Designer and developer who ran his own company of one for 20+ years. Co-created Fathom Analytics, a privacy-first web analytics tool. Former web designer for clients including Microsoft, Mercedes-Benz, and Yahoo. Writer and podcaster on intentional business design.\"",
+      "sources_ingested": [
+        "how-to-be-a-successful-company-of-one-with-paul-jarvis-the-creative-penn.md",
+        "book-summary-company-of-one-paul-jarvis.md",
+        "paul-jarvis-built-a-million-dollar-business-with-zero-employees-the-company-of-o.md"
       ]
     },
     {

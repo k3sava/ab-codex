@@ -23,7 +23,8 @@ Marcel Petitpas has built his expertise around a single, high-stakes problem: wh
 - **Scope Management**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_delivery-margin-three-levers` — Most agencies suffer from indigestion, not starvation — measure delivery margin and the three levers that move it [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `maximizing-agency-profitability-insights-from-ceo-co-founder-marcel-petitpas.md` (artemis ingest)

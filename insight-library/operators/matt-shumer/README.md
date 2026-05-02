@@ -22,7 +22,8 @@ Matt Shumer's perspective is grounded in six years of building AI products at th
 - **Building With Llms**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_ai-judgment-and-taste-emerging` — AI has crossed the threshold to something indistinguishable from judgment and taste — winners will know what to build, not how [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `something-big-is-happening-matt-shumer.md` (artemis ingest)
