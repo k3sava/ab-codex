@@ -22,7 +22,8 @@ Crayon is a competitive intelligence platform that has codified best practices f
 - **Win Loss Analysis**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_battlecard-abc-and-distribution` — Battlecard adoption fails on distribution, not content quality — embed in the workflow or the card dies [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `sales-battlecards-101-the-ultimate-guide-crayon.md` (artemis ingest)

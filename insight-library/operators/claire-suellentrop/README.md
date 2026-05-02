@@ -23,7 +23,8 @@ Claire Suellentrop is the leading practitioner of applying Jobs-to-be-Done theor
 - **Experience Mapping**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_jtbd-switch-interview-saas` — Use the JTBD switch interview on recently-converted high-value customers — segments emerge from jobs, not demographics [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `how-to-use-jobs-to-be-done-for-saas-growth-strategy.md` (artemis ingest)

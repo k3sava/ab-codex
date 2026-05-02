@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-02T16:24:21.557Z",
+  "generated_at": "2026-05-02T16:29:16.192Z",
   "counts": {
-    "insights": 314,
+    "insights": 327,
     "operators": 288,
-    "raw_sources": 103,
+    "raw_sources": 113,
     "patterns": 24,
     "contradictions": 9,
     "playbooks": 23
@@ -62,6 +62,33 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/podcasts/cat-wu--anthropic-product-team--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_20-percent-rule-headline.md",
+      "title": "Spend 20% of total writing time on the headline alone — it carries 80% of the persuasive weight",
+      "id": "ins_20-percent-rule-headline",
+      "operator": "Cole Schafer",
+      "operator_role": "Founder Honeycopy",
+      "source_url": "https://coleschafer.com/",
+      "source_type": "essay",
+      "source_title": "\"Honeycopy — the 20% Rule for headlines\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "content",
+        "marketing",
+        "pmm"
+      ],
+      "lifecycle": [
+        "messaging-narrative",
+        "content"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 3, specificity: 5, evidence: 3, transferability: 5, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/cole-schafer.md"
     },
     {
       "path": "insights/ins_3s-content-from-sales-success-support.md",
@@ -719,6 +746,33 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_amateurs-give-advice-experts-diagnose.md",
+      "title": "Amateurs give advice; experts diagnose. Whoever asks the most questions controls the conversation.",
+      "id": "ins_amateurs-give-advice-experts-diagnose",
+      "operator": "Chris Do",
+      "operator_role": "Founder & CEO The Futur; Emmy-winning designer",
+      "source_url": "https://thefutur.com/",
+      "source_type": "essay",
+      "source_title": "\"Value-based pricing — Chris Do / The Futur\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "sales",
+        "founder-craft",
+        "design-ux"
+      ],
+      "lifecycle": [
+        "pricing-packaging",
+        "sales-enablement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/chris-do.md"
+    },
+    {
       "path": "insights/ins_ambition-filtered-job-ads.md",
       "title": "Use the job ad itself as a self-selection filter for ambition",
       "id": "ins_ambition-filtered-job-ads",
@@ -883,6 +937,32 @@
         "ins_test-positioning-in-live-sales-pitch"
       ],
       "raw_ref": "raw/research/gartner--innovation-insight-rethinking-battle-cards-ai--2026-04.md"
+    },
+    {
+      "path": "insights/ins_battlecard-abc-and-distribution.md",
+      "title": "Battlecard adoption fails on distribution, not content quality — embed in the workflow or the card dies",
+      "id": "ins_battlecard-abc-and-distribution",
+      "operator": "Crayon",
+      "operator_role": "Competitive intelligence software platform",
+      "source_url": "https://www.crayon.co/",
+      "source_type": "essay",
+      "source_title": "\"Sales Battlecards 101 — Crayon's complete guide\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "sales"
+      ],
+      "lifecycle": [
+        "sales-enablement",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 5, evidence: 3, transferability: 5, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/crayon.md"
     },
     {
       "path": "insights/ins_because-don-know-how-make.md",
@@ -1328,6 +1408,58 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_buy-boring-businesses.md",
+      "title": "Buying eliminates the Valley of Death — the highest-risk phase of entrepreneurship is already done",
+      "id": "ins_buy-boring-businesses",
+      "operator": "Codie Sanchez",
+      "operator_role": "Founder Contrarian Thinking; co-founder Unconventional Acquisitions",
+      "source_url": "https://contrarianthinking.co/",
+      "source_type": "book",
+      "source_title": "\"Main Street Millionaire — buying boring cash-flowing businesses\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "strategy",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "pricing-packaging"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/codie-sanchez.md"
+    },
+    {
+      "path": "insights/ins_calibrated-questions-illusion-of-control.md",
+      "title": "\"How am I supposed to do that?\" — give the other party the illusion of control and they solve your problem for you",
+      "id": "ins_calibrated-questions-illusion-of-control",
+      "operator": "Chris Voss",
+      "operator_role": "Former FBI lead international kidnapping negotiator; founder Black Swan Group",
+      "source_url": "https://www.blackswanltd.com/",
+      "source_type": "book",
+      "source_title": "\"Never Split the Difference — calibrated questions\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "sales",
+        "leadership"
+      ],
+      "lifecycle": [
+        "sales-enablement",
+        "messaging-narrative"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 5, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/chris-voss.md"
     },
     {
       "path": "insights/ins_canonical-pov-on-third-party-first.md",
@@ -2141,6 +2273,33 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_demand-creation-vs-capture.md",
+      "title": "Stop optimizing for the 5% in-market; build preference with the 95% who aren't",
+      "id": "ins_demand-creation-vs-capture",
+      "operator": "Chris Walker",
+      "operator_role": "Founder & CEO Passetto; Chairman Refine Labs",
+      "source_url": "https://www.refinelabs.com/",
+      "source_type": "podcast",
+      "source_title": "\"State of Demand Gen — demand creation vs. capture\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "growth-demand",
+        "gtm",
+        "marketing"
+      ],
+      "lifecycle": [
+        "growth-loops",
+        "attribution-measurement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/chris-walker.md"
+    },
+    {
       "path": "insights/ins_design-as-bottleneck.md",
       "title": "Make design an explicit ship-blocking bottleneck",
       "id": "ins_design-as-bottleneck",
@@ -2533,6 +2692,33 @@
       "raw_ref": "raw/podcasts/benjamin-mann--economic-turing-test--2026-04-28.md"
     },
     {
+      "path": "insights/ins_eeat-quality-rater-perspective.md",
+      "title": "E-E-A-T isn't a ranking factor; it's the rubric raters use, and Google approximates it via indirect signals",
+      "id": "ins_eeat-quality-rater-perspective",
+      "operator": "Cyrus Shepard",
+      "operator_role": "Founder Zyppy SEO; ex-Chief SEO Strategist Moz; former Google Search Quality Rater",
+      "source_url": "https://zyppy.com/",
+      "source_type": "essay",
+      "source_title": "\"I secretly worked as a Google Search Quality Rater — Zyppy SEO\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "content",
+        "growth-demand",
+        "marketing"
+      ],
+      "lifecycle": [
+        "content",
+        "measurement-experimentation"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 5, transferability: 4, source: 4 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/cyrus-shepard.md"
+    },
+    {
       "path": "insights/ins_emails-will-let-know-next.md",
       "title": "- Emails: Will let you know next week. Aleksandar Lepidovski running it right now",
       "id": "ins_emails-will-let-know-next",
@@ -2860,6 +3046,33 @@
         "ins_willingness-to-pay-by-segment"
       ],
       "raw_ref": "raw/podcasts/andrew-wilkinson--niche-markets-lazy-leadership--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_five-animals-of-saas.md",
+      "title": "You can't hunt elephants the way you hunt rabbits — pick your animal first, GTM follows",
+      "id": "ins_five-animals-of-saas",
+      "operator": "Christoph Janz",
+      "operator_role": "General Partner & Co-founder Point Nine Capital",
+      "source_url": "https://christophjanz.blogspot.com/",
+      "source_type": "essay",
+      "source_title": "\"Five Ways to Build a $100M SaaS Business\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "strategy",
+        "gtm",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "planning-resourcing"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/christoph-janz.md"
     },
     {
       "path": "insights/ins_flywheel-ai-cross-functional-pod.md",
@@ -3575,6 +3788,34 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_hiro-pipeline-metric.md",
+      "title": "HIRO Pipeline: only count high-intent sources that win above 3% and reach late-stage above 25%",
+      "id": "ins_hiro-pipeline-metric",
+      "operator": "Chris Walker",
+      "operator_role": "Founder & CEO Passetto; Chairman Refine Labs",
+      "source_url": "https://www.refinelabs.com/",
+      "source_type": "essay",
+      "source_title": "\"Refine Labs Split-the-Funnel framework and HIRO Pipeline\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "growth-demand",
+        "marketing-ops"
+      ],
+      "lifecycle": [
+        "attribution-measurement",
+        "measurement-experimentation"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 3 }",
+      "tier": "A",
+      "related": [
+        "ins_demand-creation-vs-capture"
+      ],
+      "raw_ref": "raw/artemis/experts/chris-walker.md"
+    },
+    {
       "path": "insights/ins_homepage-five-second-trinity.md",
       "title": "B2B homepages must communicate use case, alternative, and result in five seconds",
       "id": "ins_homepage-five-second-trinity",
@@ -3882,6 +4123,34 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_invert-always-invert.md",
+      "title": "Invert, always invert: instead of \"how do I succeed?\" ask \"what would guarantee failure?\"",
+      "id": "ins_invert-always-invert",
+      "operator": "Charlie Munger",
+      "operator_role": "Vice Chairman Berkshire Hathaway",
+      "source_url": "https://www.berkshirehathaway.com/",
+      "source_type": "talk",
+      "source_title": "\"Charlie Munger — Inversion and the Psychology of Human Misjudgment\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "strategy",
+        "leadership"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "risk-quality"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_latticework-of-mental-models"
+      ],
+      "raw_ref": "raw/artemis/experts/charlie-munger.md"
+    },
+    {
       "path": "insights/ins_irony-why-perhaps-product-adoption.md",
       "title": "The irony why perhaps product adoption software hasn’t been that popular is also becaus...",
       "id": "ins_irony-why-perhaps-product-adoption",
@@ -4019,6 +4288,34 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/artemis/experts/adrienne-barnes.md"
+    },
+    {
+      "path": "insights/ins_jtbd-switch-interview-saas.md",
+      "title": "Use the JTBD switch interview on recently-converted high-value customers — segments emerge from jobs, not demographics",
+      "id": "ins_jtbd-switch-interview-saas",
+      "operator": "Claire Suellentrop",
+      "operator_role": "Co-founder Forget the Funnel; ex-Director of Marketing Calendly",
+      "source_url": "https://forgetthefunnel.com/",
+      "source_type": "book",
+      "source_title": "\"Forget the Funnel — JTBD switch-interview methodology for SaaS\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "research-discovery",
+        "growth"
+      ],
+      "lifecycle": [
+        "voc-research",
+        "positioning",
+        "onboarding-activation"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 4, specificity: 5, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/claire-suellentrop.md"
     },
     {
       "path": "insights/ins_key-challenge-will-actually-getting.md",
@@ -4161,6 +4458,32 @@
         "ins_build-for-model-six-months-out"
       ],
       "raw_ref": "raw/podcasts/boris-cherny--claude-code-after-coding-solved--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_latticework-of-mental-models.md",
+      "title": "Reliable thinking requires 80-90 mental models from multiple disciplines, not one",
+      "id": "ins_latticework-of-mental-models",
+      "operator": "Charlie Munger",
+      "operator_role": "Vice Chairman Berkshire Hathaway (1978-2023); Buffett's intellectual partner",
+      "source_url": "https://www.berkshirehathaway.com/",
+      "source_type": "book",
+      "source_title": "\"Latticework of Mental Models — Poor Charlie's Almanack\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "strategy",
+        "leadership"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "planning-resourcing"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/charlie-munger.md"
     },
     {
       "path": "insights/ins_lead-bullets-and-cannonballs.md",
@@ -5086,6 +5409,34 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/podcasts/elena-verna--earned-channels-tactics-that-never-work--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_no-oriented-questions.md",
+      "title": "Ask questions that earn a \"No\" — saying no makes people feel safe; being pushed for yes makes them defensive",
+      "id": "ins_no-oriented-questions",
+      "operator": "Chris Voss",
+      "operator_role": "Former FBI lead international kidnapping negotiator",
+      "source_url": "https://www.blackswanltd.com/",
+      "source_type": "book",
+      "source_title": "\"Never Split the Difference — No-oriented questions\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "sales",
+        "marketing"
+      ],
+      "lifecycle": [
+        "outbound",
+        "sales-enablement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_calibrated-questions-illusion-of-control"
+      ],
+      "raw_ref": "raw/artemis/experts/chris-voss.md"
     },
     {
       "path": "insights/ins_no-rebrands-for-growth.md",
@@ -13967,6 +14318,190 @@
         "link-building-strategies-the-complete-list-2026.md",
         "how-brian-dean-would-launch-backlinko-in-2026.md",
         "on-page-seo-the-definitive-guide-free-template-2026.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/charlie-munger.md",
+      "name": "\"Charlie Munger\"",
+      "slug": "charlie-munger",
+      "expertise": [
+        "antifragility-strategy",
+        "cognitive-bias-management",
+        "decision-framework-selection",
+        "first-principles-thinking",
+        "mental-model-application"
+      ],
+      "perspective": "\"The best way to achieve wisdom is to develop a latticework of mental models from multiple disciplines and use them in combination; the person who has only one way of thinking is dangerous to themselves and everyone around them.\"",
+      "credentials": "\"Vice Chairman of Berkshire Hathaway (1978-2023). Warren Buffett's intellectual partner for over 50 years. Chairman of the Daily Journal Corporation. Author of Poor Charlie's Almanack. Trained as a lawyer (Harvard Law) and meteorologist (Caltech). Considered one of the greatest investors and multi-disciplinary thinkers of the 20th and 21st centuries.\"",
+      "sources_ingested": [
+        "charlie-munger-latticework-of-mental-models-hamptons-group.md",
+        "charlie-mungers-system-of-mental-models-by-daniel.md",
+        "charlie-munger-adding-mental-models-to-your-toolbox.md",
+        "the-munger-operating-system-a-life-that-works.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/chris-do.md",
+      "name": "\"Chris Do\"",
+      "slug": "chris-do",
+      "expertise": [
+        "creative-business-pricing",
+        "value-based-pricing",
+        "service-productization",
+        "agency-positioning"
+      ],
+      "perspective": "\"Amateurs give advice, experts diagnose; the path to premium creative pricing is learning to ask questions that reveal the client's definition of value before you ever propose a solution.\"",
+      "credentials": "\"Founder and CEO of The Futur, an education platform for creative professionals with millions of followers. Emmy award-winning designer. Former creative director of Blind, a motion design studio in Los Angeles. Author and speaker on pricing, business, and design.\"",
+      "sources_ingested": [
+        "how-to-charge-for-designvalue-based-pricing.md",
+        "pricing-design-work-creativity.md",
+        "3-ways-to-approach-pricing-for-creative-work.md",
+        "chris-do-â-âvalue-isnât-determined-by-you-itâs-determined-by-the-clientâ.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/chris-voss.md",
+      "name": "\"Chris Voss\"",
+      "slug": "chris-voss",
+      "expertise": [
+        "buyer-enablement",
+        "discovery-call-framework",
+        "objection-handling-methodology",
+        "tactical-negotiation"
+      ],
+      "perspective": "\"All decision-making is emotionally driven, and the most effective way to influence outcomes is not through logic or compromise but through tactical empathy, calibrated questions, and giving the other party the illusion of control.\"",
+      "credentials": "\"Former FBI lead international kidnapping negotiator (24 years), founder of the Black Swan Group, author of 'Never Split the Difference,' MasterClass instructor on negotiation\"",
+      "sources_ingested": [
+        "9-field-tested-no-fail-strategies-to-use-in-your-next-negotiation.md",
+        "the-power-of-how-am-i-supposed-to-do-that-a-negotiation-perspective.md",
+        "how-to-negotiate-with-difficult-people.md",
+        "fine-tune-your-business-negotiation-skills-in-6-steps.md",
+        "communication-skills-how-to-get-buy-in-starting-with-no.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/chris-walker.md",
+      "name": "\"Chris Walker\"",
+      "slug": "chris-walker",
+      "expertise": [
+        "attribution-modeling",
+        "b2b-advertising-strategy",
+        "campaign-budget-allocation",
+        "dark-social-strategy",
+        "demand-creation-vs-capture",
+        "paid-media-channel-selection",
+        "retargeting-strategy"
+      ],
+      "perspective": "\"B2B marketing should prioritize demand creation through dark social channels over demand capture through attribution-trackable lead gen; the companies that win are the ones that build brand preference before buyers enter the market.\"",
+      "credentials": "\"Founder and CEO of Passetto (GTM strategy consultancy) and Chairman of Refine Labs; has worked with 100+ B2B SaaS companies; host of the State of Demand Gen podcast; created the HIRO Pipeline metric and Split the Funnel framework.\"",
+      "sources_ingested": [
+        "offense-intended-why-chris-walker-says-shift-from-demand-capture-to-demand-creat.md",
+        "how-to-generate-demand-with-b2b-marketing-expert-chris-walker.md",
+        "refine-labs-split-the-funnel-framework.md",
+        "how-to-win-in-marketing-with-chris-walker-of-refine-labs.md",
+        "increasing-hiro-pipeline-by-76-with-chris-walker-and-refine-labs.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/christoph-janz.md",
+      "name": "\"Christoph Janz\"",
+      "slug": "christoph-janz",
+      "expertise": [
+        "revenue-milestone-planning",
+        "saas-benchmarking",
+        "saas-unit-economics",
+        "financial-modeling-basics"
+      ],
+      "perspective": "\"The path to $100M ARR is defined by the combination of average revenue per account and number of customers; the 'animal' you are hunting determines your entire GTM architecture, and the SaaS funding napkin shows the concrete metrics required at each fundraising stage.\"",
+      "credentials": "\"General Partner and Co-founder of Point Nine Capital, one of Europe's most prominent early-stage SaaS-focused VC firms. Angel investor in Zendesk, FreeAgent, Algolia, Typeform, and Contentful. Creator of the SaaS Funding Napkin (updated annually since 2016) and the Five Ways to Build a $100M Business framework. Writes at christophjanz.blogspot.com (The Angel VC) and saas.wtf.\"",
+      "sources_ingested": [
+        "the-angel-vc-five-years-later-five-ways-to-build-a-100-million-saas-business.md",
+        "saas-funding-napkin-2023.md",
+        "christoph-janzs-5-ways-to-get-100m-arr-in-vc-backed-saas-earlynode.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/claire-suellentrop.md",
+      "name": "\"Claire Suellentrop\"",
+      "slug": "claire-suellentrop",
+      "expertise": [
+        "audience-segmentation",
+        "customer-interview-for-positioning",
+        "customer-led-growth",
+        "experience-mapping",
+        "jobs-to-be-done-for-saas"
+      ],
+      "perspective": "\"The most powerful growth lever in SaaS is understanding the job your best customers hired your product to do, then systematically aligning every touchpoint -- from onboarding email to pricing page -- to that job.\"",
+      "credentials": "\"Co-founder of Forget the Funnel, co-author of 'Forget the Funnel: A Customer-Led Approach for Driving Predictable, Recurring Revenue' (25,000+ copies sold), former Director of Marketing at Calendly, co-creator of the Customer-Led Growth framework used by 200+ SaaS companies including Wistia, SparkToro, and Appcues\"",
+      "sources_ingested": [
+        "how-to-use-jobs-to-be-done-for-saas-growth-strategy.md",
+        "claire-suellentrop-on-unlocking-customer-led-growth-in-saas.md",
+        "get-out-of-the-echo-chamber-how-to-use-jobs-to-be-done-to-perfect-your-products-.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/codie-sanchez.md",
+      "name": "\"Codie Sanchez\"",
+      "slug": "codie-sanchez",
+      "expertise": [
+        "acquisition-entrepreneurship",
+        "offer-creation",
+        "cash-flow-management"
+      ],
+      "perspective": "\"The fastest path to financial freedom is not building a startup from scratch but acquiring an existing 'boring' business with proven cash flow, because buying removes the highest-risk phase of entrepreneurship entirely.\"",
+      "credentials": "\"Founder of Contrarian Thinking and co-founder of Unconventional Acquisitions. Former Wall Street executive (First Trust, Goldman Sachs, State Street, Vanguard). NYT bestselling author of 'Main Street Millionaire'. Runs Main Street Holding Company, a portfolio of 'boring businesses' including laundromats, car washes, and service businesses. Has taught 10,000+ people how to buy businesses. 3.5M+ newsletter subscribers.\"",
+      "sources_ingested": [
+        "codie-sanchez-how-to-make-extraordinary-wealth-buying-boring-businesses-e319-yap.md",
+        "how-to-buy-a-boring-business-like-codie-sanchez.md",
+        "codie-sanchez-and-the-magic-of-contrarian-thinking.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/cole-schafer.md",
+      "name": "\"Cole Schafer\"",
+      "slug": "cole-schafer",
+      "expertise": [
+        "conversion-web-copywriting",
+        "brand-voice",
+        "content-quality-standards"
+      ],
+      "perspective": "\"Copy should open hearts and wallets. People buy for exactly one reason: to move closer to pleasure or further from pain. Everything else is noise. You cannot bore someone into buying.\"",
+      "credentials": "\"Founder of Honeycopy, a conversion copywriting writers' room. Poet and copywriter. Known for combining literary voice with commercial effectiveness. Has written for brands including major DTC and B2B companies. Published essayist and newsletter writer with a large following.\"",
+      "sources_ingested": []
+    },
+    {
+      "path": "raw/artemis/experts/crayon.md",
+      "name": "\"Crayon\"",
+      "slug": "crayon",
+      "expertise": [
+        "sales-battlecard-creation",
+        "competitive-intelligence-enablement",
+        "win-loss-analysis"
+      ],
+      "perspective": "\"The CI practitioner's job is not to be the all-knowing competitive expert but to identify who is winning against each competitor and enable the entire team to learn from them — making battlecards a peer-learning system, not a top-down intelligence report.\"",
+      "credentials": "\"Competitive intelligence software platform trusted by Gong, Dropbox, and ZoomInfo; publishes the annual State of Competitive Intelligence report; primary author Conor Bond on the Crayon marketing team.\"",
+      "sources_ingested": [
+        "sales-battlecards-101-the-ultimate-guide-crayon.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/cyrus-shepard.md",
+      "name": "\"Cyrus Shepard\"",
+      "slug": "cyrus-shepard",
+      "expertise": [
+        "eeat-optimization",
+        "technical-seo-audit",
+        "content-seo",
+        "search-intent-mapping",
+        "seo-measurement"
+      ],
+      "perspective": "\"The most reliable SEO insights come from large-scale data studies and firsthand experience with Google's quality evaluation systems; understanding how Google actually rates quality, not how SEOs assume it does, is the key competitive advantage.\"",
+      "credentials": "\"Founder of Zyppy SEO, former Chief SEO Strategist at Moz, worked as a Google Search Quality Rater, conducted landmark studies on title tag rewrites (81,000 tags) and internal linking (23 million links across 1,800 sites), regular speaker at MozCon, SearchLove, and BrightonSEO\"",
+      "sources_ingested": [
+        "i-secretly-worked-as-a-google-search-quality-rater-you-can-too-zyppy-seo.md",
+        "google-rewrites-61-of-page-title-tags-seo-study.md",
+        "23-million-internal-links-seo-case-study.md",
+        "introducing-the-google-page-quality-rating-scorecard-zyppy-seo.md"
       ]
     },
     {

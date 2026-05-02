@@ -23,7 +23,8 @@ Cyrus Shepard occupies a unique position in the SEO world: he is one of the few 
 - **Search Intent Mapping**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_eeat-quality-rater-perspective` — E-E-A-T isn't a ranking factor; it's the rubric raters use, and Google approximates it via indirect signals [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `i-secretly-worked-as-a-google-search-quality-rater-you-can-too-zyppy-seo.md` (artemis ingest)

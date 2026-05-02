@@ -23,7 +23,8 @@ Chris Do's system of thought is built on a single reframe that he delivers to cr
 - **Agency Positioning**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_amateurs-give-advice-experts-diagnose` — Amateurs give advice; experts diagnose. Whoever asks the most questions controls the conversation. [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `how-to-charge-for-designvalue-based-pricing.md` (artemis ingest)

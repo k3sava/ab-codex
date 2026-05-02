@@ -23,7 +23,9 @@ Charlie Munger's central intellectual contribution is the concept of a "latticew
 - **First Principles Thinking**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_latticework-of-mental-models` — Reliable thinking requires 80-90 mental models from multiple disciplines, not one [Tier A]
+- `ins_invert-always-invert` — Invert, always invert: instead of 'how do I succeed?' ask 'what would guarantee failure?' [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `charlie-munger-latticework-of-mental-models-hamptons-group.md` (artemis ingest)

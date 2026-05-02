@@ -22,7 +22,9 @@ Chris Voss is the bridge between high-stakes hostage negotiation and commercial 
 - **Tactical Negotiation**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_calibrated-questions-illusion-of-control` — 'How am I supposed to do that?' — give the other party the illusion of control and they solve your problem for you [Tier A]
+- `ins_no-oriented-questions` — Ask questions that earn a 'No' — saying no makes people feel safe; being pushed for yes makes them defensive [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `9-field-tested-no-fail-strategies-to-use-in-your-next-negotiation.md` (artemis ingest)

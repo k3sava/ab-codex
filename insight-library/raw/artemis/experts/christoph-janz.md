@@ -1,0 +1,19 @@
+---
+name: "Christoph Janz"
+slug: christoph-janz
+expertise: [revenue-milestone-planning, saas-benchmarking, saas-unit-economics, financial-modeling-basics]
+perspective: "The path to $100M ARR is defined by the combination of average revenue per account and number of customers; the 'animal' you are hunting determines your entire GTM architecture, and the SaaS funding napkin shows the concrete metrics required at each fundraising stage."
+credentials: "General Partner and Co-founder of Point Nine Capital, one of Europe's most prominent early-stage SaaS-focused VC firms. Angel investor in Zendesk, FreeAgent, Algolia, Typeform, and Contentful. Creator of the SaaS Funding Napkin (updated annually since 2016) and the Five Ways to Build a $100M Business framework. Writes at christophjanz.blogspot.com (The Angel VC) and saas.wtf."
+sources_ingested:
+  - the-angel-vc-five-years-later-five-ways-to-build-a-100-million-saas-business.md
+  - saas-funding-napkin-2023.md
+  - christoph-janzs-5-ways-to-get-100m-arr-in-vc-backed-saas-earlynode.md
+---
+
+Christoph Janz provides two of the most widely-used mental models in SaaS strategy: the Five Animals framework for market architecture and the SaaS Funding Napkin for stage-gate fundraising benchmarks. Where Lemkin gives operational advice and Skok provides financial formulas, Janz gives founders a way to reason about what kind of company they are building and what it will take to get there, before they make any tactical decisions.
+
+The Five Animals framework classifies SaaS businesses by the combination of average revenue per account (ARPA) and number of customers needed to reach $100M ARR. Flies generate $10/year per customer and need 10 million of them; the only viable GTM is viral/consumer-grade acquisition. Mice generate $100/year and need 1 million customers; self-serve with strong SEO and content marketing. Rabbits generate $1,000/year and need 100,000 customers; inside sales combined with marketing automation. Deer generate $10,000/year and need 10,000 customers; field sales with solution selling. Elephants generate $100,000+/year and need 1,000 customers; enterprise sales with long cycles and deep customization. The critical insight is not the arithmetic but the strategic implication: you cannot hunt elephants the way you hunt rabbits. Each animal type determines the entire organizational structure, cost basis, hiring profile, marketing channels, sales motion, and product complexity. Several of Janz's portfolio companies successfully went upmarket (rabbits to deer to elephants) when they saw they would hit a growth ceiling in their existing segment, demonstrating that the framework is also a strategic migration tool.
+
+The SaaS Funding Napkin, updated annually, provides concrete metric thresholds required to raise at each stage. For Seed: $0-1.5M ARR, strong team and early traction. Series A: $1-2.5M ARR growing 2-3x year-over-year, with evidence of repeatable sales. Series B: $5-15M ARR growing 2-3x with improving unit economics. The napkin includes thresholds for NRR, gross margin, burn multiple, and team size at each stage, and Janz updates it annually based on actual fundraising data from Point Nine's portfolio and industry surveys. The 2023 edition reflected the post-2021 correction: traction requirements for Seed increased from $0-0.6M in 2021 to $0-1.5M, and capital efficiency (burn multiple under 2x) became a requirement rather than a nice-to-have.
+
+Janz's cross-disciplinary contribution is connecting market structure to company design. His reasoning process always starts with "what is your ARPA and how many customers does that imply?" and from there derives the entire GTM architecture. For agency founders advising SaaS clients, Janz's frameworks provide the foundational questions: which animal are you hunting, do your metrics match your stage, and is your GTM architecture aligned with your ARPA?

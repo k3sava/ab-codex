@@ -20,7 +20,8 @@ Christoph Janz provides two of the most widely-used mental models in SaaS strate
 - **Financial Modeling Basics**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_five-animals-of-saas` — You can't hunt elephants the way you hunt rabbits — pick your animal first, GTM follows [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `the-angel-vc-five-years-later-five-ways-to-build-a-100-million-saas-business.md` (artemis ingest)

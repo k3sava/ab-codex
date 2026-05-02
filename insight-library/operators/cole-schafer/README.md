@@ -19,7 +19,8 @@ Cole Schafer runs Honeycopy as a writers' room, not a template factory. His fund
 - **Content Quality Standards**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_20-percent-rule-headline` — Spend 20% of total writing time on the headline alone — it carries 80% of the persuasive weight [Tier B]
+
 
 ## Sources captured
 _None archived in codex yet — see Artemis knowledge base for original ingest._
