@@ -603,24 +603,80 @@ function inlineMd(s){
 async function patternPage(id){
   const p = patterns.find(x=>x.id===id);
   if (!p){ app.innerHTML = `<div class='insight-page'><p>pattern not found.</p></div>`; return; }
-  app.innerHTML = `<article class='insight-page'>
+  // Build operator-converge data
+  const usedCards = (p.uses_cards||[]).map(cid => cards.find(x => x.id === cid)).filter(Boolean);
+  const uniqOps = [...new Set(usedCards.map(c => c.operator))];
+  const N = uniqOps.length;
+  // Radial SVG: operators arranged in a circle around the pattern title
+  const W = 520, H = 360, cx = W/2, cy = H/2, r = Math.min(W, H) * 0.36;
+  const radial = N > 0 ? `<svg class='pat-radial' viewBox='0 0 ${W} ${H}' aria-hidden='true'>
+    ${uniqOps.map((_, i) => {
+      const a = (i / N) * 2 * Math.PI - Math.PI/2;
+      const x = cx + r * Math.cos(a);
+      const y = cy + r * Math.sin(a);
+      return `<line x1='${cx}' y1='${cy}' x2='${x.toFixed(1)}' y2='${y.toFixed(1)}' class='pat-radial-line' />`;
+    }).join('')}
+    <circle cx='${cx}' cy='${cy}' r='28' class='pat-radial-core' />
+    <text x='${cx}' y='${cy + 4}' text-anchor='middle' class='pat-radial-core-text'>${N}</text>
+    ${uniqOps.map((name, i) => {
+      const a = (i / N) * 2 * Math.PI - Math.PI/2;
+      const x = cx + r * Math.cos(a);
+      const y = cy + r * Math.sin(a);
+      const labelX = cx + (r + 24) * Math.cos(a);
+      const labelY = cy + (r + 24) * Math.sin(a);
+      const anchor = Math.cos(a) > 0.3 ? 'start' : Math.cos(a) < -0.3 ? 'end' : 'middle';
+      const op = operators.find(o => o.name === name);
+      const slug = op ? op.slug : slugify(name);
+      return `<g class='pat-radial-op' data-slug='${slug}'>
+        <circle cx='${x.toFixed(1)}' cy='${y.toFixed(1)}' r='6' class='pat-radial-dot' />
+        <text x='${labelX.toFixed(1)}' y='${(labelY + 4).toFixed(1)}' text-anchor='${anchor}' class='pat-radial-label'>${escapeHtml(name)}</text>
+      </g>`;
+    }).join('')}
+  </svg>` : '';
+
+  app.innerHTML = `<article class='pattern-page'>
     <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <a href='#/patterns'>patterns</a> <span>·</span> <span>${p.id}</span></div>
-    <div class='layout'>
-      <div>
-        <div class='meta-row' style='margin-bottom:14px;font-family:var(--mono);font-size:.7rem;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap'>${p.tier?tierBadge(p.tier):''}<span>${(p.domains||[]).join(' · ')}</span></div>
-        <h1>${escapeHtml(p.title)}</h1>
-        <p class='source'>${(p.uses_cards||[]).length} operators converge</p>
-        <div class='body' id='patBody'><p style='color:var(--muted);font-family:var(--mono);font-size:.8rem'>loading…</p></div>
+    <header class='pat-head'>
+      <div class='pat-meta'>
+        ${p.tier ? tierBadge(p.tier) : ''}
+        <span class='pat-eyebrow'>synthesis pattern</span>
+        ${(p.domains||[]).slice(0,3).map(d => `<a class='pat-dom' href='#/d/${d}'>${d}</a>`).join('')}
       </div>
-      <aside><div class='card-meta'>
-        <h4>cards in this pattern</h4>
-        <ul>${(p.uses_cards||[]).map(id=>{const c=cards.find(x=>x.id===id); return c?`<li><a href='#/ins/${id}'>${escapeHtml(c.claim)}</a></li>`:`<li>${id}</li>`;}).join('')}</ul>
-      </div></aside>
+      <h1>${escapeHtml(p.title)}</h1>
+      <p class='pat-converge-line'>${N} operators converge from ${[...new Set(usedCards.flatMap(c => c.domain || []))].length} domains</p>
+    </header>
+    ${radial ? `<div class='pat-radial-wrap'>${radial}</div>` : ''}
+    <div class='pat-layout'>
+      <main class='pat-body' id='patBody'>
+        <p style='color:var(--muted);font-family:var(--mono);font-size:.8rem'>loading…</p>
+      </main>
+      <aside class='pat-side'>
+        <h4>operator quotes</h4>
+        <ul class='pat-quotes'>${usedCards.map(c => `
+          <li><a href='#/ins/${c.id}'>
+            <span class='pat-quote-op'>${escapeHtml(c.operator)}</span>
+            <span class='pat-quote-claim'>${escapeHtml(c.claim || c.id)}</span>
+            ${tierBadge(c.tier)}
+          </a></li>`).join('')}</ul>
+      </aside>
     </div>
+    <p class='pat-source'><a href='https://github.com/k3sava/codex/blob/main/insight-library/${p.path}' target='_blank' rel='noopener'>Source on GitHub →</a></p>
   </article>`;
+  // Wire radial → operator
+  document.querySelectorAll('.pat-radial-op').forEach(g => {
+    g.style.cursor = 'pointer';
+    g.addEventListener('click', () => location.hash = `#/o/${g.dataset.slug}`);
+  });
   const md = await fetchBody(p.path);
-  document.getElementById('patBody').innerHTML = mdToHtml(md);
-  if (!reduced) gsap.from('.insight-page > .layout > div > *, .insight-page aside', { opacity:0, y:18, duration:.6, ease:'power3.out', stagger:.05 });
+  // Strip frontmatter and leading H1 from pattern body
+  const stripFm = m => m.startsWith('---\n') ? m.slice(m.indexOf('\n---', 4) + 4).trimStart() : m;
+  document.getElementById('patBody').innerHTML = mdToHtml(stripFm(md).replace(/^#\s+[^\n]+\n+/, ''));
+  if (!reduced){
+    gsap.from('.pat-head > *', { opacity:0, y:14, duration:.6, ease:'power2.out', stagger:.06 });
+    gsap.from('.pat-radial-line', { opacity:0, drawSVG:0, duration:.8, stagger:.04, ease:'power2.out', delay:.3 });
+    gsap.from('.pat-radial-op', { opacity:0, scale:.6, duration:.5, stagger:.04, ease:'back.out(1.5)', delay:.4, transformOrigin:'center' });
+    gsap.from('.pat-radial-core', { opacity:0, scale:.4, duration:.6, ease:'back.out(1.7)', delay:.2, transformOrigin:'center' });
+  }
 }
 
 async function contradictionPage(id){
@@ -919,10 +975,13 @@ function about(){
 
 /* ============ MAP — interactive force graph (drag, zoom, hover) ============ */
 function graph(){
+  // Mobile: render constellation (sectioned per-domain top operators) instead of force graph
+  const isMobile = window.matchMedia('(max-width:768px)').matches;
+  if (isMobile){ return constellation(); }
   app.innerHTML = `<section class='graph-page'>
     <div class='ghead'>
       <h1>knowledge map</h1>
-      <p>${STATS.cards} insights, ${STATS.operators} operators, ${STATS.domains} domains. Drag any node to rearrange. Scroll or pinch to zoom. Click to open.</p>
+      <p>${STATS.cards} insights · ${STATS.operators} operators · ${STATS.domains} domains. Drag, zoom, click.</p>
     </div>
     <div class='graphWrap'>
       <svg id='graph'></svg>
@@ -938,13 +997,49 @@ function graph(){
           <div><span class='sw' style='background:#5d738f'></span>operators</div>
           <div><span class='sw' style='background:#9c9082'></span>insights</div>
         </div>
-        <div class='hint'>drag nodes · scroll to zoom · click to open · hover for label</div>
+        <div class='hint'>drag · scroll to zoom · click to open</div>
       </div>
       <div class='graph-tooltip' id='graphTip'></div>
     </div>
   </section>`;
 
   requestAnimationFrame(() => buildForceGraph());
+}
+
+function constellation(){
+  // Sectioned per-domain view: top 6 operators per domain, sorted by card count in that domain
+  const byDomain = new Map();
+  for (const c of cards){
+    for (const d of (c.domain || [])){
+      if (!byDomain.has(d)) byDomain.set(d, new Map());
+      const m = byDomain.get(d);
+      m.set(c.operator, (m.get(c.operator) || 0) + 1);
+    }
+  }
+  const domains = [...byDomain.entries()]
+    .map(([d, opMap]) => ({
+      domain: d,
+      total: [...opMap.values()].reduce((a,b)=>a+b,0),
+      ops: [...opMap.entries()].sort((a,b)=>b[1]-a[1])
+    }))
+    .sort((a,b) => b.total - a.total);
+  app.innerHTML = `<section class='constellation-page'>
+    <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <span>map</span></div>
+    <h1>knowledge map</h1>
+    <p class='lede'>${STATS.cards} insights · ${STATS.operators} operators · ${domains.length} domains. Tap a domain to see all its cards.</p>
+    <div class='constellation'>${domains.map(({domain, total, ops}) => `
+      <section class='cnst-domain'>
+        <header class='cnst-head'>
+          <a class='cnst-name' href='#/d/${domain}'>${domain}</a>
+          <span class='cnst-ct'>${total} card${total===1?'':'s'}</span>
+        </header>
+        <ol class='cnst-ops'>${ops.slice(0,7).map(([name, ct]) => `
+          <li><a href='#/o/${slugify(name)}'><span class='cnst-op-name'>${escapeHtml(name)}</span><span class='cnst-op-ct'>${ct}</span></a></li>`).join('')}
+        ${ops.length > 7 ? `<li class='cnst-more'><a href='#/d/${domain}'>+${ops.length - 7} more</a></li>` : ''}
+        </ol>
+      </section>`).join('')}</div>
+  </section>`;
+  if (!reduced) ScrollTrigger.batch('.cnst-domain', { onEnter: els => gsap.fromTo(els, { opacity:0, y:14 }, { opacity:1, y:0, duration:.5, ease:'power2.out', stagger:.04 }), start:'top 95%' });
 }
 
 function buildForceGraph(){
