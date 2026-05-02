@@ -7,7 +7,8 @@ roles:
 domains_active: [growth, ai-native]
 captured_first: 2026-05-01
 external:
-  site: https://www.gsqi.com/marketing-blog/
+  linkedin: https://www.linkedin.com/in/glenngabe/
+  website: https://www.gsqi.com/
 ---
 
 # Glenn Gabe

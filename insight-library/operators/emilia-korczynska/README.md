@@ -5,7 +5,8 @@ roles:
   - VP of Marketing @Userpilot. Author @ Product Rantz.
 domains_active: [marketing]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/emiliakorczynska/
 ---
 
 # Emilia Korczynska

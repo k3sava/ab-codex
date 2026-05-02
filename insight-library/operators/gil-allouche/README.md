@@ -6,7 +6,9 @@ roles:
   - Making B2B Marketing Teams Predictable & Profitable 🦄
 domains_active: [founder-craft, marketing]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/gilallouche/
+  website: https://metadata.io/
 ---
 
 # Gil Allouche

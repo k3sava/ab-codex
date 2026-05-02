@@ -5,7 +5,9 @@ roles:
   - CEO@Sybill - Cursor for Revenue teams
 domains_active: [founder-craft]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/gorish/
+  website: https://www.sybill.ai/
 ---
 
 # Gorish Aggarwal

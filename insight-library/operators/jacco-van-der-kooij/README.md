@@ -8,6 +8,9 @@ roles:
   - 000+ SaaS companies on scalable revenue systems
 domains_active: [sales-cs, design, leadership, research, growth]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/jaccovanderkooij/
+  website: https://winningbydesign.com/
 ---
 
 # Jacco van der Kooij

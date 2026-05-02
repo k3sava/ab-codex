@@ -7,7 +7,8 @@ roles:
 domains_active: [growth, ai-native, marketing]
 captured_first: 2026-05-01
 external:
-  site: https://mobiledevmemo.com/
+  linkedin: https://www.linkedin.com/in/ericseufert/
+  website: https://mobiledevmemo.com/
 ---
 
 # Eric Seufert

@@ -8,6 +8,9 @@ roles:
   - investor in community-driven businesses
 domains_active: [ai-native, gtm, design, growth, pmm]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/gisenberg/
+  website: https://www.gregisenberg.com/
 ---
 
 # Greg Isenberg

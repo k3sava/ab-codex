@@ -6,6 +6,9 @@ roles:
   - author of 'Co-Intelligence: Living and Working with AI,' researcher on AI's impact on knowledge work, creator of experimental AI-integrated MBA courses
 domains_active: [ai-native, engineering, leadership, product, research]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/emollick/
+  newsletter: https://www.oneusefulthing.org/
 ---
 
 # Ethan Mollick

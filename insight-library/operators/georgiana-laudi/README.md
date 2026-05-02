@@ -8,6 +8,9 @@ roles:
   - consultant to 200+ SaaS companies
 domains_active: [pmm, growth, design, ai-native, leadership]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/georgianalaudi/
+  website: https://forgetthefunnel.com/
 ---
 
 # Georgiana Laudi

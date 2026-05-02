@@ -7,6 +7,8 @@ roles:
   - featured expert in Reforge's Product-Led Growth program; advises B2B SaaS companies on growth strategy
 domains_active: [gtm, design, ai-native, product, growth]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/elenaverna/
 ---
 
 # Elena Verna

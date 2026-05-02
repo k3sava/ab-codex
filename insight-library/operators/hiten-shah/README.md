@@ -5,6 +5,8 @@ roles:
   - Serial SaaS entrepreneur (FYI, KISSmetrics, Crazy Egg)
 domains_active: [product, research, growth, leadership, pmm]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/hnshah/
 ---
 
 # Hiten Shah

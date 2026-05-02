@@ -6,7 +6,7 @@ roles:
 domains_active: [founder-craft, product, leadership, ai-native]
 captured_first: 2026-05-01
 external:
-  company: https://snap.com
+  linkedin: https://www.linkedin.com/in/evan-spiegel/
 ---
 
 # Evan Spiegel

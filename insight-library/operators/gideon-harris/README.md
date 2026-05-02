@@ -7,7 +7,9 @@ roles:
   - The Weight of Monday.
 domains_active: [pmm]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/gideonharris/
+  website: https://weightofmonday.com/
 ---
 
 # Gideon Harris

@@ -8,6 +8,9 @@ roles:
   - and Mixpanel
 domains_active: [growth, pmm, research, leadership, product]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/schwartze/
+  newsletter: https://www.productledseo.com/
 ---
 
 # Eli Schwartz

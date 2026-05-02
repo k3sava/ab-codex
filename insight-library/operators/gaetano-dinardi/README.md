@@ -8,6 +8,9 @@ roles:
   - and Advanced Web Ranking
 domains_active: [leadership, growth, pmm]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/officialg/
+  website: https://marketingadvice.io/
 ---
 
 # Gaetano DiNardi

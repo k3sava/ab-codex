@@ -8,6 +8,9 @@ roles:
   - one of the most widely-read B2B marketing newsletters
 domains_active: [research, design, leadership, pmm, product]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/emilykramer/
+  newsletter: https://www.mkt1.co/
 ---
 
 # Emily Kramer

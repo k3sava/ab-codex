@@ -5,6 +5,8 @@ roles: [Research and advisory firm]
 domains_active: [gtm, ai-native, sales, pmm, leadership]
 captured_first: 2026-05-02
 note: "operator: Gartner — individual analysts attributed in operator_role per card"
+external:
+  website: https://www.gartner.com/
 ---
 
 # Gartner

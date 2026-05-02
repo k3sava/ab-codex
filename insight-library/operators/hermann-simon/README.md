@@ -7,6 +7,8 @@ roles:
   - and 'Price Management.' Named the most influential management thinker in the German-speaking world. Has advised hundreds of Fortune 500 companies on pricing
 domains_active: [pmm, leadership, research, ai-native]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/simonhermann/
 ---
 
 # Hermann Simon
