@@ -651,6 +651,8 @@ function render(){
   else view = about;
   if (!reduced) gsap.fromTo(app, { opacity:0, y:8 }, { opacity:1, y:0, duration:.4, ease:'power2.out' });
   view();
+  // Allow render then refresh ScrollTrigger so currently-visible reveals fire
+  setTimeout(() => ScrollTrigger.refresh(), 60);
 }
 
 /* ============ SEARCH ============ */

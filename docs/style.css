@@ -337,9 +337,8 @@ dialog{
   max-width:760px;width:min(92vw,760px);max-height:min(72vh,720px);
   box-shadow:0 30px 80px -20px #00000050,0 0 0 1px var(--line);
   font-family:var(--sans);
-  display:flex;flex-direction:column;
 }
-dialog[open]{display:flex}
+dialog[open]{display:flex;flex-direction:column}
 dialog::backdrop{background:#00000060;backdrop-filter:blur(6px)}
 dialog .search-head{display:flex;align-items:center;gap:12px;padding:18px 22px;border-bottom:1px solid var(--line)}
 dialog .search-head svg{width:18px;height:18px;color:var(--muted);flex:none}
