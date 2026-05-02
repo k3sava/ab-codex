@@ -30,7 +30,7 @@ async function loadIndex(){
   }));
   patterns = (data.patterns||[]).map(p => ({ id:p.id, title:p.title, tier:p.tier, path:p.path, uses_cards:p.uses_cards||[], domains:p.domains||[] }));
   contradictions = (data.contradictions||[]).map(c => ({ id:c.id, title:c.title, path:c.path }));
-  playbooks = (data.playbooks||[]).map(p => ({ id:p.id, title:p.title, path:p.path, domain:p.domain||[] }));
+  playbooks = (data.playbooks||[]).map(p => ({ id:p.id, title:p.title, path:p.path, domain:p.domain||[], uses_cards:p.uses_cards||[], originating_operators:p.originating_operators||[], maintained_by:p.maintained_by||'', captured_date:p.captured_date||'' }));
   DOMAINS = [...new Set(cards.flatMap(c=>c.domain))].sort();
   const counts = data.counts || {};
   STATS = {
@@ -294,32 +294,187 @@ function patternsList(){
   if (!reduced) ScrollTrigger.batch('.card.reveal', { onEnter: els => gsap.fromTo(els, { opacity:0, y:18 }, { opacity:1, y:0, duration:.6, ease:'power3.out', stagger:.03 }), start:'top 92%' });
 }
 
+function playbookCategoryFromPath(path){
+  const parts = (path || '').split('/');
+  return parts.length >= 2 ? parts[1] : 'other';
+}
+
+const PLAYBOOK_CATEGORY_LABELS = {
+  'aeo': 'answer engine optimization',
+  'ai-native-gtm': 'ai-native gtm',
+  'competitive': 'competitive intelligence',
+  'copywriting': 'copywriting',
+  'design': 'design',
+  'jtbd': 'jobs to be done',
+  'launch': 'launch',
+  'measurement': 'measurement',
+  'messaging': 'messaging',
+  'narrative': 'narrative',
+  'positioning': 'positioning',
+  'sales-enablement': 'sales enablement',
+};
+
 function playbooksList(){
-  const byDomain = {};
+  const byCat = {};
   playbooks.forEach(p => {
-    const key = (p.domain && p.domain[0]) || 'general';
-    (byDomain[key] = byDomain[key] || []).push(p);
+    const key = playbookCategoryFromPath(p.path);
+    (byCat[key] = byCat[key] || []).push(p);
   });
-  const groups = Object.keys(byDomain).sort();
+  const order = Object.keys(byCat).sort((a, b) => byCat[b].length - byCat[a].length || a.localeCompare(b));
   app.innerHTML = `<section class='list-page'>
     <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <span>playbooks</span></div>
     <h1>methodology playbooks</h1>
-    <p class='lede'>${STATS.playbooks} playbooks distilled from operator-attributed claims. Each playbook bundles cards, operators, and downstream artifacts into a working procedure.</p>
-    ${groups.map(g => `
+    <p class='lede'>${STATS.playbooks} playbooks across ${order.length} categories. Each bundles operator-attributed insights into a working procedure with inputs, process, outputs, and quality gates.</p>
+    ${order.map(cat => {
+      const items = byCat[cat];
+      const label = PLAYBOOK_CATEGORY_LABELS[cat] || cat;
+      return `
       <section class='tier-group'>
         <header class='tier-head'>
-          <h2>${g}</h2>
-          <span class='ct'>${byDomain[g].length} playbook${byDomain[g].length===1?'':'s'}</span>
+          <h2>${label}</h2>
+          <span class='ct'>${items.length} playbook${items.length===1?'':'s'}</span>
         </header>
-        <div class='card-grid'>${byDomain[g].map(p => `
-          <a class='card reveal' target='_blank' rel='noopener' href='${p.path ? `https://github.com/k3sava/ab-codex/blob/main/insight-library/${p.path}` : '#'}'>
+        <div class='card-grid'>${items.map(p => `
+          <a class='card reveal' href='#/play/${p.id}'>
             <div class='meta-row'><span>playbook</span><span>${(p.domain||[]).slice(0,3).join(' · ')}</span></div>
             <h3>${escapeHtml(p.title)}</h3>
-            <div class='converge'>${(p.uses_cards||[]).length} cards · ${(p.originating_operators||[]).length} operators</div>
+            <div class='converge'>${(p.uses_cards||[]).length} insight${(p.uses_cards||[]).length===1?'':'s'} · ${(p.originating_operators||[]).length} operator${(p.originating_operators||[]).length===1?'':'s'}</div>
           </a>`).join('')}</div>
-      </section>`).join('')}
+      </section>`;
+    }).join('')}
   </section>`;
   if (!reduced) ScrollTrigger.batch('.card.reveal', { onEnter: els => gsap.fromTo(els, { opacity:0, y:18 }, { opacity:1, y:0, duration:.6, ease:'power3.out', stagger:.03 }), start:'top 92%' });
+}
+
+async function playbookPage(id){
+  const p = playbooks.find(x => x.id === id);
+  if (!p){ app.innerHTML = `<div class='insight-page'><p>playbook not found.</p></div>`; return; }
+  const cat = playbookCategoryFromPath(p.path);
+  const catLabel = PLAYBOOK_CATEGORY_LABELS[cat] || cat;
+  // Render skeleton immediately
+  app.innerHTML = `<article class='insight-page playbook-page'>
+    <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <a href='#/playbooks'>playbooks</a> <span>·</span> <span>${escapeHtml(catLabel)}</span></div>
+    <header class='playbook-head'>
+      <div class='meta-row' style='margin-bottom:14px;font-family:var(--mono);font-size:.7rem;color:var(--muted)'>
+        <span>${escapeHtml(catLabel)}</span>
+        ${p.captured_date ? `<span>·</span><span>${escapeHtml(p.captured_date)}</span>` : ''}
+        ${p.maintained_by ? `<span>·</span><span>maintained by ${escapeHtml(p.maintained_by)}</span>` : ''}
+      </div>
+      <h1>${escapeHtml(p.title)}</h1>
+      <div class='chips'>${(p.domain||[]).map(d => `<a class='chip-link' href='#/d/${d}'>${escapeHtml(d)}</a>`).join('')}</div>
+    </header>
+
+    ${(p.originating_operators||[]).length ? `
+    <section class='playbook-section'>
+      <h2>Originating operators</h2>
+      <div class='chips'>${p.originating_operators.map(slug => {
+        const op = operators.find(o => o.slug === slug);
+        return `<a class='chip-link' href='#/o/${slug}'>${escapeHtml(op ? op.name : slug)}</a>`;
+      }).join('')}</div>
+    </section>` : ''}
+
+    ${(p.uses_cards||[]).length ? `
+    <section class='playbook-section'>
+      <h2>Insights used (${p.uses_cards.length})</h2>
+      <div class='card-grid'>${p.uses_cards.map(insId => {
+        const c = cards.find(x => x.id === insId);
+        if (!c) return `<div class='card' style='opacity:.5'><div class='meta-row'><span>missing</span></div><h3>${escapeHtml(insId)}</h3></div>`;
+        return `<a class='card reveal' href='#/ins/${c.id}'>
+          <div class='meta-row'>${tierBadge(c.tier)}<span>${escapeHtml(c.operator || '')}</span></div>
+          <h3>${escapeHtml(c.claim || c.title || c.id)}</h3>
+        </a>`;
+      }).join('')}</div>
+    </section>` : ''}
+
+    <section class='playbook-section playbook-body' id='playbookBody'>
+      <h2>Playbook</h2>
+      <div class='playbook-content'><p class='lede' style='color:var(--muted)'>loading playbook…</p></div>
+    </section>
+
+    <section class='playbook-section'>
+      <p style='color:var(--muted);font-size:.85rem'>Source on <a href='https://github.com/k3sava/ab-codex/blob/main/insight-library/${p.path}' target='_blank' rel='noopener'>GitHub</a>.</p>
+    </section>
+  </article>`;
+
+  // Fetch markdown body
+  try {
+    const res = await fetch(`https://raw.githubusercontent.com/k3sava/ab-codex/main/insight-library/${p.path}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const md = await res.text();
+    // Strip frontmatter
+    let body = md;
+    if (body.startsWith('---\n')){
+      const end = body.indexOf('\n---', 4);
+      if (end >= 0) body = body.slice(end + 4).trimStart();
+    }
+    // Strip the leading H1 (already in header)
+    body = body.replace(/^#\s+[^\n]+\n+/, '');
+    const target = document.querySelector('.playbook-content');
+    if (target) target.innerHTML = renderMarkdown(body);
+  } catch (e){
+    const target = document.querySelector('.playbook-content');
+    if (target) target.innerHTML = `<p style='color:var(--muted)'>Could not load playbook body. <a href='https://github.com/k3sava/ab-codex/blob/main/insight-library/${p.path}' target='_blank' rel='noopener'>Read on GitHub</a>.</p>`;
+  }
+
+  if (!reduced) ScrollTrigger.batch('.card.reveal', { onEnter: els => gsap.fromTo(els, { opacity:0, y:18 }, { opacity:1, y:0, duration:.6, ease:'power3.out', stagger:.03 }), start:'top 92%' });
+}
+
+// Minimal markdown renderer for playbook bodies — headings, lists, paragraphs, links, code, bold.
+function renderMarkdown(md){
+  const lines = md.split('\n');
+  const out = [];
+  let inList = false;
+  let inCode = false;
+  let para = [];
+  const flushPara = () => { if (para.length){ out.push(`<p>${inlineMd(para.join(' '))}</p>`); para = []; } };
+  const closeList = () => { if (inList){ out.push('</ul>'); inList = false; } };
+  for (const ln of lines){
+    if (ln.startsWith('```')){
+      flushPara(); closeList();
+      if (!inCode){ out.push('<pre><code>'); inCode = true; }
+      else { out.push('</code></pre>'); inCode = false; }
+      continue;
+    }
+    if (inCode){ out.push(escapeHtml(ln)); continue; }
+    if (/^#{1,6}\s/.test(ln)){
+      flushPara(); closeList();
+      const m = ln.match(/^(#{1,6})\s+(.*)$/);
+      const lv = Math.min(m[1].length + 1, 6);
+      out.push(`<h${lv}>${inlineMd(m[2])}</h${lv}>`);
+      continue;
+    }
+    if (/^\s*[-*]\s+/.test(ln)){
+      flushPara();
+      if (!inList){ out.push('<ul>'); inList = true; }
+      out.push(`<li>${inlineMd(ln.replace(/^\s*[-*]\s+/, ''))}</li>`);
+      continue;
+    }
+    if (/^\s*\d+\.\s+/.test(ln)){
+      flushPara();
+      if (!inList){ out.push('<ol>'); inList = 'ol'; }
+      out.push(`<li>${inlineMd(ln.replace(/^\s*\d+\.\s+/, ''))}</li>`);
+      continue;
+    }
+    if (ln.trim() === ''){
+      flushPara(); closeList();
+      continue;
+    }
+    para.push(ln);
+  }
+  flushPara(); closeList();
+  return out.join('\n');
+}
+function inlineMd(s){
+  // links [text](url)
+  s = s.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_, t, u) => `<a href='${escapeHtml(u)}' target='_blank' rel='noopener'>${escapeHtml(t)}</a>`);
+  // bold **x**
+  s = s.replace(/\*\*([^*]+)\*\*/g, (_, t) => `<strong>${escapeHtml(t)}</strong>`);
+  // inline code `x`
+  s = s.replace(/`([^`]+)`/g, (_, t) => `<code>${escapeHtml(t)}</code>`);
+  // remaining text — already escaped where needed inside replacers; outside text isn't escaped, do it now
+  // Actually our replacers escape inside themselves; unmatched text passes through with original chars.
+  // To keep it simple, wrap in a final pass that escapes lone < > & not inside a tag — skip for now (input is trusted markdown).
+  return s;
 }
 
 async function patternPage(id){
@@ -464,8 +619,8 @@ function timeline(){
 /* ============ ABOUT (scrubbed copy) ============ */
 function about(){
   app.innerHTML = `<section class='about-page'>
-    <h1>about codex</h1>
-    <p>codex is an open, primary-source library of operator insights. Each card carries a named operator, a verifiable source URL, and a date — so anyone can read one claim, verify the source, and cite it.</p>
+    <h1>about a builder's codex</h1>
+    <p>A builder's codex is an open, primary-source library of operator insights. Each card carries a named operator, a verifiable source URL, and a date — so anyone can read one claim, verify the source, and cite it.</p>
     <p>The corpus spans product, pmm, gtm, ai-native operating, design, engineering, leadership, sales, growth, research, and founder craft. It is a structured record of what operators have published — books, podcasts, essays, talks, threads — distilled into atomic claims with mechanism, conditions, evidence, and counter-evidence.</p>
     <p>Every claim traces back to its primary source. Nothing is paraphrased without attribution. Nothing is invented. Where operators disagree, the disagreement is documented as a contradiction. Where multiple operators converge, the convergence is documented as a synthesis pattern.</p>
     <ul>
@@ -476,7 +631,7 @@ function about(){
       <li>${STATS.playbooks} methodology playbooks</li>
       <li>${STATS.tierA} Tier A claims</li>
     </ul>
-    <p>Source on <a href='https://github.com/k3sava/ab-codex' target='_blank' rel='noopener'>GitHub</a>. Released MIT. Raw sources retain their original copyright; codex archives short excerpts under fair use, always with attribution and a link to the canonical source.</p>
+    <p>Source on <a href='https://github.com/k3sava/ab-codex' target='_blank' rel='noopener'>GitHub</a>. Released MIT. Raw sources retain their original copyright; the codex archives short excerpts under fair use, always with attribution and a link to the canonical source.</p>
     <p>To consume the corpus from another project, read <a href='https://raw.githubusercontent.com/k3sava/ab-codex/main/insight-library/INDEX.json' target='_blank' rel='noopener'>INDEX.json</a> directly. Every record carries id, path, operator, source_url, source_date, domain, lifecycle, and tier — link to cards by id, fetch their markdown bodies at the listed paths.</p>
   </section>`;
 }
@@ -673,6 +828,7 @@ function render(){
   else if (r.startsWith('/d/')) view = () => domainPage(decodeURIComponent(r.slice(3)));
   else if (r==='/patterns') view = patternsList;
   else if (r==='/playbooks') view = playbooksList;
+  else if (r.startsWith('/play/')) view = () => playbookPage(decodeURIComponent(r.slice(6)));
   else if (r.startsWith('/pat/')) view = () => patternPage(decodeURIComponent(r.slice(5)));
   else if (r.startsWith('/con/')) view = () => contradictionPage(decodeURIComponent(r.slice(5)));
   else if (r==='/map' || r==='/graph') view = graph;
