@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-02T17:02:13.373Z",
+  "generated_at": "2026-05-02T17:17:48.202Z",
   "counts": {
-    "insights": 421,
+    "insights": 427,
     "operators": 288,
-    "raw_sources": 206,
+    "raw_sources": 211,
     "patterns": 24,
     "contradictions": 9,
     "playbooks": 23
@@ -1127,6 +1127,33 @@
         "ins_embedded-entrepreneur"
       ],
       "raw_ref": "raw/artemis/experts/greg-isenberg.md"
+    },
+    {
+      "path": "insights/ins_audience-mirrors-content-tone.md",
+      "title": "Your audience is a manifestation of the content you produce",
+      "id": "ins_audience-mirrors-content-tone",
+      "operator": "Devran Karaca",
+      "operator_role": "Co-founder & CEO, Kyra",
+      "source_url": "https://www.linkedin.com/pulse/what-i-learnt-first-12-months-starting-media-company-devran-karaca",
+      "source_type": "essay",
+      "source_title": "What I learnt in the first 12 months of starting a media company",
+      "source_date": "2018-02-26",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "content",
+        "marketing",
+        "growth"
+      ],
+      "lifecycle": [
+        "content",
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 4, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/curiosity/devran-karaca/devran-karaca--12-lessons-media-company--2018-02-26.md"
     },
     {
       "path": "insights/ins_b2b-landing-page-consumption.md",
@@ -2490,6 +2517,35 @@
       "raw_ref": "raw/artemis/experts/sahil-bloom.md"
     },
     {
+      "path": "insights/ins_consistent-programming-beats-viral.md",
+      "title": "Consistent programming beats viral hits for long-term value",
+      "id": "ins_consistent-programming-beats-viral",
+      "operator": "Devran Karaca",
+      "operator_role": "Co-founder & CEO, Kyra",
+      "source_url": "https://www.linkedin.com/pulse/what-i-learnt-first-12-months-starting-media-company-devran-karaca",
+      "source_type": "essay",
+      "source_title": "What I learnt in the first 12 months of starting a media company",
+      "source_date": "2018-02-26",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "content",
+        "marketing",
+        "growth"
+      ],
+      "lifecycle": [
+        "content",
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 2, specificity: 3, evidence: 3, transferability: 5, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_audience-mirrors-content-tone"
+      ],
+      "raw_ref": "raw/curiosity/devran-karaca/devran-karaca--12-lessons-media-company--2018-02-26.md"
+    },
+    {
       "path": "insights/ins_content-as-social-currency.md",
       "title": "Content is social currency — buyers share what makes them look smart, and decisions are made in Slack",
       "id": "ins_content-as-social-currency",
@@ -2840,6 +2896,35 @@
         "ins_jtbd-switch-interview-saas"
       ],
       "raw_ref": "raw/artemis/experts/georgiana-laudi.md"
+    },
+    {
+      "path": "insights/ins_customer-revenue-not-yours.md",
+      "title": "Reframe the conversation around customer revenue, not your own",
+      "id": "ins_customer-revenue-not-yours",
+      "operator": "Shruti Kapoor",
+      "operator_role": "Founder-CEO, Wingman (YC S19); now Founder Coach",
+      "source_url": "https://www.clari.com/blog/wingman-ceo-shruti-kapoors-4-tips-for-startups-navigating-the-downturn/",
+      "source_type": "essay",
+      "source_title": "Wingman CEO Shruti Kapoor's 4 Tips for Startups Navigating the Downturn",
+      "source_date": "2022-08-01",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "sales",
+        "gtm",
+        "founder-craft",
+        "customer-success"
+      ],
+      "lifecycle": [
+        "sales-enablement",
+        "retention",
+        "messaging-narrative"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/curiosity/shruti-kapoor/shruti-kapoor--4-tips-startups-downturn--clari-blog.md"
     },
     {
       "path": "insights/ins_dark-factory-pattern.md",
@@ -4775,8 +4860,8 @@
       "path": "insights/ins_here-five-things-never-get-kesava.md",
       "title": "Here are five things that you’ll never get a CEO, CMO, CRO, and product marketer to agr...",
       "id": "ins_here-five-things-never-get-kesava",
-      "operator": "Kesava Mandiga found Anna Tankel’s comment on this funny",
-      "operator_role": "'Positioning & Launches for B2B SaaS & AI | Co-founder, Inflection Studio | Product Marketing Consultant | Ex-Remote'",
+      "operator": "Anna Tankel",
+      "operator_role": "'Fractional B2B Head of Growth'",
       "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7429897757588373504/",
       "source_type": "thread",
       "source_title": "'Here are five things that you’ll never get a CEO, CMO, CRO, and product marketer to agree on:'",
@@ -4802,8 +4887,8 @@
       "path": "insights/ins_here-five-things-never-get.md",
       "title": "Here are five things that you’ll never get a CEO, CMO, CRO, and product marketer to agr...",
       "id": "ins_here-five-things-never-get",
-      "operator": "Kesava Mandiga found Diana Polansky’s comment on this funny",
-      "operator_role": "'Positioning & Launches for B2B SaaS & AI | Co-founder, Inflection Studio | Product Marketing Consultant | Ex-Remote'",
+      "operator": "Diana Polansky",
+      "operator_role": "'Experienced Product Marketer | Full-Stack Marketing Leader | Content Strategist'",
       "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7429897826404360192/",
       "source_type": "thread",
       "source_title": "'Here are five things that you’ll never get a CEO, CMO, CRO, and product marketer to agree on:'",
@@ -5906,6 +5991,36 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_listening-mode-not-selling-mode.md",
+      "title": "Switch from selling mode to listening mode when the market breaks",
+      "id": "ins_listening-mode-not-selling-mode",
+      "operator": "Shruti Kapoor",
+      "operator_role": "Founder-CEO, Wingman (YC S19); now Founder Coach",
+      "source_url": "https://www.clari.com/blog/wingman-ceo-shruti-kapoors-4-tips-for-startups-navigating-the-downturn/",
+      "source_type": "essay",
+      "source_title": "Wingman CEO Shruti Kapoor's 4 Tips for Startups Navigating the Downturn",
+      "source_date": "2022-08-01",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "sales",
+        "customer-success",
+        "founder-craft"
+      ],
+      "lifecycle": [
+        "voc-research",
+        "retention",
+        "sales-enablement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_customer-revenue-not-yours"
+      ],
+      "raw_ref": "raw/curiosity/shruti-kapoor/shruti-kapoor--4-tips-startups-downturn--clari-blog.md"
     },
     {
       "path": "insights/ins_llm-as-judge-binary-not-likert.md",
@@ -7188,6 +7303,35 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_one-dollar-on-the-developer.md",
+      "title": "Spend the whole dollar on the individual developer",
+      "id": "ins_one-dollar-on-the-developer",
+      "operator": "Rahul Chhabria",
+      "operator_role": "VP of Marketing, Sentry",
+      "source_url": "https://calyx.substack.com/p/ingredients-for-building-a-successful",
+      "source_type": "essay",
+      "source_title": "Ingredients for building a successful developer PLG motion",
+      "source_date": "2024-05-01",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "marketing",
+        "growth-demand",
+        "growth"
+      ],
+      "lifecycle": [
+        "positioning",
+        "growth-loops",
+        "planning-resourcing"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/curiosity/rahul-chhabria/rahul-chhabria--developer-plg-motion--calyx-2024-05-01.md"
+    },
+    {
       "path": "insights/ins_one-percent-price-eight-percent-profit.md",
       "title": "A 1% price increase produces 8-11% profit improvement — yet most companies have no pricing function",
       "id": "ins_one-percent-price-eight-percent-profit",
@@ -8266,6 +8410,36 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_product-strength-community-fit.md",
+      "title": "Pick communities by triangulating product strength, growth, and competitive advantage",
+      "id": "ins_product-strength-community-fit",
+      "operator": "Rahul Chhabria",
+      "operator_role": "VP of Marketing, Sentry",
+      "source_url": "https://calyx.substack.com/p/ingredients-for-building-a-successful",
+      "source_type": "essay",
+      "source_title": "Ingredients for building a successful developer PLG motion",
+      "source_date": "2024-05-01",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "marketing",
+        "growth-demand",
+        "pmm"
+      ],
+      "lifecycle": [
+        "growth-loops",
+        "planning-resourcing",
+        "content"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "A",
+      "related": [
+        "ins_one-dollar-on-the-developer"
+      ],
+      "raw_ref": "raw/curiosity/rahul-chhabria/rahul-chhabria--developer-plg-motion--calyx-2024-05-01.md"
     },
     {
       "path": "insights/ins_profit-first-allocation.md",
@@ -11381,8 +11555,8 @@
       "path": "insights/ins_why-generic-hits-ceiling-here.md",
       "title": "That is why generic AI hits a ceiling here faster than almost anywhere else",
       "id": "ins_why-generic-hits-ceiling-here",
-      "operator": "Kesava Mandiga found Collin Mayjack’s comment on this funny",
-      "operator_role": "'CEO@Sybill - Cursor for Revenue teams'",
+      "operator": "Collin Mayjack",
+      "operator_role": "'Product Marketing, Sybill'",
       "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7447722414664343552/",
       "source_type": "thread",
       "source_title": "'Sales leaders don''t need more visibility'",
@@ -11735,13 +11909,15 @@
       "name": "Adam Renklint",
       "slug": "adam-renklint",
       "roles": [
-        "Co-founder, Pitch"
+        "Co-founder & CEO, Pitch",
+        "Ex-CTO, Pitch"
       ],
       "domains_active": [
         "founder-operator",
         "product"
       ],
-      "captured_first": "2026-05-02"
+      "captured_first": "2026-05-02",
+      "external": ""
     },
     {
       "path": "operators/adriel-frederick/README.md",
@@ -12160,6 +12336,23 @@
         "leadership"
       ],
       "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/anna-tankel/README.md",
+      "title": "Anna Tankel",
+      "name": "Anna Tankel",
+      "slug": "anna-tankel",
+      "roles": [
+        "Fractional B2B Head of Growth",
+        "Freelance B2B Growth Lead"
+      ],
+      "domains_active": [
+        "pmm",
+        "founder-craft",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-02",
       "external": ""
     },
     {
@@ -12883,6 +13076,22 @@
       "external": ""
     },
     {
+      "path": "operators/collin-mayjack/README.md",
+      "title": "Collin Mayjack",
+      "name": "Collin Mayjack",
+      "slug": "collin-mayjack",
+      "roles": [
+        "Product Marketing",
+        "Sybill"
+      ],
+      "domains_active": [
+        "founder-craft",
+        "pmm"
+      ],
+      "captured_first": "2026-05-02",
+      "external": ""
+    },
+    {
       "path": "operators/corey-hearne/README.md",
       "title": "Corey Hearne",
       "name": "Corey Hearne",
@@ -13181,12 +13390,16 @@
       "name": "Devran Karaca",
       "slug": "devran-karaca",
       "roles": [
-        "Founder, Kyra"
+        "Co-founder & CEO, Kyra"
       ],
       "domains_active": [
-        "founder-operator"
+        "founder-operator",
+        "content",
+        "marketing",
+        "growth"
       ],
-      "captured_first": "2026-05-02"
+      "captured_first": "2026-05-02",
+      "external": ""
     },
     {
       "path": "operators/dharmesh-shah/README.md",
@@ -13199,6 +13412,24 @@
       "domains_active": [
         "founder-craft",
         "engineering"
+      ],
+      "captured_first": "2026-05-02",
+      "external": ""
+    },
+    {
+      "path": "operators/diana-polansky/README.md",
+      "title": "Diana Polansky",
+      "name": "Diana Polansky",
+      "slug": "diana-polansky",
+      "roles": [
+        "Experienced Product Marketer",
+        "Full-Stack Marketing Leader",
+        "Content Strategist"
+      ],
+      "domains_active": [
+        "pmm",
+        "founder-craft",
+        "ai-native"
       ],
       "captured_first": "2026-05-02",
       "external": ""
@@ -13742,7 +13973,7 @@
         "engineering"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/hattie-the-pmm/README.md",
@@ -13831,7 +14062,7 @@
         "founder-craft"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/jacco-van-der-kooij/README.md",
@@ -13900,7 +14131,8 @@
         "design",
         "ai-native"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/james-doman-pipe/README.md",
@@ -13937,7 +14169,7 @@
         "marketing"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/jason-fried/README.md",
@@ -13953,7 +14185,8 @@
         "product",
         "growth"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/jason-lemkin/README.md",
@@ -13970,7 +14203,8 @@
         "gtm",
         "design"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/jason-oakley/README.md",
@@ -13986,7 +14220,8 @@
         "marketing",
         "content"
       ],
-      "captured_first": "2026-05-02"
+      "captured_first": "2026-05-02",
+      "external": ""
     },
     {
       "path": "operators/jay-acunzo/README.md",
@@ -14004,7 +14239,8 @@
         "design",
         "pmm"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/jaya-rajwani/README.md",
@@ -14073,7 +14309,7 @@
         "ai-native"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/jessica-fain/README.md",
@@ -14109,7 +14345,8 @@
         "sales-cs",
         "design"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/jim-hamilton/README.md",
@@ -14127,7 +14364,8 @@
         "ai-native",
         "growth"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/jimmy-daly/README.md",
@@ -14147,7 +14385,8 @@
         "sales-cs",
         "ai-native"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/joe-pulizzi/README.md",
@@ -14164,7 +14403,8 @@
         "pmm",
         "leadership"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/joel-klettke/README.md",
@@ -14181,7 +14421,8 @@
         "research",
         "sales-cs"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/john-barrows/README.md",
@@ -14199,7 +14440,8 @@
         "design",
         "research"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/jonathan-stark/README.md",
@@ -14217,7 +14459,8 @@
         "pmm",
         "leadership"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/josh-braun/README.md",
@@ -14231,7 +14474,8 @@
         "pmm",
         "sales-cs"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/josue-valles/README.md",
@@ -14246,7 +14490,7 @@
         "founder-craft"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/julian-shapiro/README.md",
@@ -14266,7 +14510,8 @@
         "design",
         "pmm"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/julie-grondin/README.md",
@@ -14282,7 +14527,7 @@
         "pmm"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/julien-sauvage/README.md",
@@ -14290,13 +14535,15 @@
       "name": "Julien Sauvage",
       "slug": "julien-sauvage",
       "roles": [
-        "Marketing leader, Cordial"
+        "CMO, Cordial",
+        "Ex-Salesforce, Gong, Clari"
       ],
       "domains_active": [
         "pmm",
         "marketing"
       ],
-      "captured_first": "2026-05-02"
+      "captured_first": "2026-05-02",
+      "external": ""
     },
     {
       "path": "operators/kabir-uppal/README.md",
@@ -14313,7 +14560,7 @@
         "ai-native"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/kaizad-hansotia/README.md",
@@ -14331,7 +14578,7 @@
         "sales"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/karl-sakas/README.md",
@@ -14351,7 +14598,8 @@
         "growth",
         "ai-native"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/kate-syuma/README.md",
@@ -14369,7 +14617,7 @@
         "design-ux"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/keenan/README.md",
@@ -14386,7 +14634,8 @@
         "sales-cs",
         "design"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/kenny-damian/README.md",
@@ -14402,57 +14651,7 @@
         "pmm"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
-    },
-    {
-      "path": "operators/kesava-mandiga-found-anna-tankels-comment-on-this-funny/README.md",
-      "title": "Kesava Mandiga found Anna Tankel’s comment on this funny",
-      "name": "Kesava Mandiga found Anna Tankel’s comment on this funny",
-      "slug": "kesava-mandiga-found-anna-tankels-comment-on-this-funny",
-      "roles": [
-        "Positioning & Launches for B2B SaaS & AI",
-        "Co-founder",
-        "Inflection Studio"
-      ],
-      "domains_active": [
-        "pmm",
-        "founder-craft",
-        "ai-native"
-      ],
-      "captured_first": "2026-05-02",
-      "external": "{}"
-    },
-    {
-      "path": "operators/kesava-mandiga-found-collin-mayjacks-comment-on-this-funny/README.md",
-      "title": "Kesava Mandiga found Collin Mayjack’s comment on this funny",
-      "name": "Kesava Mandiga found Collin Mayjack’s comment on this funny",
-      "slug": "kesava-mandiga-found-collin-mayjacks-comment-on-this-funny",
-      "roles": [
-        "CEO@Sybill - Cursor for Revenue teams"
-      ],
-      "domains_active": [
-        "founder-craft"
-      ],
-      "captured_first": "2026-05-02",
-      "external": "{}"
-    },
-    {
-      "path": "operators/kesava-mandiga-found-diana-polanskys-comment-on-this-funny/README.md",
-      "title": "Kesava Mandiga found Diana Polansky’s comment on this funny",
-      "name": "Kesava Mandiga found Diana Polansky’s comment on this funny",
-      "slug": "kesava-mandiga-found-diana-polanskys-comment-on-this-funny",
-      "roles": [
-        "Positioning & Launches for B2B SaaS & AI",
-        "Co-founder",
-        "Inflection Studio"
-      ],
-      "domains_active": [
-        "pmm",
-        "founder-craft",
-        "ai-native"
-      ],
-      "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/kevin-chan/README.md",
@@ -14469,7 +14668,7 @@
         "marketing"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/kevin-indig/README.md",
@@ -14488,7 +14687,8 @@
         "research",
         "product"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/kevin-white/README.md",
@@ -14505,7 +14705,7 @@
         "marketing"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/kieran-flanagan/README.md",
@@ -14559,7 +14759,7 @@
         "engineering"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/kyle-poyar/README.md",
@@ -14598,7 +14798,8 @@
         "growth",
         "pmm"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/lenny-rachitsky/README.md",
@@ -14617,7 +14818,8 @@
         "growth",
         "pmm"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/lily-ray/README.md",
@@ -14634,7 +14836,8 @@
         "growth",
         "pmm"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/liza-adams/README.md",
@@ -14650,7 +14853,7 @@
         "ai-native"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/lola-han/README.md",
@@ -14665,7 +14868,7 @@
         "founder-craft"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/madhav-bhandari/README.md",
@@ -14680,7 +14883,7 @@
         "marketing"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/madhavan-ramanujam/README.md",
@@ -14697,7 +14900,8 @@
         "leadership",
         "design"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/maja-voje/README.md",
@@ -14731,7 +14935,7 @@
         "ai-native"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/marcel-petitpas/README.md",
@@ -14751,7 +14955,8 @@
         "product",
         "growth"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/marcus-andrews/README.md",
@@ -14770,7 +14975,8 @@
         "leadership",
         "design"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/mariana-antaya/README.md",
@@ -14787,7 +14993,7 @@
         "ai-native"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/marie-haynes/README.md",
@@ -14801,7 +15007,8 @@
         "growth",
         "product"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/mark-roberge/README.md",
@@ -14821,7 +15028,8 @@
         "leadership",
         "growth"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/martina-lauchengco/README.md",
@@ -14839,7 +15047,8 @@
         "product",
         "leadership"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/marty-neumeier/README.md",
@@ -14855,7 +15064,8 @@
         "design",
         "leadership"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/mathias-powell/README.md",
@@ -14870,7 +15080,7 @@
         "founder-craft"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/matt-dixon/README.md",
@@ -14887,7 +15097,8 @@
         "leadership",
         "design"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/matt-gray/README.md",
@@ -14907,7 +15118,8 @@
         "design",
         "leadership"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/matt-shumer/README.md",
@@ -14926,7 +15138,8 @@
         "engineering",
         "pmm"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/michel-lieben/README.md",
@@ -14942,7 +15155,7 @@
         "founder-craft"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/mihika-kapoor/README.md",
@@ -14977,7 +15190,8 @@
         "pmm",
         "ai-native"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/mike-michalowicz/README.md",
@@ -14994,7 +15208,8 @@
         "leadership",
         "sales-cs"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/momoko-price/README.md",
@@ -15011,7 +15226,8 @@
         "pmm",
         "research"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/morgan-housel/README.md",
@@ -15027,7 +15243,8 @@
       "domains_active": [
         "leadership"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/nalin-senthamil/README.md",
@@ -15041,7 +15258,7 @@
         "founder-craft"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/nassim-taleb/README.md",
@@ -15057,7 +15274,8 @@
       "domains_active": [
         "leadership"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/nate-substack/README.md",
@@ -15090,7 +15308,8 @@
       "domains_active": [
         "leadership"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/neil-rackham/README.md",
@@ -15107,7 +15326,8 @@
         "sales-cs",
         "design"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/nick-abraham/README.md",
@@ -15126,7 +15346,8 @@
         "leadership",
         "sales-cs"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/nik-sharma/README.md",
@@ -15144,7 +15365,8 @@
         "ai-native",
         "design"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/nishchal-dua/README.md",
@@ -15161,7 +15383,8 @@
         "ai-native",
         "hiring"
       ],
-      "captured_first": "2026-05-02"
+      "captured_first": "2026-05-02",
+      "external": ""
     },
     {
       "path": "operators/packy-mccormick/README.md",
@@ -15180,7 +15403,8 @@
         "growth",
         "pmm"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/park-howell/README.md",
@@ -15199,7 +15423,8 @@
         "leadership",
         "sales-cs"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/patrick-campbell/README.md",
@@ -15219,7 +15444,8 @@
         "leadership",
         "research"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/paul-jarvis/README.md",
@@ -15237,7 +15463,8 @@
         "growth",
         "leadership"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/pawel-huryn/README.md",
@@ -15269,7 +15496,8 @@
         "research",
         "pmm"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/peter-thiel/README.md",
@@ -15287,7 +15515,8 @@
         "ai-native",
         "pmm"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/pia-silva/README.md",
@@ -15306,7 +15535,8 @@
         "ai-native",
         "design"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/pieter-levels/README.md",
@@ -15324,7 +15554,8 @@
         "ai-native",
         "leadership"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/pietro-montaldo/README.md",
@@ -15339,7 +15570,7 @@
         "ai-native"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/praveen-das/README.md",
@@ -15357,7 +15588,7 @@
         "ai-native"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/prerona-basu/README.md",
@@ -15372,7 +15603,7 @@
         "sales"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/prithivi-rajan/README.md",
@@ -15388,7 +15619,7 @@
         "engineering"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/qasar-younis/README.md",
@@ -15420,7 +15651,7 @@
         "pmm"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/ragini-das/README.md",
@@ -15434,7 +15665,7 @@
         "pmm"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/rahul-chhabria/README.md",
@@ -15442,13 +15673,17 @@
       "name": "Rahul Chhabria",
       "slug": "rahul-chhabria",
       "roles": [
-        "Marketing, Sentry"
+        "VP of Marketing, Sentry",
+        "Advisor, Orb"
       ],
       "domains_active": [
         "pmm",
-        "marketing"
+        "marketing",
+        "growth-demand",
+        "growth"
       ],
-      "captured_first": "2026-05-02"
+      "captured_first": "2026-05-02",
+      "external": ""
     },
     {
       "path": "operators/ramli-john/README.md",
@@ -15468,7 +15703,8 @@
         "product",
         "ai-native"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/rand-fishkin/README.md",
@@ -15487,7 +15723,8 @@
         "sales-cs",
         "research"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/reforge/README.md",
@@ -15507,7 +15744,8 @@
         "design",
         "sales-cs"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/richard-king/README.md",
@@ -15525,7 +15763,7 @@
         "founder-craft"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/robert-rose/README.md",
@@ -15544,7 +15782,8 @@
         "leadership",
         "ai-native"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/rohit-agarwal/README.md",
@@ -15560,7 +15799,7 @@
         "growth"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/rohit-shah/README.md",
@@ -15590,7 +15829,7 @@
         "engineering"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/rory-woodbridge/README.md",
@@ -15608,7 +15847,7 @@
         "marketing"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/roshni-chellani/README.md",
@@ -15622,7 +15861,8 @@
       "domains_active": [
         "hiring"
       ],
-      "captured_first": "2026-05-02"
+      "captured_first": "2026-05-02",
+      "external": ""
     },
     {
       "path": "operators/ross-simmonds/README.md",
@@ -15639,7 +15879,8 @@
         "pmm",
         "leadership"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/rowan-tonkin/README.md",
@@ -15677,7 +15918,7 @@
         "marketing"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/ryan-woodley-mitchell/README.md",
@@ -15695,7 +15936,7 @@
         "marketing"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/sachin-jha/README.md",
@@ -15711,7 +15952,8 @@
         "ai-native",
         "gtm"
       ],
-      "captured_first": "2026-05-02"
+      "captured_first": "2026-05-02",
+      "external": ""
     },
     {
       "path": "operators/sahil-bloom/README.md",
@@ -15728,7 +15970,8 @@
         "leadership",
         "ai-native"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/saishah-joseph/README.md",
@@ -15744,7 +15987,7 @@
         "founder-craft"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/saket-banka/README.md",
@@ -15759,7 +16002,8 @@
         "leadership",
         "hiring"
       ],
-      "captured_first": "2026-05-02"
+      "captured_first": "2026-05-02",
+      "external": ""
     },
     {
       "path": "operators/sally-hogshead/README.md",
@@ -15778,7 +16022,8 @@
         "pmm",
         "research"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/sam-altman/README.md",
@@ -15796,7 +16041,8 @@
         "ai-native",
         "leadership"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/sam-kuehnle/README.md",
@@ -15814,7 +16060,8 @@
         "growth",
         "design"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/sam-mallikarjunan/README.md",
@@ -15832,7 +16079,7 @@
         "ai-native"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/sam-oh/README.md",
@@ -15851,7 +16098,8 @@
         "leadership",
         "research"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/sandeep-kochhar/README.md",
@@ -15866,7 +16114,7 @@
         "ai-native"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/sangram-vajre/README.md",
@@ -15883,7 +16131,8 @@
         "growth",
         "ai-native"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/sarah-levinger/README.md",
@@ -15903,7 +16152,8 @@
         "pmm",
         "design"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/scott-galloway/README.md",
@@ -15921,7 +16171,8 @@
         "leadership",
         "pmm"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/seepiya-sahni/README.md",
@@ -15938,7 +16189,7 @@
         "marketing"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/seth-godin/README.md",
@@ -15955,7 +16206,8 @@
         "leadership",
         "pmm"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/shane-parrish/README.md",
@@ -15973,7 +16225,8 @@
         "ai-native",
         "pmm"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/sherwin-wu/README.md",
@@ -16006,7 +16259,8 @@
         "leadership",
         "ai-native"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/shivangi-sahu/README.md",
@@ -16022,7 +16276,7 @@
         "founder-craft"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/shreya-shankar/README.md",
@@ -16046,14 +16300,18 @@
       "name": "Shruti Kapoor",
       "slug": "shruti-kapoor",
       "roles": [
-        "Founder Coach",
-        "Ex-Clari, Wingman (YC S19)"
+        "Founder Coach, The Momentum Studio",
+        "Ex-Founder/CEO, Wingman (YC S19) — acquired by Clari",
+        "Ex-Head of International Business, Clari"
       ],
       "domains_active": [
         "founder-craft",
-        "leadership"
+        "leadership",
+        "sales",
+        "customer-success"
       ],
-      "captured_first": "2026-05-02"
+      "captured_first": "2026-05-02",
+      "external": ""
     },
     {
       "path": "operators/shruti-padala/README.md",
@@ -16069,7 +16327,7 @@
         "sales"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/silvia-botros/README.md",
@@ -16084,7 +16342,8 @@
         "engineering",
         "leadership"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/simon-sinek/README.md",
@@ -16101,7 +16360,8 @@
         "leadership",
         "pmm"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/simon-willison/README.md",
@@ -16120,7 +16380,8 @@
         "design",
         "leadership"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/sjeel-k/README.md",
@@ -16137,7 +16398,7 @@
         "marketing"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/stefan-gladbach/README.md",
@@ -16152,7 +16413,7 @@
         "marketing"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/steph-smith/README.md",
@@ -16170,7 +16431,8 @@
         "leadership",
         "growth"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/steven-forth/README.md",
@@ -16187,7 +16449,8 @@
         "leadership",
         "ai-native"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/sulagna-das/README.md",
@@ -16203,7 +16466,7 @@
         "marketing"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/suprava-sabat/README.md",
@@ -16217,7 +16480,7 @@
         "founder-craft"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/swyx/README.md",
@@ -16257,7 +16520,8 @@
         "leadership",
         "sales-cs"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/tanya-reilly/README.md",
@@ -16273,7 +16537,8 @@
         "engineering",
         "leadership"
       ],
-      "captured_first": "2026-05-02"
+      "captured_first": "2026-05-02",
+      "external": ""
     },
     {
       "path": "operators/tas-bober/README.md",
@@ -16290,7 +16555,8 @@
         "leadership",
         "design"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/tiago-forte/README.md",
@@ -16304,7 +16570,8 @@
         "ai-native",
         "leadership"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/tim-ferriss/README.md",
@@ -16321,7 +16588,8 @@
         "leadership",
         "design"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/tim-soulo/README.md",
@@ -16339,7 +16607,8 @@
         "research",
         "leadership"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/tk-kader/README.md",
@@ -16355,7 +16624,8 @@
         "sales-cs",
         "product"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/tomasz-tunguz/README.md",
@@ -16373,7 +16643,8 @@
         "growth",
         "ai-native"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/tommy-walker/README.md",
@@ -16390,7 +16661,8 @@
         "pmm",
         "design"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/tony-hsieh/README.md",
@@ -16407,7 +16679,8 @@
         "customer-success",
         "founder-craft"
       ],
-      "captured_first": "2026-05-02"
+      "captured_first": "2026-05-02",
+      "external": ""
     },
     {
       "path": "operators/trish-bertuzzi/README.md",
@@ -16423,7 +16696,8 @@
         "design",
         "ai-native"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/uddhav-parab/README.md",
@@ -16437,7 +16711,7 @@
         "engineering"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/varun-anand/README.md",
@@ -16451,7 +16725,7 @@
         "founder-craft"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/vedant-agarwala/README.md",
@@ -16467,7 +16741,7 @@
         "founder-craft"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/vengat-krishnaraj/README.md",
@@ -16481,7 +16755,7 @@
         "founder-craft"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/victoria-penker/README.md",
@@ -16499,7 +16773,7 @@
         "marketing"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/vijay-jay/README.md",
@@ -16516,7 +16790,7 @@
         "ai-native"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/vikas-bhagat/README.md",
@@ -16533,7 +16807,7 @@
         "marketing"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/vivian-jordan/README.md",
@@ -16567,7 +16841,7 @@
         "founder-craft"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/will-larson/README.md",
@@ -16584,7 +16858,8 @@
         "engineering",
         "leadership"
       ],
-      "captured_first": "2026-05-02"
+      "captured_first": "2026-05-02",
+      "external": ""
     },
     {
       "path": "operators/yael-davidowitz-neu/README.md",
@@ -16602,7 +16877,7 @@
         "marketing"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/yamini-rangan/README.md",
@@ -16620,7 +16895,8 @@
         "customer-success",
         "sales"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/yasser-elsaid/README.md",
@@ -16634,7 +16910,7 @@
         "founder-craft"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/yi-lin-pei/README.md",
@@ -16654,7 +16930,8 @@
         "gtm",
         "research"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     }
   ],
   "raw_sources": [
@@ -18856,6 +19133,51 @@
         "competitive-teardown-claude-chrome-vivian-jordan.md"
       ],
       "home_url": "\"https://www.linkedin.com/in/vivianjordan/\""
+    },
+    {
+      "path": "raw/curiosity/adam-renklint/adam-renklint--founding-journey-podcast--2024-11-21.md",
+      "source_url": "https://foundingjourney.com/p/adam-renklint",
+      "fetched": "2026-05-02",
+      "operator": "Adam Renklint",
+      "title": "Why Adam Renklint Raised $137M... and Gave it Back",
+      "date": "2024-11-21",
+      "type": "podcast"
+    },
+    {
+      "path": "raw/curiosity/devran-karaca/devran-karaca--12-lessons-media-company--2018-02-26.md",
+      "source_url": "https://www.linkedin.com/pulse/what-i-learnt-first-12-months-starting-media-company-devran-karaca",
+      "fetched": "2026-05-02",
+      "operator": "Devran Karaca",
+      "title": "What I learnt in the first 12 months of starting a media company",
+      "date": "2018-02-26",
+      "type": "essay"
+    },
+    {
+      "path": "raw/curiosity/julien-sauvage/julien-sauvage--joining-cordial-cmo--2024-12-17.md",
+      "source_url": "https://www.linkedin.com/posts/julien-sauvage_a-massive-market-a-big-opportunity-stoked-activity-7274807959447056384-JDiD",
+      "fetched": "2026-05-02",
+      "operator": "Julien Sauvage",
+      "title": "A Massive Market. A Big Opportunity. Stoked to share that I've joined Cordial as CMO!!",
+      "date": "2024-12-17",
+      "type": "thread"
+    },
+    {
+      "path": "raw/curiosity/rahul-chhabria/rahul-chhabria--developer-plg-motion--calyx-2024-05-01.md",
+      "source_url": "https://calyx.substack.com/p/ingredients-for-building-a-successful",
+      "fetched": "2026-05-02",
+      "operator": "Rahul Chhabria",
+      "title": "Ingredients for building a successful developer PLG motion (with Rahul Chhabria, VP of Marketing at Sentry)",
+      "date": "2024-05-01",
+      "type": "essay"
+    },
+    {
+      "path": "raw/curiosity/shruti-kapoor/shruti-kapoor--4-tips-startups-downturn--clari-blog.md",
+      "source_url": "https://www.clari.com/blog/wingman-ceo-shruti-kapoors-4-tips-for-startups-navigating-the-downturn/",
+      "fetched": "2026-05-02",
+      "operator": "Shruti Kapoor",
+      "title": "Wingman CEO Shruti Kapoor's 4 Tips for Startups Navigating the Downturn",
+      "date": "2022-08-01",
+      "type": "essay"
     },
     {
       "path": "raw/digests/miniu-ai-digest-2026-04-26.md"

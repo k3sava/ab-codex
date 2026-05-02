@@ -2,21 +2,28 @@
 name: Devran Karaca
 slug: devran-karaca
 roles:
-  - Founder, Kyra
-domains_active: [founder-operator]
+  - Co-founder & CEO, Kyra
+domains_active: [founder-operator, content, marketing, growth]
 captured_first: 2026-05-02
+external:
+  linkedin: https://uk.linkedin.com/in/devran-karaca
 ---
 
 # Devran Karaca
 
 ## Bio
-Founder at Kyra. Surfaced in the wiki as a Tier 1 founder-DM target on Kesava's career-ops ship-queue. Source LinkedIn post text was not captured in the raw file (stub only), so insight extraction is deferred until verbatim content is archived.
+Co-founder and CEO of Kyra (formerly Kyra TV) — a creator-economy company that started as a YouTube media studio (PAQ, Bad Canteen, Greatness) and pivoted into a tech-powered creator agency for TikTok and short-form. Forbes 30 Under 30. Earlier co-founded Dojo Media. Public reference voice on owning the full media-production stack and on the editorial-to-business mechanics of creator-economy companies.
 
 ## Operating themes
-- **Founder-led product voice** — load-bearing for operator-voice DM targeting.
+- **Editorial discipline as audience selection** — the audience you build is downstream of the tone you publish.
+- **Consistency over virality** — sustained cadence builds community; viral spikes do not.
+- **Transparency in branded content** — labelling sponsorship explicitly outperforms covert integration.
 
 ## Cards
-- (none — raw post body not captured; extraction deferred to avoid fabrication)
+- `ins_audience-mirrors-content-tone` — Audience is a manifestation of the content you produce [Tier B]
+- `ins_consistent-programming-beats-viral` — 200 steady videos beat one Gangnam Style hit [Tier B]
 
 ## Sources captured
-- raw/linkedin/ship-queue/2026-devran-karaca-kyra.md (2026-04-11, stub)
+- 2018-02-26 — *What I learnt in the first 12 months of starting a media company*, LinkedIn Pulse (`raw/curiosity/devran-karaca/devran-karaca--12-lessons-media-company--2018-02-26.md`)
+- 2023-05-02 — TechRound interview (https://techround.co.uk/interviews/devran-amaratunga-karaca-kyra/)
+- 2023-07-11 — Net Influencer interview (https://www.netinfluencer.com/about-kyra/)
