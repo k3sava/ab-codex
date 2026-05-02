@@ -1,0 +1,24 @@
+---
+name: Pietro Montaldo
+slug: pietro-montaldo
+roles:
+  - I build and share AI tools and playbooks actually useful for non-techies
+  - DM for custom trainings or join my next AI-agent building course on Maven
+domains_active: [ai-native]
+captured_first: 2026-05-02
+external: {}
+---
+
+# Pietro Montaldo
+
+## Bio
+LinkedIn operator publishing on ai-native. Headline: "I build and share AI tools and playbooks actually useful for non-techies | DM for custom trainings or join my next AI-agent building course on Maven". Surfaced via Pass B3 ingest of 447 reactions.
+
+## Operating themes
+- Theme captured from the post body in this pass; expand on next ingest.
+
+## Cards
+- See `insights/` for cards attributed to this operator.
+
+## Sources captured
+- 2026-05-02 — LinkedIn reactions ingest Pass B3 (`raw/linkedin/reactions/linkedin-reactions-2026-04-10.md`)

@@ -1,0 +1,25 @@
+---
+name: Alan Zhao
+slug: alan-zhao
+roles:
+  - Co-founder
+  - Head of Marketing
+  - Product Strategy and AI @ Warmly.ai
+domains_active: [founder-craft, ai-native, marketing]
+captured_first: 2026-05-02
+external: {}
+---
+
+# Alan Zhao
+
+## Bio
+LinkedIn operator publishing on founder-craft, ai-native, marketing. Headline: "Co-founder, Head of Marketing, Product Strategy and AI @ Warmly.ai | Building the GTM Brain | #1 Context Graphs for GTM Agents & Humans". Surfaced via Pass B3 ingest of 447 reactions.
+
+## Operating themes
+- Theme captured from the post body in this pass; expand on next ingest.
+
+## Cards
+- See `insights/` for cards attributed to this operator.
+
+## Sources captured
+- 2026-05-02 — LinkedIn reactions ingest Pass B3 (`raw/linkedin/reactions/linkedin-reactions-2026-04-10.md`)
