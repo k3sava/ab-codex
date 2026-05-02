@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 4 }
 tier: B
 related: []
-raw_ref: raw/digests/miniu-ai-digest-2026-05-01.md
+raw_ref: 
 ---
 
 # Score reps on a fixed competency rubric, not on activity dashboards

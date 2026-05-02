@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-02T17:37:04.421Z",
+  "generated_at": "2026-05-02T17:41:23.329Z",
   "counts": {
     "insights": 417,
     "operators": 277,
-    "raw_sources": 211,
+    "raw_sources": 208,
     "patterns": 24,
     "contradictions": 9,
     "playbooks": 23
@@ -309,7 +309,7 @@
       "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 4, source: 5 }",
       "tier": "B",
       "related": [],
-      "raw_ref": "raw/digests/miniu-ai-digest-2026-04-26.md"
+      "raw_ref": ""
     },
     {
       "path": "insights/ins_aeo-competes-for-mentions-not-rankings.md",
@@ -336,7 +336,7 @@
       "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
       "tier": "B",
       "related": [],
-      "raw_ref": "raw/digests/miniu-ai-digest-2026-05-01.md"
+      "raw_ref": ""
     },
     {
       "path": "insights/ins_aeo-decided-off-your-domain.md",
@@ -363,7 +363,7 @@
       "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
       "tier": "A",
       "related": [],
-      "raw_ref": "raw/digests/miniu-ai-digest-2026-05-02.md"
+      "raw_ref": ""
     },
     {
       "path": "insights/ins_aeo-is-gtm-capability.md",
@@ -422,7 +422,7 @@
       "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
       "tier": "B",
       "related": [],
-      "raw_ref": "raw/digests/miniu-ai-digest-2026-05-02.md"
+      "raw_ref": ""
     },
     {
       "path": "insights/ins_aeo-three-layer-presence-readiness-impact.md",
@@ -1847,7 +1847,7 @@
       "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
       "tier": "B",
       "related": [],
-      "raw_ref": "raw/digests/miniu-ai-digest-2026-05-02.md"
+      "raw_ref": ""
     },
     {
       "path": "insights/ins_capability-overhang-product-problem.md",
@@ -2325,7 +2325,7 @@
       "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
       "tier": "B",
       "related": [],
-      "raw_ref": "raw/digests/miniu-ai-digest-2026-05-01.md"
+      "raw_ref": ""
     },
     {
       "path": "insights/ins_competitive-teardown-claude-chrome.md",
@@ -2598,7 +2598,7 @@
       "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
       "tier": "B",
       "related": [],
-      "raw_ref": "raw/digests/miniu-ai-digest-2026-04-26.md"
+      "raw_ref": ""
     },
     {
       "path": "insights/ins_create-once-distribute-forever.md",
@@ -5919,7 +5919,7 @@
       "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 5, source: 4 }",
       "tier": "B",
       "related": [],
-      "raw_ref": "raw/digests/miniu-ai-digest-2026-05-02.md"
+      "raw_ref": ""
     },
     {
       "path": "insights/ins_lock-s-ceo-evaluation-rubric.md",
@@ -6451,7 +6451,7 @@
       "score": "{ originality: 3, specificity: 5, evidence: 5, transferability: 3, source: 5 }",
       "tier": "A",
       "related": [],
-      "raw_ref": "raw/digests/miniu-ai-digest-2026-05-02.md"
+      "raw_ref": ""
     },
     {
       "path": "insights/ins_misunderstood-exact-people-fighting.md",
@@ -7471,7 +7471,7 @@
       "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 5, source: 4 }",
       "tier": "B",
       "related": [],
-      "raw_ref": "raw/digests/miniu-ai-digest-2026-05-01.md"
+      "raw_ref": ""
     },
     {
       "path": "insights/ins_pm-as-orchestrator-of-agents.md",
@@ -7524,7 +7524,7 @@
       "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
       "tier": "B",
       "related": [],
-      "raw_ref": "raw/digests/miniu-ai-digest-2026-05-01.md"
+      "raw_ref": ""
     },
     {
       "path": "insights/ins_pm-prototype-or-be-bypassed.md",
@@ -7775,7 +7775,7 @@
       "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
       "tier": "B",
       "related": [],
-      "raw_ref": "raw/digests/miniu-ai-digest-2026-04-26.md"
+      "raw_ref": ""
     },
     {
       "path": "insights/ins_positioning-is-a-business-identity-decision.md",
@@ -8616,7 +8616,7 @@
       "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
       "tier": "B",
       "related": [],
-      "raw_ref": "raw/digests/miniu-ai-digest-2026-04-26.md"
+      "raw_ref": ""
     },
     {
       "path": "insights/ins_relevance-engineering-passage-level.md",
@@ -8983,7 +8983,7 @@
       "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
       "tier": "B",
       "related": [],
-      "raw_ref": "raw/digests/miniu-ai-digest-2026-04-26.md"
+      "raw_ref": ""
     },
     {
       "path": "insights/ins_sam-mallikarjunan-explored-question-lot.md",
@@ -9481,7 +9481,7 @@
       "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
       "tier": "A",
       "related": [],
-      "raw_ref": "raw/digests/miniu-ai-digest-2026-05-02.md"
+      "raw_ref": ""
     },
     {
       "path": "insights/ins_skills-as-prompts-as-code.md",
@@ -10620,7 +10620,7 @@
       "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 3 }",
       "tier": "B",
       "related": [],
-      "raw_ref": "raw/digests/miniu-ai-digest-2026-05-01.md"
+      "raw_ref": ""
     },
     {
       "path": "insights/ins_translate-pmm-activities-to-exec-speak.md",
@@ -16539,15 +16539,6 @@
       "type": "essay"
     },
     {
-      "path": "raw/digests/miniu-ai-digest-2026-04-26.md"
-    },
-    {
-      "path": "raw/digests/miniu-ai-digest-2026-05-01.md"
-    },
-    {
-      "path": "raw/digests/miniu-ai-digest-2026-05-02.md"
-    },
-    {
       "path": "raw/essays/aakash-gupta--claude-design-pm-collapse--2026-04-24.md",
       "source_type": "essay",
       "source_title": "Claude Design — The Tool Most PMs Will Be Using in 6 Months",
@@ -19441,7 +19432,6 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (sonnet batch)",
-      "domain": "gtm|personal",
       "attribution": "verified",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Benjamin Mann.txt"
@@ -19457,14 +19447,7 @@
       "published": "2026-04-27",
       "captured": "2026-04-28",
       "captured_via": "yt-dlp auto-subtitles",
-      "domain": "gtm|personal",
       "attribution": "verified",
-      "related": [
-        "concepts/principal-marketer-flywheel.md",
-        "concepts/ai-native.md",
-        "projects/flywheel.md",
-        "raw/podcasts/lenny/2026-04-27-cat-wu-anthropic-product-team.md"
-      ],
       "transcript_file": "We7BZVKbCVw.transcript.txt"
     },
     {
@@ -19539,7 +19522,6 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (sonnet batch)",
-      "domain": "gtm|personal",
       "attribution": "verified",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Claire Hughes Johnson.txt"
@@ -19595,7 +19577,6 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (sonnet batch)",
-      "domain": "gtm|personal",
       "attribution": "verified",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Hamel Husain & Shreya Shankar.txt"

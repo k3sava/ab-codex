@@ -14,7 +14,7 @@ artifact_class: playbook
 score: { originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }
 tier: A
 related: []
-raw_ref: raw/digests/miniu-ai-digest-2026-05-02.md
+raw_ref: 
 ---
 
 # AEO is decided off your domain — third-party mention density is the missing surface

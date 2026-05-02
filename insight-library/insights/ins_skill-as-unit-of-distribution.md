@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 5 }
 tier: A
 related: []
-raw_ref: raw/digests/miniu-ai-digest-2026-05-02.md
+raw_ref: 
 ---
 
 # The unit of distribution for operator expertise is the Skill, not the prompt

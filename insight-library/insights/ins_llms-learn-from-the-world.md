@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 3, specificity: 3, evidence: 3, transferability: 5, source: 4 }
 tier: B
 related: []
-raw_ref: raw/digests/miniu-ai-digest-2026-05-02.md
+raw_ref: 
 ---
 
 # LLMs learn about your brand from the world, not from your site

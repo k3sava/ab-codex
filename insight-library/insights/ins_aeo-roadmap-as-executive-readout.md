@@ -14,7 +14,7 @@ artifact_class: playbook
 score: { originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 4 }
 tier: B
 related: []
-raw_ref: raw/digests/miniu-ai-digest-2026-05-02.md
+raw_ref: 
 ---
 
 # Package the AEO audit as a year-long keep/start/stop deck

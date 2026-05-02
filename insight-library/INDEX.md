@@ -5,7 +5,7 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 ## Counts
 - 417 insight cards
 - 277 operator profiles
-- 211 raw source files
+- 208 raw source files
 - 24 synthesis patterns
 - 9 contradictions
 - 23 playbooks
@@ -717,7 +717,7 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 ## Raw sources by type
 - **essay**: 22
 - **thread**: 1
-- **unknown**: 188
+- **unknown**: 185
 
 ## Synthesis patterns
 - [`pat_aeo-triangle`](synthesis/patterns/aeo-triangle.md) — The AEO triangle — presence, relevance, manual-action propagation (6 ops) [Tier A]

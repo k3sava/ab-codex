@@ -14,7 +14,7 @@ artifact_class: research
 score: { originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 4 }
 tier: B
 related: []
-raw_ref: raw/digests/miniu-ai-digest-2026-04-26.md
+raw_ref: 
 ---
 
 # In the AI-search era, crawlability shapes everything

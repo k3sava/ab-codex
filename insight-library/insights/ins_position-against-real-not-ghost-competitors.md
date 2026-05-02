@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 4 }
 tier: B
 related: []
-raw_ref: raw/digests/miniu-ai-digest-2026-04-26.md
+raw_ref: 
 ---
 
 # Stop positioning against ghost competitors customers don't actually consider

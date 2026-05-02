@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 3, specificity: 5, evidence: 4, transferability: 4, source: 5 }
 tier: B
 related: []
-raw_ref: raw/digests/miniu-ai-digest-2026-04-26.md
+raw_ref: 
 ---
 
 # Advisor-tool replaces ensemble-of-3 stability hacks at near-Sonnet rates

@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 3, specificity: 3, evidence: 3, transferability: 5, source: 4 }
 tier: B
 related: []
-raw_ref: raw/digests/miniu-ai-digest-2026-05-01.md
+raw_ref: 
 ---
 
 # Pin workflows to capabilities you re-baseline quarterly, not to a model snapshot

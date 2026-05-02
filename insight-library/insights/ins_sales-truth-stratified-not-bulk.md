@@ -14,7 +14,7 @@ artifact_class: workflow
 score: { originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 4 }
 tier: B
 related: []
-raw_ref: raw/digests/miniu-ai-digest-2026-04-26.md
+raw_ref: 
 ---
 
 # Stratify sales calls won/lost; AI does volume, humans pattern-match

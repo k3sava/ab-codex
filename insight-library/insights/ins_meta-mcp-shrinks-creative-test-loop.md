@@ -14,7 +14,7 @@ artifact_class: research
 score: { originality: 3, specificity: 5, evidence: 5, transferability: 3, source: 5 }
 tier: A
 related: []
-raw_ref: raw/digests/miniu-ai-digest-2026-05-02.md
+raw_ref: 
 ---
 
 # Meta's MCP endpoints for ad buying turn smaller advertisers into early winners
