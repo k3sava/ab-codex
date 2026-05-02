@@ -242,7 +242,7 @@ function operatorsList(){
 function domainPage(d){
   const list = cards.filter(c => c.domain.includes(d));
   app.innerHTML = `<section class='list-page'>
-    <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <span>domain · ${d}</span></div>
+    <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <a href='#/browse'>browse</a> <span>·</span> <span>${d}</span></div>
     <h1>${d}</h1>
     <p class='lede'>${list.length} cards in ${d}.</p>
     <div class='card-grid'>${list.map(cardTile).join('')}</div>
@@ -252,18 +252,44 @@ function domainPage(d){
 
 /* ============ PATTERNS ============ */
 function patternsList(){
+  const byTier = { A: patterns.filter(p=>p.tier==='A'), B: patterns.filter(p=>p.tier==='B'), C: patterns.filter(p=>p.tier==='C'), other: patterns.filter(p=>!['A','B','C'].includes(p.tier)) };
+  const tierBlock = (label, list, desc) => list.length === 0 ? '' : `
+    <section class='tier-group'>
+      <header class='tier-head'>
+        <h2>Tier ${label}</h2>
+        <span class='ct'>${list.length} pattern${list.length===1?'':'s'}</span>
+        <p class='desc'>${desc}</p>
+      </header>
+      <div class='card-grid'>${list.map(p=>`
+        <a class='card pattern reveal' href='#/pat/${p.id}'>
+          <div class='meta-row'>${tierBadge(p.tier)}<span>${(p.domains||[]).slice(0,2).join(' · ')}</span></div>
+          <h3>${escapeHtml(p.title)}</h3>
+          <div class='converge'>${(p.uses_cards||[]).length} operators converge</div>
+        </a>`).join('')}</div>
+    </section>`;
+
   app.innerHTML = `<section class='list-page'>
     <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <span>patterns</span></div>
     <h1>synthesis patterns</h1>
-    <p class='lede'>Cross-operator convergences. ${STATS.patterns} patterns surfaced from ${STATS.cards} cards.</p>
-    <div class='card-grid'>${patterns.map(p=>`
-      <a class='card pattern reveal' href='#/pat/${p.id}'>
-        <div class='meta-row'>${p.tier?tierBadge(p.tier):''}<span>${(p.domains||[]).slice(0,2).join(' · ')}</span></div>
-        <h3>${escapeHtml(p.title)}</h3>
-        <div class='converge'>${(p.uses_cards||[]).length} operators converge</div>
-      </a>`).join('')}</div>
-    ${contradictions.length?`<div class='cards-head' style='margin-top:64px;margin-bottom:18px'>contradictions (${STATS.contradictions})</div>
-      <div class='card-grid'>${contradictions.map(c=>`<a class='card reveal' href='#/con/${c.id}'><div class='meta-row'><span>contradiction</span></div><h3>${escapeHtml(c.title)}</h3></a>`).join('')}</div>`:''}
+    <p class='lede'>Cross-operator convergences and disagreements. ${STATS.patterns} patterns and ${STATS.contradictions} contradictions surfaced from ${STATS.cards} cards.</p>
+    ${tierBlock('A', byTier.A, 'High-confidence convergences with strong evidence and broad transferability.')}
+    ${tierBlock('B', byTier.B, 'Solid convergences. Useful but more context-dependent.')}
+    ${tierBlock('C', byTier.C, 'Emerging patterns. Treat as hypotheses.')}
+    ${byTier.other.length ? tierBlock('—', byTier.other, 'Untiered.') : ''}
+
+    ${contradictions.length ? `
+    <section class='contradictions-section reveal'>
+      <div class='head'>
+        <h2>Contradictions</h2>
+        <span class='ct'>${STATS.contradictions} surfaced</span>
+      </div>
+      <p class='lede'>Where operators disagree on substantive questions — not vocabulary, but mechanism. Often resolvable by stage, layer, or context.</p>
+      <div class='card-grid'>${contradictions.map(c=>`
+        <a class='card reveal' href='#/con/${c.id}'>
+          <div class='meta-row'><span>contradiction</span></div>
+          <h3>${escapeHtml(c.title)}</h3>
+        </a>`).join('')}</div>
+    </section>` : ''}
   </section>`;
   if (!reduced) ScrollTrigger.batch('.card.reveal', { onEnter: els => gsap.fromTo(els, { opacity:0, y:18 }, { opacity:1, y:0, duration:.6, ease:'power3.out', stagger:.03 }), start:'top 92%' });
 }
@@ -482,7 +508,8 @@ function buildForceGraph(){
   svg.selectAll('*').remove();
   svg.attr('viewBox', `0 0 ${W} ${H}`);
 
-  const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const themeAttr = document.documentElement.dataset.theme;
+  const isDark = themeAttr === 'dark' || (!themeAttr && window.matchMedia('(prefers-color-scheme: dark)').matches);
   const accent = isDark ? '#39ff14' : '#1f9d55';
   const edgeColor = isDark ? '#39ff1418' : '#0d141014';
   const edgeColorHi = isDark ? '#39ff14aa' : '#1f9d55aa';
@@ -688,8 +715,35 @@ function dismissSplash(){
   tl.to('#splash', { xPercent:-100, duration:.7, ease:'power3.inOut' }, '+=.1');
 }
 
+/* ============ THEME TOGGLE ============ */
+function wireTheme(){
+  const btn = document.getElementById('themeBtn');
+  if (!btn) return;
+  const apply = (t) => {
+    if (t) document.documentElement.dataset.theme = t;
+    else delete document.documentElement.dataset.theme;
+    try { if (t) localStorage.setItem('codex-theme', t); else localStorage.removeItem('codex-theme'); } catch(e){}
+    // Update theme-color meta
+    const meta = document.querySelector('meta[name="theme-color"]:not([media])') || document.createElement('meta');
+    meta.setAttribute('name','theme-color');
+    const dark = (t==='dark') || (!t && window.matchMedia('(prefers-color-scheme: dark)').matches);
+    meta.setAttribute('content', dark ? '#0a0e0a' : '#f3f5ee');
+    if (!meta.parentNode) document.head.appendChild(meta);
+  };
+  btn.onclick = () => {
+    const cur = document.documentElement.dataset.theme;
+    const sysDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const next = cur === 'dark' ? 'light' : cur === 'light' ? (sysDark ? 'dark' : null) : (sysDark ? 'light' : 'dark');
+    apply(next);
+    // If on map page, redraw graph to pick up new colors
+    if ((location.hash || '#/').includes('/map') || (location.hash || '#/').includes('/graph')){
+      requestAnimationFrame(() => buildForceGraph());
+    }
+  };
+}
+
 window.addEventListener('hashchange', () => { render(); setActive(); });
-loadIndex().then(() => { render(); setActive(); wireSearch(); wireHeader(); wireMobileMenu(); dismissSplash(); }).catch(e => {
+loadIndex().then(() => { render(); setActive(); wireSearch(); wireHeader(); wireMobileMenu(); wireTheme(); dismissSplash(); }).catch(e => {
   document.getElementById('splash')?.remove();
   app.innerHTML = `<section class='about-page'><h1>codex couldn't load.</h1><p style='color:var(--muted)'>${escapeHtml(e.message)}</p></section>`;
 });

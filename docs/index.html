@@ -10,7 +10,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=5" />
+  <link rel="stylesheet" href="style.css?v=6" />
+  <script>
+    // Apply theme override before paint to avoid flash
+    (function(){
+      try {
+        var t = localStorage.getItem('codex-theme');
+        if (t === 'dark' || t === 'light') document.documentElement.dataset.theme = t;
+      } catch(e){}
+    })();
+  </script>
 </head>
 <body>
   <div id="splash" aria-hidden="true">
@@ -21,7 +30,10 @@
   <div id="scrollProgress"></div>
 
   <header id="hdr">
-    <a href="#/" class="brand"><span class="dot"></span>codex</a>
+    <div class="brand-wrap">
+      <a href="#/" class="brand"><span class="dot"></span>codex</a>
+      <span class="credit">made by <a href="https://apps.iamkesava.com" target="_blank" rel="noopener">Kesava</a></span>
+    </div>
     <nav id="nav">
       <a href="#/" data-route="/">home</a>
       <a href="#/map" data-route="/map">map</a>
@@ -30,7 +42,15 @@
       <a href="#/browse" data-route="/browse">browse</a>
       <a href="#/timeline" data-route="/timeline">timeline</a>
       <a href="#/about" data-route="/about">about</a>
-      <button id="searchOpen" class="always" title="Search (⌘K)">⌘K</button>
+      <button id="searchOpen" class="always" title="Search (⌘K)">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="7" cy="7" r="5"/><path d="m11 11 3 3"/></svg>
+        <span>search</span>
+        <kbd>⌘K</kbd>
+      </button>
+      <button id="themeBtn" class="always" aria-label="Toggle theme" title="Toggle theme">
+        <svg id="themeIconLight" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="8" cy="8" r="3"/><path d="M8 1.5v1M8 13.5v1M14.5 8h-1M2.5 8h-1M12.6 3.4l-.7.7M4.1 11.9l-.7.7M12.6 12.6l-.7-.7M4.1 4.1l-.7-.7"/></svg>
+        <svg id="themeIconDark" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 9.5A6 6 0 1 1 6.5 2 5 5 0 0 0 14 9.5Z"/></svg>
+      </button>
       <button id="menuBtn" class="always" aria-label="Open menu">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
       </button>
@@ -52,17 +72,21 @@
   <main id="app"></main>
 
   <footer>
-    <div>codex · <a href="https://github.com/k3sava/codex" target="_blank" rel="noopener">github.com/k3sava/codex</a> · MIT</div>
+    <div>made by <a href="https://apps.iamkesava.com" target="_blank" rel="noopener">Kesava</a> · <a href="https://github.com/k3sava/codex" target="_blank" rel="noopener">github.com/k3sava/codex</a> · MIT</div>
   </footer>
 
   <dialog id="searchDialog">
-    <input id="searchInput" placeholder="search operators, claims, patterns…" autocomplete="off" />
+    <div class="search-head">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="7" cy="7" r="5"/><path d="m11 11 3 3"/></svg>
+      <input id="searchInput" placeholder="search operators, claims, patterns…" autocomplete="off" />
+      <kbd>esc</kbd>
+    </div>
     <div id="searchResults"></div>
   </dialog>
 
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
-  <script src="app.js?v=6" type="module"></script>
+  <script src="app.js?v=7" type="module"></script>
 </body>
 </html>
