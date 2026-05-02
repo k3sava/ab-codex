@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# It’s safe, predictable, and ultimately, it's why companies start stagnating. This is es...
-
+# It’s safe, predictable, and ultimately, it's why companies start stagnating. This is es
 ## Claim
 Hiring a vibe marketer to build an AI-first marketing engine for our new product ServiceAgent. The idea is to build an almost-autonomous marketing function with minimal human intervention to generate demand and visibility for our product among service businesses in the US - at scale. To apply, DM me or Shaambhav Shankar with your ideas on how you would approach this problem statement.
 

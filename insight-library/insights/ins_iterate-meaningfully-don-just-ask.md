@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# 3. Iterate with the AI meaningfully. Don't just ask for changes - tell it WHY you're ma...
-
+# 3. Iterate with the AI meaningfully. Don't just ask for changes - tell it WHY you're ma
 ## Claim
 If your next positioning process doesn't start with AI, you're wasting at least 3 days. If it ends with AI, it's slop passing as strategy. I ran an experiment: I gave an AI three docs from a real company. I gave it no brief, and no other guidance.
 

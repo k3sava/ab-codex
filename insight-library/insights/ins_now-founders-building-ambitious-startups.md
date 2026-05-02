@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# For now, founders building ambitious startups – I’d love to hear from you and see how w...
-
+# For now, founders building ambitious startups – I’d love to hear from you and see how w
 ## Claim
 Life has come full circle, and I’m excited to share that I’ve joined Google as Head of Google for Startups - India 🍋 The backstory: In 2013, I sat for two interviews: one at Google and one at Zomato. I didn’t make it through Google’s last round, but I did get into Zomato — and those 6 years changed everything for me. Zomato helped me identify my career moat, gave me lifelong friends, an incredibly steep learning curve and the resilience to eventually take the leap and co-found leap.club.
 

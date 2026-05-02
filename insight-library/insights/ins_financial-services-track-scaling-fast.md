@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# 💸 The Financial Services track is scaling fast, introducing new features like Business ...
-
+# 💸 The Financial Services track is scaling fast, introducing new features like Business
 ## Claim
 💸 The Financial Services track is scaling fast, introducing new features like Business Accounts, smoother payments, better cash-in, and smarter expenses management. 🫵 To help us bring these products to market with clarity, ambition, and real business impact, we’re looking for a Senior PMM who loves full-funnel GTM, cross-team orchestration, and turning complex features into simple, compelling stories.
 

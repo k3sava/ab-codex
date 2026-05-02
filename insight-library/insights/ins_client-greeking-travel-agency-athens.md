@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Our client Greeking.me is a travel agency in Athens, Greece. They get 350-400 leads per...
-
+# Our client Greeking.me is a travel agency in Athens, Greece. They get 350-400 leads per
 ## Claim
 I just built my first AI voice agent for a paying client. No one taught me how. No one held my hand through it. I learned every tool from scratch, did all the research myself, and shipped it live.
 

@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# These PMMs feel the most invisible. No influence, no execution power. Always blocked, o...
-
+# These PMMs feel the most invisible. No influence, no execution power. Always blocked, o
 ## Claim
 We PMMs need to become The Ideal PMM© more than ever in today's job market. Here's why... 👀 Workhorse PMMs who execute flawlessly but don’t have influence, getting let go in tech layoffs… While the yappers, the ones who talk a big game but don’t deliver, somehow survive.
 

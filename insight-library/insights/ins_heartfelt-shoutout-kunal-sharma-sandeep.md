@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# A heartfelt shoutout to Kunal Sharma & Sandeep 🌟 your unwavering support, mentorship, a...
-
+# A heartfelt shoutout to Kunal Sharma & Sandeep 🌟 your unwavering support, mentorship, a
 ## Claim
 🚀 Excited to share some amazing news — I’ve been promoted to Lead Solutions Engineer! 🚀 This milestone means a lot, and it wouldn’t have been possible without some truly incredible people around me. Huge thanks to Deren Rehr-Davis for the trust, recognition, and opportunity to step into this new role.
 

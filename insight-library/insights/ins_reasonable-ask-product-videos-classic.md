@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# And it’s a reasonable ask! Product videos are a classic part of the B2B GTM toolkit. Sa...
-
+# And it’s a reasonable ask! Product videos are a classic part of the B2B GTM toolkit. Sa
 ## Claim
 At some point in almost every SaaS company, the request appears: “𝘞𝘦 𝘴𝘩𝘰𝘶𝘭𝘥 𝘱𝘳𝘰𝘣𝘢𝘣𝘭𝘺 𝘮𝘢𝘬𝘦 𝘢 𝘱𝘳𝘰𝘥𝘶𝘤𝘵 𝘷𝘪𝘥𝘦𝘰...” And it’s a reasonable ask! Product videos are a classic part of the B2B GTM toolkit. Sales teams naturally want something they can send after a call or share with prospects who are still evaluating.
 

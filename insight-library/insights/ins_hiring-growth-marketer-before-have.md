@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Hiring a growth marketer before you have a foundation is like building the second floor...
-
+# Hiring a growth marketer before you have a foundation is like building the second floor
 ## Claim
 A VC recruiter told me that startups want a growth marketer as their first marketing leadership hire. I pushed back. Hiring a growth marketer before you have a foundation is like building the second floor before you've poured the concrete. The activity looks like progress.
 

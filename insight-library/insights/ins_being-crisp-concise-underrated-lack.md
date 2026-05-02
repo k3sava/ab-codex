@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Being crisp and concise is underrated. The lack of it signals something more concerning...
-
+# Being crisp and concise is underrated. The lack of it signals something more concerning
 ## Claim
 Being crisp and concise is underrated. The lack of it signals something more concerning: a thinking problem. When you don’t know what truly matters, you try to say 𝘦𝘷𝘦𝘳𝘺𝘵𝘩𝘪𝘯𝘨. When you're clear on the core point, you can say it 𝘴𝘪𝘮𝘱𝘭𝘺.
 

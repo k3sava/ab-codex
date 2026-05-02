@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# This code node utilizes your API key and User ID to establish a connection with your Ic...
-
+# This code node utilizes your API key and User ID to establish a connection with your Ic
 ## Claim
 This AI Agent finds company emails 10X faster using n8n + Icypeas Earlier, I used to Google a company, click through 10 pages, and still couldn't find a simple contact email. Now, this workflow does this in 30 seconds. When clicking "Execute Workflow," the process initiates.
 

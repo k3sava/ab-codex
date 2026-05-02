@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# I help coaches and founders turn LinkedIn into their #1 client-acquisition channel | st...
-
+# I help coaches and founders turn LinkedIn into their #1 client-acquisition channel | st
 ## Claim
 For all my PMM comrades building outbound playbooks. I help coaches and founders turn LinkedIn into their #1 client-acquisition channel | start with the system in my featured section I help coaches and founders turn LinkedIn into their #1 client-acquisition channel | start with the system in my featured section 4 months ago • Visible to anyone on or off LinkedIn I built a GPT-5 prompt that turns basic pains into LinkedIn content that drive inbound leads.
 

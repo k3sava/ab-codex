@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# 4/ once your account is flagged there's almost no way to get it back. Meta's support fo...
-
+# 4/ once your account is flagged there's almost no way to get it back. Meta's support fo
 ## Claim
 Anyone lost their linkedin yet due to Claude? AI for Marketing Operations | CEO at Surface Labs AI for Marketing Operations | CEO at Surface Labs 2 weeks ago • Visible to anyone on or off LinkedIn Claude Code got my META ADS account banned👇 I saw everyone talking about using Claude Code to run Meta ads so I tried it myself. connected the API, had it pull all my campaign data, had it generate new creatives, optimize targeting, and manage budget allocation.
 

@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# ► Cross-Functional Collaboration - In a world where teamwork is key, PMMs are at the ce...
-
+# ► Cross-Functional Collaboration - In a world where teamwork is key, PMMs are at the ce
 ## Claim
 McKinsey Says that Product Marketing Managers (PMMs) are the Quiet Force Behind Software Success A new McKinsey study (link in the comments, https://lnkd.in/gE9vyDxx) has put PMMs in the spotlight, emphasizing their growing importance in the software industry. Its findings reinforce the ideas I've shared in my previous posts on the evolving role of PMMs in the AI era (https://lnkd.in/ggjfSawh) and their pivotal role in driving personalization and efficient growth (https://lnkd.in/erV6Nipd).
 

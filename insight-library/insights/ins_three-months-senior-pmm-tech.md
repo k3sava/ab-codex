@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Three months in as a Senior PMM in tech. Here are some of my reflections especially for...
-
+# Three months in as a Senior PMM in tech. Here are some of my reflections especially for
 ## Claim
 Three months in as a Senior PMM in tech. Here are some of my reflections especially for those starting a new role: 1. Do not underestimate the power of context. Context is your compass.
 

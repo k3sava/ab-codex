@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# If you’ve got analysis paralysis about using agents (think Claude Code, Cowork, OpenCla...
-
+# If you’ve got analysis paralysis about using agents (think Claude Code, Cowork, OpenCla
 ## Claim
 If you’ve got analysis paralysis about using agents (think Claude Code, Cowork, OpenClaw), here are 10 jobs I started with. Caveat: Most of these require a connector to your CRM (HubSpot in my case) and/or a call transcript tool (Grain in my case). ⤷ Have your agent go through won deals and opptys to extract job titles.
 

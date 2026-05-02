@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# I don't care how awesome you are at prompting; a PMM must be a decent writer. Practice,...
-
+# I don't care how awesome you are at prompting; a PMM must be a decent writer. Practice
 ## Claim
 LinkedIn content can be good, but it often highlights non-crucial skills. A PMM doesn't need to master Claude Code/GitHub, at least in the beginning. And going down these rabbit holes distracts from the core skills a PMM needs. So, what advice would I give my younger self?
 

@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Hallucinations are when the AI makes up things that it *thinks* are true -- but just ar...
-
+# Hallucinations are when the AI makes up things that it *thinks* are true -- but just ar
 ## Claim
 BREAKING NEWS: Seems like OpenAI may have come up with a way to dramatically reduce the hallucinations in AI models. Hallucinations are when the AI makes up things that it *thinks* are true -- but just aren't. The solution was brilliantly simple. So simple, I'm surprised we didn't come up with it sooner.
 

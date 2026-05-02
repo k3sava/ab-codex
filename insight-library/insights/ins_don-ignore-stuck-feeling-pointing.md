@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# 𝗔𝘀 𝗮𝗻 𝗲𝗺𝗽𝗹𝗼𝘆𝗲𝗲: Don't ignore that stuck feeling. It's pointing you toward something bet...
-
+# 𝗔𝘀 𝗮𝗻 𝗲𝗺𝗽𝗹𝗼𝘆𝗲𝗲: Don't ignore that stuck feeling. It's pointing you toward something bet
 ## Claim
 My manager spotted my quiet quitting...before I did Three years into a role, I was going through the motions. My manager noticed before I did. When she asked what was wrong, all I could say was "𝘐 𝘧𝘦𝘦𝘭 𝘴𝘵𝘶𝘤𝘬 𝘪𝘯 𝘢 𝘳𝘶𝘵" Working in benefits just wasn't lighting me up - healthcare plan details felt transactional Then, I moved to compensation work, and everything changed.
 

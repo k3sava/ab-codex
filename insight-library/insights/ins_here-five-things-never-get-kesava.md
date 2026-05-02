@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Here are five things that you’ll never get a CEO, CMO, CRO, and product marketer to agr...
-
+# Here are five things that you’ll never get a CEO, CMO, CRO, and product marketer to agr
 ## Claim
 Here are five things that you’ll never get a CEO, CMO, CRO, and product marketer to agree on: The CEO wants to keep the TAM wide for investors. The CRO wants every deal that walks through the door. The CMO wants a story that scales across segments. And the product marketer is begging someone, anyone, to pick a lane.
 

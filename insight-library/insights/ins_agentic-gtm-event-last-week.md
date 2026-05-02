@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# At our Agentic GTM event last week, Alina shared how Chili Piper cut their marketing te...
-
+# At our Agentic GTM event last week, Alina shared how Chili Piper cut their marketing te
 ## Claim
 What's the right size for a B2B marketing team generating $50M in revenue? Most CEOs would guess somewhere between 15 and 30 people. Alina Vandenberghe 🌶️ did it with two. At our Agentic GTM event last week, Alina shared how Chili Piper cut their marketing team from 22 to 2 while generating 1,400 sales-qualified opportunities in 2024.
 

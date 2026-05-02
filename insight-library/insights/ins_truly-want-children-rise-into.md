@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# But if you truly want your children to rise into greatness, the first thing they must l...
-
+# But if you truly want your children to rise into greatness, the first thing they must l
 ## Claim
 Kudos to the mothers who are bringing up their sons so well. Mostly you find male employees cracking abusive and slut-shaming/body-shaming jokes on female employees and female bosses in the office. I just faced my first ever slut-shaming situation by an intern who is still pursuing his college education.
 

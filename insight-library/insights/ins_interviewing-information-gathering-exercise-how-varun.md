@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Interviewing is an information gathering exercise, and how a candidate makes you feel (...
-
+# Interviewing is an information gathering exercise, and how a candidate makes you feel (
 ## Claim
 I want to give every startup founder permission to hire candidates based off vibes. But I'm going to give you the vocabulary to feel better about it. Leaders resist "vibes hiring" because it sounds lazy. Like you’re not doing due diligence.
 

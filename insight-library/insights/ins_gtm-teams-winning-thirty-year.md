@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# GTM teams are winning with a THIRTY-year-old technology. New AI tools can be great, but...
-
+# GTM teams are winning with a THIRTY-year-old technology. New AI tools can be great, but
 ## Claim
 GTM teams are winning with a THIRTY-year-old technology. New AI tools can be great, but this is tried and true (and free). RSS (Really Simple Syndication) feeds have been around since the 90’s and are criminally undervalued and underutilized in GTM. They give your GTM team free competitor intelligence, relevant signals, and timely updates.
 

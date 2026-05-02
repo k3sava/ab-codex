@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Nine out of ten companies skip product updates entirely. Most of the ones that do publi...
-
+# Nine out of ten companies skip product updates entirely. Most of the ones that do publi
 ## Claim
 Nine out of ten companies skip product updates entirely. Most of the ones that do publish them are doing it wrong. Developers know exactly what changed, but nobody trained them to translate technical decisions into customer language. Marketing knows how to talk to customers, but does not have access to the full picture of what shipped.
 

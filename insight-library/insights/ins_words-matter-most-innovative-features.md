@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# → The words matter. The most innovative features won't do much if customers don't under...
-
+# → The words matter. The most innovative features won't do much if customers don't under
 ## Claim
 "How do I help my management understand why Product Managers and Product Marketers need to work closely together?" I hear this question a lot from PMMs who read my content. It will be an uphill climb if your organization doesn't fully comprehend the essence of a PMM role and isn't ready to change their product rituals. But it always starts with internal education.
 

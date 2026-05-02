@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# 3) Ask for revenue impact: "How much revenue is attached to this? Is there a renewal on...
-
+# 3) Ask for revenue impact: "How much revenue is attached to this? Is there a renewal on
 ## Claim
 Logan Hendrickson, former PMM Lead at 15Five shows you why... 1. Product: "We're launching a new feature!" 2. Sales: "Great, can I get a one-pager?" "What can a one-pager do that a web page can't?" As a former salesperson himself, Logan admits he's sent plenty of one-pagers in his day.
 

@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# But Great insight is. And this is precisely why AI shouldn’t scale formats. It should s...
-
+# But Great insight is. And this is precisely why AI shouldn’t scale formats. It should s
 ## Claim
 “Scaling content with AI is the biggest lie.” You can’t take a blog post, auto-spin it into a YouTube video, slice it into 10 LinkedIn carousels, and expect any of it to land. That’s not strategy—it’s spam at scale. But there’s a bigger truth behind this...
 

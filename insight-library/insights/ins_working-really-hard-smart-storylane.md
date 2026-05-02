@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# We are working really hard and smart Storylane. My calendar goes from 8 AM to midnight ...
-
+# We are working really hard and smart Storylane. My calendar goes from 8 AM to midnight
 ## Claim
 We are working really hard and smart Storylane. My calendar goes from 8 AM to midnight across global time zones. This is not meant to glamorize or encourage. But, that's what it takes.
 

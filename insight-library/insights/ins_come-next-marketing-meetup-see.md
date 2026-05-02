@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# → Come to our next marketing meetup (see the picture - these are some of the lovely peo...
-
+# → Come to our next marketing meetup (see the picture - these are some of the lovely peo
 ## Claim
 Product Marketing Manager at a fast-growing startup with a product users actually love. Thousands of users. Every single day. Using Creative Force for their content production.
 

@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# The irony why perhaps product adoption software hasn’t been that popular is also becaus...
-
+# The irony why perhaps product adoption software hasn’t been that popular is also becaus
 ## Claim
 Someone (from the tech industry) asked me where I worked and what Userpilot was this weekend. And for the first time (hold my coffee), without thinking much, I responded: it’s a “Lovable for Product Adoption”. I know it’s a bold statement…and a complement for Lovable for becoming a household name for the category of no-code software in such a short time.
 

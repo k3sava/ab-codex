@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# The CV below is absolutely worth studying! Amanda Fernandes didn’t just apply for a job...
-
+# The CV below is absolutely worth studying! Amanda Fernandes didn’t just apply for a job
 ## Claim
 The CV below is absolutely worth studying! Amanda Fernandes didn’t just apply for a job — she built a personal product. Here’s what makes her application stand out — and why it’s a signal for where hiring is heading: → She didn’t just send a PDF. She launched AmandaGPT — her own AI chatbot trained on her experience.
 

@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# 10 years ago this kind of research took interns, VAs, or SDR armies. Now it’s a $0.47 A...
-
+# 10 years ago this kind of research took interns, VAs, or SDR armies. Now it’s a $0.47 A
 ## Claim
 This n8n workflow saves our sales team 10 hours+ a week. 10 hours X 8 reps = 80 hrs. That's at least $10,000 saved monthly. The Problem: Spending 20+ minutes researching each prospect manually.
 

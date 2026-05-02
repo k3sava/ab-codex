@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# I’ve always tried to bring real, day-to-day PMM insights that no one talks about. And a...
-
+# I’ve always tried to bring real, day-to-day PMM insights that no one talks about. And a
 ## Claim
 Excited to share that I’ve been recognised again in the Top 100 Product Marketing Influencers for 2025. When I stepped into Product Marketing, I had no roadmap. Just curiosity, a willingness to learn fast, and a belief that PMM can be one of the highest-impact functions in any company.
 

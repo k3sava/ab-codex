@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# - They hate when the boss asks why a tiny edit took seventeen minutes, but will take a ...
-
+# - They hate when the boss asks why a tiny edit took seventeen minutes, but will take a
 ## Claim
 It is a very fair ask to want a non-toxic boss/manager Only if you also notice the toxic employees around you. I am an entrepreneur, but I have people around me who work in different setups. They have jobs that are remote, hybrid or in office. And they all have their own jokes, shortcuts and ways of playing the system.
 

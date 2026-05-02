@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# The fact that you can have this running for free in 20 minutes, while last year you wou...
-
+# The fact that you can have this running for free in 20 minutes, while last year you wou
 ## Claim
 Built a GPT-5 bot that scrapes 200+ of my competitor ads weekly and emails me a report. Agencies charged $50K/year for this. I have published a V1 of this last month, and >400 people asked for it. I thought it was worth investing a few hours to make it better.
 

@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# There were plenty of lessons too. Startups are brutally hard — and pivot hell is the wo...
-
+# There were plenty of lessons too. Startups are brutally hard — and pivot hell is the wo
 ## Claim
 Two and a half years ago, Royal Jain and I were just two cofounders with an idea and a shared dream. We got into Y Combinator with only the founding team and an idea we scrapped within weeks. We left India, went to Singapore to sort out our US visas, and spent three magical months in San Francisco — surrounded by people who made us believe we could build something meaningful.
 

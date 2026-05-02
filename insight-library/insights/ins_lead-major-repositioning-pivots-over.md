@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# i've lead major repositioning and pivots over the last 12 years and these are the most ...
-
+# i've lead major repositioning and pivots over the last 12 years and these are the most
 ## Claim
 i've seen these mistakes too many times. you've decided to pivot your product, launch, and then open up MORE problems that were supposed to be solved. i've lead major repositioning and pivots over the last 12 years and these are the most common patterns i see.
 

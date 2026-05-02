@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# This is a dream role for a marketer who loves content and wants to own big projects in ...
-
+# This is a dream role for a marketer who loves content and wants to own big projects in
 ## Claim
 🚨 We’re hiring a Content Marketing Manager at Exit Five 💸 And we’re offering $5,000 if you refer the person we hire This is a dream role for a marketer who loves content and wants to own big projects in a small, scrappy team. You'll work closely with our CEO Dave (who’s going to be very involved), plus our Head of Marketing Jess, Head of Community Matt, as well as Anna (sponsors), and Allison (events).
 

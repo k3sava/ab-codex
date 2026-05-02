@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# As Product Marketing Managers, “GTM” is one of those words that follows us everywhere w...
-
+# As Product Marketing Managers, “GTM” is one of those words that follows us everywhere w
 ## Claim
 There is no such thing as a “GTM strategy.” As Product Marketing Managers, “GTM” is one of those words that follows us everywhere we go. It can be found in every job description. “Vicky, what’s our GTM strategy?”, I’ve been asked time and time again. As if it’s a single, static strategy you can neatly construct out of fairy dust and hand over to your boss.
 

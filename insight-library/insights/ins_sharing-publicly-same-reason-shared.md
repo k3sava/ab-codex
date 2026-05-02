@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# We're sharing V2 publicly for the same reason we shared V1: every company needs a frame...
-
+# We're sharing V2 publicly for the same reason we shared V1: every company needs a frame
 ## Claim
 Today we released our new AI Fluency Rubric. We use it for every hire, focusing on what they’ve actually built. Last May we open-sourced our first rubric. Hundreds of companies used it to screen candidates and develop teams.
 

@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Each prospect gets scored 1-10 based on company fit, role relevance, how good their eng...
-
+# Each prospect gets scored 1-10 based on company fit, role relevance, how good their eng
 ## Claim
 Then it's called competitive intelligence and apparently totally legal. We built this n8n workflow that basically monitors every single person who comments on our competitor's LinkedIn posts and it's Added $$$ in new ARR from people who were ALREADY engaging with our biggest rival(s). And I'm giving the whole thing away for free because most of you won't actually do anything with it anyway (prove me wrong 💅)
 

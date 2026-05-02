@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# My first one is going to be to rebuild my custom audio daily briefing that looks at my ...
-
+# My first one is going to be to rebuild my custom audio daily briefing that looks at my
 ## Claim
 Dunno if we’ve announced it yet or not (if so then mea culpa Marketing Team 🙏) but we’re about to release a bajillion (technical term) connectors to enable you to build Agents using almost any other tools you can imagine. My first one is going to be to rebuild my custom audio daily briefing that looks at my calendar and briefs me on my day based on who I’m meeting, what we said last time, and an analysis of our comparative business models.
 

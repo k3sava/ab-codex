@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Every few weeks there’s a new “must-try” design tool. And suddenly my feed is full of c...
-
+# Every few weeks there’s a new “must-try” design tool. And suddenly my feed is full of c
 ## Claim
 Babe, wake up! There's a new software in town that can do what your existing software does, but with more ✨ease✨. Every few weeks there’s a new “must-try” design tool. And suddenly my feed is full of creators saying, “I don’t know how I lived without this.” Really?
 

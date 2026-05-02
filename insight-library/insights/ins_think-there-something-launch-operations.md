@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# I think there is something to a launch operations role to enable PMM to deliver the val...
-
+# I think there is something to a launch operations role to enable PMM to deliver the val
 ## Claim
 Many tech companies have Product Operation roles...but what about Launch Operations? If you're thinking 'but that's what PMM does', keep reading... I'm looking at Prod/dev orgs and seeing... - Program managers or product operation leads managing and coordinating the process to release.
 

@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# The problem I'm trying to solve: I write a lot of content, but most of it reaches only ...
-
+# The problem I'm trying to solve: I write a lot of content, but most of it reaches only
 ## Claim
 I created an AI agent on Agent .ai that turns blog posts into Avatar videos. The problem I'm trying to solve: I write a lot of content, but most of it reaches only a subset of its potential audience because many people prefer video. I also just dislike being in front of a camera (my natural habitat is being in front of a computer).
 

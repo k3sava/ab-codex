@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Ricky Sangra Leo Polonsky George Griffiths Jerry Broll Katie Schratz Thanks for your co...
-
+# Ricky Sangra Leo Polonsky George Griffiths Jerry Broll Katie Schratz Thanks for your co
 ## Claim
 After 3.5 incredible years and countless memories, I'm closing a meaningful chapter as I say goodbye to Clari today 💙 This journey has been nothing short of amazing. Looking back, I'm incredibly grateful for the learning, the growth, and most importantly, the people I've had the privilege of working alongside 😊 What I'll carry forward most from here, isn't just the technical skills or the projects we delivered—it's the culture. The trust, the genuine care for people, and the sense of belonging that makes Clari truly special 🫶
 

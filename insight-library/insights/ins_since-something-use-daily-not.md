@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# P.S. Since this is something we use daily, I'm not going to send this to more than 200 ...
-
+# P.S. Since this is something we use daily, I'm not going to send this to more than 200
 ## Claim
 I replaced 6 sales reps with one n8n workflow for a client. They have not only improved turnaround times but got better performance as well. Following the same old sales prospecting methods. Teams can spend 2-3 days digging into each target company...
 

@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# PMMs are under more pressure than ever to show impact, align cross-functionally, and st...
-
+# PMMs are under more pressure than ever to show impact, align cross-functionally, and st
 ## Claim
 I'm still processing this: Product Marketing Alliance asked me to open their London Summit. 🤩 Actually for a couple months, my brain told me I misunderstood – this was a slot reserved for the likes of April Dunford and Emma Stratton (aka my heroes). But, as of right now, I'm helping to kick off Day 1 of the PMA London Summit with a keynote talk at 9:15 am, and I hope you can join in!
 

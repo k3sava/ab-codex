@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Your routine loosens, the days feel lighter than they should, and your mind starts wand...
-
+# Your routine loosens, the days feel lighter than they should, and your mind starts wand
 ## Claim
 Have you ever had that strange phase during a job transition where everything suddenly feels… slower? Your routine loosens, the days feel lighter than they should, and your mind starts wandering into doubts you never had before. When you’re packing up, the old place slowly stops feeling like home.
 

@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Sam Mallikarjunan and I explored that question and a lot more in the latest Prompted: B...
-
+# Sam Mallikarjunan and I explored that question and a lot more in the latest Prompted: B
 ## Claim
 I try not to make things about me, and so ironically I really held out on joining for our podcast. Shouldn't have! It was a great conversation. Not the usual set of softball questions.
 

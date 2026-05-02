@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Since their main product, lemlist, is an all-in-one prospecting platform, it's also the...
-
+# Since their main product, lemlist, is an all-in-one prospecting platform, it's also the
 ## Claim
 lemlist recently crossed $34,000,000 ARR. Here's every tool they use to run their SaaS: Their CEO, Charles Tenot, was kind enough to share their entire tech stack ↓ Their team has a combined 300,000+ LinkedIn follower count. This includes their Founder Guillaume's account (23,000+ followers), their CEO Charles (29,000+) and other teammates such as Kévin (78,000+), Lucas (57,000+), Tal (34,000+), Erwan (32,000+) & others.
 

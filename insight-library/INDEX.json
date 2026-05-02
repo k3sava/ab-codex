@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-02T17:24:13.245Z",
+  "generated_at": "2026-05-02T17:27:46.472Z",
   "counts": {
-    "insights": 427,
-    "operators": 285,
+    "insights": 420,
+    "operators": 280,
     "raw_sources": 211,
     "patterns": 24,
     "contradictions": 9,
@@ -546,7 +546,7 @@
     },
     {
       "path": "insights/ins_agentic-gtm-event-last-week.md",
-      "title": "At our Agentic GTM event last week, Alina shared how Chili Piper cut their marketing te...",
+      "title": "At our Agentic GTM event last week, Alina shared how Chili Piper cut their marketing te",
       "id": "ins_agentic-gtm-event-last-week",
       "operator": "Gil Allouche",
       "operator_role": "'CEO at metadata.io | Making B2B Marketing Teams Predictable & Profitable 🦄'",
@@ -884,7 +884,7 @@
     },
     {
       "path": "insights/ins_always-tried-bring-real-day.md",
-      "title": "I’ve always tried to bring real, day-to-day PMM insights that no one talks about. And a...",
+      "title": "I’ve always tried to bring real, day-to-day PMM insights that no one talks about. And a",
       "id": "ins_always-tried-bring-real-day",
       "operator": "Sachin Jha",
       "operator_role": "'Founder ONEGTMLab | Engineering GTM for Cyber and DevTools | Product Marketing, AI GTM Engineering, and Founder-Led Growth Expert | 2X Top 100 Product Marketing Influencers'",
@@ -1046,7 +1046,7 @@
     },
     {
       "path": "insights/ins_ask-revenue-impact-how-much-richard.md",
-      "title": "3) Ask for revenue impact: \"How much revenue is attached to this? Is there a renewal on...",
+      "title": "3) Ask for revenue impact: \"How much revenue is attached to this? Is there a renewal on",
       "id": "ins_ask-revenue-impact-how-much-richard",
       "operator": "Richard King",
       "operator_role": "'Talking truth on leadership, growth & product marketing | 5x founder | 3x exits |'",
@@ -1073,7 +1073,7 @@
     },
     {
       "path": "insights/ins_ask-revenue-impact-how-much.md",
-      "title": "3) Ask for revenue impact: \"How much revenue is attached to this? Is there a renewal on...",
+      "title": "3) Ask for revenue impact: \"How much revenue is attached to this? Is there a renewal on",
       "id": "ins_ask-revenue-impact-how-much",
       "operator": "Richard King",
       "operator_role": "'Talking truth on leadership, growth & product marketing | 5x founder | 3x exits |'",
@@ -1267,89 +1267,8 @@
       "raw_ref": "raw/expert-content/experts/crayon.md"
     },
     {
-      "path": "insights/ins_because-don-know-how-make.md",
-      "title": "Because I don’t know how to make them see I fit",
-      "id": "ins_because-don-know-how-make",
-      "operator": "Gideon Harris",
-      "operator_role": "'Managing Partner, Build Executive. Author, The Weight of Monday.'",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7356734073907695616/",
-      "source_type": "thread",
-      "source_title": "'“ChatGPT, I need a new CV'",
-      "source_date": "2026-04-10",
-      "captured_date": "2026-05-02",
-      "domain": [
-        "pmm",
-        "marketing",
-        "content"
-      ],
-      "lifecycle": [
-        "messaging-narrative",
-        "content"
-      ],
-      "maturity": "applied",
-      "artifact_class": "framework",
-      "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 4, source: 3 }",
-      "tier": "B",
-      "related": [],
-      "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
-    },
-    {
-      "path": "insights/ins_because-every-day-feels-aligned.md",
-      "title": "Because every day feels aligned with the life I actually want to live",
-      "id": "ins_because-every-day-feels-aligned",
-      "operator": "Kate Syuma",
-      "operator_role": "'Growth Advisor, ex-Miro | Founder at Growthmates | Speaker · Creator | PLG · Activation · UX'",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7378280999648088064/",
-      "source_type": "thread",
-      "source_title": "'I’m 29'",
-      "source_date": "2026-04-10",
-      "captured_date": "2026-05-02",
-      "domain": [
-        "growth",
-        "product",
-        "customer-success"
-      ],
-      "lifecycle": [
-        "onboarding-activation",
-        "retention"
-      ],
-      "maturity": "applied",
-      "artifact_class": "framework",
-      "score": "{ originality: 3, specificity: 5, evidence: 3, transferability: 4, source: 4 }",
-      "tier": "A",
-      "related": [],
-      "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
-    },
-    {
-      "path": "insights/ins_because-let-real-social-media.md",
-      "title": "Because let’s be real, social media doesn’t need another secret strategy. It needs a re...",
-      "id": "ins_because-let-real-social-media",
-      "operator": "Saishah Joseph",
-      "operator_role": "'Founder, Small Brand Big Brand | Social media strategy that *actually* works | Building social media tools for small biz owners I Ex- Directi, Oxford University Press'",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7387092081518780416/",
-      "source_type": "thread",
-      "source_title": "'Over the last few years, I’ve spoken to hundreds of small business owners: designers, bakers, thr'",
-      "source_date": "2026-04-10",
-      "captured_date": "2026-05-02",
-      "domain": [
-        "strategy",
-        "leadership",
-        "content"
-      ],
-      "lifecycle": [
-        "strategy-bets",
-        "content"
-      ],
-      "maturity": "applied",
-      "artifact_class": "framework",
-      "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 4, source: 4 }",
-      "tier": "B",
-      "related": [],
-      "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
-    },
-    {
       "path": "insights/ins_been-quietly-building-something-big.md",
-      "title": "We’ve been quietly building something big … and now we just can’t wait to ring that bel...",
+      "title": "We’ve been quietly building something big … and now we just can’t wait to ring that bel",
       "id": "ins_been-quietly-building-something-big",
       "operator": "Akash Anand",
       "operator_role": "'Cofounder, CEO @ Clueso | AI Video Creation Platform'",
@@ -1376,7 +1295,7 @@
     },
     {
       "path": "insights/ins_being-crisp-concise-underrated-lack.md",
-      "title": "Being crisp and concise is underrated. The lack of it signals something more concerning...",
+      "title": "Being crisp and concise is underrated. The lack of it signals something more concerning",
       "id": "ins_being-crisp-concise-underrated-lack",
       "operator": "Chantal Cox",
       "operator_role": "'Director of Product at Adobe, AI agents | ex-Meta, Amazon, Credit Karma, eBay | 2x Founder | TedX Speaker'",
@@ -1430,7 +1349,7 @@
     },
     {
       "path": "insights/ins_below-absolutely-worth-studying-amanda.md",
-      "title": "The CV below is absolutely worth studying! Amanda Fernandes didn’t just apply for a job...",
+      "title": "The CV below is absolutely worth studying! Amanda Fernandes didn’t just apply for a job",
       "id": "ins_below-absolutely-worth-studying-amanda",
       "operator": "Andreas Horn",
       "operator_role": "'Head of AIOps @ IBM || Speaker | Lecturer | Advisor'",
@@ -1852,33 +1771,6 @@
       "raw_ref": "raw/podcasts/qasar-younis--physical-ai-radical-pragmatism--2026-04-28.md"
     },
     {
-      "path": "insights/ins_business-typically-need-lot-features.md",
-      "title": "(business typically need a lot of features which makes you a \"thick wrapper\" which is g...",
-      "id": "ins_business-typically-need-lot-features",
-      "operator": "Yasser Elsaid",
-      "operator_role": "'CEO at Chatbase'",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7340585965108764672/",
-      "source_type": "thread",
-      "source_title": "'3 main strategies to build an AI company now:'",
-      "source_date": "2026-04-10",
-      "captured_date": "2026-05-02",
-      "domain": [
-        "growth",
-        "customer-success",
-        "hiring"
-      ],
-      "lifecycle": [
-        "retention",
-        "hiring-team-design"
-      ],
-      "maturity": "frontier",
-      "artifact_class": "playbook",
-      "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 4, source: 4 }",
-      "tier": "B",
-      "related": [],
-      "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
-    },
-    {
       "path": "insights/ins_buy-boring-businesses.md",
       "title": "Buying eliminates the Valley of Death — the highest-risk phase of entrepreneurship is already done",
       "id": "ins_buy-boring-businesses",
@@ -2158,7 +2050,7 @@
     },
     {
       "path": "insights/ins_client-greeking-travel-agency-athens.md",
-      "title": "Our client Greeking.me is a travel agency in Athens, Greece. They get 350-400 leads per...",
+      "title": "Our client Greeking.me is a travel agency in Athens, Greece. They get 350-400 leads per",
       "id": "ins_client-greeking-travel-agency-athens",
       "operator": "Kubi Rich",
       "operator_role": "'AI Ops at AI Operator | I Build Automations That Do the Work So You Don’t Have To | Mechatronics Engineer + Computer Science'",
@@ -2212,7 +2104,7 @@
     },
     {
       "path": "insights/ins_code-node-utilizes-api-key.md",
-      "title": "This code node utilizes your API key and User ID to establish a connection with your Ic...",
+      "title": "This code node utilizes your API key and User ID to establish a connection with your Ic",
       "id": "ins_code-node-utilizes-api-key",
       "operator": "Suprava Sabat",
       "operator_role": "'Founder @AcquisitionX'",
@@ -2266,7 +2158,7 @@
     },
     {
       "path": "insights/ins_come-next-marketing-meetup-see.md",
-      "title": "→ Come to our next marketing meetup (see the picture - these are some of the lovely peo...",
+      "title": "→ Come to our next marketing meetup (see the picture - these are some of the lovely peo",
       "id": "ins_come-next-marketing-meetup-see",
       "operator": "Emil Kristensen",
       "operator_role": "'CRO at Creative Force & Dreem | Advisor | ex Sleeknote co-founder'",
@@ -2815,7 +2707,7 @@
     },
     {
       "path": "insights/ins_cross-functional-collaboration-world-where.md",
-      "title": "► Cross-Functional Collaboration - In a world where teamwork is key, PMMs are at the ce...",
+      "title": "► Cross-Functional Collaboration - In a world where teamwork is key, PMMs are at the ce",
       "id": "ins_cross-functional-collaboration-world-where",
       "operator": "Liza Adams",
       "operator_role": "'AI Advisor & GTM Strategist | Human+AI Org Evolution | Applied AI Workshops | “50 CMOs to Watch” | Keynote Speaker'",
@@ -3319,7 +3211,7 @@
     },
     {
       "path": "insights/ins_don-care-how-awesome-prompting.md",
-      "title": "I don't care how awesome you are at prompting; a PMM must be a decent writer. Practice,...",
+      "title": "I don't care how awesome you are at prompting; a PMM must be a decent writer. Practice",
       "id": "ins_don-care-how-awesome-prompting",
       "operator": "Stefan Gladbach",
       "operator_role": "'I make product marketing cool'",
@@ -3346,7 +3238,7 @@
     },
     {
       "path": "insights/ins_don-ignore-stuck-feeling-pointing.md",
-      "title": "𝗔𝘀 𝗮𝗻 𝗲𝗺𝗽𝗹𝗼𝘆𝗲𝗲: Don't ignore that stuck feeling. It's pointing you toward something bet...",
+      "title": "𝗔𝘀 𝗮𝗻 𝗲𝗺𝗽𝗹𝗼𝘆𝗲𝗲: Don't ignore that stuck feeling. It's pointing you toward something bet",
       "id": "ins_don-ignore-stuck-feeling-pointing",
       "operator": "Lola Han",
       "operator_role": "'CEO & Founder @ Kamsa | Compensation Thought Leader'",
@@ -3367,33 +3259,6 @@
       "maturity": "applied",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 4, source: 4 }",
-      "tier": "B",
-      "related": [],
-      "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
-    },
-    {
-      "path": "insights/ins_don-win-awards-won-able.md",
-      "title": "If they don't win awards, they won't be able to give better appraisals to their juniors...",
-      "id": "ins_don-win-awards-won-able",
-      "operator": "Uddhav Parab",
-      "operator_role": "'Creative Director. Writer. Comic. 3x TED Talks Viewer.'",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7343617495565537281/",
-      "source_type": "thread",
-      "source_title": "'An average ECD should ideally make north of 40-60 lakhs'",
-      "source_date": "2026-04-10",
-      "captured_date": "2026-05-02",
-      "domain": [
-        "hiring",
-        "leadership",
-        "ai-native"
-      ],
-      "lifecycle": [
-        "hiring-team-design",
-        "ai-workflow"
-      ],
-      "maturity": "frontier",
-      "artifact_class": "case-study",
-      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
@@ -3459,7 +3324,7 @@
     },
     {
       "path": "insights/ins_dream-role-marketer-who-loves.md",
-      "title": "This is a dream role for a marketer who loves content and wants to own big projects in ...",
+      "title": "This is a dream role for a marketer who loves content and wants to own big projects in",
       "id": "ins_dream-role-marketer-who-loves",
       "operator": "Dan Murphy",
       "operator_role": "'CEO of Exit Five. Drive 2026 tickets now on sale.'",
@@ -3512,7 +3377,7 @@
     },
     {
       "path": "insights/ins_each-prospect-gets-scored-based.md",
-      "title": "Each prospect gets scored 1-10 based on company fit, role relevance, how good their eng...",
+      "title": "Each prospect gets scored 1-10 based on company fit, role relevance, how good their eng",
       "id": "ins_each-prospect-gets-scored-based",
       "operator": "Prerona Basu",
       "operator_role": "'Penguin-published ghostwriter. Now making B2B SaaS impossible to ignore on LinkedIn | Head of Social @SalesRobot'",
@@ -3902,7 +3767,7 @@
     },
     {
       "path": "insights/ins_every-few-weeks-there-new.md",
-      "title": "Every few weeks there’s a new “must-try” design tool. And suddenly my feed is full of c...",
+      "title": "Every few weeks there’s a new “must-try” design tool. And suddenly my feed is full of c",
       "id": "ins_every-few-weeks-there-new",
       "operator": "Seepiya Sahni",
       "operator_role": "'Marketing Design Lead at Tamnoon | Driving Strategic Creative for High-Growth GTM Teams'",
@@ -4037,7 +3902,7 @@
     },
     {
       "path": "insights/ins_fact-can-have-running-free.md",
-      "title": "The fact that you can have this running for free in 20 minutes, while last year you wou...",
+      "title": "The fact that you can have this running for free in 20 minutes, while last year you wou",
       "id": "ins_fact-can-have-running-free",
       "operator": "Pietro Montaldo",
       "operator_role": "'I build and share AI tools and playbooks actually useful for non-techies | DM for custom trainings or join my next AI-agent building course on Maven'",
@@ -4090,7 +3955,7 @@
     },
     {
       "path": "insights/ins_financial-services-track-scaling-fast.md",
-      "title": "💸 The Financial Services track is scaling fast, introducing new features like Business ...",
+      "title": "💸 The Financial Services track is scaling fast, introducing new features like Business",
       "id": "ins_financial-services-track-scaling-fast",
       "operator": "Jesse Bellaiche",
       "operator_role": "'🧱 Senior PMM @Pennylane | ex-Qonto | I help tech companies turn customer insights into Go-To-Market strategies that drive adoption & revenue growth—leveraging AI, Data & Visual Management.'",
@@ -4117,7 +3982,7 @@
     },
     {
       "path": "insights/ins_first-one-going-rebuild-custom.md",
-      "title": "My first one is going to be to rebuild my custom audio daily briefing that looks at my ...",
+      "title": "My first one is going to be to rebuild my custom audio daily briefing that looks at my",
       "id": "ins_first-one-going-rebuild-custom",
       "operator": "Sam Mallikarjunan",
       "operator_role": "'Leading the team @ Agent.ai 🚀 Formerly: CEO @ OneScreen.ai, CRO @ Flock.com, Instructor @ Harvard, & Head of Growth @ HubSpot Labs.'",
@@ -4563,7 +4428,7 @@
     },
     {
       "path": "insights/ins_got-analysis-paralysis-about-using.md",
-      "title": "If you’ve got analysis paralysis about using agents (think Claude Code, Cowork, OpenCla...",
+      "title": "If you’ve got analysis paralysis about using agents (think Claude Code, Cowork, OpenCla",
       "id": "ins_got-analysis-paralysis-about-using",
       "operator": "Kevin White",
       "operator_role": "'Marketing @ Scrunch | Advisor to SaaS Startups | fmr Growth & Marketing @Segment @Retool @Common Room'",
@@ -4618,7 +4483,7 @@
     },
     {
       "path": "insights/ins_great-insight-precisely-why-shouldn.md",
-      "title": "But Great insight is. And this is precisely why AI shouldn’t scale formats. It should s...",
+      "title": "But Great insight is. And this is precisely why AI shouldn’t scale formats. It should s",
       "id": "ins_great-insight-precisely-why-shouldn",
       "operator": "Kaizad Hansotia",
       "operator_role": "'Founder & CEO, Swirl | Building Agentic Commerce OS | AI Sales Agents, LLM Agents, Pricing Agents | 3x Founder'",
@@ -4699,7 +4564,7 @@
     },
     {
       "path": "insights/ins_gtm-teams-winning-thirty-year.md",
-      "title": "GTM teams are winning with a THIRTY-year-old technology. New AI tools can be great, but...",
+      "title": "GTM teams are winning with a THIRTY-year-old technology. New AI tools can be great, but",
       "id": "ins_gtm-teams-winning-thirty-year",
       "operator": "Mathias Powell",
       "operator_role": "'Co-Founder @ The Kiln, a 2X Company'",
@@ -4726,7 +4591,7 @@
     },
     {
       "path": "insights/ins_hallucinations-when-makes-things-thinks.md",
-      "title": "Hallucinations are when the AI makes up things that it *thinks* are true -- but just ar...",
+      "title": "Hallucinations are when the AI makes up things that it *thinks* are true -- but just ar",
       "id": "ins_hallucinations-when-makes-things-thinks",
       "operator": "Dharmesh Shah",
       "operator_role": "'Founder and CTO at HubSpot. Helping millions grow better.'",
@@ -4780,7 +4645,7 @@
     },
     {
       "path": "insights/ins_hate-when-boss-asks-why.md",
-      "title": "- They hate when the boss asks why a tiny edit took seventeen minutes, but will take a ...",
+      "title": "- They hate when the boss asks why a tiny edit took seventeen minutes, but will take a",
       "id": "ins_hate-when-boss-asks-why",
       "operator": "Divyank Jain",
       "operator_role": "'Partner - The Wise Idiot©'",
@@ -4804,7 +4669,7 @@
     },
     {
       "path": "insights/ins_heartfelt-shoutout-kunal-sharma-sandeep.md",
-      "title": "A heartfelt shoutout to Kunal Sharma & Sandeep 🌟 your unwavering support, mentorship, a...",
+      "title": "A heartfelt shoutout to Kunal Sharma & Sandeep 🌟 your unwavering support, mentorship, a",
       "id": "ins_heartfelt-shoutout-kunal-sharma-sandeep",
       "operator": "Prithivi Rajan",
       "operator_role": "'Lead Solutions Engineer - JustCall (Growth & Commercials) @ SaaS Labs - JustCall | Ex-Freshworks - ITSM'",
@@ -4831,7 +4696,7 @@
     },
     {
       "path": "insights/ins_help-coaches-founders-turn-linkedin.md",
-      "title": "I help coaches and founders turn LinkedIn into their #1 client-acquisition channel | st...",
+      "title": "I help coaches and founders turn LinkedIn into their #1 client-acquisition channel | st",
       "id": "ins_help-coaches-founders-turn-linkedin",
       "operator": "Ryan Woodley Mitchell",
       "operator_role": "'Global Director of Product Marketing | Founder of Pioneer Product Marketing | Top 100 PMM Influencer 2025'",
@@ -4858,7 +4723,7 @@
     },
     {
       "path": "insights/ins_here-five-things-never-get-kesava.md",
-      "title": "Here are five things that you’ll never get a CEO, CMO, CRO, and product marketer to agr...",
+      "title": "Here are five things that you’ll never get a CEO, CMO, CRO, and product marketer to agr",
       "id": "ins_here-five-things-never-get-kesava",
       "operator": "Anna Tankel",
       "operator_role": "'Fractional B2B Head of Growth'",
@@ -4885,7 +4750,7 @@
     },
     {
       "path": "insights/ins_here-five-things-never-get.md",
-      "title": "Here are five things that you’ll never get a CEO, CMO, CRO, and product marketer to agr...",
+      "title": "Here are five things that you’ll never get a CEO, CMO, CRO, and product marketer to agr",
       "id": "ins_here-five-things-never-get",
       "operator": "Diana Polansky",
       "operator_role": "'Experienced Product Marketer | Full-Stack Marketing Leader | Content Strategist'",
@@ -4993,7 +4858,7 @@
     },
     {
       "path": "insights/ins_hiring-growth-marketer-before-have.md",
-      "title": "Hiring a growth marketer before you have a foundation is like building the second floor...",
+      "title": "Hiring a growth marketer before you have a foundation is like building the second floor",
       "id": "ins_hiring-growth-marketer-before-have",
       "operator": "Dan Darnell",
       "operator_role": "'AI Marketing Leader | PMF & Narrative Architect | GTM Systems Builder | ex-Dataiku'",
@@ -5222,7 +5087,7 @@
     },
     {
       "path": "insights/ins_imo-aeo-playbook-bullsh-wasted.md",
-      "title": "IMO the AEO playbook is 90% bullsh*t. We wasted 1 year and tens of thousands of dollars...",
+      "title": "IMO the AEO playbook is 90% bullsh*t. We wasted 1 year and tens of thousands of dollars",
       "id": "ins_imo-aeo-playbook-bullsh-wasted",
       "operator": "Madhav Bhandari",
       "operator_role": "'Pattern Interrupt Marketing book coming soon | Head of Marketing @ Storylane'",
@@ -5440,7 +5305,7 @@
     },
     {
       "path": "insights/ins_interviewing-information-gathering-exercise-how-varun.md",
-      "title": "Interviewing is an information gathering exercise, and how a candidate makes you feel (...",
+      "title": "Interviewing is an information gathering exercise, and how a candidate makes you feel (",
       "id": "ins_interviewing-information-gathering-exercise-how-varun",
       "operator": "Varun Anand",
       "operator_role": "'Co-Founder @ Clay'",
@@ -5467,7 +5332,7 @@
     },
     {
       "path": "insights/ins_interviewing-information-gathering-exercise-how.md",
-      "title": "Interviewing is an information gathering exercise, and how a candidate makes you feel (...",
+      "title": "Interviewing is an information gathering exercise, and how a candidate makes you feel (",
       "id": "ins_interviewing-information-gathering-exercise-how",
       "operator": "Varun Anand",
       "operator_role": "'Co-Founder @ Clay'",
@@ -5551,7 +5416,7 @@
     },
     {
       "path": "insights/ins_irony-why-perhaps-product-adoption.md",
-      "title": "The irony why perhaps product adoption software hasn’t been that popular is also becaus...",
+      "title": "The irony why perhaps product adoption software hasn’t been that popular is also becaus",
       "id": "ins_irony-why-perhaps-product-adoption",
       "operator": "Emilia Korczynska",
       "operator_role": "'VP of Marketing @Userpilot. Author @ Product Rantz.'",
@@ -5578,7 +5443,7 @@
     },
     {
       "path": "insights/ins_iterate-meaningfully-don-just-ask.md",
-      "title": "3. Iterate with the AI meaningfully. Don't just ask for changes - tell it WHY you're ma...",
+      "title": "3. Iterate with the AI meaningfully. Don't just ask for changes - tell it WHY you're ma",
       "id": "ins_iterate-meaningfully-don-just-ask",
       "operator": "James Doman-Pipe",
       "operator_role": "'Positioning & Launches for B2B SaaS & AI | Co-founder, Inflection Studio | Product Marketing Consultant | Ex-Remote'",
@@ -5940,7 +5805,7 @@
     },
     {
       "path": "insights/ins_lead-major-repositioning-pivots-over.md",
-      "title": "i've lead major repositioning and pivots over the last 12 years and these are the most ...",
+      "title": "i've lead major repositioning and pivots over the last 12 years and these are the most",
       "id": "ins_lead-major-repositioning-pivots-over",
       "operator": "James Doman-Pipe",
       "operator_role": "'Positioning & Launches for B2B SaaS & AI | Co-founder, Inflection Studio | Product Marketing Consultant | Ex-Remote'",
@@ -5959,33 +5824,6 @@
         "messaging-narrative"
       ],
       "maturity": "applied",
-      "artifact_class": "framework",
-      "score": "{ originality: 3, specificity: 4, evidence: 2, transferability: 4, source: 4 }",
-      "tier": "B",
-      "related": [],
-      "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
-    },
-    {
-      "path": "insights/ins_leaving-prospects-unsure-why-should.md",
-      "title": "❌ Leaving prospects unsure why they should care — or why they should care now",
-      "id": "ins_leaving-prospects-unsure-why-should",
-      "operator": "Sjeel K.",
-      "operator_role": "'Shadow CMO 💁🏼‍♀️ | Fractional Go-To-Market Strategist | Marketing Leadership Coach | Likes to help founders and executive teams in Series A to Series C. 👉 Follow me for your next Job in Marketing 👈'",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7366861100862095362/",
-      "source_type": "thread",
-      "source_title": "'I’ve been wanting to share this'",
-      "source_date": "2026-04-10",
-      "captured_date": "2026-05-02",
-      "domain": [
-        "pmm",
-        "marketing",
-        "content"
-      ],
-      "lifecycle": [
-        "positioning",
-        "messaging-narrative"
-      ],
-      "maturity": "frontier",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 4, evidence: 2, transferability: 4, source: 4 }",
       "tier": "B",
@@ -6917,7 +6755,7 @@
     },
     {
       "path": "insights/ins_nine-out-ten-companies-skip.md",
-      "title": "Nine out of ten companies skip product updates entirely. Most of the ones that do publi...",
+      "title": "Nine out of ten companies skip product updates entirely. Most of the ones that do publi",
       "id": "ins_nine-out-ten-companies-skip",
       "operator": "Brian Sierakowski",
       "operator_role": "'Building the missing AI Agent for Product Teams | Founder @ Changebot.Ai | 3x Founder (Multiple Exits) | “The changelog guy”'",
@@ -7193,7 +7031,7 @@
     },
     {
       "path": "insights/ins_now-founders-building-ambitious-startups.md",
-      "title": "For now, founders building ambitious startups – I’d love to hear from you and see how w...",
+      "title": "For now, founders building ambitious startups – I’d love to hear from you and see how w",
       "id": "ins_now-founders-building-ambitious-startups",
       "operator": "Ragini Das",
       "operator_role": "'Head of Google for Startups - India'",
@@ -7277,7 +7115,7 @@
     },
     {
       "path": "insights/ins_once-account-flagged-there-almost.md",
-      "title": "4/ once your account is flagged there's almost no way to get it back. Meta's support fo...",
+      "title": "4/ once your account is flagged there's almost no way to get it back. Meta's support fo",
       "id": "ins_once-account-flagged-there-almost",
       "operator": "Hardik Gupta",
       "operator_role": "'A. Director - Marketing | B2B/ SaaS | Ex-Founder'",
@@ -7389,7 +7227,7 @@
     },
     {
       "path": "insights/ins_openclaw-cool-get-appeal-spin.md",
-      "title": "OpenClaw is cool. I get the appeal. Spin up specialized agents, give them each their ow...",
+      "title": "OpenClaw is cool. I get the appeal. Spin up specialized agents, give them each their ow",
       "id": "ins_openclaw-cool-get-appeal-spin",
       "operator": "📈 Jason B. Hart",
       "operator_role": "'Turning Messy Marketing Data into Decisions Which Drive Revenue | Founder @ Domain Methods'",
@@ -7690,33 +7528,6 @@
       "raw_ref": "raw/digests/miniu-ai-digest-2026-05-01.md"
     },
     {
-      "path": "insights/ins_plus-thunderclap-website-branding-agency.md",
-      "title": "Plus, ThunderClap - B2B Website & Branding Agency is also fully remote, avoiding the da...",
-      "id": "ins_plus-thunderclap-website-branding-agency",
-      "operator": "Ayush Barnwal",
-      "operator_role": "'Founder @ThunderClap , B2B Website Revamp Agency | Shipped 144+ Websites | 100% YOY Growth'",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7400176966638825473/",
-      "source_type": "thread",
-      "source_title": "'We spent 31'",
-      "source_date": "2026-04-10",
-      "captured_date": "2026-05-02",
-      "domain": [
-        "hiring",
-        "leadership",
-        "founder-craft"
-      ],
-      "lifecycle": [
-        "hiring-team-design",
-        "strategy-bets"
-      ],
-      "maturity": "applied",
-      "artifact_class": "framework",
-      "score": "{ originality: 3, specificity: 4, evidence: 2, transferability: 4, source: 4 }",
-      "tier": "B",
-      "related": [],
-      "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
-    },
-    {
       "path": "insights/ins_pm-as-orchestrator-of-agents.md",
       "title": "AI raises the bar for PMs — tactical work is delegatable; judgment, taste, and customer empathy become more valuable",
       "id": "ins_pm-as-orchestrator-of-agents",
@@ -7941,7 +7752,7 @@
     },
     {
       "path": "insights/ins_pmms-under-more-pressure-than.md",
-      "title": "PMMs are under more pressure than ever to show impact, align cross-functionally, and st...",
+      "title": "PMMs are under more pressure than ever to show impact, align cross-functionally, and st",
       "id": "ins_pmms-under-more-pressure-than",
       "operator": "Alicia Carney",
       "operator_role": "'Product Marketing & GTM Leader | Advisor: 0-1 PMM for early-stage B2B startups'",
@@ -8332,7 +8143,7 @@
     },
     {
       "path": "insights/ins_problem-trying-solve-write-lot.md",
-      "title": "The problem I'm trying to solve: I write a lot of content, but most of it reaches only ...",
+      "title": "The problem I'm trying to solve: I write a lot of content, but most of it reaches only",
       "id": "ins_problem-trying-solve-write-lot",
       "operator": "Dharmesh Shah",
       "operator_role": "'Founder and CTO at HubSpot. Helping millions grow better.'",
@@ -8386,7 +8197,7 @@
     },
     {
       "path": "insights/ins_product-marketing-managers-gtm-one.md",
-      "title": "As Product Marketing Managers, “GTM” is one of those words that follows us everywhere w...",
+      "title": "As Product Marketing Managers, “GTM” is one of those words that follows us everywhere w",
       "id": "ins_product-marketing-managers-gtm-one",
       "operator": "Victoria Penker",
       "operator_role": "'Head of Product Marketing | GTM Strategy | Positioning & Messaging | Product Launches | B2B SaaS | AI | HealthTech'",
@@ -8637,7 +8448,7 @@
     },
     {
       "path": "insights/ins_reasonable-ask-product-videos-classic.md",
-      "title": "And it’s a reasonable ask! Product videos are a classic part of the B2B GTM toolkit. Sa...",
+      "title": "And it’s a reasonable ask! Product videos are a classic part of the B2B GTM toolkit. Sa",
       "id": "ins_reasonable-ask-product-videos-classic",
       "operator": "Alicia Carney",
       "operator_role": "'Product Marketing & GTM Leader | Advisor: 0-1 PMM for early-stage B2B startups'",
@@ -9062,7 +8873,7 @@
     },
     {
       "path": "insights/ins_ricky-sangra-leo-polonsky-george.md",
-      "title": "Ricky Sangra Leo Polonsky George Griffiths Jerry Broll Katie Schratz Thanks for your co...",
+      "title": "Ricky Sangra Leo Polonsky George Griffiths Jerry Broll Katie Schratz Thanks for your co",
       "id": "ins_ricky-sangra-leo-polonsky-george",
       "operator": "Rohit Agarwal",
       "operator_role": "'GTM Customer Success @ Atlan | Driving 100%+ NRR in Enterprise B2B SaaS | Adoption & Growth Strategist | Ex-Clari, Almabase'",
@@ -9146,7 +8957,7 @@
     },
     {
       "path": "insights/ins_routine-loosens-days-feel-lighter.md",
-      "title": "Your routine loosens, the days feel lighter than they should, and your mind starts wand...",
+      "title": "Your routine loosens, the days feel lighter than they should, and your mind starts wand",
       "id": "ins_routine-loosens-days-feel-lighter",
       "operator": "Shruti Padala",
       "operator_role": "'Senior AE | Ex-SaaS Labs | Ex-Zenoti | 8+ Years in B2B SaaS Sales | Helping Businesses Drive Smarter Customer Conversations'",
@@ -9199,7 +9010,7 @@
     },
     {
       "path": "insights/ins_safe-predictable-ultimately-why-companies.md",
-      "title": "It’s safe, predictable, and ultimately, it's why companies start stagnating. This is es...",
+      "title": "It’s safe, predictable, and ultimately, it's why companies start stagnating. This is es",
       "id": "ins_safe-predictable-ultimately-why-companies",
       "operator": "Gaurav Sharma",
       "operator_role": "'Building AtomsAI (end-to-end AI consulting, solutioning & implementation) | Scaling JustCall & ServiceAgent'",
@@ -9284,7 +9095,7 @@
     },
     {
       "path": "insights/ins_sam-mallikarjunan-explored-question-lot.md",
-      "title": "Sam Mallikarjunan and I explored that question and a lot more in the latest Prompted: B...",
+      "title": "Sam Mallikarjunan and I explored that question and a lot more in the latest Prompted: B",
       "id": "ins_sam-mallikarjunan-explored-question-lot",
       "operator": "Sam Mallikarjunan",
       "operator_role": "'Leading the team @ Agent.ai 🚀 Formerly: CEO @ OneScreen.ai, CRO @ Flock.com, Instructor @ Harvard, & Head of Growth @ HubSpot Labs.'",
@@ -9591,7 +9402,7 @@
     },
     {
       "path": "insights/ins_sharing-publicly-same-reason-shared.md",
-      "title": "We're sharing V2 publicly for the same reason we shared V1: every company needs a frame...",
+      "title": "We're sharing V2 publicly for the same reason we shared V1: every company needs a frame",
       "id": "ins_sharing-publicly-same-reason-shared",
       "operator": "Wade Foster",
       "operator_role": "'Co-founder & CEO at Zapier, YC & Mizzou Alum'",
@@ -9672,7 +9483,7 @@
     },
     {
       "path": "insights/ins_since-something-use-daily-not.md",
-      "title": "P.S. Since this is something we use daily, I'm not going to send this to more than 200 ...",
+      "title": "P.S. Since this is something we use daily, I'm not going to send this to more than 200",
       "id": "ins_since-something-use-daily-not",
       "operator": "Christian Oland",
       "operator_role": "'Founder of RevGen Labs | Helping businesses unlock 10x growth through growth hacking and AI'",
@@ -9699,7 +9510,7 @@
     },
     {
       "path": "insights/ins_since-their-main-product-lemlist.md",
-      "title": "Since their main product, lemlist, is an all-in-one prospecting platform, it's also the...",
+      "title": "Since their main product, lemlist, is an all-in-one prospecting platform, it's also the",
       "id": "ins_since-their-main-product-lemlist",
       "operator": "Michel Lieben 🧠",
       "operator_role": "'Founder & CEO at ColdIQ | Tomorrow’s GTM Systems, Built for you 👉 coldiq.com'",
@@ -10542,7 +10353,7 @@
     },
     {
       "path": "insights/ins_there-course-exceptions-caveats-well.md",
-      "title": "There are, of course, exceptions and caveats. If you’re a well-known consumer brand, pe...",
+      "title": "There are, of course, exceptions and caveats. If you’re a well-known consumer brand, pe",
       "id": "ins_there-course-exceptions-caveats-well",
       "operator": "Rory Woodbridge",
       "operator_role": "'Product Marketing Director | Positioning, Messaging & GTM for European tech companies | Founder, The Product Marketer | Ex Google, Pleo, Amazon | Top Product Marketing Consultant 2025'",
@@ -10569,7 +10380,7 @@
     },
     {
       "path": "insights/ins_there-were-plenty-lessons-too.md",
-      "title": "There were plenty of lessons too. Startups are brutally hard — and pivot hell is the wo...",
+      "title": "There were plenty of lessons too. Startups are brutally hard — and pivot hell is the wo",
       "id": "ins_there-were-plenty-lessons-too",
       "operator": "Vedant Agarwala",
       "operator_role": "'Building | ex-YC founder (W23) | Early employee in unicorn companies | Angel Investor | 1x acqui-hired | 18k+ reputation on Stack Overflow.'",
@@ -10596,7 +10407,7 @@
     },
     {
       "path": "insights/ins_these-pmms-feel-most-invisible.md",
-      "title": "These PMMs feel the most invisible. No influence, no execution power. Always blocked, o...",
+      "title": "These PMMs feel the most invisible. No influence, no execution power. Always blocked, o",
       "id": "ins_these-pmms-feel-most-invisible",
       "operator": "Hattie the PMM",
       "operator_role": "'Next free live product marketing training April 16→ I help Product Marketers become visible, valued revenue drivers for their orgs | PMM Coach and Advisor | Coached 200+ PMMs | Take the Visible and Valued PMM Challenge'",
@@ -10676,7 +10487,7 @@
     },
     {
       "path": "insights/ins_think-there-something-launch-operations.md",
-      "title": "I think there is something to a launch operations role to enable PMM to deliver the val...",
+      "title": "I think there is something to a launch operations role to enable PMM to deliver the val",
       "id": "ins_think-there-something-launch-operations",
       "operator": "Julie Grondin",
       "operator_role": "'B2B SaaS PMM, Business Generalist, aspiring Chief of Staff'",
@@ -10842,7 +10653,7 @@
     },
     {
       "path": "insights/ins_three-months-senior-pmm-tech.md",
-      "title": "Three months in as a Senior PMM in tech. Here are some of my reflections especially for...",
+      "title": "Three months in as a Senior PMM in tech. Here are some of my reflections especially for",
       "id": "ins_three-months-senior-pmm-tech",
       "operator": "Hira Saeed",
       "operator_role": "'Product Marketing @Quickbase | GTM Strategy, Launches, and Audience Insights | B2B SaaS | Ex-founder'",
@@ -11000,7 +10811,7 @@
     },
     {
       "path": "insights/ins_truly-want-children-rise-into.md",
-      "title": "But if you truly want your children to rise into greatness, the first thing they must l...",
+      "title": "But if you truly want your children to rise into greatness, the first thing they must l",
       "id": "ins_truly-want-children-rise-into",
       "operator": "Sulagna Das",
       "operator_role": "'Building on P/L Skills for Marketing Head Roles | 11 Years of Expertise in Brand Marketing Strategy, Copywriting, Creative Direction | Helped Startup Agencies to Build Teams from Scratch'",
@@ -11280,7 +11091,7 @@
     },
     {
       "path": "insights/ins_want-product-marketing-drive-revenue.md",
-      "title": "If you want product marketing to drive revenue without sales involvement, you have to r...",
+      "title": "If you want product marketing to drive revenue without sales involvement, you have to r",
       "id": "ins_want-product-marketing-drive-revenue",
       "operator": "Hattie the PMM",
       "operator_role": "'Next free live product marketing training April 16→ I help Product Marketers become visible, valued revenue drivers for their orgs | PMM Coach and Advisor | Coached 200+ PMMs | Take the Visible and Valued PMM Challenge'",
@@ -11442,7 +11253,7 @@
     },
     {
       "path": "insights/ins_while-some-still-spending-over.md",
-      "title": "While some are still spending over $1,000 on Al courses, the top players are giving awa...",
+      "title": "While some are still spending over $1,000 on Al courses, the top players are giving awa",
       "id": "ins_while-some-still-spending-over",
       "operator": "Divyanshi Sharma",
       "operator_role": "'Your go-to for GTM, AI & Lead gen!'",
@@ -11499,7 +11310,7 @@
     },
     {
       "path": "insights/ins_why-does-product-matter-should.md",
-      "title": "Why does your product matter should come through data. Your ability to frame your work ...",
+      "title": "Why does your product matter should come through data. Your ability to frame your work",
       "id": "ins_why-does-product-matter-should",
       "operator": "Mariana Antaya",
       "operator_role": "'Founder @ quantifAI | Building the decision intelligence layer for the prediction markets | ex-Microsoft AI PM'",
@@ -11635,7 +11446,7 @@
     },
     {
       "path": "insights/ins_words-matter-most-innovative-features.md",
-      "title": "→ The words matter. The most innovative features won't do much if customers don't under...",
+      "title": "→ The words matter. The most innovative features won't do much if customers don't under",
       "id": "ins_words-matter-most-innovative-features",
       "operator": "Aatir Abdul Rauf",
       "operator_role": "'VP of Marketing @ vFairs | Newsletter: Behind Product Lines | Talks about how to build & market products in lockstep'",
@@ -11662,7 +11473,7 @@
     },
     {
       "path": "insights/ins_working-really-hard-smart-storylane.md",
-      "title": "We are working really hard and smart Storylane. My calendar goes from 8 AM to midnight ...",
+      "title": "We are working really hard and smart Storylane. My calendar goes from 8 AM to midnight",
       "id": "ins_working-really-hard-smart-storylane",
       "operator": "Nalin Senthamil",
       "operator_role": "'Founder & CEO @Storylane - Build Killer Product Demos'",
@@ -11716,7 +11527,7 @@
     },
     {
       "path": "insights/ins_years-ago-kind-research-took.md",
-      "title": "10 years ago this kind of research took interns, VAs, or SDR armies. Now it’s a $0.47 A...",
+      "title": "10 years ago this kind of research took interns, VAs, or SDR armies. Now it’s a $0.47 A",
       "id": "ins_years-ago-kind-research-took",
       "operator": "Kenny Damian",
       "operator_role": "'Head of GTM @ColdIQ🧠 | We build B2B revenue engines that sell for you | Elite Clay Studio Partner'",
@@ -12510,23 +12321,6 @@
         "gtm"
       ],
       "captured_first": "2026-05-01",
-      "external": ""
-    },
-    {
-      "path": "operators/ayush-barnwal/README.md",
-      "title": "Ayush Barnwal",
-      "name": "Ayush Barnwal",
-      "slug": "ayush-barnwal",
-      "roles": [
-        "Founder @ThunderClap",
-        "B2B Website Revamp Agency",
-        "Shipped 144+ Websites"
-      ],
-      "domains_active": [
-        "growth",
-        "founder-craft"
-      ],
-      "captured_first": "2026-05-02",
       "external": ""
     },
     {
@@ -15928,22 +15722,6 @@
       "external": ""
     },
     {
-      "path": "operators/saishah-joseph/README.md",
-      "title": "Saishah Joseph",
-      "name": "Saishah Joseph",
-      "slug": "saishah-joseph",
-      "roles": [
-        "Founder",
-        "Small Brand Big Brand",
-        "Social media strategy that *actually* works"
-      ],
-      "domains_active": [
-        "founder-craft"
-      ],
-      "captured_first": "2026-05-02",
-      "external": ""
-    },
-    {
       "path": "operators/saket-banka/README.md",
       "title": "Saket Banka",
       "name": "Saket Banka",
@@ -16338,23 +16116,6 @@
       "external": ""
     },
     {
-      "path": "operators/sjeel-k/README.md",
-      "title": "Sjeel K.",
-      "name": "Sjeel K.",
-      "slug": "sjeel-k",
-      "roles": [
-        "Shadow CMO 💁🏼‍♀️",
-        "Fractional Go-To-Market Strategist",
-        "Marketing Leadership Coach"
-      ],
-      "domains_active": [
-        "founder-craft",
-        "marketing"
-      ],
-      "captured_first": "2026-05-02",
-      "external": ""
-    },
-    {
       "path": "operators/stefan-gladbach/README.md",
       "title": "Stefan Gladbach",
       "name": "Stefan Gladbach",
@@ -16654,20 +16415,6 @@
       "external": ""
     },
     {
-      "path": "operators/uddhav-parab/README.md",
-      "title": "Uddhav Parab",
-      "name": "Uddhav Parab",
-      "slug": "uddhav-parab",
-      "roles": [
-        "Creative Director. Writer. Comic. 3x TED Talks Viewer."
-      ],
-      "domains_active": [
-        "engineering"
-      ],
-      "captured_first": "2026-05-02",
-      "external": ""
-    },
-    {
       "path": "operators/varun-anand/README.md",
       "title": "Varun Anand",
       "name": "Varun Anand",
@@ -16850,20 +16597,6 @@
         "sales"
       ],
       "captured_first": "2026-05-01",
-      "external": ""
-    },
-    {
-      "path": "operators/yasser-elsaid/README.md",
-      "title": "Yasser Elsaid",
-      "name": "Yasser Elsaid",
-      "slug": "yasser-elsaid",
-      "roles": [
-        "CEO at Chatbase"
-      ],
-      "domains_active": [
-        "founder-craft"
-      ],
-      "captured_first": "2026-05-02",
       "external": ""
     },
     {

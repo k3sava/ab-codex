@@ -17,8 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# IMO the AEO playbook is 90% bullsh*t. We wasted 1 year and tens of thousands of dollars...
-
+# IMO the AEO playbook is 90% bullsh*t. We wasted 1 year and tens of thousands of dollars
 ## Claim
 IMO the AEO playbook is 90% bullsh*t. We wasted 1 year and tens of thousands of dollars figuring this out. It's noise. We tried them all and gave them enough time to work.
 
