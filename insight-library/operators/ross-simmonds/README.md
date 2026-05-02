@@ -23,7 +23,8 @@ Ross Simmonds is the most systematic thinker on content distribution in B2B mark
 - **Content Distribution Strategy**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_create-once-distribute-forever` — Invert the content ratio: 20% creation, 80% distribution. Distribution is the multiplier. [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `why-content-distribution-is-more-important-today-than-ever-before.md` (artemis ingest)

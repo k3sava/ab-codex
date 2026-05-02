@@ -23,7 +23,8 @@ Rowan Tonkin is the most articulate practitioner of what might be called "financ
 - **Growth Model Design**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_marketing-cfo-language` — Marketing must speak the language of finance, not the language of marketing [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `rowan-tonkin-on-marketing-at-planful-synergy-between-finance-and-marketing.md` (artemis ingest)

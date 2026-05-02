@@ -23,7 +23,8 @@ Tas Bober's approach to B2B landing pages is built on a foundational reframe tha
 - **B2b Advertising Strategy**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_b2b-landing-page-consumption` — Conversion isn't the goal of a B2B landing page — consumption is. Send them to the next section. [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `creating-landing-pages-for-b2b-saas-with-tas-bober-unlayer.md` (artemis ingest)

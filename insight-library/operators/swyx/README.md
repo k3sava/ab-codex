@@ -23,7 +23,8 @@ Swyx's defining contribution is the concept of the "AI Engineer" as a distinct p
 - **Building With Llms**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_software-3-ai-engineer` — We are in the transition from Software 2.0 to Software 3.0 — AI Engineers will build the majority of new applications [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `agent-engineering-latentspace.md` (artemis ingest)

@@ -22,7 +22,8 @@ Sahil Bloom's primary contribution is the curation and operationalization of men
 - **Systems Thinking**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_compounding-applies-everywhere` — Compounding applies to everything — the greatest results come from showing up when it's boring [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `mental-razors-by-sahil-bloom-the-curiosity-chronicle.md` (artemis ingest)

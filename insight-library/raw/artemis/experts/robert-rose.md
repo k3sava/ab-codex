@@ -1,0 +1,20 @@
+---
+name: "Robert Rose"
+slug: robert-rose
+expertise: [content-operations, content-quality-standards, editorial-calendar-design, content-distribution-strategy]
+perspective: "Content strategy and content marketing are fundamentally different disciplines that most organizations conflate; content marketers draw on the wall with magic markers while content strategists use fine pens, and scaling content requires an operating model that manages content as a strategic enterprise asset, not a marketing tactic."
+credentials: "Chief Strategy Advisor at Content Marketing Institute since 2010; CEO of The Content Advisory (formerly Seventh Bear); co-author of Killing Marketing and Managing Content Marketing; has consulted with 500+ companies including 15 Fortune 100; fractional CMO and keynote speaker."
+sources_ingested:
+  - how-content-strategy-and-content-marketing-are-separate-but-connected.md
+  - robert-roses-killer-content-marketing-strategies-to-go-bigger-faster-proven-cont.md
+  - robert-roses-tips-on-infusing-enablement-in-content-marketing.md
+  - robert-rose-on-the-operating-models-of-content-its-time-to-get-strategic-ingeniu.md
+  - content-marketing-strategy-an-interview-with-robert-rose-founder-the-content-adv.md
+  - content-orchestration-the-2026-marketing-shift.md
+---
+
+Robert Rose's foundational contribution is the rigorous separation of content strategy from content marketing, and the argument that enterprises need both as distinct, properly resourced disciplines. He defines content marketing as a marketing technique focused on creating and distributing valuable content to engage a target audience and drive profitable action, which addresses the "whys" of content. Content strategy, by contrast, addresses the "hows": the creation, publication, and governance of useful, usable content as a strategic asset across the entire organization. Rose argues that most organizations fail at content because they conflate these two roles, throwing a content marketing strategist into a content strategy project (or vice versa), which produces work that is either creatively compelling but operationally unsustainable, or operationally sound but narratively hollow.
+
+Rose identifies three content operating models that organizations adopt. The Platform model centralizes content under a single team that serves the entire organization, providing consistency and efficiency but risking bottlenecks. The Player model treats content as a contributor function embedded within business units, providing relevance and speed but risking inconsistency. The Processor model decentralizes content creation but establishes shared standards, guidelines, and governance, providing flexibility but requiring strong coordination. Each model has specific use cases depending on company size, industry, and content maturity. Rose's consulting work with 500+ companies, including 15 Fortune 100, has shown that the choice of operating model is a more consequential strategic decision than the choice of content topics, formats, or channels, because the wrong operating model creates systemic failures that no amount of creative talent can overcome.
+
+Rose's more recent work on content orchestration versus content operations represents an evolution of his thinking. He argues that the 2026 marketing landscape demands a shift from operations (efficiently producing and distributing content) to orchestration (coordinating content across teams, channels, and customer journeys to create coherent experiences). His key insight for enablement is that 90% of a great content marketing strategy does not depend on the content itself but on communication with internal teams, alignment on business goals, and governance of content as an organizational asset rather than a marketing department deliverable. This perspective directly challenges the common startup approach of hiring a content writer and expecting them to produce results without the strategic infrastructure, operating model, and cross-functional alignment that make content effective at scale.

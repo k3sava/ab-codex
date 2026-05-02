@@ -21,7 +21,8 @@ Trish Bertuzzi is the operational architect of sales development teams. Where Aa
 - **Sales Process Design**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_six-elements-sales-development` — SDR teams are precision operating systems — six interdependent elements; optimize one without the others = systemic mediocrity [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `sales-development-playbook-trish-bertuzzi.md` (artemis ingest)

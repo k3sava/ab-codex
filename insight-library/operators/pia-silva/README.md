@@ -22,7 +22,8 @@ Pia Silva's system of thought starts with a brutal diagnosis of why small brandi
 - **Creative Business Pricing**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_intensives-model-no-revisions` — Compress delivery into 2-day intensives, paid in full upfront — kill multi-month projects with endless revisions [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `pia-silva-worstofall-design-agency-model-marcel-petitpas-parakeeto.md` (artemis ingest)

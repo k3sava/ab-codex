@@ -23,7 +23,8 @@ Reforge's approach to growth strategy is distinguished by its insistence on syst
 - **Growth Model Design**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_growth-loops-not-funnels` — Growth is a system of interconnected loops, not a collection of tactics [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `product-led-growth-is-a-major-growth-motion-not-a-bag-of-tricks-reforge-blog.md` (artemis ingest)

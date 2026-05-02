@@ -20,7 +20,8 @@ TK Kader's approach to ICP definition is distinguished by its insistence on acco
 - **Gtm Strategy Framework**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_icp-account-not-persona` — An ICP isn't a buyer persona — it's an account-level definition that must be operationalized in CRM and product roadmap [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `ideal-customer-profile-icp-template-framework-guide-tk-kader.md` (artemis ingest)

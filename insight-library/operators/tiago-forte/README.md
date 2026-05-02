@@ -19,7 +19,8 @@ Tiago Forte's Building a Second Brain methodology provides the foundational arch
 - **Ai Workflow Automation**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_second-brain-para` — Brains are for having ideas, not storing them — externalize knowledge so AI can compound it for you [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `building-a-second-brain-the-definitive-introductory-guide.md` (artemis ingest)

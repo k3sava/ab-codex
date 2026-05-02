@@ -23,7 +23,8 @@ Rand Fishkin's intellectual trajectory from SEO pioneer (Moz) to audience resear
 - **Content Measurement**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_zero-click-marketing` — 58.5% of US Google searches end without a click — create standalone value where audiences already are [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `why-do-we-need-zero-click-marketing-sparktoro.md` (artemis ingest)

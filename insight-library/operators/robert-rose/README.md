@@ -23,7 +23,8 @@ Robert Rose's foundational contribution is the rigorous separation of content st
 - **Content Distribution Strategy**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_content-strategy-vs-content-marketing` — Content strategy and content marketing are different disciplines — most orgs conflate them and pay for it [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `how-content-strategy-and-content-marketing-are-separate-but-connected.md` (artemis ingest)

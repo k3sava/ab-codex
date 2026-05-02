@@ -22,7 +22,8 @@ Shane Parrish's core project is making multidisciplinary thinking accessible and
 - **First Principles Thinking**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_inversion-and-circle-of-competence` — The quality of your thinking determines the quality of your life — operate inside your circle of competence [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `what-is-first-principles-thinking.md` (artemis ingest)

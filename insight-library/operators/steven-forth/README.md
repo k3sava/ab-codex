@@ -22,7 +22,8 @@ Steven Forth brings the most rigorous and systematic approach to value-based pri
 - **Value Metric Selection**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_economic-value-estimation` — A pricing model without a value model is adrift — start with Economic Value Estimation [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `three-approaches-to-value-based-pricing-for-saas-approximate-derived-direct-i-ib.md` (artemis ingest)

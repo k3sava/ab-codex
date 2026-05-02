@@ -22,7 +22,8 @@ Peter Thiel's central thesis is the distinction between horizontal progress (1 t
 - **Zero To One Thinking**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_zero-to-one-monopoly` — Competition is for losers — build a monopoly on a truth most people don't yet see [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `zero-to-one-by-peter-thiel-summary-notes.md` (artemis ingest)

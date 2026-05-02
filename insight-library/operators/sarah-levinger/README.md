@@ -23,7 +23,8 @@ Sarah Levinger occupies a unique position at the intersection of consumer psycho
 - **B2b Creative Strategy**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_psychology-based-creative-emotional-data` — Transactional data tells half the story — winning ads uncover the emotional context behind decisions [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `harnessing-psychology-in-creative-strategy-sarah-levingers-insights-on-consumer-.md` (artemis ingest)

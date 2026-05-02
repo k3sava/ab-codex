@@ -22,7 +22,8 @@ Sam Kuehnle brings a practitioner's perspective to B2B demand generation, blendi
 - **Dark Social Strategy**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_brand-coefficient-multiplier` — Brand is the force multiplier on demand gen — strengthen the brand coefficient, not just spend more on ads [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `take-back-50-450-of-your-ad-budget-by-sam-kuehnle.md` (artemis ingest)

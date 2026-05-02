@@ -21,7 +21,8 @@ Simon Sinek is the most widely recognized advocate for purpose-driven brand and 
 - **Brand Narrative Construction**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_start-with-why` — People don't buy what you do — they buy why you do it. Start with Why. [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `the-golden-circle-simon-sinek.md` (artemis ingest)

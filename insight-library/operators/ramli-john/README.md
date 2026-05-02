@@ -23,7 +23,8 @@ Ramli John occupies a unique position in the pricing and monetization landscape:
 - **Usage Based Pricing**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_eureka-onboarding` — In PLG, no pricing model can save you if onboarding doesn't reach the Eureka moment quickly [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `the-eureka-framework-to-improve-your-product-led-onboarding-experience-productle.md` (artemis ingest)

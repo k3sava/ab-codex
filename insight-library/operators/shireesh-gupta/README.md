@@ -20,7 +20,8 @@ PMM who built an internal stakeholder management system using Claude Code. Pulls
 - **Claude Code Workflows**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_pmm-stakeholder-crm` — 35% of PMM time goes to stakeholder management — make it trackable with a CRM-like Claude Code system [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `stakeholder-management-system-claude-code-shireesh-gupta.md` (artemis ingest)

@@ -22,7 +22,8 @@ Sam Altman's system of thought operates at two levels simultaneously: macro-stra
 - **Building With Llms**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_intelligence-cost-converging-electricity` — The cost of intelligence is converging toward the cost of electricity — durable advantage isn't using AI, it's parlaying AI [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `how-to-be-successful-sam-altman.md` (artemis ingest)

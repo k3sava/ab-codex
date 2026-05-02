@@ -22,7 +22,8 @@ Tim Ferriss's central contribution is a systematic approach to personal and prof
 - **Habit Design For Business**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_fear-setting` — What we fear doing most is usually what we most need to do — fear-set, don't goal-set [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `fear-setting-the-most-valuable-exercise-i-do-every-month-the-blog-of-author-tim-.md` (artemis ingest)

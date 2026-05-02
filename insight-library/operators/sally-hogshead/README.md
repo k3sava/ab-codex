@@ -23,7 +23,8 @@ Sally Hogshead is the originator of Fascination Science, a research-backed syste
 - **Messaging House Construction**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_different-is-better-than-better` — Different is better than better — you don't learn how to be fascinating, you unlearn how to be boring [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `fascinate-speed-summary-your-seven-triggers-to-persuasion-captivation-brand-gene.md` (artemis ingest)

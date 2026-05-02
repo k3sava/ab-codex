@@ -20,7 +20,8 @@ Sangram Vajre is the evangelist of account-based go-to-market. His provocative t
 - **Audience Segmentation**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_abm-account-not-lead` — In B2B, the unit of value is the account, not the lead — align everything around it [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `sangram-vajre-abm-team-framework.md` (artemis ingest)

@@ -22,7 +22,8 @@ Pieter Levels is the most extreme practitioner of the "ship fast" philosophy in 
 - **No Code Product Building**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_ship-fast-charge-day-one` — Ship fast, charge from day one, use boring technology, never hire — every idea is a cheap experiment [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `pieter-levels-the-indie-hackers-guide-to-ai-startups-the-bootstrapped-founder.md` (artemis ingest)

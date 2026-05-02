@@ -22,7 +22,8 @@ AI-focused product marketing strategist who posts practical workflows for PMMs u
 - **Ai Gtm**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_competitive-teardown-claude-chrome` — AI clears the runway for competitive strategy — 8-10 hour teardowns compressed to under an hour [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `competitive-teardown-claude-chrome-vivian-jordan.md` (artemis ingest)

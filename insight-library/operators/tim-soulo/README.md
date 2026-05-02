@@ -22,7 +22,8 @@ Tim Soulo is the strategic mind behind Ahrefs' content-led growth engine, which 
 - **Search Intent Mapping**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_ranking-via-being-worthy` — Ranking #1 isn't about beating competitors with tricks — it's about being genuinely worthy of #1 [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `content-that-clicks-how-ahrefs-cmo-tim-soulo-uses-seo-and-creativity-to-rank-sky.md` (artemis ingest)

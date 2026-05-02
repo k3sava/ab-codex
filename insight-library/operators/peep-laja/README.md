@@ -20,7 +20,8 @@ Peep Laja's career represents a unique arc from conversion optimization practiti
 - **Customer Research For Ads**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_message-testing-sameness-default` — In B2B, sameness is the default — you cannot win on features competitors will copy in 6 months [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `why-you-need-a-messaging-hierarchy-to-refine-your-copy.md` (artemis ingest)

@@ -23,7 +23,8 @@ Sam Oh has become the most authoritative voice in video SEO through his dual rol
 - **Keyword Research Methodology**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_youtube-seo-engagement-not-links` — Video SEO is a different sport — YouTube ranks on engagement, not link authority [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `youtube-seo-how-to-rank-your-videos-from-start-to-finish.md` (artemis ingest)

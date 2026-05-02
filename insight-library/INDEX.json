@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-02T16:51:57.810Z",
+  "generated_at": "2026-05-02T17:02:13.373Z",
   "counts": {
-    "insights": 388,
+    "insights": 421,
     "operators": 288,
-    "raw_sources": 173,
+    "raw_sources": 206,
     "patterns": 24,
     "contradictions": 9,
     "playbooks": 23
@@ -149,6 +149,33 @@
         "ins_demand-creation-vs-capture"
       ],
       "raw_ref": "raw/artemis/experts/devin-reed.md"
+    },
+    {
+      "path": "insights/ins_abm-account-not-lead.md",
+      "title": "In B2B, the unit of value is the account, not the lead — align everything around it",
+      "id": "ins_abm-account-not-lead",
+      "operator": "Sangram Vajre",
+      "operator_role": "Co-founder Terminus; author ABM Is B2B and MOVE",
+      "source_url": "https://www.flipmyfunnel.com/",
+      "source_type": "book",
+      "source_title": "\"ABM Is B2B / MOVE — the unit of value in B2B is the account\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "sales",
+        "gtm"
+      ],
+      "lifecycle": [
+        "planning-resourcing",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/sangram-vajre.md"
     },
     {
       "path": "insights/ins_absolute-counts-over-conversion-rates.md",
@@ -1102,6 +1129,33 @@
       "raw_ref": "raw/artemis/experts/greg-isenberg.md"
     },
     {
+      "path": "insights/ins_b2b-landing-page-consumption.md",
+      "title": "Conversion isn't the goal of a B2B landing page — consumption is. Send them to the next section.",
+      "id": "ins_b2b-landing-page-consumption",
+      "operator": "Tas Bober",
+      "operator_role": "Founder The Scroll Lab and Delphinium Solutions",
+      "source_url": "https://thescrolllab.com/",
+      "source_type": "essay",
+      "source_title": "\"Tas Bober — B2B SaaS landing pages, consumption over conversion\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "content",
+        "marketing",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "content",
+        "messaging-narrative"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 5, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/tas-bober.md"
+    },
+    {
       "path": "insights/ins_b2b-movement-not-campaigns.md",
       "title": "Build a movement around a polarizing POV — brand equity compounds, paid acquisition doesn't",
       "id": "ins_b2b-movement-not-campaigns",
@@ -1542,6 +1596,35 @@
       "tier": "A",
       "related": [],
       "raw_ref": "raw/artemis/experts/jacco-van-der-kooij.md"
+    },
+    {
+      "path": "insights/ins_brand-coefficient-multiplier.md",
+      "title": "Brand is the force multiplier on demand gen — strengthen the brand coefficient, not just spend more on ads",
+      "id": "ins_brand-coefficient-multiplier",
+      "operator": "Sam Kuehnle",
+      "operator_role": "VP Marketing Loxo; ex-Refine Labs",
+      "source_url": "https://samkuehnle.substack.com/",
+      "source_type": "essay",
+      "source_title": "\"The brand coefficient — Sam Kuehnle\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "growth-demand",
+        "pmm",
+        "marketing"
+      ],
+      "lifecycle": [
+        "growth-loops",
+        "attribution-measurement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_demand-creation-vs-capture"
+      ],
+      "raw_ref": "raw/artemis/experts/sam-kuehnle.md"
     },
     {
       "path": "insights/ins_brand-gap-five-disciplines.md",
@@ -2353,6 +2436,114 @@
       "raw_ref": "raw/digests/miniu-ai-digest-2026-05-01.md"
     },
     {
+      "path": "insights/ins_competitive-teardown-claude-chrome.md",
+      "title": "AI clears the runway for competitive strategy — 8-10 hour teardowns compressed to under an hour",
+      "id": "ins_competitive-teardown-claude-chrome",
+      "operator": "Vivian Jordan",
+      "operator_role": "AI Product Marketing and GTM Strategist",
+      "source_url": "https://www.linkedin.com/in/vivianjordan/",
+      "source_type": "thread",
+      "source_title": "\"Competitive teardown using Claude Chrome — Vivian Jordan\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "ai-native",
+        "gtm"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "voc-research"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 3, specificity: 5, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/vivian-jordan.md"
+    },
+    {
+      "path": "insights/ins_compounding-applies-everywhere.md",
+      "title": "Compounding applies to everything — the greatest results come from showing up when it's boring",
+      "id": "ins_compounding-applies-everywhere",
+      "operator": "Sahil Bloom",
+      "operator_role": "Creator The Curiosity Chronicle; author The 5 Types of Wealth",
+      "source_url": "https://www.sahilbloom.com/",
+      "source_type": "essay",
+      "source_title": "\"Sahil Bloom — mental razors and compounding\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "strategy",
+        "leadership",
+        "founder-craft"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 5, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/sahil-bloom.md"
+    },
+    {
+      "path": "insights/ins_content-as-social-currency.md",
+      "title": "Content is social currency — buyers share what makes them look smart, and decisions are made in Slack",
+      "id": "ins_content-as-social-currency",
+      "operator": "Tommy Walker",
+      "operator_role": "Founder The Content Studio; ex-Editor-in-Chief QuickBooks (Intuit)",
+      "source_url": "https://thecontent.studio/",
+      "source_type": "essay",
+      "source_title": "\"Tommy Walker — content operations at scale, three axioms\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "content",
+        "marketing",
+        "gtm"
+      ],
+      "lifecycle": [
+        "content",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/tommy-walker.md"
+    },
+    {
+      "path": "insights/ins_content-strategy-vs-content-marketing.md",
+      "title": "Content strategy and content marketing are different disciplines — most orgs conflate them and pay for it",
+      "id": "ins_content-strategy-vs-content-marketing",
+      "operator": "Robert Rose",
+      "operator_role": "Chief Strategy Advisor Content Marketing Institute; CEO The Content Advisory",
+      "source_url": "https://contentadvisory.net/",
+      "source_type": "essay",
+      "source_title": "\"Robert Rose — content strategy and content marketing are separate disciplines\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "content",
+        "strategy",
+        "marketing"
+      ],
+      "lifecycle": [
+        "content",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/robert-rose.md"
+    },
+    {
       "path": "insights/ins_content-tilt-differentiation.md",
       "title": "If you can't articulate your content tilt, stop creating content and buy ads instead",
       "id": "ins_content-tilt-differentiation",
@@ -2487,6 +2678,32 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/digests/miniu-ai-digest-2026-04-26.md"
+    },
+    {
+      "path": "insights/ins_create-once-distribute-forever.md",
+      "title": "Invert the content ratio: 20% creation, 80% distribution. Distribution is the multiplier.",
+      "id": "ins_create-once-distribute-forever",
+      "operator": "Ross Simmonds",
+      "operator_role": "Founder Foundation Marketing; author Create Once, Distribute Forever",
+      "source_url": "https://rosssimmonds.com/",
+      "source_type": "book",
+      "source_title": "\"Create Once, Distribute Forever — invert the 80/20 of content\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "content",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "content",
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 3 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/ross-simmonds.md"
     },
     {
       "path": "insights/ins_creative-is-the-spike.md",
@@ -2963,6 +3180,32 @@
       "raw_ref": "raw/podcasts/ayo-omojola--differentiation-design-depth--2026-04-28.md"
     },
     {
+      "path": "insights/ins_different-is-better-than-better.md",
+      "title": "Different is better than better — you don't learn how to be fascinating, you unlearn how to be boring",
+      "id": "ins_different-is-better-than-better",
+      "operator": "Sally Hogshead",
+      "operator_role": "Creator Fascination Advantage; author Fascinate",
+      "source_url": "https://www.howtofascinate.com/",
+      "source_type": "book",
+      "source_title": "\"Fascinate — different is better than better\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "marketing"
+      ],
+      "lifecycle": [
+        "positioning",
+        "messaging-narrative"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/sally-hogshead.md"
+    },
+    {
       "path": "insights/ins_distribution-platform-cycles.md",
       "title": "Every distribution platform follows a four-step cycle; cycles are getting shorter",
       "id": "ins_distribution-platform-cycles",
@@ -3295,6 +3538,34 @@
       "raw_ref": "raw/podcasts/benjamin-mann--economic-turing-test--2026-04-28.md"
     },
     {
+      "path": "insights/ins_economic-value-estimation.md",
+      "title": "A pricing model without a value model is adrift — start with Economic Value Estimation",
+      "id": "ins_economic-value-estimation",
+      "operator": "Steven Forth",
+      "operator_role": "Co-founder & Managing Partner Ibbaka; top-10 pricing authority",
+      "source_url": "https://www.ibbaka.com/",
+      "source_type": "essay",
+      "source_title": "\"Three approaches to value-based pricing — Ibbaka\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "strategy"
+      ],
+      "lifecycle": [
+        "pricing-packaging"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_price-before-product",
+        "ins_anchor-high-pricing"
+      ],
+      "raw_ref": "raw/artemis/experts/steven-forth.md"
+    },
+    {
       "path": "insights/ins_eeat-quality-rater-perspective.md",
       "title": "E-E-A-T isn't a ranking factor; it's the rubric raters use, and Google approximates it via indirect signals",
       "id": "ins_eeat-quality-rater-perspective",
@@ -3488,6 +3759,33 @@
       "raw_ref": "raw/artemis/experts/josh-braun.md"
     },
     {
+      "path": "insights/ins_eureka-onboarding.md",
+      "title": "In PLG, no pricing model can save you if onboarding doesn't reach the Eureka moment quickly",
+      "id": "ins_eureka-onboarding",
+      "operator": "Ramli John",
+      "operator_role": "Founder Delight Path; ex-MD ProductLed; author Product-Led Onboarding",
+      "source_url": "https://www.ramlijohn.com/",
+      "source_type": "book",
+      "source_title": "\"EUREKA — onboarding as the bridge from acquisition to monetization\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "growth",
+        "product",
+        "pmm"
+      ],
+      "lifecycle": [
+        "onboarding-activation",
+        "retention"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/ramli-john.md"
+    },
+    {
       "path": "insights/ins_evals-are-data-analysis-on-llm-apps.md",
       "title": "Evals are systematic data analysis on your LLM application — start with error analysis, not tests",
       "id": "ins_evals-are-data-analysis-on-llm-apps",
@@ -3626,6 +3924,33 @@
       "raw_ref": "raw/podcasts/elena-verna--earned-channels-tactics-that-never-work--2026-04-28.md"
     },
     {
+      "path": "insights/ins_explore-and-exploit-channels.md",
+      "title": "Content is a compounding asset — quality bar is binary: genuinely new OR measurably better",
+      "id": "ins_explore-and-exploit-channels",
+      "operator": "Steph Smith",
+      "operator_role": "Author Doing Content Right and Doing SEO Right; ex-growth The Hustle",
+      "source_url": "https://stephsmith.io/",
+      "source_type": "book",
+      "source_title": "\"Doing Content Right — explore-and-exploit channel selection\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "content",
+        "growth-demand",
+        "marketing"
+      ],
+      "lifecycle": [
+        "content",
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/steph-smith.md"
+    },
+    {
       "path": "insights/ins_fact-can-have-running-free.md",
       "title": "The fact that you can have this running for free in 20 minutes, while last year you wou...",
       "id": "ins_fact-can-have-running-free",
@@ -3651,6 +3976,32 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_fear-setting.md",
+      "title": "What we fear doing most is usually what we most need to do — fear-set, don't goal-set",
+      "id": "ins_fear-setting",
+      "operator": "Tim Ferriss",
+      "operator_role": "Author The 4-Hour Workweek, Tools of Titans, Tribe of Mentors",
+      "source_url": "https://tim.blog/",
+      "source_type": "essay",
+      "source_title": "\"Fear-setting — Tim Ferriss\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "leadership",
+        "founder-craft"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "risk-quality"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/tim-ferriss.md"
     },
     {
       "path": "insights/ins_financial-services-track-scaling-fast.md",
@@ -4235,6 +4586,33 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_growth-loops-not-funnels.md",
+      "title": "Growth is a system of interconnected loops, not a collection of tactics",
+      "id": "ins_growth-loops-not-funnels",
+      "operator": "Reforge",
+      "operator_role": "Premier growth strategy platform; founded by Brian Balfour and Andrew Chen",
+      "source_url": "https://www.reforge.com/",
+      "source_type": "essay",
+      "source_title": "\"Reforge — growth as interconnected loops, not tactics\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "growth",
+        "strategy",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "growth-loops",
+        "attribution-measurement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/reforge.md"
+    },
+    {
       "path": "insights/ins_gtm-teams-winning-thirty-year.md",
       "title": "GTM teams are winning with a THIRTY-year-old technology. New AI tools can be great, but...",
       "id": "ins_gtm-teams-winning-thirty-year",
@@ -4700,6 +5078,35 @@
       "raw_ref": "raw/artemis/experts/nick-abraham.md"
     },
     {
+      "path": "insights/ins_icp-account-not-persona.md",
+      "title": "An ICP isn't a buyer persona — it's an account-level definition that must be operationalized in CRM and product roadmap",
+      "id": "ins_icp-account-not-persona",
+      "operator": "TK Kader",
+      "operator_role": "Founder TK Kader's AI/SaaS GTM Program",
+      "source_url": "https://idealcustomerprofile.com/",
+      "source_type": "essay",
+      "source_title": "\"Ideal Customer Profile — TK Kader template + framework\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "gtm",
+        "sales"
+      ],
+      "lifecycle": [
+        "planning-resourcing",
+        "positioning"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 5, evidence: 3, transferability: 5, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_abm-account-not-lead"
+      ],
+      "raw_ref": "raw/artemis/experts/tk-kader.md"
+    },
+    {
       "path": "insights/ins_illegibility-framework.md",
       "title": "Watch for \"illegible energy\" — ideas the team can't articulate but can't stop talking about",
       "id": "ins_illegibility-framework",
@@ -4867,6 +5274,31 @@
       "raw_ref": "raw/podcasts/jeetu-patel--cisco-ai-first-transformation--2026-04-28.md"
     },
     {
+      "path": "insights/ins_intelligence-cost-converging-electricity.md",
+      "title": "The cost of intelligence is converging toward the cost of electricity — durable advantage isn't using AI, it's parlaying AI",
+      "id": "ins_intelligence-cost-converging-electricity",
+      "operator": "Sam Altman",
+      "operator_role": "CEO OpenAI; ex-president Y Combinator",
+      "source_url": "https://openai.com/",
+      "source_type": "essay",
+      "source_title": "\"How To Be Successful / The Gentle Singularity\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "ai-native",
+        "strategy"
+      ],
+      "lifecycle": [
+        "strategy-bets"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/sam-altman.md"
+    },
+    {
       "path": "insights/ins_intelligence-into-things-that-already-exist.md",
       "title": "Position AI as intelligence put into things that already exist, not as a new thing",
       "id": "ins_intelligence-into-things-that-already-exist",
@@ -4894,6 +5326,32 @@
         "ins_build-quietly"
       ],
       "raw_ref": "raw/podcasts/qasar-younis--physical-ai-radical-pragmatism--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_intensives-model-no-revisions.md",
+      "title": "Compress delivery into 2-day intensives, paid in full upfront — kill multi-month projects with endless revisions",
+      "id": "ins_intensives-model-no-revisions",
+      "operator": "Pia Silva",
+      "operator_role": "Co-founder Worstofall Design; author Badass Your Brand",
+      "source_url": "https://piasilva.com/",
+      "source_type": "essay",
+      "source_title": "\"Pia Silva — the intensives model; 2-day brands at $15-30K paid in full\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "founder-craft",
+        "sales"
+      ],
+      "lifecycle": [
+        "pricing-packaging",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 5, evidence: 3, transferability: 3, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/pia-silva.md"
     },
     {
       "path": "insights/ins_interviewing-information-gathering-exercise-how-varun.md",
@@ -4948,6 +5406,35 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_inversion-and-circle-of-competence.md",
+      "title": "The quality of your thinking determines the quality of your life — operate inside your circle of competence",
+      "id": "ins_inversion-and-circle-of-competence",
+      "operator": "Shane Parrish",
+      "operator_role": "Founder Farnam Street; author The Great Mental Models",
+      "source_url": "https://fs.blog/",
+      "source_type": "book",
+      "source_title": "\"The Great Mental Models — inversion, second-order thinking, circle of competence\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "strategy",
+        "leadership"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "risk-quality"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_invert-always-invert",
+        "ins_latticework-of-mental-models"
+      ],
+      "raw_ref": "raw/artemis/experts/shane-parrish.md"
     },
     {
       "path": "insights/ins_invert-always-invert.md",
@@ -5619,6 +6106,33 @@
       "raw_ref": "raw/artemis/experts/david-skok.md"
     },
     {
+      "path": "insights/ins_luxury-brand-strategy.md",
+      "title": "Luxury brand strategy compounds: scarcity + irrational pricing + iconic founder = decades-long margin",
+      "id": "ins_luxury-brand-strategy",
+      "operator": "Scott Galloway",
+      "operator_role": "Professor of Marketing NYU Stern; founder L2/Section/Prophet",
+      "source_url": "https://www.profgalloway.com/",
+      "source_type": "essay",
+      "source_title": "\"Scott Galloway — luxury strategy and brand laddering\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "strategy",
+        "marketing"
+      ],
+      "lifecycle": [
+        "positioning",
+        "pricing-packaging"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/scott-galloway.md"
+    },
+    {
       "path": "insights/ins_machine-customers-displace-storefront-interactions.md",
       "title": "By 2028, AI agent \"machine customers\" will replace 20% of human-readable storefront interactions",
       "id": "ins_machine-customers-displace-storefront-interactions",
@@ -5854,6 +6368,33 @@
       "raw_ref": "raw/essays/multi-operator--marketer-rotation-pmm-builder-takes--2026-05.md"
     },
     {
+      "path": "insights/ins_marketing-cfo-language.md",
+      "title": "Marketing must speak the language of finance, not the language of marketing",
+      "id": "ins_marketing-cfo-language",
+      "operator": "Rowan Tonkin",
+      "operator_role": "CMO Planful; pioneer of CMO-CFO alignment methodology",
+      "source_url": "https://planful.com/",
+      "source_type": "podcast",
+      "source_title": "\"Rowan Tonkin — synergy between finance and marketing\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "marketing-ops",
+        "leadership",
+        "gtm"
+      ],
+      "lifecycle": [
+        "attribution-measurement",
+        "planning-resourcing"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 5, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/rowan-tonkin.md"
+    },
+    {
       "path": "insights/ins_marketplace-liquidity-before-dynamics.md",
       "title": "Pre-PMF, stop theorizing marketplace dynamics — pick the hardest side and nail liquidity",
       "id": "ins_marketplace-liquidity-before-dynamics",
@@ -5907,6 +6448,33 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/artemis/experts/matt-gray.md"
+    },
+    {
+      "path": "insights/ins_message-testing-sameness-default.md",
+      "title": "In B2B, sameness is the default — you cannot win on features competitors will copy in 6 months",
+      "id": "ins_message-testing-sameness-default",
+      "operator": "Peep Laja",
+      "operator_role": "Founder & CEO Wynter and CXL",
+      "source_url": "https://wynter.com/",
+      "source_type": "essay",
+      "source_title": "\"Peep Laja — sameness is the default; compete on messaging\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "marketing",
+        "content"
+      ],
+      "lifecycle": [
+        "messaging-narrative",
+        "positioning"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/peep-laja.md"
     },
     {
       "path": "insights/ins_messaging-equation-personalization-tiers.md",
@@ -7202,6 +7770,32 @@
       "raw_ref": "raw/linkedin/pmm-mining/linkedin-saved-posts-2026-04-10.md"
     },
     {
+      "path": "insights/ins_pmm-stakeholder-crm.md",
+      "title": "35% of PMM time goes to stakeholder management — make it trackable with a CRM-like Claude Code system",
+      "id": "ins_pmm-stakeholder-crm",
+      "operator": "Shireesh Gupta",
+      "operator_role": "Product Marketing Manager",
+      "source_url": "https://www.linkedin.com/in/shireeshgupta/",
+      "source_type": "thread",
+      "source_title": "\"Stakeholder management system in Claude Code\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ownership-org",
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/shireesh-gupta.md"
+    },
+    {
       "path": "insights/ins_pmms-under-more-pressure-than.md",
       "title": "PMMs are under more pressure than ever to show impact, align cross-functionally, and st...",
       "id": "ins_pmms-under-more-pressure-than",
@@ -7731,6 +8325,33 @@
       "raw_ref": "raw/podcasts/claire-vo--openclaw-agents-as-team--2026-04-28.md"
     },
     {
+      "path": "insights/ins_psychology-based-creative-emotional-data.md",
+      "title": "Transactional data tells half the story — winning ads uncover the emotional context behind decisions",
+      "id": "ins_psychology-based-creative-emotional-data",
+      "operator": "Sarah Levinger",
+      "operator_role": "Founder Tether Insights; consumer behavior analyst",
+      "source_url": "https://tetherinsights.com/",
+      "source_type": "essay",
+      "source_title": "\"Sarah Levinger — psychology-based creative for high-performing ads\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "marketing",
+        "growth-demand",
+        "content"
+      ],
+      "lifecycle": [
+        "voc-research",
+        "content"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/sarah-levinger.md"
+    },
+    {
       "path": "insights/ins_qrg-recovery-roadmap.md",
       "title": "The Quality Rater Guidelines are the closest thing Google has to a public ranking roadmap",
       "id": "ins_qrg-recovery-roadmap",
@@ -7813,6 +8434,32 @@
         "ins_friction-as-feature"
       ],
       "raw_ref": "raw/podcasts/amole-naik--anthropic-automating-growth--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_ranking-via-being-worthy.md",
+      "title": "Ranking #1 isn't about beating competitors with tricks — it's about being genuinely worthy of #1",
+      "id": "ins_ranking-via-being-worthy",
+      "operator": "Tim Soulo",
+      "operator_role": "CMO & Product Advisor Ahrefs; grew blog to 1.5M+ monthly visitors",
+      "source_url": "https://ahrefs.com/blog/",
+      "source_type": "essay",
+      "source_title": "\"Tim Soulo — content that clicks; ranking via being worthy\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "content",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "content",
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/tim-soulo.md"
     },
     {
       "path": "insights/ins_reasonable-ask-product-videos-classic.md",
@@ -8547,6 +9194,32 @@
       "raw_ref": "raw/podcasts/asha-sharma--product-as-organism--2026-04-28.md"
     },
     {
+      "path": "insights/ins_second-brain-para.md",
+      "title": "Brains are for having ideas, not storing them — externalize knowledge so AI can compound it for you",
+      "id": "ins_second-brain-para",
+      "operator": "Tiago Forte",
+      "operator_role": "Author Building a Second Brain; creator BASB course",
+      "source_url": "https://fortelabs.com/",
+      "source_type": "book",
+      "source_title": "\"Building a Second Brain — PARA method\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "founder-craft",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "process-cadence",
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/tiago-forte.md"
+    },
+    {
       "path": "insights/ins_seeds-nets-spears-lead-portfolio.md",
       "title": "Treat leads as a three-asset portfolio, not a single funnel",
       "id": "ins_seeds-nets-spears-lead-portfolio",
@@ -8770,6 +9443,33 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_ship-fast-charge-day-one.md",
+      "title": "Ship fast, charge from day one, use boring technology, never hire — every idea is a cheap experiment",
+      "id": "ins_ship-fast-charge-day-one",
+      "operator": "Pieter Levels",
+      "operator_role": "Solo founder of Photo AI ($132K MRR), Nomad List, Remote OK, 70+ products",
+      "source_url": "https://levels.io/",
+      "source_type": "book",
+      "source_title": "\"MAKE: The Indie Maker Blueprint\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "founder-operator",
+        "founder-craft",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "process-cadence",
+        "pricing-packaging"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 3, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/pieter-levels.md"
+    },
+    {
       "path": "insights/ins_short-form-stuff-facebook-instagram.md",
       "title": "1. For short-form stuff (Facebook, Instagram, etc.), AI is doing most of the heavy lifting",
       "id": "ins_short-form-stuff-facebook-instagram",
@@ -8849,6 +9549,35 @@
       "tier": "A",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_six-elements-sales-development.md",
+      "title": "SDR teams are precision operating systems — six interdependent elements; optimize one without the others = systemic mediocrity",
+      "id": "ins_six-elements-sales-development",
+      "operator": "Trish Bertuzzi",
+      "operator_role": "Founder & CEO The Bridge Group; author The Sales Development Playbook",
+      "source_url": "https://bridgegroupinc.com/",
+      "source_type": "book",
+      "source_title": "\"The Sales Development Playbook — six elements\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "sales",
+        "gtm",
+        "hiring"
+      ],
+      "lifecycle": [
+        "hiring-team-design",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_specialization-creates-predictability"
+      ],
+      "raw_ref": "raw/artemis/experts/trish-bertuzzi.md"
     },
     {
       "path": "insights/ins_skill-as-unit-of-distribution.md",
@@ -8931,6 +9660,34 @@
       "raw_ref": "raw/artemis/experts/brian-dean.md"
     },
     {
+      "path": "insights/ins_smallest-viable-audience.md",
+      "title": "The goal isn't to maximize numbers — it's to be missed if you stopped. Find the smallest viable audience.",
+      "id": "ins_smallest-viable-audience",
+      "operator": "Seth Godin",
+      "operator_role": "Author This Is Marketing, Purple Cow, Permission Marketing",
+      "source_url": "https://seths.blog/",
+      "source_type": "book",
+      "source_title": "\"Seth Godin — the smallest viable audience and people like us do things like this\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "marketing",
+        "content"
+      ],
+      "lifecycle": [
+        "positioning",
+        "content",
+        "messaging-narrative"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/seth-godin.md"
+    },
+    {
       "path": "insights/ins_snap-selling-buyer-cognitive-load.md",
       "title": "Buyers are frazzled. The seller's job is cognitive burden reduction, not persuasion.",
       "id": "ins_snap-selling-buyer-cognitive-load",
@@ -8983,6 +9740,32 @@
         "ins_utility-times-inspiration-times-empathy"
       ],
       "raw_ref": "raw/artemis/experts/ann-handley.md"
+    },
+    {
+      "path": "insights/ins_software-3-ai-engineer.md",
+      "title": "We are in the transition from Software 2.0 to Software 3.0 — AI Engineers will build the majority of new applications",
+      "id": "ins_software-3-ai-engineer",
+      "operator": "Swyx (Shawn Wang)",
+      "operator_role": "Founder Latent Space; coined \"AI Engineer\" as a distinct role",
+      "source_url": "https://www.latent.space/",
+      "source_type": "essay",
+      "source_title": "\"Software 3.0 and the AI Engineer landscape\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "hiring-team-design",
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/swyx.md"
     },
     {
       "path": "insights/ins_software-is-not-a-moat.md",
@@ -9216,6 +9999,33 @@
         "ins_rebuild-gtm-around-ai"
       ],
       "raw_ref": "raw/essays/yamini-rangan--agent-first-gtm-hubspot--2026-04.md"
+    },
+    {
+      "path": "insights/ins_start-with-why.md",
+      "title": "People don't buy what you do — they buy why you do it. Start with Why.",
+      "id": "ins_start-with-why",
+      "operator": "Simon Sinek",
+      "operator_role": "Author Start with Why; TED Talk #3 most-watched of all time",
+      "source_url": "https://simonsinek.com/",
+      "source_type": "book",
+      "source_title": "\"Start with Why — the Golden Circle\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "leadership",
+        "marketing"
+      ],
+      "lifecycle": [
+        "positioning",
+        "messaging-narrative"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 3, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/simon-sinek.md"
     },
     {
       "path": "insights/ins_starving-crowd-beats-offer.md",
@@ -10758,6 +11568,32 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_youtube-seo-engagement-not-links.md",
+      "title": "Video SEO is a different sport — YouTube ranks on engagement, not link authority",
+      "id": "ins_youtube-seo-engagement-not-links",
+      "operator": "Sam Oh",
+      "operator_role": "VP Marketing Ahrefs; built Ahrefs YouTube to 500K+ subscribers",
+      "source_url": "https://ahrefs.com/",
+      "source_type": "essay",
+      "source_title": "\"YouTube SEO — how to rank videos from start to finish\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "content",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "content",
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/sam-oh.md"
+    },
+    {
       "path": "insights/ins_zappos-rotation-through-support.md",
       "title": "Every new hire — including the CFO — does four weeks on the customer phones",
       "id": "ins_zappos-rotation-through-support",
@@ -10786,6 +11622,59 @@
         "ins_principal-ic-is-force-multiplier"
       ],
       "raw_ref": "raw/essays/multi-operator--marketer-rotation-pmm-builder-takes--2026-05.md"
+    },
+    {
+      "path": "insights/ins_zero-click-marketing.md",
+      "title": "58.5% of US Google searches end without a click — create standalone value where audiences already are",
+      "id": "ins_zero-click-marketing",
+      "operator": "Rand Fishkin",
+      "operator_role": "Co-founder & CEO SparkToro; founder Moz (sold 2021)",
+      "source_url": "https://sparktoro.com/",
+      "source_type": "essay",
+      "source_title": "\"Why we need zero-click marketing — SparkToro\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "marketing",
+        "content",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "content",
+        "growth-loops",
+        "attribution-measurement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 4, source: 4 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/rand-fishkin.md"
+    },
+    {
+      "path": "insights/ins_zero-to-one-monopoly.md",
+      "title": "Competition is for losers — build a monopoly on a truth most people don't yet see",
+      "id": "ins_zero-to-one-monopoly",
+      "operator": "Peter Thiel",
+      "operator_role": "Co-founder PayPal and Palantir; partner Founders Fund",
+      "source_url": "https://zerotoonebook.com/",
+      "source_type": "book",
+      "source_title": "\"Zero to One — competition is for losers; build a monopoly\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "strategy",
+        "founder-craft"
+      ],
+      "lifecycle": [
+        "strategy-bets"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 3, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/peter-thiel.md"
     }
   ],
   "operators": [
@@ -10819,7 +11708,8 @@
         "design",
         "ai-native"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/aatir-abdul-rauf/README.md",
@@ -10869,7 +11759,7 @@
         "research-discovery"
       ],
       "captured_first": "2026-05-01",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/adrienne-barnes/README.md",
@@ -10886,7 +11776,8 @@
         "research",
         "pmm"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/aishwarya-naresh-reganti/README.md",
@@ -10920,7 +11811,7 @@
         "ai-native"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/akshaya-sampath/README.md",
@@ -10936,7 +11827,7 @@
         "sales"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/alan-zhao/README.md",
@@ -10954,7 +11845,7 @@
         "marketing"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/alex-hormozi/README.md",
@@ -10972,7 +11863,8 @@
         "sales-cs",
         "growth"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/aleyda-solis/README.md",
@@ -10989,7 +11881,8 @@
         "growth",
         "pmm"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/alicia-carney/README.md",
@@ -11005,7 +11898,7 @@
         "marketing"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/alok-yadav/README.md",
@@ -11020,7 +11913,7 @@
         "ai-native"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/amanda-natividad/README.md",
@@ -11038,7 +11931,8 @@
         "leadership",
         "design"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/amol-avasare/README.md",
@@ -11089,7 +11983,7 @@
         "marketing"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/andreas-horn/README.md",
@@ -11105,7 +11999,7 @@
         "ai-native"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/andrej-karpathy/README.md",
@@ -11124,7 +12018,8 @@
         "product",
         "leadership"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/andrew-chen/README.md",
@@ -11142,7 +12037,8 @@
         "growth",
         "design"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/andrew-faris/README.md",
@@ -11161,7 +12057,8 @@
         "growth",
         "design"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/andrew-wilkinson/README.md",
@@ -11198,7 +12095,8 @@
         "ai-native",
         "research"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/andy-raskin/README.md",
@@ -11229,7 +12127,7 @@
         "founder-craft"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/aniket-parihar/README.md",
@@ -11243,7 +12141,7 @@
         "founder-craft"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/ann-handley/README.md",
@@ -11261,7 +12159,8 @@
         "design",
         "leadership"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/annie-duke/README.md",
@@ -11277,7 +12176,8 @@
       "domains_active": [
         "leadership"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/anthony-pierri/README.md",
@@ -11295,7 +12195,8 @@
         "ai-native",
         "leadership"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/anton-osika/README.md",
@@ -11364,7 +12265,8 @@
         "gtm",
         "design"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/archie-abrams/README.md",
@@ -11379,7 +12281,7 @@
         "product"
       ],
       "captured_first": "2026-05-01",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/arvid-kahl/README.md",
@@ -11395,7 +12297,8 @@
         "ai-native",
         "leadership"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/asha-sharma/README.md",
@@ -11447,7 +12350,7 @@
         "founder-craft"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/bangaly-kaba/README.md",
@@ -11465,7 +12368,7 @@
         "research-discovery"
       ],
       "captured_first": "2026-05-01",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/becky-kennedy/README.md",
@@ -11495,7 +12398,8 @@
         "ai-native",
         "product"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/benjamin-lauzier/README.md",
@@ -11544,7 +12448,8 @@
         "pmm",
         "leadership"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/bernard-huang/README.md",
@@ -11562,7 +12467,8 @@
         "growth",
         "research"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/blair-enns/README.md",
@@ -11582,7 +12488,8 @@
         "sales-cs",
         "growth"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/bob-moesta/README.md",
@@ -11600,7 +12507,8 @@
         "research-discovery",
         "sales"
       ],
-      "captured_first": "2026-05-02"
+      "captured_first": "2026-05-02",
+      "external": ""
     },
     {
       "path": "operators/boris-cherny/README.md",
@@ -11689,7 +12597,8 @@
         "growth",
         "pmm"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/brian-halligan/README.md",
@@ -11722,7 +12631,7 @@
         "ai-native"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/cat-wu/README.md",
@@ -11756,7 +12665,7 @@
         "engineering"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/charlie-munger/README.md",
@@ -11773,7 +12682,8 @@
         "leadership",
         "ai-native"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/chris-do/README.md",
@@ -11792,7 +12702,8 @@
         "ai-native",
         "design"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/chris-orlob/README.md",
@@ -11811,7 +12722,8 @@
         "ai-native",
         "leadership"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/chris-voss/README.md",
@@ -11827,7 +12739,8 @@
         "sales-cs",
         "research"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/chris-walker/README.md",
@@ -11846,7 +12759,8 @@
         "growth",
         "design"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/christian-oland/README.md",
@@ -11863,7 +12777,7 @@
         "ai-native"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/christoph-janz/README.md",
@@ -11878,7 +12792,8 @@
         "ai-native",
         "leadership"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/claire-hughes-johnson/README.md",
@@ -11913,7 +12828,8 @@
         "growth",
         "research"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/claire-vo/README.md",
@@ -11948,7 +12864,8 @@
         "leadership",
         "growth"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/cole-schafer/README.md",
@@ -11962,7 +12879,8 @@
         "pmm",
         "design"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/corey-hearne/README.md",
@@ -11979,7 +12897,7 @@
         "marketing"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/crayon/README.md",
@@ -11995,7 +12913,8 @@
       "domains_active": [
         "sales-cs"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/cyrus-shepard/README.md",
@@ -12012,7 +12931,8 @@
         "growth",
         "pmm"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/dan-ariely/README.md",
@@ -12032,7 +12952,8 @@
         "research",
         "ai-native"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/dan-darnell/README.md",
@@ -12049,7 +12970,7 @@
         "marketing"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/dan-murphy/README.md",
@@ -12063,7 +12984,7 @@
         "founder-craft"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/dan-rosenthal/README.md",
@@ -12080,7 +13001,7 @@
         "ai-native"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/daniel-kahneman/README.md",
@@ -12097,7 +13018,8 @@
         "leadership",
         "ai-native"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/dave-gerhardt/README.md",
@@ -12116,7 +13038,8 @@
         "pmm",
         "ai-native"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/dave-harland/README.md",
@@ -12134,7 +13057,8 @@
         "design",
         "ai-native"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/david-aaker/README.md",
@@ -12152,7 +13076,8 @@
         "growth",
         "ai-native"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/david-c-baker/README.md",
@@ -12172,7 +13097,8 @@
         "product",
         "growth"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/david-skok/README.md",
@@ -12192,7 +13118,8 @@
         "growth",
         "ai-native"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/debbie-millman/README.md",
@@ -12211,7 +13138,8 @@
         "pmm",
         "ai-native"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/denise-lee-yohn/README.md",
@@ -12226,7 +13154,8 @@
         "design",
         "leadership"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/devin-reed/README.md",
@@ -12243,7 +13172,8 @@
         "leadership",
         "design"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/devran-karaca/README.md",
@@ -12271,7 +13201,7 @@
         "engineering"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/divyank-jain/README.md",
@@ -12285,7 +13215,7 @@
         "pmm"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/divyanshi-sharma/README.md",
@@ -12300,7 +13230,7 @@
         "ai-native"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/donald-miller/README.md",
@@ -12317,7 +13247,8 @@
         "design",
         "pmm"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/dora-vanourek/README.md",
@@ -12333,7 +13264,7 @@
         "pmm"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/doug-holt/README.md",
@@ -12350,7 +13281,8 @@
         "leadership",
         "ai-native"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/eddie-shleyner/README.md",
@@ -12366,7 +13298,8 @@
       "domains_active": [
         "pmm"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/elad-gil/README.md",
@@ -12385,7 +13318,8 @@
         "pmm",
         "ai-native"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/elena-verna/README.md",
@@ -12404,7 +13338,8 @@
         "product",
         "growth"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/eli-schwartz/README.md",
@@ -12424,7 +13359,8 @@
         "leadership",
         "product"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/else-van-der-berg/README.md",
@@ -12460,7 +13396,7 @@
         "founder-craft"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/emilia-korczynska/README.md",
@@ -12474,7 +13410,7 @@
         "marketing"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/emily-kramer/README.md",
@@ -12494,7 +13430,8 @@
         "pmm",
         "product"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/eric-seufert/README.md",
@@ -12529,7 +13466,8 @@
         "product",
         "research"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/evan-spiegel/README.md",
@@ -12579,7 +13517,8 @@
         "growth",
         "pmm"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/gartner/README.md",
@@ -12597,7 +13536,8 @@
         "leadership"
       ],
       "captured_first": "2026-05-02",
-      "note": "\"operator: Gartner — individual analysts attributed in operator_role per card\""
+      "note": "\"operator: Gartner — individual analysts attributed in operator_role per card\"",
+      "external": ""
     },
     {
       "path": "operators/gaurav-sharma/README.md",
@@ -12613,7 +13553,7 @@
         "ai-native"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/gemma-casey-swift/README.md",
@@ -12648,7 +13588,8 @@
         "ai-native",
         "leadership"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/gideon-harris/README.md",
@@ -12664,7 +13605,7 @@
         "pmm"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/gil-allouche/README.md",
@@ -12680,7 +13621,7 @@
         "marketing"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/glenn-gabe/README.md",
@@ -12710,7 +13651,7 @@
         "founder-craft"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/greg-isenberg/README.md",
@@ -12730,7 +13671,8 @@
         "growth",
         "pmm"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/haider-shawl/README.md",
@@ -12748,7 +13690,7 @@
         "engineering"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/hamel-husain/README.md",
@@ -12818,7 +13760,7 @@
         "marketing"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/hermann-simon/README.md",
@@ -12836,7 +13778,8 @@
         "research",
         "ai-native"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/hira-saeed/README.md",
@@ -12854,7 +13797,7 @@
         "marketing"
       ],
       "captured_first": "2026-05-02",
-      "external": "{}"
+      "external": ""
     },
     {
       "path": "operators/hiten-shah/README.md",
@@ -12871,7 +13814,8 @@
         "leadership",
         "pmm"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/ilya-azovtsev-i-help-with-saas-growth/README.md",
@@ -12907,7 +13851,8 @@
         "research",
         "growth"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/jacob-warwick/README.md",
@@ -17287,6 +18232,630 @@
         "book-summary-company-of-one-paul-jarvis.md",
         "paul-jarvis-built-a-million-dollar-business-with-zero-employees-the-company-of-o.md"
       ]
+    },
+    {
+      "path": "raw/artemis/experts/peep-laja.md",
+      "name": "\"Peep Laja\"",
+      "slug": "peep-laja",
+      "expertise": [
+        "b2b-creative-strategy",
+        "brand-differentiation",
+        "conversion-optimization",
+        "customer-research-for-ads",
+        "positioning-development"
+      ],
+      "perspective": "\"Sameness is the default in B2B; you cannot win on features alone because competitors will copy them, so the companies that win compete on messaging clarity, differentiation, and brand, not on product capabilities.\"",
+      "credentials": "\"Founder and CEO of Wynter (B2B message testing platform) and CXL (the world's largest conversion optimization training institute); host of the 'How to Win' podcast; author of hundreds of data-backed articles on conversion optimization and B2B messaging; ran one of the most widely-read CRO blogs for a decade.\"",
+      "sources_ingested": [
+        "why-you-need-a-messaging-hierarchy-to-refine-your-copy.md",
+        "how-to-compete-and-win-on-messaging.md",
+        "b2b-message-layers-framework-by-wynter-four-steps-to-conversion.md",
+        "how-to-create-your-own-b2b-messaging-framework.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/peter-thiel.md",
+      "name": "\"Peter Thiel\"",
+      "slug": "peter-thiel",
+      "expertise": [
+        "first-principles-thinking",
+        "optionality-strategy",
+        "zero-to-one-thinking"
+      ],
+      "perspective": "\"The most valuable companies and ideas are built by doing something entirely new, going from zero to one, rather than copying and incrementing what already exists; competition is for losers, and the goal is to build a monopoly on a truth that most people do not yet see.\"",
+      "credentials": "\"Co-founder of PayPal and Palantir Technologies. First outside investor in Facebook. Partner at Founders Fund. Author of Zero to One: Notes on Startups, or How to Build the Future. Stanford Law graduate. One of the most influential technology investors and contrarian thinkers in Silicon Valley.\"",
+      "sources_ingested": [
+        "zero-to-one-by-peter-thiel-summary-notes.md",
+        "zero-to-one-by-peter-thiel-omd-ventures.md",
+        "zero-to-one-do-not-compete-build-a-monopoly-instead-books-on-trial.md",
+        "zero-to-one-by-peter-thiel-summary-and-analysis-chris-lehnes-factoring-specialis.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/pia-silva.md",
+      "name": "\"Pia Silva\"",
+      "slug": "pia-silva",
+      "expertise": [
+        "productized-consulting",
+        "service-productization",
+        "creative-business-pricing"
+      ],
+      "perspective": "\"The traditional agency model of multi-month projects with endless revisions is structurally broken; the fix is compressing delivery into paid-in-full intensives that protect your time, your margins, and your creative energy.\"",
+      "credentials": "\"Co-founder of Worstofall Design, a branding agency that builds complete brands in 2-day intensives at $15K-$30K per project. Author of 'Badass Your Brand'. Creator of No BS Agency Mastery, an education program for small agency owners. Forbes contributor. Has taught thousands of agency owners the intensives model.\"",
+      "sources_ingested": [
+        "pia-silva-worstofall-design-agency-model-marcel-petitpas-parakeeto.md",
+        "pia-silvas-no-bs-agency-mastery-program-review-what-is-the-intensives-model.md",
+        "the-intensives-model-a-smarter-way-to-make-more-money-and-wow-your-clients-no-bs.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/pieter-levels.md",
+      "name": "\"Pieter Levels\"",
+      "slug": "pieter-levels",
+      "expertise": [
+        "indie-hacking-methodology",
+        "shipping-fast",
+        "no-code-product-building"
+      ],
+      "perspective": "\"Ship fast, charge from day one, use boring technology, and never hire -- a single person with AI tools can build and operate multiple profitable products simultaneously by treating every idea as a cheap experiment rather than a precious venture.\"",
+      "credentials": "\"Solo founder of Photo AI ($132K+ MRR), Nomad List, Remote OK, and 70+ other launched products, author of 'MAKE: The Indie Maker Blueprint' (10K+ copies sold), prominent digital nomad and indie hacker\"",
+      "sources_ingested": [
+        "pieter-levels-the-indie-hackers-guide-to-ai-startups-the-bootstrapped-founder.md",
+        "photo-ai-by-pieter-levels-complete-deep-dive-case-study-0-to-132k-mrr-in-18-mont.md",
+        "levelsio-and-the-dilemma-of-premature-optimization.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/ramli-john.md",
+      "name": "\"Ramli John\"",
+      "slug": "ramli-john",
+      "expertise": [
+        "monetization-timing",
+        "plg-pricing-strategy",
+        "product-led-growth-strategy",
+        "usage-based-pricing"
+      ],
+      "perspective": "\"Onboarding is the bridge between acquisition and monetization in product-led growth; if users do not reach the Eureka moment quickly, no pricing model can save you, and the onboarding-to-upgrade path must be designed as deliberately as the product itself.\"",
+      "credentials": "\"Founder of Delight Path, former Managing Director of ProductLed, former Director of Content at Appcues. Author of 'Product-Led Onboarding' and 'EUREKA: The Product Onboarding Playbook for B2B Companies.' Has trained hundreds of PLG companies including Mixpanel, Zapier, Vidyard, and Bynder on user onboarding optimization. Host of the Growth Marketing Today podcast.\"",
+      "sources_ingested": [
+        "the-eureka-framework-to-improve-your-product-led-onboarding-experience-productle.md",
+        "onboarding-done-right-a-masterclass-with-ramli-john-author-of-product-led-onboar.md",
+        "episode-2-going-beyond-the-aha-product-led-onboarding-with-ramli-john.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/rand-fishkin.md",
+      "name": "\"Rand Fishkin\"",
+      "slug": "rand-fishkin",
+      "expertise": [
+        "zero-click-content",
+        "audience-segmentation",
+        "content-distribution-strategy",
+        "content-measurement"
+      ],
+      "perspective": "\"Two-thirds of Google searches now end without a click, platforms algorithmically punish outbound links, and attribution infrastructure is breaking; the only rational response is zero-click marketing, which means creating standalone value where audiences already are and measuring lift rather than clicks.\"",
+      "credentials": "\"Co-founder and CEO of SparkToro (audience research platform); founder of Moz (sold 2021); author of Lost and Founder and the upcoming Zero-Click Marketing; conducted the seminal zero-click search studies showing 58.5% of US Google searches end without a click.\"",
+      "sources_ingested": [
+        "why-do-we-need-zero-click-marketing-sparktoro.md",
+        "branding-in-the-age-of-ai-and-zero-click-serps-rand-fishkin.md",
+        "marketing-in-a-zero-click-world-with-rand-fishkin-marketing-speak.md",
+        "zero-click-marketing-an-exclusive-interview-with-rand-fishkin-of-sparktoro-nextn.md",
+        "rand-fishkin-on-building-brand-influence-in-a-zero-click-world-skyword.md",
+        "zero-click-marketing-the-hidden-strategy-behind-platform-algorithm-changes-the-c.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/reforge.md",
+      "name": "\"Reforge\"",
+      "slug": "reforge",
+      "expertise": [
+        "product-led-growth-strategy",
+        "land-and-expand-motion",
+        "product-qualified-leads",
+        "growth-model-design"
+      ],
+      "perspective": "\"Growth is a system of interconnected loops and models, not a collection of tactics — sustainable growth requires understanding the quantitative mechanics of acquisition, retention, and monetization.\"",
+      "credentials": "\"Premier growth strategy platform founded by Brian Balfour (ex-VP Growth at HubSpot) and Andrew Chen; programs have trained 10,000+ growth leaders; blog is the definitive resource on growth models, retention mechanics, and PLG strategy.\"",
+      "sources_ingested": [
+        "product-led-growth-is-a-major-growth-motion-not-a-bag-of-tricks-reforge-blog.md",
+        "dont-let-your-north-star-metric-deceive-you-reforge-blog.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/robert-rose.md",
+      "name": "\"Robert Rose\"",
+      "slug": "robert-rose",
+      "expertise": [
+        "content-operations",
+        "content-quality-standards",
+        "editorial-calendar-design",
+        "content-distribution-strategy"
+      ],
+      "perspective": "\"Content strategy and content marketing are fundamentally different disciplines that most organizations conflate; content marketers draw on the wall with magic markers while content strategists use fine pens, and scaling content requires an operating model that manages content as a strategic enterprise asset, not a marketing tactic.\"",
+      "credentials": "\"Chief Strategy Advisor at Content Marketing Institute since 2010; CEO of The Content Advisory (formerly Seventh Bear); co-author of Killing Marketing and Managing Content Marketing; has consulted with 500+ companies including 15 Fortune 100; fractional CMO and keynote speaker.\"",
+      "sources_ingested": [
+        "how-content-strategy-and-content-marketing-are-separate-but-connected.md",
+        "robert-roses-killer-content-marketing-strategies-to-go-bigger-faster-proven-cont.md",
+        "robert-roses-tips-on-infusing-enablement-in-content-marketing.md",
+        "robert-rose-on-the-operating-models-of-content-its-time-to-get-strategic-ingeniu.md",
+        "content-marketing-strategy-an-interview-with-robert-rose-founder-the-content-adv.md",
+        "content-orchestration-the-2026-marketing-shift.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/ross-simmonds.md",
+      "name": "\"Ross Simmonds\"",
+      "slug": "ross-simmonds",
+      "expertise": [
+        "b2b-content-playbooks",
+        "content-amplification",
+        "content-at-scale",
+        "content-distribution-strategy",
+        "content-repurposing"
+      ],
+      "perspective": "\"The biggest waste in content marketing is not bad content but good content that nobody sees; most teams spend 80% of their time on creation and 20% on distribution when the ratio should be inverted, because distribution is the multiplier that determines whether content investment compounds or evaporates.\"",
+      "credentials": "\"Founder of Foundation Marketing (B2B content marketing agency); author of Create Once, Distribute Forever; named one of the most influential marketers in the world by multiple publications; Harry Jerome Young Entrepreneur Award recipient; Top 50 CEOs in Atlantic Canada.\"",
+      "sources_ingested": [
+        "why-content-distribution-is-more-important-today-than-ever-before.md",
+        "how-to-create-once-distribute-forever-with-ross-simmonds-buzzstream.md",
+        "the-power-of-distribution-why-you-should-promote-your-content-more-vol-219.md",
+        "smart-content-distribution-strategies-with-ross-simmonds.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/rowan-tonkin.md",
+      "name": "\"Rowan Tonkin\"",
+      "slug": "rowan-tonkin",
+      "expertise": [
+        "pmm-measurement",
+        "attribution-modeling",
+        "campaign-budget-allocation",
+        "growth-model-design"
+      ],
+      "perspective": "\"Marketing must speak the language of finance, not the language of marketing; the CMO who can translate pipeline metrics into financial outcomes earns strategic credibility, budget protection, and a seat at the revenue table.\"",
+      "credentials": "\"Chief Marketing Officer at Planful, former sales and marketing leader across multiple global SaaS organizations, pioneer of the CMO-CFO alignment methodology, frequent speaker and author on marketing performance management and finance-marketing partnership\"",
+      "sources_ingested": [
+        "rowan-tonkin-on-marketing-at-planful-synergy-between-finance-and-marketing.md",
+        "a-candid-conversation-between-a-cmo-and-cfo-planful.md",
+        "martech-edge-interview-with-rowan-tonkin-chief-marketing-officer-planful-martech.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/sahil-bloom.md",
+      "name": "\"Sahil Bloom\"",
+      "slug": "sahil-bloom",
+      "expertise": [
+        "decision-framework-selection",
+        "compounding-strategy",
+        "systems-thinking"
+      ],
+      "perspective": "\"The most powerful frameworks are simple enough to remember in the moment of decision; compounding applies to everything, not just money, and the greatest results come from the discipline of showing up when it is boring.\"",
+      "credentials": "\"Creator of The Curiosity Chronicle newsletter (700K+ subscribers). Author of The 5 Types of Wealth. Former private equity investor at a leading growth equity fund. Stanford University athlete and graduate. One of the most-followed business thinkers on social media with frameworks reaching millions.\"",
+      "sources_ingested": [
+        "mental-razors-by-sahil-bloom-the-curiosity-chronicle.md",
+        "when-mental-models-attack-by-sahil-bloom.md",
+        "investor-or-borrower-a-mental-model-for-life-the-curiosity-chronicle.md",
+        "the-framework-handbook-by-sahil-bloom.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/sally-hogshead.md",
+      "name": "\"Sally Hogshead\"",
+      "slug": "sally-hogshead",
+      "expertise": [
+        "fascination-advantage",
+        "brand-differentiation",
+        "brand-strategy-development",
+        "messaging-house-construction"
+      ],
+      "perspective": "\"Different is better than better. You don't learn how to be fascinating, you unlearn how to be boring. In a distracted, overcrowded world, brands win not by being the best but by being impossible to ignore. Fascination is the most powerful way to capture attention.\"",
+      "credentials": "\"Creator of the Fascination Advantage system, the first personality and brand assessment that measures how others perceive you, based on research with over one million participants. Author of 'Fascinate: How to Make Your Brand Impossible to Resist' and 'How the World Sees You' (#1 Wall Street Journal, #2 New York Times bestseller). Named the #1 brand guru in the world by a major marketing survey. Hall of Fame speaker. Former advertising creative who won her first Clio Award at age 24. Clients include IBM, Twitter, Porsche, GE, Cisco, and New York University.\"",
+      "sources_ingested": [
+        "fascinate-speed-summary-your-seven-triggers-to-persuasion-captivation-brand-gene.md",
+        "fascination-advantage-assessment-shockingly-different-leadership.md",
+        "sally-hogshead-wikipedia.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/sam-altman.md",
+      "name": "\"Sam Altman\"",
+      "slug": "sam-altman",
+      "expertise": [
+        "ai-product-strategy",
+        "ai-business-models",
+        "building-with-llms"
+      ],
+      "perspective": "\"The cost of intelligence is converging toward the cost of electricity, which means the winning strategy is not using AI itself but parlaying the advantage of new technology into a durable business with real value -- small teams with full ownership, niche focus, and relentless velocity.\"",
+      "credentials": "\"CEO of OpenAI, former president of Y Combinator, investor in Stripe/Reddit/Airbnb/Instacart, author of 'How To Be Successful' and 'The Gentle Singularity'\"",
+      "sources_ingested": [
+        "how-to-be-successful-sam-altman.md",
+        "the-gentle-singularity-sam-altman.md",
+        "sam-altman-how-to-win-when-ai-changes-everything-transcript-the-singju-post.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/sam-kuehnle.md",
+      "name": "\"Sam Kuehnle\"",
+      "slug": "sam-kuehnle",
+      "expertise": [
+        "attribution-modeling",
+        "b2b-advertising-strategy",
+        "campaign-budget-allocation",
+        "dark-social-strategy",
+        "demand-creation-vs-capture",
+        "paid-media-channel-selection",
+        "retargeting-strategy"
+      ],
+      "perspective": "\"Brand is the force multiplier that makes demand gen actually work; stop separating brand and demand in org charts, budgets, and strategy, and instead ask how to strengthen your brand coefficient.\"",
+      "credentials": "\"VP of Marketing at Loxo; formerly at Refine Labs; publishes Sam's Marketing Meditations newsletter on Substack; known for data-driven demand gen and paid media strategy in B2B SaaS.\"",
+      "sources_ingested": [
+        "take-back-50-450-of-your-ad-budget-by-sam-kuehnle.md",
+        "the-brand-coefficient-by-sam-kuehnle.md",
+        "when-common-practice-buries-common-sense-by-sam-kuehnle.md",
+        "separating-goals-and-metrics-by-sam-kuehnle.md",
+        "i-dont-know-if-this-will-work-by-sam-kuehnle.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/sam-oh.md",
+      "name": "\"Sam Oh\"",
+      "slug": "sam-oh",
+      "expertise": [
+        "video-seo",
+        "content-seo",
+        "link-building-strategy",
+        "keyword-research-methodology",
+        "content-distribution-strategy"
+      ],
+      "perspective": "\"Video SEO is a distinct discipline from traditional web SEO because the ranking algorithm optimizes for engagement signals (watch time, audience retention, click-through rate) rather than link authority, making content quality and audience understanding the primary levers rather than technical optimization.\"",
+      "credentials": "\"VP of Marketing at Ahrefs, Director of Product Education at Ahrefs, built the Ahrefs YouTube channel into one of the most authoritative SEO education channels with 500K+ subscribers, author of Ahrefs' definitive guides on YouTube SEO and video SEO, previously grew multiple YouTube channels in different niches\"",
+      "sources_ingested": [
+        "youtube-seo-how-to-rank-your-videos-from-start-to-finish.md",
+        "video-seo-how-to-rank-youtube-videos-on-google.md",
+        "seo-for-startups-9-steps-to-grow-on-a-budget.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/sangram-vajre.md",
+      "name": "\"Sangram Vajre\"",
+      "slug": "sangram-vajre",
+      "expertise": [
+        "account-based-selling",
+        "icp-definition-framework",
+        "gtm-strategy-framework",
+        "audience-segmentation",
+        "land-and-expand-motion"
+      ],
+      "perspective": "\"B2B marketing has been running on a B2C model for decades; the unit of value in B2B is the account, not the lead, and aligning every go-to-market function around account-level engagement, measurement, and expansion is not an alternative tactic but the structurally correct way to operate.\"",
+      "credentials": "\"Co-founder of Terminus (ABM platform), author of 'ABM Is B2B,' 'Account-Based Marketing for Dummies,' and co-author of 'MOVE: The 4-Question Go-to-Market Framework,' creator of the FlipMyFunnel movement and conference\"",
+      "sources_ingested": [
+        "sangram-vajre-abm-team-framework.md",
+        "sangram-vajre-move-framework-gtm.md",
+        "sangram-vajre-flipmyfunnel-abm-is-b2b.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/sarah-levinger.md",
+      "name": "\"Sarah Levinger\"",
+      "slug": "sarah-levinger",
+      "expertise": [
+        "customer-research-for-ads",
+        "dtc-growth-marketing",
+        "conversion-optimization",
+        "b2b-creative-strategy"
+      ],
+      "perspective": "\"Transactional data only tells half the story; the brands that win at paid advertising are the ones that uncover the emotional context behind customer decisions, using psychology-based creative to speak to identity, subconscious behavior, and personal narratives rather than demographics alone.\"",
+      "credentials": "\"Forbes-featured consumer behavior analyst and creative strategist; founder of Tether Insights; has helped brands including Fabletics, Hexclad, True Classic, Obvi, Yitty, Kettle and Fire, and Slumberkins increase paid advertising ROI through psychology-based creative; 10+ years studying consumer psychology, economics, and behavioral science.\"",
+      "sources_ingested": [
+        "harnessing-psychology-in-creative-strategy-sarah-levingers-insights-on-consumer-.md",
+        "the-psychology-of-high-performing-ads-how-sarah-levinger-unlocks-emotional-data-.md",
+        "how-to-use-psychology-in-facebook-tiktok-advertising.md",
+        "how-psychology-based-creative-is-changing-the-dtc-industry-triple-whale.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/scott-galloway.md",
+      "name": "\"Scott Galloway\"",
+      "slug": "scott-galloway",
+      "expertise": [
+        "brand-strategy-development",
+        "brand-differentiation",
+        "brand-measurement"
+      ],
+      "perspective": "\"In the digital age, brand is more important than ever, not less. The most valuable companies in the world have mastered the art of appealing to our primal instincts. A luxury strategy is the most potent brand strategy: scarcity, irrational pricing, and an iconic founder create a margin structure that compounds over decades.\"",
+      "credentials": "\"Professor of Marketing at NYU Stern School of Business. Serial entrepreneur: founded nine companies including L2 (brand analytics, sold to Gartner), Red Envelope, Prophet, and Section4 (now Section). Bestselling author of 'The Four,' 'The Algebra of Happiness,' 'Post Corona,' 'Adrift,' and 'The Algebra of Wealth.' Host of the Prof G Pod and Pivot podcasts. His weekly newsletter No Mercy / No Malice reaches millions. Board member of multiple public companies.\"",
+      "sources_ingested": [
+        "4-proven-business-strategies-from-nyu-stern-prof-scott-galloway.md",
+        "laddering-no-mercy-no-malice.md",
+        "winners-and-losers-scott-galloway-on-brand-success-in-the-age-of-amazon-peter-fi.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/seth-godin.md",
+      "name": "\"Seth Godin\"",
+      "slug": "seth-godin",
+      "expertise": [
+        "permission-marketing",
+        "brand-strategy-development",
+        "brand-differentiation",
+        "brand-narrative-construction"
+      ],
+      "perspective": "\"Marketing is no longer about the stuff that you make, but about the stories you tell. The goal isn't to maximize your numbers. The goal is to be missed if you stopped. People don't buy goods and services. They buy relations, stories, and magic.\"",
+      "credentials": "\"Author of 20+ bestselling books including 'Purple Cow,' 'Permission Marketing,' 'Tribes,' 'This Is Marketing,' 'The Dip,' and 'Unleashing the Ideavirus.' Founded Yoyodyne (sold to Yahoo! for $30M in 1998). His daily blog at seths.blog is one of the most popular in the world. Inducted into the Direct Marketing Hall of Fame and the Marketing Hall of Fame. Founder of altMBA and The Akimbo Workshops.\"",
+      "sources_ingested": [
+        "permission-marketing-seths-blog.md",
+        "the-minimum-viable-audience-seths-blog.md",
+        "the-smallest-viable-audience-seths-blog.md",
+        "book-summary-purple-cow-seth-godwin.md",
+        "9-takeaways-from-this-is-marketing-by-seth-godin-olivine-a-product-marketing-age.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/shane-parrish.md",
+      "name": "\"Shane Parrish\"",
+      "slug": "shane-parrish",
+      "expertise": [
+        "mental-model-application",
+        "decision-framework-selection",
+        "first-principles-thinking"
+      ],
+      "perspective": "\"The quality of your thinking determines the quality of your life; mental models from multiple disciplines give you the latticework to make better decisions and avoid stupidity.\"",
+      "credentials": "\"Founder of Farnam Street (fs.blog). Author of The Great Mental Models book series (4 volumes). Host of The Knowledge Project podcast. Former Canadian intelligence analyst.\"",
+      "sources_ingested": [
+        "what-is-first-principles-thinking.md",
+        "second-order-thinking-what-smart-people-use-to-outperform.md",
+        "inversion-the-power-of-avoiding-stupidity.md",
+        "mastering-success-navigating-within-your-circle-of-competence.md",
+        "mental-models-the-best-way-to-make-intelligent-decisions-100-models-explained.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/shireesh-gupta.md",
+      "name": "\"Shireesh Gupta\"",
+      "slug": "shireesh-gupta",
+      "expertise": [
+        "product-marketing",
+        "stakeholder-management",
+        "claude-code-workflows"
+      ],
+      "perspective": "\"35% of PMM time goes to stakeholder management — make it trackable by building a CRM-like system with Claude Code that scores relationships on frequency, depth, and reciprocity\"",
+      "credentials": "\"Product Marketing Manager, remote team across multiple time zones\"",
+      "followed": "true",
+      "content_type": [
+        "linkedin"
+      ],
+      "sources_ingested": [
+        "stakeholder-management-system-claude-code-shireesh-gupta.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/simon-sinek.md",
+      "name": "\"Simon Sinek\"",
+      "slug": "simon-sinek",
+      "expertise": [
+        "purpose-driven-branding",
+        "brand-strategy-development",
+        "brand-narrative-construction"
+      ],
+      "perspective": "\"People don't buy what you do; they buy why you do it. And what you do simply proves what you believe. The goal is not to do business with everybody who needs what you have. The goal is to do business with people who believe what you believe. Leaders who start with why inspire action rather than manipulate it.\"",
+      "credentials": "\"Author of five books including 'Start with Why,' 'Leaders Eat Last,' 'The Infinite Game,' 'Together is Better,' and 'Find Your Why.' His 2009 TED Talk 'How Great Leaders Inspire Action' is the third most-watched TED Talk of all time with 60+ million views. Adjunct staff member at the RAND Corporation. Founder of The Optimism Company (formerly Start With Why LLC). Teaches graduate-level strategic communications at Columbia University.\"",
+      "sources_ingested": [
+        "the-golden-circle-simon-sinek.md",
+        "start-with-why-simon-sineks-golden-circle-theory-explained-upraise.md",
+        "5-guidelines-for-simon-sineks-infinite-mindset-shortform-books.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/steph-smith.md",
+      "name": "\"Steph Smith\"",
+      "slug": "steph-smith",
+      "expertise": [
+        "content-amplification",
+        "content-at-scale",
+        "content-distribution-strategy",
+        "content-seo",
+        "programmatic-seo"
+      ],
+      "perspective": "\"Content is a compounding asset that rewards systematic thinking; the key to standing out is creating content that is either genuinely new or measurably better than everything else, AND distributing it better than the competition, and the explore-and-exploit method is how you discover which channels actually work.\"",
+      "credentials": "\"Author of Doing Content Right and Doing SEO Right; formerly led growth at The Hustle (Trends product to millions in ARR); hosted the a16z podcast; worked at HubSpot; currently at Nvidia after leading growth at Groq; creator of Internet Pipes.\"",
+      "sources_ingested": [
+        "doing-content-right-summary-steph-smith-aures-notes.md",
+        "steph-smith-the-curator-of-the-internet-barrett-brooks.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/steven-forth.md",
+      "name": "\"Steven Forth\"",
+      "slug": "steven-forth",
+      "expertise": [
+        "value-based-pricing",
+        "usage-based-pricing",
+        "pricing-strategy",
+        "value-metric-selection"
+      ],
+      "perspective": "\"A pricing model without a value model is adrift; true value-based pricing begins with Economic Value Estimation that quantifies the economic impact of your solution on the customer's P&L relative to their competitive alternative.\"",
+      "credentials": "\"Co-founder and Managing Partner of Ibbaka, a strategic pricing advisory firm for SaaS companies. Named one of the top 10 pricing authorities in the world by OpenView Venture Partners. Co-author of numerous pricing frameworks building on Tom Nagle's foundational work. Decades of experience in pricing consulting across software and technology companies.\"",
+      "sources_ingested": [
+        "three-approaches-to-value-based-pricing-for-saas-approximate-derived-direct-i-ib.md",
+        "your-pricing-model-needs-a-value-model-i-ibbaka.md",
+        "how-to-choose-a-pricing-metric-i-ibbaka.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/swyx.md",
+      "name": "\"Swyx (Shawn Wang)\"",
+      "slug": "swyx",
+      "expertise": [
+        "agentic-ai-design",
+        "ai-business-models",
+        "ai-product-strategy",
+        "building-with-llms",
+        "no-code-product-building",
+        "prompt-engineering"
+      ],
+      "perspective": "\"We are in the transition from Software 2.0 to Software 3.0, where AI engineers -- not traditional software engineers -- will build the majority of new applications, and the key discipline is agent engineering: designing systems where LLMs control the application's logic flow.\"",
+      "credentials": "\"Founder of Latent Space (top AI engineering newsletter/podcast, 10M+ readers), creator of AI Engineer Summit, former engineer at Vercel/Netlify/AWS, coined 'AI Engineer' as a distinct role\"",
+      "sources_ingested": [
+        "agent-engineering-latentspace.md",
+        "software-30-and-the-ai-engineer-landscape-talk-notes-slides.md",
+        "cognition-the-devin-is-in-the-details.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/tas-bober.md",
+      "name": "\"Tas Bober\"",
+      "slug": "tas-bober",
+      "expertise": [
+        "landing-page-optimization",
+        "conversion-optimization",
+        "b2b-creative-strategy",
+        "b2b-advertising-strategy"
+      ],
+      "perspective": "\"Conversion is not the name of the game in B2B; consumption is. The goal of each section on a landing page is not to convert the user but to send them to the next section, and the brands that win are the ones that put their buyers first by being clear, transparent, and empathetic.\"",
+      "credentials": "\"Founder of The Scroll Lab and Delphinium Solutions; B2B digital marketing strategist specializing in paid ads landing pages for B2B SaaS; has helped companies like Calendly drive 235% revenue increases through digital presence optimization; managed 400+ websites across her career; 15 years in digital marketing.\"",
+      "sources_ingested": [
+        "creating-landing-pages-for-b2b-saas-with-tas-bober-unlayer.md",
+        "7-tips-from-tas-bober-to-improve-b2b-event-landing-pages.md",
+        "optimising-b2b-landing-pages-for-real-results-with-tas-bober.md",
+        "8-costly-b2b-landing-page-mistakes-and-quick-fixes-to-boost-conversions.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/tiago-forte.md",
+      "name": "\"Tiago Forte\"",
+      "slug": "tiago-forte",
+      "expertise": [
+        "second-brain-methodology",
+        "knowledge-management-for-ai",
+        "ai-workflow-automation"
+      ],
+      "perspective": "\"Our brains are for having ideas, not storing them -- an external, organized knowledge system compounds over time and becomes the foundation for creative output, especially when AI can now search, synthesize, and surface that knowledge on demand.\"",
+      "credentials": "\"Author of 'Building a Second Brain' and 'The PARA Method,' creator of the Building a Second Brain course (adopted by Genentech, Toyota, Inter-American Development Bank), productivity consultant\"",
+      "sources_ingested": [
+        "building-a-second-brain-the-definitive-introductory-guide.md",
+        "progressive-summarization-a-practical-technique-for-designing-discoverable-notes.md",
+        "the-story-behind-building-a-second-brain-forte-labs.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/tim-ferriss.md",
+      "name": "\"Tim Ferriss\"",
+      "slug": "tim-ferriss",
+      "expertise": [
+        "systems-thinking",
+        "decision-quality-framework",
+        "habit-design-for-business"
+      ],
+      "perspective": "\"What we fear doing most is usually what we most need to do; effectiveness is doing the things that get you closer to your goals, and efficiency is performing a given task in the most economical manner possible, and the two should never be confused.\"",
+      "credentials": "\"Author of The 4-Hour Workweek, The 4-Hour Body, The 4-Hour Chef, Tools of Titans, and Tribe of Mentors (all New York Times bestsellers). Host of The Tim Ferriss Show podcast (900M+ downloads). Angel investor and advisor (Uber, Shopify, Alibaba, Facebook, Twitter). Named by Fast Company as one of the Most Innovative Business People.\"",
+      "sources_ingested": [
+        "fear-setting-the-most-valuable-exercise-i-do-every-month-the-blog-of-author-tim-.md",
+        "the-tim-ferriss-show-transcripts-the-art-and-science-of-learning-anything-faster.md",
+        "the-practicality-of-pessimism-stoicism-as-a-productivity-system.md",
+        "mastering-efficiency-breaking-down-tim-ferrisss-business-strategy-for-maximum-ac.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/tim-soulo.md",
+      "name": "\"Tim Soulo\"",
+      "slug": "tim-soulo",
+      "expertise": [
+        "content-seo",
+        "keyword-research-methodology",
+        "link-building-strategy",
+        "search-intent-mapping",
+        "seo-for-saas",
+        "seo-measurement",
+        "technical-seo-audit"
+      ],
+      "perspective": "\"Ranking number one is not about being smarter than competitors through tricks but about being worthy of ranking number one through genuine expertise, credible ideas, and product-focused content that lets users experience your product in their imagination.\"",
+      "credentials": "\"CMO and Product Advisor at Ahrefs, 15+ years in digital marketing and SEO, architect of Ahrefs' content strategy that grew the blog to 1.5M+ monthly visitors, author of multiple data-driven SEO studies\"",
+      "sources_ingested": [
+        "content-that-clicks-how-ahrefs-cmo-tim-soulo-uses-seo-and-creativity-to-rank-sky.md",
+        "013-the-long-game-podcast-a-fireside-chat-with-tim-soulo-cmo-at-ahrefs-omniscien.md",
+        "keyword-research-the-beginners-guide-by-ahrefs.md",
+        "how-to-create-quality-content-follow-our-5-level-framework.md",
+        "12-link-builders-share-strategies-that-work-in-2024.md",
+        "keyword-difficulty-how-to-estimate-your-chances-to-rank.md",
+        "how-to-get-search-traffic-without-ranking-for-anything.md",
+        "how-ahrefs-grew-to-15m-monthly-visitors-and-exploded-leads.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/tk-kader.md",
+      "name": "\"TK Kader\"",
+      "slug": "tk-kader",
+      "expertise": [
+        "icp-definition-framework",
+        "market-sizing",
+        "icp-operationalization",
+        "gtm-strategy-framework",
+        "audience-segmentation",
+        "champion-identification"
+      ],
+      "perspective": "\"An ICP is not a buyer persona — it is an account-level definition that must be operationalized as a living mandate in your CRM, sales meetings, and product roadmap, not a static slide deck.\"",
+      "credentials": "\"Founder of TK Kader's AI/SaaS GTM Program; SaaS growth strategist who has helped companies scale from $10M to $40M+ ARR; runs idealcustomerprofile.com as the definitive ICP resource.\"",
+      "sources_ingested": [
+        "ideal-customer-profile-icp-template-framework-guide-tk-kader.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/tommy-walker.md",
+      "name": "\"Tommy Walker\"",
+      "slug": "tommy-walker",
+      "expertise": [
+        "b2b-content-playbooks",
+        "content-at-scale",
+        "content-operations",
+        "content-quality-standards",
+        "editorial-calendar-design"
+      ],
+      "perspective": "\"Content operations at scale requires three axioms: a solid premise gets you 80% of the way there, decisions are made in Slack (meaning you must understand where organizational buying happens), and content is a form of social currency that people use to express their identity and enhance their professional standing.\"",
+      "credentials": "\"Founder of The Content Studio, a content marketing consultancy for Fortune 1,000 companies and high-growth B2B startups; former Global Editor-in-Chief at QuickBooks (Intuit); first marketing hire at Shopify Plus; clients include LinkedIn, GoDaddy, and other enterprise brands; creator of Content Theory course on Maven.\"",
+      "sources_ingested": [
+        "the-content-studios-tommy-walker-on-how-to-automate-your-content-workflow-omnisc.md",
+        "001-the-long-game-podcast-content-operations-automation-and-storytelling-with-to.md",
+        "ryan-hanley-become-undeniable.md",
+        "how-to-infuse-soul-into-content-regardless-of-channel-by-tommy-walker-the-conten.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/trish-bertuzzi.md",
+      "name": "\"Trish Bertuzzi\"",
+      "slug": "trish-bertuzzi",
+      "expertise": [
+        "sdr-team-design",
+        "predictable-revenue-model",
+        "sales-hiring-formula",
+        "sales-process-design"
+      ],
+      "perspective": "\"The sales development function is a precision operating system with six interdependent elements; optimizing any one without the others produces local improvements but systemic mediocrity.\"",
+      "credentials": "\"Founder and CEO of The Bridge Group (20+ years of SDR consulting), author of 'The Sales Development Playbook,' publisher of the most widely referenced SDR metrics benchmarks in B2B SaaS\"",
+      "sources_ingested": [
+        "sales-development-playbook-trish-bertuzzi.md",
+        "bridge-group-sdr-metrics-benchmarks.md",
+        "trish-bertuzzi-six-elements-sales-development.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/vivian-jordan.md",
+      "name": "\"Vivian Jordan\"",
+      "slug": "vivian-jordan",
+      "expertise": [
+        "product-marketing",
+        "competitive-intelligence",
+        "ai-gtm"
+      ],
+      "perspective": "\"AI clears the runway for competitive strategy — 8-10 hour teardowns compressed to under an hour using Claude Chrome for multi-channel analysis\"",
+      "credentials": "\"AI Product Marketing and GTM Strategist, helps companies translate enterprise AI complexity into clarity\"",
+      "followed": "true",
+      "content_type": [
+        "linkedin"
+      ],
+      "sources_ingested": [
+        "competitive-teardown-claude-chrome-vivian-jordan.md"
+      ],
+      "home_url": "\"https://www.linkedin.com/in/vivianjordan/\""
     },
     {
       "path": "raw/digests/miniu-ai-digest-2026-04-26.md"

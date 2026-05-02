@@ -23,7 +23,8 @@ Tommy Walker brings an engineering mindset to content operations, shaped by scal
 - **Content Quality Standards**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_content-as-social-currency` — Content is social currency — buyers share what makes them look smart, and decisions are made in Slack [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `the-content-studios-tommy-walker-on-how-to-automate-your-content-workflow-omnisc.md` (artemis ingest)

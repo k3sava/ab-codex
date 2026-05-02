@@ -22,7 +22,8 @@ Seth Godin is the most prolific and influential marketing thinker of the interne
 - **Brand Narrative Construction**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_smallest-viable-audience` — The goal isn't to maximize numbers — it's to be missed if you stopped. Find the smallest viable audience. [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `permission-marketing-seths-blog.md` (artemis ingest)
