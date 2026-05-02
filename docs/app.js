@@ -1,5 +1,5 @@
 // codex frontend — primary-source operator insight library
-const REPO_BASE = 'https://github.com/k3sava/codex/blob/main';
+const REPO_BASE = 'https://github.com/k3sava/ab-codex/blob/main';
 const app = document.getElementById('app');
 const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 gsap.registerPlugin(ScrollTrigger);
@@ -448,8 +448,8 @@ function about(){
       <li>${STATS.playbooks} methodology playbooks</li>
       <li>${STATS.tierA} Tier A claims</li>
     </ul>
-    <p>Source on <a href='https://github.com/k3sava/codex' target='_blank' rel='noopener'>github</a>. Released MIT. Raw sources retain their original copyright; codex archives short excerpts under fair use, always with attribution and a link to the canonical source.</p>
-    <p>To consume the corpus from another project, read <a href='https://raw.githubusercontent.com/k3sava/codex/main/insight-library/INDEX.json' target='_blank' rel='noopener'>INDEX.json</a> directly. Every record carries id, path, operator, source_url, source_date, domain, lifecycle, and tier — link to cards by id, fetch their markdown bodies at the listed paths.</p>
+    <p>Source on <a href='https://github.com/k3sava/ab-codex' target='_blank' rel='noopener'>GitHub</a>. Released MIT. Raw sources retain their original copyright; codex archives short excerpts under fair use, always with attribution and a link to the canonical source.</p>
+    <p>To consume the corpus from another project, read <a href='https://raw.githubusercontent.com/k3sava/ab-codex/main/insight-library/INDEX.json' target='_blank' rel='noopener'>INDEX.json</a> directly. Every record carries id, path, operator, source_url, source_date, domain, lifecycle, and tier — link to cards by id, fetch their markdown bodies at the listed paths.</p>
   </section>`;
 }
 
