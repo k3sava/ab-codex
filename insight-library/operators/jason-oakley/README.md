@@ -6,6 +6,8 @@ roles:
   - Founding PMM advisor
 domains_active: [pmm, marketing, content]
 captured_first: 2026-05-02
+external:
+  linkedin: https://www.linkedin.com/in/oakleyjason/
 ---
 
 # Jason Oakley

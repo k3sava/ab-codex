@@ -7,7 +7,8 @@ roles:
   - Revenue
 domains_active: [growth, ai-native]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/kabiruppal/
 ---
 
 # Kabir Uppal

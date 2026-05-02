@@ -7,7 +7,8 @@ roles:
   - I help tech companies turn customer insights into Go-To-Market strategies that drive adoption & revenue growth—leveraging AI
 domains_active: [pmm, growth, ai-native]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/jesse-bellaiche-51060817/
 ---
 
 # Jesse Bellaiche

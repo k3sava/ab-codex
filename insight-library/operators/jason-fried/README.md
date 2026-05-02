@@ -7,6 +7,9 @@ roles:
   - Remote: Office Not Required
 domains_active: [product, growth]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/jason-fried/
+  website: https://37signals.com/
 ---
 
 # Jason Fried

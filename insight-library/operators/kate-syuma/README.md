@@ -7,7 +7,9 @@ roles:
   - Founder at Growthmates
 domains_active: [growth, founder-craft, design-ux]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/ekaterina-syuma/
+  website: https://www.growthmates.club/
 ---
 
 # Kate Syuma

@@ -7,6 +7,9 @@ roles:
   - named #1 Sales Expert to Follow by LinkedIn
 domains_active: [research, sales-cs, design]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/jillkonrath/
+  website: https://www.jillkonrath.com/
 ---
 
 # Jill Konrath

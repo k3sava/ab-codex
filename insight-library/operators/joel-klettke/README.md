@@ -7,6 +7,8 @@ roles:
   - Built an entire business model around the insight that customer narratives are the highest-converting content type in B2B
 domains_active: [pmm, research, sales-cs]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/joelklettke/
 ---
 
 # Joel Klettke

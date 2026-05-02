@@ -5,6 +5,9 @@ roles:
   - Former Head of Sales at Basecamp (37signals)
 domains_active: [pmm, sales-cs]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/josh-braun/
+  website: https://joshbraun.com/
 ---
 
 # Josh Braun

@@ -8,6 +8,9 @@ roles:
   - Publishes a daily email on pricing for independent professionals
 domains_active: [product, pmm, leadership]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/jonathanstark/
+  website: https://jonathanstark.com/
 ---
 
 # Jonathan Stark

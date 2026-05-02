@@ -8,6 +8,9 @@ roles:
   - and NextView Ventures (VP Brand)
 domains_active: [leadership, design, pmm]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/jayacunzo/
+  website: https://jayacunzo.com/
 ---
 
 # Jay Acunzo

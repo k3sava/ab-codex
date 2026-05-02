@@ -8,6 +8,9 @@ roles:
   - created Velocity.js
 domains_active: [leadership, ai-native, growth, design, pmm]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/julian-shapiro/
+  website: https://www.julian.com/
 ---
 
 # Julian Shapiro

@@ -8,6 +8,9 @@ roles:
   - creator of the 'Filling the Funnel' and 'Driving to Close' training programs
 domains_active: [sales-cs, design, research]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/johnbarrows/
+  website: https://jbarrows.com/
 ---
 
 # John Barrows

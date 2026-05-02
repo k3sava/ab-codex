@@ -8,6 +8,9 @@ roles:
   - and exit planning
 domains_active: [pmm, product, design, growth, ai-native]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/karlsakas/
+  website: https://sakasandco.com/
 ---
 
 # Karl Sakas

@@ -7,6 +7,9 @@ roles:
   - keynote speaker on problem-centric selling
 domains_active: [research, sales-cs, design]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/jimkeenan/
+  website: https://salesgrowth.com/
 ---
 
 # Keenan (Jim Keenan)

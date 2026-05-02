@@ -7,7 +7,8 @@ roles:
   - Building Agentic Commerce OS
 domains_active: [founder-craft, ai-native, sales]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/kaizad-hansotia-1240494a/
 ---
 
 # Kaizad Hansotia

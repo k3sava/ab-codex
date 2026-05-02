@@ -8,6 +8,9 @@ roles:
   - coined the term 'content marketing' in 2001
 domains_active: [pmm, leadership]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/joepulizzi/
+  website: https://joepulizzi.com/
 ---
 
 # Joe Pulizzi

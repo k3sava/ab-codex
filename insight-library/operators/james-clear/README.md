@@ -8,6 +8,9 @@ roles:
   - Speaker on habits
 domains_active: [design, ai-native]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/jamesclear/
+  website: https://jamesclear.com/
 ---
 
 # James Clear

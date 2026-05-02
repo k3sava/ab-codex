@@ -8,6 +8,8 @@ roles:
   - consultants
 domains_active: [pmm, ai-native, growth]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/realjimhamilton/
 ---
 
 # Jim Hamilton

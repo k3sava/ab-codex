@@ -8,6 +8,8 @@ roles:
   - writer at jimmydaly.com
 domains_active: [pmm, design, leadership, sales-cs, ai-native]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/jimmydaly/
 ---
 
 # Jimmy Daly

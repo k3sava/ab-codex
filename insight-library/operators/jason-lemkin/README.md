@@ -5,6 +5,9 @@ roles:
   - Founder and CEO of SaaStr
 domains_active: [sales-cs, pmm, leadership, gtm, design]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/jasonmlemkin/
+  website: https://www.saastr.com/
 ---
 
 # Jason Lemkin
