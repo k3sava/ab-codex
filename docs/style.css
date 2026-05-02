@@ -394,6 +394,48 @@ dialog .search-head kbd{font-family:var(--mono);font-size:.65rem;padding:3px 7px
 .playbook-content a:hover{border-bottom-color:var(--accent-2)}
 .playbook-content strong{color:var(--ink);font-weight:500}
 
+/* ===== DOMAIN PAGE — mini-anthology ===== */
+.domain-page{max-width:var(--maxw);margin:0 auto;padding:48px var(--gut) 100px}
+.domain-page .crumbs{font-family:var(--mono);font-size:.72rem;color:var(--muted);margin-bottom:24px}
+.dom-head{margin-bottom:48px;padding-bottom:24px;border-bottom:1px solid var(--line)}
+.dom-eyebrow{font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.12em;color:var(--accent);margin-bottom:8px}
+.dom-head h1{font-family:var(--serif);font-weight:400;font-size:clamp(2.4rem,6vw,5rem);line-height:1;letter-spacing:-.025em;margin-bottom:14px;text-transform:lowercase}
+.dom-summary{font-family:var(--mono);font-size:.78rem;color:var(--muted)}
+.dom-section{margin-bottom:56px}
+.dom-sec-head{display:flex;align-items:baseline;justify-content:space-between;gap:14px;margin-bottom:18px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+.dom-sec-head h2{font-family:var(--serif);font-weight:400;font-size:1.6rem;letter-spacing:-.01em}
+.dom-sec-meta{font-family:var(--mono);font-size:.7rem;color:var(--muted)}
+.dom-sec-link{font-family:var(--mono);font-size:.78rem;color:var(--ink-2);text-decoration:none}
+.dom-sec-link:hover{color:var(--accent)}
+.dom-strongs{list-style:none;display:flex;flex-direction:column;margin:0;padding:0}
+.dom-strongs li a{display:grid;grid-template-columns:48px 1fr 200px;gap:18px;align-items:baseline;padding:18px 0;border-bottom:1px solid var(--line);text-decoration:none;color:inherit;transition:padding .15s var(--ease),background .15s var(--ease)}
+.dom-strongs li a:hover{padding-left:8px;background:color-mix(in oklab,var(--accent) 4%,transparent)}
+.dom-strongs-num{font-family:var(--mono);font-size:.72rem;color:var(--muted);letter-spacing:.05em}
+.dom-strongs-claim{font-family:var(--serif);font-size:1.1rem;line-height:1.4;color:var(--ink)}
+.dom-strongs-op{font-family:var(--mono);font-size:.72rem;color:var(--muted);text-align:right;letter-spacing:.04em}
+.dom-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:36px;margin-bottom:56px}
+.dom-block h3{font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin-bottom:14px}
+.dom-block ul{list-style:none;display:flex;flex-direction:column;margin:0;padding:0}
+.dom-ops li a,.dom-pats li a{display:flex;align-items:center;gap:10px;justify-content:space-between;padding:9px 8px;border-bottom:1px dashed var(--line-2);text-decoration:none;color:inherit;font-family:var(--serif);font-size:.95rem;transition:padding .15s var(--ease),background .15s var(--ease)}
+.dom-ops li a:hover,.dom-pats li a:hover{padding-left:14px;background:color-mix(in oklab,var(--accent) 4%,transparent)}
+.dom-ops .ct{font-family:var(--mono);font-size:.72rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.dom-pats li a{gap:12px}
+.dom-pats li a > span:not(.tier){flex:1}
+.dom-life{gap:8px}
+.dom-life li{display:grid;grid-template-columns:120px 1fr 36px;gap:10px;align-items:center;padding:5px 0;font-family:var(--mono);font-size:.75rem}
+.dom-life-name{color:var(--ink-2)}
+.dom-life-bar{height:6px;background:var(--paper-2);border-radius:3px;overflow:hidden}
+.dom-life-bar > span{display:block;height:100%;background:var(--accent);border-radius:3px}
+.dom-life-ct{color:var(--muted);text-align:right;font-variant-numeric:tabular-nums}
+.dom-more{margin-top:24px;text-align:center}
+.dom-more a{font-family:var(--mono);font-size:.85rem;color:var(--accent);text-decoration:none;border-bottom:1px solid currentColor}
+@media (max-width:720px){
+  .dom-strongs li a{grid-template-columns:32px 1fr;gap:10px}
+  .dom-strongs-op{grid-column:1/-1;grid-row:2;text-align:left;margin-top:4px;color:var(--muted)}
+  .dom-strongs-claim{font-size:1rem}
+  .dom-grid{grid-template-columns:1fr;gap:32px}
+}
+
 /* ===== PATTERN PAGE — radial converge viz ===== */
 .pattern-page{max-width:1100px;margin:0 auto;padding:48px var(--gut) 100px}
 .pattern-page .crumbs{font-family:var(--mono);font-size:.72rem;color:var(--muted);margin-bottom:24px}

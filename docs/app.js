@@ -362,13 +362,74 @@ function operatorsList(){
 /* ============ DOMAIN ============ */
 function domainPage(d){
   const list = cards.filter(c => c.domain.includes(d));
-  app.innerHTML = `<section class='list-page'>
+  // Top operators in this domain by card count
+  const opCount = new Map();
+  for (const c of list){ opCount.set(c.operator, (opCount.get(c.operator) || 0) + 1); }
+  const topOps = [...opCount.entries()].sort((a,b)=>b[1]-a[1]).slice(0,8);
+  // Top tier-A insights in domain
+  const topA = list.filter(c => c.tier === 'A').slice(0, 6);
+  const restCount = list.length - topA.length;
+  // Patterns tagged with this domain
+  const relPatterns = patterns.filter(p => (p.domains||[]).includes(d));
+  // Lifecycle distribution
+  const lifeCount = new Map();
+  for (const c of list){ for (const l of (c.lifecycle||[])){ lifeCount.set(l, (lifeCount.get(l) || 0) + 1); } }
+  const topLife = [...lifeCount.entries()].sort((a,b)=>b[1]-a[1]).slice(0,5);
+
+  app.innerHTML = `<section class='domain-page'>
     <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <a href='#/browse'>browse</a> <span>·</span> <span>${d}</span></div>
-    <h1>${d}</h1>
-    <p class='lede'>${list.length} cards in ${d}.</p>
-    <div class='card-grid'>${list.map(cardTile).join('')}</div>
+    <header class='dom-head'>
+      <p class='dom-eyebrow'>domain</p>
+      <h1>${d}</h1>
+      <p class='dom-summary'>${list.length} cards · ${opCount.size} operators · ${list.filter(c=>c.tier==='A').length} tier-A claims · ${relPatterns.length} synthesis pattern${relPatterns.length===1?'':'s'}.</p>
+    </header>
+
+    ${topA.length ? `<section class='dom-section'>
+      <header class='dom-sec-head'><h2>Strongest claims</h2><span class='dom-sec-meta'>${topA.length} of ${list.filter(c=>c.tier==='A').length} tier A</span></header>
+      <ol class='dom-strongs'>${topA.map((c, i) => `
+        <li><a href='#/ins/${c.id}'>
+          <span class='dom-strongs-num'>${String(i+1).padStart(2,'0')}</span>
+          <span class='dom-strongs-claim'>${escapeHtml(c.claim)}</span>
+          <span class='dom-strongs-op'>${escapeHtml(c.operator)}</span>
+        </a></li>`).join('')}</ol>
+    </section>` : ''}
+
+    <div class='dom-grid'>
+      <section class='dom-block'>
+        <h3>Top operators</h3>
+        <ul class='dom-ops'>${topOps.map(([name, ct]) => {
+          const op = operators.find(o => o.name === name);
+          const slug = op ? op.slug : slugify(name);
+          return `<li><a href='#/o/${slug}'><span>${escapeHtml(name)}</span><span class='ct'>${ct}</span></a></li>`;
+        }).join('')}</ul>
+      </section>
+
+      ${relPatterns.length ? `<section class='dom-block'>
+        <h3>Synthesis patterns</h3>
+        <ul class='dom-pats'>${relPatterns.slice(0, 8).map(p => `
+          <li><a href='#/pat/${p.id}'>
+            ${p.tier ? tierBadge(p.tier) : ''}
+            <span>${escapeHtml(p.title)}</span>
+          </a></li>`).join('')}</ul>
+      </section>` : ''}
+
+      ${topLife.length ? `<section class='dom-block'>
+        <h3>Most-active lifecycle stages</h3>
+        <ul class='dom-life'>${topLife.map(([life, ct]) => `
+          <li><span class='dom-life-name'>${life.replace(/-/g,' ')}</span><span class='dom-life-bar'><span style='width:${(ct/list.length*100).toFixed(0)}%'></span></span><span class='dom-life-ct'>${ct}</span></li>`).join('')}</ul>
+      </section>` : ''}
+    </div>
+
+    <section class='dom-section'>
+      <header class='dom-sec-head'><h2>All ${list.length} cards</h2><a class='dom-sec-link' href='#/browse'>browse with filters →</a></header>
+      <div class='card-grid'>${list.slice(0, 24).map(cardTile).join('')}</div>
+      ${list.length > 24 ? `<p class='dom-more'><a href='#/browse'>see all ${list.length} →</a></p>` : ''}
+    </section>
   </section>`;
-  if (!reduced) ScrollTrigger.batch('.card.reveal', { onEnter: els => gsap.fromTo(els, { opacity:0, y:18 }, { opacity:1, y:0, duration:.6, ease:'power3.out', stagger:.03 }), start:'top 92%' });
+  if (!reduced){
+    gsap.from('.dom-head > *', { opacity:0, y:14, duration:.6, ease:'power2.out', stagger:.06 });
+    ScrollTrigger.batch('.dom-strongs li, .dom-block li, .card.reveal', { onEnter: els => gsap.fromTo(els, { opacity:0, y:12 }, { opacity:1, y:0, duration:.5, ease:'power2.out', stagger:.02 }), start:'top 95%' });
+  }
 }
 
 /* ============ PATTERNS ============ */
