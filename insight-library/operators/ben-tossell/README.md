@@ -5,6 +5,9 @@ roles:
   - Ben Tossell
 domains_active: [ai-native, product]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/ben-tossell-70453537/
+  website: https://bensbites.com/
 ---
 
 # Ben Tossell

@@ -8,6 +8,9 @@ roles:
   - co-creator of the Customer-Led Growth framework used by 200+ SaaS companies including Wistia
 domains_active: [pmm, growth, research]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/clairesuellentrop/
+  website: https://forgetthefunnel.com/
 ---
 
 # Claire Suellentrop

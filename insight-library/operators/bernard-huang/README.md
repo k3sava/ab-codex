@@ -8,6 +8,9 @@ roles:
   - and Conde Nast
 domains_active: [pmm, growth, research]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/bernardjhuang/
+  website: https://www.clearscope.io/
 ---
 
 # Bernard Huang

@@ -7,7 +7,8 @@ roles:
 domains_active: [growth-demand, gtm, strategy-bets]
 captured_first: 2026-05-01
 external:
-  reforge: https://www.reforge.com
+  linkedin: https://www.linkedin.com/in/bbalfour/
+  website: https://www.reforge.com/
   twitter: https://twitter.com/bbalfour
 ---
 

@@ -8,6 +8,9 @@ roles:
   - frequent contributor to LinkedIn and SaaStr on data-driven selling
 domains_active: [sales-cs, research, ai-native, leadership]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/chrisorlob/
+  website: https://www.pclub.io/
 ---
 
 # Chris Orlob

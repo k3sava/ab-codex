@@ -8,7 +8,7 @@ roles:
 domains_active: [leadership, founder-operator]
 captured_first: 2026-05-01
 external:
-  book: https://www.scalingpeople.com
+  linkedin: https://www.linkedin.com/in/claire-hughes-johnson-7058/
 ---
 
 # Claire Hughes Johnson

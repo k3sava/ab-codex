@@ -7,6 +7,9 @@ roles:
   - builder of Podscan
 domains_active: [ai-native, leadership]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/arvidkahl/
+  newsletter: https://thebootstrappedfounder.com/
 ---
 
 # Arvid Kahl

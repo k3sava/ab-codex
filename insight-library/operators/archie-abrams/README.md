@@ -5,7 +5,8 @@ roles:
   - VP Product & Growth, Shopify
 domains_active: [growth-demand, product]
 captured_first: 2026-05-01
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/archie-abrams-b6aa8b6/
 ---
 
 # Archie Abrams

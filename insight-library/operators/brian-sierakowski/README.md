@@ -7,7 +7,8 @@ roles:
   - 3x Founder (Multiple Exits)
 domains_active: [founder-craft, ai-native]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/briansierakowski/
 ---
 
 # Brian Sierakowski

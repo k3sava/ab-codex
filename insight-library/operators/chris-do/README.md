@@ -8,6 +8,9 @@ roles:
   - Former creative director of Blind
 domains_active: [pmm, product, ai-native, design]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/thechrisdo/
+  website: https://thefutur.com/
 ---
 
 # Chris Do

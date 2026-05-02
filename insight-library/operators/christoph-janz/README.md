@@ -5,6 +5,8 @@ roles:
   - General Partner and Co-founder of Point Nine Capital
 domains_active: [sales-cs, ai-native, leadership]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/christophjanz/
 ---
 
 # Christoph Janz

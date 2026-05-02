@@ -7,6 +7,9 @@ roles:
   - author of 'Never Split the Difference,' MasterClass instructor on negotiation
 domains_active: [sales-cs, research]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/christophervoss/
+  website: https://www.blackswanltd.com/
 ---
 
 # Chris Voss

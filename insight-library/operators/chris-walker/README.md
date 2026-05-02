@@ -8,6 +8,8 @@ roles:
   - created the HIRO Pipeline metric and Split the Funnel framework
 domains_active: [leadership, ai-native, growth, design]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/chriswalker171/
 ---
 
 # Chris Walker

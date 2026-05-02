@@ -7,7 +7,7 @@ roles:
 domains_active: [pmm, growth, gtm]
 captured_first: 2026-05-01
 external:
-  site: https://growthsprints.co/
+  linkedin: https://www.linkedin.com/in/brendanhufford/
 ---
 
 # Brendan Hufford

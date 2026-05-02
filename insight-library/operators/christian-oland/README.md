@@ -6,7 +6,8 @@ roles:
   - Helping businesses unlock 10x growth through growth hacking and AI
 domains_active: [growth, founder-craft, ai-native]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/c-oland/
 ---
 
 # Christian Oland

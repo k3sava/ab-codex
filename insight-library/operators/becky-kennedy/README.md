@@ -7,7 +7,8 @@ roles:
 domains_active: [leadership, founder-operator]
 captured_first: 2026-05-01
 external:
-  site: https://www.goodinside.com
+  linkedin: https://www.linkedin.com/in/drbecky/
+  website: https://www.goodinside.com/
 ---
 
 # Becky Kennedy

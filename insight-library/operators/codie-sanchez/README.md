@@ -8,6 +8,9 @@ roles:
   - Runs Main Street Holding Company
 domains_active: [leadership, growth]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/codiesanchez/
+  website: https://contrarianthinking.co/
 ---
 
 # Codie Sanchez

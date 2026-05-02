@@ -8,6 +8,9 @@ roles:
   - Founder of Win Without Pitching
 domains_active: [pmm, leadership, product, sales-cs, growth]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/blairenns/
+  website: https://www.winwithoutpitching.com/
 ---
 
 # Blair Enns

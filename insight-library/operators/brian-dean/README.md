@@ -8,6 +8,9 @@ roles:
   - built Backlinko to millions of monthly visitors through content-led SEO without paid advertising
 domains_active: [leadership, growth, pmm]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/brianedean/
+  website: https://backlinko.com/
 ---
 
 # Brian Dean

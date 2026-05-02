@@ -4,6 +4,9 @@ slug: bob-moesta
 roles: [Founder Re-Wired Group, JTBD co-creator, author "Demand-Side Sales 101"]
 domains_active: [pmm, product, research-discovery, sales]
 captured_first: 2026-05-02
+external:
+  linkedin: https://www.linkedin.com/in/bobmoesta/
+  website: https://www.rewiredgroup.com/
 ---
 
 # Bob Moesta

@@ -8,6 +8,8 @@ roles:
   - Considered one of the greatest investors and multi-disciplinary thinkers of the 20th and 21st centuries
 domains_active: [leadership, ai-native]
 captured_first: 2026-05-01
+external:
+  website: https://www.berkshirehathaway.com/
 ---
 
 # Charlie Munger

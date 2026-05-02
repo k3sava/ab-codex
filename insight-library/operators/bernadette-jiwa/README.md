@@ -5,6 +5,9 @@ roles:
   - Author of ten #1 Amazon bestsellers on marketing and brand storytelling
 domains_active: [design, pmm, leadership]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/bernadette-jiwa-aa00b329/
+  website: https://www.thestoryoftelling.com/
 ---
 
 # Bernadette Jiwa

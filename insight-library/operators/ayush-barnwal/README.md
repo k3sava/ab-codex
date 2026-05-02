@@ -7,7 +7,8 @@ roles:
   - Shipped 144+ Websites
 domains_active: [growth, founder-craft]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/ayush-barnwal/
 ---
 
 # Ayush Barnwal
