@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-02T15:07:35.954Z",
+  "generated_at": "2026-05-02T15:53:33.911Z",
   "counts": {
-    "insights": 166,
+    "insights": 170,
     "operators": 190,
-    "raw_sources": 81,
+    "raw_sources": 87,
     "patterns": 24,
     "contradictions": 9,
     "playbooks": 23
@@ -1616,6 +1616,33 @@
         "ins_willingness-to-pay-by-segment"
       ],
       "raw_ref": "raw/podcasts/andrew-wilkinson--niche-markets-lazy-leadership--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_flywheel-ai-cross-functional-pod.md",
+      "title": "Cross-functional pod (product + eng + data + ops + marketing) is the org unit for agentic GTM",
+      "id": "ins_flywheel-ai-cross-functional-pod",
+      "operator": "Kieran Flanagan",
+      "operator_role": "Lead, Agentic GTM & Systems group, HubSpot",
+      "source_url": "https://www.linkedin.com/posts/kieranjflanagan_im-officially-no-longer-a-marketer-and-activity-7455968776593801216-4Hwm",
+      "source_type": "thread",
+      "source_title": "I'm officially no longer a marketer — Flywheel AI pod",
+      "source_date": "2026-05-01",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "ai-native",
+        "gtm",
+        "leadership"
+      ],
+      "lifecycle": [
+        "hiring-team-design",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/linkedin/ship-queue/kieran-flanagan-2026-05-01-agentic-gtm.md"
     },
     {
       "path": "insights/ins_force-for-positive-momentum.md",
@@ -3244,6 +3271,34 @@
       "raw_ref": "raw/podcasts/amol-avasare--anthropic-growth-cash--2026-04-05.md"
     },
     {
+      "path": "insights/ins_pmm-activates-five-teams-not-two.md",
+      "title": "Positioning compounds when it ships as tooling to five teams, not just sales",
+      "id": "ins_pmm-activates-five-teams-not-two",
+      "operator": "Yi Lin Pei",
+      "operator_role": "PMM coach and consultant, Courageous Careers; former 3x PMM leader",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7270141062927527936",
+      "source_type": "thread",
+      "source_title": "Most PMMs stop at creating positioning; the impact comes from translating it into tools for every team",
+      "source_date": "2026-04-10",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "gtm",
+        "sales"
+      ],
+      "lifecycle": [
+        "sales-enablement",
+        "messaging-narrative",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/linkedin/pmm-mining/linkedin-saved-posts-2026-04-10.md"
+    },
+    {
       "path": "insights/ins_pmm-as-infrastructure-not-gate.md",
       "title": "PMM is infrastructure that makes other functions faster, not a launch gate they wait on",
       "id": "ins_pmm-as-infrastructure-not-gate",
@@ -3443,6 +3498,32 @@
         "ins_market-to-product-product-to-market"
       ],
       "raw_ref": "raw/essays/multi-operator--marketer-rotation-pmm-builder-takes--2026-05.md"
+    },
+    {
+      "path": "insights/ins_principal-gtm-engineer-role-now-exists.md",
+      "title": "A new GTM-engineering executive role is forming, and it didn't exist 6 months ago",
+      "id": "ins_principal-gtm-engineer-role-now-exists",
+      "operator": "Kieran Flanagan",
+      "operator_role": "Lead, Agentic GTM & Systems group, HubSpot",
+      "source_url": "https://www.linkedin.com/posts/kieranjflanagan_im-officially-no-longer-a-marketer-and-activity-7455968776593801216-4Hwm",
+      "source_type": "thread",
+      "source_title": "I'm officially no longer a marketer — the role didn't exist 6 months ago",
+      "source_date": "2026-05-01",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "ai-native",
+        "leadership",
+        "gtm"
+      ],
+      "lifecycle": [
+        "hiring-team-design"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 5, specificity: 4, evidence: 5, transferability: 3, source: 5 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/linkedin/ship-queue/kieran-flanagan-2026-05-01-agentic-gtm.md"
     },
     {
       "path": "insights/ins_principal-ic-is-force-multiplier.md",
@@ -4515,6 +4596,32 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/digests/miniu-ai-digest-2026-05-01.md"
+    },
+    {
+      "path": "insights/ins_translate-pmm-activities-to-exec-speak.md",
+      "title": "PMMs lose influence when they report activities; translate every activity into a business outcome",
+      "id": "ins_translate-pmm-activities-to-exec-speak",
+      "operator": "Yi Lin Pei",
+      "operator_role": "PMM coach and consultant, Courageous Careers; former 3x PMM leader",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7344064798277427200",
+      "source_type": "thread",
+      "source_title": "PMM work is misunderstood because we describe activities, not outcomes",
+      "source_date": "2026-04-10",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "leadership"
+      ],
+      "lifecycle": [
+        "measurement-experimentation",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/linkedin/pmm-mining/linkedin-saved-posts-2026-04-10.md"
     },
     {
       "path": "insights/ins_transparency-in-uncertainty.md",
@@ -8473,6 +8580,108 @@
         "concepts/ai-native-marketing-org.md",
         "concepts/principal-marketer-flywheel.md",
         "projects/justcall-portfolio.md"
+      ]
+    },
+    {
+      "path": "raw/linkedin/pmm-mining/linkedin-saved-posts-2026-04-10.md"
+    },
+    {
+      "path": "raw/linkedin/ship-queue/2026-adam-renklint-pitch.md",
+      "type": "raw",
+      "source": "linkedin-post",
+      "source_url": "unknown",
+      "author": "Adam Renklint",
+      "author_role": "co-founder, Pitch",
+      "captured": "2026-04-11",
+      "attribution": "self-reported",
+      "status": "stub",
+      "tags": [
+        "ship-queue",
+        "tier-1",
+        "pitch",
+        "operator-voice"
+      ],
+      "related": [
+        "../../projects/career-ops.md",
+        "../../concepts/archetype-tiering.md"
+      ]
+    },
+    {
+      "path": "raw/linkedin/ship-queue/2026-devran-karaca-kyra.md",
+      "type": "raw",
+      "source": "linkedin-post",
+      "source_url": "unknown",
+      "author": "Devran Karaca",
+      "author_role": "founder, Kyra",
+      "captured": "2026-04-11",
+      "attribution": "self-reported",
+      "status": "stub",
+      "tags": [
+        "ship-queue",
+        "tier-1",
+        "kyra",
+        "operator-voice"
+      ],
+      "related": [
+        "../../projects/career-ops.md",
+        "../../concepts/archetype-tiering.md"
+      ]
+    },
+    {
+      "path": "raw/linkedin/ship-queue/2026-julien-sauvage-cordial.md",
+      "type": "raw",
+      "source": "linkedin-post",
+      "source_url": "unknown",
+      "author": "Julien Sauvage",
+      "author_role": "Cordial",
+      "captured": "2026-04-11",
+      "attribution": "self-reported",
+      "status": "stub",
+      "tags": [
+        "ship-queue",
+        "tier-2",
+        "cordial",
+        "forrester-wave"
+      ],
+      "related": [
+        "../../projects/career-ops.md",
+        "../../concepts/archetype-tiering.md"
+      ]
+    },
+    {
+      "path": "raw/linkedin/ship-queue/2026-rahul-chhabria-sentry.md",
+      "type": "raw",
+      "source": "linkedin-post",
+      "source_url": "unknown",
+      "author": "Rahul Chhabria",
+      "author_role": "Sentry",
+      "captured": "2026-04-11",
+      "attribution": "self-reported",
+      "status": "stub",
+      "tags": [
+        "ship-queue",
+        "tier-2",
+        "sentry"
+      ],
+      "related": [
+        "../../projects/career-ops.md",
+        "../../concepts/archetype-tiering.md"
+      ]
+    },
+    {
+      "path": "raw/linkedin/ship-queue/kieran-flanagan-2026-05-01-agentic-gtm.md",
+      "title": "I'm officially no longer a marketer (Kieran Flanagan, 2026-05-01)",
+      "type": "raw",
+      "source": "https://www.linkedin.com/posts/kieranjflanagan_im-officially-no-longer-a-marketer-and-activity-7455968776593801216-4Hwm",
+      "author": "Kieran Flanagan (HubSpot)",
+      "captured": "2026-05-01",
+      "attribution": "direct",
+      "domain": "pmm",
+      "related": [
+        "concepts/agent-first-gtm-hubspot.md",
+        "concepts/principal-marketer-flywheel.md",
+        "concepts/ai-native-marketing-org.md",
+        "raw/articles/agent-first-gtm-hubspot-2026-04-28.md"
       ]
     },
     {
