@@ -10,7 +10,7 @@ source_date: 2026-04-10
 captured_date: 2026-05-03
 domain: [growth-demand, gtm]
 lifecycle: []
-maturity: applied
+maturity: stub
 artifact_class: framework
 score: { originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }
 tier: C
@@ -25,3 +25,7 @@ I generate inbound demand by integrating performance marketing, PPC, and SEO int
 
 ## Mechanism
 Empirical observation from operator presence.
+
+---
+
+*Thin source — this card is a stub. The operator is in the corpus but a substantive published claim hasn't surfaced yet. Pull request welcome with a better source.*

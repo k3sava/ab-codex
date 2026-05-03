@@ -10,7 +10,7 @@ source_date: 2026-04-10
 captured_date: 2026-05-03
 domain: [ai-native, growth-demand]
 lifecycle: []
-maturity: applied
+maturity: stub
 artifact_class: framework
 score: { originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }
 tier: C
@@ -25,3 +25,7 @@ The Agent.ai Challenge offers $50,000 in total prizes ($30K Innovation Award, $2
 
 ## Mechanism
 Empirical observation.
+
+---
+
+*Thin source — this card is a stub. The operator is in the corpus but a substantive published claim hasn't surfaced yet. Pull request welcome with a better source.*

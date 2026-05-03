@@ -9,7 +9,7 @@ source_date: 2026-04-10
 captured_date: 2026-05-02
 domain: [pmm, marketing, content]
 lifecycle: [positioning, messaging-narrative]
-maturity: frontier
+maturity: stub
 artifact_class: framework
 score: { originality: 3, specificity: 4, evidence: 2, transferability: 4, source: 4 }
 tier: B
@@ -43,3 +43,7 @@ No opposing view in current corpus.
 
 ## Cross-references
 - (none in current corpus)
+
+---
+
+*Thin source — this card is a stub. The operator is in the corpus but a substantive published claim hasn't surfaced yet. Pull request welcome with a better source.*

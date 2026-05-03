@@ -1,27 +1,33 @@
 ---
 id: ins_eric-mistry-zapier-hiring-generalist-application
-title: "Zapier's generalist application helped Eric land his role, and he's never been happier in a job."
+title: 'Customer education has to break silos with success and marketing to scale'
 operator: Eric Mistry
 operator_role: 'Automation, AI, Educational Technology, & Organization Development Expert | Helping People and Technology Work Together | Innovator & Relentless Problem Solver | Dad of 2 with Puns to Match'
-source_url: https://www.linkedin.com/feed/update/urn:li:activity:7378280440522203136/
+source_url: https://customer.education/podcast/celab-episode-162-ai-automation-and-the-future-of-customer-education-breaking-down-silos-with-eric-mistry/
 source_type: thread
-source_title: "Zapier's generalist application helped Eric land his role, and he's never been h"
+source_title: 'CELab Episode 162 — AI, Automation, and the Future of Customer Education with Eric Mistry'
 source_date: 2026-04-10
-captured_date: 2026-05-03
+captured_date: 2026-05-04
 domain: [founder-operator, hiring]
 lifecycle: []
 maturity: applied
 artifact_class: framework
 score: { originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }
-tier: C
+tier: B
 related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Zapier's generalist application helped Eric land his role, and he's never been happier in a job.
+# Customer education has to break silos with success and marketing to scale
 
 ## Claim
-Eric reports that after three weeks at Zapier, he is happier than in any previous job, citing great people, culture, and product. He also notes that the generalist application process was key to him landing his current role.
+
+Customer education's next leap depends on breaking down the organizational silos between education, customer success, and marketing — and on treating learning interventions like a product with clean data architecture underneath. AI and automation only scale education when teams collaborate as a community of practice rather than running parallel content factories.
 
 ## Mechanism
-Empirical observation.
+
+Education content fragments when each function owns its own slice — onboarding from CS, evergreen from marketing, in-product from edu. Customers see the seams. A shared data architecture and editorial process lets each team contribute the right asset at the right moment in the journey, and AI amplifies that instead of multiplying the seams.
+
+## Conditions
+
+Holds in mature SaaS with multiple touchpoints (in-product, docs, webinars, marketing). Fails in early-stage where one person owns all of education by default.

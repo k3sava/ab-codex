@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-03T18:41:58.799Z",
+  "generated_at": "2026-05-03T18:56:47.534Z",
   "counts": {
     "insights": 630,
     "operators": 453,
@@ -152,15 +152,15 @@
     },
     {
       "path": "insights/ins_aakrit-vaish-indian-ai-founders-not-behind.md",
-      "title": "'Indian AI founders are not behind their US counterparts; in applied AI, they may be ahead.'",
+      "title": "\"India's AI advantage is applied — not foundational — and that's where founders should bet\"",
       "id": "ins_aakrit-vaish-indian-ai-founders-not-behind",
       "operator": "Aakrit Vaish",
       "operator_role": "Activating AI in India",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7377322109485645824/",
+      "source_url": "https://activatesignal.substack.com/",
       "source_type": "thread",
-      "source_title": "'Indian AI founders are not behind their US counterparts; in applied AI, they may'",
+      "source_title": "\"Activate Signal — India's AI Stack: What Startups Are Using in Production\"",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-03",
+      "captured_date": "2026-05-04",
       "domain": [
         "pmm"
       ],
@@ -607,7 +607,7 @@
         "community"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -974,7 +974,7 @@
         "founder-operator"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -996,7 +996,7 @@
         "pmm"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -1071,15 +1071,15 @@
     },
     {
       "path": "insights/ins_albert-malikov-pmm-as-craft-not-title.md",
-      "title": "'PMM is a craft, not a title — hire for taste and trajectory, not pedigree.'",
+      "title": "'Agentic AI in finance has to work inside accounting processes, not around them'",
       "id": "ins_albert-malikov-pmm-as-craft-not-title",
       "operator": "Albert Malikov",
       "operator_role": "CEO @ Stacks | AI for Enterprise Accounting | Breaking Down AI in Finance",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7443483793648267264/",
+      "source_url": "https://stacks.ai/resources/introducing-agentic-ai-the-next-leap-for-finance",
       "source_type": "thread",
-      "source_title": "'PMM is a craft, not a title — hire for taste and trajectory, not pedigree.'",
+      "source_title": "'Introducing Agentic AI: The Next Leap for Finance'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-03",
+      "captured_date": "2026-05-04",
       "domain": [
         "pmm"
       ],
@@ -1120,15 +1120,15 @@
     },
     {
       "path": "insights/ins_alina-vandenberghe-recruiting-process-transparency.md",
-      "title": "'Following the normal recruiting process gives best chances; CEO has no influence but sends good vibes'",
+      "title": "'Communication is the leverage skill that turns founder-CEO into co-CEO'",
       "id": "ins_alina-vandenberghe-recruiting-process-transparency",
       "operator": "Alina Vandenberghe 🌶️",
       "operator_role": "Co-founder & co-CEO @Chili Piper 🔥 Here I talk about lessons I learned to jumpstart my career from intern to SVP. And to grow a company from 0 to almost $1Bn",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7402390651390242816/",
+      "source_url": "http://chilipiper.com/post/cmo-lessons",
       "source_type": "thread",
-      "source_title": "'Following the normal recruiting process gives best chances; CEO has no influence'",
+      "source_title": "'Lessons after 12 months of CMO-ing'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-03",
+      "captured_date": "2026-05-04",
       "domain": [
         "hiring"
       ],
@@ -1136,7 +1136,7 @@
       "maturity": "applied",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
-      "tier": "C",
+      "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
@@ -1171,15 +1171,15 @@
     },
     {
       "path": "insights/ins_always-believed-being-transparent-what.md",
-      "title": "I've always believed in being transparent with what we do, so here's the full breakup:",
+      "title": "'Pattern interrupts beat optimization in early-stage SaaS marketing'",
       "id": "ins_always-believed-being-transparent-what",
       "operator": "Madhav Bhandari",
       "operator_role": "'Pattern Interrupt Marketing book coming soon | Head of Marketing @ Storylane'",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7430720903178625024/",
+      "source_url": "https://marketingremix.libsyn.com/meet-the-marketer-madhav-bhandari-storylane",
       "source_type": "thread",
-      "source_title": "'We''re spending $3'",
+      "source_title": "'Meet the Marketer: Madhav Bhandari, Storylane'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-02",
+      "captured_date": "2026-05-04",
       "domain": [
         "pmm",
         "marketing",
@@ -1192,7 +1192,7 @@
       "maturity": "frontier",
       "artifact_class": "metric-model",
       "score": "{ originality: 3, specificity: 5, evidence: 3, transferability: 4, source: 4 }",
-      "tier": "A",
+      "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
@@ -1225,15 +1225,15 @@
     },
     {
       "path": "insights/ins_amanda-groves-kill-a-product-launch.md",
-      "title": "'A single bug can kill a product launch, so PMMs must fight for launch readiness.'",
+      "title": "'Two-bucket GA launches break enablement — avoid them at all cost'",
       "id": "ins_amanda-groves-kill-a-product-launch",
       "operator": "Amanda Groves 🏃🏼‍♀️",
       "operator_role": "VP Product Marketing | 5x Top 100 PMM | Startup to Scaleup Expertise | Ultra runner | Artist | Mom x2",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7336364926254333952/",
+      "source_url": "http://sharebird.com/h/product-marketing/q/can-you-tell-us-about-a-time-when-a-product-launch-was-challenging-to-execute-what-made-it-challenging-and-how-did-you-adapt-to-the-challenges",
       "source_type": "thread",
-      "source_title": "'A single bug can kill a product launch, so PMMs must fight for launch readiness.'",
+      "source_title": "'Can you tell us about a time when a product launch was challenging? — Amanda Groves answer'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-03",
+      "captured_date": "2026-05-04",
       "domain": [
         "pmm"
       ],
@@ -1243,7 +1243,7 @@
       "maturity": "applied",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
-      "tier": "B",
+      "tier": "C",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
@@ -1316,7 +1316,7 @@
         "ai-native"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -1389,7 +1389,7 @@
         "pmm"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -1458,7 +1458,7 @@
         "gtm"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -1503,7 +1503,7 @@
         "product"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -1534,15 +1534,15 @@
     },
     {
       "path": "insights/ins_anjli-jain-growth-architect-marketing.md",
-      "title": "'Marketing should be a growth architect turning brand into pipeline and category leadership.'",
+      "title": "'AI-first companies should be born inside institutions, not against them'",
       "id": "ins_anjli-jain-growth-architect-marketing",
       "operator": "Anjli Jain",
       "operator_role": "'General Partner I Venture Capital | ProHuman I AI Education & Workforce Tech I AI Cybersecurity I AI Healthcare & Human Performance I Food, Nutrition & GenTech | Philanthropist I Kathak Artist'",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7402390784836341760/",
+      "source_url": "https://medium.com/@anjlijain460/how-institutions-shape-better-technology-lessons-from-two-decades-on-the-front-lines-725f635380b3",
       "source_type": "thread",
-      "source_title": "'Marketing should be a growth architect turning brand into pipeline and category '",
+      "source_title": "'How Institutions Shape Better Technology: Lessons From Two Decades on the Front Lines'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-03",
+      "captured_date": "2026-05-04",
       "domain": [
         "pmm"
       ],
@@ -1550,7 +1550,7 @@
       "maturity": "applied",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
-      "tier": "C",
+      "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
@@ -1707,15 +1707,15 @@
     },
     {
       "path": "insights/ins_ashwin-krishna-ashwin-krishna-abm-saas.md",
-      "title": "'Scaling SaaS from zero to IPO with ABM'",
+      "title": "'ABM is the most-talked, least-implemented growth strategy in B2B SaaS'",
       "id": "ins_ashwin-krishna-ashwin-krishna-abm-saas",
       "operator": "Ashwin Krishna",
       "operator_role": "'Founder, Growton / Scaled SaaS companies from 0 to IPO / ABM agency partner'",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7396432553026650112",
+      "source_url": "https://medium.com/growton/the-6-step-account-based-marketing-framework-5aaf21144eb9",
       "source_type": "thread",
-      "source_title": "'Scaling SaaS from zero to IPO with ABM'",
+      "source_title": "'A practical Account-Based Marketing Guide'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-03",
+      "captured_date": "2026-05-04",
       "domain": [
         "growth-demand",
         "gtm"
@@ -1724,7 +1724,7 @@
       "maturity": "applied",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
-      "tier": "C",
+      "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
@@ -1743,7 +1743,7 @@
         "pmm"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -1752,15 +1752,15 @@
     },
     {
       "path": "insights/ins_ask-revenue-impact-how-much.md",
-      "title": "3) Ask for revenue impact: \"How much revenue is attached to this? Is there a renewal on",
+      "title": "'Fix weak messaging by reordering — value, then benefit, then feature'",
       "id": "ins_ask-revenue-impact-how-much",
       "operator": "Richard King",
       "operator_role": "'Talking truth on leadership, growth & product marketing | 5x founder | 3x exits |'",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7347511610162233345/",
+      "source_url": "https://productmarketingalliance.substack.com/p/the-one-simple-rule-to-better-messaging",
       "source_type": "thread",
-      "source_title": "'STOP making 1 pagers ✋'",
+      "source_title": "'The one (simple) rule to better messaging'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-02",
+      "captured_date": "2026-05-04",
       "domain": [
         "pmm",
         "gtm",
@@ -1773,7 +1773,7 @@
       "maturity": "frontier",
       "artifact_class": "playbook",
       "score": "{ originality: 3, specificity: 5, evidence: 3, transferability: 4, source: 4 }",
-      "tier": "A",
+      "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
@@ -2013,15 +2013,15 @@
     },
     {
       "path": "insights/ins_been-quietly-building-something-big.md",
-      "title": "We’ve been quietly building something big … and now we just can’t wait to ring that bel",
+      "title": "'Solve a problem you faced — not one you imagine — when pivoting'",
       "id": "ins_been-quietly-building-something-big",
       "operator": "Akash Anand",
       "operator_role": "'Cofounder, CEO @ Clueso | AI Video Creation Platform'",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7350786542128254977/",
+      "source_url": "https://www.clueso.io/blog/announcing-our-seed-funding",
       "source_type": "thread",
-      "source_title": "'We’re within 𝘵𝘰𝘶𝘤𝘩𝘪𝘯𝘨 𝘥𝘪𝘴𝘵𝘢𝘯𝘤𝘦 of our biggest launch yet!'",
+      "source_title": "'Announcing our $1.4M seed funding — Clueso'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-02",
+      "captured_date": "2026-05-04",
       "domain": [
         "pmm",
         "gtm",
@@ -2869,7 +2869,7 @@
         "pmm"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -2878,15 +2878,15 @@
     },
     {
       "path": "insights/ins_chirayu-akotiya-content-engine-scaling.md",
-      "title": "'Content engine at Multiplier is scaling up, seeking freelance writers for global employment and compliance'",
+      "title": "'Replace the marketing org with a growth team to fix GTM alignment'",
       "id": "ins_chirayu-akotiya-content-engine-scaling",
       "operator": "Chirayu Akotiya",
       "operator_role": "Global Head of Marketing | Hiring for Field Marketing and ABM Leaders",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7406343487996010498/",
+      "source_url": "https://www.campfirelabs.co/blog/growth-or-marketing-team",
       "source_type": "thread",
-      "source_title": "'Content engine at Multiplier is scaling up, seeking freelance writers for global'",
+      "source_title": "\"Leena AI's Chirayu Akotiya: Growth Teams are the Future of Go-To-Market\"",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-03",
+      "captured_date": "2026-05-04",
       "domain": [
         "content"
       ],
@@ -2894,7 +2894,7 @@
       "maturity": "applied",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
-      "tier": "C",
+      "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
@@ -3835,15 +3835,15 @@
     },
     {
       "path": "insights/ins_darcy-jacobsen-hiring-writer-thinker.md",
-      "title": "'Hiring a writer/thinker for content strategy role at Workhuman'",
+      "title": "'Recognition is the missing infrastructure layer for AI adoption'",
       "id": "ins_darcy-jacobsen-hiring-writer-thinker",
       "operator": "Darcy Jacobsen",
       "operator_role": "Content Savant",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7446430709168308224/",
+      "source_url": "https://www.workhuman.com/authors/darcy-jacobsen/",
       "source_type": "thread",
-      "source_title": "'Hiring a writer/thinker for content strategy role at Workhuman'",
+      "source_title": "'Darcy Jacobsen — Workhuman author archive'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-03",
+      "captured_date": "2026-05-04",
       "domain": [
         "content",
         "hiring"
@@ -3852,7 +3852,7 @@
       "maturity": "applied",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
-      "tier": "C",
+      "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
@@ -3872,7 +3872,7 @@
         "gtm"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -4088,7 +4088,7 @@
         "pmm"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "B",
@@ -4482,15 +4482,15 @@
     },
     {
       "path": "insights/ins_dream-role-marketer-who-loves.md",
-      "title": "This is a dream role for a marketer who loves content and wants to own big projects in",
+      "title": "'Community is the most powerful ingredient in B2B marketing because it taps shared interest'",
       "id": "ins_dream-role-marketer-who-loves",
       "operator": "Dan Murphy",
       "operator_role": "'CEO of Exit Five. Drive 2026 tickets now on sale.'",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7381777595241185280/",
+      "source_url": "https://www.exitfive.com/podcast/should-you-invest-in-community",
       "source_type": "thread",
-      "source_title": "'🚨 We’re hiring a Content Marketing Manager at Exit Five'",
+      "source_title": "'#307: Should You Invest in Community? — Exit Five Podcast'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-02",
+      "captured_date": "2026-05-04",
       "domain": [
         "hiring",
         "leadership",
@@ -4503,7 +4503,7 @@
       "maturity": "applied",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 5, evidence: 3, transferability: 4, source: 4 }",
-      "tier": "A",
+      "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
@@ -4548,7 +4548,7 @@
         "pmm"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -4737,7 +4737,7 @@
         "pmm"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -5005,15 +5005,15 @@
     },
     {
       "path": "insights/ins_eric-mistry-zapier-hiring-generalist-application.md",
-      "title": "\"Zapier's generalist application helped Eric land his role, and he's never been happier in a job.\"",
+      "title": "'Customer education has to break silos with success and marketing to scale'",
       "id": "ins_eric-mistry-zapier-hiring-generalist-application",
       "operator": "Eric Mistry",
       "operator_role": "'Automation, AI, Educational Technology, & Organization Development Expert | Helping People and Technology Work Together | Innovator & Relentless Problem Solver | Dad of 2 with Puns to Match'",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7378280440522203136/",
+      "source_url": "https://customer.education/podcast/celab-episode-162-ai-automation-and-the-future-of-customer-education-breaking-down-silos-with-eric-mistry/",
       "source_type": "thread",
-      "source_title": "\"Zapier's generalist application helped Eric land his role, and he's never been h\"",
+      "source_title": "'CELab Episode 162 — AI, Automation, and the Future of Customer Education with Eric Mistry'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-03",
+      "captured_date": "2026-05-04",
       "domain": [
         "founder-operator",
         "hiring"
@@ -5022,7 +5022,7 @@
       "maturity": "applied",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
-      "tier": "C",
+      "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
@@ -5422,7 +5422,7 @@
         "positioning",
         "messaging-narrative"
       ],
-      "maturity": "frontier",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 4, evidence: 2, transferability: 4, source: 4 }",
       "tier": "B",
@@ -5625,15 +5625,15 @@
     },
     {
       "path": "insights/ins_g2-ai-reshaping-marketing-playbook.md",
-      "title": "'AI is reshaping the modern marketing playbook from content to operations.'",
+      "title": "'AI search is now a software marketplace — demand gen must adapt or vanish'",
       "id": "ins_g2-ai-reshaping-marketing-playbook",
       "operator": "G2",
       "operator_role": "'Artificial Intelligence is reshaping the modern marketing playbook. From content to operations, AI is changing everything. Read G2''s AI Marketing Mind to learn how marketers are adapting.'",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7344364460402229249/",
+      "source_url": "https://learn.g2.com/tech-signals-demand-gen-playbook-2026?hsLang=en",
       "source_type": "thread",
-      "source_title": "'AI is reshaping the modern marketing playbook from content to operations.'",
+      "source_title": "'Always-on Demand Generation: How AI Is Changing B2B Marketing in 2026'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-03",
+      "captured_date": "2026-05-04",
       "domain": [
         "pmm"
       ],
@@ -5641,7 +5641,7 @@
       "maturity": "applied",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
-      "tier": "C",
+      "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
@@ -5710,7 +5710,7 @@
         "pmm"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -5991,7 +5991,7 @@
         "pmm"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -6220,7 +6220,7 @@
         "pmm"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -6229,15 +6229,15 @@
     },
     {
       "path": "insights/ins_harshit-jain-developer-marketers-rare-breed.md",
-      "title": "'Developer marketers are a rare breed because few can both understand and explain the tech.'",
+      "title": "'Technical PMM is the rare hire that lets you market to engineers — without translation loss'",
       "id": "ins_harshit-jain-developer-marketers-rare-breed",
       "operator": "Harshit Jain",
       "operator_role": "Principal PMM @ ClickUp | only product marketer who loves code",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7407728929895202816/",
+      "source_url": "https://newsletter.qback.ai/about",
       "source_type": "thread",
-      "source_title": "'Developer marketers are a rare breed because few can both understand and explain'",
+      "source_title": "'QBack: AI Quarterback for GTM — About Harshit Jain'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-03",
+      "captured_date": "2026-05-04",
       "domain": [
         "pmm"
       ],
@@ -6245,7 +6245,7 @@
       "maturity": "applied",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
-      "tier": "C",
+      "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
@@ -6400,15 +6400,15 @@
     },
     {
       "path": "insights/ins_here-how-marketing-should-think.md",
-      "title": "Here’s how marketing should think instead:",
+      "title": "'In 2026, GTM bets are made by leaders who own a team, a budget, and a number'",
       "id": "ins_here-how-marketing-should-think",
       "operator": "Roxana Irimia",
       "operator_role": "'VP Marketing at Chili Piper 🌶️ | ex-Head of Marketing at lemlist | “she’s the marketing roxstar” | FOLLOW to save hours of Marketing, Content, Product Marketing and Branding research'",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7338491826938486784/",
+      "source_url": "http://www.chilipiper.com/post/2026-what-works-from-leaders-doing-the-work",
       "source_type": "thread",
-      "source_title": "'99% of B2B content is made backwards'",
+      "source_title": "'2026: What works (from leaders doing the work)'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-02",
+      "captured_date": "2026-05-04",
       "domain": [
         "content",
         "marketing",
@@ -7178,7 +7178,7 @@
         "pmm"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -7214,15 +7214,15 @@
     },
     {
       "path": "insights/ins_ivan-wang-cmo-evotrex.md",
-      "title": "'Drives B2B growth through data-driven marketing strategies'",
+      "title": "'All-electric trailers fail because they steal the boondocking battery — fix it with onboard generation'",
       "id": "ins_ivan-wang-cmo-evotrex",
       "operator": "Ivan Wang",
       "operator_role": "'Chief Marketing Officer, Evotrex'",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7368777468293369856/",
+      "source_url": "https://rv-pro.com/uncategorized/oems-discuss-which-ev-segment-is-on-their-radar-benefits-of-ev/",
       "source_type": "thread",
-      "source_title": "'Drives B2B growth through data-driven marketing strategies'",
+      "source_title": "'OEMs Discuss Benefits & Challenges of EV RVs for RVers — Ivan Wang interview'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-03",
+      "captured_date": "2026-05-04",
       "domain": [
         "growth-demand",
         "marketing"
@@ -7231,7 +7231,7 @@
       "maturity": "applied",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
-      "tier": "C",
+      "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
@@ -7272,7 +7272,7 @@
         "founder-operator"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -7281,15 +7281,15 @@
     },
     {
       "path": "insights/ins_james-buckley-creative-selling-stands-out.md",
-      "title": "'Creative selling is the only way to stand out in a crowded market.'",
+      "title": "'Sales is craft — the front line is the tip of the spear, not a commodity layer'",
       "id": "ins_james-buckley-creative-selling-stands-out",
       "operator": "James Buckley",
       "operator_role": "Partnerships & Host of Sell Better 🎥",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7396432447464333312/",
+      "source_url": "https://www.stackforce.co/talent/james-buckley-partnerships-manager-69ca27f52ab77a389363636d",
       "source_type": "thread",
-      "source_title": "'Creative selling is the only way to stand out in a crowded market.'",
+      "source_title": "'James Buckley — Host of the Daily Sales Show, Sell Better'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-03",
+      "captured_date": "2026-05-04",
       "domain": [
         "pmm"
       ],
@@ -7428,15 +7428,15 @@
     },
     {
       "path": "insights/ins_james-doman-positioning-not-democratic-vote.md",
-      "title": "'Positioning is a strategic decision, not a democratic vote.'",
+      "title": "'Product launches have become marketing theatre — build for momentum, not noise'",
       "id": "ins_james-doman-positioning-not-democratic-vote",
       "operator": "James Doman",
       "operator_role": "'Positioning & Launches for B2B SaaS & AI | Co-founder, Inflection Studio | Product Marketing Consultant | Ex-Remote'",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7430720363430440960/",
+      "source_url": "https://newsletter.buildingmomentum.io/p/the-product-launch-has-become-a-vanity",
       "source_type": "thread",
-      "source_title": "'Positioning is a strategic decision, not a democratic vote.'",
+      "source_title": "'The product launch has become a vanity exercise — Building Momentum'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-03",
+      "captured_date": "2026-05-04",
       "domain": [
         "pmm",
         "strategy"
@@ -7447,7 +7447,7 @@
       "maturity": "applied",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
-      "tier": "B",
+      "tier": "A",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
@@ -7466,7 +7466,7 @@
         "pmm"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -7475,15 +7475,15 @@
     },
     {
       "path": "insights/ins_jatin-saini-brand-taglines-vs-reality.md",
-      "title": "'Brand taglines are marketing poetry that reality slaps down.'",
+      "title": "'Investors decide trust in 100 milliseconds — your personal brand starts on LinkedIn, not in the boardroom'",
       "id": "ins_jatin-saini-brand-taglines-vs-reality",
       "operator": "Jatin Saini",
       "operator_role": "'I build personal brands for CEOs, VCs & founders'",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7355640645308309536/",
+      "source_url": "https://www.linkedin.com/posts/jatin-saini_personalbranding-activity-7322459921709432832-FxJq",
       "source_type": "thread",
-      "source_title": "'Brand taglines are marketing poetry that reality slaps down.'",
+      "source_title": "'How CEOs prep for ₹50 crore investor questions — Jatin Saini'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-03",
+      "captured_date": "2026-05-04",
       "domain": [
         "pmm"
       ],
@@ -7544,15 +7544,15 @@
     },
     {
       "path": "insights/ins_jonathan-pipek-pmm-c-suite-survey.md",
-      "title": "'PMMs working with C-Suite have a specific dynamic worth studying'",
+      "title": "'Modern B2B PMM lives or dies on distribution and partnerships'",
       "id": "ins_jonathan-pipek-pmm-c-suite-survey",
       "operator": "Jonathan Pipek 🔱",
       "operator_role": "Product Marketing Consultant & Recruiter for B2B SaaS Startups & Scaleups | 2025 Top Product Marketing Consultant | 2x Top 100 Product Marketing Influencer | Kellogg MBA",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7430732235726626816/",
+      "source_url": "https://cyberpmm.com/s3e2-jonathan-pipek-on-modern-b2b-product-marketing-realities/",
       "source_type": "thread",
-      "source_title": "'PMMs working with C-Suite have a specific dynamic worth studying'",
+      "source_title": "'S3:E2 — Jonathan Pipek on Modern B2B Product Marketing Realities'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-03",
+      "captured_date": "2026-05-04",
       "domain": [
         "pmm"
       ],
@@ -7560,7 +7560,7 @@
       "maturity": "applied",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
-      "tier": "C",
+      "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
@@ -7783,7 +7783,7 @@
         "pmm"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -7814,15 +7814,15 @@
     },
     {
       "path": "insights/ins_kate-syuma-spacious-schedule-deep-work.md",
-      "title": "'Max 90 minutes of calls per day; the rest is deep work.'",
+      "title": "'After six years scaling Miro to a unicorn, the lesson was: design for transformation, not promotion'",
       "id": "ins_kate-syuma-spacious-schedule-deep-work",
       "operator": "Kate Syuma",
       "operator_role": "'Growth Advisor, ex-Miro | Founder at Growthmates | Speaker · Creator | PLG · Activation · UX'",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7378280999648088064/",
+      "source_url": "https://www.growthmates.news/p/from-ic-to-leader-in-growth-ex-miro",
       "source_type": "thread",
-      "source_title": "'Max 90 minutes of calls per day; the rest is deep work.'",
+      "source_title": "'From IC to Leader in Growth (ex-Miro) — Kate Syuma'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-03",
+      "captured_date": "2026-05-04",
       "domain": [
         "pmm"
       ],
@@ -7830,7 +7830,7 @@
       "maturity": "applied",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
-      "tier": "C",
+      "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
@@ -8121,7 +8121,7 @@
         "pmm"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -8143,7 +8143,7 @@
         "pmm"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "B",
@@ -8380,15 +8380,15 @@
     },
     {
       "path": "insights/ins_leah-knobler-customer-stories-at-center.md",
-      "title": "'PMM should put real customer stories at the center of the brand and make people feel product value.'",
+      "title": "\"If you ask candidates to do work, pay them — that's the recruiting hot take\"",
       "id": "ins_leah-knobler-customer-stories-at-center",
       "operator": "Leah Knobler",
       "operator_role": "VP of People at Help Scout | Strategic People Leader | AI Tinkerer | Talent Acquisition | Performance Management | Remote & Distributed Teams | DEI advocate",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7378327586189402112/",
+      "source_url": "https://www.ashbyhq.com/podcast/episodes/where-increasing-internal-transparency-and-accountability-can-lead-to-recruiting-team-success",
       "source_type": "thread",
-      "source_title": "'PMM should put real customer stories at the center of the brand and make people '",
+      "source_title": "'Where Increasing Internal Transparency and Accountability Can Lead to Recruiting Team Success — Leah Knobler'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-03",
+      "captured_date": "2026-05-04",
       "domain": [
         "pmm"
       ],
@@ -8396,7 +8396,7 @@
       "maturity": "applied",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
-      "tier": "C",
+      "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
@@ -8910,7 +8910,7 @@
         "pmm"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -9158,15 +9158,15 @@
     },
     {
       "path": "insights/ins_marketoonist-generations-not-monoliths.md",
-      "title": "'Generations are not monoliths; generational insights are too broad to be meaningful.'",
+      "title": "'Generational marketing is lazy — buyers within a generation differ more than across them'",
       "id": "ins_marketoonist-generations-not-monoliths",
       "operator": "Marketoonist",
       "operator_role": "'Throwback cartoon I drew in 2017, in the same vein as my latest post on “Brands Chasing Youth.”'",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7442970183792603136/",
+      "source_url": "https://marketoonist.com/2015/08/generations.html",
       "source_type": "thread",
-      "source_title": "'Generations are not monoliths; generational insights are too broad to be meaning'",
+      "source_title": "'Marketing to younger generations — Marketoonist'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-03",
+      "captured_date": "2026-05-04",
       "domain": [
         "pmm"
       ],
@@ -9174,7 +9174,7 @@
       "maturity": "applied",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
-      "tier": "B",
+      "tier": "C",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
@@ -9370,7 +9370,7 @@
         "pmm"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -9706,7 +9706,7 @@
         "pmm"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -9728,7 +9728,7 @@
         "founder-operator"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -10067,15 +10067,15 @@
     },
     {
       "path": "insights/ins_nina-churchill-pmm-rogue.md",
-      "title": "'PMMs going rogue is a humorous but real phenomenon in product marketing'",
+      "title": "'Same behavior, different headline — language is how women get evaluated, promoted, trusted'",
       "id": "ins_nina-churchill-pmm-rogue",
       "operator": "Nina Churchill",
       "operator_role": "Senior Product Marketing Leader | HR & Payroll SaaS | GTM Strategy & Positioning",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7444964437402456065/",
+      "source_url": "https://www.linkedin.com/posts/ninachurchill_the-words-we-use-to-describe-women-vs-men-activity-7426573079700606976-9hZW",
       "source_type": "thread",
-      "source_title": "'PMMs going rogue is a humorous but real phenomenon in product marketing'",
+      "source_title": "'The words we use to describe women vs. men — Nina Churchill'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-03",
+      "captured_date": "2026-05-04",
       "domain": [
         "pmm"
       ],
@@ -10742,7 +10742,7 @@
         "pmm"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "B",
@@ -10800,15 +10800,15 @@
     },
     {
       "path": "insights/ins_paul-adams-invented-magic-scratching-surface.md",
-      "title": "'We have invented magic and are barely scratching the surface of what AI can do.'",
+      "title": "'AI-first product means blowing up the roadmap — not adding AI features'",
       "id": "ins_paul-adams-invented-magic-scratching-surface",
       "operator": "Paul Adams",
       "operator_role": "CPO and Marketing at Intercom - building Fin.ai",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7416785489199845376/",
+      "source_url": "https://podcasts.apple.com/us/podcast/how-to-become-an-ai-first-pm-and-designer-paul-adams/id1736359687?i=1000655176207",
       "source_type": "thread",
-      "source_title": "'We have invented magic and are barely scratching the surface of what AI can do.'",
+      "source_title": "'How to Become an AI First PM and Designer — Paul Adams (CPO Intercom)'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-03",
+      "captured_date": "2026-05-04",
       "domain": [
         "pmm"
       ],
@@ -10816,7 +10816,7 @@
       "maturity": "applied",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
-      "tier": "C",
+      "tier": "A",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
@@ -10844,15 +10844,15 @@
     },
     {
       "path": "insights/ins_pavithra-krishnaswamy-sisyphean-pmm-journey.md",
-      "title": "'The PMM journey is Sisyphean but worth it'",
+      "title": "'Nobody chose product marketing — it chooses you'",
       "id": "ins_pavithra-krishnaswamy-sisyphean-pmm-journey",
       "operator": "Pavithra Krishnaswamy",
       "operator_role": "Product Marketing Leader | Musician | ex-Zoho / Mad Street Den / Skit.ai / Sprinklr",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7373951638149115904/",
+      "source_url": "https://www.linkedin.com/pulse/product-marketing-role-chooses-you-pavithra-krishnaswamy-sm74c",
       "source_type": "thread",
-      "source_title": "'The PMM journey is Sisyphean but worth it'",
+      "source_title": "'Product Marketing: The role that chooses you — Pavithra Krishnaswamy'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-03",
+      "captured_date": "2026-05-04",
       "domain": [
         "pmm"
       ],
@@ -10860,7 +10860,7 @@
       "maturity": "applied",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
-      "tier": "C",
+      "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
@@ -11139,15 +11139,15 @@
     },
     {
       "path": "insights/ins_pmm-as-infrastructure-not-gate.md",
-      "title": "PMM is infrastructure that makes other functions faster, not a launch gate they wait on",
+      "title": "'PLG sales-led companies need PLG, and PLG companies need sales — both, not one'",
       "id": "ins_pmm-as-infrastructure-not-gate",
       "operator": "Elena Verna",
       "operator_role": "Growth advisor; ex-CMO Lenny's Newsletter, ex-SurveyMonkey, ex-Miro",
-      "source_url": "https://www.elenaverna.com/p/whos-got-time-for-product-marketing",
+      "source_url": "https://www.lennyspodcast.com/the-ultimate-guide-to-product-led-sales-elena-verna/",
       "source_type": "essay",
-      "source_title": "Who's got time for product marketing?",
+      "source_title": "\"The ultimate guide to product-led sales — Elena Verna on Lenny's Podcast\"",
       "source_date": "2026-04-26",
-      "captured_date": "2026-05-01",
+      "captured_date": "2026-05-04",
       "domain": [
         "pmm",
         "leadership",
@@ -11458,7 +11458,7 @@
         "operations"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -11972,7 +11972,7 @@
         "pmm"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -11994,7 +11994,7 @@
         "product"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -12051,15 +12051,15 @@
     },
     {
       "path": "insights/ins_rapti-gupta-99-bookings-century-goal.md",
-      "title": "'99 bookings and pushing to hit a century by year-end with open calendar'",
+      "title": "'Marketing ROI starts before the pipeline — track leading metrics or you lose the budget'",
       "id": "ins_rapti-gupta-99-bookings-century-goal",
       "operator": "Rapti Gupta",
       "operator_role": "Head of Marketing @ Avataar Ventures | Strategic Marketing Leadership",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7408051492244422656/",
+      "source_url": "https://marketers-help-marketers-newsletter.beehiiv.com/p/roi-survival-guide-for-startup-marketers",
       "source_type": "thread",
-      "source_title": "'99 bookings and pushing to hit a century by year-end with open calendar'",
+      "source_title": "'ROI survival guide for startup marketers — Rapti Gupta'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-03",
+      "captured_date": "2026-05-04",
       "domain": [
         "pmm"
       ],
@@ -12067,7 +12067,7 @@
       "maturity": "applied",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
-      "tier": "C",
+      "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
@@ -12259,7 +12259,7 @@
         "growth-demand"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -12653,15 +12653,15 @@
     },
     {
       "path": "insights/ins_roman-gordy-admiring-people-first-leadership.md",
-      "title": "\"Admires Japan Airlines former CEO's people-first leadership approach\"",
+      "title": "\"Talent freedom beats freelancing arbitrage — and that's a defensible business model\"",
       "id": "ins_roman-gordy-admiring-people-first-leadership",
       "operator": "Roman Gordy",
       "operator_role": "CEO at Arbonum | Global Payments for Game Studios | 海外フリーランスへの支払い・契約管理",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7440253131810312192/",
+      "source_url": "https://techbullion.com/new-perspectives-on-remote-teams-interview-with-roman-gordy-ceo-of-arbonum/",
       "source_type": "thread",
-      "source_title": "\"Admires Japan Airlines former CEO's people-first leadership approach\"",
+      "source_title": "'Interview with Roman Gordy, CEO of Arbonum — TechBullion'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-03",
+      "captured_date": "2026-05-04",
       "domain": [
         "pmm"
       ],
@@ -12716,7 +12716,7 @@
         "gtm"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -12975,15 +12975,15 @@
     },
     {
       "path": "insights/ins_saniya-waghray-tyagi-chaos-to-clarity-launch-reality.md",
-      "title": "'Best-planned launches meet reality: moving from chaos to clarity'",
+      "title": "'Working out loud beats hindsight — the breadcrumb trail compounds'",
       "id": "ins_saniya-waghray-tyagi-chaos-to-clarity-launch-reality",
       "operator": "Saniya Waghray Tyagi",
       "operator_role": "'Product Marketing @ NBCUniversal | Talking careers, connection, & the power of showing up | Wharton MBA'",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7442243651671412736/",
+      "source_url": "https://www.linkedin.com/posts/saniyawaghray_i-recently-came-across-an-essay-titled-breadcrumbs-activity-7307382211257782273-Y4nG",
       "source_type": "thread",
-      "source_title": "'Best-planned launches meet reality: moving from chaos to clarity'",
+      "source_title": "'Breadcrumbs — Saniya Waghray Tyagi'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-03",
+      "captured_date": "2026-05-04",
       "domain": [
         "pmm"
       ],
@@ -12999,15 +12999,15 @@
     },
     {
       "path": "insights/ins_sanne-ijspeerd-story-evolves-with-product-phase.md",
-      "title": "'When a product enters a new phase, the story must evolve with it.'",
+      "title": "'Most B2B SaaS expansion fails because companies pick the wrong segment, not the wrong tactics'",
       "id": "ins_sanne-ijspeerd-story-evolves-with-product-phase",
       "operator": "Sanne IJspeerd",
       "operator_role": "Fractional Product Marketing Lead for B2B SaaS",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7446431026152824832/",
+      "source_url": "https://firstpmm.com/your-new-segment-isnt-converting-did-you-pick-the-wrong-one/",
       "source_type": "thread",
-      "source_title": "'When a product enters a new phase, the story must evolve with it.'",
+      "source_title": "\"Your new segment isn't converting. Did you pick the wrong one? — First PMM\"",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-03",
+      "captured_date": "2026-05-04",
       "domain": [
         "pmm"
       ],
@@ -13340,15 +13340,15 @@
     },
     {
       "path": "insights/ins_shali-rana-reed-gap-in-resume-retort.md",
-      "title": "\"Don't ask about resume gaps; worry about gaps on your team.\"",
+      "title": "'GTM is broken at the handoffs — invest in a single owner of the prospect-to-renewal journey'",
       "id": "ins_shali-rana-reed-gap-in-resume-retort",
       "operator": "Shali Rana Reed",
       "operator_role": "COO @ The Reeder | VC | Advisor",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7336471252171137024/",
+      "source_url": "https://www.linkedin.com/posts/shali-reed_day-1-of-drive-2025-is-in-the-books-here-activity-7371922025801699328-L1hY",
       "source_type": "thread",
-      "source_title": "\"Don't ask about resume gaps; worry about gaps on your team.\"",
+      "source_title": "'Day 1 of Drive 2025 takeaways — Shali Rana Reed'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-03",
+      "captured_date": "2026-05-04",
       "domain": [
         "pmm"
       ],
@@ -13356,7 +13356,7 @@
       "maturity": "applied",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
-      "tier": "B",
+      "tier": "C",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
@@ -13632,15 +13632,15 @@
     },
     {
       "path": "insights/ins_since-their-main-product-lemlist.md",
-      "title": "Since their main product, lemlist, is an all-in-one prospecting platform, it's also the",
+      "title": "'GTM flywheel: outbound + LinkedIn content + LinkedIn ads, syncing into one system'",
       "id": "ins_since-their-main-product-lemlist",
       "operator": "Michel Lieben 🧠",
       "operator_role": "'Founder & CEO at ColdIQ | Tomorrow’s GTM Systems, Built for you 👉 coldiq.com'",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7350786166670970886/",
+      "source_url": "https://thegtmengineer.substack.com/p/li-content-tech-stacks-and-using",
       "source_type": "thread",
-      "source_title": "'lemlist recently crossed $34,000,000 ARR'",
+      "source_title": "'LI Content, Tech Stacks, and Using Cursor + Claude in GTM with Michel Lieben'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-02",
+      "captured_date": "2026-05-04",
       "domain": [
         "pmm",
         "gtm",
@@ -14237,7 +14237,7 @@
         "customer-success"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -14485,7 +14485,7 @@
         "hiring"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -14540,15 +14540,15 @@
     },
     {
       "path": "insights/ins_suraj-kripalani-cfa-orange-dinner-connections.md",
-      "title": "'Meaningful founder connections over Michelin-standard dining, not pitches'",
+      "title": "'AI agents unlock creativity by removing the blank canvas, not by producing the final output'",
       "id": "ins_suraj-kripalani-cfa-orange-dinner-connections",
       "operator": "Suraj Kripalani, CFA",
       "operator_role": "Founder & CEO at BonBillo",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7403519096975196161/",
+      "source_url": "https://blog.agent.ai/unlocking-impact-with-agents-how-bonbillo-helps-entrepreneurs-use-ai",
       "source_type": "thread",
-      "source_title": "'Meaningful founder connections over Michelin-standard dining, not pitches'",
+      "source_title": "'Unlocking Impact With Agents: How BonBillo Helps Entrepreneurs Use AI'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-03",
+      "captured_date": "2026-05-04",
       "domain": [
         "founder-craft",
         "gtm"
@@ -14557,7 +14557,7 @@
       "maturity": "applied",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
-      "tier": "C",
+      "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
@@ -14695,15 +14695,15 @@
     },
     {
       "path": "insights/ins_talia-moyal-pmm-lovable.md",
-      "title": "'Product marketing for AI-native builders'",
+      "title": "'AI-native PMM means redesigning workflows around AI economics — not adding AI to existing ones'",
       "id": "ins_talia-moyal-pmm-lovable",
       "operator": "Talia Moyal",
       "operator_role": "PMM @ Lovable",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7368777412345540608/",
+      "source_url": "https://lovable.dev/blog/how-modern-marketing-teams-build-on-lovable",
       "source_type": "thread",
-      "source_title": "'Product marketing for AI-native builders'",
+      "source_title": "'How modern marketing teams build on Lovable — Talia Moyal'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-03",
+      "captured_date": "2026-05-04",
       "domain": [
         "pmm",
         "ai-native"
@@ -14712,7 +14712,7 @@
       "maturity": "applied",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
-      "tier": "C",
+      "tier": "A",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
@@ -14871,7 +14871,7 @@
         "growth-demand"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -14960,15 +14960,15 @@
     },
     {
       "path": "insights/ins_these-rules-prompting-gpt.md",
-      "title": "These are the rules for prompting with GPT-5:",
+      "title": "'Modern GTM needs a different playbook than what worked for big tech a decade ago'",
       "id": "ins_these-rules-prompting-gpt",
       "operator": "Maja Voje",
       "operator_role": "'Bestselling Author | Bringing My Go-To-Market Method to 10K Orgs | B2B AI GTM Consultant | ATM: Loving Claude Code, Context & GTM Engineering | 81K LinkedIn | 30K Newsletter'",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7366860222155407360/",
+      "source_url": "https://gtmstrategist.com/",
       "source_type": "thread",
-      "source_title": "'GPT-5 doesn’t forgive sloppy prompts'",
+      "source_title": "'Go-To-Market Strategist — Maja Voje'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-02",
+      "captured_date": "2026-05-04",
       "domain": [
         "pmm",
         "gtm",
@@ -15437,15 +15437,15 @@
     },
     {
       "path": "insights/ins_uddhav-parab-creativity-without-case-studies.md",
-      "title": "\"Real creative impact doesn't need a case study film.\"",
+      "title": "\"Direct the creative work — don't hog the juicy writing from juniors\"",
       "id": "ins_uddhav-parab-creativity-without-case-studies",
       "operator": "Uddhav Parab",
       "operator_role": "Creative Director. Writer. Comic. 3x TED Talks Viewer.",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7343617495565537281/",
+      "source_url": "https://www.linkedin.com/in/uddhavparab",
       "source_type": "thread",
-      "source_title": "\"Real creative impact doesn't need a case study film.\"",
+      "source_title": "'Uddhav Parab — Creative Director at Interactive Avenues'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-03",
+      "captured_date": "2026-05-04",
       "domain": [
         "pmm"
       ],
@@ -15628,15 +15628,15 @@
     },
     {
       "path": "insights/ins_varia-makagonova-workplace-messaging-rules.md",
-      "title": "\"Never email or Slack angry; read every message twice from the recipient's perspective.\"",
+      "title": "\"Customer advocacy is the brand-awareness program your team didn't know it needed\"",
       "id": "ins_varia-makagonova-workplace-messaging-rules",
       "operator": "Varia Makagonova",
       "operator_role": "Sr. Dir. Integrated Marketing | Where brand meets pipeline @ Contentstack",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7443480769240412161/",
+      "source_url": "https://variamakagonova.com/customer-advocacy",
       "source_type": "thread",
-      "source_title": "\"Never email or Slack angry; read every message twice from the recipient's perspe\"",
+      "source_title": "'Customer Advocacy — Varia Makagonova'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-03",
+      "captured_date": "2026-05-04",
       "domain": [
         "pmm"
       ],
@@ -15663,7 +15663,7 @@
         "pmm"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "B",
@@ -15734,7 +15734,7 @@
         "strategy"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -15756,7 +15756,7 @@
         "pmm"
       ],
       "lifecycle": [],
-      "maturity": "applied",
+      "maturity": "stub",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
       "tier": "C",
@@ -16302,15 +16302,15 @@
     },
     {
       "path": "insights/ins_yasser-elsaid-b2c-viral-format-product.md",
-      "title": "'Build B2C AI products around viral TikTok formats.'",
+      "title": "\"Build for AI agents, not chatbots — that's where the moat is when features get copied\"",
       "id": "ins_yasser-elsaid-b2c-viral-format-product",
       "operator": "Yasser Elsaid",
       "operator_role": "CEO at Chatbase",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7340585965108764672/",
+      "source_url": "https://indiehackers.com/post/TpbhTVyp1sjBk0uzo4tR",
       "source_type": "thread",
-      "source_title": "'Build B2C AI products around viral TikTok formats.'",
+      "source_title": "'From viral side project to a $5M/yr B2B AI platform — Yasser Elsaid'",
       "source_date": "2026-04-10",
-      "captured_date": "2026-05-03",
+      "captured_date": "2026-05-04",
       "domain": [
         "growth-demand",
         "product"
@@ -16321,7 +16321,7 @@
       "maturity": "applied",
       "artifact_class": "framework",
       "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
-      "tier": "B",
+      "tier": "A",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },

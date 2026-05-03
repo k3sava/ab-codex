@@ -1,13 +1,13 @@
 ---
 id: ins_varia-makagonova-workplace-messaging-rules
-title: "Never email or Slack angry; read every message twice from the recipient's perspective."
+title: "Customer advocacy is the brand-awareness program your team didn't know it needed"
 operator: Varia Makagonova
 operator_role: Sr. Dir. Integrated Marketing | Where brand meets pipeline @ Contentstack
-source_url: https://www.linkedin.com/feed/update/urn:li:activity:7443480769240412161/
+source_url: https://variamakagonova.com/customer-advocacy
 source_type: thread
-source_title: "Never email or Slack angry; read every message twice from the recipient's perspe"
+source_title: 'Customer Advocacy — Varia Makagonova'
 source_date: 2026-04-10
-captured_date: 2026-05-03
+captured_date: 2026-05-04
 domain: [pmm]
 lifecycle: []
 maturity: applied
@@ -18,10 +18,16 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Never email or Slack angry; read every message twice from the recipient's perspective.
+# Customer advocacy is the brand-awareness program your team didn't know it needed
 
 ## Claim
-I obsess over my words so I don't create unnecessary tension. It pays off.
+
+Your customers are the best value-add your brand awareness programs didn't know they needed. After activating advocates at ASICS, Levi's, Booking.com, AirFrance-KLM, and PostNL, the pattern is clear: customer-driven podcasts, conference talks, and case studies deliver value to the brand's audience while simultaneously building the company's internal knowledge of customer stories — which then feeds prospect-stage materials. The story has to feel great to the advocate AND important to the audience for it to actually work.
 
 ## Mechanism
-Emotional messages create friction and risk escalation. By pausing, re-reading, and reframing from the other person's viewpoint, you remove unnecessary words, details, and emotions, setting both parties up for success.
+
+Brand-led content fights the credibility tax (audience discounts the source). Customer-led content has built-in credibility and produces a multiplier: the advocate gets personal-brand value, the audience gets useful insight, and the brand absorbs the customer's story into its own knowledge. That story then powers sales decks, case studies, and webinars without each one needing fresh production.
+
+## Conditions
+
+Holds for B2B brands with enterprise customers willing to be public. Fails when customers are in regulated industries that prevent public advocacy.

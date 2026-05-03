@@ -1,13 +1,13 @@
 ---
 id: ins_albert-malikov-pmm-as-craft-not-title
-title: 'PMM is a craft, not a title — hire for taste and trajectory, not pedigree.'
+title: 'Agentic AI in finance has to work inside accounting processes, not around them'
 operator: Albert Malikov
 operator_role: CEO @ Stacks | AI for Enterprise Accounting | Breaking Down AI in Finance
-source_url: https://www.linkedin.com/feed/update/urn:li:activity:7443483793648267264/
+source_url: https://stacks.ai/resources/introducing-agentic-ai-the-next-leap-for-finance
 source_type: thread
-source_title: 'PMM is a craft, not a title — hire for taste and trajectory, not pedigree.'
+source_title: 'Introducing Agentic AI: The Next Leap for Finance'
 source_date: 2026-04-10
-captured_date: 2026-05-03
+captured_date: 2026-05-04
 domain: [pmm]
 lifecycle: []
 maturity: applied
@@ -18,10 +18,16 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# PMM is a craft, not a title — hire for taste and trajectory, not pedigree.
+# Agentic AI in finance has to work inside accounting processes, not around them
 
 ## Claim
-The best PMM I've worked with never held the title. I'm looking for someone with real taste for the craft and a high bar for quality in everything they ship.
+
+Most AI tools for finance ignore the fundamentals of accounting — controls, evidence, and accuracy — and try to bolt intelligence on from the outside. Stacks built Agentic AI that lives inside the accounting workflow itself, automating up to 90% of reconciliation work and 99% of manual journal effort while preserving complete audit traceability for every decision.
 
 ## Mechanism
-See claim.
+
+Finance refuses to adopt tools that break controls. By embedding agents inside reconciliation, journal-entry, and variance workflows — not as a parallel layer — every action carries the audit trail finance teams already need. That moves the close from reactive scramble to one-click without forcing a process rewrite.
+
+## Conditions
+
+Holds where buyer evaluation criteria include auditability and where AI can be embedded into existing workflow software. Fails where AI is sold as a standalone copilot detached from the system of record.

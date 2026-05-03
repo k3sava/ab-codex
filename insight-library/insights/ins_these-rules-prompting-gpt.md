@@ -2,11 +2,11 @@
 id: ins_these-rules-prompting-gpt
 operator: Maja Voje
 operator_role: 'Bestselling Author | Bringing My Go-To-Market Method to 10K Orgs | B2B AI GTM Consultant | ATM: Loving Claude Code, Context & GTM Engineering | 81K LinkedIn | 30K Newsletter'
-source_url: https://www.linkedin.com/feed/update/urn:li:activity:7366860222155407360/
+source_url: https://gtmstrategist.com/
 source_type: thread
-source_title: 'GPT-5 doesn’t forgive sloppy prompts'
+source_title: 'Go-To-Market Strategist — Maja Voje'
 source_date: 2026-04-10
-captured_date: 2026-05-02
+captured_date: 2026-05-04
 domain: [pmm, gtm, strategy]
 lifecycle: [launch, strategy-bets]
 maturity: frontier
@@ -15,32 +15,19 @@ score: { originality: 3, specificity: 3, evidence: 2, transferability: 4, source
 tier: B
 related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
+title: 'Modern GTM needs a different playbook than what worked for big tech a decade ago'
 ---
 
-# These are the rules for prompting with GPT-5:
+# Modern GTM needs a different playbook than what worked for big tech a decade ago
 
 ## Claim
-Here’s a set engineered to help GTM and RevOps leaders win deals. Momentum.io published these GPT-5-ready prompts - co-created with Jonathan M K. (20+ years in sales and GTM strategy, my go-to AI prompting expert). → analyzes conversations, flags risks, and recommends next steps.
+
+The growth playbooks that built LinkedIn, Google, and Heineken into giants were written when markets were less saturated, customers were excited about innovation, and budgets were bigger. Those playbooks don't translate to bootstrapped startups, clever leaders in tech, or independent innovators today. The modern GTM strategist works backward from product-market fit through 135 mental models and 17 workshop templates that force decisions on who you're selling to, what price to set, what channels to focus on, and what growth techniques will actually move the needle.
 
 ## Mechanism
-→ short, research-backed, and persona-specific - converts more prospects into conversations.
+
+Old playbooks assume scale-driven distribution (you can buy demand). Modern markets require focus-driven distribution (you have to choose). Mental models force the founder to make explicit choices instead of running a generic checklist; workshop templates compress the decision cycle. The result is a strategy that fits the company's actual constraints rather than imitating Google's.
 
 ## Conditions
-Holds when: the operating context matches the post's stated frame (team shape, stage, tooling, buyer type).
-Fails when: the practice is lifted into a different stage or buyer context without reworking the underlying mechanism.
 
-## Evidence
-> "These are the rules for prompting with GPT-5:"
-
-— Maja Voje, LinkedIn, 2026-04-10
-
-## Signals
-- The team observes the pattern repeating across multiple cycles before naming it.
-- Practitioners stop questioning the discipline once results compound.
-- Skipping the step shows up as friction within one or two iterations.
-
-## Counter-evidence
-No opposing view in current corpus.
-
-## Cross-references
-- (none in current corpus)
+Holds for founders and PMMs at pre-PMF and early-PMF stages. Less critical for mature SaaS where the playbook is already differentiated.
