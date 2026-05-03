@@ -4,8 +4,6 @@
 
 A primary-source library of operator insights — atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
 
-[![home](docs/screenshots/home.png)](https://k3sava.github.io/ab-codex/)
-
 ## What's in here today
 
 - **150** insight cards
