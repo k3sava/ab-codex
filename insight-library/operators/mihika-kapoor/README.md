@@ -7,6 +7,8 @@ roles:
 domains_active: [product, design-ux, leadership]
 captured_first: 2026-05-01
 external:
+  linkedin: https://linkedin.com/in/mihikakapoor
+  x: https://twitter.com/mihikapoor
   twitter: https://twitter.com/mihikapoor
 ---
 

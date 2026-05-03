@@ -2,7 +2,7 @@
 id: ins_seeds-nets-spears-lead-portfolio
 operator: Aaron Ross
 operator_role: Architect of the Salesforce.com outbound model; author of Predictable Revenue
-source_url: https://predictablerevenue.com/blog/the-3-types-of-leads-seeds-nets-and-spears/
+source_url: https://www.levelingup.com/growth-everywhere-interview/aaron-ross-salesforce/
 source_type: essay
 source_title: "Seeds, Nets, and Spears: The Three Lead Types"
 source_date: 2026-03-03

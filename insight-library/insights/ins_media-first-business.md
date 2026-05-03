@@ -2,7 +2,7 @@
 id: ins_media-first-business
 operator: Matt Gray
 operator_role: Founder Founder OS; ex-Herb.co (14M-person community)
-source_url: https://mattgray.me/
+source_url: https://marketingsecrets.com/blog/matt-gray-s-art-vs-algorithm-strategy-for-scaling-content-marketing-ep-47
 source_type: essay
 source_title: "Matt Gray — Art vs Algorithm and media-first business model"
 source_date: 2026-03-03

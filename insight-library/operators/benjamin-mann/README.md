@@ -8,6 +8,7 @@ roles:
 domains_active: [ai-native, engineering, leadership]
 captured_first: 2026-05-01
 external:
+  linkedin: https://linkedin.com/in/benjamin-mann-b8164411
   twitter: https://twitter.com/8enmann
 ---
 

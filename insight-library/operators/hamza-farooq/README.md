@@ -6,6 +6,9 @@ roles:
   - Co-author with Jaya Rajwani in Lenny's Newsletter
 domains_active: [ai-native, engineering, product]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/hamzafarooq
+  website: https://traversaal.ai
 ---
 
 # Hamza Farooq

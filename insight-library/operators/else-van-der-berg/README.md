@@ -8,6 +8,8 @@ roles:
 domains_active: [product, leadership, sales-cs, growth, research]
 captured_first: 2026-05-01
 external:
+  newsletter: https://elsevanderberg.substack.com/
+  website: https://elsevanderberg.substack.com/about
   blog: https://elsevanderberg.substack.com
 ---
 

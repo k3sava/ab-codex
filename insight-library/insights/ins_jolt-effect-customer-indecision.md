@@ -2,7 +2,7 @@
 id: ins_jolt-effect-customer-indecision
 operator: Matt Dixon
 operator_role: Co-author The Challenger Sale, The JOLT Effect, The Effortless Experience
-source_url: https://www.thejolteffect.com/
+source_url: https://www.jolteffect.com/
 source_type: book
 source_title: "The JOLT Effect — overcoming customer indecision"
 source_date: 2026-03-03

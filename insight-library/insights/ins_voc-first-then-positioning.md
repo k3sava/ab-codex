@@ -2,7 +2,7 @@
 id: ins_voc-first-then-positioning
 operator: Momoko Price
 operator_role: Founder Kantan Designs; conversion copywriter for Intuit, Scotiabank, AT&T
-source_url: https://kantandesigns.com/
+source_url: https://cxl.com/blog/message-mining-high-converting-value-proposition/
 source_type: essay
 source_title: "Momoko Price — messaging-first optimization methodology"
 source_date: 2026-03-03

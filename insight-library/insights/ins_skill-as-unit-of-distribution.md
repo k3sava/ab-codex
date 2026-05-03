@@ -2,7 +2,7 @@
 id: ins_skill-as-unit-of-distribution
 operator: Kyle Poyar
 operator_role: Founder, Growth Unhinged; former OpenView
-source_url: https://www.growthunhinged.com/p/how-to-use-claude-for-gtm-and-pricing
+source_url: https://www.growthunhinged.com/p/claude-skills-gtm-and-pricing
 source_type: essay
 source_title: How to Use Claude for GTM and Pricing
 source_date: 2026-04-29

@@ -9,6 +9,7 @@ roles:
 domains_active: [product, leadership, gtm]
 captured_first: 2026-05-01
 external:
+  linkedin: https://linkedin.com/in/jessica-fain-79b8989
   twitter: https://twitter.com/jessicafain
 ---
 

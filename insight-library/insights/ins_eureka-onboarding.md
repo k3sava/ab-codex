@@ -2,7 +2,7 @@
 id: ins_eureka-onboarding
 operator: Ramli John
 operator_role: Founder Delight Path; ex-MD ProductLed; author Product-Led Onboarding
-source_url: https://www.ramlijohn.com/
+source_url: https://productled.com/book/eureka/
 source_type: book
 source_title: "EUREKA — onboarding as the bridge from acquisition to monetization"
 source_date: 2026-03-03

@@ -6,6 +6,8 @@ roles:
 domains_active: [gtm, growth]
 captured_first: 2026-05-01
 external:
+  newsletter: https://salesflo.substack.com/
+  x: https://substack.com/@salesflo
   substack: https://salesflo.substack.com/
 ---
 

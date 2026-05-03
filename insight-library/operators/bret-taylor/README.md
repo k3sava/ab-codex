@@ -10,6 +10,8 @@ roles:
 domains_active: [gtm, strategy-bets, ai-native]
 captured_first: 2026-05-01
 external:
+  linkedin: https://linkedin.com/in/brettaylor
+  website: https://sierra.ai/author/bret-taylor
   twitter: https://twitter.com/btaylor
 ---
 

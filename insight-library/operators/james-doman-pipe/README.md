@@ -9,6 +9,9 @@ roles:
 domains_active: [pmm, product, gtm, research]
 captured_first: 2026-05-01
 external:
+  linkedin: https://linkedin.com/in/jamesmdp
+  newsletter: https://newsletter.buildingmomentum.io/
+  website: https://newsletter.buildingmomentum.io/about
   blog: https://buildingmomentum.io
 ---
 

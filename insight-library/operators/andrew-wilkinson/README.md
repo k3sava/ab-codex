@@ -7,6 +7,8 @@ roles:
 domains_active: [founder-craft, gtm, pmm]
 captured_first: 2026-05-01
 external:
+  linkedin: https://linkedin.com/in/awilkinson
+  website: https://awilkinson.medium.com/
   twitter: https://x.com/awilkinson
   blog: https://www.tiny.com
 ---

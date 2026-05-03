@@ -2,7 +2,7 @@
 id: ins_progressive-trust-onboarding
 operator: Claire Vo
 operator_role: 3x CPO; founder of ChatPRD
-source_url: https://www.lennysnewsletter.com/p/claire-vo-openclaw
+source_url: https://www.lennysnewsletter.com/p/how-openclaw-changed-my-life-claire-vo
 source_type: podcast
 source_title: Claire Vo on running 9 AI agents — Lenny's Podcast
 source_date: 2026-04-28

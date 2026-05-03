@@ -7,6 +7,8 @@ roles:
 domains_active: [leadership, founder-operator]
 captured_first: 2026-05-01
 external:
+  linkedin: https://linkedin.com/in/brianhalligan
+  website: https://sequoiacap.com/people/brian-halligan/
   twitter: https://twitter.com/bhalligan
 ---
 

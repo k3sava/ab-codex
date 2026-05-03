@@ -8,6 +8,7 @@ roles:
 domains_active: [engineering, ai-native]
 captured_first: 2026-05-01
 external:
+  newsletter: https://natesnewsletter.substack.com/
   blog: https://natesnewsletter.substack.com
 ---
 

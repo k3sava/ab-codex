@@ -6,6 +6,9 @@ roles:
 domains_active: [ai-native, engineering, product, leadership]
 captured_first: 2026-05-01
 external:
+  linkedin: https://www.linkedin.com/in/bcherny
+  website: http://borischerny.com
+  x: https://x.com/bcherny
   twitter: https://twitter.com/bcherny
 ---
 

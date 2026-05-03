@@ -2,7 +2,7 @@
 id: ins_content-strategy-vs-content-marketing
 operator: Robert Rose
 operator_role: Chief Strategy Advisor Content Marketing Institute; CEO The Content Advisory
-source_url: https://contentadvisory.net/
+source_url: https://contentmarketinginstitute.com/articles/content-strategy-content-marketing-separate-connected/
 source_type: essay
 source_title: "Robert Rose — content strategy and content marketing are separate disciplines"
 source_date: 2026-03-03

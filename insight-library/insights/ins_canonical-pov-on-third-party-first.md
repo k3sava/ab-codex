@@ -2,7 +2,7 @@
 id: ins_canonical-pov-on-third-party-first
 operator: Kieran Flanagan
 operator_role: SVP Marketing, HubSpot; co-host Marketing Against The Grain
-source_url: https://www.podbean.com/podcast-detail/n65dt-25ebd1/Marketing-Against-The-Grain-Podcast
+source_url: https://marketingagainstthegrain.com/podcast
 source_type: podcast
 source_title: MATG Ep. 417 — third-party citation map
 source_date: 2026-04-29

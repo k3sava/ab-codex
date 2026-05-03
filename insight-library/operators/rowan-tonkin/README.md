@@ -8,6 +8,8 @@ roles:
   - frequent speaker and author on marketing performance management and finance-marketing partnership
 domains_active: [pmm, ai-native, growth, design, leadership]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/rowantonkin/
 ---
 
 # Rowan Tonkin

@@ -2,7 +2,7 @@
 id: ins_video-first-double-serp
 operator: Gaetano DiNardi
 operator_role: Founder Marketing Advice; ex-VP Growth Marketing Nextiva
-source_url: https://gaetanodinardi.com/
+source_url: https://www.advancedwebranking.com/blog/saas-growth-discovery-in-ai-search-era
 source_type: essay
 source_title: "How Gaetano DiNardi builds demand generation engines"
 source_date: 2026-03-03

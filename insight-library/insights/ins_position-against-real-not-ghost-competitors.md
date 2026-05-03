@@ -2,7 +2,7 @@
 id: ins_position-against-real-not-ghost-competitors
 operator: April Dunford
 operator_role: Positioning consultant, author of Obviously Awesome
-source_url: https://www.linkedin.com/in/aprildunford
+source_url: https://aprildunford.substack.com/p/a-buyer-centric-approach-to-competitive
 source_type: thread
 source_title: LinkedIn posts on positioning against real competitors and pitch splits
 source_date: 2026-04-20

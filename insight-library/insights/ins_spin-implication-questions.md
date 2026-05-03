@@ -2,7 +2,7 @@
 id: ins_spin-implication-questions
 operator: Neil Rackham
 operator_role: Author SPIN Selling; founder Huthwaite International
-source_url: https://huthwaiteinternational.com/
+source_url: https://www.oreilly.com/library/view/spin-selling/9781260027099/ch04.html
 source_type: book
 source_title: "SPIN Selling — Situation, Problem, Implication, Need-Payoff"
 source_date: 2026-03-03

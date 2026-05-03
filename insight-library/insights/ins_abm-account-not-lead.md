@@ -2,7 +2,7 @@
 id: ins_abm-account-not-lead
 operator: Sangram Vajre
 operator_role: Co-founder Terminus; author ABM Is B2B and MOVE
-source_url: https://www.flipmyfunnel.com/
+source_url: https://www.simonandschuster.com/books/ABM-is-B2B/Sangram-Vajre/9781940858951
 source_type: book
 source_title: "ABM Is B2B / MOVE — the unit of value in B2B is the account"
 source_date: 2026-03-03

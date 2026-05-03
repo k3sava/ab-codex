@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-03T17:28:54.122Z",
+  "generated_at": "2026-05-03T17:32:01.144Z",
   "counts": {
     "insights": 414,
     "operators": 272,
@@ -156,7 +156,7 @@
       "id": "ins_abm-account-not-lead",
       "operator": "Sangram Vajre",
       "operator_role": "Co-founder Terminus; author ABM Is B2B and MOVE",
-      "source_url": "https://www.flipmyfunnel.com/",
+      "source_url": "https://www.simonandschuster.com/books/ABM-is-B2B/Sangram-Vajre/9781940858951",
       "source_type": "book",
       "source_title": "\"ABM Is B2B / MOVE — the unit of value in B2B is the account\"",
       "source_date": "2026-03-03",
@@ -608,7 +608,7 @@
       "id": "ins_agents-as-team-not-tools",
       "operator": "Claire Vo",
       "operator_role": "3x CPO; founder of ChatPRD; host of How I AI",
-      "source_url": "https://www.lennysnewsletter.com/p/claire-vo-openclaw",
+      "source_url": "https://www.lennysnewsletter.com/p/how-openclaw-changed-my-life-claire-vo",
       "source_type": "podcast",
       "source_title": "Claire Vo on running 9 AI agents — Lenny's Podcast",
       "source_date": "2026-04-28",
@@ -1801,7 +1801,7 @@
       "id": "ins_canonical-pov-on-third-party-first",
       "operator": "Kieran Flanagan",
       "operator_role": "SVP Marketing, HubSpot; co-host Marketing Against The Grain",
-      "source_url": "https://www.podbean.com/podcast-detail/n65dt-25ebd1/Marketing-Against-The-Grain-Podcast",
+      "source_url": "https://marketingagainstthegrain.com/podcast",
       "source_type": "podcast",
       "source_title": "MATG Ep. 417 — third-party citation map",
       "source_date": "2026-04-29",
@@ -2389,7 +2389,7 @@
       "id": "ins_content-as-social-currency",
       "operator": "Tommy Walker",
       "operator_role": "Founder The Content Studio; ex-Editor-in-Chief QuickBooks (Intuit)",
-      "source_url": "https://thecontent.studio/",
+      "source_url": "https://news.marketingpowerups.com/p/the-3-axioms-of-content-marketing",
       "source_type": "essay",
       "source_title": "\"Tommy Walker — content operations at scale, three axioms\"",
       "source_date": "2026-03-03",
@@ -2416,7 +2416,7 @@
       "id": "ins_content-strategy-vs-content-marketing",
       "operator": "Robert Rose",
       "operator_role": "Chief Strategy Advisor Content Marketing Institute; CEO The Content Advisory",
-      "source_url": "https://contentadvisory.net/",
+      "source_url": "https://contentmarketinginstitute.com/articles/content-strategy-content-marketing-separate-connected/",
       "source_type": "essay",
       "source_title": "\"Robert Rose — content strategy and content marketing are separate disciplines\"",
       "source_date": "2026-03-03",
@@ -3660,7 +3660,7 @@
       "id": "ins_eureka-onboarding",
       "operator": "Ramli John",
       "operator_role": "Founder Delight Path; ex-MD ProductLed; author Product-Led Onboarding",
-      "source_url": "https://www.ramlijohn.com/",
+      "source_url": "https://productled.com/book/eureka/",
       "source_type": "book",
       "source_title": "\"EUREKA — onboarding as the bridge from acquisition to monetization\"",
       "source_date": "2026-03-03",
@@ -4235,7 +4235,7 @@
       "id": "ins_gap-selling-change-formula",
       "operator": "Keenan (Jim Keenan)",
       "operator_role": "CEO A Sales Growth Company; author Gap Selling",
-      "source_url": "https://asalesgrowthcompany.com/",
+      "source_url": "https://www.harvard.com/book/9781732891029",
       "source_type": "book",
       "source_title": "\"Gap Selling — Change Formula and problem-centric selling\"",
       "source_date": "2026-03-03",
@@ -5366,7 +5366,7 @@
       "id": "ins_jolt-effect-customer-indecision",
       "operator": "Matt Dixon",
       "operator_role": "Co-author The Challenger Sale, The JOLT Effect, The Effortless Experience",
-      "source_url": "https://www.thejolteffect.com/",
+      "source_url": "https://www.jolteffect.com/",
       "source_type": "book",
       "source_title": "\"The JOLT Effect — overcoming customer indecision\"",
       "source_date": "2026-03-03",
@@ -6069,7 +6069,7 @@
       "id": "ins_manager-skill-not-technical",
       "operator": "Claire Vo",
       "operator_role": "3x CPO; founder of ChatPRD",
-      "source_url": "https://www.lennysnewsletter.com/p/claire-vo-openclaw",
+      "source_url": "https://www.lennysnewsletter.com/p/how-openclaw-changed-my-life-claire-vo",
       "source_type": "podcast",
       "source_title": "Claire Vo on running 9 AI agents — Lenny's Podcast",
       "source_date": "2026-04-28",
@@ -6273,7 +6273,7 @@
       "id": "ins_media-first-business",
       "operator": "Matt Gray",
       "operator_role": "Founder Founder OS; ex-Herb.co (14M-person community)",
-      "source_url": "https://mattgray.me/",
+      "source_url": "https://marketingsecrets.com/blog/matt-gray-s-art-vs-algorithm-strategy-for-scaling-content-marketing-ep-47",
       "source_type": "essay",
       "source_title": "\"Matt Gray — Art vs Algorithm and media-first business model\"",
       "source_date": "2026-03-03",
@@ -7703,7 +7703,7 @@
       "id": "ins_position-against-real-not-ghost-competitors",
       "operator": "April Dunford",
       "operator_role": "Positioning consultant, author of Obviously Awesome",
-      "source_url": "https://www.linkedin.com/in/aprildunford",
+      "source_url": "https://aprildunford.substack.com/p/a-buyer-centric-approach-to-competitive",
       "source_type": "thread",
       "source_title": "LinkedIn posts on positioning against real competitors and pitch splits",
       "source_date": "2026-04-20",
@@ -7953,7 +7953,7 @@
       "id": "ins_pricing-needs-weekly-customer-calls",
       "operator": "Patrick Campbell",
       "operator_role": "Founder ProfitWell (acquired by Paddle 2022); ex-CEO Price Intelligently",
-      "source_url": "https://www.profitwell.com/recur/all/customer-research-pricing",
+      "source_url": "https://www.advanceb2b.com/thegrowthhub/podcast-patrick-campbell-profitwell",
       "source_type": "talk",
       "source_title": "ProfitWell Pricing Page Teardown / Recur Now framing",
       "source_date": "2021-01-01",
@@ -8176,7 +8176,7 @@
       "id": "ins_progressive-trust-onboarding",
       "operator": "Claire Vo",
       "operator_role": "3x CPO; founder of ChatPRD",
-      "source_url": "https://www.lennysnewsletter.com/p/claire-vo-openclaw",
+      "source_url": "https://www.lennysnewsletter.com/p/how-openclaw-changed-my-life-claire-vo",
       "source_type": "podcast",
       "source_title": "Claire Vo on running 9 AI agents — Lenny's Podcast",
       "source_date": "2026-04-28",
@@ -8879,7 +8879,7 @@
       "id": "ins_sales-team-detects-positioning-failure-first",
       "operator": "April Dunford",
       "operator_role": "Positioning consultant; author of *Obviously Awesome*",
-      "source_url": "https://www.linkedin.com/in/aprildunford",
+      "source_url": "https://dreamdata.io/blog/april-dunford-new-take-on-how-to-make-your-positioning-better",
       "source_type": "thread",
       "source_title": "April Dunford on positioning failure detection",
       "source_date": "2026-04-25",
@@ -9048,7 +9048,7 @@
       "id": "ins_seeds-nets-spears-lead-portfolio",
       "operator": "Aaron Ross",
       "operator_role": "Architect of the Salesforce.com outbound model; author of Predictable Revenue",
-      "source_url": "https://predictablerevenue.com/blog/the-3-types-of-leads-seeds-nets-and-spears/",
+      "source_url": "https://www.levelingup.com/growth-everywhere-interview/aaron-ross-salesforce/",
       "source_type": "essay",
       "source_title": "\"Seeds, Nets, and Spears: The Three Lead Types\"",
       "source_date": "2026-03-03",
@@ -9408,7 +9408,7 @@
       "id": "ins_skill-as-unit-of-distribution",
       "operator": "Kyle Poyar",
       "operator_role": "Founder, Growth Unhinged; former OpenView",
-      "source_url": "https://www.growthunhinged.com/p/how-to-use-claude-for-gtm-and-pricing",
+      "source_url": "https://www.growthunhinged.com/p/claude-skills-gtm-and-pricing",
       "source_type": "essay",
       "source_title": "How to Use Claude for GTM and Pricing",
       "source_date": "2026-04-29",
@@ -9710,7 +9710,7 @@
       "id": "ins_spin-implication-questions",
       "operator": "Neil Rackham",
       "operator_role": "Author SPIN Selling; founder Huthwaite International",
-      "source_url": "https://huthwaiteinternational.com/",
+      "source_url": "https://www.oreilly.com/library/view/spin-selling/9781260027099/ch04.html",
       "source_type": "book",
       "source_title": "\"SPIN Selling — Situation, Problem, Implication, Need-Payoff\"",
       "source_date": "2026-03-03",
@@ -10877,7 +10877,7 @@
       "id": "ins_video-first-double-serp",
       "operator": "Gaetano DiNardi",
       "operator_role": "Founder Marketing Advice; ex-VP Growth Marketing Nextiva",
-      "source_url": "https://gaetanodinardi.com/",
+      "source_url": "https://www.advancedwebranking.com/blog/saas-growth-discovery-in-ai-search-era",
       "source_type": "essay",
       "source_title": "\"How Gaetano DiNardi builds demand generation engines\"",
       "source_date": "2026-03-03",
@@ -10904,7 +10904,7 @@
       "id": "ins_voc-first-then-positioning",
       "operator": "Momoko Price",
       "operator_role": "Founder Kantan Designs; conversion copywriter for Intuit, Scotiabank, AT&T",
-      "source_url": "https://kantandesigns.com/",
+      "source_url": "https://cxl.com/blog/message-mining-high-converting-value-proposition/",
       "source_type": "essay",
       "source_title": "\"Momoko Price — messaging-first optimization methodology\"",
       "source_date": "2026-03-03",
@@ -11933,6 +11933,8 @@
       ],
       "captured_first": "2026-05-01",
       "external": {
+        "linkedin": "https://linkedin.com/in/awilkinson",
+        "website": "https://awilkinson.medium.com/",
         "twitter": "https://x.com/awilkinson",
         "blog": "https://www.tiny.com"
       }
@@ -12342,6 +12344,7 @@
       ],
       "captured_first": "2026-05-01",
       "external": {
+        "linkedin": "https://linkedin.com/in/benjamin-mann-b8164411",
         "twitter": "https://twitter.com/8enmann"
       }
     },
@@ -12448,6 +12451,9 @@
       ],
       "captured_first": "2026-05-01",
       "external": {
+        "linkedin": "https://www.linkedin.com/in/bcherny",
+        "website": "http://borischerny.com",
+        "x": "https://x.com/bcherny",
         "twitter": "https://twitter.com/bcherny"
       }
     },
@@ -12489,6 +12495,8 @@
       ],
       "captured_first": "2026-05-01",
       "external": {
+        "linkedin": "https://linkedin.com/in/brettaylor",
+        "website": "https://sierra.ai/author/bret-taylor",
         "twitter": "https://twitter.com/btaylor"
       }
     },
@@ -12550,6 +12558,8 @@
       ],
       "captured_first": "2026-05-01",
       "external": {
+        "linkedin": "https://linkedin.com/in/brianhalligan",
+        "website": "https://sequoiacap.com/people/brian-halligan/",
         "twitter": "https://twitter.com/bhalligan"
       }
     },
@@ -13468,6 +13478,8 @@
       ],
       "captured_first": "2026-05-01",
       "external": {
+        "newsletter": "https://elsevanderberg.substack.com/",
+        "website": "https://elsevanderberg.substack.com/about",
         "blog": "https://elsevanderberg.substack.com"
       }
     },
@@ -13604,6 +13616,8 @@
       ],
       "captured_first": "2026-05-01",
       "external": {
+        "newsletter": "https://salesflo.substack.com/",
+        "x": "https://substack.com/@salesflo",
         "substack": "https://salesflo.substack.com/"
       }
     },
@@ -13790,6 +13804,8 @@
       ],
       "captured_first": "2026-05-01",
       "external": {
+        "linkedin": "https://linkedin.com/in/hamelhusain",
+        "website": "https://hamel.dev/",
         "site": "https://hamel.dev"
       }
     },
@@ -13807,7 +13823,11 @@
         "engineering",
         "product"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": {
+        "linkedin": "https://www.linkedin.com/in/hamzafarooq",
+        "website": "https://traversaal.ai"
+      }
     },
     {
       "path": "operators/hardik-gupta/README.md",
@@ -14012,6 +14032,9 @@
       ],
       "captured_first": "2026-05-01",
       "external": {
+        "linkedin": "https://linkedin.com/in/jamesmdp",
+        "newsletter": "https://newsletter.buildingmomentum.io/",
+        "website": "https://newsletter.buildingmomentum.io/about",
         "blog": "https://buildingmomentum.io"
       }
     },
@@ -14193,6 +14216,7 @@
       ],
       "captured_first": "2026-05-01",
       "external": {
+        "linkedin": "https://linkedin.com/in/jessica-fain-79b8989",
         "twitter": "https://twitter.com/jessicafain"
       }
     },
@@ -14666,6 +14690,8 @@
       ],
       "captured_first": "2026-05-01",
       "external": {
+        "linkedin": "https://linkedin.com/in/kyle-poyar",
+        "newsletter": "https://growthunhinged.com/",
         "blog": "https://www.growthunhinged.com"
       }
     },
@@ -15111,6 +15137,8 @@
       ],
       "captured_first": "2026-05-01",
       "external": {
+        "linkedin": "https://linkedin.com/in/mihikakapoor",
+        "x": "https://twitter.com/mihikapoor",
         "twitter": "https://twitter.com/mihikapoor"
       }
     },
@@ -15249,6 +15277,7 @@
       ],
       "captured_first": "2026-05-01",
       "external": {
+        "newsletter": "https://natesnewsletter.substack.com/",
         "blog": "https://natesnewsletter.substack.com"
       }
     },
@@ -15914,7 +15943,10 @@
         "design",
         "leadership"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": {
+        "linkedin": "https://www.linkedin.com/in/rowantonkin/"
+      }
     },
     {
       "path": "operators/roxana-irimia/README.md",
@@ -16511,7 +16543,11 @@
         "leadership",
         "engineering"
       ],
-      "captured_first": "2026-05-01"
+      "captured_first": "2026-05-01",
+      "external": {
+        "website": "https://www.swyx.io/",
+        "newsletter": "https://lspace.swyx.io/"
+      }
     },
     {
       "path": "operators/tamara-grominsky/README.md",

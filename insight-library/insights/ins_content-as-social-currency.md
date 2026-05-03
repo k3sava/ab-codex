@@ -2,7 +2,7 @@
 id: ins_content-as-social-currency
 operator: Tommy Walker
 operator_role: Founder The Content Studio; ex-Editor-in-Chief QuickBooks (Intuit)
-source_url: https://thecontent.studio/
+source_url: https://news.marketingpowerups.com/p/the-3-axioms-of-content-marketing
 source_type: essay
 source_title: "Tommy Walker — content operations at scale, three axioms"
 source_date: 2026-03-03

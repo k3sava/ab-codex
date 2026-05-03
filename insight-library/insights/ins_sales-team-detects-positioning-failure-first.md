@@ -2,7 +2,7 @@
 id: ins_sales-team-detects-positioning-failure-first
 operator: April Dunford
 operator_role: Positioning consultant; author of *Obviously Awesome*
-source_url: https://www.linkedin.com/in/aprildunford
+source_url: https://dreamdata.io/blog/april-dunford-new-take-on-how-to-make-your-positioning-better
 source_type: thread
 source_title: April Dunford on positioning failure detection
 source_date: 2026-04-25

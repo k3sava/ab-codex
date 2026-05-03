@@ -2,7 +2,7 @@
 id: ins_gap-selling-change-formula
 operator: Keenan (Jim Keenan)
 operator_role: CEO A Sales Growth Company; author Gap Selling
-source_url: https://asalesgrowthcompany.com/
+source_url: https://www.harvard.com/book/9781732891029
 source_type: book
 source_title: "Gap Selling — Change Formula and problem-centric selling"
 source_date: 2026-03-03

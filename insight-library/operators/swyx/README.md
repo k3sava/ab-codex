@@ -8,6 +8,9 @@ roles:
   - coined 'AI Engineer' as a distinct role
 domains_active: [design, ai-native, product, leadership, engineering]
 captured_first: 2026-05-01
+external:
+  website: https://www.swyx.io/
+  newsletter: https://lspace.swyx.io/
 ---
 
 # Swyx (Shawn Wang)

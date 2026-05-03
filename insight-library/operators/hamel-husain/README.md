@@ -8,6 +8,8 @@ roles:
 domains_active: [ai-native, engineering, product]
 captured_first: 2026-05-01
 external:
+  linkedin: https://linkedin.com/in/hamelhusain
+  website: https://hamel.dev/
   site: https://hamel.dev
 ---
 

@@ -8,6 +8,8 @@ roles:
 domains_active: [gtm, pmm, growth, leadership, ai-native]
 captured_first: 2026-05-01
 external:
+  linkedin: https://linkedin.com/in/kyle-poyar
+  newsletter: https://growthunhinged.com/
   blog: https://www.growthunhinged.com
 ---
 

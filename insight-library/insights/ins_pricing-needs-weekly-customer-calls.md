@@ -2,7 +2,7 @@
 id: ins_pricing-needs-weekly-customer-calls
 operator: Patrick Campbell
 operator_role: Founder ProfitWell (acquired by Paddle 2022); ex-CEO Price Intelligently
-source_url: https://www.profitwell.com/recur/all/customer-research-pricing
+source_url: https://www.advanceb2b.com/thegrowthhub/podcast-patrick-campbell-profitwell
 source_type: talk
 source_title: ProfitWell Pricing Page Teardown / Recur Now framing
 source_date: 2021-01-01
