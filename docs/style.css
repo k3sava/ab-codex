@@ -741,12 +741,7 @@ footer a:hover{color:var(--accent-2);border-bottom-color:currentColor}
   .brow-op{grid-row:3;grid-column:1/-1;font-size:.7rem}
   .brow-date{grid-row:1;grid-column:2;justify-self:end;text-align:right}
 
-  /* Timeline mobile rows */
-  .trow{grid-template-columns:30px 1fr auto;grid-template-rows:auto auto;column-gap:10px;row-gap:4px;padding:11px 4px}
-  .trow-day{grid-row:1;grid-column:1;font-size:.65rem}
-  .trow-claim{grid-row:1/3;grid-column:2;font-size:.92rem;line-height:1.35}
-  .trow > .tier{grid-row:1;grid-column:3}
-  .trow-who{grid-row:2;grid-column:2;font-size:.66rem}
+  /* Timeline mobile rows handled by earlier @media block (.trow-claim full-width row 1, .trow-who+date row 2) */
 
   /* Contradiction vs view stacks */
   .contradiction-page{padding:32px var(--gut) 80px}
