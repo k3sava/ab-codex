@@ -482,7 +482,7 @@ function patternsList(){
   app.innerHTML = `<section class='list-page'>
     <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <span>patterns</span></div>
     <h1>synthesis patterns</h1>
-    <p class='lede'>Cross-operator convergences and disagreements. ${STATS.patterns} patterns and ${STATS.contradictions} contradictions surfaced from ${STATS.cards} cards.</p>
+    <p class='lede'>${STATS.patterns} convergences. ${STATS.contradictions} contradictions. Across ${STATS.cards} cards.</p>
     ${tierA}${tierB}${tierC}${tierOther}
 
     ${contradictions.length ? `
@@ -1009,7 +1009,7 @@ function timeline(){
   app.innerHTML = `<section class='timeline-page'>
     <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <span>timeline</span></div>
     <h1>timeline</h1>
-    <p class='lede'>${dated.length} insights, dated. ${dayKeys.length} active days from ${dayKeys[0]||'—'} to ${dayKeys[dayKeys.length-1]||'—'}.</p>
+    <p class='lede'>${dated.length} dated insights · ${dayKeys.length} active days · ${dayKeys[0]||'—'} → ${dayKeys[dayKeys.length-1]||'—'}.</p>
     ${sparkSvg ? `<div class='timeline-spark-wrap'>
       <div class='timeline-spark-axis'><span>${dayKeys[0]||''}</span><span>${dayKeys[dayKeys.length-1]||''}</span></div>
       ${sparkSvg}
@@ -1113,7 +1113,7 @@ function constellation(){
   app.innerHTML = `<section class='constellation-page'>
     <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <span>map</span></div>
     <h1>knowledge map</h1>
-    <p class='lede'>${STATS.cards} insights · ${STATS.operators} operators · ${domains.length} domains. Tap a domain to see all its cards.</p>
+    <p class='lede'>${STATS.cards} insights · ${STATS.operators} operators · ${domains.length} domains.</p>
     <div class='constellation'>${domains.map(({domain, total, ops}) => `
       <section class='cnst-domain'>
         <header class='cnst-head'>
@@ -1194,6 +1194,21 @@ function buildForceGraph(){
     .attr('dy', -20).attr('text-anchor','middle')
     .attr('font-family','JetBrains Mono, ui-monospace, monospace').attr('font-size', 11).attr('fill', labelColor)
     .text(d => d.label);
+
+  // Top-15 operators get permanent labels (desktop)
+  const opCounts = new Map();
+  cards.forEach(c => opCounts.set(c.operator, (opCounts.get(c.operator)||0)+1));
+  const topOps = new Set([...opCounts.entries()].sort((a,b)=>b[1]-a[1]).slice(0,15).map(e=>e[0]));
+  if (window.matchMedia('(min-width:769px)').matches){
+    node.filter(d => d.type==='operator' && topOps.has(d.label)).append('text')
+      .attr('dy', -11).attr('text-anchor','middle')
+      .attr('font-family','JetBrains Mono, ui-monospace, monospace').attr('font-size', 10).attr('fill', labelMuted)
+      .style('pointer-events','none')
+      .text(d => d.label);
+  }
+  // Dim insight nodes whose operator has only 1 card
+  node.filter(d => d.type==='insight' && (opCounts.get(d.card?.operator)||0) <= 1)
+    .select('circle').attr('opacity', 0.35);
 
   // Operator labels appear on hover only via tooltip; insights via tooltip
   // Drag behavior
@@ -1317,23 +1332,95 @@ function wireSearch(){
   const dlg = document.getElementById('searchDialog');
   const input = document.getElementById('searchInput');
   const results = document.getElementById('searchResults');
-  document.getElementById('searchOpen').onclick = ()=>{ dlg.showModal(); input.focus(); };
+  const RECENTS_KEY = 'codex-search-recents';
+  const loadRecents = () => { try { return JSON.parse(localStorage.getItem(RECENTS_KEY)||'[]'); } catch(e){ return []; } };
+  const pushRecent = (item) => { const cur = loadRecents().filter(r=>r.href!==item.href); cur.unshift(item); try { localStorage.setItem(RECENTS_KEY, JSON.stringify(cur.slice(0,8))); } catch(e){} };
+
+  // Fuzzy scoring: exact phrase > prefix > all-tokens-present > subsequence
+  const score = (text, q, tokens) => {
+    if (!text) return 0;
+    const t = text.toLowerCase();
+    if (t === q) return 1000;
+    if (t.startsWith(q)) return 600;
+    if (t.includes(q)) return 400 - t.indexOf(q);
+    let s = 0;
+    for (const tk of tokens){ if (t.includes(tk)) s += 60; else return 0; }
+    return s;
+  };
+
+  let activeIdx = 0;
+  let flatItems = [];
+
+  const renderEmpty = () => {
+    const recents = loadRecents();
+    if (!recents.length){
+      results.innerHTML = `<div class='search-empty'>Type to search ${cards.length} insights, ${operators.length} operators, ${patterns.length} patterns.</div>`;
+      flatItems = []; return;
+    }
+    results.innerHTML = `<div class='search-group'><div class='search-group-h'>Recent</div>${recents.map((r,i)=>`<a class='search-item${i===0?' active':''}' href='${r.href}' data-href='${r.href}'><span class='kind'>${r.kind}</span><b>${escapeHtml(r.title)}</b><span class='mono'>${escapeHtml(r.sub||'')}</span></a>`).join('')}</div>`;
+    flatItems = [...results.querySelectorAll('.search-item')]; activeIdx = 0;
+  };
+
+  const renderResults = (q) => {
+    const tokens = q.split(/\s+/).filter(Boolean);
+    const cardHits = cards.map(c => ({ c, s: score(c.claim, q, tokens) + score(c.operator, q, tokens)*0.6 + score((c.domain||[]).join(' '), q, tokens)*0.3 })).filter(x=>x.s>0).sort((a,b)=>b.s-a.s).slice(0,12);
+    const opHits = operators.map(o => ({ o, s: score(o.name, q, tokens) + score((o.roles||[]).join(' '), q, tokens)*0.4 })).filter(x=>x.s>0).sort((a,b)=>b.s-a.s).slice(0,6);
+    const patHits = patterns.map(p => ({ p, s: score(p.title||'', q, tokens) })).filter(x=>x.s>0).sort((a,b)=>b.s-a.s).slice(0,5);
+
+    const groups = [];
+    if (opHits.length) groups.push(`<div class='search-group'><div class='search-group-h'>Operators</div>${opHits.map(({o})=>`<a class='search-item' href='#/o/${o.slug}' data-href='#/o/${o.slug}' data-kind='operator' data-title='${escapeHtml(o.name)}'><span class='kind'>op</span><b>${escapeHtml(o.name)}</b><span class='mono'>${escapeHtml((o.roles||[])[0]||'')}</span></a>`).join('')}</div>`);
+    if (patHits.length) groups.push(`<div class='search-group'><div class='search-group-h'>Patterns</div>${patHits.map(({p})=>`<a class='search-item' href='#/pat/${p.id}' data-href='#/pat/${p.id}' data-kind='pattern' data-title='${escapeHtml(p.title)}'><span class='kind'>pat</span><b>${escapeHtml(p.title)}</b><span class='mono'>tier ${p.tier||'—'}</span></a>`).join('')}</div>`);
+    if (cardHits.length) groups.push(`<div class='search-group'><div class='search-group-h'>Insights</div>${cardHits.map(({c})=>`<a class='search-item' href='#/ins/${c.id}' data-href='#/ins/${c.id}' data-kind='insight' data-title='${escapeHtml(c.claim)}' data-sub='${escapeHtml(c.operator)}'><span class='kind'>ins</span><b>${escapeHtml(c.claim)}</b><span class='mono'>${escapeHtml(c.operator)}</span></a>`).join('')}</div>`);
+    results.innerHTML = groups.length ? groups.join('') : `<div class='search-empty'>No matches for "${escapeHtml(q)}"</div>`;
+    flatItems = [...results.querySelectorAll('.search-item')];
+    activeIdx = 0;
+    setActiveItem();
+  };
+
+  const setActiveItem = () => {
+    flatItems.forEach((el,i)=>el.classList.toggle('active', i===activeIdx));
+    if (flatItems[activeIdx]) flatItems[activeIdx].scrollIntoView({ block:'nearest' });
+  };
+
+  const openItem = (el, newTab) => {
+    if (!el) return;
+    const href = el.dataset.href || el.getAttribute('href');
+    pushRecent({ href, kind: el.dataset.kind || 'recent', title: el.dataset.title || el.querySelector('b')?.textContent || href, sub: el.dataset.sub || el.querySelector('.mono')?.textContent || '' });
+    dlg.close();
+    if (newTab){ window.open(location.origin + location.pathname + href, '_blank'); }
+    else { location.hash = href.startsWith('#') ? href.slice(1) : href; }
+  };
+
+  document.getElementById('searchOpen').onclick = ()=>{ dlg.showModal(); input.value=''; renderEmpty(); input.focus(); };
   document.addEventListener('keydown', e => {
-    if ((e.metaKey||e.ctrlKey) && e.key.toLowerCase()==='k'){ e.preventDefault(); dlg.showModal(); input.focus(); }
+    if ((e.metaKey||e.ctrlKey) && e.key.toLowerCase()==='k'){ e.preventDefault(); if (!dlg.open){ dlg.showModal(); input.value=''; renderEmpty(); } input.focus(); }
     if (e.key==='Escape' && dlg.open) dlg.close();
   });
+
   input.oninput = e => {
-    const q = e.target.value.toLowerCase();
-    if (!q){ results.innerHTML = ''; return; }
-    const cardHits = cards.filter(c=>`${c.claim} ${c.operator} ${c.domain.join(' ')}`.toLowerCase().includes(q)).slice(0,15);
-    const opHits = operators.filter(o=>o.name.toLowerCase().includes(q)).slice(0,5);
-    const patHits = patterns.filter(p=>(p.title||'').toLowerCase().includes(q)).slice(0,5);
-    results.innerHTML = [
-      ...cardHits.map(c=>`<a href='#/ins/${c.id}' onclick='searchDialog.close()'><b>${escapeHtml(c.claim)}</b><span class='mono'>${escapeHtml(c.operator)}</span></a>`),
-      ...opHits.map(o=>`<a href='#/o/${o.slug}' onclick='searchDialog.close()'><b>${escapeHtml(o.name)}</b><span class='mono'>operator</span></a>`),
-      ...patHits.map(p=>`<a href='#/pat/${p.id}' onclick='searchDialog.close()'><b>${escapeHtml(p.title)}</b><span class='mono'>pattern</span></a>`)
-    ].join('');
+    const q = e.target.value.trim().toLowerCase();
+    if (!q){ renderEmpty(); return; }
+    renderResults(q);
   };
+
+  input.addEventListener('keydown', e => {
+    if (e.key === 'ArrowDown'){ e.preventDefault(); if (flatItems.length){ activeIdx = (activeIdx+1) % flatItems.length; setActiveItem(); } }
+    else if (e.key === 'ArrowUp'){ e.preventDefault(); if (flatItems.length){ activeIdx = (activeIdx-1+flatItems.length) % flatItems.length; setActiveItem(); } }
+    else if (e.key === 'Enter'){ e.preventDefault(); openItem(flatItems[activeIdx], e.metaKey||e.ctrlKey); }
+  });
+
+  results.addEventListener('click', e => {
+    const a = e.target.closest('.search-item');
+    if (!a) return;
+    e.preventDefault();
+    openItem(a, e.metaKey||e.ctrlKey);
+  });
+  results.addEventListener('mousemove', e => {
+    const a = e.target.closest('.search-item');
+    if (!a) return;
+    const i = flatItems.indexOf(a);
+    if (i >= 0 && i !== activeIdx){ activeIdx = i; setActiveItem(); }
+  });
 }
 
 /* ============ HEADER + SCROLL ============ */
