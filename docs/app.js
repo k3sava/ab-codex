@@ -1376,7 +1376,7 @@ function render(){
   else if (r==='/timeline') view = timeline;
   else if (r==='/about') view = about;
   else view = about;
-  if (!reduced) gsap.fromTo(app, { opacity:0, y:8 }, { opacity:1, y:0, duration:.4, ease:'power2.out' });
+  if (!reduced) gsap.fromTo(app, { opacity:0 }, { opacity:1, duration:.3, ease:'power2.out', clearProps:'transform,translate,rotate,scale' });
   view();
   // Allow render then refresh ScrollTrigger so currently-visible reveals fire
   setTimeout(() => {

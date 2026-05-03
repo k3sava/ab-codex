@@ -583,6 +583,10 @@ dialog .search-head kbd{font-family:var(--mono);font-size:.65rem;padding:3px 7px
 .br-item.active{background:var(--ink);color:var(--paper)}
 .br-item.active .ct{color:color-mix(in oklab,var(--paper) 70%,transparent)}
 .browse-rail-toggle{display:none}
+@media (max-width:720px){
+  .browse-shell{grid-template-columns:1fr;gap:18px}
+  .browse-rail{position:static;max-height:none;padding-right:0;gap:14px}
+}
 .brow-group{margin-bottom:32px}
 .brow-group-head{display:flex;align-items:baseline;gap:12px;margin-bottom:8px;padding-bottom:6px;border-bottom:1px solid var(--line)}
 .brow-group-head h2{font-family:var(--serif);font-weight:400;font-size:1.4rem;letter-spacing:-.01em;color:var(--ink)}
@@ -615,10 +619,11 @@ dialog .search-head kbd{font-family:var(--mono);font-size:.65rem;padding:3px 7px
 .trow-who{font-family:var(--mono);font-size:.72rem;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .trow-date{font-family:var(--mono);font-size:.7rem;color:var(--muted);font-variant-numeric:tabular-nums;text-align:right}
 @media (max-width:720px){
-  .trow{grid-template-columns:1fr auto;gap:6px}
-  .trow-who,.trow-date{font-size:.68rem}
-  .trow-who{grid-column:1}
-  .trow-date{grid-column:2;grid-row:1}
+  .trow{grid-template-columns:1fr auto;gap:4px 10px}
+  .trow-claim{grid-column:1/-1;grid-row:1;white-space:normal;font-size:.95rem;line-height:1.3}
+  .trow-who{grid-column:1;grid-row:2;font-size:.68rem}
+  .trow-date{grid-column:2;grid-row:2;font-size:.68rem;text-align:right}
+  .trow .tier{display:none}
 }
 
 /* ===== CONTRADICTION — vs view ===== */
