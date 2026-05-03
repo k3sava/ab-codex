@@ -39,4 +39,4 @@ Writes like he's talking to a friend. Personal register, mid-sentence personalit
 - Wiki concepts (Kesava-authored): anti-fabrication, evidence-ladder, principal-marketer-flywheel, super-ic-rotation-doctrine, onboarding-friction-trough, ai-native-pmm-practice, discovery-corpus-design-brief, operator-voice (outbound rules), writing-voice (personal register).
 - Flywheel substrate (`~/r2d2/flywheel/`) — ledger, measurement frameworks.
 - iamkesava.com — public site, apps, toys, tools.
-- LinkedIn `linkedin.com/in/kesavamandiga` — personal-register posts, JustCall PMM threads, ship-queue announcements.
+- LinkedIn `linkedin.com/in/k3sava` — personal-register posts, JustCall PMM threads, ship-queue announcements.

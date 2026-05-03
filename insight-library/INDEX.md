@@ -4,7 +4,7 @@ _Generated 2026-05-03. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
 - 630 insight cards
-- 454 operator profiles
+- 453 operator profiles
 - 207 raw source files
 - 24 synthesis patterns
 - 9 contradictions
@@ -382,7 +382,6 @@ _Generated 2026-05-03. Auto-built from frontmatter — do not edit by hand._
 - [`ins_kamaraj-mathiarasan-llm-tracking-tools-basic`](insights/ins_kamaraj-mathiarasan-llm-tracking-tools-basic.md) — 'Most LLM tracking tools are too basic to explain why your page is mentioned.' _(Kamaraj Mathiarasan)_
 - [`ins_karthik-srinivasan-great-product-piyush-pandey`](insights/ins_karthik-srinivasan-great-product-piyush-pandey.md) — "Piyush Pandey was himself a great 'product' worth writing about" _(Karthik Srinivasan)_
 - [`ins_kate-syuma-build-in-public-lead-engine`](insights/ins_kate-syuma-build-in-public-lead-engine.md) — 'Building in public is the only growth channel you need if you share real insights.' _(Kate Syuma)_
-- [`ins_kesava-mandiga-found-sourav-mohanty-s-comment-on-this-insightful-branch-in-n`](insights/ins_kesava-mandiga-found-sourav-mohanty-s-comment-on-this-insightful-branch-in-n.md) — 'Branch-in-new-chat enables PMMs to scale strategy to assets without chaos.' _(Kesava Mandiga found Sourav Mohanty’s comment on this insightful)_
 - [`ins_kevin-lord-barry-timeless-b2b-ad-principles`](insights/ins_kevin-lord-barry-timeless-b2b-ad-principles.md) — 'Winning B2B ads are built on timeless principles that work today, not trendy tactics.' _(Kevin Lord Barry)_
 - [`ins_kristen-kris-hicks-hustle-culture-is-ableist`](insights/ins_kristen-kris-hicks-hustle-culture-is-ableist.md) — 'Hustle culture is ableist and excludes neurodivergent workers' _(Kristen (Kris) Hicks)_
 - [`ins_kyle-james-graveyard-of-incomplete-agents`](insights/ins_kyle-james-graveyard-of-incomplete-agents.md) — 'A graveyard of incomplete agents is where the good stuff lives' _(Kyle James)_
@@ -506,6 +505,7 @@ _Generated 2026-05-03. Auto-built from frontmatter — do not edit by hand._
 - [`ins_smriti-sahu-social-media-manager-irony`](insights/ins_smriti-sahu-social-media-manager-irony.md) — 'The person handling social media for a brand is often the least interested in it due to constant back-and-forth.' _(Smriti Sahu)_
 - [`ins_so-what-as-content-diagnostic`](insights/ins_so-what-as-content-diagnostic.md) — The "So what?" step is the most-skipped move in content creation across B2B and B2C _(Ann Handley)_
 - [`ins_software-3-ai-engineer`](insights/ins_software-3-ai-engineer.md) — We are in the transition from Software 2.0 to Software 3.0 — AI Engineers will build the majority of new applications _(Swyx (Shawn Wang))_
+- [`ins_sourav-mohanty-branch-in-new-chat-pmm-workflow`](insights/ins_sourav-mohanty-branch-in-new-chat-pmm-workflow.md) — 'Branch-in-new-chat enables PMMs to scale strategy to assets without chaos' _(Sourav Mohanty)_
 - [`ins_specificity-becomes-profitable`](insights/ins_specificity-becomes-profitable.md) — AI makes specificity profitable; the Pareto distribution flattens at the long tail _(Eric Seufert)_
 - [`ins_start-with-support-fastest-ai-roi`](insights/ins_start-with-support-fastest-ai-roi.md) — Start your AI-in-GTM build with customer support — fastest path to defensible value _(Yamini Rangan)_
 - [`ins_story-driven-vs-competition-driven`](insights/ins_story-driven-vs-competition-driven.md) — Story-driven companies don't compete — they play a different game _(Bernadette Jiwa)_
@@ -887,7 +887,6 @@ _Generated 2026-05-03. Auto-built from frontmatter — do not edit by hand._
 - [Keenan (Jim Keenan)](operators/keenan/README.md)
 - [Kenny Damian](operators/kenny-damian/README.md)
 - [Kesava Mandiga](operators/kesava-mandiga/README.md)
-- [Kesava Mandiga found Sourav Mohanty’s comment on this insightful](operators/kesava-mandiga-found-sourav-mohanty-s-comment-on-this-insightful/README.md)
 - [Keshav Goyal](operators/keshav-goyal/README.md)
 - [Kevin Chan](operators/kevin-chan/README.md)
 - [Kevin Indig](operators/kevin-indig/README.md)
