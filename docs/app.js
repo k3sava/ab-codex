@@ -208,6 +208,7 @@ async function insight(id){
           <button class='btn' id='citeBtn'>copy citation</button>
           <a class='btn ghost' href='${REPO_BASE}/insight-library/${c.path}' target='_blank' rel='noopener'>view source</a>
         </div>
+        ${(()=>{ const sib = cards.filter(x=>x.operator_slug===c.operator_slug); const i = sib.findIndex(x=>x.id===c.id); const prev = i>0?sib[i-1]:null; const next = i>=0&&i<sib.length-1?sib[i+1]:null; return (prev||next) ? `<nav class='ins-nav'>${prev?`<a class='ins-nav-prev' href='#/ins/${prev.id}'><span>← previous</span><em>${escapeHtml(prev.claim.slice(0,80))}${prev.claim.length>80?'…':''}</em></a>`:'<span></span>'}${next?`<a class='ins-nav-next' href='#/ins/${next.id}'><span>next →</span><em>${escapeHtml(next.claim.slice(0,80))}${next.claim.length>80?'…':''}</em></a>`:'<span></span>'}</nav>` : ''; })()}
       </div>
       <aside>
         <div class='card-meta'>
@@ -435,29 +436,54 @@ function domainPage(d){
 /* ============ PATTERNS ============ */
 function patternsList(){
   const byTier = { A: patterns.filter(p=>p.tier==='A'), B: patterns.filter(p=>p.tier==='B'), C: patterns.filter(p=>p.tier==='C'), other: patterns.filter(p=>!['A','B','C'].includes(p.tier)) };
-  const tierBlock = (label, list, desc) => list.length === 0 ? '' : `
-    <section class='tier-group'>
-      <header class='tier-head'>
-        <h2>Tier ${label}</h2>
-        <span class='ct'>${list.length} pattern${list.length===1?'':'s'}</span>
-        <p class='desc'>${desc}</p>
-      </header>
-      <div class='card-grid'>${list.map(p=>`
-        <a class='card pattern reveal' href='#/pat/${p.id}'>
-          <div class='meta-row'>${tierBadge(p.tier)}<span>${(p.domains||[]).slice(0,2).join(' · ')}</span></div>
+
+  const dotCluster = (n) => {
+    const dots = Math.min(n, 24);
+    return `<span class='pat-dots' aria-hidden='true'>${Array.from({length:dots}).map(()=>`<i></i>`).join('')}${n>24?`<em>+${n-24}</em>`:''}</span>`;
+  };
+
+  const tierA = byTier.A.length ? `
+    <section class='pat-tier pat-tier-a'>
+      <header class='pat-tier-head'><h2>Tier A</h2><span class='ct'>${byTier.A.length}</span><p>High-confidence convergences. Strong evidence, broad transferability.</p></header>
+      <div class='pat-tiles'>${byTier.A.map(p=>`
+        <a class='pat-tile reveal' href='#/pat/${p.id}'>
+          <div class='pat-tile-top'>${tierBadge(p.tier)}<span class='pat-doms'>${(p.domains||[]).slice(0,2).join(' · ')}</span></div>
           <h3>${escapeHtml(p.title)}</h3>
-          <div class='converge'>${(p.uses_cards||[]).length} operators converge</div>
+          <div class='pat-tile-foot'>
+            ${dotCluster((p.uses_cards||[]).length)}
+            <span class='pat-conv'>${(p.uses_cards||[]).length} operators converge</span>
+          </div>
         </a>`).join('')}</div>
-    </section>`;
+    </section>` : '';
+
+  const tierB = byTier.B.length ? `
+    <section class='pat-tier pat-tier-b'>
+      <header class='pat-tier-head'><h2>Tier B</h2><span class='ct'>${byTier.B.length}</span><p>Solid convergences. More context-dependent.</p></header>
+      <div class='pat-rows'>${byTier.B.map(p=>`
+        <a class='pat-row reveal' href='#/pat/${p.id}'>
+          <span class='pat-row-title'>${escapeHtml(p.title)}</span>
+          <span class='pat-row-doms'>${(p.domains||[]).slice(0,2).join(' · ')}</span>
+          <span class='pat-row-ct'>${(p.uses_cards||[]).length} ops</span>
+        </a>`).join('')}</div>
+    </section>` : '';
+
+  const tierC = byTier.C.length ? `
+    <section class='pat-tier pat-tier-c'>
+      <header class='pat-tier-head'><h2>Tier C</h2><span class='ct'>${byTier.C.length}</span><p>Emerging. Treat as hypotheses.</p></header>
+      <p class='pat-inline'>${byTier.C.map(p=>`<a href='#/pat/${p.id}'>${escapeHtml(p.title)} <em>·${(p.uses_cards||[]).length}</em></a>`).join('<span class="sep">,</span> ')}</p>
+    </section>` : '';
+
+  const tierOther = byTier.other.length ? `
+    <section class='pat-tier'>
+      <header class='pat-tier-head'><h2>Untiered</h2><span class='ct'>${byTier.other.length}</span></header>
+      <p class='pat-inline'>${byTier.other.map(p=>`<a href='#/pat/${p.id}'>${escapeHtml(p.title)}</a>`).join('<span class="sep">,</span> ')}</p>
+    </section>` : '';
 
   app.innerHTML = `<section class='list-page'>
     <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <span>patterns</span></div>
     <h1>synthesis patterns</h1>
     <p class='lede'>Cross-operator convergences and disagreements. ${STATS.patterns} patterns and ${STATS.contradictions} contradictions surfaced from ${STATS.cards} cards.</p>
-    ${tierBlock('A', byTier.A, 'High-confidence convergences with strong evidence and broad transferability.')}
-    ${tierBlock('B', byTier.B, 'Solid convergences. Useful but more context-dependent.')}
-    ${tierBlock('C', byTier.C, 'Emerging patterns. Treat as hypotheses.')}
-    ${byTier.other.length ? tierBlock('—', byTier.other, 'Untiered.') : ''}
+    ${tierA}${tierB}${tierC}${tierOther}
 
     ${contradictions.length ? `
     <section id='contradictions' class='contradictions-section reveal'>
@@ -473,7 +499,7 @@ function patternsList(){
         </a>`).join('')}</div>
     </section>` : ''}
   </section>`;
-  if (!reduced) ScrollTrigger.batch('.card.reveal', { onEnter: els => gsap.fromTo(els, { opacity:0, y:18 }, { opacity:1, y:0, duration:.6, ease:'power3.out', stagger:.03 }), start:'top 92%' });
+  if (!reduced) ScrollTrigger.batch('.pat-tile.reveal, .pat-row.reveal, .card.reveal', { onEnter: els => gsap.fromTo(els, { opacity:0, y:18 }, { opacity:1, y:0, duration:.6, ease:'power3.out', stagger:.03 }), start:'top 92%' });
 }
 
 function playbookCategoryFromPath(path){
