@@ -6,12 +6,12 @@ A primary-source library of operator insights — atomic claims, each one attrib
 
 ## What's in here today
 
-- **150** insight cards
-- **190** operator profiles
+- **417** insight cards
+- **272** operator profiles
 - **24** synthesis patterns (cross-operator convergences)
 - **9** documented contradictions
 - **23** methodology playbooks
-- **78** archived raw sources (podcasts, essays, threads, research)
+- **207** archived raw sources (podcasts, essays, threads, research)
 
 Every card carries: operator, role, source URL, source date, claim, mechanism, conditions when it applies, evidence, signals to track, counter-evidence, and links to related cards.
 
@@ -23,7 +23,7 @@ The site at [k3sava.github.io/ab-codex](https://k3sava.github.io/ab-codex/) give
 |------|---------------|
 | [Home](https://k3sava.github.io/ab-codex/) | Tier A claims and a domain index |
 | [Map](https://k3sava.github.io/ab-codex/#/map) | Visual graph: operators outside, domains in the middle, insights orbiting between |
-| [Operators](https://k3sava.github.io/ab-codex/#/operators) | All 190 profiles, sorted by card count |
+| [Operators](https://k3sava.github.io/ab-codex/#/operators) | All 272 profiles, sorted by card count |
 | [Patterns](https://k3sava.github.io/ab-codex/#/patterns) | Where 3+ operators converge on the same claim |
 | [Browse](https://k3sava.github.io/ab-codex/#/browse) | Filter by tier or domain, sort by date / operator / tier |
 | [Timeline](https://k3sava.github.io/ab-codex/#/timeline) | Newest captures first |
