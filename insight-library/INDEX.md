@@ -3,16 +3,16 @@
 _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 729 insight cards
+- 753 insight cards
 - 453 operator profiles
 - 207 raw source files
-- 36 synthesis patterns
+- 37 synthesis patterns
 - 11 contradictions
-- 26 playbooks
+- 27 playbooks
 
 ## Insights by tier
 
-### Tier A (280)
+### Tier A (298)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -87,6 +87,12 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_friction-as-feature`](insights/ins_friction-as-feature.md) — Add friction when it helps users decide whether the product is for them _(Amole Naik)_
 - [`ins_gap-selling-change-formula`](insights/ins_gap-selling-change-formula.md) — No problem, no sale. No gap, no large sale. Change = (Dissatisfaction × Desirability) > Cost of Change. _(Keenan (Jim Keenan))_
 - [`ins_generalists-over-specialists-ai-native`](insights/ins_generalists-over-specialists-ai-native.md) — In an AI-native team, hire generalists with one deep dimension, not specialists _(Anton Osika)_
+- [`ins_gerhardt-brand-reputation-compounds`](insights/ins_gerhardt-brand-reputation-compounds.md) — Brand is reputation, and reputation compounds — the earlier you invest, the lower your CAC becomes over time _(Dave Gerhardt)_
+- [`ins_gerhardt-community-as-distribution-moat`](insights/ins_gerhardt-community-as-distribution-moat.md) — Private community is the ultimate distribution moat — generates demand, content flywheel, and trust simultaneously in untrackable spaces _(Dave Gerhardt)_
+- [`ins_gerhardt-distribution-beats-creation`](insights/ins_gerhardt-distribution-beats-creation.md) — Distribution is more important than creation — the diagnostic question is "whose content are you actually looking forward to reading and why?" _(Dave Gerhardt)_
+- [`ins_gerhardt-founder-story-as-weapon`](insights/ins_gerhardt-founder-story-as-weapon.md) — Use the founder's story as a strategic weapon — the brands that win make the founder the face of the movement _(Dave Gerhardt)_
+- [`ins_gerhardt-no-school-for-b2b-marketing`](insights/ins_gerhardt-no-school-for-b2b-marketing.md) — B2B marketing has a creativity deficit because no one goes to school for it — practitioners default to lead-gen mechanics over brand storytelling _(Dave Gerhardt)_
+- [`ins_gerhardt-social-as-testing-lab`](insights/ins_gerhardt-social-as-testing-lab.md) — Social media is a content testing lab, not a distribution channel — break ideas into small testable pieces, only invest in the ones that earn organic traction _(Dave Gerhardt)_
 - [`ins_getting-vs-staying-wealthy`](insights/ins_getting-vs-staying-wealthy.md) — Getting wealthy and staying wealthy require opposite skill sets _(Morgan Housel)_
 - [`ins_ghost-citation-gap`](insights/ins_ghost-citation-gap.md) — Citation rate and mention rate are different metrics; comparative content closes the gap _(Kevin Indig)_
 - [`ins_glue-work-is-staff-leadership`](insights/ins_glue-work-is-staff-leadership.md) — Glue work is technical leadership, not a tax on the IC _(Tanya Reilly)_
@@ -94,6 +100,12 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_going-deep-to-bedrock`](insights/ins_going-deep-to-bedrock.md) — Push past expert opinion until you reach the actual law of physics or contract _(Ayo Omojola)_
 - [`ins_growth-loops-not-funnels`](insights/ins_growth-loops-not-funnels.md) — Growth is a system of interconnected loops, not a collection of tactics _(Reforge)_
 - [`ins_gtm-teams-winning-thirty-year`](insights/ins_gtm-teams-winning-thirty-year.md) — GTM teams are winning with a THIRTY-year-old technology. New AI tools can be great, but _(Mathias Powell)_
+- [`ins_handley-voice-as-moat-against-ai`](insights/ins_handley-voice-as-moat-against-ai.md) — In an AI-flooded content market, voice is the only defensible advantage — distinct, authentic, sounds like one source _(Ann Handley)_
+- [`ins_handley-write-to-one-subscriber`](insights/ins_handley-write-to-one-subscriber.md) — Write as if to a single subscriber — use "you" liberally and remove anything with a whiff of "Dear Valued Customers" _(Ann Handley)_
+- [`ins_handley-write-what-you-want-to-read`](insights/ins_handley-write-what-you-want-to-read.md) — Grow by writing what you want to read — not what you think the audience wants _(Ann Handley)_
+- [`ins_harland-benefits-over-pride`](insights/ins_harland-benefits-over-pride.md) — People don't want to know how proud you are — they want to know how you'll change their life _(Dave Harland)_
+- [`ins_harland-humor-must-serve-argument`](insights/ins_harland-humor-must-serve-argument.md) — Humor in copy is only valuable if removing it weakens the persuasive argument — decoration distracts; functional humor reframes _(Dave Harland)_
+- [`ins_harland-scream-principle`](insights/ins_harland-scream-principle.md) — Once per section, one sentence should scream — and the quiet sentences are what make the scream possible _(Dave Harland)_
 - [`ins_hiro-pipeline-metric`](insights/ins_hiro-pipeline-metric.md) — HIRO Pipeline: only count high-intent sources that win above 3% and reach late-stage above 25% _(Chris Walker)_
 - [`ins_housel-biggest-risk-nobody-talks-about`](insights/ins_housel-biggest-risk-nobody-talks-about.md) — The biggest risk is the one nobody is talking about — by definition, no one has prepared for it _(Morgan Housel)_
 - [`ins_housel-doing-nothing-during-crisis`](insights/ins_housel-doing-nothing-during-crisis.md) — Willingness to do nothing during crisis is one of the most valuable but underrated skills — most crisis actions destroy value _(Morgan Housel)_
@@ -218,10 +230,16 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_roberge-structured-training`](insights/ins_roberge-structured-training.md) — Replace "shadow a top rep" with structured curriculum + pass/fail certifications — competence before customer contact _(Mark Roberge)_
 - [`ins_run-up-the-stack`](insights/ins_run-up-the-stack.md) — Run up the stack — use commoditized capabilities as inputs to create higher-order human value _(Packy McCormick)_
 - [`ins_sam-mallikarjunan-advance-the-market-not-just-share`](insights/ins_sam-mallikarjunan-advance-the-market-not-just-share.md) — 'The biggest impediment to growth isn''t a cheaper competitor; it''s that the market is bad at marketing and sales' _(Sam Mallikarjunan)_
+- [`ins_schafer-pain-pleasure-polarity`](insights/ins_schafer-pain-pleasure-polarity.md) — Every buying decision reduces to one polarity — moving toward pleasure or away from pain. Copy that activates neither doesn't convert. _(Cole Schafer)_
+- [`ins_schafer-uncomfortable-honesty`](insights/ins_schafer-uncomfortable-honesty.md) — Would you say it to the reader's face without flinching? — the test that separates copy from manipulation _(Cole Schafer)_
 - [`ins_sebastien-rankin-treat-marketing-strategy-like-codebase`](insights/ins_sebastien-rankin-treat-marketing-strategy-like-codebase.md) — 'Treat marketing strategy like a codebase for team-wide AI alignment.' _(Sebastien Rankin)_
 - [`ins_seeds-nets-spears-lead-portfolio`](insights/ins_seeds-nets-spears-lead-portfolio.md) — Treat leads as a three-asset portfolio, not a single funnel _(Aaron Ross)_
 - [`ins_setup-follow-through-pitch`](insights/ins_setup-follow-through-pitch.md) — Sales pitches need a Setup before the Follow-Through; most pitches skip the Setup _(April Dunford)_
 - [`ins_shape-up-appetite-not-estimate`](insights/ins_shape-up-appetite-not-estimate.md) — Don't ask "how long will this take?" — ask "how much time do we want to spend on this?" _(Jason Fried)_
+- [`ins_shleyner-clarity-beats-cleverness`](insights/ins_shleyner-clarity-beats-cleverness.md) — Clarity beats cleverness, always — a headline that requires interpretation is a headline that fails _(Eddie Shleyner)_
+- [`ins_shleyner-headline-as-complete-argument`](insights/ins_shleyner-headline-as-complete-argument.md) — Every headline must function as a complete persuasive argument — in the age of infinite scroll, the headline is often the only element a reader sees _(Eddie Shleyner)_
+- [`ins_shleyner-vividness-creates-memorability`](insights/ins_shleyner-vividness-creates-memorability.md) — Abstract claims disappear from memory; concrete images persist — vividness creates memorability _(Eddie Shleyner)_
+- [`ins_shleyner-writing-while-emotional`](insights/ins_shleyner-writing-while-emotional.md) — Writing while emotional is a deliberate strategy, not unprofessional — the writer's emotional investment transfers to the reader _(Eddie Shleyner)_
 - [`ins_short-form-stuff-facebook-instagram`](insights/ins_short-form-stuff-facebook-instagram.md) — 1. For short-form stuff (Facebook, Instagram, etc.), AI is doing most of the heavy lifting _(Josue Valles)_
 - [`ins_simon-discounting-most-dangerous-practice`](insights/ins_simon-discounting-most-dangerous-practice.md) — Discounting is the most dangerous pricing practice — easy to start, nearly impossible to stop, customer expectations reset permanently _(Hermann Simon)_
 - [`ins_simon-pricing-is-structural-org-failure`](insights/ins_simon-pricing-is-structural-org-failure.md) — Pricing is the highest-leverage function and the least-staffed — fewer than 5% of Fortune 500 companies have a dedicated pricing department _(Hermann Simon)_
@@ -294,7 +312,7 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click — create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers — build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (377)
+### Tier B (383)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone — it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -444,6 +462,9 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_growing-solutions-marketing-team-lovable`](insights/ins_growing-solutions-marketing-team-lovable.md) — I'm growing the Solutions Marketing team at Lovable, and I'm hiring for two senior roles 🚀 _(Vikas Bhagat)_
 - [`ins_hallucinations-when-makes-things-thinks`](insights/ins_hallucinations-when-makes-things-thinks.md) — Hallucinations are when the AI makes up things that it *thinks* are true -- but just ar _(Dharmesh Shah)_
 - [`ins_hamna-aslam-kahn-ai-as-digital-chief-of-staff`](insights/ins_hamna-aslam-kahn-ai-as-digital-chief-of-staff.md) — 'The most powerful AI prompts are those that pull from integrated workspace data, not generic queries.' _(Hamna Aslam Kahn)_
+- [`ins_handley-self-laughter-as-quality-kpi`](insights/ins_handley-self-laughter-as-quality-kpi.md) — Did you make yourself laugh while writing? — a reliable KPI for newsletter quality _(Ann Handley)_
+- [`ins_handley-white-space-as-oxygen`](insights/ins_handley-white-space-as-oxygen.md) — White space is oxygen — dense unbroken text creates cognitive load; strategic white space lets the eye rest and the reader continue _(Ann Handley)_
+- [`ins_harland-ideas-need-to-simmer`](insights/ins_harland-ideas-need-to-simmer.md) — Ideas need to simmer — walking away from a draft and returning later is necessary for critical editing, not optional _(Dave Harland)_
 - [`ins_harshit-jain-developer-marketers-rare-breed`](insights/ins_harshit-jain-developer-marketers-rare-breed.md) — 'Technical PMM is the rare hire that lets you market to engineers — without translation loss' _(Harshit Jain)_
 - [`ins_has-never-felt-closer-real`](insights/ins_has-never-felt-closer-real.md) — AI has never felt closer to a real employee _(Dan Rosenthal)_
 - [`ins_hate-when-boss-asks-why`](insights/ins_hate-when-boss-asks-why.md) — - They hate when the boss asks why a tiny edit took seventeen minutes, but will take a _(Divyank Jain)_
@@ -593,6 +614,8 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_sameness-perception-is-the-differentiation-barrier`](insights/ins_sameness-perception-is-the-differentiation-barrier.md) — Buyers see "sameness" — test differentiators with external audiences before any campaign launch _(Gartner)_
 - [`ins_samuel-cahoon-activation-is-crucial`](insights/ins_samuel-cahoon-activation-is-crucial.md) — 'Activation is crucial: we built in-app onboarding to guide users to the Aha moment and reduce TTV.' _(Samuel Cahoon)_
 - [`ins_sanne-ijspeerd-story-evolves-with-product-phase`](insights/ins_sanne-ijspeerd-story-evolves-with-product-phase.md) — 'Most B2B SaaS expansion fails because companies pick the wrong segment, not the wrong tactics' _(Sanne IJspeerd)_
+- [`ins_schafer-three-headline-archetypes`](insights/ins_schafer-three-headline-archetypes.md) — Three headline archetypes — Flirting (curiosity), Direct (clarity), Pain-based (problem-recognition) — pick the one that matches funnel stage _(Cole Schafer)_
+- [`ins_schafer-three-pass-writing-process`](insights/ins_schafer-three-pass-writing-process.md) — Three sequential passes — pole + headline first, voice second, integration third — single-pass writing collapses persuasion and personality into mush _(Cole Schafer)_
 - [`ins_seasons-not-roadmaps`](insights/ins_seasons-not-roadmaps.md) — Plan in seasons keyed to secular changes, not 6-month roadmaps _(Asha Sharma)_
 - [`ins_second-brain-para`](insights/ins_second-brain-para.md) — Brains are for having ideas, not storing them — externalize knowledge so AI can compound it for you _(Tiago Forte)_
 - [`ins_seller-workflows-begin-with-ai`](insights/ins_seller-workflows-begin-with-ai.md) — By 2027, 95% of seller workflows will begin with AI — up from <20% in 2024 _(Gartner)_
@@ -604,6 +627,7 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_sharing-publicly-same-reason-shared`](insights/ins_sharing-publicly-same-reason-shared.md) — We're sharing V2 publicly for the same reason we shared V1: every company needs a frame _(Wade Foster)_
 - [`ins_ship-fast-charge-day-one`](insights/ins_ship-fast-charge-day-one.md) — Ship fast, charge from day one, use boring technology, never hire — every idea is a cheap experiment _(Pieter Levels)_
 - [`ins_shivangi-gautam-word-salad-critique`](insights/ins_shivangi-gautam-word-salad-critique.md) — 'LinkedIn thought leadership is often word salad with no real point.' _(Shivangi Gautam)_
+- [`ins_shleyner-conciseness-as-respect`](insights/ins_shleyner-conciseness-as-respect.md) — Conciseness is respect — every unnecessary word signals that you value your message more than the reader's time _(Eddie Shleyner)_
 - [`ins_shruti-vashi-pmm-must-balance-strategy-and-execution`](insights/ins_shruti-vashi-pmm-must-balance-strategy-and-execution.md) — 'PMM must balance strategy and execution, not choose one.' _(Shruti Vashi)_
 - [`ins_shubham-shrivastava-ghost-hiring-and-unfair-pay`](insights/ins_shubham-shrivastava-ghost-hiring-and-unfair-pay.md) — "Companies preach inclusion and mental health while ghosting candidates and offering salaries that can't cover rent." _(SHUBHAM SHRIVASTAVA)_
 - [`ins_sid-bharath-extracting-podcast-knowledge-into-agent-skills`](insights/ins_sid-bharath-extracting-podcast-knowledge-into-agent-skills.md) — 'Podcast transcripts can be turned into reusable AI agent skills for practical work.' _(Sid Bharath)_
@@ -1217,6 +1241,7 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`pat_build-for-next-model`](synthesis/patterns/build-for-next-model.md) — Build for the next model, not the current one (6 ops) [Tier A]
 - [`pat_buyer-mindset-not-product-features`](synthesis/patterns/buyer-mindset-not-product-features.md) — Sell to the buyer's mindset, not to product features — Rackham, Dixon, Voss, Moesta, and Dunford on the same buyer-side primacy (5 ops) [Tier A]
 - [`pat_context-not-capability`](synthesis/patterns/context-not-capability.md) — Context, not capability, is the bottleneck (4 ops) [Tier A]
+- [`pat_copywriting-craft-fundamentals`](synthesis/patterns/copywriting-craft-fundamentals.md) — Copywriting craft is built on five reinforcing fundamentals — Schafer, Gerhardt, Shleyner, Handley, Harland, and Miller on what makes copy actually convert (6 ops) [Tier A]
 - [`pat_decision-quality-through-process-not-willpower`](synthesis/patterns/decision-quality-through-process-not-willpower.md) — Decision quality at scale comes from process design, not from individual brilliance or harder thinking (4 ops) [Tier A]
 - [`pat_diagnose-before-execute`](synthesis/patterns/diagnose-before-execute.md) — Diagnose before executing — refuse the playbook ask (4 ops) [Tier A]
 - [`pat_differentiation-vs-sameness`](synthesis/patterns/differentiation-vs-sameness.md) — Differentiation requires three checks — different, better, matters (3 ops) [Tier B]
@@ -1269,6 +1294,7 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [Copywriting mastery — direct response to modern conversion](playbooks/copywriting/copywriting-mastery.md)
 - [Humanizer — strip AI-writing tells from any draft](playbooks/copywriting/humanizer.md)
 - [Landing-page CRO — 7-section rubric](playbooks/copywriting/lp-cro-rubric.md)
+- [The Converting-Copy Playbook — five-fundamentals operating routine drawn from Schafer, Gerhardt, Shleyner, Handley, Harland, and Miller into a usable copywriting practice](playbooks/copywriting/the-converting-copy-playbook.md)
 - [Writing craft — universal sentence-level principles](playbooks/copywriting/writing-craft.md)
 - [The Mental Models Operating System — combining Kahneman's bias inventory with Munger's latticework into an operational decision-quality playbook](playbooks/decision-quality/the-mental-models-operating-system.md)
 - [Design principles for marketing assets](playbooks/design/design-principles.md)

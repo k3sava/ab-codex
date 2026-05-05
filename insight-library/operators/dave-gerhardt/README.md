@@ -27,6 +27,12 @@ Dave Gerhardt's central thesis is that B2B marketing suffers from a creativity d
 
 ## Cards
 - `ins_b2b-movement-not-campaigns` — Build a movement around a polarizing POV — brand equity compounds, paid acquisition doesn't [Tier B]
+- `ins_gerhardt-no-school-for-b2b-marketing` — B2B has a creativity deficit because no one goes to school for it [Tier A]
+- `ins_gerhardt-brand-reputation-compounds` — Brand is reputation, and reputation compounds — earlier investment lowers CAC over time [Tier A]
+- `ins_gerhardt-founder-story-as-weapon` — Use the founder's story as a strategic weapon — make the founder the face of the movement [Tier A]
+- `ins_gerhardt-social-as-testing-lab` — Social media is a content testing lab, not a distribution channel [Tier A]
+- `ins_gerhardt-distribution-beats-creation` — Distribution beats creation — diagnose: "whose content are you actually looking forward to?" [Tier A]
+- `ins_gerhardt-community-as-distribution-moat` — Private community is the ultimate distribution moat — demand engine + content flywheel + dark-social trust [Tier A]
 
 
 ## Sources captured

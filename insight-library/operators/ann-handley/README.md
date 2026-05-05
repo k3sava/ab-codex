@@ -27,7 +27,12 @@ Ann Handley's central contribution to content marketing is elevating writing qua
 
 ## Cards
 - `ins_utility-times-inspiration-times-empathy` — Quality content = Utility × Inspiration × Empathy. Any factor at zero produces nothing. [Tier A]
-- `ins_so-what-as-content-diagnostic` — The 'So what?' step is the most-skipped move in content creation across B2B and B2C [Tier B]
+- `ins_so-what-as-content-diagnostic` — The 'So what?' step is the most-skipped move in content creation [Tier B]
+- `ins_handley-voice-as-moat-against-ai` — In an AI-flooded content market, distinctive authentic voice is the only defensible moat [Tier A]
+- `ins_handley-write-what-you-want-to-read` — Grow by writing what you want to read, not what you think the audience wants [Tier A]
+- `ins_handley-self-laughter-as-quality-kpi` — Did you make yourself laugh while writing? — a reliable quality KPI [Tier B]
+- `ins_handley-write-to-one-subscriber` — Write as if to a single subscriber — use "you" liberally; remove "Dear Valued Customers" register [Tier A]
+- `ins_handley-white-space-as-oxygen` — White space is oxygen — dense unbroken text creates fatigue; strategic white space lets the eye rest [Tier B]
 
 
 ## Sources captured

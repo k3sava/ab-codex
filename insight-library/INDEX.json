@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-05T04:02:49.140Z",
+  "generated_at": "2026-05-05T04:22:37.457Z",
   "counts": {
-    "insights": 729,
+    "insights": 753,
     "operators": 453,
     "raw_sources": 207,
-    "patterns": 36,
+    "patterns": 37,
     "contradictions": 11,
-    "playbooks": 26
+    "playbooks": 27
   },
   "insights": [
     {
@@ -6426,6 +6426,195 @@
       "raw_ref": "raw/podcasts/anton-osika--lovable-ai-engineer--2026-04-28.md"
     },
     {
+      "path": "insights/ins_gerhardt-brand-reputation-compounds.md",
+      "title": "Brand is reputation, and reputation compounds — the earlier you invest, the lower your CAC becomes over time",
+      "id": "ins_gerhardt-brand-reputation-compounds",
+      "operator": "Dave Gerhardt",
+      "operator_role": "Founder Exit Five; former CMO Privy and Drift; author Founder Brand",
+      "source_url": "https://www.exitfive.com/",
+      "source_type": "book",
+      "source_title": "\"Founder Brand — Brand as Compounding Asset\"",
+      "source_date": "2022-09-15",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "growth-demand",
+        "strategy",
+        "pmm"
+      ],
+      "lifecycle": [
+        "brand-strategy",
+        "distribution",
+        "demand-gen"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_b2b-movement-not-campaigns",
+        "ins_gerhardt-no-school-for-b2b-marketing",
+        "ins_skok-ltv-cac-as-cross-functional-diagnostic"
+      ],
+      "raw_ref": "raw/expert-content/experts/dave-gerhardt.md"
+    },
+    {
+      "path": "insights/ins_gerhardt-community-as-distribution-moat.md",
+      "title": "Private community is the ultimate distribution moat — generates demand, content flywheel, and trust simultaneously in untrackable spaces",
+      "id": "ins_gerhardt-community-as-distribution-moat",
+      "operator": "Dave Gerhardt",
+      "operator_role": "Founder Exit Five; former CMO Privy and Drift; author Founder Brand",
+      "source_url": "https://www.exitfive.com/",
+      "source_type": "book",
+      "source_title": "\"Founder Brand — Community as Moat\"",
+      "source_date": "2022-09-15",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "growth-demand",
+        "founder-craft"
+      ],
+      "lifecycle": [
+        "community-building",
+        "content-strategy",
+        "demand-gen"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_gerhardt-founder-story-as-weapon",
+        "ins_gerhardt-distribution-beats-creation",
+        "ins_smallest-viable-audience"
+      ],
+      "raw_ref": "raw/expert-content/experts/dave-gerhardt.md"
+    },
+    {
+      "path": "insights/ins_gerhardt-distribution-beats-creation.md",
+      "title": "Distribution is more important than creation — the diagnostic question is \"whose content are you actually looking forward to reading and why?\"",
+      "id": "ins_gerhardt-distribution-beats-creation",
+      "operator": "Dave Gerhardt",
+      "operator_role": "Founder Exit Five; former CMO Privy and Drift; author Founder Brand",
+      "source_url": "https://www.exitfive.com/",
+      "source_type": "book",
+      "source_title": "\"Founder Brand — Distribution Beats Creation\"",
+      "source_date": "2022-09-15",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "growth-demand",
+        "gtm"
+      ],
+      "lifecycle": [
+        "content-strategy",
+        "distribution"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_gerhardt-social-as-testing-lab",
+        "ins_thiel-poor-sales-not-bad-product",
+        "ins_godin-five-step-marketing-process"
+      ],
+      "raw_ref": "raw/expert-content/experts/dave-gerhardt.md"
+    },
+    {
+      "path": "insights/ins_gerhardt-founder-story-as-weapon.md",
+      "title": "Use the founder's story as a strategic weapon — the brands that win make the founder the face of the movement",
+      "id": "ins_gerhardt-founder-story-as-weapon",
+      "operator": "Dave Gerhardt",
+      "operator_role": "Founder Exit Five; former CMO Privy and Drift; author Founder Brand",
+      "source_url": "https://www.exitfive.com/",
+      "source_type": "book",
+      "source_title": "\"Founder Brand — The Founder Story Tactic\"",
+      "source_date": "2022-09-15",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "founder-craft",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "brand-strategy",
+        "content-strategy",
+        "founder-led-marketing"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_b2b-movement-not-campaigns",
+        "ins_gerhardt-brand-reputation-compounds",
+        "ins_neumeier-customers-join-not-buy"
+      ],
+      "raw_ref": "raw/expert-content/experts/dave-gerhardt.md"
+    },
+    {
+      "path": "insights/ins_gerhardt-no-school-for-b2b-marketing.md",
+      "title": "B2B marketing has a creativity deficit because no one goes to school for it — practitioners default to lead-gen mechanics over brand storytelling",
+      "id": "ins_gerhardt-no-school-for-b2b-marketing",
+      "operator": "Dave Gerhardt",
+      "operator_role": "Founder Exit Five (B2B Marketing community); former CMO Privy and Drift; author Founder Brand",
+      "source_url": "https://www.exitfive.com/",
+      "source_type": "essay",
+      "source_title": "\"Exit Five — Why B2B Marketing Has a Creativity Deficit\"",
+      "source_date": "2024-03-01",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "growth-demand",
+        "strategy"
+      ],
+      "lifecycle": [
+        "content-strategy",
+        "brand-strategy",
+        "hiring-team-design"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_b2b-movement-not-campaigns",
+        "ins_gerhardt-brand-reputation-compounds"
+      ],
+      "raw_ref": "raw/expert-content/experts/dave-gerhardt.md"
+    },
+    {
+      "path": "insights/ins_gerhardt-social-as-testing-lab.md",
+      "title": "Social media is a content testing lab, not a distribution channel — break ideas into small testable pieces, only invest in the ones that earn organic traction",
+      "id": "ins_gerhardt-social-as-testing-lab",
+      "operator": "Dave Gerhardt",
+      "operator_role": "Founder Exit Five; former CMO Privy and Drift; author Founder Brand",
+      "source_url": "https://www.exitfive.com/",
+      "source_type": "book",
+      "source_title": "\"Founder Brand — Social as Testing Lab\"",
+      "source_date": "2022-09-15",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "growth-demand",
+        "marketing"
+      ],
+      "lifecycle": [
+        "content-strategy",
+        "social-marketing",
+        "demand-gen"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_gerhardt-founder-story-as-weapon",
+        "ins_smallest-viable-audience"
+      ],
+      "raw_ref": "raw/expert-content/experts/dave-gerhardt.md"
+    },
+    {
       "path": "insights/ins_getting-vs-staying-wealthy.md",
       "title": "Getting wealthy and staying wealthy require opposite skill sets",
       "id": "ins_getting-vs-staying-wealthy",
@@ -6874,6 +7063,166 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_handley-self-laughter-as-quality-kpi.md",
+      "title": "Did you make yourself laugh while writing? — a reliable KPI for newsletter quality",
+      "id": "ins_handley-self-laughter-as-quality-kpi",
+      "operator": "Ann Handley",
+      "operator_role": "Chief Content Officer MarketingProfs; author Everybody Writes",
+      "source_url": "https://annhandley.com/",
+      "source_type": "essay",
+      "source_title": "\"Total Annarchy — The Laugh Test\"",
+      "source_date": "2024-04-01",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "design",
+        "marketing"
+      ],
+      "lifecycle": [
+        "content-strategy",
+        "writing-process",
+        "voice-development"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_handley-write-what-you-want-to-read",
+        "ins_shleyner-writing-while-emotional"
+      ],
+      "raw_ref": "raw/expert-content/experts/ann-handley.md"
+    },
+    {
+      "path": "insights/ins_handley-voice-as-moat-against-ai.md",
+      "title": "In an AI-flooded content market, voice is the only defensible advantage — distinct, authentic, sounds like one source",
+      "id": "ins_handley-voice-as-moat-against-ai",
+      "operator": "Ann Handley",
+      "operator_role": "Chief Content Officer MarketingProfs; author Everybody Writes",
+      "source_url": "https://annhandley.com/",
+      "source_type": "essay",
+      "source_title": "\"Everybody Writes — Voice as Defensible Moat\"",
+      "source_date": "2024-04-01",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "strategy",
+        "ai-native",
+        "marketing"
+      ],
+      "lifecycle": [
+        "content-strategy",
+        "brand-strategy",
+        "voice-development"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_so-what-as-content-diagnostic",
+        "ins_utility-times-inspiration-times-empathy",
+        "ins_specific-knowledge-cannot-be-mass-trained",
+        "ins_write-like-you-speak"
+      ],
+      "raw_ref": "raw/expert-content/experts/ann-handley.md"
+    },
+    {
+      "path": "insights/ins_handley-white-space-as-oxygen.md",
+      "title": "White space is oxygen — dense unbroken text creates cognitive load; strategic white space lets the eye rest and the reader continue",
+      "id": "ins_handley-white-space-as-oxygen",
+      "operator": "Ann Handley",
+      "operator_role": "Chief Content Officer MarketingProfs; author Everybody Writes",
+      "source_url": "https://annhandley.com/",
+      "source_type": "essay",
+      "source_title": "\"Total Annarchy — White Space as Oxygen\"",
+      "source_date": "2024-04-01",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "design",
+        "marketing"
+      ],
+      "lifecycle": [
+        "content-strategy",
+        "formatting",
+        "readability-design"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_handley-write-to-one-subscriber",
+        "ins_shleyner-conciseness-as-respect"
+      ],
+      "raw_ref": "raw/expert-content/experts/ann-handley.md"
+    },
+    {
+      "path": "insights/ins_handley-write-to-one-subscriber.md",
+      "title": "Write as if to a single subscriber — use \"you\" liberally and remove anything with a whiff of \"Dear Valued Customers\"",
+      "id": "ins_handley-write-to-one-subscriber",
+      "operator": "Ann Handley",
+      "operator_role": "Chief Content Officer MarketingProfs; author Everybody Writes",
+      "source_url": "https://annhandley.com/",
+      "source_type": "essay",
+      "source_title": "\"Total Annarchy — Write to One Subscriber\"",
+      "source_date": "2024-04-01",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "marketing",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "copy-and-content",
+        "content-strategy",
+        "voice-development"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_handley-write-what-you-want-to-read",
+        "ins_smallest-viable-audience",
+        "ins_dave-harland-write-like-you-speak"
+      ],
+      "raw_ref": "raw/expert-content/experts/ann-handley.md"
+    },
+    {
+      "path": "insights/ins_handley-write-what-you-want-to-read.md",
+      "title": "Grow by writing what you want to read — not what you think the audience wants",
+      "id": "ins_handley-write-what-you-want-to-read",
+      "operator": "Ann Handley",
+      "operator_role": "Chief Content Officer MarketingProfs; author Everybody Writes",
+      "source_url": "https://annhandley.com/",
+      "source_type": "essay",
+      "source_title": "\"Total Annarchy — Write What You Want To Read\"",
+      "source_date": "2024-04-01",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "marketing",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "content-strategy",
+        "voice-development",
+        "audience-building"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_handley-voice-as-moat-against-ai",
+        "ins_so-what-as-content-diagnostic",
+        "ins_smallest-viable-audience"
+      ],
+      "raw_ref": "raw/expert-content/experts/ann-handley.md"
+    },
+    {
       "path": "insights/ins_hans-dekker-pre-built-ai-skills-for-gtm.md",
       "title": "'Pre-built Claude skills eliminate blank-page paralysis for GTM teams'",
       "id": "ins_hans-dekker-pre-built-ai-skills-for-gtm",
@@ -6894,6 +7243,128 @@
       "tier": "C",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_harland-benefits-over-pride.md",
+      "title": "People don't want to know how proud you are — they want to know how you'll change their life",
+      "id": "ins_harland-benefits-over-pride",
+      "operator": "Dave Harland",
+      "operator_role": "Founder The Copy Cabin; UK-based copywriter known as \"The Word Man\"",
+      "source_url": "https://thecopycabin.com/",
+      "source_type": "essay",
+      "source_title": "\"The Copy Cabin — Benefits Over Pride\"",
+      "source_date": "2024-03-01",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "marketing",
+        "sales-cs"
+      ],
+      "lifecycle": [
+        "copy-and-content",
+        "messaging-narrative"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 5, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_write-like-you-speak",
+        "ins_storybrand-customer-is-hero",
+        "ins_miller-survival-value-messaging"
+      ],
+      "raw_ref": "raw/expert-content/experts/dave-harland.md"
+    },
+    {
+      "path": "insights/ins_harland-humor-must-serve-argument.md",
+      "title": "Humor in copy is only valuable if removing it weakens the persuasive argument — decoration distracts; functional humor reframes",
+      "id": "ins_harland-humor-must-serve-argument",
+      "operator": "Dave Harland",
+      "operator_role": "Founder The Copy Cabin; UK-based copywriter known as \"The Word Man\"",
+      "source_url": "https://thecopycabin.com/",
+      "source_type": "essay",
+      "source_title": "\"The Copy Cabin — The Humor Test\"",
+      "source_date": "2024-03-01",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "marketing",
+        "design"
+      ],
+      "lifecycle": [
+        "copy-and-content",
+        "voice-development"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 3, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_write-like-you-speak",
+        "ins_shleyner-clarity-beats-cleverness"
+      ],
+      "raw_ref": "raw/expert-content/experts/dave-harland.md"
+    },
+    {
+      "path": "insights/ins_harland-ideas-need-to-simmer.md",
+      "title": "Ideas need to simmer — walking away from a draft and returning later is necessary for critical editing, not optional",
+      "id": "ins_harland-ideas-need-to-simmer",
+      "operator": "Dave Harland",
+      "operator_role": "Founder The Copy Cabin; UK-based copywriter known as \"The Word Man\"",
+      "source_url": "https://thecopycabin.com/",
+      "source_type": "essay",
+      "source_title": "\"The Copy Cabin — Ideas Need to Simmer\"",
+      "source_date": "2024-03-01",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "founder-craft",
+        "marketing",
+        "design"
+      ],
+      "lifecycle": [
+        "writing-process",
+        "decision-quality"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_harland-scream-principle",
+        "ins_planning-fallacy-launch-timelines"
+      ],
+      "raw_ref": "raw/expert-content/experts/dave-harland.md"
+    },
+    {
+      "path": "insights/ins_harland-scream-principle.md",
+      "title": "Once per section, one sentence should scream — and the quiet sentences are what make the scream possible",
+      "id": "ins_harland-scream-principle",
+      "operator": "Dave Harland",
+      "operator_role": "Founder The Copy Cabin; UK-based copywriter known as \"The Word Man\"",
+      "source_url": "https://thecopycabin.com/",
+      "source_type": "essay",
+      "source_title": "\"The Copy Cabin — Make Your Claim Scream\"",
+      "source_date": "2024-03-01",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "marketing",
+        "design"
+      ],
+      "lifecycle": [
+        "copy-and-content",
+        "narrative-construction"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_harland-benefits-over-pride",
+        "ins_shleyner-vividness-creates-memorability",
+        "ins_emotion-is-the-cornerstone"
+      ],
+      "raw_ref": "raw/expert-content/experts/dave-harland.md"
     },
     {
       "path": "insights/ins_harsha-annadurai-building-high-performing-teams.md",
@@ -15107,6 +15578,132 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_schafer-pain-pleasure-polarity.md",
+      "title": "Every buying decision reduces to one polarity — moving toward pleasure or away from pain. Copy that activates neither doesn't convert.",
+      "id": "ins_schafer-pain-pleasure-polarity",
+      "operator": "Cole Schafer",
+      "operator_role": "Founder Honey Copy; copywriter for premium consumer brands; daily-newsletter writer",
+      "source_url": "https://honeycopy.com/",
+      "source_type": "essay",
+      "source_title": "\"Sticky Notes — Pain-Pleasure Polarity\"",
+      "source_date": "2024-01-15",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "marketing",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "copy-and-content",
+        "messaging-narrative",
+        "conversion-design"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_20-percent-rule-headline",
+        "ins_loss-aversion-status-quo-bias",
+        "ins_miller-survival-value-messaging"
+      ],
+      "raw_ref": "raw/expert-content/experts/cole-schafer.md"
+    },
+    {
+      "path": "insights/ins_schafer-three-headline-archetypes.md",
+      "title": "Three headline archetypes — Flirting (curiosity), Direct (clarity), Pain-based (problem-recognition) — pick the one that matches funnel stage",
+      "id": "ins_schafer-three-headline-archetypes",
+      "operator": "Cole Schafer",
+      "operator_role": "Founder Honey Copy; copywriter for premium consumer brands",
+      "source_url": "https://honeycopy.com/",
+      "source_type": "essay",
+      "source_title": "\"Sticky Notes — Headline Archetypes\"",
+      "source_date": "2024-01-15",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "marketing",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "copy-and-content",
+        "headline-design",
+        "conversion-design"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 5, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_20-percent-rule-headline",
+        "ins_homepage-five-second-trinity"
+      ],
+      "raw_ref": "raw/expert-content/experts/cole-schafer.md"
+    },
+    {
+      "path": "insights/ins_schafer-three-pass-writing-process.md",
+      "title": "Three sequential passes — pole + headline first, voice second, integration third — single-pass writing collapses persuasion and personality into mush",
+      "id": "ins_schafer-three-pass-writing-process",
+      "operator": "Cole Schafer",
+      "operator_role": "Founder Honey Copy; copywriter for premium consumer brands",
+      "source_url": "https://honeycopy.com/",
+      "source_type": "essay",
+      "source_title": "\"Sticky Notes — The Three-Pass Writing Process\"",
+      "source_date": "2024-01-15",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "design",
+        "marketing"
+      ],
+      "lifecycle": [
+        "copy-and-content",
+        "writing-process"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 5, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_schafer-pain-pleasure-polarity",
+        "ins_20-percent-rule-headline",
+        "ins_schafer-uncomfortable-honesty"
+      ],
+      "raw_ref": "raw/expert-content/experts/cole-schafer.md"
+    },
+    {
+      "path": "insights/ins_schafer-uncomfortable-honesty.md",
+      "title": "Would you say it to the reader's face without flinching? — the test that separates copy from manipulation",
+      "id": "ins_schafer-uncomfortable-honesty",
+      "operator": "Cole Schafer",
+      "operator_role": "Founder Honey Copy; copywriter for premium consumer brands",
+      "source_url": "https://honeycopy.com/",
+      "source_type": "essay",
+      "source_title": "\"Sticky Notes — The Honesty Test\"",
+      "source_date": "2024-01-15",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "marketing",
+        "design"
+      ],
+      "lifecycle": [
+        "copy-and-content",
+        "brand-strategy",
+        "messaging-narrative"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_20-percent-rule-headline",
+        "ins_schafer-pain-pleasure-polarity",
+        "ins_neumeier-onlyness-test"
+      ],
+      "raw_ref": "raw/expert-content/experts/cole-schafer.md"
+    },
+    {
       "path": "insights/ins_seasons-not-roadmaps.md",
       "title": "Plan in seasons keyed to secular changes, not 6-month roadmaps",
       "id": "ins_seasons-not-roadmaps",
@@ -15525,6 +16122,162 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_shleyner-clarity-beats-cleverness.md",
+      "title": "Clarity beats cleverness, always — a headline that requires interpretation is a headline that fails",
+      "id": "ins_shleyner-clarity-beats-cleverness",
+      "operator": "Eddie Shleyner",
+      "operator_role": "Founder VeryGoodCopy; long-form copywriter and direct-response marketer",
+      "source_url": "https://verygoodcopy.com/",
+      "source_type": "essay",
+      "source_title": "\"VeryGoodCopy — Clarity Beats Cleverness\"",
+      "source_date": "2024-02-01",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "marketing",
+        "design"
+      ],
+      "lifecycle": [
+        "copy-and-content",
+        "headline-design"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_shleyner-headline-as-complete-argument",
+        "ins_miller-caveman-test",
+        "ins_emotion-is-the-cornerstone"
+      ],
+      "raw_ref": "raw/expert-content/experts/eddie-shleyner.md"
+    },
+    {
+      "path": "insights/ins_shleyner-conciseness-as-respect.md",
+      "title": "Conciseness is respect — every unnecessary word signals that you value your message more than the reader's time",
+      "id": "ins_shleyner-conciseness-as-respect",
+      "operator": "Eddie Shleyner",
+      "operator_role": "Founder VeryGoodCopy; long-form copywriter and direct-response marketer",
+      "source_url": "https://verygoodcopy.com/",
+      "source_type": "essay",
+      "source_title": "\"VeryGoodCopy — Conciseness as Respect\"",
+      "source_date": "2024-02-01",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "design",
+        "marketing"
+      ],
+      "lifecycle": [
+        "copy-and-content",
+        "editing-discipline"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_shleyner-clarity-beats-cleverness",
+        "ins_taleb-via-negativa"
+      ],
+      "raw_ref": "raw/expert-content/experts/eddie-shleyner.md"
+    },
+    {
+      "path": "insights/ins_shleyner-headline-as-complete-argument.md",
+      "title": "Every headline must function as a complete persuasive argument — in the age of infinite scroll, the headline is often the only element a reader sees",
+      "id": "ins_shleyner-headline-as-complete-argument",
+      "operator": "Eddie Shleyner",
+      "operator_role": "Founder VeryGoodCopy; long-form copywriter and direct-response marketer",
+      "source_url": "https://verygoodcopy.com/",
+      "source_type": "essay",
+      "source_title": "\"VeryGoodCopy — Headline as Complete Argument\"",
+      "source_date": "2024-02-01",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "marketing",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "copy-and-content",
+        "headline-design",
+        "conversion-design"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_emotion-is-the-cornerstone",
+        "ins_20-percent-rule-headline",
+        "ins_miller-caveman-test",
+        "ins_schafer-three-headline-archetypes"
+      ],
+      "raw_ref": "raw/expert-content/experts/eddie-shleyner.md"
+    },
+    {
+      "path": "insights/ins_shleyner-vividness-creates-memorability.md",
+      "title": "Abstract claims disappear from memory; concrete images persist — vividness creates memorability",
+      "id": "ins_shleyner-vividness-creates-memorability",
+      "operator": "Eddie Shleyner",
+      "operator_role": "Founder VeryGoodCopy; long-form copywriter and direct-response marketer",
+      "source_url": "https://verygoodcopy.com/",
+      "source_type": "essay",
+      "source_title": "\"VeryGoodCopy — Vividness Creates Memorability\"",
+      "source_date": "2024-02-01",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "marketing",
+        "design"
+      ],
+      "lifecycle": [
+        "copy-and-content",
+        "narrative-construction"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_emotion-is-the-cornerstone",
+        "ins_shleyner-clarity-beats-cleverness",
+        "ins_storybrand-customer-is-hero"
+      ],
+      "raw_ref": "raw/expert-content/experts/eddie-shleyner.md"
+    },
+    {
+      "path": "insights/ins_shleyner-writing-while-emotional.md",
+      "title": "Writing while emotional is a deliberate strategy, not unprofessional — the writer's emotional investment transfers to the reader",
+      "id": "ins_shleyner-writing-while-emotional",
+      "operator": "Eddie Shleyner",
+      "operator_role": "Founder VeryGoodCopy; long-form copywriter and direct-response marketer",
+      "source_url": "https://verygoodcopy.com/",
+      "source_type": "essay",
+      "source_title": "\"VeryGoodCopy — Writing While Emotional\"",
+      "source_date": "2024-02-01",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "design",
+        "marketing"
+      ],
+      "lifecycle": [
+        "copy-and-content",
+        "writing-process",
+        "voice-development"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_emotion-is-the-cornerstone",
+        "ins_schafer-pain-pleasure-polarity"
+      ],
+      "raw_ref": "raw/expert-content/experts/eddie-shleyner.md"
     },
     {
       "path": "insights/ins_short-form-stuff-facebook-instagram.md",
@@ -22186,7 +22939,10 @@
         "Amplitude"
       ],
       "domains_active": [
-        "pmm"
+        "pmm",
+        "marketing",
+        "design",
+        "growth-demand"
       ],
       "captured_first": "2026-05-01",
       "external": {
@@ -31367,6 +32123,47 @@
       ]
     },
     {
+      "path": "synthesis/patterns/copywriting-craft-fundamentals.md",
+      "title": "Copywriting craft is built on five reinforcing fundamentals — Schafer, Gerhardt, Shleyner, Handley, Harland, and Miller on what makes copy actually convert",
+      "id": "pat_copywriting-craft-fundamentals",
+      "captured_date": "2026-05-05",
+      "convergence_count": "6",
+      "tier": "A",
+      "uses_cards": [
+        "ins_schafer-pain-pleasure-polarity",
+        "ins_schafer-uncomfortable-honesty",
+        "ins_schafer-three-headline-archetypes",
+        "ins_schafer-three-pass-writing-process",
+        "ins_20-percent-rule-headline",
+        "ins_gerhardt-distribution-beats-creation",
+        "ins_gerhardt-founder-story-as-weapon",
+        "ins_b2b-movement-not-campaigns",
+        "ins_shleyner-headline-as-complete-argument",
+        "ins_shleyner-writing-while-emotional",
+        "ins_shleyner-clarity-beats-cleverness",
+        "ins_shleyner-conciseness-as-respect",
+        "ins_shleyner-vividness-creates-memorability",
+        "ins_emotion-is-the-cornerstone",
+        "ins_handley-voice-as-moat-against-ai",
+        "ins_handley-write-what-you-want-to-read",
+        "ins_handley-write-to-one-subscriber",
+        "ins_utility-times-inspiration-times-empathy",
+        "ins_so-what-as-content-diagnostic",
+        "ins_harland-benefits-over-pride",
+        "ins_harland-humor-must-serve-argument",
+        "ins_harland-scream-principle",
+        "ins_write-like-you-speak",
+        "ins_storybrand-customer-is-hero",
+        "ins_miller-three-level-problem"
+      ],
+      "domains": [
+        "pmm",
+        "marketing",
+        "design",
+        "growth-demand"
+      ]
+    },
+    {
       "path": "synthesis/patterns/decision-quality-through-process-not-willpower.md",
       "title": "Decision quality at scale comes from process design, not from individual brilliance or harder thinking",
       "id": "pat_decision-quality-through-process-not-willpower",
@@ -32310,6 +33107,48 @@
       ],
       "secondary_sources": [
         "flywheel/skills/lp-cro/SKILL.md"
+      ]
+    },
+    {
+      "path": "playbooks/copywriting/the-converting-copy-playbook.md",
+      "title": "The Converting-Copy Playbook — five-fundamentals operating routine drawn from Schafer, Gerhardt, Shleyner, Handley, Harland, and Miller into a usable copywriting practice",
+      "id": "pb_converting-copy-playbook",
+      "captured_date": "2026-05-05",
+      "operators": [
+        "Cole Schafer",
+        "Dave Gerhardt",
+        "Eddie Shleyner",
+        "Ann Handley",
+        "Dave Harland",
+        "Donald Miller"
+      ],
+      "uses_cards": [
+        "ins_schafer-pain-pleasure-polarity",
+        "ins_schafer-uncomfortable-honesty",
+        "ins_schafer-three-pass-writing-process",
+        "ins_20-percent-rule-headline",
+        "ins_shleyner-headline-as-complete-argument",
+        "ins_shleyner-clarity-beats-cleverness",
+        "ins_shleyner-conciseness-as-respect",
+        "ins_shleyner-vividness-creates-memorability",
+        "ins_emotion-is-the-cornerstone",
+        "ins_handley-voice-as-moat-against-ai",
+        "ins_handley-write-to-one-subscriber",
+        "ins_utility-times-inspiration-times-empathy",
+        "ins_so-what-as-content-diagnostic",
+        "ins_harland-benefits-over-pride",
+        "ins_harland-scream-principle",
+        "ins_harland-ideas-need-to-simmer",
+        "ins_storybrand-customer-is-hero",
+        "ins_miller-three-level-problem",
+        "ins_miller-caveman-test",
+        "ins_gerhardt-distribution-beats-creation"
+      ],
+      "domains": [
+        "pmm",
+        "marketing",
+        "design",
+        "growth-demand"
       ]
     },
     {

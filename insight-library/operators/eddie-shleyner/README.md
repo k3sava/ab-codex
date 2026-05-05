@@ -6,7 +6,7 @@ roles:
   - former Senior Copywriter at G2 where he achieved 60%+ conversion rates on landing pages
   - has written for Gong
   - Amplitude
-domains_active: [pmm]
+domains_active: [pmm, marketing, design, growth-demand]
 captured_first: 2026-05-01
 external:
   linkedin: https://www.linkedin.com/in/eshleyner/
@@ -26,6 +26,11 @@ Eddie Shleyner's approach to copywriting is built on the conviction that emotion
 
 ## Cards
 - `ins_emotion-is-the-cornerstone` — Emotion isn't a layer on top of persuasion — it IS the persuasion mechanism [Tier B]
+- `ins_shleyner-headline-as-complete-argument` — Every headline must function as a complete persuasive argument [Tier A]
+- `ins_shleyner-writing-while-emotional` — Writing while emotional is a deliberate strategy — the writer's emotion transfers to the reader [Tier A]
+- `ins_shleyner-clarity-beats-cleverness` — Clarity beats cleverness, always — a headline that requires interpretation fails [Tier A]
+- `ins_shleyner-conciseness-as-respect` — Conciseness is respect — every unnecessary word signals you value your message more than reader time [Tier B]
+- `ins_shleyner-vividness-creates-memorability` — Abstract claims disappear from memory; concrete images persist [Tier A]
 
 
 ## Sources captured
