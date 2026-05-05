@@ -6,9 +6,9 @@ A primary-source library of operator insights — atomic claims, each one attrib
 
 ## What's in here today
 
-- **704** insight cards
+- **729** insight cards
 - **453** operator profiles
-- **33** synthesis patterns (cross-operator convergences)
+- **36** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
 - **26** methodology playbooks
 - **207** archived raw sources (podcasts, essays, threads, research)

@@ -5,7 +5,7 @@ roles:
   - Author of 'SPIN Selling' (1988)
   - Major Account Sales Strategy,' and 'Rethinking the Sales Force,' founder of Huthwaite International
   - conducted the largest empirical study of sales effectiveness ever (35,000+ calls, 12 years, 27 countries, $1M+ investment)
-domains_active: [research, sales-cs, design]
+domains_active: [sales-cs, gtm, research-discovery, leadership, pmm]
 captured_first: 2026-05-01
 external:
   website: https://www.huthwaiteinternational.com/horizons/author/neil-rackham
@@ -25,6 +25,10 @@ Neil Rackham is the original scientist of sales. His 35,000-call, 12-year, 27-co
 
 ## Cards
 - `ins_spin-implication-questions` — In large sales, only explicit needs predict success — Implication questions are the highest-leverage move [Tier A]
+- `ins_rackham-closing-techniques-backfire` — Closing techniques work in small sales and backfire in large sales [Tier A]
+- `ins_rackham-objections-symptom-of-poor-presentation` — Objections are a symptom of feature-led presentation, not a natural part of selling [Tier A]
+- `ins_rackham-investigation-stage-creates-stars` — Star reps are made in the investigation stage, not the close — different question types are the differentiator [Tier A]
+- `ins_rackham-implication-questions-4x-leverage` — Top reps ask 4× more Implication questions — the highest-leverage question type in large sales [Tier A]
 
 
 ## Sources captured

@@ -5,7 +5,7 @@ roles:
   - Adjunct staff member at the RAND Corporation
   - Founder of The Optimism Company (formerly Start With Why LLC)
   - Teaches graduate-level strategic communications at Columbia University
-domains_active: [design, leadership, pmm]
+domains_active: [design, leadership, pmm, strategy, founder-craft]
 captured_first: 2026-05-01
 external:
   website: https://simonsinek.com/
@@ -24,6 +24,10 @@ Simon Sinek is the most widely recognized advocate for purpose-driven brand and 
 
 ## Cards
 - `ins_start-with-why` — People don't buy what you do — they buy why you do it. Start with Why. [Tier A]
+- `ins_sinek-infinite-game` — Business is an infinite game played with finite-mindset rules — the mismatch is the source of fragility [Tier A]
+- `ins_sinek-just-cause` — A Just Cause must be *for* something — five filters: for, inclusive, service-oriented, resilient, idealistic [Tier A]
+- `ins_sinek-worthy-rivals` — Study competitors who reveal your weaknesses, not enemies to defeat [Tier B]
+- `ins_sinek-existential-flexibility` — Pivot dramatically when the current model still works, because the Just Cause demands it [Tier B]
 
 
 ## Sources captured

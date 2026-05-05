@@ -24,6 +24,12 @@ Matt Dixon is the most data-driven researcher in modern sales methodology. His w
 
 ## Cards
 - `ins_jolt-effect-customer-indecision` — The biggest source of lost B2B deals is customer indecision, not competitor wins. JOLT them out. [Tier A]
+- `ins_dixon-challenger-vs-relationship-builder` — 40% of star performers are Challengers; 7% are Relationship Builders [Tier A]
+- `ins_dixon-sales-experience-drives-loyalty` — 53% of customer loyalty is driven by the sales experience itself [Tier A]
+- `ins_dixon-no-decision-87-percent-indecision` — 40-60% of B2B deals lost to no-decision; 87% of deals show medium-high indecision [Tier A]
+- `ins_dixon-hammering-status-quo-backfires` — 73% of reps hammer status quo when buyers hesitate; backfires 84% of the time [Tier A]
+- `ins_dixon-loyalty-from-effort-reduction` — Customer loyalty in service contexts is driven by effort reduction, not delight [Tier A]
+- `ins_dixon-challenger-and-jolt-complementary` — Challenger and JOLT are complementary playbooks for different buyer mindsets [Tier A]
 
 
 ## Sources captured

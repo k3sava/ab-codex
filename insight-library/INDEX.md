@@ -3,16 +3,16 @@
 _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 704 insight cards
+- 729 insight cards
 - 453 operator profiles
 - 207 raw source files
-- 33 synthesis patterns
+- 36 synthesis patterns
 - 11 contradictions
 - 26 playbooks
 
 ## Insights by tier
 
-### Tier A (258)
+### Tier A (280)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -28,6 +28,10 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_anchor-high-pricing`](insights/ins_anchor-high-pricing.md) — Anchor with the most expensive option first; price the client, not the service _(Blair Enns)_
 - [`ins_anchoring-pricing-negotiation`](insights/ins_anchoring-pricing-negotiation.md) — The first number sets the range — anchoring decides the negotiation before it starts _(Daniel Kahneman)_
 - [`ins_antifragile-barbell`](insights/ins_antifragile-barbell.md) — Build for antifragility, not robustness — fragile breaks, robust survives, antifragile gains from disorder _(Nassim Nicholas Taleb)_
+- [`ins_ariely-arbitrary-coherence`](insights/ins_ariely-arbitrary-coherence.md) — Arbitrary Coherence — once an initial price is set, the entire category is anchored to it forever _(Dan Ariely)_
+- [`ins_ariely-pain-of-paying-modulators`](insights/ins_ariely-pain-of-paying-modulators.md) — Pain of paying is modulated by method, timing, and granularity — design payment to minimise the felt cost _(Dan Ariely)_
+- [`ins_ariely-power-of-free`](insights/ins_ariely-power-of-free.md) — The Power of Free — the gap between $0.01 and $0.00 is psychologically larger than any other 1-cent gap _(Dan Ariely)_
+- [`ins_ariely-relativity-principle`](insights/ins_ariely-relativity-principle.md) — The Relativity Principle — humans cannot evaluate prices in isolation, only by comparison _(Dan Ariely)_
 - [`ins_ashley-bass-intake-interview-guide-for-pmm-gtm-alignment`](insights/ins_ashley-bass-intake-interview-guide-for-pmm-gtm-alignment.md) — 'An intake interview guide aligns PM and PMM before any GTM work begins.' _(Ashley Bass)_
 - [`ins_ashley-herbert-popa-build-skill-frameworks-for-pmm-levels`](insights/ins_ashley-herbert-popa-build-skill-frameworks-for-pmm-levels.md) — 'Build custom skill frameworks to develop PMMs at each level.' _(Ashley Herbert Popa)_
 - [`ins_below-absolutely-worth-studying-amanda`](insights/ins_below-absolutely-worth-studying-amanda.md) — The CV below is absolutely worth studying! Amanda Fernandes didn’t just apply for a job _(Andreas Horn)_
@@ -60,6 +64,12 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_different-better-and-matters`](insights/ins_different-better-and-matters.md) — Differentiation requires three checks: different, better, and matters viscerally to users _(Ayo Omojola)_
 - [`ins_disha-thakkar-competitive-displacement-readiness-signals`](insights/ins_disha-thakkar-competitive-displacement-readiness-signals.md) — 'True switching readiness requires five aligned signals, not just competitor usage.' _(Disha Thakkar)_
 - [`ins_distribution-platform-cycles`](insights/ins_distribution-platform-cycles.md) — Every distribution platform follows a four-step cycle; cycles are getting shorter _(Brian Balfour)_
+- [`ins_dixon-challenger-and-jolt-complementary`](insights/ins_dixon-challenger-and-jolt-complementary.md) — Challenger and JOLT are complementary, not competing — high performers diagnose the buyer's mindset and switch playbooks within the same deal _(Matt Dixon)_
+- [`ins_dixon-challenger-vs-relationship-builder`](insights/ins_dixon-challenger-vs-relationship-builder.md) — 40% of star sales performers are Challengers; 7% are Relationship Builders — most companies hire for the wrong profile _(Matt Dixon)_
+- [`ins_dixon-hammering-status-quo-backfires`](insights/ins_dixon-hammering-status-quo-backfires.md) — When buyers are indecisive, 73% of reps double down on hammering the status quo — and it backfires 84% of the time _(Matt Dixon)_
+- [`ins_dixon-loyalty-from-effort-reduction`](insights/ins_dixon-loyalty-from-effort-reduction.md) — Customer loyalty in service contexts is driven by effort reduction, not delight — exceeding expectations doesn't build loyalty _(Matt Dixon)_
+- [`ins_dixon-no-decision-87-percent-indecision`](insights/ins_dixon-no-decision-87-percent-indecision.md) — 40-60% of B2B deals are lost to "no decision" — and 87% of deals show medium-to-high indecision _(Matt Dixon)_
+- [`ins_dixon-sales-experience-drives-loyalty`](insights/ins_dixon-sales-experience-drives-loyalty.md) — 53% of customer loyalty is driven by the sales experience itself — not brand, product, price, or service _(Matt Dixon)_
 - [`ins_dont-box-the-model-in`](insights/ins_dont-box-the-model-in.md) — Give the model tools and a goal; do not hard-code the workflow _(Boris Cherny)_
 - [`ins_each-prospect-gets-scored-based`](insights/ins_each-prospect-gets-scored-based.md) — Each prospect gets scored 1-10 based on company fit, role relevance, how good their eng _(Prerona Basu)_
 - [`ins_earned-channels-over-algorithm-channels`](insights/ins_earned-channels-over-algorithm-channels.md) — Build earned channels — every dollar in algorithm channels makes Google richer, not you _(Elena Verna)_
@@ -85,6 +95,12 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_growth-loops-not-funnels`](insights/ins_growth-loops-not-funnels.md) — Growth is a system of interconnected loops, not a collection of tactics _(Reforge)_
 - [`ins_gtm-teams-winning-thirty-year`](insights/ins_gtm-teams-winning-thirty-year.md) — GTM teams are winning with a THIRTY-year-old technology. New AI tools can be great, but _(Mathias Powell)_
 - [`ins_hiro-pipeline-metric`](insights/ins_hiro-pipeline-metric.md) — HIRO Pipeline: only count high-intent sources that win above 3% and reach late-stage above 25% _(Chris Walker)_
+- [`ins_housel-biggest-risk-nobody-talks-about`](insights/ins_housel-biggest-risk-nobody-talks-about.md) — The biggest risk is the one nobody is talking about — by definition, no one has prepared for it _(Morgan Housel)_
+- [`ins_housel-doing-nothing-during-crisis`](insights/ins_housel-doing-nothing-during-crisis.md) — Willingness to do nothing during crisis is one of the most valuable but underrated skills — most crisis actions destroy value _(Morgan Housel)_
+- [`ins_housel-pessimism-sounds-smarter`](insights/ins_housel-pessimism-sounds-smarter.md) — Pessimism sounds smarter than optimism — and progress happens slowly enough to be invisible — so people systematically underestimate how much better things get _(Morgan Housel)_
+- [`ins_housel-pretty-good-strategy-30-years`](insights/ins_housel-pretty-good-strategy-30-years.md) — A "pretty good" strategy maintained for 30 years beats a "brilliant" strategy maintained for 5 — endurance compounds, brilliance abandoned doesn't _(Morgan Housel)_
+- [`ins_housel-reasonable-beats-rational`](insights/ins_housel-reasonable-beats-rational.md) — People don't want the mathematically optimal strategy — they want one that lets them sleep at night. Reasonable beats rational in practice. _(Morgan Housel)_
+- [`ins_housel-tail-events-drive-results`](insights/ins_housel-tail-events-drive-results.md) — Tail events drive the majority of results — you can be wrong most of the time and still succeed if the few right calls are big enough _(Morgan Housel)_
 - [`ins_illegibility-framework`](insights/ins_illegibility-framework.md) — Watch for "illegible energy" — ideas the team can't articulate but can't stop talking about _(Jenny Wen)_
 - [`ins_ilya-azovtsev-n8n-mcp-claude-gtm-automation`](insights/ins_ilya-azovtsev-n8n-mcp-claude-gtm-automation.md) — 'n8n + MCP + Claude lets GTM teams build workflows in plain English.' _(🇺🇦 Ilya Azovtsev)_
 - [`ins_imo-aeo-playbook-bullsh-wasted`](insights/ins_imo-aeo-playbook-bullsh-wasted.md) — IMO the AEO playbook is 90% bullsh*t. We wasted 1 year and tens of thousands of dollars _(Madhav Bhandari)_
@@ -178,6 +194,10 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_product-is-the-marketing`](insights/ins_product-is-the-marketing.md) — In a world of infinite choice, the product *is* the marketing — anything average is invisible _(Seth Godin)_
 - [`ins_product-strength-community-fit`](insights/ins_product-strength-community-fit.md) — Pick communities by triangulating product strength, growth, and competitive advantage _(Rahul Chhabria)_
 - [`ins_progressive-trust-onboarding`](insights/ins_progressive-trust-onboarding.md) — Onboard agents the way you onboard an EA: progressive trust, named tiers _(Claire Vo)_
+- [`ins_rackham-closing-techniques-backfire`](insights/ins_rackham-closing-techniques-backfire.md) — Closing techniques work in small sales and backfire in large sales — the more closing pressure, the lower the success rate _(Neil Rackham)_
+- [`ins_rackham-implication-questions-4x-leverage`](insights/ins_rackham-implication-questions-4x-leverage.md) — Top reps ask 4× more Implication questions — the highest-leverage question type in large sales _(Neil Rackham)_
+- [`ins_rackham-investigation-stage-creates-stars`](insights/ins_rackham-investigation-stage-creates-stars.md) — Star performers are made in the investigation stage, not the close — top reps differ from average reps mainly in the questions they ask _(Neil Rackham)_
+- [`ins_rackham-objections-symptom-of-poor-presentation`](insights/ins_rackham-objections-symptom-of-poor-presentation.md) — Objections are not a natural part of selling — they are a symptom of feature-heavy presentation without explicit need development _(Neil Rackham)_
 - [`ins_ramanujam-ai-pricing-against-labor-budgets`](insights/ins_ramanujam-ai-pricing-against-labor-budgets.md) — AI products should price against labor budgets — 10× larger than IT budgets — and capture 25-50% of value, not the SaaS-typical 10% _(Madhavan Ramanujam)_
 - [`ins_ramanujam-feature-shock`](insights/ins_ramanujam-feature-shock.md) — Feature Shock — too many features make the product hard to explain, costly to build, and overpriced (Amazon Fire Phone) _(Madhavan Ramanujam)_
 - [`ins_ramanujam-hidden-gems`](insights/ins_ramanujam-hidden-gems.md) — Hidden Gems — potential blockbusters never brought to market because they fall outside the core business (Kodak shelved digital photography for 21 years) _(Madhavan Ramanujam)_
@@ -207,6 +227,8 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_simon-pricing-is-structural-org-failure`](insights/ins_simon-pricing-is-structural-org-failure.md) — Pricing is the highest-leverage function and the least-staffed — fewer than 5% of Fortune 500 companies have a dedicated pricing department _(Hermann Simon)_
 - [`ins_simon-single-price-always-suboptimal`](insights/ins_simon-single-price-always-suboptimal.md) — A single price for everyone is always suboptimal — willingness to pay varies, so a single price either leaves money on the table or excludes profitable customers _(Hermann Simon)_
 - [`ins_since-their-main-product-lemlist`](insights/ins_since-their-main-product-lemlist.md) — 'GTM flywheel: outbound + LinkedIn content + LinkedIn ads, syncing into one system' _(Michel Lieben 🧠)_
+- [`ins_sinek-infinite-game`](insights/ins_sinek-infinite-game.md) — Business is an infinite game played with finite-mindset rules — the mismatch is the source of short-termism and strategic fragility _(Simon Sinek)_
+- [`ins_sinek-just-cause`](insights/ins_sinek-just-cause.md) — A Just Cause must be *for* something, not against — five filters: for, inclusive, service-oriented, resilient, idealistic _(Simon Sinek)_
 - [`ins_skill-as-unit-of-distribution`](insights/ins_skill-as-unit-of-distribution.md) — The unit of distribution for operator expertise is the Skill, not the prompt _(Kyle Poyar)_
 - [`ins_skok-churn-reduction-doubles-ltv`](insights/ins_skok-churn-reduction-doubles-ltv.md) — Halve churn, double LTV — retention beats acquisition optimisation by a multiple, not a margin _(David Skok)_
 - [`ins_skok-ltv-cac-as-cross-functional-diagnostic`](insights/ins_skok-ltv-cac-as-cross-functional-diagnostic.md) — A declining LTV:CAC ratio is a diagnostic, not a metric — it tells you something is wrong upstream _(David Skok)_
@@ -272,7 +294,7 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click — create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers — build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (374)
+### Tier B (377)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone — it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -313,6 +335,7 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_anjli-jain-growth-architect-marketing`](insights/ins_anjli-jain-growth-architect-marketing.md) — 'AI-first companies should be born inside institutions, not against them' _(Anjli Jain)_
 - [`ins_ankita-agarwal-duolingo-product-feedback`](insights/ins_ankita-agarwal-duolingo-product-feedback.md) — "Duolingo's gamification helps but lacks adaptive difficulty and grammar depth for serious learners" _(Ankita Agarwal)_
 - [`ins_anonymous-benchmark-rescues-roi-evidence`](insights/ins_anonymous-benchmark-rescues-roi-evidence.md) — Anonymous benchmark stats unlock ROI proof when named-customer attribution is blocked _(Jason Oakley)_
+- [`ins_ariely-pennies-a-day-effect`](insights/ins_ariely-pennies-a-day-effect.md) — Pennies-a-day — framing an annual price as daily trivializes the cost _(Dan Ariely)_
 - [`ins_ashwin-krishna-ashwin-krishna-abm-saas`](insights/ins_ashwin-krishna-ashwin-krishna-abm-saas.md) — 'ABM is the most-talked, least-implemented growth strategy in B2B SaaS' _(Ashwin Krishna)_
 - [`ins_ask-revenue-impact-how-much`](insights/ins_ask-revenue-impact-how-much.md) — 'Fix weak messaging by reordering — value, then benefit, then feature' _(Richard King)_
 - [`ins_audience-community-product`](insights/ins_audience-community-product.md) — Audience first, Community second, Product last — and AI makes the inversion much faster _(Greg Isenberg)_
@@ -587,6 +610,8 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_simon-formal-pricing-process`](insights/ins_simon-formal-pricing-process.md) — Pricing needs a four-phase process and a named owner — strategy, analysis, decision, implementation _(Hermann Simon)_
 - [`ins_simon-premium-price-champion`](insights/ins_simon-premium-price-champion.md) — Premium pricing is sustained by continuous innovation, brand investment, and discipline — not by raising the price _(Hermann Simon)_
 - [`ins_since-something-use-daily-not`](insights/ins_since-something-use-daily-not.md) — P.S. Since this is something we use daily, I'm not going to send this to more than 200 _(Christian Oland)_
+- [`ins_sinek-existential-flexibility`](insights/ins_sinek-existential-flexibility.md) — Existential flexibility — the willingness to pivot dramatically when the current model still works, because the Just Cause demands it _(Simon Sinek)_
+- [`ins_sinek-worthy-rivals`](insights/ins_sinek-worthy-rivals.md) — Worthy rivals are mirrors for self-improvement — study competitors who reveal your weaknesses, not enemies to defeat _(Simon Sinek)_
 - [`ins_six-elements-sales-development`](insights/ins_six-elements-sales-development.md) — SDR teams are precision operating systems — six interdependent elements; optimize one without the others = systemic mediocrity _(Trish Bertuzzi)_
 - [`ins_sjeel-k-positioning-over-icp`](insights/ins_sjeel-k-positioning-over-icp.md) — "Clear ICP isn't enough if your positioning doesn't pull its weight" _(Sjeel K.)_
 - [`ins_skills-as-prompts-as-code`](insights/ins_skills-as-prompts-as-code.md) — Prompts are code — Skills deserve testing, documentation, dependency mapping, performance profiling _(Nate)_
@@ -1188,7 +1213,9 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`pat_agents-as-product-users`](synthesis/patterns/agents-as-product-users.md) — Agents are first-class users — design for output, not navigation (3 ops) [Tier A]
 - [`pat_agents-mapped-to-jtbd`](synthesis/patterns/agents-mapped-to-jtbd.md) — Agents mapped 1:1 to JTBD with named human checkpoints (5 ops) [Tier A]
 - [`pat_ai-defensibility-comes-from-non-ai`](synthesis/patterns/ai-defensibility-comes-from-non-ai.md) — AI defensibility comes from non-AI moats — Altman, Naval, and Munger on what survives commoditisation (3 ops) [Tier A]
+- [`pat_behavioral-pricing-architecture`](synthesis/patterns/behavioral-pricing-architecture.md) — Pricing is a behavioral-architecture problem — Ariely, Kahneman, Simon, Hormozi, and Ramanujam on what the buyer actually does with prices (5 ops) [Tier A]
 - [`pat_build-for-next-model`](synthesis/patterns/build-for-next-model.md) — Build for the next model, not the current one (6 ops) [Tier A]
+- [`pat_buyer-mindset-not-product-features`](synthesis/patterns/buyer-mindset-not-product-features.md) — Sell to the buyer's mindset, not to product features — Rackham, Dixon, Voss, Moesta, and Dunford on the same buyer-side primacy (5 ops) [Tier A]
 - [`pat_context-not-capability`](synthesis/patterns/context-not-capability.md) — Context, not capability, is the bottleneck (4 ops) [Tier A]
 - [`pat_decision-quality-through-process-not-willpower`](synthesis/patterns/decision-quality-through-process-not-willpower.md) — Decision quality at scale comes from process design, not from individual brilliance or harder thinking (4 ops) [Tier A]
 - [`pat_diagnose-before-execute`](synthesis/patterns/diagnose-before-execute.md) — Diagnose before executing — refuse the playbook ask (4 ops) [Tier A]
@@ -1216,6 +1243,7 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`pat_status-quo-is-the-competitor`](synthesis/patterns/status-quo-is-the-competitor.md) — Status quo / no-decision is the real competitor (6 ops) [Tier A]
 - [`pat_substrate-runs-loop-humans-run-alignment`](synthesis/patterns/substrate-runs-loop-humans-run-alignment.md) — Substrate runs the loop; humans run alignment and taste (7 ops) [Tier A]
 - [`pat_subtraction-first-operating-discipline`](synthesis/patterns/subtraction-first-operating-discipline.md) — Subtraction beats addition — Taleb, Munger, and Hormozi on why removal is more reliable than improvement (3 ops) [Tier A]
+- [`pat_sustainability-beats-optimisation`](synthesis/patterns/sustainability-beats-optimisation.md) — Sustainability beats optimisation — Housel, Naval, Taleb, Munger, and Sinek on why endurance compounds and brilliance abandoned doesn't (5 ops) [Tier A]
 
 ## Contradictions
 - [`con_agents-as-team-vs-tools`](synthesis/contradictions/agents-as-team-vs-agents-as-tools.md) — Agents-as-team vs. agents-as-tools
