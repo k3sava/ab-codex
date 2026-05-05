@@ -6,7 +6,7 @@ roles:
   - New York Times bestselling author of 'Building a StoryBrand' and 'Marketing Made Simple.' His StoryBrand framework has been used by more than 500
   - 000 businesses
   - Built the StoryBrand Certified Guide network of marketing professionals
-domains_active: [design, pmm]
+domains_active: [design, pmm, marketing, sales-cs, strategy]
 captured_first: 2026-05-01
 external:
   linkedin: https://www.linkedin.com/in/donald-miller-storybrand/
@@ -27,6 +27,12 @@ Donald Miller is the creator of the StoryBrand Framework, the most widely adopte
 
 ## Cards
 - `ins_storybrand-customer-is-hero` — The customer is the hero. Your brand is the guide. If you confuse, you lose. [Tier A]
+- `ins_miller-survival-value-messaging` — The brain ignores anything that doesn't signal survival; your message has to land in survival terms in seconds [Tier A]
+- `ins_miller-caveman-test` — Could a caveman understand your homepage? — three questions, no marketing vocabulary [Tier A]
+- `ins_miller-three-level-problem` — Articulate the buyer's problem at three layers: external, internal, philosophical [Tier A]
+- `ins_miller-guide-empathy-and-authority` — The brand-as-guide must show empathy ("I get it") + authority ("I can help") [Tier A]
+- `ins_miller-storybrand-is-execution-not-strategy` — StoryBrand clarifies how you communicate, not what you stand for [Tier B]
+- `ins_miller-one-liner-formula` — Problem → Solution → Result — narrative-shape elevator pitch [Tier B]
 
 
 ## Sources captured

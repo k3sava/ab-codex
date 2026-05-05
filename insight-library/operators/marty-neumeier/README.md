@@ -5,7 +5,7 @@ roles:
   - Author of 'The Brand Gap,' 'Zag,' 'The Brand Flip,' 'Scramble,' and 'Metaskills.' Director of Transformation at Liquid Agency
   - His Brand Gap SlideShare has been viewed over 20 million times
   - making it the most widely read work on branding
-domains_active: [design, leadership]
+domains_active: [design, leadership, pmm, strategy, growth-demand]
 captured_first: 2026-05-01
 external:
   linkedin: https://www.linkedin.com/in/martyneumeier/
@@ -25,6 +25,11 @@ Marty Neumeier is the most influential practitioner-author on brand strategy of 
 
 ## Cards
 - `ins_brand-gap-five-disciplines` — A brand is not what you say it is — it is what they say it is. Close the gap with five disciplines. [Tier A]
+- `ins_neumeier-onlyness-test` — Onlyness is a company-viability test, not a positioning exercise — if you can't fill in the blank, the company is the problem [Tier A]
+- `ins_neumeier-customers-join-not-buy` — Customers join brands now, not buy them — the company creates customers; customers create the brand [Tier A]
+- `ins_neumeier-brand-commitment-matrix` — Six statements, two sides — Identity/Aims/Mores ↔ Purpose/Onlyness/Values [Tier B]
+- `ins_neumeier-agile-strategy-five-ps` — Five Ps × five Qs — design-thinking applied to strategy compresses 6-18 months to under 6 weeks [Tier B]
+- `ins_neumeier-strategic-pyramid` — Purpose at top (forever), mission/vision in the middle (5-20 years), tactics at the bottom (1-3 years) [Tier B]
 
 
 ## Sources captured

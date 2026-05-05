@@ -3,16 +3,16 @@
 _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 652 insight cards
+- 678 insight cards
 - 453 operator profiles
 - 207 raw source files
-- 27 synthesis patterns
-- 10 contradictions
-- 24 playbooks
+- 30 synthesis patterns
+- 11 contradictions
+- 25 playbooks
 
 ## Insights by tier
 
-### Tier A (217)
+### Tier A (238)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -134,10 +134,16 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_meta-mcp-shrinks-creative-test-loop`](insights/ins_meta-mcp-shrinks-creative-test-loop.md) — Meta's MCP endpoints for ad buying turn smaller advertisers into early winners _(Eric Seufert)_
 - [`ins_michele-nieberding-ai-tools-for-pmm-workflows`](insights/ins_michele-nieberding-ai-tools-for-pmm-workflows.md) — 'Claude tools map to distinct PMM workflows: think, analyze, scale, collaborate.' _(Michele Nieberding 🚀)_
 - [`ins_michele-nieberding-branch-in-new-chat-for-pmm`](insights/ins_michele-nieberding-branch-in-new-chat-for-pmm.md) — 'Branching chats with stable taxonomy scales PMM strategy without chaos.' _(Michele Nieberding 🚀)_
+- [`ins_miller-caveman-test`](insights/ins_miller-caveman-test.md) — Could a caveman understand your homepage? — three questions, no marketing vocabulary _(Donald Miller)_
+- [`ins_miller-guide-empathy-and-authority`](insights/ins_miller-guide-empathy-and-authority.md) — The brand's job is to be a credible guide — empathy ("I get it") + authority ("I can help") — not to be the hero _(Donald Miller)_
+- [`ins_miller-survival-value-messaging`](insights/ins_miller-survival-value-messaging.md) — The brain ignores anything that doesn't signal survival — your message has to land in survival terms in seconds _(Donald Miller)_
+- [`ins_miller-three-level-problem`](insights/ins_miller-three-level-problem.md) — Articulate the buyer's problem at three layers — external, internal, and philosophical — or your message rings shallow _(Donald Miller)_
 - [`ins_nat-lia-kimli-kov-onboarding-strategy-connects-analytics-engagement-session`](insights/ins_nat-lia-kimli-kov-onboarding-strategy-connects-analytics-engagement-session.md) — 'Onboarding success requires connecting analytics, engagement, and session replay.' _(Natália Kimličková)_
 - [`ins_nat-lia-kimli-kov-product-launches-fail-due-to-tooling-not-strategy`](insights/ins_nat-lia-kimli-kov-product-launches-fail-due-to-tooling-not-strategy.md) — 'Product launches fail due to tooling, not strategy.' _(Natália Kimličková)_
 - [`ins_negotiation-starts-before-first-call`](insights/ins_negotiation-starts-before-first-call.md) — Negotiation begins with the LinkedIn snapshot, not the first call _(Jacob Warwick)_
 - [`ins_nemanja-jovan-i-automate-changelog-from-internal-updates`](insights/ins_nemanja-jovan-i-automate-changelog-from-internal-updates.md) — 'Automate changelog creation from internal PM updates using AI.' _(Nemanja Jovančić)_
+- [`ins_neumeier-customers-join-not-buy`](insights/ins_neumeier-customers-join-not-buy.md) — Customers join brands now, not buy them — the company creates customers; customers create the brand _(Marty Neumeier)_
+- [`ins_neumeier-onlyness-test`](insights/ins_neumeier-onlyness-test.md) — Onlyness is a company-viability test, not a positioning exercise — if you can't fill in the blank, the company is the problem _(Marty Neumeier)_
 - [`ins_nikolai-golos-specific-cta-outperforms-generic`](insights/ins_nikolai-golos-specific-cta-outperforms-generic.md) — 'Specific CTAs that promise a clear outcome convert 269% better than generic ones.' _(Nikolai Golos)_
 - [`ins_nlx-is-the-new-ux`](insights/ins_nlx-is-the-new-ux.md) — Natural language is the interface; conversation flow is the design surface _(Aparna Chennapragada)_
 - [`ins_no-decision-is-the-real-competitor`](insights/ins_no-decision-is-the-real-competitor.md) — 40–60% of B2B buyers say "no decision" — your real competitor is the status quo _(April Dunford)_
@@ -209,9 +215,19 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_system1-system2-thinking`](insights/ins_system1-system2-thinking.md) — Your initial intuition is a System 1 output, not an objective assessment _(Daniel Kahneman)_
 - [`ins_systems-not-goals`](insights/ins_systems-not-goals.md) — You don't rise to the level of your goals; you fall to the level of your systems _(James Clear)_
 - [`ins_t2d3-saas-growth-trajectory`](insights/ins_t2d3-saas-growth-trajectory.md) — 10 unaffiliated paying customers = PMF floor. Then T2D3 (or T3D3) maps the path to scale. _(Jason Lemkin)_
+- [`ins_taleb-barbell-strategy`](insights/ins_taleb-barbell-strategy.md) — Barbell — extreme safety on one end, aggressive risk on the other, nothing in the middle — the medium-risk zone is where fragility hides _(Nassim Nicholas Taleb)_
+- [`ins_taleb-iatrogenics`](insights/ins_taleb-iatrogenics.md) — Iatrogenics — when the intervention causes more harm than the disease — most "fixes" in complex systems are net-negative _(Nassim Nicholas Taleb)_
+- [`ins_taleb-lindy-effect`](insights/ins_taleb-lindy-effect.md) — Old ideas survive longer for a reason — the Lindy Effect says length-of-survival predicts remaining life-expectancy for non-perishable things _(Nassim Nicholas Taleb)_
+- [`ins_taleb-skin-in-the-game`](insights/ins_taleb-skin-in-the-game.md) — If decision-makers don't bear the downside, the system accumulates hidden risk and becomes fragile _(Nassim Nicholas Taleb)_
+- [`ins_taleb-via-negativa`](insights/ins_taleb-via-negativa.md) — Improvement comes from removing harm, not adding good — addition introduces unknown failure modes; subtraction does not _(Nassim Nicholas Taleb)_
 - [`ins_talia-moyal-pmm-lovable`](insights/ins_talia-moyal-pmm-lovable.md) — 'AI-native PMM means redesigning workflows around AI economics — not adding AI to existing ones' _(Talia Moyal)_
 - [`ins_task-pull-out-pain-points`](insights/ins_task-pull-out-pain-points.md) — My task is to pull out the pain points and draft 3 positioning statements _(Sachin Jha)_
 - [`ins_there-were-plenty-lessons-too`](insights/ins_there-were-plenty-lessons-too.md) — There were plenty of lessons too. Startups are brutally hard — and pivot hell is the wo _(Vedant Agarwala)_
+- [`ins_thiel-competition-destroys-profits`](insights/ins_thiel-competition-destroys-profits.md) — Competitive markets destroy profits — the more competitors, the less money anyone makes _(Peter Thiel)_
+- [`ins_thiel-definite-vs-indefinite-optimism`](insights/ins_thiel-definite-vs-indefinite-optimism.md) — Definite optimists build concrete plans; indefinite optimists hedge — modern business culture has drifted to indefinite _(Peter Thiel)_
+- [`ins_thiel-poor-sales-not-bad-product`](insights/ins_thiel-poor-sales-not-bad-product.md) — Most companies fail from poor distribution, not bad product — sales is the engine engineers underweight _(Peter Thiel)_
+- [`ins_thiel-power-law`](insights/ins_thiel-power-law.md) — Power-law outcomes demand power-law allocation — concentrate on the one thing that matters more than all others combined _(Peter Thiel)_
+- [`ins_thiel-vertical-vs-horizontal-progress`](insights/ins_thiel-vertical-vs-horizontal-progress.md) — 0-to-1 progress (new things) creates the value; 1-to-n progress (more of the same) gets the funding — most operators invert this _(Peter Thiel)_
 - [`ins_thinking-vs-doing-two-rooms`](insights/ins_thinking-vs-doing-two-rooms.md) — Close the execution door. Force prospects through the strategy door first. _(David C. Baker)_
 - [`ins_three-design-hiring-archetypes`](insights/ins_three-design-hiring-archetypes.md) — Hire across three archetypes: block-shape generalist, deep specialist, craft new-grad _(Jenny Wen)_
 - [`ins_three-divergent-pr-faqs`](insights/ins_three-divergent-pr-faqs.md) — Bring three divergent PR-FAQs to a strategy decision, not one _(Anuj Rathi)_
@@ -222,6 +238,11 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_use-new-tools-as-new-tools`](insights/ins_use-new-tools-as-new-tools.md) — Use new tools as new tools, not as old tools — be ambitious and retry from scratch _(Benjamin Mann)_
 - [`ins_utility-times-inspiration-times-empathy`](insights/ins_utility-times-inspiration-times-empathy.md) — Quality content = Utility × Inspiration × Empathy. Any factor at zero produces nothing. _(Ann Handley)_
 - [`ins_value-equation-grand-slam-offer`](insights/ins_value-equation-grand-slam-offer.md) — Value = (Dream Outcome × Likelihood) / (Time Delay × Effort) — pull all four levers, not just price _(Alex Hormozi)_
+- [`ins_voss-accusation-audit`](insights/ins_voss-accusation-audit.md) — Say the worst thing they could think about you — first, out loud — and watch the negative emotion drain _(Chris Voss)_
+- [`ins_voss-black-swans-discovered-in-process`](insights/ins_voss-black-swans-discovered-in-process.md) — Every negotiation has 3-5 hidden facts that change everything — they surface from rapport, not research _(Chris Voss)_
+- [`ins_voss-mirroring-forces-elaboration`](insights/ins_voss-mirroring-forces-elaboration.md) — Mirror the last 1-3 words — silence forces the counterpart to elaborate, and the elaboration is where the deal is _(Chris Voss)_
+- [`ins_voss-tactical-empathy-labels`](insights/ins_voss-tactical-empathy-labels.md) — Label the emotion before they have to defend it — "it sounds like you're worried about..." disarms the room _(Chris Voss)_
+- [`ins_voss-thats-right-breakthrough`](insights/ins_voss-thats-right-breakthrough.md) — "That's right" — not "yes" — is the moment a negotiation actually shifts _(Chris Voss)_
 - [`ins_words-matter-most-innovative-features`](insights/ins_words-matter-most-innovative-features.md) — → The words matter. The most innovative features won't do much if customers don't under _(Aatir Abdul Rauf)_
 - [`ins_worldview-led-marketing`](insights/ins_worldview-led-marketing.md) — Don't try to change minds — find the worldview that already wants your story _(Seth Godin)_
 - [`ins_wysiati-overconfidence`](insights/ins_wysiati-overconfidence.md) — The less you know, the more confident you are — WYSIATI builds the cleanest stories from the thinnest data _(Daniel Kahneman)_
@@ -231,7 +252,7 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click — create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers — build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (363)
+### Tier B (368)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone — it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -444,6 +465,8 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_mental-models-as-os-not-library`](insights/ins_mental-models-as-os-not-library.md) — Mental models compound only if they run automatically — looking up the right model in the moment is too slow _(Charlie Munger)_
 - [`ins_message-testing-sameness-default`](insights/ins_message-testing-sameness-default.md) — In B2B, sameness is the default — you cannot win on features competitors will copy in 6 months _(Peep Laja)_
 - [`ins_messaging-equation-personalization-tiers`](insights/ins_messaging-equation-personalization-tiers.md) — Persona + Trigger + Value = Relevant Message. Personalize ~25%, no more. _(John Barrows)_
+- [`ins_miller-one-liner-formula`](insights/ins_miller-one-liner-formula.md) — Problem → Solution → Result — the one-liner answers "what do you do?" in narrative shape _(Donald Miller)_
+- [`ins_miller-storybrand-is-execution-not-strategy`](insights/ins_miller-storybrand-is-execution-not-strategy.md) — StoryBrand clarifies *how* you communicate, not *what* you should stand for — strategy still has to come first _(Donald Miller)_
 - [`ins_mina-break-down-why-it-works`](insights/ins_mina-break-down-why-it-works.md) — 'Strong product marketers break down why marketing works, not just admire it.' _(Mina ..)_
 - [`ins_misunderstood-exact-people-fighting`](insights/ins_misunderstood-exact-people-fighting.md) — • You'll be misunderstood by the exact people you are fighting for _(Ani Filipova)_
 - [`ins_most-generous-interpretation`](insights/ins_most-generous-interpretation.md) — Adopt the Most Generous Interpretation of frustrating behaviour to find the real intervention _(Becky Kennedy)_
@@ -453,6 +476,9 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_nagarjun-reddy-interviewing-sdrs-with-respect`](insights/ins_nagarjun-reddy-interviewing-sdrs-with-respect.md) — 'Interview SDRs like strategic hires, not disposable numbers' _(Nagarjun Reddy)_
 - [`ins_name-the-shift-concisely`](insights/ins_name-the-shift-concisely.md) — Compress the shift to 1–3 words even when it loses fidelity _(Andy Raskin)_
 - [`ins_narrative-design-old-way-new-way`](insights/ins_narrative-design-old-way-new-way.md) — Lead with a narrative (Big Shift → Old Way vs. New Way → Promised Land), not features _(Marcus Andrews)_
+- [`ins_neumeier-agile-strategy-five-ps`](insights/ins_neumeier-agile-strategy-five-ps.md) — Five Ps × five Qs — design-thinking applied to strategy compresses 6-18 months into under 6 weeks _(Marty Neumeier)_
+- [`ins_neumeier-brand-commitment-matrix`](insights/ins_neumeier-brand-commitment-matrix.md) — Six statements, two sides — the Brand Commitment Matrix forces alignment between what the customer believes and what the company stands for _(Marty Neumeier)_
+- [`ins_neumeier-strategic-pyramid`](insights/ins_neumeier-strategic-pyramid.md) — Purpose at the top (forever), mission and vision in the middle (5-20 years), tactics at the bottom (1-3 years) _(Marty Neumeier)_
 - [`ins_never-imagined-chocolate-bar-could`](insights/ins_never-imagined-chocolate-bar-could.md) — I never imagined a ₹50 chocolate bar could teach a ₹10 crore marketing lesson _(Sulagna Das)_
 - [`ins_never-know-how-far-can`](insights/ins_never-know-how-far-can.md) — You never know how far it can take you _(Nalin Senthamil)_
 - [`ins_nicolas-schell-turn-triggers-into-revenue`](insights/ins_nicolas-schell-turn-triggers-into-revenue.md) — 'Most teams chase wrong triggers and send generic emails that kill reply rates.' _(Nicolas Schell)_
@@ -1149,20 +1175,24 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`pat_make-implicit-explicit`](synthesis/patterns/make-implicit-explicit.md) — Make the implicit explicit (5 ops) [Tier A]
 - [`pat_market-and-offer-beat-funnel-optimisation`](synthesis/patterns/market-and-offer-beat-funnel-optimisation.md) — Market selection and offer strength dominate downstream optimisation — Hormozi, Godin, and Dunford on the same hierarchy (3 ops) [Tier A]
 - [`pat_measurement-correlated-short-signals`](synthesis/patterns/measurement-correlated-short-signals.md) — Measure with absolute counts and correlated short signals, not stage rates and long loops (3 ops) [Tier A]
+- [`pat_monopoly-economics-differentiation-beats-competition`](synthesis/patterns/monopoly-economics-differentiation-beats-competition.md) — Differentiation, not competition, is what compounds — Thiel, Naval, Munger, Neumeier, Hormozi, and Dunford on the same economic principle (6 ops) [Tier A]
 - [`pat_narrative-as-strategy`](synthesis/patterns/narrative-as-strategy.md) — Company story IS the strategy — name the shift, run the audit (4 ops) [Tier A]
 - [`pat_parenting-meets-leadership`](synthesis/patterns/parenting-meets-leadership.md) — Repair, generous interpretation, identity-vs-behavior — parenting frames as leadership ops (3 ops) [Tier B]
 - [`pat_principal-ic-as-force-multiplier`](synthesis/patterns/principal-ic-as-force-multiplier.md) — Principal/staff IC as force-multiplier archetype (4 ops) [Tier A]
 - [`pat_quality-as-growth-lever`](synthesis/patterns/quality-as-growth-lever.md) — Quality and friction-as-feature are growth levers, not constraints (4 ops) [Tier A]
+- [`pat_rapport-surfaces-what-research-cannot`](synthesis/patterns/rapport-surfaces-what-research-cannot.md) — Rapport surfaces what research cannot — Voss, Moesta, and Munger on the conditions that produce hidden information (3 ops) [Tier A]
 - [`pat_research-preview-cadence`](synthesis/patterns/research-preview-and-cadence.md) — Research preview, frontier programs, seasons not roadmaps (3 ops) [Tier B]
 - [`pat_specific-knowledge-and-circle-of-competence`](synthesis/patterns/specific-knowledge-and-circle-of-competence.md) — Defensibility comes from non-substitutable, non-trainable specificity — Naval, Munger, and Dunford on the same boundary (3 ops) [Tier A]
 - [`pat_specificity-becomes-profitable`](synthesis/patterns/specificity-becomes-profitable.md) — Specificity becomes profitable — long tail, niche, segment-aware pricing (3 ops) [Tier B]
 - [`pat_status-quo-is-the-competitor`](synthesis/patterns/status-quo-is-the-competitor.md) — Status quo / no-decision is the real competitor (6 ops) [Tier A]
 - [`pat_substrate-runs-loop-humans-run-alignment`](synthesis/patterns/substrate-runs-loop-humans-run-alignment.md) — Substrate runs the loop; humans run alignment and taste (7 ops) [Tier A]
+- [`pat_subtraction-first-operating-discipline`](synthesis/patterns/subtraction-first-operating-discipline.md) — Subtraction beats addition — Taleb, Munger, and Hormozi on why removal is more reliable than improvement (3 ops) [Tier A]
 
 ## Contradictions
 - [`con_agents-as-team-vs-tools`](synthesis/contradictions/agents-as-team-vs-agents-as-tools.md) — Agents-as-team vs. agents-as-tools
 - [`con_build-quietly-vs-distribution-first`](synthesis/contradictions/build-quietly-vs-distribution-first.md) — Build quietly vs. distribution-as-moat
 - [`con_circle-of-competence-vs-iterative-deployment`](synthesis/contradictions/circle-of-competence-vs-iterative-deployment.md) — Stay inside the circle vs. ship into the unknown — Munger and Altman on opposite stances toward unknown territory
+- [`con_concentrate-vs-barbell-allocation`](synthesis/contradictions/concentrate-vs-barbell-allocation.md) — Power-law concentration vs. barbell diversification — Thiel and Taleb on opposite stances toward portfolio allocation
 - [`con_criticize-in-public-vs-private`](synthesis/contradictions/criticize-in-public-vs-praise-public-criticize-private.md) — Criticize in public vs. praise-public-criticize-private
 - [`con_no-decision-vs-named-competitor`](synthesis/contradictions/no-decision-vs-named-competitor.md) — No-decision-as-competitor vs. battle-card-driven competitive workflows
 - [`con_pm-prototype-vs-pm-up-level`](synthesis/contradictions/pm-prototype-vs-pm-up-level.md) — PM should prototype vs. PM should up-level
@@ -1195,4 +1225,5 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [PMM coaching — iterative document review with feedback retention](playbooks/messaging/pmm-coaching-framework.md)
 - [Narrative compose — master story, message house, pillar copy](playbooks/narrative/narrative-compose.md)
 - [Positioning Document — full pipeline](playbooks/positioning/positioning-document.md)
+- [The Tactical Empathy Discovery Playbook — Voss's five tools integrated into a usable sales discovery, customer research, and difficult-conversation routine](playbooks/sales-discovery/the-tactical-empathy-discovery-playbook.md)
 - [Sales enablement — battlecards, ROI, decks, training](playbooks/sales-enablement/sales-enablement.md)

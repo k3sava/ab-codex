@@ -5,7 +5,7 @@ roles:
   - Former FBI lead international kidnapping negotiator (24 years)
   - founder of the Black Swan Group
   - author of 'Never Split the Difference,' MasterClass instructor on negotiation
-domains_active: [sales-cs, research]
+domains_active: [sales-cs, research-discovery, pmm, leadership, strategy]
 captured_first: 2026-05-01
 external:
   linkedin: https://www.linkedin.com/in/christophervoss/
@@ -25,8 +25,13 @@ Chris Voss is the bridge between high-stakes hostage negotiation and commercial 
 - **Tactical Negotiation**
 
 ## Cards
-- `ins_calibrated-questions-illusion-of-control` — 'How am I supposed to do that?' — give the other party the illusion of control and they solve your problem for you [Tier A]
-- `ins_no-oriented-questions` — Ask questions that earn a 'No' — saying no makes people feel safe; being pushed for yes makes them defensive [Tier A]
+- `ins_calibrated-questions-illusion-of-control` — 'How am I supposed to do that?' — give the other party the illusion of control [Tier A]
+- `ins_no-oriented-questions` — Ask questions that earn a 'No' — saying no makes people feel safe [Tier A]
+- `ins_voss-mirroring-forces-elaboration` — Mirror the last 1-3 words; silence forces elaboration that direct questions can't [Tier A]
+- `ins_voss-accusation-audit` — Say the worst thing they could think about you first — drain the negative emotion preemptively [Tier A]
+- `ins_voss-thats-right-breakthrough` — "That's right" — not "yes" — is the moment a negotiation actually shifts [Tier A]
+- `ins_voss-black-swans-discovered-in-process` — Every negotiation has 3-5 hidden facts that change everything; they surface from rapport [Tier A]
+- `ins_voss-tactical-empathy-labels` — Label the emotion before they have to defend it — "it sounds like you're worried about..." [Tier A]
 
 
 ## Sources captured

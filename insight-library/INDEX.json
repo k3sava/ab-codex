@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-05T02:48:59.069Z",
+  "generated_at": "2026-05-05T03:10:56.267Z",
   "counts": {
-    "insights": 652,
+    "insights": 678,
     "operators": 453,
     "raw_sources": 207,
-    "patterns": 27,
-    "contradictions": 10,
-    "playbooks": 24
+    "patterns": 30,
+    "contradictions": 11,
+    "playbooks": 25
   },
   "insights": [
     {
@@ -9903,6 +9903,193 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_miller-caveman-test.md",
+      "title": "Could a caveman understand your homepage? — three questions, no marketing vocabulary",
+      "id": "ins_miller-caveman-test",
+      "operator": "Donald Miller",
+      "operator_role": "Founder StoryBrand and Business Made Simple; author Building a StoryBrand",
+      "source_url": "https://storybrand.com/",
+      "source_type": "book",
+      "source_title": "\"Building a StoryBrand — The Caveman Test\"",
+      "source_date": "2017-10-10",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "design",
+        "marketing"
+      ],
+      "lifecycle": [
+        "homepage-design",
+        "messaging-narrative",
+        "copy-and-content"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_miller-survival-value-messaging",
+        "ins_storybrand-customer-is-hero",
+        "ins_homepage-five-second-trinity"
+      ],
+      "raw_ref": "raw/expert-content/experts/donald-miller.md"
+    },
+    {
+      "path": "insights/ins_miller-guide-empathy-and-authority.md",
+      "title": "The brand's job is to be a credible guide — empathy (\"I get it\") + authority (\"I can help\") — not to be the hero",
+      "id": "ins_miller-guide-empathy-and-authority",
+      "operator": "Donald Miller",
+      "operator_role": "Founder StoryBrand and Business Made Simple; author Building a StoryBrand",
+      "source_url": "https://storybrand.com/",
+      "source_type": "book",
+      "source_title": "\"Building a StoryBrand — The Guide\"",
+      "source_date": "2017-10-10",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "marketing",
+        "design"
+      ],
+      "lifecycle": [
+        "messaging-narrative",
+        "positioning",
+        "sales-enablement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_storybrand-customer-is-hero",
+        "ins_miller-three-level-problem"
+      ],
+      "raw_ref": "raw/expert-content/experts/donald-miller.md"
+    },
+    {
+      "path": "insights/ins_miller-one-liner-formula.md",
+      "title": "Problem → Solution → Result — the one-liner answers \"what do you do?\" in narrative shape",
+      "id": "ins_miller-one-liner-formula",
+      "operator": "Donald Miller",
+      "operator_role": "Founder StoryBrand and Business Made Simple; author Building a StoryBrand",
+      "source_url": "https://storybrand.com/",
+      "source_type": "book",
+      "source_title": "\"Building a StoryBrand — The One-Liner\"",
+      "source_date": "2017-10-10",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "marketing",
+        "sales-cs"
+      ],
+      "lifecycle": [
+        "messaging-narrative",
+        "copy-and-content",
+        "sales-enablement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 5, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_storybrand-customer-is-hero",
+        "ins_miller-three-level-problem"
+      ],
+      "raw_ref": "raw/expert-content/experts/donald-miller.md"
+    },
+    {
+      "path": "insights/ins_miller-storybrand-is-execution-not-strategy.md",
+      "title": "StoryBrand clarifies *how* you communicate, not *what* you should stand for — strategy still has to come first",
+      "id": "ins_miller-storybrand-is-execution-not-strategy",
+      "operator": "Donald Miller",
+      "operator_role": "Founder StoryBrand and Business Made Simple; author Building a StoryBrand",
+      "source_url": "https://storybrand.com/",
+      "source_type": "book",
+      "source_title": "\"Building a StoryBrand — Scope of the Framework\"",
+      "source_date": "2017-10-10",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "strategy",
+        "marketing"
+      ],
+      "lifecycle": [
+        "messaging-narrative",
+        "positioning"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_storybrand-customer-is-hero",
+        "ins_neumeier-onlyness-test",
+        "ins_brand-gap-five-disciplines"
+      ],
+      "raw_ref": "raw/expert-content/experts/donald-miller.md"
+    },
+    {
+      "path": "insights/ins_miller-survival-value-messaging.md",
+      "title": "The brain ignores anything that doesn't signal survival — your message has to land in survival terms in seconds",
+      "id": "ins_miller-survival-value-messaging",
+      "operator": "Donald Miller",
+      "operator_role": "Founder StoryBrand and Business Made Simple; author Building a StoryBrand",
+      "source_url": "https://storybrand.com/",
+      "source_type": "book",
+      "source_title": "\"Building a StoryBrand — Survival-Value Filter\"",
+      "source_date": "2017-10-10",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "marketing",
+        "design"
+      ],
+      "lifecycle": [
+        "messaging-narrative",
+        "copy-and-content",
+        "homepage-design"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_storybrand-customer-is-hero",
+        "ins_miller-caveman-test"
+      ],
+      "raw_ref": "raw/expert-content/experts/donald-miller.md"
+    },
+    {
+      "path": "insights/ins_miller-three-level-problem.md",
+      "title": "Articulate the buyer's problem at three layers — external, internal, and philosophical — or your message rings shallow",
+      "id": "ins_miller-three-level-problem",
+      "operator": "Donald Miller",
+      "operator_role": "Founder StoryBrand and Business Made Simple; author Building a StoryBrand",
+      "source_url": "https://storybrand.com/",
+      "source_type": "book",
+      "source_title": "\"Building a StoryBrand — Three-Level Problem\"",
+      "source_date": "2017-10-10",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "marketing",
+        "design"
+      ],
+      "lifecycle": [
+        "messaging-narrative",
+        "positioning",
+        "copy-and-content"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_storybrand-customer-is-hero",
+        "ins_miller-survival-value-messaging"
+      ],
+      "raw_ref": "raw/expert-content/experts/donald-miller.md"
+    },
+    {
       "path": "insights/ins_mina-break-down-why-it-works.md",
       "title": "'Strong product marketers break down why marketing works, not just admire it.'",
       "id": "ins_mina-break-down-why-it-works",
@@ -10280,6 +10467,157 @@
       "tier": "A",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_neumeier-agile-strategy-five-ps.md",
+      "title": "Five Ps × five Qs — design-thinking applied to strategy compresses 6-18 months into under 6 weeks",
+      "id": "ins_neumeier-agile-strategy-five-ps",
+      "operator": "Marty Neumeier",
+      "operator_role": "Brand strategist; founder Liquid Agency; author The Brand Gap, ZAG, The Designful Company",
+      "source_url": "https://www.martyneumeier.com/scramble",
+      "source_type": "book",
+      "source_title": "\"Scramble — Agile Strategy\"",
+      "source_date": "2018-04-24",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "strategy",
+        "leadership",
+        "design"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "brand-strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_neumeier-onlyness-test"
+      ],
+      "raw_ref": "raw/expert-content/experts/marty-neumeier.md"
+    },
+    {
+      "path": "insights/ins_neumeier-brand-commitment-matrix.md",
+      "title": "Six statements, two sides — the Brand Commitment Matrix forces alignment between what the customer believes and what the company stands for",
+      "id": "ins_neumeier-brand-commitment-matrix",
+      "operator": "Marty Neumeier",
+      "operator_role": "Brand strategist; founder Liquid Agency; author The Brand Gap, ZAG, The Designful Company",
+      "source_url": "https://www.martyneumeier.com/the-brand-flip",
+      "source_type": "book",
+      "source_title": "\"The Brand Flip — Brand Commitment Matrix\"",
+      "source_date": "2015-09-29",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "strategy",
+        "design",
+        "pmm"
+      ],
+      "lifecycle": [
+        "brand-strategy",
+        "positioning"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_neumeier-customers-join-not-buy",
+        "ins_neumeier-onlyness-test"
+      ],
+      "raw_ref": "raw/expert-content/experts/marty-neumeier.md"
+    },
+    {
+      "path": "insights/ins_neumeier-customers-join-not-buy.md",
+      "title": "Customers join brands now, not buy them — the company creates customers; customers create the brand",
+      "id": "ins_neumeier-customers-join-not-buy",
+      "operator": "Marty Neumeier",
+      "operator_role": "Brand strategist; founder Liquid Agency; author The Brand Gap, ZAG, The Designful Company",
+      "source_url": "https://www.martyneumeier.com/the-brand-flip",
+      "source_type": "book",
+      "source_title": "\"The Brand Flip — New Brand Model\"",
+      "source_date": "2015-09-29",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "strategy",
+        "growth-demand",
+        "pmm"
+      ],
+      "lifecycle": [
+        "brand-strategy",
+        "audience-building",
+        "positioning"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_neumeier-onlyness-test",
+        "ins_smallest-viable-audience",
+        "ins_otaku-as-ideal-customer-archetype"
+      ],
+      "raw_ref": "raw/expert-content/experts/marty-neumeier.md"
+    },
+    {
+      "path": "insights/ins_neumeier-onlyness-test.md",
+      "title": "Onlyness is a company-viability test, not a positioning exercise — if you can't fill in the blank, the company is the problem",
+      "id": "ins_neumeier-onlyness-test",
+      "operator": "Marty Neumeier",
+      "operator_role": "Brand strategist; founder Liquid Agency; author The Brand Gap, ZAG, The Designful Company",
+      "source_url": "https://www.martyneumeier.com/zag",
+      "source_type": "book",
+      "source_title": "\"ZAG — The Onlyness Statement\"",
+      "source_date": "2007-01-19",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "strategy",
+        "pmm",
+        "design"
+      ],
+      "lifecycle": [
+        "positioning",
+        "brand-strategy"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_brand-gap-five-disciplines",
+        "ins_no-decision-is-the-real-competitor"
+      ],
+      "raw_ref": "raw/expert-content/experts/marty-neumeier.md"
+    },
+    {
+      "path": "insights/ins_neumeier-strategic-pyramid.md",
+      "title": "Purpose at the top (forever), mission and vision in the middle (5-20 years), tactics at the bottom (1-3 years)",
+      "id": "ins_neumeier-strategic-pyramid",
+      "operator": "Marty Neumeier",
+      "operator_role": "Brand strategist; founder Liquid Agency; author The Brand Gap, ZAG, The Designful Company",
+      "source_url": "https://www.martyneumeier.com/scramble",
+      "source_type": "book",
+      "source_title": "\"Scramble — Strategic Pyramid\"",
+      "source_date": "2018-04-24",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "strategy",
+        "leadership",
+        "founder-craft"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "brand-strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_neumeier-agile-strategy-five-ps",
+        "ins_neumeier-onlyness-test"
+      ],
+      "raw_ref": "raw/expert-content/experts/marty-neumeier.md"
     },
     {
       "path": "insights/ins_never-imagined-chocolate-bar-could.md",
@@ -15283,6 +15621,164 @@
       "raw_ref": "raw/expert-content/experts/jason-lemkin.md"
     },
     {
+      "path": "insights/ins_taleb-barbell-strategy.md",
+      "title": "Barbell — extreme safety on one end, aggressive risk on the other, nothing in the middle — the medium-risk zone is where fragility hides",
+      "id": "ins_taleb-barbell-strategy",
+      "operator": "Nassim Nicholas Taleb",
+      "operator_role": "Risk theorist; former options trader; author Fooled by Randomness, Black Swan, Antifragile, Skin in the Game",
+      "source_url": "https://www.fooledbyrandomness.com/",
+      "source_type": "book",
+      "source_title": "\"Antifragile — The Barbell Strategy\"",
+      "source_date": "2012-11-27",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "strategy",
+        "growth-demand",
+        "founder-craft"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "portfolio-allocation",
+        "risk-quality"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_antifragile-barbell",
+        "ins_taleb-via-negativa",
+        "ins_thiel-power-law"
+      ],
+      "raw_ref": "raw/expert-content/experts/nassim-taleb.md"
+    },
+    {
+      "path": "insights/ins_taleb-iatrogenics.md",
+      "title": "Iatrogenics — when the intervention causes more harm than the disease — most \"fixes\" in complex systems are net-negative",
+      "id": "ins_taleb-iatrogenics",
+      "operator": "Nassim Nicholas Taleb",
+      "operator_role": "Risk theorist; former options trader; author Fooled by Randomness, Black Swan, Antifragile, Skin in the Game",
+      "source_url": "https://www.fooledbyrandomness.com/",
+      "source_type": "book",
+      "source_title": "\"Antifragile — Iatrogenics\"",
+      "source_date": "2012-11-27",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "product",
+        "engineering",
+        "leadership"
+      ],
+      "lifecycle": [
+        "risk-quality",
+        "productisation",
+        "change-management"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_taleb-via-negativa",
+        "ins_antifragile-barbell",
+        "ins_taleb-skin-in-the-game"
+      ],
+      "raw_ref": "raw/expert-content/experts/nassim-taleb.md"
+    },
+    {
+      "path": "insights/ins_taleb-lindy-effect.md",
+      "title": "Old ideas survive longer for a reason — the Lindy Effect says length-of-survival predicts remaining life-expectancy for non-perishable things",
+      "id": "ins_taleb-lindy-effect",
+      "operator": "Nassim Nicholas Taleb",
+      "operator_role": "Risk theorist; former options trader; author Fooled by Randomness, Black Swan, Antifragile, Skin in the Game",
+      "source_url": "https://www.fooledbyrandomness.com/",
+      "source_type": "book",
+      "source_title": "\"Antifragile — The Lindy Effect\"",
+      "source_date": "2012-11-27",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "strategy",
+        "research-discovery",
+        "founder-craft"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "learning-development"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_antifragile-barbell",
+        "ins_mental-models-as-os-not-library"
+      ],
+      "raw_ref": "raw/expert-content/experts/nassim-taleb.md"
+    },
+    {
+      "path": "insights/ins_taleb-skin-in-the-game.md",
+      "title": "If decision-makers don't bear the downside, the system accumulates hidden risk and becomes fragile",
+      "id": "ins_taleb-skin-in-the-game",
+      "operator": "Nassim Nicholas Taleb",
+      "operator_role": "Risk theorist; former options trader; author Fooled by Randomness, Black Swan, Antifragile, Skin in the Game",
+      "source_url": "https://www.fooledbyrandomness.com/",
+      "source_type": "book",
+      "source_title": "\"Skin in the Game — Decision-Maker Downside Exposure\"",
+      "source_date": "2018-02-27",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "leadership",
+        "strategy",
+        "founder-craft"
+      ],
+      "lifecycle": [
+        "risk-quality",
+        "strategy-bets",
+        "hiring-team-design"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_antifragile-barbell",
+        "ins_taleb-iatrogenics",
+        "ins_incentives-as-master-switch"
+      ],
+      "raw_ref": "raw/expert-content/experts/nassim-taleb.md"
+    },
+    {
+      "path": "insights/ins_taleb-via-negativa.md",
+      "title": "Improvement comes from removing harm, not adding good — addition introduces unknown failure modes; subtraction does not",
+      "id": "ins_taleb-via-negativa",
+      "operator": "Nassim Nicholas Taleb",
+      "operator_role": "Risk theorist; former options trader; author Fooled by Randomness, Black Swan, Antifragile, Skin in the Game",
+      "source_url": "https://www.fooledbyrandomness.com/",
+      "source_type": "book",
+      "source_title": "\"Antifragile — Via Negativa\"",
+      "source_date": "2012-11-27",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "strategy",
+        "product",
+        "leadership"
+      ],
+      "lifecycle": [
+        "risk-quality",
+        "strategy-bets",
+        "productisation"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_antifragile-barbell",
+        "ins_taleb-iatrogenics",
+        "ins_taleb-skin-in-the-game"
+      ],
+      "raw_ref": "raw/expert-content/experts/nassim-taleb.md"
+    },
+    {
       "path": "insights/ins_talia-moyal-pmm-lovable.md",
       "title": "'AI-native PMM means redesigning workflows around AI economics — not adding AI to existing ones'",
       "id": "ins_talia-moyal-pmm-lovable",
@@ -15600,6 +16096,161 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_thiel-competition-destroys-profits.md",
+      "title": "Competitive markets destroy profits — the more competitors, the less money anyone makes",
+      "id": "ins_thiel-competition-destroys-profits",
+      "operator": "Peter Thiel",
+      "operator_role": "Co-founder PayPal, Palantir; investor; author Zero to One",
+      "source_url": "https://zerotoonebook.com/",
+      "source_type": "book",
+      "source_title": "\"Zero to One — Competition is for Losers\"",
+      "source_date": "2014-09-16",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "strategy",
+        "growth-demand",
+        "pmm"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "positioning",
+        "market-selection"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_zero-to-one-monopoly",
+        "ins_thiel-vertical-vs-horizontal-progress"
+      ],
+      "raw_ref": "raw/expert-content/experts/peter-thiel.md"
+    },
+    {
+      "path": "insights/ins_thiel-definite-vs-indefinite-optimism.md",
+      "title": "Definite optimists build concrete plans; indefinite optimists hedge — modern business culture has drifted to indefinite",
+      "id": "ins_thiel-definite-vs-indefinite-optimism",
+      "operator": "Peter Thiel",
+      "operator_role": "Co-founder PayPal, Palantir; investor; author Zero to One",
+      "source_url": "https://zerotoonebook.com/",
+      "source_type": "book",
+      "source_title": "\"Zero to One — Definite vs. Indefinite Optimism\"",
+      "source_date": "2014-09-16",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "leadership",
+        "founder-craft",
+        "strategy"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "fundraising"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 4, evidence: 3, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_thiel-vertical-vs-horizontal-progress",
+        "ins_thiel-power-law"
+      ],
+      "raw_ref": "raw/expert-content/experts/peter-thiel.md"
+    },
+    {
+      "path": "insights/ins_thiel-poor-sales-not-bad-product.md",
+      "title": "Most companies fail from poor distribution, not bad product — sales is the engine engineers underweight",
+      "id": "ins_thiel-poor-sales-not-bad-product",
+      "operator": "Peter Thiel",
+      "operator_role": "Co-founder PayPal, Palantir; investor; author Zero to One",
+      "source_url": "https://zerotoonebook.com/",
+      "source_type": "book",
+      "source_title": "\"Zero to One — Sales as a Hidden Engine\"",
+      "source_date": "2014-09-16",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "gtm",
+        "sales-cs",
+        "founder-craft"
+      ],
+      "lifecycle": [
+        "distribution",
+        "sales-enablement",
+        "launch-go-to-market"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_thiel-competition-destroys-profits",
+        "ins_starving-crowd-beats-offer",
+        "ins_offer-and-market-as-highest-roi-lever"
+      ],
+      "raw_ref": "raw/expert-content/experts/peter-thiel.md"
+    },
+    {
+      "path": "insights/ins_thiel-power-law.md",
+      "title": "Power-law outcomes demand power-law allocation — concentrate on the one thing that matters more than all others combined",
+      "id": "ins_thiel-power-law",
+      "operator": "Peter Thiel",
+      "operator_role": "Co-founder PayPal, Palantir; investor; author Zero to One",
+      "source_url": "https://zerotoonebook.com/",
+      "source_type": "book",
+      "source_title": "\"Zero to One — The Power Law\"",
+      "source_date": "2014-09-16",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "strategy",
+        "growth-demand",
+        "leadership"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "portfolio-allocation",
+        "fundraising"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_thiel-vertical-vs-horizontal-progress",
+        "ins_thiel-definite-vs-indefinite-optimism"
+      ],
+      "raw_ref": "raw/expert-content/experts/peter-thiel.md"
+    },
+    {
+      "path": "insights/ins_thiel-vertical-vs-horizontal-progress.md",
+      "title": "0-to-1 progress (new things) creates the value; 1-to-n progress (more of the same) gets the funding — most operators invert this",
+      "id": "ins_thiel-vertical-vs-horizontal-progress",
+      "operator": "Peter Thiel",
+      "operator_role": "Co-founder PayPal, Palantir; investor; author Zero to One",
+      "source_url": "https://zerotoonebook.com/",
+      "source_type": "book",
+      "source_title": "\"Zero to One — Vertical vs. Horizontal Progress\"",
+      "source_date": "2014-09-16",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "strategy",
+        "founder-craft",
+        "leadership"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "product-bets",
+        "fundraising"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_zero-to-one-monopoly",
+        "ins_thiel-power-law"
+      ],
+      "raw_ref": "raw/expert-content/experts/peter-thiel.md"
     },
     {
       "path": "insights/ins_think-there-something-launch-operations.md",
@@ -16438,6 +17089,160 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_voss-accusation-audit.md",
+      "title": "Say the worst thing they could think about you — first, out loud — and watch the negative emotion drain",
+      "id": "ins_voss-accusation-audit",
+      "operator": "Chris Voss",
+      "operator_role": "Former FBI lead international kidnapping negotiator; founder Black Swan Group",
+      "source_url": "https://www.blackswanltd.com/never-split-the-difference",
+      "source_type": "book",
+      "source_title": "\"Never Split the Difference — Accusation Audit\"",
+      "source_date": "2016-05-17",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "sales-cs",
+        "leadership",
+        "pmm"
+      ],
+      "lifecycle": [
+        "sales-enablement",
+        "discovery-conversations",
+        "deal-strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_voss-mirroring-forces-elaboration",
+        "ins_calibrated-questions-illusion-of-control"
+      ],
+      "raw_ref": "raw/expert-content/experts/chris-voss.md"
+    },
+    {
+      "path": "insights/ins_voss-black-swans-discovered-in-process.md",
+      "title": "Every negotiation has 3-5 hidden facts that change everything — they surface from rapport, not research",
+      "id": "ins_voss-black-swans-discovered-in-process",
+      "operator": "Chris Voss",
+      "operator_role": "Former FBI lead international kidnapping negotiator; founder Black Swan Group",
+      "source_url": "https://www.blackswanltd.com/never-split-the-difference",
+      "source_type": "book",
+      "source_title": "\"Never Split the Difference — Black Swans\"",
+      "source_date": "2016-05-17",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "strategy",
+        "sales-cs",
+        "research-discovery"
+      ],
+      "lifecycle": [
+        "deal-strategy",
+        "discovery-conversations",
+        "customer-research"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_voss-mirroring-forces-elaboration",
+        "ins_voss-thats-right-breakthrough"
+      ],
+      "raw_ref": "raw/expert-content/experts/chris-voss.md"
+    },
+    {
+      "path": "insights/ins_voss-mirroring-forces-elaboration.md",
+      "title": "Mirror the last 1-3 words — silence forces the counterpart to elaborate, and the elaboration is where the deal is",
+      "id": "ins_voss-mirroring-forces-elaboration",
+      "operator": "Chris Voss",
+      "operator_role": "Former FBI lead international kidnapping negotiator; founder Black Swan Group",
+      "source_url": "https://www.blackswanltd.com/never-split-the-difference",
+      "source_type": "book",
+      "source_title": "\"Never Split the Difference — Mirroring\"",
+      "source_date": "2016-05-17",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "sales-cs",
+        "research-discovery",
+        "pmm"
+      ],
+      "lifecycle": [
+        "discovery-conversations",
+        "sales-enablement",
+        "customer-research"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_calibrated-questions-illusion-of-control",
+        "ins_no-oriented-questions"
+      ],
+      "raw_ref": "raw/expert-content/experts/chris-voss.md"
+    },
+    {
+      "path": "insights/ins_voss-tactical-empathy-labels.md",
+      "title": "Label the emotion before they have to defend it — \"it sounds like you're worried about...\" disarms the room",
+      "id": "ins_voss-tactical-empathy-labels",
+      "operator": "Chris Voss",
+      "operator_role": "Former FBI lead international kidnapping negotiator; founder Black Swan Group",
+      "source_url": "https://www.blackswanltd.com/never-split-the-difference",
+      "source_type": "book",
+      "source_title": "\"Never Split the Difference — Tactical Empathy\"",
+      "source_date": "2016-05-17",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "sales-cs",
+        "leadership",
+        "pmm"
+      ],
+      "lifecycle": [
+        "discovery-conversations",
+        "sales-enablement",
+        "customer-research"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_voss-mirroring-forces-elaboration",
+        "ins_voss-thats-right-breakthrough"
+      ],
+      "raw_ref": "raw/expert-content/experts/chris-voss.md"
+    },
+    {
+      "path": "insights/ins_voss-thats-right-breakthrough.md",
+      "title": "\"That's right\" — not \"yes\" — is the moment a negotiation actually shifts",
+      "id": "ins_voss-thats-right-breakthrough",
+      "operator": "Chris Voss",
+      "operator_role": "Former FBI lead international kidnapping negotiator; founder Black Swan Group",
+      "source_url": "https://www.blackswanltd.com/never-split-the-difference",
+      "source_type": "book",
+      "source_title": "\"Never Split the Difference — That's Right\"",
+      "source_date": "2016-05-17",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "sales-cs",
+        "research-discovery",
+        "pmm"
+      ],
+      "lifecycle": [
+        "discovery-conversations",
+        "sales-enablement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_voss-mirroring-forces-elaboration",
+        "ins_voss-accusation-audit"
+      ],
+      "raw_ref": "raw/expert-content/experts/chris-voss.md"
     },
     {
       "path": "insights/ins_want-product-marketing-drive-revenue.md",
@@ -18878,7 +19683,10 @@
       ],
       "domains_active": [
         "sales-cs",
-        "research"
+        "research-discovery",
+        "pmm",
+        "leadership",
+        "strategy"
       ],
       "captured_first": "2026-05-01",
       "external": {
@@ -19698,7 +20506,10 @@
       ],
       "domains_active": [
         "design",
-        "pmm"
+        "pmm",
+        "marketing",
+        "sales-cs",
+        "strategy"
       ],
       "captured_first": "2026-05-01",
       "external": {
@@ -22264,7 +23075,10 @@
       ],
       "domains_active": [
         "design",
-        "leadership"
+        "leadership",
+        "pmm",
+        "strategy",
+        "growth-demand"
       ],
       "captured_first": "2026-05-01",
       "external": {
@@ -22649,7 +23463,12 @@
         "The Black Swan"
       ],
       "domains_active": [
-        "leadership"
+        "leadership",
+        "strategy",
+        "product",
+        "engineering",
+        "founder-craft",
+        "research-discovery"
       ],
       "captured_first": "2026-05-01",
       "external": {
@@ -23072,7 +23891,11 @@
       ],
       "domains_active": [
         "leadership",
-        "ai-native",
+        "strategy",
+        "founder-craft",
+        "growth-demand",
+        "gtm",
+        "sales-cs",
         "pmm"
       ],
       "captured_first": "2026-05-01",
@@ -29095,6 +29918,31 @@
       ]
     },
     {
+      "path": "synthesis/patterns/monopoly-economics-differentiation-beats-competition.md",
+      "title": "Differentiation, not competition, is what compounds — Thiel, Naval, Munger, Neumeier, Hormozi, and Dunford on the same economic principle",
+      "id": "pat_monopoly-economics-differentiation-beats-competition",
+      "captured_date": "2026-05-05",
+      "convergence_count": "6",
+      "tier": "A",
+      "uses_cards": [
+        "ins_zero-to-one-monopoly",
+        "ins_thiel-competition-destroys-profits",
+        "ins_thiel-vertical-vs-horizontal-progress",
+        "ins_specific-knowledge-cannot-be-mass-trained",
+        "ins_specific-knowledge-and-leverage",
+        "ins_circle-of-competence",
+        "ins_neumeier-onlyness-test",
+        "ins_starving-crowd-beats-offer",
+        "ins_no-decision-is-the-real-competitor"
+      ],
+      "domains": [
+        "strategy",
+        "founder-craft",
+        "pmm",
+        "gtm"
+      ]
+    },
+    {
       "path": "synthesis/patterns/narrative-as-strategy.md",
       "title": "Company story IS the strategy — name the shift, run the audit",
       "id": "pat_narrative-as-strategy",
@@ -29173,6 +30021,29 @@
         "growth",
         "product",
         "design"
+      ]
+    },
+    {
+      "path": "synthesis/patterns/rapport-surfaces-what-research-cannot.md",
+      "title": "Rapport surfaces what research cannot — Voss, Moesta, and Munger on the conditions that produce hidden information",
+      "id": "pat_rapport-surfaces-what-research-cannot",
+      "captured_date": "2026-05-05",
+      "convergence_count": "3",
+      "tier": "A",
+      "uses_cards": [
+        "ins_voss-mirroring-forces-elaboration",
+        "ins_voss-accusation-audit",
+        "ins_voss-thats-right-breakthrough",
+        "ins_voss-black-swans-discovered-in-process",
+        "ins_voss-tactical-empathy-labels",
+        "ins_jtbd-interviews-surface-customer-language",
+        "ins_incentives-as-master-switch"
+      ],
+      "domains": [
+        "sales-cs",
+        "research-discovery",
+        "pmm",
+        "leadership"
       ]
     },
     {
@@ -29283,6 +30154,27 @@
         "leadership",
         "pmm"
       ]
+    },
+    {
+      "path": "synthesis/patterns/subtraction-first-operating-discipline.md",
+      "title": "Subtraction beats addition — Taleb, Munger, and Hormozi on why removal is more reliable than improvement",
+      "id": "pat_subtraction-first-operating-discipline",
+      "captured_date": "2026-05-05",
+      "convergence_count": "3",
+      "tier": "A",
+      "uses_cards": [
+        "ins_taleb-via-negativa",
+        "ins_taleb-iatrogenics",
+        "ins_invert-always-invert",
+        "ins_circle-of-competence",
+        "ins_offer-and-market-as-highest-roi-lever"
+      ],
+      "domains": [
+        "strategy",
+        "product",
+        "leadership",
+        "founder-craft"
+      ]
     }
   ],
   "contradictions": [
@@ -29316,6 +30208,27 @@
         "founder-craft",
         "leadership",
         "ai-native"
+      ]
+    },
+    {
+      "path": "synthesis/contradictions/concentrate-vs-barbell-allocation.md",
+      "title": "Power-law concentration vs. barbell diversification — Thiel and Taleb on opposite stances toward portfolio allocation",
+      "id": "con_concentrate-vs-barbell-allocation",
+      "captured_date": "2026-05-05",
+      "operators": [
+        "Peter Thiel",
+        "Nassim Nicholas Taleb"
+      ],
+      "uses_cards": [
+        "ins_thiel-power-law",
+        "ins_thiel-vertical-vs-horizontal-progress",
+        "ins_taleb-barbell-strategy",
+        "ins_antifragile-barbell"
+      ],
+      "domains": [
+        "strategy",
+        "founder-craft",
+        "leadership"
       ]
     },
     {
@@ -29918,6 +30831,34 @@
         "team-brain/workflows/messaging-system-builder.md",
         "flywheel/skills/positioning-forge/SKILL.md",
         "flywheel/skills/dunford-value-frame/SKILL.md"
+      ]
+    },
+    {
+      "path": "playbooks/sales-discovery/the-tactical-empathy-discovery-playbook.md",
+      "title": "The Tactical Empathy Discovery Playbook — Voss's five tools integrated into a usable sales discovery, customer research, and difficult-conversation routine",
+      "id": "pb_tactical-empathy-discovery-playbook",
+      "captured_date": "2026-05-05",
+      "operators": [
+        "Chris Voss",
+        "Bob Moesta",
+        "Charlie Munger"
+      ],
+      "uses_cards": [
+        "ins_voss-mirroring-forces-elaboration",
+        "ins_voss-accusation-audit",
+        "ins_voss-thats-right-breakthrough",
+        "ins_voss-black-swans-discovered-in-process",
+        "ins_voss-tactical-empathy-labels",
+        "ins_calibrated-questions-illusion-of-control",
+        "ins_no-oriented-questions",
+        "ins_jtbd-interviews-surface-customer-language",
+        "ins_incentives-as-master-switch"
+      ],
+      "domains": [
+        "sales-cs",
+        "research-discovery",
+        "pmm",
+        "leadership"
       ]
     },
     {

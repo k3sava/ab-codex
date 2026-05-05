@@ -6,7 +6,7 @@ roles:
   - First outside investor in Facebook
   - Partner at Founders Fund
   - Author of Zero to One: Notes on Startups
-domains_active: [leadership, ai-native, pmm]
+domains_active: [leadership, strategy, founder-craft, growth-demand, gtm, sales-cs, pmm]
 captured_first: 2026-05-01
 external:
   website: https://foundersfund.com/team/peter-thiel/
@@ -25,6 +25,11 @@ Peter Thiel's central thesis is the distinction between horizontal progress (1 t
 
 ## Cards
 - `ins_zero-to-one-monopoly` — Competition is for losers — build a monopoly on a truth most people don't yet see [Tier A]
+- `ins_thiel-vertical-vs-horizontal-progress` — 0-to-1 creates value; 1-to-n gets the funding — most operators invert this [Tier A]
+- `ins_thiel-competition-destroys-profits` — The more competitors, the less money anyone makes [Tier A]
+- `ins_thiel-poor-sales-not-bad-product` — Most companies fail from poor distribution, not bad product [Tier A]
+- `ins_thiel-definite-vs-indefinite-optimism` — Definite optimists build concrete plans; indefinite optimists hedge [Tier A]
+- `ins_thiel-power-law` — Power-law outcomes demand power-law allocation — concentrate on the one thing [Tier A]
 
 
 ## Sources captured
