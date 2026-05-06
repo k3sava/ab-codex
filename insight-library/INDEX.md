@@ -140,11 +140,11 @@ _Generated 2026-05-06. Auto-built from frontmatter — do not edit by hand._
 - [`ins_judgment-doesnt-compress`](insights/ins_judgment-doesnt-compress.md) — Building costs collapsed; judgement didn't — the squeeze is on positioning, not production _(Kevin Indig)_
 - [`ins_judgment-vs-understanding`](insights/ins_judgment-vs-understanding.md) — You can outsource thinking, but not understanding — verification is the new human job _(Andrej Karpathy)_
 - [`ins_julien-sauvage-positioning-is-start-line-not-finish-line`](insights/ins_julien-sauvage-positioning-is-start-line-not-finish-line.md) — Positioning is the start line, not the finish line for PMM. _(Julien Sauvage 🥖)_
-- [`ins_kesava-mandiga-anti-fabrication-as-rule`](insights/ins_kesava-mandiga-anti-fabrication-as-rule.md) — If you can''t trace a claim to a source, write "unverified" and stop _(Kesava Mandiga)_
+- [`ins_kesava-mandiga-anti-fabrication-as-rule`](insights/ins_kesava-mandiga-anti-fabrication-as-rule.md) — If you can't trace a claim to a source, write "unverified" and stop _(Kesava Mandiga)_
 - [`ins_kesava-mandiga-cheap-tier-delegation`](insights/ins_kesava-mandiga-cheap-tier-delegation.md) — Cheap external model for grunt work; Claude only sees judgment _(Kesava Mandiga)_
-- [`ins_kesava-mandiga-repositioning-commits-to-one-buyer`](insights/ins_kesava-mandiga-repositioning-commits-to-one-buyer.md) — Repositioning doesn''t work until you cut three buyers and pick one _(Kesava Mandiga)_
+- [`ins_kesava-mandiga-repositioning-commits-to-one-buyer`](insights/ins_kesava-mandiga-repositioning-commits-to-one-buyer.md) — Repositioning doesn't work until you cut three buyers and pick one _(Kesava Mandiga)_
 - [`ins_kesava-mandiga-substrate-driven-intelligence`](insights/ins_kesava-mandiga-substrate-driven-intelligence.md) — Files first, vibes never. The substrate IS the work. _(Kesava Mandiga)_
-- [`ins_kesava-mandiga-workflow-collapse-not-speedup`](insights/ins_kesava-mandiga-workflow-collapse-not-speedup.md) — AI-native isn''t doing the same job faster, it''s collapsing roles _(Kesava Mandiga)_
+- [`ins_kesava-mandiga-workflow-collapse-not-speedup`](insights/ins_kesava-mandiga-workflow-collapse-not-speedup.md) — AI-native isn't doing the same job faster, it's collapsing roles _(Kesava Mandiga)_
 - [`ins_key-challenge-will-actually-getting`](insights/ins_key-challenge-will-actually-getting.md) — The key challenge will be actually getting in front of our target audience _(Rory Woodbridge)_
 - [`ins_kill-criteria-make-pre-mortems-real`](insights/ins_kill-criteria-make-pre-mortems-real.md) — Pre-mortems only work if you commit kill criteria before starting _(Annie Duke)_
 - [`ins_kill-things-to-build-trust`](insights/ins_kill-things-to-build-trust.md) — Killing your own initiatives loudly is the highest-trust move with executives _(Jessica Fain)_
@@ -244,7 +244,7 @@ _Generated 2026-05-06. Auto-built from frontmatter — do not edit by hand._
 - [`ins_roberge-sales-as-engineering-discipline`](insights/ins_roberge-sales-as-engineering-discipline.md) — Sales is engineering, not art — system design beats individual talent at scale _(Mark Roberge)_
 - [`ins_roberge-structured-training`](insights/ins_roberge-structured-training.md) — Replace "shadow a top rep" with structured curriculum + pass/fail certifications — competence before customer contact _(Mark Roberge)_
 - [`ins_run-up-the-stack`](insights/ins_run-up-the-stack.md) — Run up the stack — use commoditized capabilities as inputs to create higher-order human value _(Packy McCormick)_
-- [`ins_sam-mallikarjunan-advance-the-market-not-just-share`](insights/ins_sam-mallikarjunan-advance-the-market-not-just-share.md) — The biggest impediment to growth isn''t a cheaper competitor; it''s that the market is bad at marketing and sales _(Sam Mallikarjunan)_
+- [`ins_sam-mallikarjunan-advance-the-market-not-just-share`](insights/ins_sam-mallikarjunan-advance-the-market-not-just-share.md) — The biggest impediment to growth isn't a cheaper competitor; it's that the market is bad at marketing and sales _(Sam Mallikarjunan)_
 - [`ins_scarcity-supercycle`](insights/ins_scarcity-supercycle.md) — As AI-driven abundance expands, demand for structurally scarce assets intensifies — humans pay a premium for the things they can't replicate _(Packy McCormick)_
 - [`ins_schafer-pain-pleasure-polarity`](insights/ins_schafer-pain-pleasure-polarity.md) — Every buying decision reduces to one polarity — moving toward pleasure or away from pain. Copy that activates neither doesn't convert. _(Cole Schafer)_
 - [`ins_schafer-uncomfortable-honesty`](insights/ins_schafer-uncomfortable-honesty.md) — Would you say it to the reader's face without flinching? — the test that separates copy from manipulation _(Cole Schafer)_

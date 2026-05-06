@@ -624,12 +624,13 @@ async function insight(id){
       synth.cancel();
       setTimeout(() => {
         const u = new SpeechSynthesisUtterance(text);
-        u.rate = 1.0;
+        u.rate = getReadRate();
         u.pitch = 1.0;
-        u.onstart = () => { listenBtn.setAttribute('aria-pressed','true'); if (listenLabel) listenLabel.textContent = 'stop'; };
+        u.onstart = () => { listenBtn.setAttribute('aria-pressed','true'); if (listenLabel) listenLabel.textContent = `stop (${u.rate}×)`; };
         u.onend = stopListen;
         u.onerror = (ev) => { console.warn('[codex] TTS error:', ev?.error || ev); stopListen(); };
         synth.speak(u);
+        listenBtn._currentUtter = u;
       }, 60);
     });
     // Stop TTS on route change so audio doesn't bleed across pages.
@@ -2499,6 +2500,19 @@ function wireTheme(){
   };
 }
 
+// Read-aloud rate, persisted in localStorage. Adjust live with [ and ] while
+// reading. Apple Audiobooks / Audible style — most users keep the default,
+// power users tune it once and forget.
+function getReadRate(){
+  const v = parseFloat(localStorage.getItem('codex.readRate'));
+  return v && v >= 0.5 && v <= 2.5 ? v : 1.0;
+}
+function setReadRate(rate){
+  const r = Math.max(0.5, Math.min(2.5, Math.round(rate * 100) / 100));
+  localStorage.setItem('codex.readRate', String(r));
+  return r;
+}
+
 // === Keyboard shortcuts — Apple/GitHub-style global navigation ===
 // Site-wide shortcuts that don't fight with form inputs or text selection.
 // Triggered handler set is scoped: typing in an input, contenteditable, or
@@ -2538,8 +2552,8 @@ function wirePageTools(){
       synth.cancel();
       setTimeout(() => {
         const u = new SpeechSynthesisUtterance(text);
-        u.rate = 1.0;
-        u.onstart = () => { ptListen.setAttribute('aria-pressed','true'); if (ptListenLabel) ptListenLabel.textContent = 'stop'; };
+        u.rate = getReadRate();
+        u.onstart = () => { ptListen.setAttribute('aria-pressed','true'); if (ptListenLabel) ptListenLabel.textContent = `stop (${u.rate}×)`; };
         u.onend = stopListen;
         u.onerror = (e) => { console.warn('[codex] page-tools TTS error:', e?.error || e); stopListen(); };
         synth.speak(u);
@@ -2584,6 +2598,26 @@ function wireKeyboardShortcuts(){
     if (k === 'Escape'){
       if (dialog?.open) { closeHelp(); e.preventDefault(); return; }
       if (window.speechSynthesis?.speaking) { window.speechSynthesis.cancel(); }
+      const menu = document.getElementById('shareMenu');
+      if (menu && !menu.hidden) closeShareMenu();
+      return;
+    }
+    // [ and ] adjust read-aloud rate. Restart current utterance with new rate.
+    if (k === '[' || k === ']'){
+      const cur = getReadRate();
+      const next = setReadRate(k === '[' ? cur - 0.1 : cur + 0.1);
+      toast(`reading speed ${next.toFixed(1)}×`);
+      // If currently speaking, restart at new rate from where we are (best-effort).
+      const synth = window.speechSynthesis;
+      if (synth?.speaking){
+        // Find any active listen button to restart cleanly.
+        const btn = document.querySelector('[aria-pressed="true"]#listenBtn, [aria-pressed="true"]#ptListen');
+        if (btn){
+          synth.cancel();
+          setTimeout(() => btn.click(), 80);
+        }
+      }
+      e.preventDefault();
       return;
     }
     // ? help

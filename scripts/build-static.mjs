@@ -34,6 +34,15 @@ const SITE_URL = "https://codex.iamkesava.com";
 
 const escapeHtml = s => (s || "").toString().replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
+// YAML scalar decoder — single quotes use '' to escape ', double quotes use
+// backslash escapes. Apply once per value so frontmatter strings render as
+// the author wrote them (e.g. "can't" instead of "can''t").
+function unyaml(v){
+  if (typeof v !== "string") return v;
+  if (v.length >= 2 && v.startsWith("'") && v.endsWith("'")) return v.slice(1, -1).replace(/''/g, "'");
+  if (v.length >= 2 && v.startsWith('"') && v.endsWith('"')) return v.slice(1, -1).replace(/\\(["\\\/bfnrt])/g, (_, c) => ({n:"\n",t:"\t",r:"\r",b:"\b",f:"\f","\\":"\\","\"":"\"","\/":"/"}[c] || c));
+  return v;
+}
 function parseFrontmatter(text){
   if (!text.startsWith("---\n")) return { fm: {}, body: text };
   const end = text.indexOf("\n---", 4);
@@ -51,14 +60,14 @@ function parseFrontmatter(text){
       const v = vRaw.trim();
       if (v === ""){ obj[k] = []; continue; }
       if (v.startsWith("[") && v.endsWith("]")){
-        obj[k] = v.slice(1, -1).split(",").map(s => s.trim().replace(/^["']|["']$/g, "")).filter(Boolean);
+        obj[k] = v.slice(1, -1).split(",").map(s => unyaml(s.trim())).filter(Boolean);
       } else {
-        obj[k] = v.replace(/^["'](.*)["']$/, "$1");
+        obj[k] = unyaml(v);
       }
       continue;
     }
     if (line.startsWith("  - ") && lastKey){
-      const item = line.slice(4).trim().replace(/^["'](.*)["']$/, "$1");
+      const item = unyaml(line.slice(4).trim());
       if (!Array.isArray(obj[lastKey])) obj[lastKey] = [];
       obj[lastKey].push(item);
     }

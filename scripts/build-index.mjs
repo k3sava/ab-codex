@@ -20,6 +20,21 @@ async function walk(dir) {
   return out;
 }
 
+// Decode a YAML scalar string. Strips outer quotes and applies YAML's escape
+// rules: in single-quoted strings, '' is the escape for a literal apostrophe.
+// In double-quoted strings, common backslash escapes are decoded. Unquoted
+// scalars pass through unchanged.
+function unyaml(v){
+  if (typeof v !== "string") return v;
+  if (v.length >= 2 && v.startsWith("'") && v.endsWith("'")){
+    return v.slice(1, -1).replace(/''/g, "'");
+  }
+  if (v.length >= 2 && v.startsWith('"') && v.endsWith('"')){
+    return v.slice(1, -1).replace(/\\(["\\\/bfnrt])/g, (_, c) => ({n:"\n",t:"\t",r:"\r",b:"\b",f:"\f","\\":"\\","\"":"\"","\/":"/"}[c] || c));
+  }
+  return v;
+}
+
 function parseFrontmatter(text) {
   if (!text.startsWith("---\n")) return null;
   const end = text.indexOf("\n---", 4);
@@ -45,18 +60,17 @@ function parseFrontmatter(text) {
         continue;
       }
       if (v.startsWith("[") && v.endsWith("]")) {
-        obj[k] = v.slice(1, -1).split(",").map(s => s.trim().replace(/^["']|["']$/g, "")).filter(Boolean);
+        obj[k] = v.slice(1, -1).split(",").map(s => unyaml(s.trim())).filter(Boolean);
       } else if (v.startsWith("{")) {
         obj[k] = v;
       } else {
-        // Strip wrapping quotes — YAML treats quoted and unquoted scalars as the same value
-        obj[k] = v.replace(/^["'](.*)["']$/, "$1");
+        obj[k] = unyaml(v);
       }
       continue;
     }
     // Indented list item: `  - value`
     if (line.startsWith("  - ") && lastKey) {
-      const item = line.slice(4).trim().replace(/^["'](.*)["']$/, "$1");
+      const item = unyaml(line.slice(4).trim());
       if (!Array.isArray(obj[lastKey])) obj[lastKey] = [];
       obj[lastKey].push(item);
       // If lastKey was previously assigned an empty object (from "key:"), upgrade to array
