@@ -26,6 +26,80 @@
 
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
 *:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
+
+/* ===== ACCESSIBILITY ===== */
+.skip-link{
+  position:fixed;top:-100px;left:8px;z-index:100;
+  padding:10px 14px;background:var(--ink);color:var(--paper);
+  font-family:var(--mono);font-size:.78rem;text-decoration:none;border-radius:6px;
+  transition:top .15s ease;
+}
+.skip-link:focus{top:8px;outline:2px solid var(--accent);outline-offset:2px}
+
+/* Visually-hidden but available to screen readers */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+/* ===== KEYBOARD SHORTCUT DIALOG ===== */
+.shortcut-dialog{
+  border:0;border-radius:14px;padding:0;
+  background:var(--paper);color:var(--ink);
+  max-width:480px;width:calc(100vw - 32px);
+  box-shadow:0 24px 60px -12px color-mix(in oklab,var(--ink) 30%,transparent),0 8px 24px -8px color-mix(in oklab,var(--ink) 20%,transparent);
+}
+.shortcut-dialog::backdrop{background:color-mix(in oklab,var(--ink) 40%,transparent);backdrop-filter:blur(4px)}
+.shortcut-head{display:flex;align-items:center;justify-content:space-between;padding:18px 22px;border-bottom:1px solid var(--line-2)}
+.shortcut-head h2{font-family:var(--serif);font-weight:400;font-size:1.05rem;letter-spacing:-.01em;margin:0}
+.shortcut-close{
+  background:transparent;border:1px solid var(--line);padding:4px 10px;border-radius:6px;
+  font-family:var(--mono);font-size:.7rem;color:var(--muted);cursor:pointer;
+}
+.shortcut-close:hover{color:var(--ink);border-color:var(--ink-2)}
+.shortcut-list{
+  display:grid;grid-template-columns:auto 1fr;gap:10px 24px;
+  padding:18px 22px 22px;font-family:var(--mono);font-size:.8rem;color:var(--ink-2);
+  margin:0;
+}
+.shortcut-list dt{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.shortcut-list dd{margin:0;align-self:center;line-height:1.4}
+.shortcut-list .alt{font-size:.7rem;color:var(--muted)}
+.shortcut-list kbd{
+  display:inline-block;padding:2px 7px;
+  background:var(--paper-2);border:1px solid var(--line);border-bottom-width:2px;
+  border-radius:4px;font-family:var(--mono);font-size:.72rem;color:var(--ink);
+  line-height:1;
+}
+
+/* ===== Listen button — pressed state styling ===== */
+.rail-btn[aria-pressed='true']{
+  background:color-mix(in oklab,var(--accent) 16%,var(--paper-2));
+  border-color:color-mix(in oklab,var(--accent) 50%,transparent);
+  color:var(--accent-2);
+}
+.rail-btn[aria-pressed='true'] svg{color:var(--accent-2)}
+
+/* ===== Print stylesheet — clean PDF/print rendering ===== */
+@media print{
+  body{background:#fff;color:#000;font-family:Newsreader,Georgia,serif}
+  #hdr,#scrollProgress,#splash,.skip-link,#mobileMenu,#mobileBackdrop,#searchDialog,#shortcutDialog,footer,
+  .hello-bar,.timeline-spark-wrap,.timeline-sticky,.tlfilter,
+  .insight-page aside.ins-rail,.today-toc,
+  #scrollCue,.section-head .meta{display:none !important}
+  main{padding-top:0;max-width:100%}
+  .insight-page,.operator-page,.list-page,.browse-page,.timeline-page,.about-page,.today-page{padding:24px 0;max-width:100%}
+  .insight-page > .layout{display:block}
+  h1{font-size:24pt;margin-bottom:12pt}
+  h2{font-size:14pt;margin-top:16pt;margin-bottom:6pt}
+  p,li{font-size:11pt;line-height:1.5}
+  blockquote{border-left:2pt solid #000;padding-left:10pt;margin:8pt 0;font-style:italic}
+  a[href]{text-decoration:underline;color:#000}
+  /* show URL after links so the printed page is self-contained */
+  a[href^='http']:after{content:" (" attr(href) ")";font-size:8pt;color:#666}
+  a[href^='#']:after{content:""}
+  .crumbs,.byline,.source,.static-meta{font-size:9pt;color:#444;margin-bottom:6pt}
+  .static-tldr{border-left:2pt solid #000;padding:6pt 12pt;margin:12pt 0}
+  .static-tldr-label{font-size:7pt}
+  .release-counts,.rc{display:none}
+}
 html{scroll-behavior:smooth;overflow-x:hidden}
 body{
   background:var(--paper);

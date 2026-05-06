@@ -370,6 +370,14 @@ async function insight(id){
               <svg viewBox='0 0 16 16' aria-hidden='true' width='13' height='13' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'><rect x='2' y='3' width='12' height='10' rx='1.5'/><path d='M5 9V7l1.5 1.5L8 7v2'/><path d='M11 7v3M9.5 8.5L11 10l1.5-1.5'/></svg>
               <span>copy as markdown</span>
             </button>
+            <button class='rail-btn' id='shareBtn' aria-label='Share this card' title='Share — uses native share sheet on mobile, copies link otherwise'>
+              <svg viewBox='0 0 16 16' aria-hidden='true' width='13' height='13' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='4' r='1.8'/><circle cx='4' cy='8' r='1.8'/><circle cx='12' cy='12' r='1.8'/><path d='M5.6 7.2l4.8-2.4M5.6 8.8l4.8 2.4'/></svg>
+              <span>share</span>
+            </button>
+            <button class='rail-btn' id='listenBtn' aria-label='Read this card aloud' aria-pressed='false'>
+              <svg viewBox='0 0 16 16' aria-hidden='true' width='13' height='13' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'><path d='M3 6v4h2l3 2.5v-9L5 6H3z'/><path d='M11 5.5c1 .8 1 4.2 0 5'/><path d='M12.5 4c1.8 1.4 1.8 6.6 0 8'/></svg>
+              <span class='listen-label'>listen</span>
+            </button>
             <a class='rail-btn' href='${REPO_BASE}/insight-library/${c.path}' target='_blank' rel='noopener' aria-label='View raw source on GitHub'>
               <svg viewBox='0 0 16 16' aria-hidden='true' width='13' height='13' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'><path d='M11 3h2v2'/><path d='M13 3l-5 5'/><path d='M12 9v3a1 1 0 01-1 1H4a1 1 0 01-1-1V5a1 1 0 011-1h3'/></svg>
               <span>view raw source</span>
@@ -407,25 +415,80 @@ async function insight(id){
   const cardBodyEl = document.getElementById('cardBody');
   cardBodyEl.innerHTML = mdToHtml(md);
   rewriteRelativeLinks(cardBodyEl);
-  document.getElementById('citeBtn').onclick = () => {
-    navigator.clipboard.writeText(`${c.operator}, "${c.source_title}," ${c.source_url}, ${c.source_date}. codex/${c.id}`);
-    const b = document.getElementById('citeBtn'); const t = b.textContent; b.textContent = 'copied'; setTimeout(()=>b.textContent=t, 1400);
+  // Helper that flashes a label on a button for confirmation feedback.
+  const flashLabel = (id, msg, ms = 1400) => {
+    const b = document.getElementById(id); if (!b) return;
+    const labelEl = b.querySelector('span') || b;
+    const original = labelEl.textContent;
+    labelEl.textContent = msg;
+    setTimeout(() => { labelEl.textContent = original; }, ms);
+  };
+
+  document.getElementById('citeBtn').onclick = async () => {
+    const text = `${c.operator}${(c.co_operators||[]).length ? ' with ' + c.co_operators.join(', ') : ''}, "${c.source_title || c.claim}," ${c.source_url || ''}, ${c.source_date || 'n.d.'}. https://codex.iamkesava.com/ins/${c.id}/`;
+    try { await navigator.clipboard.writeText(text); flashLabel('citeBtn', 'copied'); } catch { flashLabel('citeBtn', 'copy failed'); }
   };
   // Osmani's UX bridge layer — give a human-with-an-agent a clean way to grab the
   // card's full markdown for their model.
   document.getElementById('copyMdBtn').onclick = async () => {
-    const b = document.getElementById('copyMdBtn');
-    const t = b.textContent;
-    b.textContent = 'copying…';
+    flashLabel('copyMdBtn', 'copying…', 600);
     try {
       const raw = await fetch(`insight-library/${c.path}`).then(r => r.text());
       await navigator.clipboard.writeText(raw);
-      b.textContent = 'copied';
+      setTimeout(() => flashLabel('copyMdBtn', 'copied'), 600);
     } catch {
-      b.textContent = 'copy failed';
+      setTimeout(() => flashLabel('copyMdBtn', 'copy failed'), 600);
     }
-    setTimeout(() => b.textContent = t, 1600);
   };
+  // Share — native Web Share where available, copy link fallback elsewhere.
+  document.getElementById('shareBtn').onclick = async () => {
+    const url = `https://codex.iamkesava.com/ins/${c.id}/`;
+    const shareData = { title: c.claim, text: `${c.operator}: "${c.claim}"`, url };
+    try {
+      if (navigator.share && navigator.canShare?.(shareData)){
+        await navigator.share(shareData);
+      } else {
+        await navigator.clipboard.writeText(url);
+        flashLabel('shareBtn', 'link copied');
+      }
+    } catch (err){
+      if (err?.name !== 'AbortError') flashLabel('shareBtn', 'share failed');
+    }
+  };
+  // Read aloud — Web Speech API. Reads claim + body sections in order.
+  // Toggles play/stop. Falls back gracefully if the browser doesn't support TTS.
+  let utter = null;
+  const listenBtn = document.getElementById('listenBtn');
+  const listenLabel = listenBtn.querySelector('.listen-label');
+  const stopListen = () => {
+    if (window.speechSynthesis){ window.speechSynthesis.cancel(); }
+    if (listenBtn){ listenBtn.setAttribute('aria-pressed','false'); listenLabel.textContent = 'listen'; }
+    utter = null;
+  };
+  listenBtn.onclick = () => {
+    if (!('speechSynthesis' in window)){
+      flashLabel('listenBtn', 'not supported');
+      return;
+    }
+    if (utter && window.speechSynthesis.speaking){
+      stopListen();
+      return;
+    }
+    // Build readable text: claim, byline-ish framing, then body sections sans markdown noise.
+    const bodyText = (cardBodyEl.innerText || '').replace(/[—–]/g, ' — ');
+    const text = `${c.claim}. By ${c.operator}${(c.co_operators||[]).length ? ' with ' + c.co_operators.join(' and ') : ''}. ${bodyText}`;
+    utter = new SpeechSynthesisUtterance(text);
+    utter.rate = 1.0;
+    utter.pitch = 1.0;
+    utter.onend = stopListen;
+    utter.onerror = stopListen;
+    listenBtn.setAttribute('aria-pressed','true');
+    listenLabel.textContent = 'stop';
+    window.speechSynthesis.cancel();
+    window.speechSynthesis.speak(utter);
+  };
+  // Stop TTS on route change so it doesn't bleed into another page.
+  window.addEventListener('hashchange', stopListen, { once: true });
   if (!reduced) gsap.from('.insight-page > .layout > div > *, .insight-page aside', { opacity:0, y:18, duration:.7, ease:'power3.out', stagger:.05 });
 }
 
@@ -2122,8 +2185,82 @@ function wireTheme(){
   };
 }
 
+// === Keyboard shortcuts — Apple/GitHub-style global navigation ===
+// Site-wide shortcuts that don't fight with form inputs or text selection.
+// Triggered handler set is scoped: typing in an input, contenteditable, or
+// dialog never fires a shortcut.
+function wireKeyboardShortcuts(){
+  const dialog = document.getElementById('shortcutDialog');
+  const closeBtn = document.getElementById('shortcutClose');
+  const isTyping = (e) => {
+    const el = e.target;
+    if (!el) return false;
+    if (el.isContentEditable) return true;
+    const tag = el.tagName;
+    return tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT';
+  };
+  const showHelp = () => { try { dialog.showModal(); } catch { dialog.setAttribute('open',''); } };
+  const closeHelp = () => { try { dialog.close(); } catch { dialog.removeAttribute('open'); } };
+  closeBtn?.addEventListener('click', closeHelp);
+  dialog?.addEventListener('click', (e) => { if (e.target === dialog) closeHelp(); });
+
+  // The "g then X" two-key sequence used by GitHub / Linear. The first 'g'
+  // arms the sequence for ~900ms.
+  let pendingG = 0;
+  const gMap = { h: '#/', t: '#/today', o: '#/operators', p: '#/patterns', b: '#/browse', m: '#/map' };
+
+  document.addEventListener('keydown', (e) => {
+    if (e.metaKey || e.ctrlKey || e.altKey) return; // let OS / browser handle
+    if (isTyping(e)) return;
+    const k = e.key;
+
+    // ESC closes any open dialog or stops TTS
+    if (k === 'Escape'){
+      if (dialog?.open) { closeHelp(); e.preventDefault(); return; }
+      if (window.speechSynthesis?.speaking) { window.speechSynthesis.cancel(); }
+      return;
+    }
+    // ? help
+    if (k === '?'){ showHelp(); e.preventDefault(); return; }
+    // / focus search
+    if (k === '/'){ document.getElementById('searchOpen')?.click(); e.preventDefault(); return; }
+
+    // g sequence — arm for 900ms
+    if (k === 'g' && !pendingG){
+      pendingG = Date.now();
+      setTimeout(() => { if (Date.now() - pendingG >= 900) pendingG = 0; }, 950);
+      return;
+    }
+    if (pendingG && (Date.now() - pendingG < 900)){
+      const target = gMap[k.toLowerCase()];
+      pendingG = 0;
+      if (target){ location.hash = target; e.preventDefault(); return; }
+    }
+
+    // Insight-page-specific
+    const onInsight = (location.hash || '').startsWith('#/ins/');
+    if (onInsight){
+      // j/k → sibling navigation
+      if (k === 'j' || k === 'k'){
+        const sel = k === 'j' ? '.rail-sib-link[href*="#/ins/"]' : '.rail-sib-link[href*="#/ins/"]';
+        const links = Array.from(document.querySelectorAll('.rail-sib-link'));
+        // First .rail-sib-link is "← previous", second is "next →"
+        const target = k === 'k' ? links.find(a => a.querySelector('.rail-sib-dir')?.textContent.includes('previous')) :
+                                    links.find(a => a.querySelector('.rail-sib-dir')?.textContent.includes('next'));
+        if (target){ location.hash = target.getAttribute('href'); e.preventDefault(); return; }
+      }
+      // l → listen / stop
+      if (k === 'l'){ document.getElementById('listenBtn')?.click(); e.preventDefault(); return; }
+      // s → share
+      if (k === 's'){ document.getElementById('shareBtn')?.click(); e.preventDefault(); return; }
+      // c → copy citation
+      if (k === 'c'){ document.getElementById('citeBtn')?.click(); e.preventDefault(); return; }
+    }
+  });
+}
+
 window.addEventListener('hashchange', () => { render(); setActive(); window.scrollTo({top:0, behavior:'instant'}); });
-loadIndex().then(() => { render(); setActive(); wireSearch(); wireHeader(); wireMobileMenu(); wireTheme(); dismissSplash(); }).catch(e => {
+loadIndex().then(() => { render(); setActive(); wireSearch(); wireHeader(); wireMobileMenu(); wireTheme(); wireKeyboardShortcuts(); dismissSplash(); }).catch(e => {
   document.getElementById('splash')?.remove();
   app.innerHTML = `<section class='about-page'><h1>codex couldn't load.</h1><p style='color:var(--muted)'>${escapeHtml(e.message)}</p></section>`;
 });
