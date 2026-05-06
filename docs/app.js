@@ -51,30 +51,46 @@ async function loadIndex(){
 
 function renderHelloBar(){
   const bar = document.getElementById('helloBar');
-  if (!bar || !LATEST_DAILY) return;
+  const marquee = document.getElementById('helloMarquee');
+  if (!bar || !marquee || !LATEST_DAILY) return;
   // Only show if the entry is reasonably recent (last 14 days) — stale "what's new" is worse than no banner
   const d = LATEST_DAILY.date;
   if (!d) return;
   const ageMs = Date.now() - new Date(d + 'T00:00:00').getTime();
   if (ageMs < 0 || ageMs > 14 * 24 * 60 * 60 * 1000) return;
-  const dateEl = document.getElementById('helloDate');
-  const textEl = document.getElementById('helloText');
-  if (dateEl) dateEl.textContent = d;
-  if (textEl){
-    const counts = [];
-    const ia = (LATEST_DAILY.insights_added || []).length;
-    const oa = (LATEST_DAILY.operators_added || []).length;
-    const pa = (LATEST_DAILY.patterns_added || []).length;
-    const pba = (LATEST_DAILY.playbooks_added || []).length;
-    if (ia) counts.push(`${ia} insight${ia===1?'':'s'}`);
-    if (oa) counts.push(`${oa} operator${oa===1?'':'s'}`);
-    if (pa) counts.push(`${pa} pattern${pa===1?'':'s'}`);
-    if (pba) counts.push(`${pba} playbook${pba===1?'':'s'}`);
-    const lead = counts.length ? counts.join(' · ') : '';
-    const title = LATEST_DAILY.title || 'what landed';
-    textEl.textContent = lead ? `${lead} — ${title}` : title;
-  }
+  const counts = [];
+  const ia = (LATEST_DAILY.insights_added || []).length;
+  const oa = (LATEST_DAILY.operators_added || []).length;
+  const pa = (LATEST_DAILY.patterns_added || []).length;
+  const pba = (LATEST_DAILY.playbooks_added || []).length;
+  if (ia) counts.push(`${ia} insight${ia===1?'':'s'}`);
+  if (oa) counts.push(`${oa} operator${oa===1?'':'s'}`);
+  if (pa) counts.push(`${pa} pattern${pa===1?'':'s'}`);
+  if (pba) counts.push(`${pba} playbook${pba===1?'':'s'}`);
+  const lead = counts.length ? counts.join(' · ') : '';
+  const title = LATEST_DAILY.title || 'what landed';
+  const text = lead ? `${lead} — ${title}` : title;
+  // One "group" of content — duplicated below for seamless marquee loop.
+  const group = `<span class="hello-group">
+    <span class="hello-mark">NEW</span>
+    <span class="hello-date">${escapeHtml(d)}</span>
+    <span class="hello-sep" aria-hidden="true">·</span>
+    <span class="hello-text">${escapeHtml(text)}</span>
+    <span class="hello-arrow" aria-hidden="true">→</span>
+  </span>`;
+  // Two copies inside a track that translates -50%; seamless when the second copy lines up with the start.
+  marquee.innerHTML = `<div class="hello-track">${group}${group}</div>`;
   bar.hidden = false;
+  // Tune animation duration to a constant scrolling speed regardless of content length.
+  requestAnimationFrame(() => {
+    const track = marquee.querySelector('.hello-track');
+    if (!track) return;
+    const groupWidth = track.firstElementChild?.getBoundingClientRect().width || 0;
+    if (groupWidth <= 0) return;
+    const speedPxPerSec = 70;
+    const durationSec = Math.max(20, groupWidth / speedPxPerSec);
+    track.style.animationDuration = durationSec.toFixed(1) + 's';
+  });
 }
 
 async function fetchBody(path){
