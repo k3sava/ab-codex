@@ -2017,21 +2017,17 @@ async function today(){
       <div class='today-stream'>${cards_}</div>
     </div>
   </section>`;
-  // Lazy-load each release body, then strip frontmatter + leading H1 (rendered in head).
-  const stripFm = m => m.startsWith('---\n') ? m.slice(m.indexOf('\n---', 4) + 4).trimStart() : m;
-  for (const e of entries){
-    const target = document.querySelector(`article.release[data-path='${e.path.replace(/'/g, "\\'")}'] .release-body`);
-    if (!target) continue;
-    const md = await fetchBody(e.path);
-    const cleaned = stripFm(md).replace(/^#\s+[^\n]+\n+/, '');
-    target.innerHTML = mdToHtml(cleaned);
-    rewriteRelativeLinks(target);
-  }
-  // Active TOC entry follows scroll
-  const tocLinks = Array.from(document.querySelectorAll('.today-toc a'));
-  const releaseEls = Array.from(document.querySelectorAll('article.release'));
+  // === Click delegation, attached BEFORE the async lazy-load ===
+  // The SPA's hashchange listener treats unknown hashes like "#r-2026-05-04"
+  // as routes and falls through to about(). If the user clicks a TOC link
+  // while bodies are still loading, the per-link handler hasn't attached yet
+  // and the default link behavior breaks the route. Delegate from the page
+  // root so it works the moment the page exists.
+  let tocLinks = [];
+  let releaseEls = [];
   const setTocActive = () => {
-    const headerOffset = 60 + 20; // hdr + small breathing room
+    const headerOffset = 60 + 20;
+    if (!releaseEls.length) return;
     let active = releaseEls[0]?.id;
     for (const el of releaseEls){
       if (el.getBoundingClientRect().top - 4 <= headerOffset) active = el.id;
@@ -2039,19 +2035,9 @@ async function today(){
     }
     tocLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + active));
   };
-  setTocActive();
-  let tocTick = false;
-  window.addEventListener('scroll', () => {
-    if (tocTick) return;
-    tocTick = true;
-    requestAnimationFrame(() => { setTocActive(); tocTick = false; });
-  }, { passive: true });
-
-  // Intercept clicks on TOC links and on each card's permalink "#" anchor.
-  // The SPA's hashchange listener treats any unknown hash like "#r-2026-05-04"
-  // as a route (→ falls through to `about`). Smooth-scroll instead and use
-  // replaceState to keep the URL consistent without re-rendering.
-  const handleAnchorClick = (e, link) => {
+  const handleAnchorClick = (e) => {
+    const link = e.target.closest('a');
+    if (!link) return;
     const href = link.getAttribute('href') || '';
     if (!href.startsWith('#r-')) return;
     e.preventDefault();
@@ -2063,9 +2049,28 @@ async function today(){
     history.replaceState(null, '', '#/today#' + id);
     setTocActive();
   };
-  document.querySelectorAll('.today-toc a, .release-anchor').forEach(link => {
-    link.addEventListener('click', e => handleAnchorClick(e, link));
-  });
+  document.querySelector('.today-page')?.addEventListener('click', handleAnchorClick);
+
+  // Lazy-load each release body, then strip frontmatter + leading H1.
+  const stripFm = m => m.startsWith('---\n') ? m.slice(m.indexOf('\n---', 4) + 4).trimStart() : m;
+  for (const e of entries){
+    const target = document.querySelector(`article.release[data-path='${e.path.replace(/'/g, "\\'")}'] .release-body`);
+    if (!target) continue;
+    const md = await fetchBody(e.path);
+    const cleaned = stripFm(md).replace(/^#\s+[^\n]+\n+/, '');
+    target.innerHTML = mdToHtml(cleaned);
+    rewriteRelativeLinks(target);
+  }
+  // After lazy-load, refresh references and run the initial scroll-active sync.
+  tocLinks = Array.from(document.querySelectorAll('.today-toc a'));
+  releaseEls = Array.from(document.querySelectorAll('article.release'));
+  setTocActive();
+  let tocTick = false;
+  window.addEventListener('scroll', () => {
+    if (tocTick) return;
+    tocTick = true;
+    requestAnimationFrame(() => { setTocActive(); tocTick = false; });
+  }, { passive: true });
 }
 
 // Update <title> and <meta description> per route — better SEO/AEO surface and
