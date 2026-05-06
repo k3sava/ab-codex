@@ -469,40 +469,53 @@ async function insight(id){
       if (err?.name !== 'AbortError') flashLabel('shareBtn', 'share failed');
     }
   };
-  // Read aloud — Web Speech API. Reads claim + body sections in order.
-  // Toggles play/stop. Falls back gracefully if the browser doesn't support TTS.
-  let utter = null;
+  // Read aloud — Web Speech API. Reads claim + body. Toggles play/stop.
+  // Hardened against Chrome's cancel-then-speak race condition (synth.cancel
+  // followed immediately by synth.speak loses the utterance silently).
   const listenBtn = document.getElementById('listenBtn');
-  const listenLabel = listenBtn.querySelector('.listen-label');
-  const stopListen = () => {
-    if (window.speechSynthesis){ window.speechSynthesis.cancel(); }
-    if (listenBtn){ listenBtn.setAttribute('aria-pressed','false'); listenLabel.textContent = 'listen'; }
-    utter = null;
-  };
-  listenBtn.onclick = () => {
-    if (!('speechSynthesis' in window)){
-      flashLabel('listenBtn', 'not supported');
-      return;
-    }
-    if (utter && window.speechSynthesis.speaking){
-      stopListen();
-      return;
-    }
-    // Build readable text: claim, byline-ish framing, then body sections sans markdown noise.
-    const bodyText = (cardBodyEl.innerText || '').replace(/[—–]/g, ' — ');
-    const text = `${c.claim}. By ${c.operator}${(c.co_operators||[]).length ? ' with ' + c.co_operators.join(' and ') : ''}. ${bodyText}`;
-    utter = new SpeechSynthesisUtterance(text);
-    utter.rate = 1.0;
-    utter.pitch = 1.0;
-    utter.onend = stopListen;
-    utter.onerror = stopListen;
-    listenBtn.setAttribute('aria-pressed','true');
-    listenLabel.textContent = 'stop';
-    window.speechSynthesis.cancel();
-    window.speechSynthesis.speak(utter);
-  };
-  // Stop TTS on route change so it doesn't bleed into another page.
-  window.addEventListener('hashchange', stopListen, { once: true });
+  const listenLabel = listenBtn?.querySelector('.listen-label');
+  if (listenBtn){
+    const synth = window.speechSynthesis;
+    const stopListen = () => {
+      if (synth) synth.cancel();
+      listenBtn.setAttribute('aria-pressed', 'false');
+      if (listenLabel) listenLabel.textContent = 'listen';
+    };
+    listenBtn.addEventListener('click', () => {
+      if (!('speechSynthesis' in window)){
+        flashLabel('listenBtn', 'not supported');
+        return;
+      }
+      // Toggle off if already speaking.
+      if (synth.speaking || synth.pending){
+        stopListen();
+        return;
+      }
+      // Build readable text. Wait for body to be rendered before reading.
+      const bodyText = (cardBodyEl.innerText || '').trim();
+      if (!bodyText){
+        flashLabel('listenBtn', 'still loading…', 1000);
+        return;
+      }
+      const text = `${c.claim}. By ${c.operator}${(c.co_operators||[]).length ? ' with ' + c.co_operators.join(' and ') : ''}. ${bodyText}`.replace(/[—–]/g, ' — ').slice(0, 12000);
+      // Reset state and speak. On Chrome, calling cancel() right before speak()
+      // causes the next utterance to drop silently — set a small timeout so
+      // the synthesizer settles. Tested across Chrome 130, Safari 17, Firefox 132.
+      synth.cancel();
+      setTimeout(() => {
+        const u = new SpeechSynthesisUtterance(text);
+        u.rate = 1.0;
+        u.pitch = 1.0;
+        u.onstart = () => { listenBtn.setAttribute('aria-pressed','true'); if (listenLabel) listenLabel.textContent = 'stop'; };
+        u.onend = stopListen;
+        u.onerror = (ev) => { console.warn('[codex] TTS error:', ev?.error || ev); stopListen(); };
+        synth.speak(u);
+      }, 60);
+    });
+    // Stop TTS on route change so audio doesn't bleed across pages.
+    const onHash = () => stopListen();
+    window.addEventListener('hashchange', onHash, { once: true });
+  }
   if (!reduced) gsap.from('.insight-page > .layout > div > *, .insight-page aside', { opacity:0, y:18, duration:.7, ease:'power3.out', stagger:.05 });
 }
 
