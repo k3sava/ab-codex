@@ -39,6 +39,39 @@
 /* Visually-hidden but available to screen readers */
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 
+/* ===== Page tools — floating toolbar on detail pages that don't have a rail.
+   Operator, pattern, playbook, contradiction pages get share + listen here.
+   Insight pages keep the rail buttons; this stays hidden there. */
+.page-tools{
+  position:fixed;right:24px;bottom:24px;z-index:40;
+  display:flex;flex-direction:column;gap:8px;
+}
+.pt-btn{
+  display:inline-flex;align-items:center;gap:9px;
+  padding:9px 14px;border-radius:999px;
+  background:var(--paper);color:var(--ink-2);
+  border:1px solid var(--line);
+  font-family:var(--mono);font-size:.72rem;letter-spacing:.01em;
+  cursor:pointer;text-decoration:none;
+  box-shadow:0 6px 20px -8px color-mix(in oklab,var(--ink) 25%,transparent);
+  transition:background .15s, border-color .15s, color .15s, transform .15s;
+}
+.pt-btn:hover{
+  border-color:color-mix(in oklab,var(--accent) 40%,transparent);
+  color:var(--accent-2);transform:translateY(-1px);
+}
+.pt-btn[aria-pressed='true']{
+  background:color-mix(in oklab,var(--accent) 18%,var(--paper));
+  border-color:color-mix(in oklab,var(--accent) 50%,transparent);
+  color:var(--accent-2);
+}
+.pt-btn svg{flex-shrink:0;color:var(--muted);transition:color .15s}
+.pt-btn:hover svg, .pt-btn[aria-pressed='true'] svg{color:var(--accent-2)}
+@media (max-width:680px){
+  .page-tools{right:14px;bottom:14px;flex-direction:row}
+  .pt-btn{padding:8px 12px;font-size:.7rem}
+}
+
 /* ===== TOAST — passive feedback for copy/share/listen actions =====
    Replaces the previous "label flash" pattern. Shows once, dismisses on
    timeout. role=status + aria-live so screen readers announce it. */

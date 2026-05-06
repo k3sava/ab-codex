@@ -17,7 +17,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=34" />
+  <link rel="stylesheet" href="style.css?v=35" />
   <script>
     // Apply theme override before paint to avoid flash
     (function(){
@@ -82,6 +82,19 @@
 
   <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true" hidden></div>
 
+  <!-- Page tools: a small floating toolbar with Share + Listen on detail pages
+       that don't have a built-in rail. Mounted by JS per-route. -->
+  <div id="pageTools" class="page-tools" role="toolbar" aria-label="Page tools" hidden>
+    <button id="ptShare" class="pt-btn" aria-label="Share this page">
+      <svg viewBox="0 0 16 16" aria-hidden="true" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="4" r="1.8"/><circle cx="4" cy="8" r="1.8"/><circle cx="12" cy="12" r="1.8"/><path d="M5.6 7.2l4.8-2.4M5.6 8.8l4.8 2.4"/></svg>
+      <span>share</span>
+    </button>
+    <button id="ptListen" class="pt-btn" aria-label="Read this page aloud" aria-pressed="false">
+      <svg viewBox="0 0 16 16" aria-hidden="true" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6v4h2l3 2.5v-9L5 6H3z"/><path d="M11 5.5c1 .8 1 4.2 0 5"/><path d="M12.5 4c1.8 1.4 1.8 6.6 0 8"/></svg>
+      <span class="pt-listen-label">listen</span>
+    </button>
+  </div>
+
   <dialog id="shortcutDialog" class="shortcut-dialog" aria-labelledby="shortcutDialogTitle">
     <div class="shortcut-head">
       <h2 id="shortcutDialogTitle">keyboard shortcuts</h2>
@@ -135,6 +148,6 @@
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
-  <script src="app.js?v=47" type="module"></script>
+  <script src="app.js?v=48" type="module"></script>
 </body>
 </html>

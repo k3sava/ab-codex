@@ -2101,6 +2101,16 @@ function setPageMeta(title, description){
   set('meta[property="og:url"]', url);
 }
 
+// Page tools — site-wide share + listen on detail pages that don't have an
+// in-page rail with those buttons. Hidden on insight (already in the rail) and
+// on list/index pages (no body to read).
+function updatePageTools(r){
+  const tools = document.getElementById('pageTools');
+  if (!tools) return;
+  const showOn = ['/o/', '/pat/', '/play/', '/con/'].some(p => r.startsWith(p));
+  tools.hidden = !showOn;
+}
+
 function setMetaForRoute(r, anchor){
   if (r==='/'||r==='') return setPageMeta(null, 'A primary-source library of operator insights — atomic claims attributed to named operators with verifiable sources.');
   if (r==='/today') return setPageMeta('release log', 'What\'s new in the codex — daily ingests, prompted batches, and depth passes from inception forward.');
@@ -2152,6 +2162,7 @@ function render(){
   const r = hashIdx === -1 ? raw : raw.slice(0, hashIdx);
   const anchor = hashIdx === -1 ? '' : raw.slice(hashIdx + 1);
   setMetaForRoute(r, anchor);
+  updatePageTools(r);
   let view;
   if (r==='/'||r==='') view = home;
   else if (r==='/today') view = today;
@@ -2351,6 +2362,61 @@ function wireTheme(){
 // Site-wide shortcuts that don't fight with form inputs or text selection.
 // Triggered handler set is scoped: typing in an input, contenteditable, or
 // dialog never fires a shortcut.
+// Page-tools wiring — share + listen for detail pages without a rail.
+// Same behavior as the keyboard `s` and `l` shortcuts; lives once at startup.
+function wirePageTools(){
+  const ptShare = document.getElementById('ptShare');
+  const ptListen = document.getElementById('ptListen');
+  const ptListenLabel = ptListen?.querySelector('.pt-listen-label');
+  if (ptShare){
+    ptShare.addEventListener('click', async () => {
+      const url = location.href;
+      const title = document.title;
+      try {
+        if (navigator.share && navigator.canShare?.({title, url})){
+          await navigator.share({ title, url });
+        } else {
+          await navigator.clipboard.writeText(url);
+          toast('link copied');
+        }
+      } catch (err){
+        if (err?.name !== 'AbortError') toast('share failed', { icon: 'error' });
+      }
+    });
+  }
+  if (ptListen){
+    const synth = window.speechSynthesis;
+    const stopListen = () => {
+      if (synth) synth.cancel();
+      ptListen.setAttribute('aria-pressed','false');
+      if (ptListenLabel) ptListenLabel.textContent = 'listen';
+    };
+    ptListen.addEventListener('click', () => {
+      if (!('speechSynthesis' in window)){
+        toast('your browser doesn\'t support read-aloud', { icon: 'error' });
+        return;
+      }
+      if (synth.speaking || synth.pending){ stopListen(); return; }
+      // Pick the best body container by route shape.
+      const main = document.getElementById('app');
+      const bodyEl = main?.querySelector('.body, .release-body, .playbook-content, article') || main;
+      const text = (bodyEl?.innerText || '').trim().slice(0, 12000);
+      if (!text){ toast('still loading the page'); return; }
+      synth.cancel();
+      setTimeout(() => {
+        const u = new SpeechSynthesisUtterance(text);
+        u.rate = 1.0;
+        u.onstart = () => { ptListen.setAttribute('aria-pressed','true'); if (ptListenLabel) ptListenLabel.textContent = 'stop'; };
+        u.onend = stopListen;
+        u.onerror = (e) => { console.warn('[codex] page-tools TTS error:', e?.error || e); stopListen(); };
+        synth.speak(u);
+      }, 60);
+    });
+    // Stop when the user navigates away.
+    window.addEventListener('hashchange', stopListen);
+  }
+}
+
 function wireKeyboardShortcuts(){
   // Platform-aware shortcut hint: macOS shows ⌘K, everyone else Ctrl+K.
   // navigator.userAgentData is the modern API; fall back to UA string.
@@ -2448,7 +2514,7 @@ function wireKeyboardShortcuts(){
 }
 
 window.addEventListener('hashchange', () => { render(); setActive(); window.scrollTo({top:0, behavior:'instant'}); });
-loadIndex().then(() => { render(); setActive(); wireSearch(); wireHeader(); wireMobileMenu(); wireTheme(); wireKeyboardShortcuts(); dismissSplash(); }).catch(e => {
+loadIndex().then(() => { render(); setActive(); wireSearch(); wireHeader(); wireMobileMenu(); wireTheme(); wireKeyboardShortcuts(); wirePageTools(); dismissSplash(); }).catch(e => {
   document.getElementById('splash')?.remove();
   app.innerHTML = `<section class='about-page'><h1>codex couldn't load.</h1><p style='color:var(--muted)'>${escapeHtml(e.message)}</p></section>`;
 });
