@@ -639,6 +639,57 @@ dialog .search-head kbd{font-family:var(--mono);font-size:.65rem;padding:3px 7px
 /* ===== TIMELINE redesign ===== */
 .timeline-page .lede{font-family:var(--mono);font-size:.78rem;color:var(--muted);margin-bottom:18px}
 .timeline-hint{display:inline-block;margin-left:6px;font-size:.7rem;color:var(--muted);opacity:.75}
+/* Filter row — single line, scrolls horizontally on narrow screens */
+.tlfilter{
+  display:flex;align-items:center;gap:10px;
+  margin:0 0 16px;padding:10px 0;
+  border-top:1px solid var(--line-2);border-bottom:1px solid var(--line-2);
+  font-family:var(--mono);font-size:.72rem;color:var(--muted);
+  overflow-x:auto;white-space:nowrap;
+  -webkit-overflow-scrolling:touch;
+  scrollbar-width:thin;
+}
+.tlfilter::-webkit-scrollbar{height:4px}
+.tlfilter::-webkit-scrollbar-thumb{background:var(--line);border-radius:2px}
+.tlfilter-label{color:var(--muted);text-transform:uppercase;letter-spacing:.08em;font-size:.62rem;padding-right:2px}
+.tlfilter-group{display:flex;align-items:center;gap:6px}
+.tlfilter-domains{flex-wrap:nowrap}
+.tlfilter-divider{width:1px;height:18px;background:var(--line-2);flex-shrink:0;margin:0 4px}
+.tlfilter-chip{
+  display:inline-flex;align-items:center;gap:6px;
+  padding:4px 10px;border-radius:999px;
+  background:transparent;
+  border:1px solid var(--line);
+  font-family:inherit;font-size:.72rem;color:var(--muted);
+  cursor:pointer;transition:background .12s ease,border-color .12s ease,color .12s ease;
+  white-space:nowrap;flex-shrink:0;
+}
+.tlfilter-chip:hover{color:var(--ink);border-color:var(--ink-2)}
+.tlfilter-chip.on{
+  background:color-mix(in oklab,var(--accent) 14%,transparent);
+  border-color:color-mix(in oklab,var(--accent) 40%,transparent);
+  color:var(--accent-2);
+}
+.tlfilter-chip.on:hover{background:color-mix(in oklab,var(--accent) 22%,transparent)}
+.tlfilter-tier.on{
+  background:color-mix(in oklab,var(--accent) 18%,transparent);
+}
+.tlfilter-ct{
+  font-size:.62rem;color:var(--muted);
+  padding:1px 5px;border-radius:8px;
+  background:color-mix(in oklab,var(--ink) 6%,transparent);
+}
+.tlfilter-chip.on .tlfilter-ct{
+  background:color-mix(in oklab,var(--accent) 18%,transparent);
+  color:var(--accent-2);
+}
+.tlfilter-reset{
+  margin-left:auto;flex-shrink:0;
+  background:transparent;border:0;padding:4px 8px;
+  color:var(--muted);font-family:inherit;font-size:.72rem;cursor:pointer;
+  text-decoration:underline;text-underline-offset:3px;
+}
+.tlfilter-reset:hover{color:var(--ink)}
 /* Density-scaled, sticky timeline navigation. Bars sized by card count, not by elapsed time. */
 .timeline-spark-wrap{
   position:sticky;top:var(--hdr-h);z-index:30;
@@ -672,19 +723,30 @@ body:has(.hello-bar:not([hidden])) .timeline-spark-wrap{top:calc(var(--hdr-h) + 
 .tspark-bar:hover .tspark-fill{background:var(--accent)}
 .tspark-bar.active .tspark-fill{background:var(--accent-2)}
 .timeline-spark-years{
-  display:flex;gap:1px;margin-top:6px;width:100%;padding:0 2px;
+  position:relative;height:18px;margin-top:8px;width:100%;
   font-family:var(--mono);font-size:.65rem;color:var(--muted);letter-spacing:.04em;
 }
 .tspark-year{
-  flex:1;text-align:left;cursor:pointer;background:transparent;border:0;
-  padding:2px 0 0 4px;color:var(--muted);
-  border-left:1px solid var(--line-2);
-  transition:color .12s ease,border-color .12s ease;
-  font-family:inherit;font-size:inherit;letter-spacing:inherit;
-  min-width:0;overflow:hidden;white-space:nowrap;text-overflow:clip;
+  position:absolute;top:0;
+  display:flex;align-items:flex-start;gap:4px;
+  padding:0;background:transparent;border:0;cursor:pointer;
+  color:var(--muted);
+  font-family:inherit;font-size:inherit;letter-spacing:inherit;line-height:1;
+  transition:color .12s ease;
+  white-space:nowrap;
 }
+.tspark-tick{
+  width:1px;height:8px;background:var(--line);
+  flex-shrink:0;display:block;
+  transition:background .12s ease;
+}
+.tspark-year-label{padding-top:1px}
 .tspark-year:hover{color:var(--ink)}
-.tspark-year.active{color:var(--accent-2);border-left-color:var(--accent-2)}
+.tspark-year:hover .tspark-tick{background:var(--ink-2)}
+.tspark-year.active{color:var(--accent-2)}
+.tspark-year.active .tspark-tick{background:var(--accent-2);width:2px}
+.tspark-year.label-hidden .tspark-year-label{display:none}
+.tspark-year.label-hidden{padding-right:0}
 .timeline-stream{display:flex;flex-direction:column;gap:36px}
 .tmonth-head{display:flex;align-items:baseline;gap:14px;margin-bottom:10px;padding-bottom:6px;border-bottom:1px solid var(--line);background:transparent;padding-top:8px;scroll-margin-top:calc(var(--hdr-h) + 100px)}
 .tmonth-head h2{font-family:var(--serif);font-weight:400;font-size:1.4rem;letter-spacing:-.01em}

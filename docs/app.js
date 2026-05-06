@@ -1064,10 +1064,21 @@ function updateBrowse(){
 }
 
 /* ============ TIMELINE ============ */
+// Persisted timeline filter state — survives re-renders triggered by filter changes.
+const tlFilter = window.tlFilter || (window.tlFilter = { tiers: new Set(['A','B','C']), domains: new Set() });
+function tlMatches(c){
+  if (!tlFilter.tiers.has(c.tier || 'C')) return false;
+  if (tlFilter.domains.size === 0) return true; // empty domains set = no domain restriction
+  for (const d of c.domain) if (tlFilter.domains.has(d)) return true;
+  return false;
+}
+
 function timeline(){
-  // Group by month (YYYY-MM); skip cards without dates
-  const dated = cards.filter(c => /^\d{4}-\d{2}/.test(c.source_date||''));
-  const undated = cards.filter(c => !/^\d{4}-\d{2}/.test(c.source_date||''));
+  // Apply filters to corpus
+  const allDated = cards.filter(c => /^\d{4}-\d{2}/.test(c.source_date||''));
+  const allUndated = cards.filter(c => !/^\d{4}-\d{2}/.test(c.source_date||''));
+  const dated = allDated.filter(tlMatches);
+  const undated = allUndated.filter(tlMatches);
   dated.sort((a,b)=> (b.source_date||'').localeCompare(a.source_date||''));
   const months = new Map();
   for (const c of dated){
@@ -1094,19 +1105,45 @@ function timeline(){
       <span class='tspark-fill' style='height:${heightPct.toFixed(1)}%'></span>
     </button>`;
   }).join('');
-  // Year tick row: each year occupies flex equal to its total card count, aligned with bars above
+  // Year tick row: absolutely-positioned labels at cumulative-card percentages.
+  // Sparse years would get tiny flex widths and truncate, so we position by
+  // cumulative-card-count and hide labels that would overlap their neighbour.
   const years = [...new Set(monthKeysAsc.map(k => k.slice(0,4)))];
   const yearTotals = years.map(y => monthKeysAsc.filter(k => k.startsWith(y+'-')).reduce((s,k) => s + months.get(k).length, 0));
-  const yearEls = years.map((y, i) => `<button class='tspark-year' data-year='${y}' style='flex:${yearTotals[i]}' aria-label='Jump to ${y}'>${y}</button>`).join('');
+  // cumulative start position (percentage) of each year's bar block in the density-scaled axis
+  const totalAll = yearTotals.reduce((a,b) => a+b, 0) || 1;
+  const yearStartsPct = [];
+  let acc = 0;
+  for (const t of yearTotals){ yearStartsPct.push((acc / totalAll) * 100); acc += t; }
+  // First pass — render every year as a tick + label; collision detection runs after layout.
+  const yearEls = years.map((y, i) => `<button class='tspark-year' data-year='${y}' data-pct='${yearStartsPct[i].toFixed(3)}' data-cards='${yearTotals[i]}' style='left:${yearStartsPct[i].toFixed(3)}%' aria-label='Jump to ${y} (${yearTotals[i]} card${yearTotals[i]===1?'':'s'})'><span class='tspark-tick' aria-hidden='true'></span><span class='tspark-year-label'>${y}</span></button>`).join('');
   // Bar control row: undated link, total
   const sparkSvg = monthKeysAsc.length > 0 ? `<div class='timeline-spark-wrap' role='tablist' aria-label='Timeline navigation'>
     <div class='timeline-spark-bars'>${barEls}</div>
     <div class='timeline-spark-years'>${yearEls}</div>
   </div>` : '';
+  // Filter chips — built from the un-filtered corpus so the choices stay stable
+  const allDomains = [...new Set(allDated.flatMap(c => c.domain))].sort();
+  const tierCounts = { A: 0, B: 0, C: 0 };
+  for (const c of allDated) tierCounts[c.tier || 'C']++;
+  const domainCounts = new Map();
+  for (const c of allDated) for (const d of c.domain) domainCounts.set(d, (domainCounts.get(d) || 0) + 1);
+  const tierChips = ['A','B','C'].map(t => `<button class='tlfilter-chip tlfilter-tier ${tlFilter.tiers.has(t) ? 'on' : ''}' data-tier='${t}'>tier ${t}<span class='tlfilter-ct'>${tierCounts[t]}</span></button>`).join('');
+  const domainChips = allDomains.map(d => `<button class='tlfilter-chip tlfilter-domain ${tlFilter.domains.has(d) ? 'on' : ''}' data-domain='${d}'>${d}<span class='tlfilter-ct'>${domainCounts.get(d) || 0}</span></button>`).join('');
+  const filterActive = tlFilter.tiers.size < 3 || tlFilter.domains.size > 0;
+  const filterRow = `<div class='tlfilter'>
+    <span class='tlfilter-label'>tier</span>
+    <div class='tlfilter-group'>${tierChips}</div>
+    <span class='tlfilter-divider' aria-hidden='true'></span>
+    <span class='tlfilter-label'>domain</span>
+    <div class='tlfilter-group tlfilter-domains'>${domainChips}</div>
+    ${filterActive ? `<button class='tlfilter-reset'>reset</button>` : ''}
+  </div>`;
   app.innerHTML = `<section class='timeline-page'>
     <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <span>timeline</span></div>
     <h1>timeline</h1>
     <p class='lede'>${dated.length} dated insights · ${dayKeys.length} active days · ${dayKeys[0]||'—'} → ${dayKeys[dayKeys.length-1]||'—'}. <span class='timeline-hint'>bar width = cards in month · click to jump · highlight follows scroll</span></p>
+    ${filterRow}
     ${sparkSvg}
     <div class='timeline-stream'>${orderedMonths.map(ym => `
       <section class='tmonth' data-ym='${ym}' id='tm-${ym}'>
@@ -1131,6 +1168,71 @@ function timeline(){
       </section>` : ''}
     </div>
   </section>`;
+
+  // Year-label collision detection.
+  // Strategy: prioritise high-card-count years and the latest year, then place oldest as a baseline.
+  // Place labels in priority order; for each, hide it if its label box would overlap any already-placed label.
+  // The tick mark stays visible regardless.
+  const reflowYearLabels = () => {
+    const yearsRow = document.querySelector('.timeline-spark-years');
+    if (!yearsRow) return;
+    const rowWidth = yearsRow.getBoundingClientRect().width;
+    if (!rowWidth) return;
+    const labels = Array.from(yearsRow.querySelectorAll('.tspark-year'));
+    if (!labels.length) return;
+    const minGap = 8;
+    // Reset
+    labels.forEach(el => el.classList.add('label-hidden'));
+    // Measure each label's width (force show momentarily)
+    const measured = labels.map(el => {
+      const lbl = el.querySelector('.tspark-year-label');
+      lbl.style.visibility = 'hidden';
+      lbl.style.display = 'inline-block';
+      const w = lbl.getBoundingClientRect().width;
+      lbl.style.visibility = '';
+      lbl.style.display = '';
+      const leftPct = +(el.dataset.pct || 0);
+      const leftPx = (leftPct / 100) * rowWidth;
+      const cards = +(el.dataset.cards || 0);
+      const idx = labels.indexOf(el);
+      return { el, leftPx, w, cards, idx };
+    });
+    // Priority order: latest year first (idx=last), then by card count desc, then oldest (idx=0).
+    const placed = []; // sorted by leftPx for collision check
+    const placeIfFits = (item) => {
+      const start = item.leftPx;
+      const end = item.leftPx + item.w;
+      // Adjust if running off the right edge
+      const adjustedEnd = Math.min(end, rowWidth);
+      const adjustedStart = adjustedEnd === rowWidth ? rowWidth - item.w : start;
+      for (const p of placed){
+        const pStart = p.adjustedStart;
+        const pEnd = pStart + p.w;
+        if (!(adjustedEnd + minGap <= pStart || adjustedStart >= pEnd + minGap)){
+          return false; // overlaps
+        }
+      }
+      item.adjustedStart = adjustedStart;
+      placed.push(item);
+      placed.sort((a,b) => a.adjustedStart - b.adjustedStart);
+      item.el.classList.remove('label-hidden');
+      // If we shifted leftward to fit on screen, update the left style so the label aligns where it actually sits
+      if (adjustedStart !== start){
+        item.el.style.left = ((adjustedStart / rowWidth) * 100).toFixed(3) + '%';
+      } else {
+        item.el.style.left = '';
+        item.el.style.left = ((start / rowWidth) * 100).toFixed(3) + '%';
+      }
+      return true;
+    };
+    // 1. Latest year always
+    placeIfFits(measured[measured.length - 1]);
+    // 2. Oldest year (gives left-edge anchor)
+    if (measured.length > 1) placeIfFits(measured[0]);
+    // 3. Remaining by card count desc, then by leftPx asc as tiebreaker
+    const remaining = measured.slice(1, -1).sort((a,b) => b.cards - a.cards || a.leftPx - b.leftPx);
+    for (const item of remaining) placeIfFits(item);
+  };
 
   // Wire clicks — bar or year jumps to first matching .tmonth
   const setActive = (ym) => {
@@ -1159,6 +1261,37 @@ function timeline(){
     const yMonths = orderedMonths.filter(k => k.startsWith(y+'-')).sort(); // ascending → first month of year
     if (yMonths.length){ setActive(yMonths[0]); scrollToMonth(yMonths[0]); }
   }));
+
+  // After layout settles, hide overlapping year labels.
+  reflowYearLabels();
+  let resizeT = 0;
+  const onResize = () => { clearTimeout(resizeT); resizeT = setTimeout(reflowYearLabels, 80); };
+  window.addEventListener('resize', onResize, { passive: true });
+
+  // Filter chip handlers — toggle and re-render the timeline page in place
+  const reRender = () => {
+    const y = window.scrollY;
+    timeline();
+    // Restore scroll position so users don't lose their place when toggling filters
+    window.scrollTo(0, y);
+  };
+  document.querySelectorAll('.tlfilter-tier').forEach(btn => btn.addEventListener('click', () => {
+    const t = btn.dataset.tier;
+    if (tlFilter.tiers.has(t)) tlFilter.tiers.delete(t); else tlFilter.tiers.add(t);
+    if (tlFilter.tiers.size === 0) tlFilter.tiers = new Set(['A','B','C']); // never empty — reset to all
+    reRender();
+  }));
+  document.querySelectorAll('.tlfilter-domain').forEach(btn => btn.addEventListener('click', () => {
+    const d = btn.dataset.domain;
+    if (tlFilter.domains.has(d)) tlFilter.domains.delete(d); else tlFilter.domains.add(d);
+    reRender();
+  }));
+  const resetBtn = document.querySelector('.tlfilter-reset');
+  if (resetBtn) resetBtn.addEventListener('click', () => {
+    tlFilter.tiers = new Set(['A','B','C']);
+    tlFilter.domains.clear();
+    reRender();
+  });
 
   // Scroll-driven active bar — find the .tmonth whose top is closest below the spark, fallback to last passed
   if (orderedMonths.length){
