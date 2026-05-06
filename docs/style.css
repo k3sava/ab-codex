@@ -17,7 +17,7 @@
   --serif:'Newsreader','Iowan Old Style','Apple Garamond',Georgia,serif;
   --sans:'Inter','SF Pro Text',system-ui,sans-serif;
   --mono:'JetBrains Mono','SF Mono',ui-monospace,Menlo,monospace;
-  --maxw:min(1800px, 92vw);
+  --maxw:min(1600px, 80vw);
   --gut:24px;
   --gut-lg:48px;
   --hdr-h:60px;
@@ -767,11 +767,22 @@ main{padding-top:var(--hdr-h);min-height:100vh}
 .flash-controls{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}
 
 /* ===== ABOUT ===== */
-.about-page{max-width:760px;margin:0 auto;padding:64px var(--gut) 140px}
-.about-page h1{font-family:var(--serif);font-weight:400;font-size:clamp(2rem,4vw,3.4rem);letter-spacing:-.02em;margin-bottom:24px}
-.about-page p{font-family:var(--serif);font-size:1.1rem;line-height:1.6;color:var(--ink-2);margin-bottom:18px}
-.about-page ul{font-family:var(--serif);font-size:1.05rem;color:var(--ink-2);padding-left:20px;margin-bottom:18px;line-height:1.7}
-.about-page a{color:var(--accent-2);border-bottom:1px solid currentColor}
+/* About page — same width container as every other page; prose inside the
+   container is capped at 65ch for comfortable reading. Headers + crumbs
+   span the full container so the visual rhythm matches the rest of the site. */
+.about-page{max-width:var(--maxw);margin:0 auto;padding:48px var(--gut) 120px}
+.about-page .crumbs{font-family:var(--mono);font-size:.72rem;color:var(--muted);margin-bottom:24px}
+.about-page h1{font-family:var(--serif);font-weight:400;font-size:clamp(2rem,5vw,4rem);line-height:1;letter-spacing:-.025em;margin-bottom:18px}
+.about-page h2{font-family:var(--serif);font-weight:400;font-size:clamp(1.3rem,2.4vw,1.85rem);letter-spacing:-.015em;margin:48px 0 14px;line-height:1.2;max-width:65ch}
+.about-page .lede{font-family:var(--serif);font-size:clamp(1.1rem,1.5vw,1.3rem);line-height:1.5;color:var(--ink-2);margin-bottom:40px;max-width:65ch}
+.about-page p{font-family:var(--serif);font-size:1.05rem;line-height:1.65;color:var(--ink-2);margin-bottom:16px;max-width:65ch}
+.about-page ul{font-family:var(--serif);font-size:1.02rem;color:var(--ink-2);padding-left:22px;margin-bottom:18px;line-height:1.65;max-width:65ch}
+.about-page li{margin-bottom:6px}
+.about-page a{color:var(--ink);border-bottom:1px solid var(--line);padding-bottom:1px;transition:color .15s,border-color .15s}
+.about-page a:hover{color:var(--accent-2);border-bottom-color:currentColor}
+.about-page code{font-family:var(--mono);font-size:.85em;background:color-mix(in oklab,var(--ink) 6%,transparent);padding:1px 5px;border-radius:3px}
+.about-page kbd{display:inline-block;padding:1px 6px;background:var(--paper-2);border:1px solid var(--line);border-bottom-width:2px;border-radius:4px;font-family:var(--mono);font-size:.78em;color:var(--ink);line-height:1}
+.about-page strong{font-weight:500;color:var(--ink)}
 
 /* ===== SEARCH ===== */
 dialog{

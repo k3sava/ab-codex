@@ -1697,6 +1697,7 @@ function timeline(){
 /* ============ ABOUT (scrubbed copy) ============ */
 function about(){
   app.innerHTML = `<section class='about-page'>
+    <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <span>about</span></div>
     <h1>About a builder's codex</h1>
     <p class='lede'>A library of ideas from people who've shipped things — every idea attached to the person who said it, the place they said it, and the date.</p>
 
