@@ -334,19 +334,37 @@ async function main(){
       <a href="https://raw.githubusercontent.com/k3sava/ab-codex/main/insight-library/${i.path}" rel="noopener">Markdown source →</a>
     </div>`;
     const crumbs = `<div class="static-crumbs"><a href="${SITE_URL}/">codex</a> · <a href="${SITE_URL}/operators/">operators</a> · <a href="${SITE_URL}/o/${opSlug}/">${escapeHtml(opName)}</a> · ${i.id}</div>`;
+    // Schema.org graph — Article + BreadcrumbList in @graph for search-engine
+    // sitelinks. Article carries author, publisher, datePublished, isBasedOn
+    // (the original primary source), and keywords (domains).
     const jsonLd = {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": i.title || i.id,
-      "datePublished": i.source_date || undefined,
-      "dateModified": i.captured_date || i.source_date || undefined,
-      "author": [{ "@type": "Person", "name": opName, ...(i.operator_role ? { "jobTitle": i.operator_role } : {}) },
-        ...(Array.isArray(i.co_operators) ? i.co_operators.map(co => ({ "@type": "Person", "name": co })) : [])],
-      "isBasedOn": i.source_url || undefined,
-      "publisher": { "@type": "Organization", "name": "a builder's codex", "url": SITE_URL },
-      "url": `${SITE_URL}/ins/${i.id}/`,
-      "mainEntityOfPage": `${SITE_URL}/ins/${i.id}/`,
-      "keywords": (i.domain || []).join(", "),
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": i.title || i.id,
+          "datePublished": i.source_date || undefined,
+          "dateModified": i.captured_date || i.source_date || undefined,
+          "author": [{ "@type": "Person", "name": opName, ...(i.operator_role ? { "jobTitle": i.operator_role } : {}) },
+            ...(Array.isArray(i.co_operators) ? i.co_operators.map(co => ({ "@type": "Person", "name": co })) : [])],
+          "isBasedOn": i.source_url || undefined,
+          "publisher": { "@type": "Organization", "name": "a builder's codex", "url": SITE_URL, "logo": { "@type": "ImageObject", "url": `${SITE_URL}/og.png` } },
+          "url": `${SITE_URL}/ins/${i.id}/`,
+          "mainEntityOfPage": `${SITE_URL}/ins/${i.id}/`,
+          "keywords": (i.domain || []).join(", "),
+          "license": "https://opensource.org/licenses/MIT",
+          ...(i.tier ? { "additionalType": `https://k3sava.github.io/ab-codex/tier/${i.tier}` } : {}),
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "a builder's codex", "item": SITE_URL + "/" },
+            { "@type": "ListItem", "position": 2, "name": "operators", "item": SITE_URL + "/operators/" },
+            { "@type": "ListItem", "position": 3, "name": opName, "item": `${SITE_URL}/o/${opSlug}/` },
+            { "@type": "ListItem", "position": 4, "name": i.title || i.id, "item": `${SITE_URL}/ins/${i.id}/` },
+          ],
+        },
+      ],
     };
     await writeOne({
       outPath: join(DOCS, "ins", i.id, "index.html"),
@@ -378,13 +396,29 @@ async function main(){
       ${externalLinks ? `<span style="font-family:JetBrains Mono,monospace;font-size:.72rem;color:var(--muted);align-self:center">${externalLinks}</span>` : ""}
     </div>`;
     const crumbs = `<div class="static-crumbs"><a href="${SITE_URL}/">codex</a> · <a href="${SITE_URL}/operators/">operators</a> · ${escapeHtml(op.name || op.slug)}</div>`;
+    // Person + BreadcrumbList graph. sameAs covers every external profile we have.
+    const sameAs = (op.external && typeof op.external === "object")
+      ? Object.values(op.external).filter(v => typeof v === "string" && /^https?:\/\//.test(v))
+      : [];
     const jsonLd = {
       "@context": "https://schema.org",
-      "@type": "Person",
-      "name": op.name || op.slug,
-      "url": `${SITE_URL}/o/${op.slug}/`,
-      ...(Array.isArray(op.roles) && op.roles.length ? { "description": op.roles.join("; ") } : {}),
-      ...(op.external && op.external.linkedin ? { "sameAs": [op.external.linkedin] } : {}),
+      "@graph": [
+        {
+          "@type": "Person",
+          "name": op.name || op.slug,
+          "url": `${SITE_URL}/o/${op.slug}/`,
+          ...(Array.isArray(op.roles) && op.roles.length ? { "description": op.roles.join("; ") } : {}),
+          ...(sameAs.length ? { "sameAs": sameAs } : {}),
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "a builder's codex", "item": SITE_URL + "/" },
+            { "@type": "ListItem", "position": 2, "name": "operators", "item": SITE_URL + "/operators/" },
+            { "@type": "ListItem", "position": 3, "name": op.name || op.slug, "item": `${SITE_URL}/o/${op.slug}/` },
+          ],
+        },
+      ],
     };
     await writeOne({
       outPath: join(DOCS, "o", op.slug, "index.html"),
