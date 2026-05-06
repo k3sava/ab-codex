@@ -69,6 +69,30 @@
   line-height:1;
 }
 
+/* ===== Loading + empty states (Ogilvy-style copy = specific over vague) ===== */
+.loading-line{
+  font-family:var(--mono);font-size:.78rem;color:var(--muted);
+  display:inline-flex;align-items:center;gap:8px;
+  margin:8px 0;
+}
+.loading-line::before{
+  content:'';width:6px;height:6px;border-radius:50%;
+  background:var(--accent);
+  animation:loading-pulse 1.4s var(--ease) infinite;
+}
+@keyframes loading-pulse{0%,100%{opacity:.3;transform:scale(.8)}50%{opacity:1;transform:scale(1)}}
+.empty-inline{
+  font-family:var(--mono);font-size:.78rem;color:var(--muted);
+  margin:0;line-height:1.5;
+}
+.empty-state{
+  max-width:640px;margin:80px auto;padding:48px var(--gut);text-align:center;
+}
+.empty-state .crumbs{justify-content:center;display:flex;gap:6px;font-family:var(--mono);font-size:.7rem;color:var(--muted);margin-bottom:24px}
+.empty-state h1{font-family:var(--serif);font-weight:400;font-size:clamp(1.6rem,3vw,2.4rem);letter-spacing:-.015em;margin-bottom:16px;line-height:1.15}
+.empty-state .lede{color:var(--ink-2);font-size:1rem;line-height:1.55;max-width:54ch;margin:0 auto 32px}
+.empty-actions{justify-content:center;display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
+
 /* ===== Listen button — pressed state styling ===== */
 .rail-btn[aria-pressed='true']{
   background:color-mix(in oklab,var(--accent) 16%,var(--paper-2));

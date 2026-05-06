@@ -333,7 +333,15 @@ function animateHome(){
 /* ============ INSIGHT ============ */
 async function insight(id){
   const c = cards.find(x=>x.id===id);
-  if (!c){ app.innerHTML = `<div class='insight-page'><p>card not found.</p></div>`; return; }
+  if (!c){
+    app.innerHTML = `<div class='insight-page empty-state'>
+      <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <a href='#/operators'>operators</a> <span>·</span> <span>card</span></div>
+      <h1>This card isn't in the codex.</h1>
+      <p class='lede'>It may have been renamed, archived, or you typed an id that doesn't exist. Search for the claim, or browse a fresh index.</p>
+      <div class='actions empty-actions'><a class='btn' href='#/'>Open the codex</a><a class='btn ghost' href='#/operators'>Browse operators</a><a class='btn ghost' href='#/today'>See what landed today</a></div>
+    </div>`;
+    return;
+  }
   // Compute sibling navigation once so both prev/next + the rail panel agree.
   const siblings = cards.filter(x => x.operator_slug === c.operator_slug);
   const sibIdx = siblings.findIndex(x => x.id === c.id);
@@ -350,7 +358,7 @@ async function insight(id){
         <h1>${escapeHtml(c.claim)}</h1>
         <p class='byline'>${escapeHtml(c.operator)}${(c.co_operators||[]).length ? ` <span class='co-byline'>with ${c.co_operators.map(co => `<a href='#/o/${slugify(co)}'>${escapeHtml(co)}</a>`).join(', ')}</span>` : ''}${c.operator_role?`<span class='role'>${escapeHtml(c.operator_role)}</span>`:''}</p>
         <p class='source'>${c.source_url?`<a href='${c.source_url}' target='_blank' rel='noopener'>${escapeHtml(c.source_title||c.source_url)}</a>`:''} ${c.source_date?`<span>·</span><span>${c.source_date}</span>`:''} ${c.source_type?`<span>·</span><span>${c.source_type}</span>`:''}</p>
-        <div class='body' id='cardBody'><p style='color:var(--muted);font-family:var(--mono);font-size:.8rem'>loading…</p></div>
+        <div class='body' id='cardBody'><p class='loading-line'>reading the card…</p></div>
       </div>
       <aside class='ins-rail'>
         <section class='rail-panel'>
@@ -529,7 +537,7 @@ async function operatorPage(slug){
     ${op.roles.length?`<div class='roles'>${op.roles.map(r=>`<span class='chip'>${escapeHtml(r)}</span>`).join('')}</div>`:''}
     <div class='op-grid'>
       <div class='op-main'>
-        <div class='body' id='opBio'><p style='color:var(--muted);font-family:var(--mono);font-size:.8rem'>loading…</p></div>
+        <div class='body' id='opBio'><p class='loading-line'>reading the profile…</p></div>
         ${sources.length ? `<section class='op-sources'>
           <h3>Sources</h3>
           <ul>${sources.map(s => `<li>
@@ -545,7 +553,7 @@ async function operatorPage(slug){
           <a class='op-mini' href='#/ins/${c.id}'>
             <div class='op-mini-top'>${tierBadge(c.tier)}<span class='op-mini-dom'>${(c.domain||[]).slice(0,2).join(' · ')}</span></div>
             <div class='op-mini-claim'>${escapeHtml(c.claim||c.id)}</div>
-          </a>`).join('') || '<p style="color:var(--muted)">no cards yet</p>'}</div>
+          </a>`).join('') || `<p class='empty-inline'>No cards attributed to this operator yet. The profile is here, the cards will follow.</p>`}</div>
       </aside>
     </div>
   </article>`;
@@ -651,7 +659,7 @@ function operatorsList(){
           </tr>`;
         }).join('')}</tbody>
       </table>
-      ${filtered.length === 0 ? `<div class='ops-empty'>No operators match these filters.</div>` : ''}
+      ${filtered.length === 0 ? `<div class='ops-empty'>No operators match these filters. Loosen the domain or minimum-card filter to see more.</div>` : ''}
     </div>
   </section>`;
 
@@ -872,7 +880,15 @@ async function playbookPage(id){
   let p = playbooks.find(x => x.id === id);
   if (!p && !id.startsWith('pb_')) p = playbooks.find(x => x.id === 'pb_' + id);
   if (!p) p = playbooks.find(x => (x.path || '').toLowerCase().endsWith('/' + id.toLowerCase() + '.md'));
-  if (!p){ app.innerHTML = `<div class='insight-page'><p>playbook not found.</p></div>`; return; }
+  if (!p){
+    app.innerHTML = `<div class='insight-page empty-state'>
+      <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <a href='#/playbooks'>playbooks</a> <span>·</span> <span>playbook</span></div>
+      <h1>This playbook isn't in the codex.</h1>
+      <p class='lede'>27 methodology playbooks distilled across the corpus — pick from the list and start there.</p>
+      <div class='actions empty-actions'><a class='btn' href='#/playbooks'>Browse playbooks</a><a class='btn ghost' href='#/'>Open the codex</a></div>
+    </div>`;
+    return;
+  }
   const cat = playbookCategoryFromPath(p.path);
   const catLabel = PLAYBOOK_CATEGORY_LABELS[cat] || cat;
   // Render skeleton immediately
@@ -1006,7 +1022,15 @@ function inlineMd(s){
 
 async function patternPage(id){
   const p = patterns.find(x=>x.id===id);
-  if (!p){ app.innerHTML = `<div class='insight-page'><p>pattern not found.</p></div>`; return; }
+  if (!p){
+    app.innerHTML = `<div class='insight-page empty-state'>
+      <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <a href='#/patterns'>patterns</a> <span>·</span> <span>pattern</span></div>
+      <h1>This pattern isn't in the codex.</h1>
+      <p class='lede'>The patterns page lists every cross-operator convergence. Start there.</p>
+      <div class='actions empty-actions'><a class='btn' href='#/patterns'>Browse patterns</a><a class='btn ghost' href='#/'>Open the codex</a></div>
+    </div>`;
+    return;
+  }
   // Build operator-converge data
   const usedCards = (p.uses_cards||[]).map(cid => cards.find(x => x.id === cid)).filter(Boolean);
   const uniqOps = [...new Set(usedCards.map(c => c.operator))];
@@ -1052,7 +1076,7 @@ async function patternPage(id){
     ${radial ? `<div class='pat-radial-wrap'>${radial}</div>` : ''}
     <div class='pat-layout'>
       <main class='pat-body' id='patBody'>
-        <p style='color:var(--muted);font-family:var(--mono);font-size:.8rem'>loading…</p>
+        <p class='loading-line'>reading the playbook…</p>
       </main>
       <aside class='pat-side'>
         <h4>operator quotes</h4>
@@ -1088,11 +1112,19 @@ async function patternPage(id){
 
 async function contradictionPage(id){
   const c = contradictions.find(x=>x.id===id);
-  if (!c){ app.innerHTML = `<div class='insight-page'><p>not found.</p></div>`; return; }
+  if (!c){
+    app.innerHTML = `<div class='insight-page empty-state'>
+      <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <a href='#/patterns'>patterns</a> <span>·</span> <span>contradiction</span></div>
+      <h1>This contradiction isn't in the codex.</h1>
+      <p class='lede'>Contradictions document where two operators reach opposing conclusions on the same question. The patterns page lists them all.</p>
+      <div class='actions empty-actions'><a class='btn' href='#/patterns#contradictions'>See contradictions</a><a class='btn ghost' href='#/'>Open the codex</a></div>
+    </div>`;
+    return;
+  }
   // Skeleton
   app.innerHTML = `<article class='contradiction-page'>
     <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <a href='#/patterns'>patterns</a> <span>·</span> <span>contradiction</span></div>
-    <div class='con-stage' id='conStage'><p style='color:var(--muted);font-family:var(--mono);font-size:.8rem;text-align:center;padding:80px 0'>loading…</p></div>
+    <div class='con-stage' id='conStage'><p class='loading-line' style='text-align:center;padding:80px 0'>reading the contradiction…</p></div>
   </article>`;
   const md = await fetchBody(c.path);
   // Parse the two positions
@@ -1261,7 +1293,7 @@ function applyBrowse(){
   const results = document.getElementById('browseResults');
   if (!out) return;
   if (results) results.textContent = list.length;
-  if (list.length === 0){ out.innerHTML = `<div class='browse-empty'>no cards match these filters.</div>`; return; }
+  if (list.length === 0){ out.innerHTML = `<div class='browse-empty'>No cards match these filters. Try widening tier or domain.</div>`; return; }
 
   // Group by tier when sort is tier; otherwise no groups
   const rowHtml = c => `<a class='brow reveal' href='#/ins/${c.id}'>
@@ -1852,7 +1884,7 @@ async function today(){
         <h2 class='release-title'>${escapeHtml(e.title || 'release')}</h2>
         ${counts.length ? `<div class='release-counts'>${counts.join('')}</div>` : ''}
       </header>
-      <div class='release-body'><p style='color:var(--muted);font-family:var(--mono);font-size:.8rem'>loading…</p></div>
+      <div class='release-body'><p class='loading-line'>reading what landed…</p></div>
     </article>`;
   }).join('');
   app.innerHTML = `<section class='today-page'>
@@ -2048,7 +2080,7 @@ function wireSearch(){
   const renderEmpty = () => {
     const recents = loadRecents();
     if (!recents.length){
-      results.innerHTML = `<div class='search-empty'>Type to search ${cards.length} insights, ${operators.length} operators, ${patterns.length} patterns.</div>`;
+      results.innerHTML = `<div class='search-empty'>Search ${cards.length} insights, ${operators.length} operators, ${patterns.length} patterns. Type to start, <kbd>Esc</kbd> to close.</div>`;
       flatItems = []; return;
     }
     results.innerHTML = `<div class='search-group'><div class='search-group-h'>Recent</div>${recents.map((r,i)=>`<a class='search-item${i===0?' active':''}' href='${r.href}' data-href='${r.href}'><span class='kind'>${r.kind}</span><b>${escapeHtml(r.title)}</b><span class='mono'>${escapeHtml(r.sub||'')}</span></a>`).join('')}</div>`;
@@ -2065,7 +2097,7 @@ function wireSearch(){
     if (opHits.length) groups.push(`<div class='search-group'><div class='search-group-h'>Operators</div>${opHits.map(({o})=>`<a class='search-item' href='#/o/${o.slug}' data-href='#/o/${o.slug}' data-kind='operator' data-title='${escapeHtml(o.name)}'><span class='kind'>op</span><b>${escapeHtml(o.name)}</b><span class='mono'>${escapeHtml((o.roles||[])[0]||'')}</span></a>`).join('')}</div>`);
     if (patHits.length) groups.push(`<div class='search-group'><div class='search-group-h'>Patterns</div>${patHits.map(({p})=>`<a class='search-item' href='#/pat/${p.id}' data-href='#/pat/${p.id}' data-kind='pattern' data-title='${escapeHtml(p.title)}'><span class='kind'>pat</span><b>${escapeHtml(p.title)}</b><span class='mono'>tier ${p.tier||'—'}</span></a>`).join('')}</div>`);
     if (cardHits.length) groups.push(`<div class='search-group'><div class='search-group-h'>Insights</div>${cardHits.map(({c})=>`<a class='search-item' href='#/ins/${c.id}' data-href='#/ins/${c.id}' data-kind='insight' data-title='${escapeHtml(c.claim)}' data-sub='${escapeHtml(c.operator)}'><span class='kind'>ins</span><b>${escapeHtml(c.claim)}</b><span class='mono'>${escapeHtml(c.operator)}</span></a>`).join('')}</div>`);
-    results.innerHTML = groups.length ? groups.join('') : `<div class='search-empty'>No matches for "${escapeHtml(q)}"</div>`;
+    results.innerHTML = groups.length ? groups.join('') : `<div class='search-empty'>No matches for "${escapeHtml(q)}" — try a shorter phrase, an operator's last name, or a domain like ai-native.</div>`;
     flatItems = [...results.querySelectorAll('.search-item')];
     activeIdx = 0;
     setActiveItem();
@@ -2242,19 +2274,40 @@ function wireKeyboardShortcuts(){
     if (onInsight){
       // j/k → sibling navigation
       if (k === 'j' || k === 'k'){
-        const sel = k === 'j' ? '.rail-sib-link[href*="#/ins/"]' : '.rail-sib-link[href*="#/ins/"]';
         const links = Array.from(document.querySelectorAll('.rail-sib-link'));
-        // First .rail-sib-link is "← previous", second is "next →"
         const target = k === 'k' ? links.find(a => a.querySelector('.rail-sib-dir')?.textContent.includes('previous')) :
                                     links.find(a => a.querySelector('.rail-sib-dir')?.textContent.includes('next'));
         if (target){ location.hash = target.getAttribute('href'); e.preventDefault(); return; }
       }
-      // l → listen / stop
+      // l → listen / stop  (insight-page button)
       if (k === 'l'){ document.getElementById('listenBtn')?.click(); e.preventDefault(); return; }
-      // s → share
+      // s → share (insight-page button)
       if (k === 's'){ document.getElementById('shareBtn')?.click(); e.preventDefault(); return; }
       // c → copy citation
       if (k === 'c'){ document.getElementById('citeBtn')?.click(); e.preventDefault(); return; }
+      return;
+    }
+    // Site-wide share + listen on any page that has a meaningful body.
+    if (k === 's'){
+      const url = location.href;
+      const title = document.title;
+      const data = { title, url };
+      if (navigator.share && navigator.canShare?.(data)){ navigator.share(data).catch(() => {}); }
+      else { navigator.clipboard?.writeText(url); }
+      e.preventDefault();
+      return;
+    }
+    if (k === 'l'){
+      if (!('speechSynthesis' in window)) return;
+      if (window.speechSynthesis.speaking){ window.speechSynthesis.cancel(); e.preventDefault(); return; }
+      const main = document.getElementById('app');
+      // Pick the most-relevant text container by route.
+      const sel = ['.release-body', '.body', 'article', 'main'].map(s => main.querySelector(s)).find(Boolean);
+      const text = (sel?.innerText || '').slice(0, 8000); // cap so we don't read forever
+      if (!text.trim()) return;
+      const u = new SpeechSynthesisUtterance(text);
+      window.speechSynthesis.speak(u);
+      e.preventDefault();
     }
   });
 }
