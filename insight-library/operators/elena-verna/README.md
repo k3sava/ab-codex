@@ -31,8 +31,10 @@ Elena Verna is a growth advisor who brings a strategic, systems-level perspectiv
 - `ins_no-rebrands-for-growth` — Rebrands and homepage redesigns never produce performance lift [Tier B]
 - `ins_pmm-as-infrastructure-not-gate` — PMM is infrastructure that makes other functions faster, not a launch gate [Tier A]
 - `ins_agents-are-the-new-product-user` — Agents are first-class product users; design for output reliability [Tier A]
+- `ins_ungate-ai-iterate-pricing` — Ungate AI features first; treat pricing as iterable product, not strategic decision [Tier B]
 
 ## Sources captured
 - 2026-04-26 — *Your product has a new user. It's not human.* / *Who's got time for product marketing?* (`raw/essays/elena-verna--agents-are-the-new-user--2026-04-26.md`)
 - 2026-04-28 — Lenny's Podcast, "10 growth tactics that never work, earned channels, optionality" (`raw/podcasts/elena-verna--earned-channels-tactics-that-never-work--2026-04-28.md`)
 - 2026-04 — `product-led-growth-is-a-major-growth-motion-not-a-bag-of-tricks-reforge-blog.md` (operator essay archive)
+- 2026-05-05 — *The biggest takeaway from my Stripe Sessions talk* (https://www.elenaverna.com/p/the-biggest-takeaway-from-my-stripe)

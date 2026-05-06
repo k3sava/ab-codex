@@ -2,16 +2,26 @@
 
 > **[Open the interactive site → k3sava.github.io/ab-codex](https://k3sava.github.io/ab-codex/)**
 
+<!-- LATEST:START -->
+### Latest — 2026-05-06 · 6 insights · 2 operators
+
+**Trace + feedback, judgement as bottleneck, pricing as product** — Six new cards from this week's operator pulse. Two themes — agent learning needs trace-plus-feedback together, and judgement is the part of the work that didn't get cheaper when execution did.
+
+[Read what landed →](insight-library/daily/2026-05-06.md) · [See on the site →](https://k3sava.github.io/ab-codex/#/today)
+<!-- LATEST:END -->
+
 A primary-source library of operator insights — atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
 
 ## What's in here today
 
-- **764** insight cards
-- **455** operator profiles
+<!-- COUNTS:START -->
+- **770** insight cards
+- **457** operator profiles
 - **37** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
 - **27** methodology playbooks
 - **209** archived raw sources (podcasts, essays, threads, research)
+<!-- COUNTS:END -->
 
 Every card carries: operator, role, source URL, source date, claim, mechanism, conditions when it applies, evidence, signals to track, counter-evidence, and links to related cards.
 

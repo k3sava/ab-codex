@@ -27,9 +27,11 @@ Andrej Karpathy's framework centers on a three-era model of software development
 
 ## Cards
 - `ins_llm-wiki-pattern` — LLM should maintain a wiki, not re-derive knowledge per query [Tier A]
+- `ins_judgment-vs-understanding` — You can outsource thinking, but not understanding — verification is the new human job [Tier A]
 
 ## Sources captured
 - 2026-04 — "LLM Wiki" gist (`raw/essays/karpathy--llm-wiki--2026-04.md`)
 - 2026-04 — `vibe-coding-menugen-karpathy.md` (operator essay archive)
 - 2026-04 — `andrej-karpathy-on-software-30-software-in-the-age-of-ai.md` (operator essay archive)
 - 2026-04 — `andrej-karpathy-software-is-changing-again.md` (operator essay archive)
+- 2026-04-30 — Sequoia AI Ascent 2026 fireside (Software 3.0)

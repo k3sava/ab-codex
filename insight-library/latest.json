@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-05-06T12:56:41.664Z",
+  "latest_daily": {
+    "path": "daily/2026-05-06.md",
+    "date": "2026-05-06",
+    "title": "Trace + feedback, judgement as bottleneck, pricing as product",
+    "summary": "Six new cards from this week's operator pulse. Two themes — agent learning needs trace-plus-feedback together, and judgement is the part of the work that didn't get cheaper when execution did.",
+    "sources": [
+      "Morning brief 2026-05-06",
+      "Morning brief 2026-05-04"
+    ],
+    "insights_added": [
+      "ins_traces-need-feedback-to-learn",
+      "ins_mine-transcripts-to-promote-config",
+      "ins_judgment-vs-understanding",
+      "ins_judgment-doesnt-compress",
+      "ins_ungate-ai-iterate-pricing",
+      "ins_rich-context-beats-sophisticated-agents"
+    ],
+    "operators_added": [
+      "harrison-chase",
+      "eugene-yan"
+    ],
+    "patterns_added": [],
+    "playbooks_added": []
+  },
+  "recent_daily": [
+    {
+      "path": "daily/2026-05-06.md",
+      "date": "2026-05-06",
+      "title": "Trace + feedback, judgement as bottleneck, pricing as product",
+      "summary": "Six new cards from this week's operator pulse. Two themes — agent learning needs trace-plus-feedback together, and judgement is the part of the work that didn't get cheaper when execution did.",
+      "sources": [
+        "Morning brief 2026-05-06",
+        "Morning brief 2026-05-04"
+      ],
+      "insights_added": [
+        "ins_traces-need-feedback-to-learn",
+        "ins_mine-transcripts-to-promote-config",
+        "ins_judgment-vs-understanding",
+        "ins_judgment-doesnt-compress",
+        "ins_ungate-ai-iterate-pricing",
+        "ins_rich-context-beats-sophisticated-agents"
+      ],
+      "operators_added": [
+        "harrison-chase",
+        "eugene-yan"
+      ],
+      "patterns_added": [],
+      "playbooks_added": []
+    }
+  ]
+}

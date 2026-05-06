@@ -24,11 +24,13 @@ jobs:
           mkdir -p docs/insight-library
           cp insight-library/INDEX.json docs/insight-library/INDEX.json
           cp insight-library/INDEX.md docs/insight-library/INDEX.md
+          cp insight-library/latest.json docs/insight-library/latest.json
           cp -r insight-library/insights docs/insight-library/
           cp -r insight-library/operators docs/insight-library/
           cp -r insight-library/synthesis docs/insight-library/
           cp -r insight-library/playbooks docs/insight-library/
           cp -r insight-library/00_meta docs/insight-library/
+          cp -r insight-library/daily docs/insight-library/
       - name: Validate docs bundle
         run: bash docs/build.sh
       - uses: actions/upload-pages-artifact@v3

@@ -7,6 +7,8 @@ gsap.registerPlugin(ScrollTrigger);
 let cards = [], operators = [], patterns = [], contradictions = [], playbooks = [];
 let STATS = {};
 let DOMAINS = [];
+let LATEST_DAILY = null;
+let RECENT_DAILY = [];
 
 const slugify = s => (s||'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 const escapeHtml = s => (s||'').replace(/[&<>"']/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -43,6 +45,36 @@ async function loadIndex(){
     raw: counts.raw_sources ?? 0,
     tierA: cards.filter(c=>c.tier==='A').length,
   };
+  LATEST_DAILY = data.latest_daily || null;
+  RECENT_DAILY = data.daily || [];
+}
+
+function renderHelloBar(){
+  const bar = document.getElementById('helloBar');
+  if (!bar || !LATEST_DAILY) return;
+  // Only show if the entry is reasonably recent (last 14 days) — stale "what's new" is worse than no banner
+  const d = LATEST_DAILY.date;
+  if (!d) return;
+  const ageMs = Date.now() - new Date(d + 'T00:00:00').getTime();
+  if (ageMs < 0 || ageMs > 14 * 24 * 60 * 60 * 1000) return;
+  const dateEl = document.getElementById('helloDate');
+  const textEl = document.getElementById('helloText');
+  if (dateEl) dateEl.textContent = d;
+  if (textEl){
+    const counts = [];
+    const ia = (LATEST_DAILY.insights_added || []).length;
+    const oa = (LATEST_DAILY.operators_added || []).length;
+    const pa = (LATEST_DAILY.patterns_added || []).length;
+    const pba = (LATEST_DAILY.playbooks_added || []).length;
+    if (ia) counts.push(`${ia} insight${ia===1?'':'s'}`);
+    if (oa) counts.push(`${oa} operator${oa===1?'':'s'}`);
+    if (pa) counts.push(`${pa} pattern${pa===1?'':'s'}`);
+    if (pba) counts.push(`${pba} playbook${pba===1?'':'s'}`);
+    const lead = counts.length ? counts.join(' · ') : '';
+    const title = LATEST_DAILY.title || 'what landed';
+    textEl.textContent = lead ? `${lead} — ${title}` : title;
+  }
+  bar.hidden = false;
 }
 
 async function fetchBody(path){
@@ -1364,6 +1396,32 @@ function setActive(){
   const top = '/'+ (r.split('/')[1] || '');
   document.querySelectorAll('[data-route]').forEach(a => a.classList.toggle('active', a.dataset.route === top || (top==='/' && a.dataset.route === '/')));
 }
+async function today(){
+  const ld = LATEST_DAILY;
+  if (!ld){
+    app.innerHTML = `<section class='insight-page'>
+      <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <span>today</span></div>
+      <h1>nothing has landed yet</h1>
+      <p style='color:var(--muted);max-width:60ch'>The daily log is empty. New insights, operators, patterns, and playbooks will appear here as they're added to the corpus.</p>
+    </section>`;
+    return;
+  }
+  app.innerHTML = `<article class='insight-page today-page'>
+    <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <span>today — ${ld.date}</span></div>
+    <div id='todayBody' style='max-width:72ch'><p style='color:var(--muted);font-family:var(--mono);font-size:.8rem'>loading…</p></div>
+    ${RECENT_DAILY.length > 1 ? `<aside class='today-recent' style='margin-top:48px;padding-top:24px;border-top:1px solid var(--line)'>
+      <h2 style='font-size:.85rem;font-family:var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:14px'>earlier days</h2>
+      <ul style='list-style:none;display:flex;flex-direction:column;gap:8px;font-family:var(--mono);font-size:.8rem'>
+        ${RECENT_DAILY.slice(1, 11).map(d => `<li><a href='${REPO_BASE}/insight-library/${d.path}' target='_blank' rel='noopener'>${d.date} — ${escapeHtml(d.title || '')}</a></li>`).join('')}
+      </ul>
+    </aside>` : ''}
+  </article>`;
+  const body = document.getElementById('todayBody');
+  const md = await fetchBody(ld.path);
+  // strip frontmatter; rendered title comes from body H1
+  body.innerHTML = mdToHtml(md);
+}
+
 function render(){
   window.scrollTo(0,0);
   ScrollTrigger.getAll().forEach(t=>t.kill());
@@ -1373,6 +1431,7 @@ function render(){
   const anchor = hashIdx === -1 ? '' : raw.slice(hashIdx + 1);
   let view;
   if (r==='/'||r==='') view = home;
+  else if (r==='/today') view = today;
   else if (r.startsWith('/ins/')) view = () => insight(decodeURIComponent(r.slice(5)));
   else if (r.startsWith('/o/')) view = () => operatorPage(decodeURIComponent(r.slice(3)));
   else if (r==='/operators') view = operatorsList;
@@ -1565,7 +1624,7 @@ function wireTheme(){
 }
 
 window.addEventListener('hashchange', () => { render(); setActive(); window.scrollTo({top:0, behavior:'instant'}); });
-loadIndex().then(() => { render(); setActive(); wireSearch(); wireHeader(); wireMobileMenu(); wireTheme(); dismissSplash(); }).catch(e => {
+loadIndex().then(() => { renderHelloBar(); render(); setActive(); wireSearch(); wireHeader(); wireMobileMenu(); wireTheme(); dismissSplash(); }).catch(e => {
   document.getElementById('splash')?.remove();
   app.innerHTML = `<section class='about-page'><h1>codex couldn't load.</h1><p style='color:var(--muted)'>${escapeHtml(e.message)}</p></section>`;
 });

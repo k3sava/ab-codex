@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=16" />
+  <link rel="stylesheet" href="style.css?v=17" />
   <script>
     // Apply theme override before paint to avoid flash
     (function(){
@@ -29,10 +29,19 @@
 
   <div id="scrollProgress"></div>
 
+  <a id="helloBar" class="hello-bar" href="#/today" hidden>
+    <span class="hello-mark">NEW</span>
+    <span class="hello-date" id="helloDate"></span>
+    <span class="hello-sep" aria-hidden="true">·</span>
+    <span class="hello-text" id="helloText"></span>
+    <span class="hello-arrow" aria-hidden="true">→</span>
+  </a>
+
   <header id="hdr">
     <a href="#/" class="brand"><span class="dot"></span>a builder's codex</a>
     <nav id="nav">
       <a href="#/" data-route="/">home</a>
+      <a href="#/today" data-route="/today">today</a>
       <a href="#/map" data-route="/map">map</a>
       <a href="#/operators" data-route="/operators">operators</a>
       <a href="#/patterns" data-route="/patterns">patterns</a>
@@ -58,6 +67,7 @@
   <div id="mobileBackdrop" aria-hidden="true"></div>
   <aside id="mobileMenu" aria-hidden="true">
     <a href="#/" data-route="/">home</a>
+    <a href="#/today" data-route="/today">today</a>
     <a href="#/map" data-route="/map">map</a>
     <a href="#/operators" data-route="/operators">operators</a>
     <a href="#/patterns" data-route="/patterns">patterns</a>
@@ -87,6 +97,6 @@
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
-  <script src="app.js?v=17" type="module"></script>
+  <script src="app.js?v=18" type="module"></script>
 </body>
 </html>

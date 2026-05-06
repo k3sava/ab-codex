@@ -1,0 +1,5 @@
+.DS_Store
+node_modules/
+# docs/insight-library/ is staged by .github/workflows/pages.yml on deploy.
+# Do not commit the staged copy.
+docs/insight-library/

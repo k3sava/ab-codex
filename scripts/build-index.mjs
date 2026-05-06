@@ -45,23 +45,23 @@ function parseFrontmatter(text) {
         continue;
       }
       if (v.startsWith("[") && v.endsWith("]")) {
-        obj[k] = v.slice(1, -1).split(",").map(s => s.trim()).filter(Boolean);
+        obj[k] = v.slice(1, -1).split(",").map(s => s.trim().replace(/^["']|["']$/g, "")).filter(Boolean);
       } else if (v.startsWith("{")) {
         obj[k] = v;
       } else {
-        obj[k] = v;
+        // Strip wrapping quotes — YAML treats quoted and unquoted scalars as the same value
+        obj[k] = v.replace(/^["'](.*)["']$/, "$1");
       }
       continue;
     }
     // Indented list item: `  - value`
     if (line.startsWith("  - ") && lastKey) {
+      const item = line.slice(4).trim().replace(/^["'](.*)["']$/, "$1");
       if (!Array.isArray(obj[lastKey])) obj[lastKey] = [];
-      obj[lastKey].push(line.slice(4).trim());
+      obj[lastKey].push(item);
       // If lastKey was previously assigned an empty object (from "key:"), upgrade to array
       if (nestedKey === lastKey && Array.isArray(obj[lastKey]) === false) {
-        const items = [];
-        items.push(line.slice(4).trim());
-        obj[lastKey] = items;
+        obj[lastKey] = [item];
       }
       continue;
     }
@@ -100,6 +100,7 @@ async function main() {
   const patternFiles = await walk(join(ROOT, "synthesis", "patterns"));
   const contradictionFiles = await walk(join(ROOT, "synthesis", "contradictions"));
   const playbookFiles = (await walk(join(ROOT, "playbooks"))).filter(f => !f.endsWith("README.md"));
+  const dailyFiles = (await walk(join(ROOT, "daily"))).filter(f => /\d{4}-\d{2}-\d{2}\.md$/.test(f));
 
   const insights = [];
   for (const f of insightFiles) {
@@ -173,6 +174,20 @@ async function main() {
     });
   }
 
+  const daily = [];
+  for (const f of dailyFiles) {
+    const text = await readFile(f, "utf8");
+    const parsed = parseFrontmatter(text);
+    if (!parsed) continue;
+    daily.push({
+      path: relative(ROOT, f),
+      ...parsed.fm,
+    });
+  }
+  // newest date first
+  daily.sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""));
+  const latest_daily = daily[0] ?? null;
+
   const json = {
     generated_at: new Date().toISOString(),
     counts: {
@@ -182,13 +197,16 @@ async function main() {
       patterns: patterns.length,
       contradictions: contradictions.length,
       playbooks: playbooks.length,
+      daily: daily.length,
     },
+    latest_daily,
     insights,
     operators,
     raw_sources: raw,
     patterns,
     contradictions,
     playbooks,
+    daily,
   };
 
   await writeFile(join(ROOT, "INDEX.json"), JSON.stringify(json, null, 2));
@@ -272,7 +290,63 @@ async function main() {
 
   await writeFile(join(ROOT, "INDEX.md"), lines.join("\n"));
 
-  console.log(`Built INDEX.md and INDEX.json — ${insights.length} insights, ${operators.length} operators, ${raw.length} raw, ${patterns.length} patterns, ${contradictions.length} contradictions, ${playbooks.length} playbooks.`);
+  // README hello-bar + counts splice
+  const REPO_ROOT = join(ROOT, "..");
+  const readmePath = join(REPO_ROOT, "README.md");
+  let readme = await readFile(readmePath, "utf8").catch(() => "");
+  if (readme) {
+    const countsBlock = [
+      `- **${insights.length}** insight cards`,
+      `- **${operators.length}** operator profiles`,
+      `- **${patterns.length}** synthesis patterns (cross-operator convergences)`,
+      `- **${contradictions.length}** documented contradictions`,
+      `- **${playbooks.length}** methodology playbooks`,
+      `- **${raw.length}** archived raw sources (podcasts, essays, threads, research)`,
+    ].join("\n");
+    readme = spliceMarkers(readme, "COUNTS", countsBlock);
+
+    if (latest_daily) {
+      const ld = latest_daily;
+      const insightsAdded = (ld.insights_added ?? []).length;
+      const operatorsAdded = (ld.operators_added ?? []).length;
+      const patternsAdded = (ld.patterns_added ?? []).length;
+      const playbooksAdded = (ld.playbooks_added ?? []).length;
+      const bits = [];
+      if (insightsAdded) bits.push(`${insightsAdded} insight${insightsAdded === 1 ? "" : "s"}`);
+      if (operatorsAdded) bits.push(`${operatorsAdded} operator${operatorsAdded === 1 ? "" : "s"}`);
+      if (patternsAdded) bits.push(`${patternsAdded} pattern${patternsAdded === 1 ? "" : "s"}`);
+      if (playbooksAdded) bits.push(`${playbooksAdded} playbook${playbooksAdded === 1 ? "" : "s"}`);
+      const counted = bits.length ? bits.join(" · ") : "no new entries";
+      const latestPath = ld.path; // e.g. "daily/2026-05-06.md"
+      const latestBlock = [
+        `### Latest — ${ld.date} · ${counted}`,
+        ``,
+        `**${ld.title ?? "What's new"}** — ${ld.summary ?? ""}`,
+        ``,
+        `[Read what landed →](insight-library/${latestPath}) · [See on the site →](https://k3sava.github.io/ab-codex/#/today)`,
+      ].join("\n");
+      readme = spliceMarkers(readme, "LATEST", latestBlock);
+    }
+    await writeFile(readmePath, readme);
+  }
+
+  // emit latest.json at insight-library root for cheap fetch from the SPA
+  await writeFile(
+    join(ROOT, "latest.json"),
+    JSON.stringify({ generated_at: new Date().toISOString(), latest_daily, recent_daily: daily.slice(0, 30) }, null, 2)
+  );
+
+  console.log(`Built INDEX.md and INDEX.json — ${insights.length} insights, ${operators.length} operators, ${raw.length} raw, ${patterns.length} patterns, ${contradictions.length} contradictions, ${playbooks.length} playbooks, ${daily.length} daily.`);
+}
+
+// Replace content between <!-- KEY:START --> and <!-- KEY:END --> markers (inclusive).
+function spliceMarkers(text, key, body) {
+  const start = `<!-- ${key}:START -->`;
+  const end = `<!-- ${key}:END -->`;
+  const re = new RegExp(`${start}[\\s\\S]*?${end}`, "m");
+  const replacement = `${start}\n${body}\n${end}`;
+  if (re.test(text)) return text.replace(re, replacement);
+  return text; // markers absent — leave file alone
 }
 
 main().catch(e => {
