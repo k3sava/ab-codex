@@ -327,6 +327,10 @@ async function main() {
       ].join("\n");
       readme = spliceMarkers(readme, "LATEST", latestBlock);
     }
+    // Replace stale prose counts in the browse table — e.g. "All 272 profiles".
+    // The COUNTS block stays the canonical source; this just keeps the prose
+    // honest so a casual reader doesn't see numbers off by hundreds.
+    readme = readme.replace(/All\s+\d{2,4}\s+profiles/, `All ${operators.length} profiles`);
     await writeFile(readmePath, readme);
   }
 

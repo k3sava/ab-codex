@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Not found · a builder's codex</title>
+<meta name="description" content="That page isn't in the codex. Search for what you're looking for, or browse the index.">
+<meta name="robots" content="noindex,follow">
+<link rel="canonical" href="https://k3sava.github.io/ab-codex/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f3f5ee;--ink:#0d1410;--ink-2:#2a3530;--muted:#6b7868;--accent:#1f9d55;--accent-2:#15803d;--line:#0d141022}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,system-ui,sans-serif;background:var(--paper);color:var(--ink);min-height:100vh;display:flex;flex-direction:column;-webkit-font-smoothing:antialiased}
+.wrap{max-width:680px;margin:0 auto;padding:80px 24px;text-align:center;flex:1;display:flex;flex-direction:column;justify-content:center}
+.eyebrow{font-family:JetBrains Mono,monospace;font-size:.7rem;letter-spacing:.12em;color:var(--accent-2);text-transform:uppercase;margin-bottom:14px}
+h1{font-family:Newsreader,Georgia,serif;font-weight:400;font-size:clamp(2rem,5vw,3.6rem);letter-spacing:-.02em;line-height:1.1;margin-bottom:18px}
+p.lede{color:var(--ink-2);font-size:1.05rem;line-height:1.55;max-width:54ch;margin:0 auto 32px}
+.actions{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:8px}
+.actions a{display:inline-flex;align-items:center;padding:10px 18px;border-radius:999px;color:var(--ink-2);text-decoration:none;font-family:JetBrains Mono,monospace;font-size:.78rem;border:1px solid var(--line);transition:background .15s,border-color .15s,color .15s}
+.actions a:hover{border-color:var(--accent);color:var(--accent-2);background:color-mix(in oklab,var(--accent) 8%,transparent)}
+.actions a.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.actions a.primary:hover{background:var(--accent-2);border-color:var(--accent-2);color:#fff}
+.suggest{margin-top:48px;padding-top:32px;border-top:1px solid var(--line);font-family:JetBrains Mono,monospace;font-size:.78rem;color:var(--muted)}
+.suggest a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid var(--line);padding-bottom:1px;transition:color .2s,border-color .2s}
+.suggest a:hover{color:var(--accent);border-bottom-color:currentColor}
+@media (prefers-color-scheme:dark){:root{--paper:#0a0e0a;--ink:#e6ecdf;--ink-2:#c5cbbe}}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <p class="eyebrow">404 · not found</p>
+  <h1>That page isn't in the codex.</h1>
+  <p class="lede">It may have been a stale link, a typo, or a card that's been renamed. The corpus indexes every operator-attributed claim — search for what you're looking for, or browse the index.</p>
+  <div class="actions">
+    <a class="primary" href="/ab-codex/">Open the codex →</a>
+    <a href="/ab-codex/operators/">Operators</a>
+    <a href="/ab-codex/patterns/">Patterns</a>
+    <a href="/ab-codex/today/">Release log</a>
+  </div>
+  <div class="suggest">
+    Looking for the index? <a href="/ab-codex/insight-library/INDEX.json">INDEX.json</a> · <a href="/ab-codex/llms.txt">llms.txt</a> · <a href="/ab-codex/sitemap.xml">sitemap</a>
+  </div>
+</main>
+</body>
+</html>

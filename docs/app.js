@@ -338,7 +338,7 @@ async function insight(id){
     <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <a href='#/operators'>operators</a> <span>·</span> <a href='#/o/${c.operator_slug}'>${escapeHtml(c.operator)}</a> <span>·</span> <span>${c.id}</span></div>
     <div class='layout'>
       <div>
-        <div class='meta-row' style='margin-bottom:14px;font-family:var(--mono);font-size:.7rem;color:var(--muted);display:flex;gap:10px;align-items:center;flex-wrap:wrap'>${tierBadge(c.tier)}<span>${c.domain.join(' · ')}</span></div>
+        <div class='meta-row' style='margin-bottom:14px;font-family:var(--mono);font-size:.7rem;color:var(--muted);display:flex;gap:10px;align-items:center;flex-wrap:wrap'>${tierBadge(c.tier)}<span>${c.domain.join(' · ')}</span>${c.source_date ? `<span>·</span><span>${c.source_date}</span>` : ''}</div>
         <h1>${escapeHtml(c.claim)}</h1>
         <p class='byline'>${escapeHtml(c.operator)}${(c.co_operators||[]).length ? ` <span class='co-byline'>with ${c.co_operators.map(co => `<a href='#/o/${slugify(co)}'>${escapeHtml(co)}</a>`).join(', ')}</span>` : ''}${c.operator_role?`<span class='role'>${escapeHtml(c.operator_role)}</span>`:''}</p>
         <p class='source'>${c.source_url?`<a href='${c.source_url}' target='_blank' rel='noopener'>${escapeHtml(c.source_title||c.source_url)}</a>`:''} ${c.source_date?`<span>·</span><span>${c.source_date}</span>`:''} ${c.source_type?`<span>·</span><span>${c.source_type}</span>`:''}</p>

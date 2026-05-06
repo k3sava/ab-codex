@@ -33,7 +33,7 @@ The site at [k3sava.github.io/ab-codex](https://k3sava.github.io/ab-codex/) give
 |------|---------------|
 | [Home](https://k3sava.github.io/ab-codex/) | Tier A claims and a domain index |
 | [Map](https://k3sava.github.io/ab-codex/#/map) | Visual graph: operators outside, domains in the middle, insights orbiting between |
-| [Operators](https://k3sava.github.io/ab-codex/#/operators) | All 272 profiles, sorted by card count |
+| [Operators](https://k3sava.github.io/ab-codex/#/operators) | All 460 profiles, sorted by card count |
 | [Patterns](https://k3sava.github.io/ab-codex/#/patterns) | Where 3+ operators converge on the same claim |
 | [Browse](https://k3sava.github.io/ab-codex/#/browse) | Filter by tier or domain, sort by date / operator / tier |
 | [Timeline](https://k3sava.github.io/ab-codex/#/timeline) | Newest captures first |

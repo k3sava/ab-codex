@@ -120,6 +120,11 @@ async function main(){
     if (fm.co_operators && !Array.isArray(fm.co_operators)){
       err(f, `co_operators must be a list, got: ${typeof fm.co_operators}`);
     }
+    // Detect compound operator strings — likely the author actually has co-authors
+    // that should be in co_operators rather than smashed into the operator field.
+    if (typeof fm.operator === "string" && /\s+(\+|&|with|and)\s+/i.test(fm.operator)){
+      warn(f, `operator field looks compound: "${fm.operator}" — consider splitting into operator + co_operators`);
+    }
     // store related for later resolution
     if (Array.isArray(fm.related)){
       for (const r of fm.related){
