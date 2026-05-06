@@ -24,10 +24,10 @@ Pia Silva's system of thought starts with a brutal diagnosis of why small brandi
 - **Creative Business Pricing**
 
 ## Cards
-- `ins_intensives-model-no-revisions` — Compress delivery into 2-day intensives, paid in full upfront — kill multi-month projects with endless revisions [Tier B]
+- `ins_intensives-model-no-revisions`, Compress delivery into 2-day intensives, paid in full upfront, kill multi-month projects with endless revisions [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `pia-silva-worstofall-design-agency-model-marcel-petitpas-parakeeto.md` (operator essay archive)
-- 2026-04 — `pia-silvas-no-bs-agency-mastery-program-review-what-is-the-intensives-model.md` (operator essay archive)
-- 2026-04 — `the-intensives-model-a-smarter-way-to-make-more-money-and-wow-your-clients-no-bs.md` (operator essay archive)
+- 2026-04, `pia-silva-worstofall-design-agency-model-marcel-petitpas-parakeeto.md` (operator essay archive)
+- 2026-04, `pia-silvas-no-bs-agency-mastery-program-review-what-is-the-intensives-model.md` (operator essay archive)
+- 2026-04, `the-intensives-model-a-smarter-way-to-make-more-money-and-wow-your-clients-no-bs.md` (operator essay archive)

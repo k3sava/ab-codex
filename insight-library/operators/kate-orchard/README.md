@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Kate Orchard — Product Marketer | Voice Over Artist
+Kate Orchard, Product Marketer | Voice Over Artist
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

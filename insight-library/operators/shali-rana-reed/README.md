@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Shali Rana Reed — COO @ The Reeder | VC | Advisor
+Shali Rana Reed, COO @ The Reeder | VC | Advisor
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

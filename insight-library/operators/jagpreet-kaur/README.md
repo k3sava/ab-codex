@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Jagpreet Kaur — Everything People at SaaS Labs
+Jagpreet Kaur, Everything People at SaaS Labs
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

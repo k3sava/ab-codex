@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Ian Buchanan — Growth Marketing | Marketing Operations @ Winning by Design
+Ian Buchanan, Growth Marketing | Marketing Operations @ Winning by Design
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

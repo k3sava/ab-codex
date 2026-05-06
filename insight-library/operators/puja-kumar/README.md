@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Puja Kumar — Founder & Creative Director, Studio Bauno | Crafting elevated, user-centric brand experiences for early-stage & scaling startups
+Puja Kumar, Founder & Creative Director, Studio Bauno | Crafting elevated, user-centric brand experiences for early-stage & scaling startups
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

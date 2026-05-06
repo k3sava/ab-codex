@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Tejas Shahasane — बी2बी | Content Marketer
+Tejas Shahasane, बी2बी | Content Marketer
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Natália Kimličková — Product Marketing @Userpilot
+Natália Kimličková, Product Marketing @Userpilot
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

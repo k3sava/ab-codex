@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Maren Hamilton — ✨ Brand, Social, Content ✨
+Maren Hamilton, ✨ Brand, Social, Content ✨
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

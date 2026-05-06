@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Pradeep Dhayalan — Results-driven Operations Leader with 22+ years of experience in third-party Contact Centers, specializing in Operations, Operations Excellence & Program Transition.
+Pradeep Dhayalan, Results-driven Operations Leader with 22+ years of experience in third-party Contact Centers, specializing in Operations, Operations Excellence & Program Transition.
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

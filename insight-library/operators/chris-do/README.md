@@ -26,11 +26,11 @@ Chris Do's system of thought is built on a single reframe that he delivers to cr
 - **Agency Positioning**
 
 ## Cards
-- `ins_amateurs-give-advice-experts-diagnose` — Amateurs give advice; experts diagnose. Whoever asks the most questions controls the conversation. [Tier B]
+- `ins_amateurs-give-advice-experts-diagnose`, Amateurs give advice; experts diagnose. Whoever asks the most questions controls the conversation. [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `how-to-charge-for-designvalue-based-pricing.md` (operator essay archive)
-- 2026-04 — `pricing-design-work-creativity.md` (operator essay archive)
-- 2026-04 — `3-ways-to-approach-pricing-for-creative-work.md` (operator essay archive)
-- 2026-04 — `chris-do-â-âvalue-isnât-determined-by-you-itâs-determined-by-the-clientâ.md` (operator essay archive)
+- 2026-04, `how-to-charge-for-designvalue-based-pricing.md` (operator essay archive)
+- 2026-04, `pricing-design-work-creativity.md` (operator essay archive)
+- 2026-04, `3-ways-to-approach-pricing-for-creative-work.md` (operator essay archive)
+- 2026-04, `chris-do-â-âvalue-isnât-determined-by-you-itâs-determined-by-the-clientâ.md` (operator essay archive)

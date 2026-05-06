@@ -24,10 +24,10 @@ Ethan Mollick's central thesis is that management -- not technical skill -- is t
 - **Knowledge Management For Ai**
 
 ## Cards
-- `ins_rebaseline-quarterly-not-pin-to-snapshot` — Pin AI workflows to capabilities you can re-baseline quarterly, not to one model snapshot [Tier B]
+- `ins_rebaseline-quarterly-not-pin-to-snapshot`, Pin AI workflows to capabilities you can re-baseline quarterly, not to one model snapshot [Tier B]
 
 ## Sources captured
-- 2026-04-23 — *Sign of the Future: GPT-5.5*, One Useful Thing (`raw/essays/ethan-mollick--gpt55-leaps-grow--2026-04-23.md`)
-- 2026-04 — `real-ai-agents-and-real-work-by-ethan-mollick.md` (operator essay archive)
-- 2026-04 — `management-as-ai-superpower-by-ethan-mollick.md` (operator essay archive)
-- 2026-04 — `15-times-to-use-ai-and-5-not-to-by-ethan-mollick.md` (operator essay archive)
+- 2026-04-23, *Sign of the Future: GPT-5.5*, One Useful Thing (`raw/essays/ethan-mollick--gpt55-leaps-grow--2026-04-23.md`)
+- 2026-04, `real-ai-agents-and-real-work-by-ethan-mollick.md` (operator essay archive)
+- 2026-04, `management-as-ai-superpower-by-ethan-mollick.md` (operator essay archive)
+- 2026-04, `15-times-to-use-ai-and-5-not-to-by-ethan-mollick.md` (operator essay archive)

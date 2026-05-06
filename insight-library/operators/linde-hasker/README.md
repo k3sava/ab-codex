@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Linde Hasker — OpenAI just posted a Content Strategist role for ChatGPT, and there's something beautifully ironic about this.
+Linde Hasker, OpenAI just posted a Content Strategist role for ChatGPT, and there's something beautifully ironic about this.
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

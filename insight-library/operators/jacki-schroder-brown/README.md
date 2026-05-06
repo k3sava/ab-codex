@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Jacki Schroder Brown — Product Marketing Consultant & Speaker | Helping hospitality and travel tech companies tell stories that convert | Co-founder Women’s Travel Freelancer Network | PMA Top Product Marketing Consultant & 2x Top Influencer
+Jacki Schroder Brown, Product Marketing Consultant & Speaker | Helping hospitality and travel tech companies tell stories that convert | Co-founder Women's Travel Freelancer Network | PMA Top Product Marketing Consultant & 2x Top Influencer
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

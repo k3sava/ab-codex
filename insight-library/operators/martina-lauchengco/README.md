@@ -25,10 +25,10 @@ Martina Lauchengco is the most authoritative voice on product marketing as a str
 - **Product Launch Strategy**
 
 ## Cards
-- ins_market-to-product-product-to-market — PMM owns both halves of the loop [Tier B]
+- ins_market-to-product-product-to-market, PMM owns both halves of the loop [Tier B]
 
 ## Sources captured
-- 2026-04 — `introducing-loved-silicon-valley-product-group-silicon-valley-product-group.md` (operator essay archive)
-- 2026-04 — `product-marketing-we-love-with-martina-lauchengco.md` (operator essay archive)
-- 2026-04 — `194-building-loved-products-the-tech-product-marketing-fundamentals-martina-lauc.md` (operator essay archive)
-- 2022 — *Loved* (SVPG/Wiley) — `raw/essays/multi-operator--marketer-rotation-pmm-builder-takes--2026-05.md`
+- 2026-04, `introducing-loved-silicon-valley-product-group-silicon-valley-product-group.md` (operator essay archive)
+- 2026-04, `product-marketing-we-love-with-martina-lauchengco.md` (operator essay archive)
+- 2026-04, `194-building-loved-products-the-tech-product-marketing-fundamentals-martina-lauc.md` (operator essay archive)
+- 2022, *Loved* (SVPG/Wiley), `raw/essays/multi-operator--marketer-rotation-pmm-builder-takes--2026-05.md`

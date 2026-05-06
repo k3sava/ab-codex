@@ -14,7 +14,7 @@ external:
 # Bangaly Kaba
 
 ## Bio
-Former Head of Growth at Instacart with prior growth leadership at Instagram and Facebook. Public reference voice for the "understand-work" growth philosophy — that data informs understanding, not the reverse — and for the adjacent-user theory of growth inflection.
+Bangaly Kaba. Former Head of Growth at Instacart with prior growth leadership at Instagram and Facebook. Public reference voice for the "understand-work" growth philosophy, that data informs understanding, not the reverse, and for the adjacent-user theory of growth inflection.
 
 ## Operating themes
 - **Understand → identify → execute.** Reverse the default "identify and justify."
@@ -23,7 +23,7 @@ Former Head of Growth at Instacart with prior growth leadership at Instagram and
 - **Change requires vision + skills + incentives + resources + plan.** Missing any one kills the change.
 
 ## Cards
-- `ins_understand-then-identify-then-execute` — Understand the work first; data is for confirming the picture, not the plan [Tier B]
+- `ins_understand-then-identify-then-execute`, Understand the work first; data is for confirming the picture, not the plan [Tier B]
 
 ## Sources captured
-- 2026-04-28 — Lenny's Podcast, "Understand work, adjacent user theory, impact frame" (`raw/podcasts/bangaly-kaba--understand-work-impact-frame--2026-04-28.md`)
+- 2026-04-28, Lenny's Podcast, "Understand work, adjacent user theory, impact frame" (`raw/podcasts/bangaly-kaba--understand-work-impact-frame--2026-04-28.md`)

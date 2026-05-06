@@ -24,17 +24,17 @@ Marty Neumeier is the most influential practitioner-author on brand strategy of 
 - **Visual Identity Strategy**
 
 ## Cards
-- `ins_brand-gap-five-disciplines` — A brand is not what you say it is — it is what they say it is. Close the gap with five disciplines. [Tier A]
-- `ins_neumeier-onlyness-test` — Onlyness is a company-viability test, not a positioning exercise — if you can't fill in the blank, the company is the problem [Tier A]
-- `ins_neumeier-customers-join-not-buy` — Customers join brands now, not buy them — the company creates customers; customers create the brand [Tier A]
-- `ins_neumeier-brand-commitment-matrix` — Six statements, two sides — Identity/Aims/Mores ↔ Purpose/Onlyness/Values [Tier B]
-- `ins_neumeier-agile-strategy-five-ps` — Five Ps × five Qs — design-thinking applied to strategy compresses 6-18 months to under 6 weeks [Tier B]
-- `ins_neumeier-strategic-pyramid` — Purpose at top (forever), mission/vision in the middle (5-20 years), tactics at the bottom (1-3 years) [Tier B]
+- `ins_brand-gap-five-disciplines`, A brand is not what you say it is, it is what they say it is. Close the gap with five disciplines. [Tier A]
+- `ins_neumeier-onlyness-test`, Onlyness is a company-viability test, not a positioning exercise, if you can't fill in the blank, the company is the problem [Tier A]
+- `ins_neumeier-customers-join-not-buy`, Customers join brands now, not buy them, the company creates customers; customers create the brand [Tier A]
+- `ins_neumeier-brand-commitment-matrix`, Six statements, two sides, Identity/Aims/Mores ↔ Purpose/Onlyness/Values [Tier B]
+- `ins_neumeier-agile-strategy-five-ps`, Five Ps × five Qs, design-thinking applied to strategy compresses 6-18 months to under 6 weeks [Tier B]
+- `ins_neumeier-strategic-pyramid`, Purpose at top (forever), mission/vision in the middle (5-20 years), tactics at the bottom (1-3 years) [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `the-brand-gap-marty-neumeier.md` (operator essay archive)
-- 2026-04 — `the-onlyness-test-marty-neumeier.md` (operator essay archive)
-- 2026-04 — `the-new-brand-model-marty-neumeier.md` (operator essay archive)
-- 2026-04 — `a-guide-to-agile-strategy-marty-neumeier.md` (operator essay archive)
-- 2026-04 — `the-strategic-pyramid-marty-neumeier.md` (operator essay archive)
+- 2026-04, `the-brand-gap-marty-neumeier.md` (operator essay archive)
+- 2026-04, `the-onlyness-test-marty-neumeier.md` (operator essay archive)
+- 2026-04, `the-new-brand-model-marty-neumeier.md` (operator essay archive)
+- 2026-04, `a-guide-to-agile-strategy-marty-neumeier.md` (operator essay archive)
+- 2026-04, `the-strategic-pyramid-marty-neumeier.md` (operator essay archive)

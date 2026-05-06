@@ -22,11 +22,11 @@ Peep Laja's career represents a unique arc from conversion optimization practiti
 - **Customer Research For Ads**
 
 ## Cards
-- `ins_message-testing-sameness-default` — In B2B, sameness is the default — you cannot win on features competitors will copy in 6 months [Tier B]
+- `ins_message-testing-sameness-default`, In B2B, sameness is the default, you cannot win on features competitors will copy in 6 months [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `why-you-need-a-messaging-hierarchy-to-refine-your-copy.md` (operator essay archive)
-- 2026-04 — `how-to-compete-and-win-on-messaging.md` (operator essay archive)
-- 2026-04 — `b2b-message-layers-framework-by-wynter-four-steps-to-conversion.md` (operator essay archive)
-- 2026-04 — `how-to-create-your-own-b2b-messaging-framework.md` (operator essay archive)
+- 2026-04, `why-you-need-a-messaging-hierarchy-to-refine-your-copy.md` (operator essay archive)
+- 2026-04, `how-to-compete-and-win-on-messaging.md` (operator essay archive)
+- 2026-04, `b2b-message-layers-framework-by-wynter-four-steps-to-conversion.md` (operator essay archive)
+- 2026-04, `how-to-create-your-own-b2b-messaging-framework.md` (operator essay archive)

@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Elise Beck — Sr. Director of Product Marketing at Wistia | Prev HubSpot
+Elise Beck, Sr. Director of Product Marketing at Wistia | Prev HubSpot
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

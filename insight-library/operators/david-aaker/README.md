@@ -25,10 +25,10 @@ David Aaker is the most influential academic in the history of brand management,
 - **Brand Differentiation**
 
 ## Cards
-- `ins_brand-relevance-vs-preference` — Stop competing on brand preference. Compete on brand relevance — make rivals irrelevant. [Tier A]
+- `ins_brand-relevance-vs-preference`, Stop competing on brand preference. Compete on brand relevance, make rivals irrelevant. [Tier A]
 
 
 ## Sources captured
-- 2026-04 — `aaker-brand-equity-model-fourweekmba.md` (operator essay archive)
-- 2026-04 — `brand-preference-vs-brand-relevance-2-ways-to-compete-aaker-on-brands.md` (operator essay archive)
-- 2026-04 — `david-aaker-outlines-how-brand-relevance-can-help-firms-become-leaders-in-new-pr.md` (operator essay archive)
+- 2026-04, `aaker-brand-equity-model-fourweekmba.md` (operator essay archive)
+- 2026-04, `brand-preference-vs-brand-relevance-2-ways-to-compete-aaker-on-brands.md` (operator essay archive)
+- 2026-04, `david-aaker-outlines-how-brand-relevance-can-help-firms-become-leaders-in-new-pr.md` (operator essay archive)

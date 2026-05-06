@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Alex Lindahl — GTM Engineering - Early at 4 Unicorns - Dad x2
+Alex Lindahl, GTM Engineering - Early at 4 Unicorns - Dad x2
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

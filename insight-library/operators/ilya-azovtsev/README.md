@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-🇺🇦 Ilya Azovtsev — Co-founder of GrowthBand | SaaS Growth Advisor
+🇺🇦 Ilya Azovtsev, Co-founder of GrowthBand | SaaS Growth Advisor
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

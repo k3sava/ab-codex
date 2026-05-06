@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Renae McBride — Industry Marketing Energy, Chemicals & Infrastructure | Driving Digital Transformation & AI | Siemens
+Renae McBride, Industry Marketing Energy, Chemicals & Infrastructure | Driving Digital Transformation & AI | Siemens
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

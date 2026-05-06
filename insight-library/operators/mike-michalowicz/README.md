@@ -24,10 +24,10 @@ Mike Michalowicz's system of thought begins with a behavioral insight borrowed f
 - **Cash Flow Management**
 
 ## Cards
-- `ins_profit-first-allocation` — Flip the formula: Sales − Profit = Expenses. Take profit out first; live on the rest. [Tier B]
+- `ins_profit-first-allocation`, Flip the formula: Sales − Profit = Expenses. Take profit out first; live on the rest. [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `five-steps-to-start-implementing-profit-first-in-your-small-business-mike-michal.md` (operator essay archive)
-- 2026-04 — `mastering-profit-first-master-your-percentage-allocations-mike-michalowicz.md` (operator essay archive)
-- 2026-04 — `profit-first-mike-michalowicz.md` (operator essay archive)
+- 2026-04, `five-steps-to-start-implementing-profit-first-in-your-small-business-mike-michal.md` (operator essay archive)
+- 2026-04, `mastering-profit-first-master-your-percentage-allocations-mike-michalowicz.md` (operator essay archive)
+- 2026-04, `profit-first-mike-michalowicz.md` (operator essay archive)

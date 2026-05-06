@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Srikanth Reddy — Operations Sr Manager with 18+ years of BPO experience | E-Commerce Sales | Client Relations | Customer Service | Business Development/Contingency Exp | Chat Bot AI Exp
+Srikanth Reddy, Operations Sr Manager with 18+ years of BPO experience | E-Commerce Sales | Client Relations | Customer Service | Business Development/Contingency Exp | Chat Bot AI Exp
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

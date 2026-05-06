@@ -25,10 +25,10 @@ Marcus Andrews is the practitioner who formalized narrative design as a product 
 - **Product Marketing Leadership**
 
 ## Cards
-- `ins_narrative-design-old-way-new-way` — Lead with a narrative (Big Shift -> Old Way vs. New Way -> Promised Land), not features [Tier B]
+- `ins_narrative-design-old-way-new-way`, Lead with a narrative (Big Shift -> Old Way vs. New Way -> Promised Land), not features [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `narrative-design-with-pendos-director-of-product-marketing-marcus-andrews-launch.md` (operator essay archive)
-- 2026-04 — `ama-marcus-andrews-on-product-launches.md` (operator essay archive)
-- 2026-04 — `how-to-master-narrative-design-qa-with-hubspot.md` (operator essay archive)
+- 2026-04, `narrative-design-with-pendos-director-of-product-marketing-marcus-andrews-launch.md` (operator essay archive)
+- 2026-04, `ama-marcus-andrews-on-product-launches.md` (operator essay archive)
+- 2026-04, `how-to-master-narrative-design-qa-with-hubspot.md` (operator essay archive)

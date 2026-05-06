@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Kamaraj Mathiarasan — Co-Founder @ PipeRocket Digital - B2B SaaS Marketing Agency | SaaS SEO Expert (Consultant)
+Kamaraj Mathiarasan, Co-Founder @ PipeRocket Digital - B2B SaaS Marketing Agency | SaaS SEO Expert (Consultant)
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

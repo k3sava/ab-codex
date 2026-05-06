@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Pavithra Krishnaswamy — Product Marketing Leader | Musician | ex-Zoho / Mad Street Den / Skit.ai / Sprinklr
+Pavithra Krishnaswamy, Product Marketing Leader | Musician | ex-Zoho / Mad Street Den / Skit.ai / Sprinklr
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

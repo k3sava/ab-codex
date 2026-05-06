@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Raghavendra Mutt — Salesforce, Certified SCRUM Product Owner, SCRUM Master, Change Management Practitioner, and Certified Coach.
+Raghavendra Mutt, Salesforce, Certified SCRUM Product Owner, SCRUM Master, Change Management Practitioner, and Certified Coach.
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

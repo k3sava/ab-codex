@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Sid Bharath — Founder of Refound - Helping Organizations Become AI-Native
+Sid Bharath, Founder of Refound - Helping Organizations Become AI-Native
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

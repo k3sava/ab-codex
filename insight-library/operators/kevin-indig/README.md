@@ -26,19 +26,19 @@ Kevin Indig is the most systematic strategic thinker in SEO, bringing a rigorous
 - **Programmatic Seo**
 
 ## Cards
-- `ins_ghost-citation-gap` — Citation rate and mention rate are different metrics; comparative content closes the gap [Tier A]
-- `ins_judgment-doesnt-compress` — Building costs collapsed; judgement didn't — the squeeze is on positioning, not production [Tier A]
-- `ins_chatgpt-prompts-invisible-to-keyword-tools` — 65 to 85 percent of ChatGPT prompts are invisible to keyword tools [Tier A]
+- `ins_ghost-citation-gap`, Citation rate and mention rate are different metrics; comparative content closes the gap [Tier A]
+- `ins_judgment-doesnt-compress`, Building costs collapsed; judgement didn't, the squeeze is on positioning, not production [Tier A]
+- `ins_chatgpt-prompts-invisible-to-keyword-tools`, 65 to 85 percent of ChatGPT prompts are invisible to keyword tools [Tier A]
 
 ## Sources captured
-- 2026-04-26 — *The Ghost Citation Problem*, Growth Memo (`raw/essays/kevin-indig--ghost-citation-problem--2026-04-26.md`)
-- 2026-05-04 — *Growth Memo* — judgement doesn't compress (https://www.growth-memo.com/)
-- 2026-04 — `how-to-craft-a-winning-seo-strategy-by-kevin-indig.md` (operator essay archive)
-- 2026-04 — `what-is-user-intent-how-to-optimize-for-it-like-a-pro.md` (operator essay archive)
-- 2026-04 — `seo-strategy-archetypes-by-kevin-indig-growth-memo.md` (operator essay archive)
-- 2026-04 — `an-introduction-to-integrator-seo-strategies.md` (operator essay archive)
-- 2026-04 — `the-changing-dynamic-of-programmatic-seo-by-kevin-indig.md` (operator essay archive)
-- 2026-04 — `optimizing-for-user-intent-with-content-tuning.md` (operator essay archive)
-- 2026-04 — `solving-fragmented-user-intent-by-kevin-indig.md` (operator essay archive)
-- 2026-04 — `a-better-approach-to-keyword-research-for-content-marketing.md` (operator essay archive)
-- 2026-04 — `seo-first-principles-by-kevin-indig-growth-memo.md` (operator essay archive)
+- 2026-04-26, *The Ghost Citation Problem*, Growth Memo (`raw/essays/kevin-indig--ghost-citation-problem--2026-04-26.md`)
+- 2026-05-04, *Growth Memo*, judgement doesn't compress (https://www.growth-memo.com/)
+- 2026-04, `how-to-craft-a-winning-seo-strategy-by-kevin-indig.md` (operator essay archive)
+- 2026-04, `what-is-user-intent-how-to-optimize-for-it-like-a-pro.md` (operator essay archive)
+- 2026-04, `seo-strategy-archetypes-by-kevin-indig-growth-memo.md` (operator essay archive)
+- 2026-04, `an-introduction-to-integrator-seo-strategies.md` (operator essay archive)
+- 2026-04, `the-changing-dynamic-of-programmatic-seo-by-kevin-indig.md` (operator essay archive)
+- 2026-04, `optimizing-for-user-intent-with-content-tuning.md` (operator essay archive)
+- 2026-04, `solving-fragmented-user-intent-by-kevin-indig.md` (operator essay archive)
+- 2026-04, `a-better-approach-to-keyword-research-for-content-marketing.md` (operator essay archive)
+- 2026-04, `seo-first-principles-by-kevin-indig-growth-memo.md` (operator essay archive)

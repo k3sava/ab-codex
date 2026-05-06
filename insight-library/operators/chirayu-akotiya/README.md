@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Chirayu Akotiya — Global Head of Marketing | Hiring for Field Marketing and ABM Leaders
+Chirayu Akotiya, Global Head of Marketing | Hiring for Field Marketing and ABM Leaders
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

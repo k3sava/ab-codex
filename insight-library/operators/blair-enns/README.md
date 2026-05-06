@@ -26,14 +26,14 @@ Blair Enns has spent over two decades teaching creative professionals to win bus
 - **Proposal Writing**
 
 ## Cards
-- `ins_anchor-high-pricing` — Anchor with the most expensive option first; price the client, not the service [Tier A]
-- `ins_three-levels-financial-success` — Three levels of agency financial success: Efficient Firm, Value-Curious Firm, Entrepreneur [Tier B]
+- `ins_anchor-high-pricing`, Anchor with the most expensive option first; price the client, not the service [Tier A]
+- `ins_three-levels-financial-success`, Three levels of agency financial success: Efficient Firm, Value-Curious Firm, Entrepreneur [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `anchor-high-win-without-pitching.md` (operator essay archive)
-- 2026-04 — `pros-and-cons-of-publishing-pricing-for-creative-agencies.md` (operator essay archive)
-- 2026-04 — `the-justice-of-price-premiums-win-without-pitching.md` (operator essay archive)
-- 2026-04 — `3-levels-of-financial-success-risk-for-creative-agencies.md` (operator essay archive)
-- 2026-04 — `pricing-four-steps-to-the-value-conversation-and-one-hack.md` (operator essay archive)
-- 2026-04 — `how-and-when-to-talk-about-your-firm-win-without-pitching.md` (operator essay archive)
+- 2026-04, `anchor-high-win-without-pitching.md` (operator essay archive)
+- 2026-04, `pros-and-cons-of-publishing-pricing-for-creative-agencies.md` (operator essay archive)
+- 2026-04, `the-justice-of-price-premiums-win-without-pitching.md` (operator essay archive)
+- 2026-04, `3-levels-of-financial-success-risk-for-creative-agencies.md` (operator essay archive)
+- 2026-04, `pricing-four-steps-to-the-value-conversation-and-one-hack.md` (operator essay archive)
+- 2026-04, `how-and-when-to-talk-about-your-firm-win-without-pitching.md` (operator essay archive)

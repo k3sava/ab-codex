@@ -24,14 +24,14 @@ Neil Rackham is the original scientist of sales. His 35,000-call, 12-year, 27-co
 - **Data Driven Sales Optimization**
 
 ## Cards
-- `ins_spin-implication-questions` — In large sales, only explicit needs predict success — Implication questions are the highest-leverage move [Tier A]
-- `ins_rackham-closing-techniques-backfire` — Closing techniques work in small sales and backfire in large sales [Tier A]
-- `ins_rackham-objections-symptom-of-poor-presentation` — Objections are a symptom of feature-led presentation, not a natural part of selling [Tier A]
-- `ins_rackham-investigation-stage-creates-stars` — Star reps are made in the investigation stage, not the close — different question types are the differentiator [Tier A]
-- `ins_rackham-implication-questions-4x-leverage` — Top reps ask 4× more Implication questions — the highest-leverage question type in large sales [Tier A]
+- `ins_spin-implication-questions`, In large sales, only explicit needs predict success, Implication questions are the highest-leverage move [Tier A]
+- `ins_rackham-closing-techniques-backfire`, Closing techniques work in small sales and backfire in large sales [Tier A]
+- `ins_rackham-objections-symptom-of-poor-presentation`, Objections are a symptom of feature-led presentation, not a natural part of selling [Tier A]
+- `ins_rackham-investigation-stage-creates-stars`, Star reps are made in the investigation stage, not the close, different question types are the differentiator [Tier A]
+- `ins_rackham-implication-questions-4x-leverage`, Top reps ask 4× more Implication questions, the highest-leverage question type in large sales [Tier A]
 
 
 ## Sources captured
-- 2026-04 — `neil-rackham-spin-selling-methodology.md` (operator essay archive)
-- 2026-04 — `neil-rackham-spin-selling-implied-explicit-needs.md` (operator essay archive)
-- 2026-04 — `neil-rackham-spin-selling-research-findings.md` (operator essay archive)
+- 2026-04, `neil-rackham-spin-selling-methodology.md` (operator essay archive)
+- 2026-04, `neil-rackham-spin-selling-implied-explicit-needs.md` (operator essay archive)
+- 2026-04, `neil-rackham-spin-selling-research-findings.md` (operator essay archive)

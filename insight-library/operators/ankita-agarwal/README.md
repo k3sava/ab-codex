@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Ankita Agarwal — Claude Code pilled | GTM, SaaS | IIMA
+Ankita Agarwal, Claude Code pilled | GTM, SaaS | IIMA
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

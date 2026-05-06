@@ -26,11 +26,11 @@ Cyrus Shepard occupies a unique position in the SEO world: he is one of the few 
 - **Search Intent Mapping**
 
 ## Cards
-- `ins_eeat-quality-rater-perspective` — E-E-A-T isn't a ranking factor; it's the rubric raters use, and Google approximates it via indirect signals [Tier A]
+- `ins_eeat-quality-rater-perspective`, E-E-A-T isn't a ranking factor; it's the rubric raters use, and Google approximates it via indirect signals [Tier A]
 
 
 ## Sources captured
-- 2026-04 — `i-secretly-worked-as-a-google-search-quality-rater-you-can-too-zyppy-seo.md` (operator essay archive)
-- 2026-04 — `google-rewrites-61-of-page-title-tags-seo-study.md` (operator essay archive)
-- 2026-04 — `23-million-internal-links-seo-case-study.md` (operator essay archive)
-- 2026-04 — `introducing-the-google-page-quality-rating-scorecard-zyppy-seo.md` (operator essay archive)
+- 2026-04, `i-secretly-worked-as-a-google-search-quality-rater-you-can-too-zyppy-seo.md` (operator essay archive)
+- 2026-04, `google-rewrites-61-of-page-title-tags-seo-study.md` (operator essay archive)
+- 2026-04, `23-million-internal-links-seo-case-study.md` (operator essay archive)
+- 2026-04, `introducing-the-google-page-quality-rating-scorecard-zyppy-seo.md` (operator essay archive)

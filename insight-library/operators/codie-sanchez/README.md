@@ -25,10 +25,10 @@ Codie Sanchez's system of thought begins with a contrarian observation from her 
 - **Cash Flow Management**
 
 ## Cards
-- `ins_buy-boring-businesses` — Buying eliminates the Valley of Death — the highest-risk phase of entrepreneurship is already done [Tier B]
+- `ins_buy-boring-businesses`, Buying eliminates the Valley of Death, the highest-risk phase of entrepreneurship is already done [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `codie-sanchez-how-to-make-extraordinary-wealth-buying-boring-businesses-e319-yap.md` (operator essay archive)
-- 2026-04 — `how-to-buy-a-boring-business-like-codie-sanchez.md` (operator essay archive)
-- 2026-04 — `codie-sanchez-and-the-magic-of-contrarian-thinking.md` (operator essay archive)
+- 2026-04, `codie-sanchez-how-to-make-extraordinary-wealth-buying-boring-businesses-e319-yap.md` (operator essay archive)
+- 2026-04, `how-to-buy-a-boring-business-like-codie-sanchez.md` (operator essay archive)
+- 2026-04, `codie-sanchez-and-the-magic-of-contrarian-thinking.md` (operator essay archive)

@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Maria Ledentsova — I help you build a personal brand that attracts clients & opportunities | Notion Ambassador | GrowthMentor
+Maria Ledentsova, I help you build a personal brand that attracts clients & opportunities | Notion Ambassador | GrowthMentor
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

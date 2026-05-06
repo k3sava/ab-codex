@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Martin Uushona — Operating at the intersection of AI & content.
+Martin Uushona, Operating at the intersection of AI & content.
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

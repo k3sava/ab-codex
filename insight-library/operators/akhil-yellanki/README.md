@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Akhil Yellanki — Lead Creative Designer at JustCall | SaaS Labs | Ex. Rocketium, Zenoti
+Akhil Yellanki, Lead Creative Designer at JustCall | SaaS Labs | Ex. Rocketium, Zenoti
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

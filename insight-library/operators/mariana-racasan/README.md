@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Mariana Racasan — 3x founding PMM in B2B SaaS | Most first-time PMMs get ignored or fired, I help you become neither.
+Mariana Racasan, 3x founding PMM in B2B SaaS | Most first-time PMMs get ignored or fired, I help you become neither.
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

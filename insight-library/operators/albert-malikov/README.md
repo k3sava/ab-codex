@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Albert Malikov — CEO @ Stacks | AI for Enterprise Accounting | Breaking Down AI in Finance
+Albert Malikov, CEO @ Stacks | AI for Enterprise Accounting | Breaking Down AI in Finance
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

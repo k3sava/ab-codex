@@ -13,7 +13,7 @@ external:
 # Jacob Warwick
 
 ## Bio
-Behind-the-scenes negotiator for senior tech execs, professional athletes, and Hollywood writers. Reports >$1B in additional client comp delivered. Operates a fingerprintless practice — clients seldom credit him publicly. Vocal advocate that negotiation begins with public positioning, not in the offer call.
+Jacob Warwick. Behind-the-scenes negotiator for senior tech execs, professional athletes, and Hollywood writers. Reports >$1B in additional client comp delivered. Operates a fingerprintless practice, clients seldom credit him publicly. Vocal advocate that negotiation begins with public positioning, not in the offer call.
 
 ## Operating themes
 - **Negotiation starts before the first call.** Public positioning sets the anchor.
@@ -22,8 +22,8 @@ Behind-the-scenes negotiator for senior tech execs, professional athletes, and H
 - **Performance triggers expand the pie.** Milestones, equity refreshes, severance protection.
 
 ## Cards
-- `ins_negotiation-starts-before-first-call` — Negotiation begins with the LinkedIn snapshot [Tier A]
-- `ins_information-asymmetry-werewolf` — Close the asymmetry first; intel is the game [Tier B]
+- `ins_negotiation-starts-before-first-call`, Negotiation begins with the LinkedIn snapshot [Tier A]
+- `ins_information-asymmetry-werewolf`, Close the asymmetry first; intel is the game [Tier B]
 
 ## Sources captured
-- 2026-04-28 — Lenny's Podcast, "Comp negotiation and information asymmetry" (`raw/podcasts/jacob-warwick--comp-negotiation-information-asymmetry--2026-04-28.md`)
+- 2026-04-28, Lenny's Podcast, "Comp negotiation and information asymmetry" (`raw/podcasts/jacob-warwick--comp-negotiation-information-asymmetry--2026-04-28.md`)

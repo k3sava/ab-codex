@@ -15,7 +15,7 @@ external:
 # Benjamin Mann
 
 ## Bio
-Co-founder of Anthropic and tech lead for product engineering. Former architect on OpenAI's GPT-3. Public reference voice on Anthropic's transformative-AI thesis, the Economic Turing Test as the right benchmark for AI capability claims, and the constitutional-AI framing of values as the upstream source of model personality and brand trust.
+Benjamin Mann. Co-founder of Anthropic and tech lead for product engineering. Former architect on OpenAI's GPT-3. Public reference voice on Anthropic's transformative-AI thesis, the Economic Turing Test as the right benchmark for AI capability claims, and the constitutional-AI framing of values as the upstream source of model personality and brand trust.
 
 ## Operating themes
 - **The Economic Turing Test.** Per-role contractor substitution test; aggregate to 50% money-weighted = transformative AI.
@@ -24,8 +24,8 @@ Co-founder of Anthropic and tech lead for product engineering. Former architect 
 - **Mission over money.** Anthropic retains talent against $100M poaches because the mission outranks the comp.
 
 ## Cards
-- `ins_economic-turing-test-for-ai` — Per-role contractor-substitution test; aggregate to a money-weighted basket [Tier A]
-- `ins_use-new-tools-as-new-tools` — Ambitious framing plus reset-from-scratch beats iterative tweaks [Tier A]
+- `ins_economic-turing-test-for-ai`, Per-role contractor-substitution test; aggregate to a money-weighted basket [Tier A]
+- `ins_use-new-tools-as-new-tools`, Ambitious framing plus reset-from-scratch beats iterative tweaks [Tier A]
 
 ## Sources captured
-- 2026-04-28 — Lenny's Podcast, "The Economic Turing Test, mission over money, transformative AI" (`raw/podcasts/benjamin-mann--economic-turing-test--2026-04-28.md`)
+- 2026-04-28, Lenny's Podcast, "The Economic Turing Test, mission over money, transformative AI" (`raw/podcasts/benjamin-mann--economic-turing-test--2026-04-28.md`)

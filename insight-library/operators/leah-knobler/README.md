@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Leah Knobler — VP of People at Help Scout | Strategic People Leader | AI Tinkerer | Talent Acquisition | Performance Management | Remote & Distributed Teams | DEI advocate
+Leah Knobler, VP of People at Help Scout | Strategic People Leader | AI Tinkerer | Talent Acquisition | Performance Management | Remote & Distributed Teams | DEI advocate
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

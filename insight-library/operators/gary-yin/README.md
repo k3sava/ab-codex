@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Gary Yin — Growth @ Motion & Wonderly | Building Free Software Tools For Small Biz
+Gary Yin, Growth @ Motion & Wonderly | Building Free Software Tools For Small Biz
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

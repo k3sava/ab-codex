@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Sajjan Jain — Founder at Invest Smartly. Love building Products. Ex-Wingman, Clari and Cisco.
+Sajjan Jain, Founder at Invest Smartly. Love building Products. Ex-Wingman, Clari and Cisco.
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

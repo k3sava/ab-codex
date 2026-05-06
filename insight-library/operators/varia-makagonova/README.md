@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Varia Makagonova — Sr. Dir. Integrated Marketing | Where brand meets pipeline @ Contentstack
+Varia Makagonova, Sr. Dir. Integrated Marketing | Where brand meets pipeline @ Contentstack
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

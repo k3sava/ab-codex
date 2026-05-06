@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Anand Karunan — Machine Learning Engineer | Mercari India | IIT Bombay
+Anand Karunan, Machine Learning Engineer | Mercari India | IIT Bombay
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

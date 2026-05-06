@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Victor C. — Recruitment, HR & Tech Enthusiast
+Victor C., Recruitment, HR & Tech Enthusiast
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

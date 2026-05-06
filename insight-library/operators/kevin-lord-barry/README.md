@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Kevin Lord Barry — I wrote the only book on B2B ads on Amazon. Read more about ‘Do What Works’ below! 👇
+Kevin Lord Barry, I wrote the only book on B2B ads on Amazon. Read more about 'Do What Works' below! 👇
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Nicolas Schell — Co-Founder & CEO @ Scalantec | Clay Community Lead
+Nicolas Schell, Co-Founder & CEO @ Scalantec | Clay Community Lead
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-SHUBHAM SHRIVASTAVA — Brand Strategist & Product Designer for Health Startups | Product Design, AI Content & Automation
+SHUBHAM SHRIVASTAVA, Brand Strategist & Product Designer for Health Startups | Product Design, AI Content & Automation
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

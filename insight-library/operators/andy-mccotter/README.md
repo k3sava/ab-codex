@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Andy McCotter — Product Marketing, AI @ Apollo.io
+Andy McCotter, Product Marketing, AI @ Apollo.io
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

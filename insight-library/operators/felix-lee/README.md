@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Felix Lee — CEO @ ADPList | Forbes 30u30 | Designer, making things that inspire our human experience
+Felix Lee, CEO @ ADPList | Forbes 30u30 | Designer, making things that inspire our human experience
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

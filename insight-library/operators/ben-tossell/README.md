@@ -23,10 +23,10 @@ Ben Tossell's system of thought is deeply pragmatic: he builds businesses around
 - **No Code Product Building**
 
 ## Cards
-- `ins_ai-as-copilot-not-autopilot` — AI is the co-pilot, not the autopilot — automate the 80% you understand, hold the 20% that needs taste [Tier B]
+- `ins_ai-as-copilot-not-autopilot`, AI is the co-pilot, not the autopilot, automate the 80% you understand, hold the 20% that needs taste [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `how-i-built-a-7-figure-business-in-less-than-a-year-with-ai-ben-tossell.md` (operator essay archive)
-- 2026-04 — `a-real-example-of-building-with-ai-in-2025.md` (operator essay archive)
-- 2026-04 — `how-ben-tossell-grew-bens-bites-into-a-100k-person-newsletter-in-13-months-growt.md` (operator essay archive)
+- 2026-04, `how-i-built-a-7-figure-business-in-less-than-a-year-with-ai-ben-tossell.md` (operator essay archive)
+- 2026-04, `a-real-example-of-building-with-ai-in-2025.md` (operator essay archive)
+- 2026-04, `how-ben-tossell-grew-bens-bites-into-a-100k-person-newsletter-in-13-months-growt.md` (operator essay archive)

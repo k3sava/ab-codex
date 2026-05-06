@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Ashley Herbert Popa — Leading Product Marketing at Bynder
+Ashley Herbert Popa, Leading Product Marketing at Bynder
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

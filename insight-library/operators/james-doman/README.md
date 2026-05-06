@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-James Doman — Positioning & Launches for B2B SaaS & AI | Co-founder, Inflection Studio | Product Marketing Consultant | Ex-Remote
+James Doman, Positioning & Launches for B2B SaaS & AI | Co-founder, Inflection Studio | Product Marketing Consultant | Ex-Remote
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

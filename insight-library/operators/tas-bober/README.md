@@ -25,11 +25,11 @@ Tas Bober's approach to B2B landing pages is built on a foundational reframe tha
 - **B2b Advertising Strategy**
 
 ## Cards
-- `ins_b2b-landing-page-consumption` — Conversion isn't the goal of a B2B landing page — consumption is. Send them to the next section. [Tier B]
+- `ins_b2b-landing-page-consumption`, Conversion isn't the goal of a B2B landing page, consumption is. Send them to the next section. [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `creating-landing-pages-for-b2b-saas-with-tas-bober-unlayer.md` (operator essay archive)
-- 2026-04 — `7-tips-from-tas-bober-to-improve-b2b-event-landing-pages.md` (operator essay archive)
-- 2026-04 — `optimising-b2b-landing-pages-for-real-results-with-tas-bober.md` (operator essay archive)
-- 2026-04 — `8-costly-b2b-landing-page-mistakes-and-quick-fixes-to-boost-conversions.md` (operator essay archive)
+- 2026-04, `creating-landing-pages-for-b2b-saas-with-tas-bober-unlayer.md` (operator essay archive)
+- 2026-04, `7-tips-from-tas-bober-to-improve-b2b-event-landing-pages.md` (operator essay archive)
+- 2026-04, `optimising-b2b-landing-pages-for-real-results-with-tas-bober.md` (operator essay archive)
+- 2026-04, `8-costly-b2b-landing-page-mistakes-and-quick-fixes-to-boost-conversions.md` (operator essay archive)

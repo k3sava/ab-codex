@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Roma Mehendale — B2B SaaS Sales | AI native products | GTM at Early stage startups | Enterprise Sales | Conversational AI, Revenue Intelligence, AI for Martech | ex-Plotline, Clari Copilot & Symbl AI
+Roma Mehendale, B2B SaaS Sales | AI native products | GTM at Early stage startups | Enterprise Sales | Conversational AI, Revenue Intelligence, AI for Martech | ex-Plotline, Clari Copilot & Symbl AI
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

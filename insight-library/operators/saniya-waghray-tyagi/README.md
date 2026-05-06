@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Saniya Waghray Tyagi — Product Marketing @ NBCUniversal | Talking careers, connection, & the power of showing up | Wharton MBA
+Saniya Waghray Tyagi, Product Marketing @ NBCUniversal | Talking careers, connection, & the power of showing up | Wharton MBA
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

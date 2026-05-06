@@ -24,15 +24,15 @@ Hermann Simon is the founding figure of professional pricing practice. While oth
 - **Willingness To Pay Research**
 
 ## Cards
-- `ins_one-percent-price-eight-percent-profit` — A 1% price increase produces 8-11% profit improvement — yet most companies have no pricing function [Tier A]
-- `ins_simon-pricing-is-structural-org-failure` — <5% of Fortune 500 companies have a pricing department; structural under-investment [Tier A]
-- `ins_simon-discounting-most-dangerous-practice` — Discounting is easy to start, nearly impossible to stop, customer expectations reset permanently [Tier A]
-- `ins_simon-single-price-always-suboptimal` — A single price for everyone is always suboptimal — segment WTP and tier accordingly [Tier A]
-- `ins_simon-premium-price-champion` — Premium pricing is sustained by continuous innovation, brand investment, and discount discipline [Tier B]
-- `ins_simon-formal-pricing-process` — Pricing needs a four-phase process and a named owner — strategy, analysis, decision, implementation [Tier B]
+- `ins_one-percent-price-eight-percent-profit`, A 1% price increase produces 8-11% profit improvement, yet most companies have no pricing function [Tier A]
+- `ins_simon-pricing-is-structural-org-failure`, <5% of Fortune 500 companies have a pricing department; structural under-investment [Tier A]
+- `ins_simon-discounting-most-dangerous-practice`, Discounting is easy to start, nearly impossible to stop, customer expectations reset permanently [Tier A]
+- `ins_simon-single-price-always-suboptimal`, A single price for everyone is always suboptimal, segment WTP and tier accordingly [Tier A]
+- `ins_simon-premium-price-champion`, Premium pricing is sustained by continuous innovation, brand investment, and discount discipline [Tier B]
+- `ins_simon-formal-pricing-process`, Pricing needs a four-phase process and a named owner, strategy, analysis, decision, implementation [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `book-summary-confessions-of-the-pricing-man-by-hermann-simon.md` (operator essay archive)
-- 2026-04 — `pricing-and-the-ceo-hermann-simon-chairman-simon-kucher-partners.md` (operator essay archive)
-- 2026-04 — `pricing-for-profit-best-practices-in-price-management.md` (operator essay archive)
+- 2026-04, `book-summary-confessions-of-the-pricing-man-by-hermann-simon.md` (operator essay archive)
+- 2026-04, `pricing-and-the-ceo-hermann-simon-chairman-simon-kucher-partners.md` (operator essay archive)
+- 2026-04, `pricing-for-profit-best-practices-in-price-management.md` (operator essay archive)

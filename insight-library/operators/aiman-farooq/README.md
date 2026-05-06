@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Aiman Farooq — Product Marketing at Meta Superintelligence Labs
+Aiman Farooq, Product Marketing at Meta Superintelligence Labs
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

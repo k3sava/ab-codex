@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Grace Allen — Associate Director of Strategic Communications & Executive Thought Leadership at The Weather Company
+Grace Allen, Associate Director of Strategic Communications & Executive Thought Leadership at The Weather Company
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

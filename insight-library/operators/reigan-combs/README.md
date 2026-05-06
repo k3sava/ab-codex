@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Reigan Combs — Marketing Leader
+Reigan Combs, Marketing Leader
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

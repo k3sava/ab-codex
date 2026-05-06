@@ -26,11 +26,11 @@ Jay Acunzo's central intellectual project is dismantling the best practices para
 - **Content Quality Standards**
 
 ## Cards
-- `ins_resonance-over-reach` — Resonance with 1,000 in-market readers beats reach to 100,000 strangers [Tier A]
+- `ins_resonance-over-reach`, Resonance with 1,000 in-market readers beats reach to 100,000 strangers [Tier A]
 
 
 ## Sources captured
-- 2026-04 — `resonance-over-reach-a-conversation-with-jay-acunzo-velocity-partners.md` (operator essay archive)
-- 2026-04 — `intuition-beats-best-practice-an-interview-with-jay-acunzo-velocity-partners.md` (operator essay archive)
-- 2026-04 — `escaping-the-attention-economy-resonance-over-reach-with-jay-acunzo-off-the-grid.md` (operator essay archive)
-- 2026-04 — `marketing-has-a-best-practices-problem-jay-acunzo.md` (operator essay archive)
+- 2026-04, `resonance-over-reach-a-conversation-with-jay-acunzo-velocity-partners.md` (operator essay archive)
+- 2026-04, `intuition-beats-best-practice-an-interview-with-jay-acunzo-velocity-partners.md` (operator essay archive)
+- 2026-04, `escaping-the-attention-economy-resonance-over-reach-with-jay-acunzo-off-the-grid.md` (operator essay archive)
+- 2026-04, `marketing-has-a-best-practices-problem-jay-acunzo.md` (operator essay archive)

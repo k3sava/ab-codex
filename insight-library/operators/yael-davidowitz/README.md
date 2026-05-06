@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Yael Davidowitz — Director of Product Marketing | AI Infrastructure, Developer Platforms, and Enterprise GTM | ex-Google
+Yael Davidowitz, Director of Product Marketing | AI Infrastructure, Developer Platforms, and Enterprise GTM | ex-Google
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

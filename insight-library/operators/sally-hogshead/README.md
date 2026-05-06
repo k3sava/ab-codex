@@ -25,10 +25,10 @@ Sally Hogshead is the originator of Fascination Science, a research-backed syste
 - **Messaging House Construction**
 
 ## Cards
-- `ins_different-is-better-than-better` — Different is better than better — you don't learn how to be fascinating, you unlearn how to be boring [Tier B]
+- `ins_different-is-better-than-better`, Different is better than better, you don't learn how to be fascinating, you unlearn how to be boring [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `fascinate-speed-summary-your-seven-triggers-to-persuasion-captivation-brand-gene.md` (operator essay archive)
-- 2026-04 — `fascination-advantage-assessment-shockingly-different-leadership.md` (operator essay archive)
-- 2026-04 — `sally-hogshead-wikipedia.md` (operator essay archive)
+- 2026-04, `fascinate-speed-summary-your-seven-triggers-to-persuasion-captivation-brand-gene.md` (operator essay archive)
+- 2026-04, `fascination-advantage-assessment-shockingly-different-leadership.md` (operator essay archive)
+- 2026-04, `sally-hogshead-wikipedia.md` (operator essay archive)

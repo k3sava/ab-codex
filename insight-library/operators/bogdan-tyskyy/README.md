@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Bogdan Tyskyy — Revenue Operations & GTM (SaaS Labs) | General Manager & Board Member (CallPage) | Business Leader | Passionate About Helping SaaS Companies Grow & Succeed
+Bogdan Tyskyy, Revenue Operations & GTM (SaaS Labs) | General Manager & Board Member (CallPage) | Business Leader | Passionate About Helping SaaS Companies Grow & Succeed
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

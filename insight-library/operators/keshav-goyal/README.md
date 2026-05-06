@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Keshav Goyal — “30,000+ Connections | Founder @The Ulta Camera | Co-Founder Project Uncut | Sales & Operations at Akasa Delhi | Curating Luxury Experiences & Strategic Growth”
+Keshav Goyal, "30,000+ Connections | Founder @The Ulta Camera | Co-Founder Project Uncut | Sales & Operations at Akasa Delhi | Curating Luxury Experiences & Strategic Growth"
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

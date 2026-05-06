@@ -14,7 +14,7 @@ external:
 # Ayo Omojola
 
 ## Bio
-Scaled Cash App from sub-50K to 50M+ active users and built the Cash Card as a moonshot inside Square. Then transitioned to Carbon Health, a vertically integrated healthcare provider. Now angel-invests and advises dozens of founders. Known for "going deep to bedrock" — pushing past inherited beliefs until reaching real constraints — and for the three-check differentiation rule (different + better + matters).
+Ayo Omojola. Scaled Cash App from sub-50K to 50M+ active users and built the Cash Card as a moonshot inside Square. Then transitioned to Carbon Health, a vertically integrated healthcare provider. Now angel-invests and advises dozens of founders. Known for "going deep to bedrock", pushing past inherited beliefs until reaching real constraints, and for the three-check differentiation rule (different + better + matters).
 
 ## Operating themes
 - **Different + better + matters viscerally.** The three-check filter for any differentiation claim.
@@ -23,8 +23,8 @@ Scaled Cash App from sub-50K to 50M+ active users and built the Cash Card as a m
 - **Small + senior + trusted teams.** Resist headcount growth.
 
 ## Cards
-- `ins_different-better-and-matters` — Differentiation needs different, better, and matters viscerally [Tier A]
-- `ins_going-deep-to-bedrock` — Push past expert opinion to actual law of physics or contract [Tier A]
+- `ins_different-better-and-matters`, Differentiation needs different, better, and matters viscerally [Tier A]
+- `ins_going-deep-to-bedrock`, Push past expert opinion to actual law of physics or contract [Tier A]
 
 ## Sources captured
-- 2026-04-28 — Lenny's Podcast, "Differentiation, design depth, regulated industries" (`raw/podcasts/ayo-omojola--differentiation-design-depth--2026-04-28.md`)
+- 2026-04-28, Lenny's Podcast, "Differentiation, design depth, regulated industries" (`raw/podcasts/ayo-omojola--differentiation-design-depth--2026-04-28.md`)

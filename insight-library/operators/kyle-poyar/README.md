@@ -26,15 +26,15 @@ Kyle Poyar is the leading practitioner-analyst at the intersection of product-le
 - **Saas Benchmarking**
 
 ## Cards
-- `ins_skill-as-unit-of-distribution` — The unit of distribution for operator expertise is the Skill, not the prompt [Tier B]
+- `ins_skill-as-unit-of-distribution`, The unit of distribution for operator expertise is the Skill, not the prompt [Tier B]
 
 ## Sources captured
-- 2026-04 — `how-to-run-a-pricing-project.md` (operator essay archive)
-- 2026-04 — `your-pricing-is-probably-broken.md` (operator essay archive)
-- 2026-04 — `usage-based-pricing-20-openview.md` (operator essay archive)
-- 2026-04 — `a-new-framework-for-ai-agent-pricing.md` (operator essay archive)
-- 2026-04 — `from-selling-access-to-selling-work-and-what-it-means-for-you.md` (operator essay archive)
-- 2026-04 — `free-to-paid-conversion-benchmarks-2026-kyle-poyar.md` (operator essay archive)
-- 2026-04 — `the-2026-free-to-paid-conversion-report.md` (operator essay archive)
-- 2026-04 — `the-ai-churn-wave.md` (operator essay archive)
-- 2026-04 — `the-compounding-startup.md` (operator essay archive)
+- 2026-04, `how-to-run-a-pricing-project.md` (operator essay archive)
+- 2026-04, `your-pricing-is-probably-broken.md` (operator essay archive)
+- 2026-04, `usage-based-pricing-20-openview.md` (operator essay archive)
+- 2026-04, `a-new-framework-for-ai-agent-pricing.md` (operator essay archive)
+- 2026-04, `from-selling-access-to-selling-work-and-what-it-means-for-you.md` (operator essay archive)
+- 2026-04, `free-to-paid-conversion-benchmarks-2026-kyle-poyar.md` (operator essay archive)
+- 2026-04, `the-2026-free-to-paid-conversion-report.md` (operator essay archive)
+- 2026-04, `the-ai-churn-wave.md` (operator essay archive)
+- 2026-04, `the-compounding-startup.md` (operator essay archive)

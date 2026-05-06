@@ -15,7 +15,7 @@ external:
 # Kieran Flanagan
 
 ## Bio
-Former CMO of HubSpot, now leads HubSpot's Agentic GTM & Systems group — a cross-functional pod (product, engineering, data science, operations, marketing tech, digital experience) chartered to rebuild HubSpot's go-to-market around AI rather than integrate AI across existing functions. The pod's predecessor — Flywheel AI — produced HubSpot's headline AI-GTM numbers reported by CEO Yamini Rangan in late April 2026.
+Kieran Flanagan. Former CMO of HubSpot, now leads HubSpot's Agentic GTM & Systems group, a cross-functional pod (product, engineering, data science, operations, marketing tech, digital experience) chartered to rebuild HubSpot's go-to-market around AI rather than integrate AI across existing functions. The pod's predecessor, Flywheel AI, produced HubSpot's headline AI-GTM numbers reported by CEO Yamini Rangan in late April 2026.
 
 ## Operating themes
 - **Rebuild GTM around AI, don't integrate AI into GTM.** The bigger swing requires structural rework, not toolchain bolting.
@@ -23,10 +23,10 @@ Former CMO of HubSpot, now leads HubSpot's Agentic GTM & Systems group — a cro
 - **Pass learnings back to customers.** Internal AI-GTM playbooks become product features and external playbooks within 1-2 quarters.
 
 ## Cards
-- `ins_rebuild-gtm-around-ai` — Rebuild GTM around AI; do not integrate AI into existing GTM [Tier A]
+- `ins_rebuild-gtm-around-ai`, Rebuild GTM around AI; do not integrate AI into existing GTM [Tier A]
 
 ## Sources captured
-- 2026-05-01 — LinkedIn post: "I'm officially no longer a marketer" (`raw/threads/kieran-flanagan--no-longer-a-marketer--2026-05-01.md`)
+- 2026-05-01, LinkedIn post: "I'm officially no longer a marketer" (`raw/threads/kieran-flanagan--no-longer-a-marketer--2026-05-01.md`)
 
 ## Related operators
-- Yamini Rangan (HubSpot CEO) — reports the same outcomes from the CEO seat
+- Yamini Rangan (HubSpot CEO), reports the same outcomes from the CEO seat

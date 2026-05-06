@@ -24,10 +24,10 @@ Lenny Rachitsky's central contribution to AI product thinking is reframing the p
 - **Community Led Growth**
 
 ## Cards
-- `ins_pm-as-orchestrator-of-agents` — AI raises the bar for PMs — tactical work is delegatable; judgment, taste, and customer empathy become more valuable [Tier B]
+- `ins_pm-as-orchestrator-of-agents`, AI raises the bar for PMs, tactical work is delegatable; judgment, taste, and customer empathy become more valuable [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `make-product-management-fun-again-with-ai-agents.md` (operator essay archive)
-- 2026-04 — `how-ai-is-reshaping-the-product-role-oji-and-ezinne-udezue.md` (operator essay archive)
-- 2026-04 — `the-complete-lenny-rachitsky-playbook-prompts-growth-frameworks-and-strategies-p.md` (operator essay archive)
+- 2026-04, `make-product-management-fun-again-with-ai-agents.md` (operator essay archive)
+- 2026-04, `how-ai-is-reshaping-the-product-role-oji-and-ezinne-udezue.md` (operator essay archive)
+- 2026-04, `the-complete-lenny-rachitsky-playbook-prompts-growth-frameworks-and-strategies-p.md` (operator essay archive)

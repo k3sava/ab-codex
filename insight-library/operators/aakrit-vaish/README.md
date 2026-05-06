@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Aakrit Vaish — Activating AI in India
+Aakrit Vaish, Activating AI in India
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

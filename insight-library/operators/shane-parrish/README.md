@@ -24,12 +24,12 @@ Shane Parrish's core project is making multidisciplinary thinking accessible and
 - **First Principles Thinking**
 
 ## Cards
-- `ins_inversion-and-circle-of-competence` — The quality of your thinking determines the quality of your life — operate inside your circle of competence [Tier B]
+- `ins_inversion-and-circle-of-competence`, The quality of your thinking determines the quality of your life, operate inside your circle of competence [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `what-is-first-principles-thinking.md` (operator essay archive)
-- 2026-04 — `second-order-thinking-what-smart-people-use-to-outperform.md` (operator essay archive)
-- 2026-04 — `inversion-the-power-of-avoiding-stupidity.md` (operator essay archive)
-- 2026-04 — `mastering-success-navigating-within-your-circle-of-competence.md` (operator essay archive)
-- 2026-04 — `mental-models-the-best-way-to-make-intelligent-decisions-100-models-explained.md` (operator essay archive)
+- 2026-04, `what-is-first-principles-thinking.md` (operator essay archive)
+- 2026-04, `second-order-thinking-what-smart-people-use-to-outperform.md` (operator essay archive)
+- 2026-04, `inversion-the-power-of-avoiding-stupidity.md` (operator essay archive)
+- 2026-04, `mastering-success-navigating-within-your-circle-of-competence.md` (operator essay archive)
+- 2026-04, `mental-models-the-best-way-to-make-intelligent-decisions-100-models-explained.md` (operator essay archive)

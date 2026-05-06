@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Aimee Sprung — Director, State Government Affairs at Microsoft
+Aimee Sprung, Director, State Government Affairs at Microsoft
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Krishnam Malpani — Senior Marketing Manager—Humantic AI || Field Marketer || Project Manager || Consultant || Partnerships
+Krishnam Malpani, Senior Marketing Manager, Humantic AI || Field Marketer || Project Manager || Consultant || Partnerships
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Svitlana Shuliak — Product Marketing Manager @ Reply.io | Product Marketing, Positioning & GTM | Sharing how to make products easier to understand and sell 💓
+Svitlana Shuliak, Product Marketing Manager @ Reply.io | Product Marketing, Positioning & GTM | Sharing how to make products easier to understand and sell 💓
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

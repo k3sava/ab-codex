@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Bharath Krishna Pai — Tinkering with AI, automations, and content | Deep in the AI stack since 2017 | RAG, prompt engineering, agents
+Bharath Krishna Pai, Tinkering with AI, automations, and content | Deep in the AI stack since 2017 | RAG, prompt engineering, agents
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

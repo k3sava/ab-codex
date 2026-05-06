@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Sanne IJspeerd — Fractional Product Marketing Lead for B2B SaaS
+Sanne IJspeerd, Fractional Product Marketing Lead for B2B SaaS
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

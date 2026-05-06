@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Ciana Abdollahian — Customer marketer navigating a LinkedIn identity crisis | Unsolicited job search advice, AI experiments, and all things customer marketing
+Ciana Abdollahian, Customer marketer navigating a LinkedIn identity crisis | Unsolicited job search advice, AI experiments, and all things customer marketing
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

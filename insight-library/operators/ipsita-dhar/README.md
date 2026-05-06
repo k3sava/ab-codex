@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Ipsita Dhar — Love the intersection of content, AI, automation, and operations.
+Ipsita Dhar, Love the intersection of content, AI, automation, and operations.
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Mridula Joshi — Content Marketer | Brand strategist
+Mridula Joshi, Content Marketer | Brand strategist
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

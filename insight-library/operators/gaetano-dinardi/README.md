@@ -26,10 +26,10 @@ Gaetano DiNardi's approach to B2B demand generation is built on a single operati
 - **Content Distribution Strategy**
 
 ## Cards
-- `ins_video-first-double-serp` — Video + matching article = double SERP occupancy. Two of ten organic positions, taken from competitors. [Tier B]
+- `ins_video-first-double-serp`, Video + matching article = double SERP occupancy. Two of ten organic positions, taken from competitors. [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `future-search-for-saas-a-new-era-of-growth-and-discovery-gaetano-dinardi.md` (operator essay archive)
-- 2026-04 — `how-gaetano-dinardi-builds-demand-generation-engines-on-maker-mixtapes-grizzle.md` (operator essay archive)
-- 2026-04 — `b2b-marketing-agency-unveils-secrets-to-lead-generation-growth-hacking-and-deman.md` (operator essay archive)
+- 2026-04, `future-search-for-saas-a-new-era-of-growth-and-discovery-gaetano-dinardi.md` (operator essay archive)
+- 2026-04, `how-gaetano-dinardi-builds-demand-generation-engines-on-maker-mixtapes-grizzle.md` (operator essay archive)
+- 2026-04, `b2b-marketing-agency-unveils-secrets-to-lead-generation-growth-hacking-and-deman.md` (operator essay archive)

@@ -25,11 +25,11 @@ Sarah Levinger occupies a unique position at the intersection of consumer psycho
 - **B2b Creative Strategy**
 
 ## Cards
-- `ins_psychology-based-creative-emotional-data` — Transactional data tells half the story — winning ads uncover the emotional context behind decisions [Tier B]
+- `ins_psychology-based-creative-emotional-data`, Transactional data tells half the story, winning ads uncover the emotional context behind decisions [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `harnessing-psychology-in-creative-strategy-sarah-levingers-insights-on-consumer-.md` (operator essay archive)
-- 2026-04 — `the-psychology-of-high-performing-ads-how-sarah-levinger-unlocks-emotional-data-.md` (operator essay archive)
-- 2026-04 — `how-to-use-psychology-in-facebook-tiktok-advertising.md` (operator essay archive)
-- 2026-04 — `how-psychology-based-creative-is-changing-the-dtc-industry-triple-whale.md` (operator essay archive)
+- 2026-04, `harnessing-psychology-in-creative-strategy-sarah-levingers-insights-on-consumer-.md` (operator essay archive)
+- 2026-04, `the-psychology-of-high-performing-ads-how-sarah-levinger-unlocks-emotional-data-.md` (operator essay archive)
+- 2026-04, `how-to-use-psychology-in-facebook-tiktok-advertising.md` (operator essay archive)
+- 2026-04, `how-psychology-based-creative-is-changing-the-dtc-industry-triple-whale.md` (operator essay archive)

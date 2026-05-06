@@ -24,10 +24,10 @@ Paul Jarvis's system of thought begins with a question that most business advice
 - **Service Productization**
 
 ## Cards
-- `ins_company-of-one-define-enough` — A company of one questions whether growth is good — and defines 'enough' before 'more' [Tier B]
+- `ins_company-of-one-define-enough`, A company of one questions whether growth is good, and defines 'enough' before 'more' [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `how-to-be-a-successful-company-of-one-with-paul-jarvis-the-creative-penn.md` (operator essay archive)
-- 2026-04 — `book-summary-company-of-one-paul-jarvis.md` (operator essay archive)
-- 2026-04 — `paul-jarvis-built-a-million-dollar-business-with-zero-employees-the-company-of-o.md` (operator essay archive)
+- 2026-04, `how-to-be-a-successful-company-of-one-with-paul-jarvis-the-creative-penn.md` (operator essay archive)
+- 2026-04, `book-summary-company-of-one-paul-jarvis.md` (operator essay archive)
+- 2026-04, `paul-jarvis-built-a-million-dollar-business-with-zero-employees-the-company-of-o.md` (operator essay archive)

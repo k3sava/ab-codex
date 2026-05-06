@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Vinayak Padiyar — Senior Executive | Strategy | SAR Logistics | RTW Logistics
+Vinayak Padiyar, Senior Executive | Strategy | SAR Logistics | RTW Logistics
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

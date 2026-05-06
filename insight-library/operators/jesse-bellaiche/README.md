@@ -14,7 +14,7 @@ external:
 # Jesse Bellaiche
 
 ## Bio
-LinkedIn operator publishing on pmm, growth, ai-native. Headline: "🧱 Senior PMM @Pennylane | ex-Qonto | I help tech companies turn customer insights into Go-To-Market strategies that drive adoption & revenue growth—leveraging AI, Data & Visual Management.". Surfaced via Pass B3 ingest of 447 reactions.
+Jesse Bellaiche. LinkedIn operator publishing on pmm, growth, ai-native. Headline: "🧱 Senior PMM @Pennylane | ex-Qonto | I help tech companies turn customer insights into Go-To-Market strategies that drive adoption & revenue growth, leveraging AI, Data & Visual Management.". Surfaced via Pass B3 ingest of 447 reactions.
 
 ## Operating themes
 - Theme captured from the post body in this pass; expand on next ingest.
@@ -23,4 +23,4 @@ LinkedIn operator publishing on pmm, growth, ai-native. Headline: "🧱 Senior P
 - See `insights/` for cards attributed to this operator.
 
 ## Sources captured
-- 2026-05-02 — LinkedIn reactions ingest Pass B3 (`raw/linkedin/reactions/linkedin-reactions-2026-04-10.md`)
+- 2026-05-02, LinkedIn reactions ingest Pass B3 (`raw/linkedin/reactions/linkedin-reactions-2026-04-10.md`)

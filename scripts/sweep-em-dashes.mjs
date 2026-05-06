@@ -88,8 +88,7 @@ async function main(){
   targets.push(...(await walk(join(ROOT, "synthesis"))));
   targets.push(...(await walk(join(ROOT, "playbooks"))));
   targets.push(...(await walk(join(ROOT, "daily"))));
-  // operator bios live in operators/<slug>/README.md and are handled by a
-  // separate pass that also enforces the "first word = operator name" rule.
+  targets.push(...(await walk(join(ROOT, "operators"))));
 
   let changed = 0;
   let total = 0;

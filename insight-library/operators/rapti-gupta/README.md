@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Rapti Gupta — Head of Marketing @ Avataar Ventures | Strategic Marketing Leadership
+Rapti Gupta, Head of Marketing @ Avataar Ventures | Strategic Marketing Leadership
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

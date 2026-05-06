@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Smriti Sahu — Brand & Creative Lead | Senior Content Manager | I write pick-up lines for businesses 🎀
+Smriti Sahu, Brand & Creative Lead | Senior Content Manager | I write pick-up lines for businesses 🎀
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

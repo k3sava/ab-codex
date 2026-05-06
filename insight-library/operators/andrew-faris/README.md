@@ -25,12 +25,12 @@ Andrew Faris's approach to ecommerce growth is defined by a single, contrarian o
 - **Dtc Growth Marketing**
 
 ## Cards
-- `ins_meta-cost-caps-everywhere` — Run nearly 100% of Meta spend behind cost caps, not lowest-cost delivery [Tier A]
-- `ins_creative-is-the-spike` — Media buying is the setter; creative is the hitter — the score comes from creative [Tier B]
+- `ins_meta-cost-caps-everywhere`, Run nearly 100% of Meta spend behind cost caps, not lowest-cost delivery [Tier A]
+- `ins_creative-is-the-spike`, Media buying is the setter; creative is the hitter, the score comes from creative [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `cost-cap-strategy-for-facebook-ads-2024-guide.md` (operator essay archive)
-- 2026-04 — `how-to-scale-from-1m-to-20m-with-andrew-faris.md` (operator essay archive)
-- 2026-04 — `effective-facebook-ad-campaigns-how-to-increase-results-250.md` (operator essay archive)
-- 2026-04 — `directness-wins-in-advertising-practical-ecommerce.md` (operator essay archive)
+- 2026-04, `cost-cap-strategy-for-facebook-ads-2024-guide.md` (operator essay archive)
+- 2026-04, `how-to-scale-from-1m-to-20m-with-andrew-faris.md` (operator essay archive)
+- 2026-04, `effective-facebook-ad-campaigns-how-to-increase-results-250.md` (operator essay archive)
+- 2026-04, `directness-wins-in-advertising-practical-ecommerce.md` (operator essay archive)

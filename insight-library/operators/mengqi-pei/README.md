@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Mengqi Pei — Independent Growth Design Consultant
+Mengqi Pei, Independent Growth Design Consultant
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

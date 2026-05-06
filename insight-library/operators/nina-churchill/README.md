@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Nina Churchill — Senior Product Marketing Leader | HR & Payroll SaaS | GTM Strategy & Positioning
+Nina Churchill, Senior Product Marketing Leader | HR & Payroll SaaS | GTM Strategy & Positioning
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

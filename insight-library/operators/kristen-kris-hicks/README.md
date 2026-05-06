@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Kristen (Kris) Hicks — Freelance Content Marketing Writer, specializing in B2B tech
+Kristen (Kris) Hicks, Freelance Content Marketing Writer, specializing in B2B tech
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

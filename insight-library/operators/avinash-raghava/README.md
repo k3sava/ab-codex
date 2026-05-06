@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Avinash Raghava — Championing 🇮🇳’s 1st pay-it-forward community that accelerates SaaS & AI growth!
+Avinash Raghava, Championing 🇮🇳's 1st pay-it-forward community that accelerates SaaS & AI growth!
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

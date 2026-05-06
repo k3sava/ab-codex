@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Nikolai Golos — Product & Growth at Fluently AI (YC W24) | Improve your English speaking skills with AI
+Nikolai Golos, Product & Growth at Fluently AI (YC W24) | Improve your English speaking skills with AI
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

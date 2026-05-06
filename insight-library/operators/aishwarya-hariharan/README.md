@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Aishwarya 👾 Hariharan — Product marketing | Founding team, Atomicwork
+Aishwarya 👾 Hariharan, Product marketing | Founding team, Atomicwork
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

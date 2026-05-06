@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Sourav Ghosh — Product Marketing for B2B SaaS | GTM, PLG and Sales Intelligence
+Sourav Ghosh, Product Marketing for B2B SaaS | GTM, PLG and Sales Intelligence
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

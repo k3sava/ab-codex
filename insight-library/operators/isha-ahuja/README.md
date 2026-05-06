@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Isha Ahuja — KPMG | Government Advisory | Economic Growth | Technology and Infrastructure Management Expert @ Startup Haryana | Certified System Architect
+Isha Ahuja, KPMG | Government Advisory | Economic Growth | Technology and Infrastructure Management Expert @ Startup Haryana | Certified System Architect
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

@@ -23,13 +23,13 @@ Douglas Holt is the originator of Cultural Branding Theory and the Cultural Stra
 - **Brand Strategy Development**
 
 ## Cards
-- `ins_cultural-branding-identity-myths` — Iconic brands compete for culture share, not market share — they soothe collective anxieties through identity myths [Tier A]
+- `ins_cultural-branding-identity-myths`, Iconic brands compete for culture share, not market share, they soothe collective anxieties through identity myths [Tier A]
 
 
 ## Sources captured
-- 2026-04 — `branding-in-the-age-of-social-media.md` (operator essay archive)
-- 2026-04 — `dont-just-innovate-challenge-everyday-notions-of-value.md` (operator essay archive)
-- 2026-04 — `what-becomes-an-icon-most.md` (operator essay archive)
-- 2026-04 — `doug-holts-cultural-branding-framework-john-maedas-blog.md` (operator essay archive)
-- 2026-04 — `douglas-holt-cultural-branding-cultural-strategy-cultural-innovation.md` (operator essay archive)
-- 2026-04 — `the-next-revolution-in-brandingcultural-branding-rheakaiser.md` (operator essay archive)
+- 2026-04, `branding-in-the-age-of-social-media.md` (operator essay archive)
+- 2026-04, `dont-just-innovate-challenge-everyday-notions-of-value.md` (operator essay archive)
+- 2026-04, `what-becomes-an-icon-most.md` (operator essay archive)
+- 2026-04, `doug-holts-cultural-branding-framework-john-maedas-blog.md` (operator essay archive)
+- 2026-04, `douglas-holt-cultural-branding-cultural-strategy-cultural-innovation.md` (operator essay archive)
+- 2026-04, `the-next-revolution-in-brandingcultural-branding-rheakaiser.md` (operator essay archive)

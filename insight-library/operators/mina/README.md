@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Mina .. — Product Marketing for AI, Cyber and B2B SaaS | Pragmatic Institute Presenter | Public and Private Sectors
+Mina .., Product Marketing for AI, Cyber and B2B SaaS | Pragmatic Institute Presenter | Public and Private Sectors
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

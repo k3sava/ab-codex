@@ -21,10 +21,10 @@ Tiago Forte's Building a Second Brain methodology provides the foundational arch
 - **Ai Workflow Automation**
 
 ## Cards
-- `ins_second-brain-para` — Brains are for having ideas, not storing them — externalize knowledge so AI can compound it for you [Tier B]
+- `ins_second-brain-para`, Brains are for having ideas, not storing them, externalize knowledge so AI can compound it for you [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `building-a-second-brain-the-definitive-introductory-guide.md` (operator essay archive)
-- 2026-04 — `progressive-summarization-a-practical-technique-for-designing-discoverable-notes.md` (operator essay archive)
-- 2026-04 — `the-story-behind-building-a-second-brain-forte-labs.md` (operator essay archive)
+- 2026-04, `building-a-second-brain-the-definitive-introductory-guide.md` (operator essay archive)
+- 2026-04, `progressive-summarization-a-practical-technique-for-designing-discoverable-notes.md` (operator essay archive)
+- 2026-04, `the-story-behind-building-a-second-brain-forte-labs.md` (operator essay archive)

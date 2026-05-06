@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Rachel Peng — Full-Stack Product Marketer @ Karbon | B2B SaaS GTM Expert | Working Mom
+Rachel Peng, Full-Stack Product Marketer @ Karbon | B2B SaaS GTM Expert | Working Mom
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

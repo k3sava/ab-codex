@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Ashley Bass — Experienced SaaS Product and GtM leader | PM and PMM trainer, coach | Board Observer | Brewery Owner
+Ashley Bass, Experienced SaaS Product and GtM leader | PM and PMM trainer, coach | Board Observer | Brewery Owner
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

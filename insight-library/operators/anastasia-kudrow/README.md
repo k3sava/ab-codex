@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Anastasia Kudrow — Fix your free-to-paid conversion → · SaaS · Onboarding · Pricing · Activation · PLG · Consulting
+Anastasia Kudrow, Fix your free-to-paid conversion → · SaaS · Onboarding · Pricing · Activation · PLG · Consulting
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

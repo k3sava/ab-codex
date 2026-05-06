@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Megha Sharma — Co-Founder ONEGTMLAB | Turning founder stories into pipeline with AI-powered GTM systems | Build in Public GTM Strategist for B2B founders
+Megha Sharma, Co-Founder ONEGTMLAB | Turning founder stories into pipeline with AI-powered GTM systems | Build in Public GTM Strategist for B2B founders
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

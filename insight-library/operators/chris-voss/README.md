@@ -25,18 +25,18 @@ Chris Voss is the bridge between high-stakes hostage negotiation and commercial 
 - **Tactical Negotiation**
 
 ## Cards
-- `ins_calibrated-questions-illusion-of-control` — 'How am I supposed to do that?' — give the other party the illusion of control [Tier A]
-- `ins_no-oriented-questions` — Ask questions that earn a 'No' — saying no makes people feel safe [Tier A]
-- `ins_voss-mirroring-forces-elaboration` — Mirror the last 1-3 words; silence forces elaboration that direct questions can't [Tier A]
-- `ins_voss-accusation-audit` — Say the worst thing they could think about you first — drain the negative emotion preemptively [Tier A]
-- `ins_voss-thats-right-breakthrough` — "That's right" — not "yes" — is the moment a negotiation actually shifts [Tier A]
-- `ins_voss-black-swans-discovered-in-process` — Every negotiation has 3-5 hidden facts that change everything; they surface from rapport [Tier A]
-- `ins_voss-tactical-empathy-labels` — Label the emotion before they have to defend it — "it sounds like you're worried about..." [Tier A]
+- `ins_calibrated-questions-illusion-of-control`, 'How am I supposed to do that?', give the other party the illusion of control [Tier A]
+- `ins_no-oriented-questions`, Ask questions that earn a 'No', saying no makes people feel safe [Tier A]
+- `ins_voss-mirroring-forces-elaboration`, Mirror the last 1-3 words; silence forces elaboration that direct questions can't [Tier A]
+- `ins_voss-accusation-audit`, Say the worst thing they could think about you first, drain the negative emotion preemptively [Tier A]
+- `ins_voss-thats-right-breakthrough`, "That's right", not "yes", is the moment a negotiation actually shifts [Tier A]
+- `ins_voss-black-swans-discovered-in-process`, Every negotiation has 3-5 hidden facts that change everything; they surface from rapport [Tier A]
+- `ins_voss-tactical-empathy-labels`, Label the emotion before they have to defend it, "it sounds like you're worried about..." [Tier A]
 
 
 ## Sources captured
-- 2026-04 — `9-field-tested-no-fail-strategies-to-use-in-your-next-negotiation.md` (operator essay archive)
-- 2026-04 — `the-power-of-how-am-i-supposed-to-do-that-a-negotiation-perspective.md` (operator essay archive)
-- 2026-04 — `how-to-negotiate-with-difficult-people.md` (operator essay archive)
-- 2026-04 — `fine-tune-your-business-negotiation-skills-in-6-steps.md` (operator essay archive)
-- 2026-04 — `communication-skills-how-to-get-buy-in-starting-with-no.md` (operator essay archive)
+- 2026-04, `9-field-tested-no-fail-strategies-to-use-in-your-next-negotiation.md` (operator essay archive)
+- 2026-04, `the-power-of-how-am-i-supposed-to-do-that-a-negotiation-perspective.md` (operator essay archive)
+- 2026-04, `how-to-negotiate-with-difficult-people.md` (operator essay archive)
+- 2026-04, `fine-tune-your-business-negotiation-skills-in-6-steps.md` (operator essay archive)
+- 2026-04, `communication-skills-how-to-get-buy-in-starting-with-no.md` (operator essay archive)

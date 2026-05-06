@@ -25,12 +25,12 @@ Park Howell is the leading practitioner of applied storytelling for business and
 - **Brand Strategy Development**
 
 ## Cards
-- `ins_abt-and-but-therefore` — ABT (And, But, Therefore) is the DNA of compelling communication [Tier A]
+- `ins_abt-and-but-therefore`, ABT (And, But, Therefore) is the DNA of compelling communication [Tier A]
 
 
 ## Sources captured
-- 2026-04 — `the-most-powerful-business-storytelling-starts-with-the-abt.md` (operator essay archive)
-- 2026-04 — `the-10-step-storytelling-process-to-create-abundance-in-your-business.md` (operator essay archive)
-- 2026-04 — `learn-this-proven-brand-story-framework.md` (operator essay archive)
-- 2026-04 — `this-brand-storytelling-book-will-help-you-find-your-story.md` (operator essay archive)
-- 2026-04 — `the-7-primal-elements-to-every-business-story-that-our-caveman-brain-cant-resist.md` (operator essay archive)
+- 2026-04, `the-most-powerful-business-storytelling-starts-with-the-abt.md` (operator essay archive)
+- 2026-04, `the-10-step-storytelling-process-to-create-abundance-in-your-business.md` (operator essay archive)
+- 2026-04, `learn-this-proven-brand-story-framework.md` (operator essay archive)
+- 2026-04, `this-brand-storytelling-book-will-help-you-find-your-story.md` (operator essay archive)
+- 2026-04, `the-7-primal-elements-to-every-business-story-that-our-caveman-brain-cant-resist.md` (operator essay archive)

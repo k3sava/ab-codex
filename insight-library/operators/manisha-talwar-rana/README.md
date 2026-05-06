@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Manisha Talwar Rana — VP Product Marketing · AI Category Creation & Agentic Product Launches · Ex-Amazon · Building the GTM narrative for the future of software quality at SmartBear
+Manisha Talwar Rana, VP Product Marketing · AI Category Creation & Agentic Product Launches · Ex-Amazon · Building the GTM narrative for the future of software quality at SmartBear
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

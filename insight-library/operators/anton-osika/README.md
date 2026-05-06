@@ -14,7 +14,7 @@ external:
 # Anton Osika
 
 ## Bio
-Co-founder and CEO of Lovable, the visual-editing AI app builder. Lovable hit 10M ARR in two months with 15 people. Earlier built GPT Engineer, the open-source proof-of-concept (50K+ GH stars) that demonstrated end-to-end app generation from natural language. Operates from Stockholm; vocal advocate for in-office work, Shackleton-style hiring funnels, and weekly bottleneck-reranking over multi-quarter roadmaps.
+Anton Osika. Co-founder and CEO of Lovable, the visual-editing AI app builder. Lovable hit 10M ARR in two months with 15 people. Earlier built GPT Engineer, the open-source proof-of-concept (50K+ GH stars) that demonstrated end-to-end app generation from natural language. Operates from Stockholm; vocal advocate for in-office work, Shackleton-style hiring funnels, and weekly bottleneck-reranking over multi-quarter roadmaps.
 
 ## Operating themes
 - **Generalists with depth.** Hire people who can hold many roles and go deep in one.
@@ -23,8 +23,8 @@ Co-founder and CEO of Lovable, the visual-editing AI app builder. Lovable hit 10
 - **Visual editing as product moat.** The agent is leverage; the UI is the differentiator.
 
 ## Cards
-- `ins_generalists-over-specialists-ai-native` — Hire generalists with one deep dimension on AI-native teams [Tier A]
-- `ins_ambition-filtered-job-ads` — Write the job ad to repel and attract; first round of hiring [Tier B]
+- `ins_generalists-over-specialists-ai-native`, Hire generalists with one deep dimension on AI-native teams [Tier A]
+- `ins_ambition-filtered-job-ads`, Write the job ad to repel and attract; first round of hiring [Tier B]
 
 ## Sources captured
-- 2026-04-28 — Lenny's Podcast, "Lovable — the last piece of software" (`raw/podcasts/anton-osika--lovable-ai-engineer--2026-04-28.md`)
+- 2026-04-28, Lenny's Podcast, "Lovable, the last piece of software" (`raw/podcasts/anton-osika--lovable-ai-engineer--2026-04-28.md`)

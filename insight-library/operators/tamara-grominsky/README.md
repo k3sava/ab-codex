@@ -25,10 +25,10 @@ Tamara Grominsky is the most vocal advocate for treating product marketing as a 
 - **Product Marketing Leadership**
 
 ## Cards
-- `ins_delegation-one-hardest-skills-learn` — Delegation is one of the hardest skills to learn (and practice) as a first-time manager [Tier B]
-- `ins_everything-should-map-back-business` — Everything you do should map back to the business; you should be able to explain why [Tier B]
+- `ins_delegation-one-hardest-skills-learn`, Delegation is one of the hardest skills to learn (and practice) as a first-time manager [Tier B]
+- `ins_everything-should-map-back-business`, Everything you do should map back to the business; you should be able to explain why [Tier B]
 
 ## Sources captured
-- 2026-04 — `ama-tamara-grominsky-on-growth-product-marketing.md` (operator essay archive)
-- 2026-04 — `launch-products-like-a-pro-with-pmm-camps-tamara-grominsky-video.md` (operator essay archive)
-- 2026-04 — `84-persona-problem-promise-product-pmm-camp.md` (operator essay archive)
+- 2026-04, `ama-tamara-grominsky-on-growth-product-marketing.md` (operator essay archive)
+- 2026-04, `launch-products-like-a-pro-with-pmm-camps-tamara-grominsky-video.md` (operator essay archive)
+- 2026-04, `84-persona-problem-promise-product-pmm-camp.md` (operator essay archive)

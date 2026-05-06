@@ -26,13 +26,13 @@ Joe Pulizzi's entire body of work revolves around a single, forceful idea: conte
 - **Content Operations**
 
 ## Cards
-- `ins_content-tilt-differentiation` — If you can't articulate your content tilt, stop creating content and buy ads instead [Tier A]
+- `ins_content-tilt-differentiation`, If you can't articulate your content tilt, stop creating content and buy ads instead [Tier A]
 
 
 ## Sources captured
-- 2026-04 — `7-steps-to-build-a-successful-long-term-content-model.md` (operator essay archive)
-- 2026-04 — `one-thing-is-killing-content-marketing-and-everyone-is-ignoring-it.md` (operator essay archive)
-- 2026-04 — `are-you-guilty-of-the-one-thing-that-kills-content-marketing.md` (operator essay archive)
-- 2026-04 — `content-marketing-how-long-to-get-to-five-million-dollars-joe-pulizzi.md` (operator essay archive)
-- 2026-04 — `3-killer-content-strategies-plus-my-2024-travel-tips-joe-pulizzi.md` (operator essay archive)
-- 2026-04 — `joe-pulizzis-blueprint-for-building-a-content-business.md` (operator essay archive)
+- 2026-04, `7-steps-to-build-a-successful-long-term-content-model.md` (operator essay archive)
+- 2026-04, `one-thing-is-killing-content-marketing-and-everyone-is-ignoring-it.md` (operator essay archive)
+- 2026-04, `are-you-guilty-of-the-one-thing-that-kills-content-marketing.md` (operator essay archive)
+- 2026-04, `content-marketing-how-long-to-get-to-five-million-dollars-joe-pulizzi.md` (operator essay archive)
+- 2026-04, `3-killer-content-strategies-plus-my-2024-travel-tips-joe-pulizzi.md` (operator essay archive)
+- 2026-04, `joe-pulizzis-blueprint-for-building-a-content-business.md` (operator essay archive)

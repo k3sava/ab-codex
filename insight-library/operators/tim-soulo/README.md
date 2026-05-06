@@ -24,15 +24,15 @@ Tim Soulo is the strategic mind behind Ahrefs' content-led growth engine, which 
 - **Search Intent Mapping**
 
 ## Cards
-- `ins_ranking-via-being-worthy` — Ranking #1 isn't about beating competitors with tricks — it's about being genuinely worthy of #1 [Tier B]
+- `ins_ranking-via-being-worthy`, Ranking #1 isn't about beating competitors with tricks, it's about being genuinely worthy of #1 [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `content-that-clicks-how-ahrefs-cmo-tim-soulo-uses-seo-and-creativity-to-rank-sky.md` (operator essay archive)
-- 2026-04 — `013-the-long-game-podcast-a-fireside-chat-with-tim-soulo-cmo-at-ahrefs-omniscien.md` (operator essay archive)
-- 2026-04 — `keyword-research-the-beginners-guide-by-ahrefs.md` (operator essay archive)
-- 2026-04 — `how-to-create-quality-content-follow-our-5-level-framework.md` (operator essay archive)
-- 2026-04 — `12-link-builders-share-strategies-that-work-in-2024.md` (operator essay archive)
-- 2026-04 — `keyword-difficulty-how-to-estimate-your-chances-to-rank.md` (operator essay archive)
-- 2026-04 — `how-to-get-search-traffic-without-ranking-for-anything.md` (operator essay archive)
-- 2026-04 — `how-ahrefs-grew-to-15m-monthly-visitors-and-exploded-leads.md` (operator essay archive)
+- 2026-04, `content-that-clicks-how-ahrefs-cmo-tim-soulo-uses-seo-and-creativity-to-rank-sky.md` (operator essay archive)
+- 2026-04, `013-the-long-game-podcast-a-fireside-chat-with-tim-soulo-cmo-at-ahrefs-omniscien.md` (operator essay archive)
+- 2026-04, `keyword-research-the-beginners-guide-by-ahrefs.md` (operator essay archive)
+- 2026-04, `how-to-create-quality-content-follow-our-5-level-framework.md` (operator essay archive)
+- 2026-04, `12-link-builders-share-strategies-that-work-in-2024.md` (operator essay archive)
+- 2026-04, `keyword-difficulty-how-to-estimate-your-chances-to-rank.md` (operator essay archive)
+- 2026-04, `how-to-get-search-traffic-without-ranking-for-anything.md` (operator essay archive)
+- 2026-04, `how-ahrefs-grew-to-15m-monthly-visitors-and-exploded-leads.md` (operator essay archive)

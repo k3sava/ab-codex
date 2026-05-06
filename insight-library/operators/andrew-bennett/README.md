@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Andrew Bennett — Chief Marketing Officer at Elementum | AI Workflow Orchestration
+Andrew Bennett, Chief Marketing Officer at Elementum | AI Workflow Orchestration
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

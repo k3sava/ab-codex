@@ -26,13 +26,13 @@ Andrew Chen's central thesis is that network effects, not clever marketing, are 
 - **Network Effects Strategy**
 
 ## Cards
-- `ins_data-plumber-is-the-bottleneck` — The data plumber is the highest-leverage early growth hire, ahead of creative or media [Tier B]
+- `ins_data-plumber-is-the-bottleneck`, The data plumber is the highest-leverage early growth hire, ahead of creative or media [Tier B]
 
 ## Sources captured
-- 2026-04-25 — *Investing in Hilbert*, a16z (`raw/essays/andrew-chen--hilbert-data-plumber--2026-04-25.md`)
-- 2026-04 — `whats-your-viral-loop-understanding-the-engine-of-adoption-at-andrewchen.md` (operator essay archive)
-- 2026-04 — `why-the-best-way-to-drive-viral-growth-to-increase-retention-and-engagement-at-a.md` (operator essay archive)
-- 2026-04 — `what-to-do-when-product-growth-stalls-at-andrewchen.md` (operator essay archive)
-- 2026-04 — `previewing-a-full-chapter-of-the-cold-start-problem-my-upcoming-book-dropping-in.md` (operator essay archive)
-- 2026-04 — `5-crucial-stages-in-designing-your-viral-loop-at-andrewchen.md` (operator essay archive)
-- 2026-04 — `solve-a-hard-problem-tinder-chapter-8-of-my-upcoming-book-the-cold-start-problem.md` (operator essay archive)
+- 2026-04-25, *Investing in Hilbert*, a16z (`raw/essays/andrew-chen--hilbert-data-plumber--2026-04-25.md`)
+- 2026-04, `whats-your-viral-loop-understanding-the-engine-of-adoption-at-andrewchen.md` (operator essay archive)
+- 2026-04, `why-the-best-way-to-drive-viral-growth-to-increase-retention-and-engagement-at-a.md` (operator essay archive)
+- 2026-04, `what-to-do-when-product-growth-stalls-at-andrewchen.md` (operator essay archive)
+- 2026-04, `previewing-a-full-chapter-of-the-cold-start-problem-my-upcoming-book-dropping-in.md` (operator essay archive)
+- 2026-04, `5-crucial-stages-in-designing-your-viral-loop-at-andrewchen.md` (operator essay archive)
+- 2026-04, `solve-a-hard-problem-tinder-chapter-8-of-my-upcoming-book-the-cold-start-problem.md` (operator essay archive)

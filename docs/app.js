@@ -769,7 +769,14 @@ async function operatorPage(slug){
   });
   if (op.path){
     const md = await fetchBody(op.path);
-    const cleaned = stripMdSections(md, ['cards','sources captured','sources']);
+    // Strip frontmatter first, then strip the body H1 (operator name is
+    // already the page H1) and the generic "## Bio" wrapper header so the
+    // first paragraph is the bio prose. The drop-cap on its first letter
+    // matches the page H1 visually.
+    const noFM = stripFrontmatter(md);
+    const cleaned = stripMdSections(noFM, ['cards','sources captured','sources'])
+      .replace(/^#\s+[^\n]+\n+/, '')
+      .replace(/^\s*##\s+[Bb]io\s*\n+/, '');
     const opBioEl = document.getElementById('opBio');
     opBioEl.innerHTML = mdToHtml(cleaned);
     rewriteRelativeLinks(opBioEl);

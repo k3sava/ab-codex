@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Ivan Wang — Chief Marketing Officer, Evotrex
+Ivan Wang, Chief Marketing Officer, Evotrex
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

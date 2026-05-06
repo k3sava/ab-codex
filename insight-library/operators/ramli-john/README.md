@@ -25,10 +25,10 @@ Ramli John occupies a unique position in the pricing and monetization landscape:
 - **Usage Based Pricing**
 
 ## Cards
-- `ins_eureka-onboarding` — In PLG, no pricing model can save you if onboarding doesn't reach the Eureka moment quickly [Tier B]
+- `ins_eureka-onboarding`, In PLG, no pricing model can save you if onboarding doesn't reach the Eureka moment quickly [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `the-eureka-framework-to-improve-your-product-led-onboarding-experience-productle.md` (operator essay archive)
-- 2026-04 — `onboarding-done-right-a-masterclass-with-ramli-john-author-of-product-led-onboar.md` (operator essay archive)
-- 2026-04 — `episode-2-going-beyond-the-aha-product-led-onboarding-with-ramli-john.md` (operator essay archive)
+- 2026-04, `the-eureka-framework-to-improve-your-product-led-onboarding-experience-productle.md` (operator essay archive)
+- 2026-04, `onboarding-done-right-a-masterclass-with-ramli-john-author-of-product-led-onboar.md` (operator essay archive)
+- 2026-04, `episode-2-going-beyond-the-aha-product-led-onboarding-with-ramli-john.md` (operator essay archive)

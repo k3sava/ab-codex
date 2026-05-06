@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Ashwin Krishna — Founder, Growton / Scaled SaaS companies from 0 to IPO / ABM agency partner
+Ashwin Krishna, Founder, Growton / Scaled SaaS companies from 0 to IPO / ABM agency partner
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

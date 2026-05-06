@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-James Buckley — Partnerships & Host of Sell Better 🎥
+James Buckley, Partnerships & Host of Sell Better 🎥
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

@@ -24,10 +24,10 @@ Scott Galloway is the most provocative contemporary analyst of brand strategy an
 - **Brand Measurement**
 
 ## Cards
-- `ins_luxury-brand-strategy` — Luxury brand strategy compounds: scarcity + irrational pricing + iconic founder = decades-long margin [Tier B]
+- `ins_luxury-brand-strategy`, Luxury brand strategy compounds: scarcity + irrational pricing + iconic founder = decades-long margin [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `4-proven-business-strategies-from-nyu-stern-prof-scott-galloway.md` (operator essay archive)
-- 2026-04 — `laddering-no-mercy-no-malice.md` (operator essay archive)
-- 2026-04 — `winners-and-losers-scott-galloway-on-brand-success-in-the-age-of-amazon-peter-fi.md` (operator essay archive)
+- 2026-04, `4-proven-business-strategies-from-nyu-stern-prof-scott-galloway.md` (operator essay archive)
+- 2026-04, `laddering-no-mercy-no-malice.md` (operator essay archive)
+- 2026-04, `winners-and-losers-scott-galloway-on-brand-success-in-the-age-of-amazon-peter-fi.md` (operator essay archive)

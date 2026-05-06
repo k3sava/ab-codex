@@ -22,10 +22,10 @@ Hiten Shah is a practitioner-first entrepreneur whose central contribution to pr
 - **Jobs To Be Done For Saas**
 
 ## Cards
-- `ins_pattern-of-pain-customer-research` — Find the Pattern of Pain — and don't rush past it. Most teams fail by not digging deep enough. [Tier A]
+- `ins_pattern-of-pain-customer-research`, Find the Pattern of Pain, and don't rush past it. Most teams fail by not digging deep enough. [Tier A]
 
 
 ## Sources captured
-- 2026-04 — `product-strategy-business-model.md` (operator essay archive)
-- 2026-04 — `731-slack-users-reveal-why-its-so-addictive.md` (operator essay archive)
-- 2026-04 — `hiten-shah-on-how-to-avoid-common-pitfalls-of-product-development-miroblog.md` (operator essay archive)
+- 2026-04, `product-strategy-business-model.md` (operator essay archive)
+- 2026-04, `731-slack-users-reveal-why-its-so-addictive.md` (operator essay archive)
+- 2026-04, `hiten-shah-on-how-to-avoid-common-pitfalls-of-product-development-miroblog.md` (operator essay archive)

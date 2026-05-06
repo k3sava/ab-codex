@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Kushal Saini Kakkar — Senior Director - Content
+Kushal Saini Kakkar, Senior Director - Content
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Bhavin Turakhia — Founder - Zeta, Titan, Radix
+Bhavin Turakhia, Founder - Zeta, Titan, Radix
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Sameer Maira — Head of AI Product and Enablement @ Idea Pursuit
+Sameer Maira, Head of AI Product and Enablement @ Idea Pursuit
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

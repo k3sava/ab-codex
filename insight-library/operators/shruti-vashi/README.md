@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Shruti Vashi — Driving product-led growth & strategy | Passionate about scaling digital solutions & transforming supply chain with technology.
+Shruti Vashi, Driving product-led growth & strategy | Passionate about scaling digital solutions & transforming supply chain with technology.
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

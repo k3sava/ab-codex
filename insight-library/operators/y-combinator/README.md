@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Y Combinator — Sweetspot just launched AI Form Fill - the first and only autonomous form-fill agent for GovCon professionals.
+Y Combinator, Sweetspot just launched AI Form Fill - the first and only autonomous form-fill agent for GovCon professionals.
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

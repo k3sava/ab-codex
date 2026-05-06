@@ -24,12 +24,12 @@ Aaron Ross is the architect of the sales specialization model that became the de
 - **Data Driven Sales Optimization**
 
 ## Cards
-- `ins_seeds-nets-spears-lead-portfolio` — Treat leads as a three-asset portfolio, not a single funnel [Tier A]
-- `ins_specialization-creates-predictability` — Mixing prospecting and closing in one role is the root cause of unpredictable revenue [Tier A]
-- `ins_referral-email-not-pitch` — Don't cold-pitch executives. Ask them who owns the problem. [Tier A]
+- `ins_seeds-nets-spears-lead-portfolio`, Treat leads as a three-asset portfolio, not a single funnel [Tier A]
+- `ins_specialization-creates-predictability`, Mixing prospecting and closing in one role is the root cause of unpredictable revenue [Tier A]
+- `ins_referral-email-not-pitch`, Don't cold-pitch executives. Ask them who owns the problem. [Tier A]
 
 
 ## Sources captured
-- 2026-04 — `predictable-revenue-15-minute-summary-aaron-ross.md` (operator essay archive)
-- 2026-04 — `aaron-ross-cold-calling-2-outbound-specialization.md` (operator essay archive)
-- 2026-04 — `aaron-ross-seeds-nets-spears-lead-types.md` (operator essay archive)
+- 2026-04, `predictable-revenue-15-minute-summary-aaron-ross.md` (operator essay archive)
+- 2026-04, `aaron-ross-cold-calling-2-outbound-specialization.md` (operator essay archive)
+- 2026-04, `aaron-ross-seeds-nets-spears-lead-types.md` (operator essay archive)

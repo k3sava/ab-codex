@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Anjli Jain — General Partner I Venture Capital | ProHuman I AI Education & Workforce Tech I AI Cybersecurity I AI Healthcare & Human Performance I Food, Nutrition & GenTech | Philanthropist I Kathak Artist
+Anjli Jain, General Partner I Venture Capital | ProHuman I AI Education & Workforce Tech I AI Cybersecurity I AI Healthcare & Human Performance I Food, Nutrition & GenTech | Philanthropist I Kathak Artist
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

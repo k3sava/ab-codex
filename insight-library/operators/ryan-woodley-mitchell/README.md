@@ -14,7 +14,7 @@ external:
 # Ryan Woodley Mitchell
 
 ## Bio
-LinkedIn operator publishing on pmm, founder-craft, marketing. Headline: "Global Director of Product Marketing | Founder of Pioneer Product Marketing | Top 100 PMM Influencer 2025". Surfaced via Pass B3 ingest of 447 reactions.
+Ryan Woodley Mitchell. LinkedIn operator publishing on pmm, founder-craft, marketing. Headline: "Global Director of Product Marketing | Founder of Pioneer Product Marketing | Top 100 PMM Influencer 2025". Surfaced via Pass B3 ingest of 447 reactions.
 
 ## Operating themes
 - Theme captured from the post body in this pass; expand on next ingest.
@@ -23,4 +23,4 @@ LinkedIn operator publishing on pmm, founder-craft, marketing. Headline: "Global
 - See `insights/` for cards attributed to this operator.
 
 ## Sources captured
-- 2026-05-02 — LinkedIn reactions ingest Pass B3 (`raw/linkedin/reactions/linkedin-reactions-2026-04-10.md`)
+- 2026-05-02, LinkedIn reactions ingest Pass B3 (`raw/linkedin/reactions/linkedin-reactions-2026-04-10.md`)

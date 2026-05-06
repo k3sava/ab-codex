@@ -1654,7 +1654,7 @@ footer a:hover{color:var(--accent-2);border-bottom-color:currentColor}
 /* Operator bio first-letter drop-cap. The first paragraph in #opBio gets a
    serif initial that matches editorial publishing typography. Operators whose
    bio begins with their name get a recognisable visual marker. */
-.operator-page .body > p:first-child::first-letter{
+.operator-page .body > p:first-of-type::first-letter{
   font-family:var(--serif);font-weight:400;
   font-size:3.6em;line-height:.86;
   float:left;padding:6px 10px 0 0;

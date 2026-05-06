@@ -24,10 +24,10 @@ Matt Shumer's perspective is grounded in six years of building AI products at th
 - **Building With Llms**
 
 ## Cards
-- `ins_ai-judgment-and-taste-emerging` — AI has crossed the threshold to something indistinguishable from judgment and taste — winners will know what to build, not how [Tier B]
+- `ins_ai-judgment-and-taste-emerging`, AI has crossed the threshold to something indistinguishable from judgment and taste, winners will know what to build, not how [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `something-big-is-happening-matt-shumer.md` (operator essay archive)
-- 2026-04 — `matt-shumer.md` (operator essay archive)
-- 2026-04 — `something-big-is-happening-in-ai-and-most-people-will-be-blindsided-fortune.md` (operator essay archive)
+- 2026-04, `something-big-is-happening-matt-shumer.md` (operator essay archive)
+- 2026-04, `matt-shumer.md` (operator essay archive)
+- 2026-04, `something-big-is-happening-in-ai-and-most-people-will-be-blindsided-fortune.md` (operator essay archive)

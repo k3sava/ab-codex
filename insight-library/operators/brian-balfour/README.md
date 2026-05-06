@@ -15,7 +15,7 @@ external:
 # Brian Balfour
 
 ## Bio
-Founder and CEO of Reforge. Former VP of Growth at HubSpot. Long-form essayist on growth strategy, four-fits framework, and platform dynamics. Public reference voice on why product alone never wins — distribution is the durable advantage.
+Brian Balfour. Founder and CEO of Reforge. Former VP of Growth at HubSpot. Long-form essayist on growth strategy, four-fits framework, and platform dynamics. Public reference voice on why product alone never wins, distribution is the durable advantage.
 
 ## Operating themes
 - **Distribution > product alone.** Necessary but not sufficient; the separator is great distribution.
@@ -23,10 +23,10 @@ Founder and CEO of Reforge. Former VP of Growth at HubSpot. Long-form essayist o
 - **Prisoner's dilemma of new channels.** You cannot opt out; competitors will move and reset customer expectations.
 
 ## Cards
-- `ins_distribution-platform-cycles` — Four-step platform cycle; ride the open phase or get crushed [Tier A]
+- `ins_distribution-platform-cycles`, Four-step platform cycle; ride the open phase or get crushed [Tier A]
 
 ## Sources captured
-- 2026-04-28 — Lenny's Podcast, "Distribution platform cycles and the ChatGPT opportunity" (`raw/podcasts/brian-balfour--distribution-platform-cycles--2026-04-28.md`)
+- 2026-04-28, Lenny's Podcast, "Distribution platform cycles and the ChatGPT opportunity" (`raw/podcasts/brian-balfour--distribution-platform-cycles--2026-04-28.md`)
 
 ## External
 - Reforge: https://www.reforge.com

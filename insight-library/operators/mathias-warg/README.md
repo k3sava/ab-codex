@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Mathias Warg — On a mission to help anyone turn LinkedIn into a growth engine.
+Mathias Warg, On a mission to help anyone turn LinkedIn into a growth engine.
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

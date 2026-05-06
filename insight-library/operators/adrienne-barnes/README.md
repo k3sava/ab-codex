@@ -25,12 +25,12 @@ Adrienne Barnes's work is built on a damning statistic she uncovered through her
 - **Audience Segmentation**
 
 ## Cards
-- `ins_jtbd-personas-not-demographics` — Personas built on demographics inform nothing; rebuild around Jobs to Be Done [Tier B]
-- `ins_relational-keywords-replace-internal-language` — The exact words customers use should replace internal terminology in every piece of copy [Tier B]
+- `ins_jtbd-personas-not-demographics`, Personas built on demographics inform nothing; rebuild around Jobs to Be Done [Tier B]
+- `ins_relational-keywords-replace-internal-language`, The exact words customers use should replace internal terminology in every piece of copy [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `saas-positioning-starts-with-talking-to-customers-saas-club.md` (operator essay archive)
-- 2026-04 — `022-buyer-personas-dont-have-to-suck-with-adrienne-barnes-best-buyer-persona-omn.md` (operator essay archive)
-- 2026-04 — `how-to-create-buyer-personas-youll-actually-use-omniscient-digital.md` (operator essay archive)
-- 2026-04 — `the-4-rs-of-the-useful-buyer-personas-that-wins-more-business-marketing-powerups.md` (operator essay archive)
+- 2026-04, `saas-positioning-starts-with-talking-to-customers-saas-club.md` (operator essay archive)
+- 2026-04, `022-buyer-personas-dont-have-to-suck-with-adrienne-barnes-best-buyer-persona-omn.md` (operator essay archive)
+- 2026-04, `how-to-create-buyer-personas-youll-actually-use-omniscient-digital.md` (operator essay archive)
+- 2026-04, `the-4-rs-of-the-useful-buyer-personas-that-wins-more-business-marketing-powerups.md` (operator essay archive)

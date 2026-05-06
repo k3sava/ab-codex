@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Saishah Joseph — Founder, Small Brand Big Brand | Social media strategy that *actually* works | Building social media tools for small biz owners I Ex- Directi, Oxford University Press
+Saishah Joseph, Founder, Small Brand Big Brand | Social media strategy that *actually* works | Building social media tools for small biz owners I Ex- Directi, Oxford University Press
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

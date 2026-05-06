@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Julien Sauvage 🥖 — CMO @ Cordial | Ex-Gong, Clari, Salesforce, Talend | Investor | Advisor | Positioning Nerd
+Julien Sauvage 🥖, CMO @ Cordial | Ex-Gong, Clari, Salesforce, Talend | Investor | Advisor | Positioning Nerd
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

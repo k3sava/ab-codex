@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Ryan Quindlen 🦇 — Social @ Zapier | Prev. Founding Team at Laudable (Acquired by Zapier)
+Ryan Quindlen 🦇, Social @ Zapier | Prev. Founding Team at Laudable (Acquired by Zapier)
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

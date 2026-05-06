@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Dyutismita Das — is currently managing HR burnout
+Dyutismita Das, is currently managing HR burnout
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

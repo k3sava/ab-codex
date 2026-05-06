@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Vishnu Prasad — Building PipeRocket Digital | B2B Marketing
+Vishnu Prasad, Building PipeRocket Digital | B2B Marketing
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

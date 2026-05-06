@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Eric Mistry — Automation, AI, Educational Technology, & Organization Development Expert | Helping People and Technology Work Together | Innovator & Relentless Problem Solver | Dad of 2 with Puns to Match
+Eric Mistry, Automation, AI, Educational Technology, & Organization Development Expert | Helping People and Technology Work Together | Innovator & Relentless Problem Solver | Dad of 2 with Puns to Match
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

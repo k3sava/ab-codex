@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Tina Sang — Marketing & Growth Lead @ fal | Creativity runs faster on fal
+Tina Sang, Marketing & Growth Lead @ fal | Creativity runs faster on fal
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Elena Ostanina — PMM @ Goodnotes | PLG SaaS Product Marketing Consultant and Mentor | 10+ years experience | GTM Strategy | Product Positioning and Messaging | B2B Partnerships | ex-Travelpayouts, Usercentrics
+Elena Ostanina, PMM @ Goodnotes | PLG SaaS Product Marketing Consultant and Mentor | 10+ years experience | GTM Strategy | Product Positioning and Messaging | B2B Partnerships | ex-Travelpayouts, Usercentrics
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

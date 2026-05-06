@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Uddhav Parab — Creative Director. Writer. Comic. 3x TED Talks Viewer.
+Uddhav Parab, Creative Director. Writer. Comic. 3x TED Talks Viewer.
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

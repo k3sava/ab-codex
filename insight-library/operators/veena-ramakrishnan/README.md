@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Veena Ramakrishnan — Senior Demand Generation Specialist at SaaS Labs
+Veena Ramakrishnan, Senior Demand Generation Specialist at SaaS Labs
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

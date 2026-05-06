@@ -13,7 +13,7 @@ external:
 # Asha Sharma
 
 ## Bio
-CVP for Microsoft's AI Platform — infrastructure, foundation models, agent toolchains. Sees the operating constraints of every major AI player. Earlier ran product at Instacart, Porch Group, and WhatsApp. Vocal advocate for the "product as organism" frame and for season-based planning over fixed roadmaps. Predicts post-training and reinforcement learning as the next investment frontier.
+Asha Sharma. CVP for Microsoft's AI Platform, infrastructure, foundation models, agent toolchains. Sees the operating constraints of every major AI player. Earlier ran product at Instacart, Porch Group, and WhatsApp. Vocal advocate for the "product as organism" frame and for season-based planning over fixed roadmaps. Predicts post-training and reinforcement learning as the next investment frontier.
 
 ## Operating themes
 - **Product as organism.** The metabolism (data ingest → reward design → outcome tuning) is the moat.
@@ -22,9 +22,9 @@ CVP for Microsoft's AI Platform — infrastructure, foundation models, agent too
 - **Polymath builders.** Hire for the loop, not the lane.
 
 ## Cards
-- `ins_post-training-as-the-moat` — Post-training on proprietary data is the AI moat [Tier A]
-- `ins_product-as-organism` — Treat product as a living organism with a metabolism [Tier B]
-- `ins_seasons-not-roadmaps` — Plan in seasons keyed to secular changes, not 6-month roadmaps [Tier B]
+- `ins_post-training-as-the-moat`, Post-training on proprietary data is the AI moat [Tier A]
+- `ins_product-as-organism`, Treat product as a living organism with a metabolism [Tier B]
+- `ins_seasons-not-roadmaps`, Plan in seasons keyed to secular changes, not 6-month roadmaps [Tier B]
 
 ## Sources captured
-- 2026-04-28 — Lenny's Podcast, "Product as organism, post-training, agentic society" (`raw/podcasts/asha-sharma--product-as-organism--2026-04-28.md`)
+- 2026-04-28, Lenny's Podcast, "Product as organism, post-training, agentic society" (`raw/podcasts/asha-sharma--product-as-organism--2026-04-28.md`)

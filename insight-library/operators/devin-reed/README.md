@@ -25,11 +25,11 @@ Devin Reed's contribution to B2B content strategy is the explicit rejection of v
 - **Resonance Over Reach**
 
 ## Cards
-- `ins_95-5-rule-content-resonance` — Most content should serve the 95% who aren't buying yet, not the 5% who are [Tier B]
+- `ins_95-5-rule-content-resonance`, Most content should serve the 95% who aren't buying yet, not the 5% who are [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `the-anti-viral-approach-building-sustainable-b2b-content-with-devin-reed-video.md` (operator essay archive)
-- 2026-04 — `unconventional-marketing-strategies-for-b2b-creators.md` (operator essay archive)
-- 2026-04 — `how-to-build-a-revenue-first-b2b-content-engine-dreamdata.md` (operator essay archive)
-- 2026-04 — `the-ultimate-linkedin-playbook-for-b2b-marketers-grow-influence-pipeline.md` (operator essay archive)
+- 2026-04, `the-anti-viral-approach-building-sustainable-b2b-content-with-devin-reed-video.md` (operator essay archive)
+- 2026-04, `unconventional-marketing-strategies-for-b2b-creators.md` (operator essay archive)
+- 2026-04, `how-to-build-a-revenue-first-b2b-content-engine-dreamdata.md` (operator essay archive)
+- 2026-04, `the-ultimate-linkedin-playbook-for-b2b-marketers-grow-influence-pipeline.md` (operator essay archive)

@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Kate Syuma — Growth Advisor, ex-Miro | Founder at Growthmates | Speaker · Creator | PLG · Activation · UX
+Kate Syuma, Growth Advisor, ex-Miro | Founder at Growthmates | Speaker · Creator | PLG · Activation · UX
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

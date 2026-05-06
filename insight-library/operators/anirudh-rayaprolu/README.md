@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Anirudh Rayaprolu — figuring out things
+Anirudh Rayaprolu, figuring out things
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

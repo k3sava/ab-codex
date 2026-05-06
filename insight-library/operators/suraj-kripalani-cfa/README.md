@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Suraj Kripalani, CFA — Founder & CEO at BonBillo
+Suraj Kripalani, CFA, Founder & CEO at BonBillo
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

@@ -25,13 +25,13 @@ Chris Walker's central thesis is that most B2B marketing organizations are funda
 - **Dark Social Strategy**
 
 ## Cards
-- `ins_demand-creation-vs-capture` — Stop optimizing for the 5% in-market; build preference with the 95% who aren't [Tier A]
-- `ins_hiro-pipeline-metric` — HIRO Pipeline: only count high-intent sources that win above 3% and reach late-stage above 25% [Tier A]
+- `ins_demand-creation-vs-capture`, Stop optimizing for the 5% in-market; build preference with the 95% who aren't [Tier A]
+- `ins_hiro-pipeline-metric`, HIRO Pipeline: only count high-intent sources that win above 3% and reach late-stage above 25% [Tier A]
 
 
 ## Sources captured
-- 2026-04 — `offense-intended-why-chris-walker-says-shift-from-demand-capture-to-demand-creat.md` (operator essay archive)
-- 2026-04 — `how-to-generate-demand-with-b2b-marketing-expert-chris-walker.md` (operator essay archive)
-- 2026-04 — `refine-labs-split-the-funnel-framework.md` (operator essay archive)
-- 2026-04 — `how-to-win-in-marketing-with-chris-walker-of-refine-labs.md` (operator essay archive)
-- 2026-04 — `increasing-hiro-pipeline-by-76-with-chris-walker-and-refine-labs.md` (operator essay archive)
+- 2026-04, `offense-intended-why-chris-walker-says-shift-from-demand-capture-to-demand-creat.md` (operator essay archive)
+- 2026-04, `how-to-generate-demand-with-b2b-marketing-expert-chris-walker.md` (operator essay archive)
+- 2026-04, `refine-labs-split-the-funnel-framework.md` (operator essay archive)
+- 2026-04, `how-to-win-in-marketing-with-chris-walker-of-refine-labs.md` (operator essay archive)
+- 2026-04, `increasing-hiro-pipeline-by-76-with-chris-walker-and-refine-labs.md` (operator essay archive)

@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Paul Adams — CPO and Marketing at Intercom - building Fin.ai
+Paul Adams, CPO and Marketing at Intercom - building Fin.ai
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

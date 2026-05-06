@@ -26,11 +26,11 @@ Brian Dean built Backlinko into one of the most authoritative SEO resources on t
 - **Content Distribution Strategy**
 
 ## Cards
-- `ins_skyscraper-technique` — Skyscraper Technique: find content with backlinks, build something demonstrably better, ask the linkers to switch [Tier A]
+- `ins_skyscraper-technique`, Skyscraper Technique: find content with backlinks, build something demonstrably better, ask the linkers to switch [Tier A]
 
 
 ## Sources captured
-- 2026-04 — `skyscraper-method-110-traffic-link-building-case-study.md` (operator essay archive)
-- 2026-04 — `link-building-strategies-the-complete-list-2026.md` (operator essay archive)
-- 2026-04 — `how-brian-dean-would-launch-backlinko-in-2026.md` (operator essay archive)
-- 2026-04 — `on-page-seo-the-definitive-guide-free-template-2026.md` (operator essay archive)
+- 2026-04, `skyscraper-method-110-traffic-link-building-case-study.md` (operator essay archive)
+- 2026-04, `link-building-strategies-the-complete-list-2026.md` (operator essay archive)
+- 2026-04, `how-brian-dean-would-launch-backlinko-in-2026.md` (operator essay archive)
+- 2026-04, `on-page-seo-the-definitive-guide-free-template-2026.md` (operator essay archive)

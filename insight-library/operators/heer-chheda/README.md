@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Heer Chheda — Creating content | Inspired by conversations
+Heer Chheda, Creating content | Inspired by conversations
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

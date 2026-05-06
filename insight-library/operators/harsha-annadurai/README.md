@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Harsha Annadurai — Building high-performing content, PMM, and marketing teams
+Harsha Annadurai, Building high-performing content, PMM, and marketing teams
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

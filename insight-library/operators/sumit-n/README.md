@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Sumit N. — RevOps & GTM Architect for B2B Product & Services | Turning Chaotic Growth into Predictable Revenue Engines | $10M+ Pipeline Generated | HubSpot · Salesforce · Clay · AI Automation
+Sumit N., RevOps & GTM Architect for B2B Product & Services | Turning Chaotic Growth into Predictable Revenue Engines | $10M+ Pipeline Generated | HubSpot · Salesforce · Clay · AI Automation
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

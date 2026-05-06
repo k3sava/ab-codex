@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Agent.ai — We're here at
+Agent.ai, We're here at
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

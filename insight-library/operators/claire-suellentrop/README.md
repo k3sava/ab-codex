@@ -26,10 +26,10 @@ Claire Suellentrop is the leading practitioner of applying Jobs-to-be-Done theor
 - **Experience Mapping**
 
 ## Cards
-- `ins_jtbd-switch-interview-saas` — Use the JTBD switch interview on recently-converted high-value customers — segments emerge from jobs, not demographics [Tier A]
+- `ins_jtbd-switch-interview-saas`, Use the JTBD switch interview on recently-converted high-value customers, segments emerge from jobs, not demographics [Tier A]
 
 
 ## Sources captured
-- 2026-04 — `how-to-use-jobs-to-be-done-for-saas-growth-strategy.md` (operator essay archive)
-- 2026-04 — `claire-suellentrop-on-unlocking-customer-led-growth-in-saas.md` (operator essay archive)
-- 2026-04 — `get-out-of-the-echo-chamber-how-to-use-jobs-to-be-done-to-perfect-your-products-.md` (operator essay archive)
+- 2026-04, `how-to-use-jobs-to-be-done-for-saas-growth-strategy.md` (operator essay archive)
+- 2026-04, `claire-suellentrop-on-unlocking-customer-led-growth-in-saas.md` (operator essay archive)
+- 2026-04, `get-out-of-the-echo-chamber-how-to-use-jobs-to-be-done-to-perfect-your-products-.md` (operator essay archive)

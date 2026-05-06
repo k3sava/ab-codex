@@ -25,10 +25,10 @@ Keenan is the most philosophically radical of the modern sales methodologists. W
 - **Sales Process Design**
 
 ## Cards
-- `ins_gap-selling-change-formula` — No problem, no sale. No gap, no large sale. Change = (Dissatisfaction × Desirability) > Cost of Change. [Tier A]
+- `ins_gap-selling-change-formula`, No problem, no sale. No gap, no large sale. Change = (Dissatisfaction × Desirability) > Cost of Change. [Tier A]
 
 
 ## Sources captured
-- 2026-04 — `gap-selling-framework-keenan.md` (operator essay archive)
-- 2026-04 — `keenan-gap-selling-nine-truths-problem-identification.md` (operator essay archive)
-- 2026-04 — `keenan-gap-selling-discovery-current-future-state.md` (operator essay archive)
+- 2026-04, `gap-selling-framework-keenan.md` (operator essay archive)
+- 2026-04, `keenan-gap-selling-nine-truths-problem-identification.md` (operator essay archive)
+- 2026-04, `keenan-gap-selling-discovery-current-future-state.md` (operator essay archive)

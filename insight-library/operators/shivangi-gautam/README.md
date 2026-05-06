@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Shivangi Gautam — Writer, Marketer, Tech explorer and the owner of plenty hats that come with it!
+Shivangi Gautam, Writer, Marketer, Tech explorer and the owner of plenty hats that come with it!
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

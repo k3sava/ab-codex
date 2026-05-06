@@ -23,16 +23,16 @@ Nassim Nicholas Taleb's foundational contribution is the concept of antifragilit
 - **Optionality Strategy**
 
 ## Cards
-- `ins_antifragile-barbell` — Build for antifragility, not robustness — fragile breaks, robust survives, antifragile gains from disorder [Tier A]
-- `ins_taleb-via-negativa` — Improvement comes from removing harm, not adding good [Tier A]
-- `ins_taleb-skin-in-the-game` — Decision-makers without downside exposure produce fragile systems [Tier A]
-- `ins_taleb-lindy-effect` — For non-perishable things, length-of-survival predicts remaining life-expectancy [Tier A]
-- `ins_taleb-iatrogenics` — Most "fixes" in complex systems cause more harm than the disease [Tier A]
-- `ins_taleb-barbell-strategy` — Extreme safety on one end + aggressive risk on the other; nothing in the middle [Tier A]
+- `ins_antifragile-barbell`, Build for antifragility, not robustness, fragile breaks, robust survives, antifragile gains from disorder [Tier A]
+- `ins_taleb-via-negativa`, Improvement comes from removing harm, not adding good [Tier A]
+- `ins_taleb-skin-in-the-game`, Decision-makers without downside exposure produce fragile systems [Tier A]
+- `ins_taleb-lindy-effect`, For non-perishable things, length-of-survival predicts remaining life-expectancy [Tier A]
+- `ins_taleb-iatrogenics`, Most "fixes" in complex systems cause more harm than the disease [Tier A]
+- `ins_taleb-barbell-strategy`, Extreme safety on one end + aggressive risk on the other; nothing in the middle [Tier A]
 
 
 ## Sources captured
-- 2026-04 — `antifragile-by-nassim-taleb-notes-and-review-nat-eliason.md` (operator essay archive)
-- 2026-04 — `the-barbell-strategy-by-nassim-nicholas-taleb-the-complete-guide-goodrebootcom.md` (operator essay archive)
-- 2026-04 — `antifragile-how-to-live-in-a-world-we-dont-understand-by-nassim-nicholas-taleb.md` (operator essay archive)
-- 2026-04 — `a-definition-of-antifragile-and-its-implications.md` (operator essay archive)
+- 2026-04, `antifragile-by-nassim-taleb-notes-and-review-nat-eliason.md` (operator essay archive)
+- 2026-04, `the-barbell-strategy-by-nassim-nicholas-taleb-the-complete-guide-goodrebootcom.md` (operator essay archive)
+- 2026-04, `antifragile-how-to-live-in-a-world-we-dont-understand-by-nassim-nicholas-taleb.md` (operator essay archive)
+- 2026-04, `a-definition-of-antifragile-and-its-implications.md` (operator essay archive)

@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Ashwin SL — Technology | SaaS | B2B Marketing Professional
+Ashwin SL, Technology | SaaS | B2B Marketing Professional
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

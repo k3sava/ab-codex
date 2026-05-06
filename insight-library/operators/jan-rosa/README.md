@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Jan Rosa — Ex-Googler, experienced SaaS Product Manager
+Jan Rosa, Ex-Googler, experienced SaaS Product Manager
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

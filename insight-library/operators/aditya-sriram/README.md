@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Aditya Sriram — Building GoMarble || AI Agent for paid media marketers; built on your Meta Ads, Google Ads, Shopify, and GA4.
+Aditya Sriram, Building GoMarble || AI Agent for paid media marketers; built on your Meta Ads, Google Ads, Shopify, and GA4.
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

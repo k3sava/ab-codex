@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Nafees Mohammed — Operations Manager@IntouchCX | Driving Customer Experience Excellence | Team Leadership | Process Optimization | KPI Management
+Nafees Mohammed, Operations Manager@IntouchCX | Driving Customer Experience Excellence | Team Leadership | Process Optimization | KPI Management
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

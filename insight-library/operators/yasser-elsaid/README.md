@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Yasser Elsaid — CEO at Chatbase
+Yasser Elsaid, CEO at Chatbase
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

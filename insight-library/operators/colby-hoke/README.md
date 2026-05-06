@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Colby Hoke — Senior PMM, Technical Messaging & Content @ SAS
+Colby Hoke, Senior PMM, Technical Messaging & Content @ SAS
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

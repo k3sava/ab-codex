@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Maha Shahid — Content Marketing Specialist & Copywriter | Helping Brands Sound Human | Because writing that connects is writing that works.
+Maha Shahid, Content Marketing Specialist & Copywriter | Helping Brands Sound Human | Because writing that connects is writing that works.
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

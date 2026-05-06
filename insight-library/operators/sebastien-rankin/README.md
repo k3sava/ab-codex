@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Sebastien Rankin — Product Marketing @ Shopify | GTM Strategy | Positioning & Messaging | Growth Marketing
+Sebastien Rankin, Product Marketing @ Shopify | GTM Strategy | Positioning & Messaging | Growth Marketing
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

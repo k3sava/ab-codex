@@ -25,10 +25,10 @@ Rowan Tonkin is the most articulate practitioner of what might be called "financ
 - **Growth Model Design**
 
 ## Cards
-- `ins_marketing-cfo-language` — Marketing must speak the language of finance, not the language of marketing [Tier B]
+- `ins_marketing-cfo-language`, Marketing must speak the language of finance, not the language of marketing [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `rowan-tonkin-on-marketing-at-planful-synergy-between-finance-and-marketing.md` (operator essay archive)
-- 2026-04 — `a-candid-conversation-between-a-cmo-and-cfo-planful.md` (operator essay archive)
-- 2026-04 — `martech-edge-interview-with-rowan-tonkin-chief-marketing-officer-planful-martech.md` (operator essay archive)
+- 2026-04, `rowan-tonkin-on-marketing-at-planful-synergy-between-finance-and-marketing.md` (operator essay archive)
+- 2026-04, `a-candid-conversation-between-a-cmo-and-cfo-planful.md` (operator essay archive)
+- 2026-04, `martech-edge-interview-with-rowan-tonkin-chief-marketing-officer-planful-martech.md` (operator essay archive)

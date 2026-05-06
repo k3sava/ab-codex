@@ -24,11 +24,11 @@ Tim Ferriss's central contribution is a systematic approach to personal and prof
 - **Habit Design For Business**
 
 ## Cards
-- `ins_fear-setting` — What we fear doing most is usually what we most need to do — fear-set, don't goal-set [Tier B]
+- `ins_fear-setting`, What we fear doing most is usually what we most need to do, fear-set, don't goal-set [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `fear-setting-the-most-valuable-exercise-i-do-every-month-the-blog-of-author-tim-.md` (operator essay archive)
-- 2026-04 — `the-tim-ferriss-show-transcripts-the-art-and-science-of-learning-anything-faster.md` (operator essay archive)
-- 2026-04 — `the-practicality-of-pessimism-stoicism-as-a-productivity-system.md` (operator essay archive)
-- 2026-04 — `mastering-efficiency-breaking-down-tim-ferrisss-business-strategy-for-maximum-ac.md` (operator essay archive)
+- 2026-04, `fear-setting-the-most-valuable-exercise-i-do-every-month-the-blog-of-author-tim-.md` (operator essay archive)
+- 2026-04, `the-tim-ferriss-show-transcripts-the-art-and-science-of-learning-anything-faster.md` (operator essay archive)
+- 2026-04, `the-practicality-of-pessimism-stoicism-as-a-productivity-system.md` (operator essay archive)
+- 2026-04, `mastering-efficiency-breaking-down-tim-ferrisss-business-strategy-for-maximum-ac.md` (operator essay archive)

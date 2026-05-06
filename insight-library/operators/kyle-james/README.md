@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Kyle James — Business Problem Solver & Story Teller | Product Manager | Research Analyst | Entrepreneur
+Kyle James, Business Problem Solver & Story Teller | Product Manager | Research Analyst | Entrepreneur
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

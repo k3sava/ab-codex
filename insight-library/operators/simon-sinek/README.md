@@ -23,14 +23,14 @@ Simon Sinek is the most widely recognized advocate for purpose-driven brand and 
 - **Brand Narrative Construction**
 
 ## Cards
-- `ins_start-with-why` — People don't buy what you do — they buy why you do it. Start with Why. [Tier A]
-- `ins_sinek-infinite-game` — Business is an infinite game played with finite-mindset rules — the mismatch is the source of fragility [Tier A]
-- `ins_sinek-just-cause` — A Just Cause must be *for* something — five filters: for, inclusive, service-oriented, resilient, idealistic [Tier A]
-- `ins_sinek-worthy-rivals` — Study competitors who reveal your weaknesses, not enemies to defeat [Tier B]
-- `ins_sinek-existential-flexibility` — Pivot dramatically when the current model still works, because the Just Cause demands it [Tier B]
+- `ins_start-with-why`, People don't buy what you do, they buy why you do it. Start with Why. [Tier A]
+- `ins_sinek-infinite-game`, Business is an infinite game played with finite-mindset rules, the mismatch is the source of fragility [Tier A]
+- `ins_sinek-just-cause`, A Just Cause must be *for* something, five filters: for, inclusive, service-oriented, resilient, idealistic [Tier A]
+- `ins_sinek-worthy-rivals`, Study competitors who reveal your weaknesses, not enemies to defeat [Tier B]
+- `ins_sinek-existential-flexibility`, Pivot dramatically when the current model still works, because the Just Cause demands it [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `the-golden-circle-simon-sinek.md` (operator essay archive)
-- 2026-04 — `start-with-why-simon-sineks-golden-circle-theory-explained-upraise.md` (operator essay archive)
-- 2026-04 — `5-guidelines-for-simon-sineks-infinite-mindset-shortform-books.md` (operator essay archive)
+- 2026-04, `the-golden-circle-simon-sinek.md` (operator essay archive)
+- 2026-04, `start-with-why-simon-sineks-golden-circle-theory-explained-upraise.md` (operator essay archive)
+- 2026-04, `5-guidelines-for-simon-sineks-infinite-mindset-shortform-books.md` (operator essay archive)

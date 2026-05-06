@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Jonathan Pipek 🔱 — Product Marketing Consultant & Recruiter for B2B SaaS Startups & Scaleups | 2025 Top Product Marketing Consultant | 2x Top 100 Product Marketing Influencer | Kellogg MBA
+Jonathan Pipek 🔱, Product Marketing Consultant & Recruiter for B2B SaaS Startups & Scaleups | 2025 Top Product Marketing Consultant | 2x Top 100 Product Marketing Influencer | Kellogg MBA
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

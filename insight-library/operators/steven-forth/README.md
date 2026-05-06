@@ -24,10 +24,10 @@ Steven Forth brings the most rigorous and systematic approach to value-based pri
 - **Value Metric Selection**
 
 ## Cards
-- `ins_economic-value-estimation` — A pricing model without a value model is adrift — start with Economic Value Estimation [Tier B]
+- `ins_economic-value-estimation`, A pricing model without a value model is adrift, start with Economic Value Estimation [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `three-approaches-to-value-based-pricing-for-saas-approximate-derived-direct-i-ib.md` (operator essay archive)
-- 2026-04 — `your-pricing-model-needs-a-value-model-i-ibbaka.md` (operator essay archive)
-- 2026-04 — `how-to-choose-a-pricing-metric-i-ibbaka.md` (operator essay archive)
+- 2026-04, `three-approaches-to-value-based-pricing-for-saas-approximate-derived-direct-i-ib.md` (operator essay archive)
+- 2026-04, `your-pricing-model-needs-a-value-model-i-ibbaka.md` (operator essay archive)
+- 2026-04, `how-to-choose-a-pricing-metric-i-ibbaka.md` (operator essay archive)

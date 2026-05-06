@@ -26,10 +26,10 @@ Swyx's defining contribution is the concept of the "AI Engineer" as a distinct p
 - **Building With Llms**
 
 ## Cards
-- `ins_software-3-ai-engineer` — We are in the transition from Software 2.0 to Software 3.0 — AI Engineers will build the majority of new applications [Tier B]
+- `ins_software-3-ai-engineer`, We are in the transition from Software 2.0 to Software 3.0, AI Engineers will build the majority of new applications [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `agent-engineering-latentspace.md` (operator essay archive)
-- 2026-04 — `software-30-and-the-ai-engineer-landscape-talk-notes-slides.md` (operator essay archive)
-- 2026-04 — `cognition-the-devin-is-in-the-details.md` (operator essay archive)
+- 2026-04, `agent-engineering-latentspace.md` (operator essay archive)
+- 2026-04, `software-30-and-the-ai-engineer-landscape-talk-notes-slides.md` (operator essay archive)
+- 2026-04, `cognition-the-devin-is-in-the-details.md` (operator essay archive)

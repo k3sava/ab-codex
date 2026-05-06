@@ -14,17 +14,17 @@ external:
 # Glenn Gabe
 
 ## Bio
-SEO consultant who documents Google algorithm impacts through real-site case studies. April 2026 work documents how Google manual actions and quality demotions propagate to AI Overviews, AI Mode, and ChatGPT/Perplexity citations.
+Glenn Gabe. SEO consultant who documents Google algorithm impacts through real-site case studies. April 2026 work documents how Google manual actions and quality demotions propagate to AI Overviews, AI Mode, and ChatGPT/Perplexity citations.
 
 ## Operating themes
-- **Google quality penalties propagate to AI surfaces** — manual action in classic SERP = downstream collapse in AI surfaces.
+- **Google quality penalties propagate to AI surfaces**, manual action in classic SERP = downstream collapse in AI surfaces.
 - **Surge-then-decay in GSC** is the early signal.
 
 ## Cards
-- `ins_manual-action-propagates-to-ai-surfaces` — Google manual actions propagate downstream to AI Overviews and ChatGPT citations [Tier B]
+- `ins_manual-action-propagates-to-ai-surfaces`, Google manual actions propagate downstream to AI Overviews and ChatGPT citations [Tier B]
 
 ## Sources captured
-- 2026-04-22 — *When Mt. AI Crumbles, ChatGPT Follows* (`raw/essays/glenn-gabe--mt-ai-crumbles--2026-04-22.md`)
+- 2026-04-22, *When Mt. AI Crumbles, ChatGPT Follows* (`raw/essays/glenn-gabe--mt-ai-crumbles--2026-04-22.md`)
 
 ## External
 - Site: https://www.gsqi.com/marketing-blog/

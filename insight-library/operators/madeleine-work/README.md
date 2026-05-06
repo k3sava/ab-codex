@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Madeleine Work — Director of Product Marketing @ Cordial
+Madeleine Work, Director of Product Marketing @ Cordial
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

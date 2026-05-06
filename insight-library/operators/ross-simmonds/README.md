@@ -25,11 +25,11 @@ Ross Simmonds is the most systematic thinker on content distribution in B2B mark
 - **Content Distribution Strategy**
 
 ## Cards
-- `ins_create-once-distribute-forever` — Invert the content ratio: 20% creation, 80% distribution. Distribution is the multiplier. [Tier A]
+- `ins_create-once-distribute-forever`, Invert the content ratio: 20% creation, 80% distribution. Distribution is the multiplier. [Tier A]
 
 
 ## Sources captured
-- 2026-04 — `why-content-distribution-is-more-important-today-than-ever-before.md` (operator essay archive)
-- 2026-04 — `how-to-create-once-distribute-forever-with-ross-simmonds-buzzstream.md` (operator essay archive)
-- 2026-04 — `the-power-of-distribution-why-you-should-promote-your-content-more-vol-219.md` (operator essay archive)
-- 2026-04 — `smart-content-distribution-strategies-with-ross-simmonds.md` (operator essay archive)
+- 2026-04, `why-content-distribution-is-more-important-today-than-ever-before.md` (operator essay archive)
+- 2026-04, `how-to-create-once-distribute-forever-with-ross-simmonds-buzzstream.md` (operator essay archive)
+- 2026-04, `the-power-of-distribution-why-you-should-promote-your-content-more-vol-219.md` (operator essay archive)
+- 2026-04, `smart-content-distribution-strategies-with-ross-simmonds.md` (operator essay archive)

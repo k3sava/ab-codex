@@ -26,10 +26,10 @@ Karl Sakas's system of thought centers on a single observation drawn from advisi
 - **Delivery Model Design**
 
 ## Cards
-- `ins_agency-chaos-is-leadership` — Most agency problems are leadership problems disguised as operational ones [Tier B]
+- `ins_agency-chaos-is-leadership`, Most agency problems are leadership problems disguised as operational ones [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `karl-sakas-on-navigating-agency-growth-and-exits-and-calming-the-chaos-sales-sch.md` (operator essay archive)
-- 2026-04 — `karl-sakas-agency-management-institute.md` (operator essay archive)
-- 2026-04 — `corey-quinn-specialize-scale-multiply.md` (operator essay archive)
+- 2026-04, `karl-sakas-on-navigating-agency-growth-and-exits-and-calming-the-chaos-sales-sch.md` (operator essay archive)
+- 2026-04, `karl-sakas-agency-management-institute.md` (operator essay archive)
+- 2026-04, `corey-quinn-specialize-scale-multiply.md` (operator essay archive)

@@ -22,10 +22,10 @@ Marie Haynes is the SEO industry's leading authority on Google algorithm recover
 - **Seo Measurement**
 
 ## Cards
-- `ins_qrg-recovery-roadmap` — The Quality Rater Guidelines are the closest thing Google has to a public ranking roadmap [Tier B]
+- `ins_qrg-recovery-roadmap`, The Quality Rater Guidelines are the closest thing Google has to a public ranking roadmap [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `the-google-quality-rater-guidelines-and-eat-wmarie-haynes.md` (operator essay archive)
-- 2026-04 — `keeping-up-with-the-google-updates-with-marie-haynes.md` (operator essay archive)
-- 2026-04 — `googles-quality-raters-guidelines-marie-haynes-optimisey.md` (operator essay archive)
+- 2026-04, `the-google-quality-rater-guidelines-and-eat-wmarie-haynes.md` (operator essay archive)
+- 2026-04, `keeping-up-with-the-google-updates-with-marie-haynes.md` (operator essay archive)
+- 2026-04, `googles-quality-raters-guidelines-marie-haynes-optimisey.md` (operator essay archive)

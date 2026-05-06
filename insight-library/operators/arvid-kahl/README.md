@@ -25,11 +25,11 @@ Arvid Kahl's system of thought starts with the "Embedded Entrepreneur" concept: 
 - **Ai Workflow Automation**
 
 ## Cards
-- `ins_embedded-entrepreneur` — Embed in the community before you build the product [Tier B]
-- `ins_10-80-10-ai-workflow` — 10-80-10: human direction, AI execution, human polish [Tier B]
+- `ins_embedded-entrepreneur`, Embed in the community before you build the product [Tier B]
+- `ins_10-80-10-ai-workflow`, 10-80-10: human direction, AI execution, human polish [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `indie-hacking-the-singularity-the-bootstrapped-founder.md` (operator essay archive)
-- 2026-04 — `indie-hackers-myopic-view-of-ai-the-bootstrapped-founder.md` (operator essay archive)
-- 2026-04 — `building-in-public-and-legacy-the-bootstrapped-founder.md` (operator essay archive)
+- 2026-04, `indie-hacking-the-singularity-the-bootstrapped-founder.md` (operator essay archive)
+- 2026-04, `indie-hackers-myopic-view-of-ai-the-bootstrapped-founder.md` (operator essay archive)
+- 2026-04, `building-in-public-and-legacy-the-bootstrapped-founder.md` (operator essay archive)

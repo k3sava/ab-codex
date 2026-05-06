@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Parag Pathak — Vice President Product Marketing | MBA Instructor | AI Evangelist | Public Speaker | Top 100 Product Marketing Influencer
+Parag Pathak, Vice President Product Marketing | MBA Instructor | AI Evangelist | Public Speaker | Top 100 Product Marketing Influencer
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

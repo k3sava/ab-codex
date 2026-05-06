@@ -25,13 +25,13 @@ Nick Abraham's system of thought rests on a single insight: personalization and 
 - **Cold Start Strategy**
 
 ## Cards
-- `ins_hyper-personalization-cold-email` — Cold email at scale isn't about volume or copywriting — it's about layering intent + colleague + AI personalization [Tier B]
+- `ins_hyper-personalization-cold-email`, Cold email at scale isn't about volume or copywriting, it's about layering intent + colleague + AI personalization [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `nick-abraham-the-cold-email-expert-who-redefined-lead-generation-scrubby.md` (operator essay archive)
-- 2026-04 — `how-to-copy-nick-abrahams-hyper-personalization-framework-40-response-rates-at-s.md` (operator essay archive)
-- 2026-04 — `nick-abrahams-cold-email-masterclass.md` (operator essay archive)
-- 2026-04 — `how-nick-built-a-lead-generation-empire-starter-story.md` (operator essay archive)
-- 2026-04 — `3-game-changing-strategies-nick-abraham-recommends-to-increase-your-booked-calls.md` (operator essay archive)
-- 2026-04 — `nick-abraham-x-eric-nowoslawski-10-tactics-to-survive-the-cold-email-blood-bath.md` (operator essay archive)
+- 2026-04, `nick-abraham-the-cold-email-expert-who-redefined-lead-generation-scrubby.md` (operator essay archive)
+- 2026-04, `how-to-copy-nick-abrahams-hyper-personalization-framework-40-response-rates-at-s.md` (operator essay archive)
+- 2026-04, `nick-abrahams-cold-email-masterclass.md` (operator essay archive)
+- 2026-04, `how-nick-built-a-lead-generation-empire-starter-story.md` (operator essay archive)
+- 2026-04, `3-game-changing-strategies-nick-abraham-recommends-to-increase-your-booked-calls.md` (operator essay archive)
+- 2026-04, `nick-abraham-x-eric-nowoslawski-10-tactics-to-survive-the-cold-email-blood-bath.md` (operator essay archive)

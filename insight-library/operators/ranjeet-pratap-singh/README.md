@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Ranjeet Pratap Singh — Co-Founder/CEO @ Pratilipi
+Ranjeet Pratap Singh, Co-Founder/CEO @ Pratilipi
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

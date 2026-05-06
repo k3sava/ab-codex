@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Jatin Saini — I build personal brands for CEOs, VCs & founders
+Jatin Saini, I build personal brands for CEOs, VCs & founders
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

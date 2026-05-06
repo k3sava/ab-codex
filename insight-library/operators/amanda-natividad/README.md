@@ -25,12 +25,12 @@ Amanda Natividad coined the term "zero-click content" and developed the strategi
 - **Content Repurposing**
 
 ## Cards
-- `ins_death-of-the-ultimate-guide` — Sharper POV beats exhaustive coverage when an LLM is the summarizer [Tier B]
+- `ins_death-of-the-ultimate-guide`, Sharper POV beats exhaustive coverage when an LLM is the summarizer [Tier B]
 
 ## Sources captured
-- 2026-04-25 — *The Death of the Ultimate Guide*, SparkToro (`raw/essays/amanda-natividad--death-of-ultimate-guide--2026-04-25.md`)
-- 2026-04 — `the-case-for-zero-click-content-in-a-zero-trust-ecosystem-sparktoro.md` (operator essay archive)
-- 2026-04 — `zero-click-content-the-counterintuitive-way-to-succeed-sparktoro.md` (operator essay archive)
-- 2026-04 — `sparktoros-webinar-to-blog-content-strategy-ft-amanda-natividad.md` (operator essay archive)
-- 2026-04 — `zero-click-content-roi-the-future-of-marketing.md` (operator essay archive)
-- 2026-04 — `explainer-what-is-zero-click-content-and-why-is-it-becoming-essential-for-market.md` (operator essay archive)
+- 2026-04-25, *The Death of the Ultimate Guide*, SparkToro (`raw/essays/amanda-natividad--death-of-ultimate-guide--2026-04-25.md`)
+- 2026-04, `the-case-for-zero-click-content-in-a-zero-trust-ecosystem-sparktoro.md` (operator essay archive)
+- 2026-04, `zero-click-content-the-counterintuitive-way-to-succeed-sparktoro.md` (operator essay archive)
+- 2026-04, `sparktoros-webinar-to-blog-content-strategy-ft-amanda-natividad.md` (operator essay archive)
+- 2026-04, `zero-click-content-roi-the-future-of-marketing.md` (operator essay archive)
+- 2026-04, `explainer-what-is-zero-click-content-and-why-is-it-becoming-essential-for-market.md` (operator essay archive)

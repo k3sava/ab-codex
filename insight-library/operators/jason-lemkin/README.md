@@ -23,12 +23,12 @@ Jason Lemkin is the SaaS industry's operational pattern-matcher. Where Tunguz pr
 - **Pricing Strategy**
 
 ## Cards
-- `ins_t2d3-saas-growth-trajectory` — 10 unaffiliated paying customers = PMF floor. Then T2D3 (or T3D3) maps the path to scale. [Tier A]
+- `ins_t2d3-saas-growth-trajectory`, 10 unaffiliated paying customers = PMF floor. Then T2D3 (or T3D3) maps the path to scale. [Tier A]
 
 
 ## Sources captured
-- 2026-04 — `is-it-now-triple-triple-triple-double-double-double-t3d3-for-top-tier-saas-start.md` (operator essay archive)
-- 2026-04 — `the-three-saas-metrics-that-matter-in-2024-with-saastr-founder-and-ceo-jason-lem.md` (operator essay archive)
-- 2026-04 — `what-order-should-you-hire-your-management-team-in-saastr.md` (operator essay archive)
-- 2026-04 — `no-inbound-isnt-dead-the-gtm-playbook-isnt-broken-but-your-moats-are-shrinking-t.md` (operator essay archive)
-- 2026-04 — `the-go-to-market-playbook-isnt-broken-youre-just-running-the-2021-version-live-w.md` (operator essay archive)
+- 2026-04, `is-it-now-triple-triple-triple-double-double-double-t3d3-for-top-tier-saas-start.md` (operator essay archive)
+- 2026-04, `the-three-saas-metrics-that-matter-in-2024-with-saastr-founder-and-ceo-jason-lem.md` (operator essay archive)
+- 2026-04, `what-order-should-you-hire-your-management-team-in-saastr.md` (operator essay archive)
+- 2026-04, `no-inbound-isnt-dead-the-gtm-playbook-isnt-broken-but-your-moats-are-shrinking-t.md` (operator essay archive)
+- 2026-04, `the-go-to-market-playbook-isnt-broken-youre-just-running-the-2021-version-live-w.md` (operator essay archive)

@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Gaurav Sharma — Building AtomsAI (end-to-end AI consulting, solutioning & implementation) | Scaling JustCall & ServiceAgent
+Gaurav Sharma, Building AtomsAI (end-to-end AI consulting, solutioning & implementation) | Scaling JustCall & ServiceAgent
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

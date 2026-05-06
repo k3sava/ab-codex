@@ -26,15 +26,15 @@ Marcel Petitpas has built his expertise around a single, high-stakes problem: wh
 - **Scope Management**
 
 ## Cards
-- `ins_delivery-margin-three-levers` — Most agencies suffer from indigestion, not starvation — measure delivery margin and the three levers that move it [Tier B]
+- `ins_delivery-margin-three-levers`, Most agencies suffer from indigestion, not starvation, measure delivery margin and the three levers that move it [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `maximizing-agency-profitability-insights-from-ceo-co-founder-marcel-petitpas.md` (operator essay archive)
-- 2026-04 — `how-to-improve-your-agencys-profitability-with-marcel-petitpas-seven-figure-agen.md` (operator essay archive)
-- 2026-04 — `8-vital-agency-metrics-kpis-to-improve-profitability-parakeeto.md` (operator essay archive)
-- 2026-04 — `measuring-and-improving-your-agencys-profitability-the-2023-guide-parakeeto.md` (operator essay archive)
-- 2026-04 — `the-definitive-guide-to-calculate-profitability-for-your-marketing-agency.md` (operator essay archive)
-- 2026-04 — `3-key-profitability-drivers-agencies-need-to-prioritize-parakeeto.md` (operator essay archive)
-- 2026-04 — `utilization-rate-capacity-forecasting-marketing-agencys-guide.md` (operator essay archive)
-- 2026-04 — `parakeeto-ceo-marcel-petitpas-agency-profitability-flywheel.md` (operator essay archive)
+- 2026-04, `maximizing-agency-profitability-insights-from-ceo-co-founder-marcel-petitpas.md` (operator essay archive)
+- 2026-04, `how-to-improve-your-agencys-profitability-with-marcel-petitpas-seven-figure-agen.md` (operator essay archive)
+- 2026-04, `8-vital-agency-metrics-kpis-to-improve-profitability-parakeeto.md` (operator essay archive)
+- 2026-04, `measuring-and-improving-your-agencys-profitability-the-2023-guide-parakeeto.md` (operator essay archive)
+- 2026-04, `the-definitive-guide-to-calculate-profitability-for-your-marketing-agency.md` (operator essay archive)
+- 2026-04, `3-key-profitability-drivers-agencies-need-to-prioritize-parakeeto.md` (operator essay archive)
+- 2026-04, `utilization-rate-capacity-forecasting-marketing-agencys-guide.md` (operator essay archive)
+- 2026-04, `parakeeto-ceo-marcel-petitpas-agency-profitability-flywheel.md` (operator essay archive)

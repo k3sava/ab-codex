@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Ayush Barnwal — Founder @ThunderClap , B2B Website Revamp Agency | Shipped 144+ Websites | 100% YOY Growth
+Ayush Barnwal, Founder @ThunderClap , B2B Website Revamp Agency | Shipped 144+ Websites | 100% YOY Growth
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

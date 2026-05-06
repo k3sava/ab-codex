@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Jedd Talbot — AGENCIES & CONSULTANTS: I will help you add $5k-$25k to your business using a LinkedIn inbound funnel | Book a call below ↓
+Jedd Talbot, AGENCIES & CONSULTANTS: I will help you add $5k-$25k to your business using a LinkedIn inbound funnel | Book a call below ↓
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

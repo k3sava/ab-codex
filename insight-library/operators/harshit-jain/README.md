@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Harshit Jain — Principal PMM @ ClickUp | only product marketer who loves code
+Harshit Jain, Principal PMM @ ClickUp | only product marketer who loves code
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Dave Steer — Chief Marketing Officer, Webflow
+Dave Steer, Chief Marketing Officer, Webflow
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Anip Prakash — Inbound Demand Generation | Performance Marketing | GTM | PPC | SEO | Growth Marketing
+Anip Prakash, Inbound Demand Generation | Performance Marketing | GTM | PPC | SEO | Growth Marketing
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

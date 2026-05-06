@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Mayuresh Patole — Founder at Chronicle
+Mayuresh Patole, Founder at Chronicle
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

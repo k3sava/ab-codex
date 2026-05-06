@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Marketoonist — Throwback cartoon I drew in 2017, in the same vein as my latest post on “Brands Chasing Youth.”
+Marketoonist, Throwback cartoon I drew in 2017, in the same vein as my latest post on "Brands Chasing Youth."
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

@@ -25,13 +25,13 @@ Robert Rose's foundational contribution is the rigorous separation of content st
 - **Content Distribution Strategy**
 
 ## Cards
-- `ins_content-strategy-vs-content-marketing` — Content strategy and content marketing are different disciplines — most orgs conflate them and pay for it [Tier B]
+- `ins_content-strategy-vs-content-marketing`, Content strategy and content marketing are different disciplines, most orgs conflate them and pay for it [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `how-content-strategy-and-content-marketing-are-separate-but-connected.md` (operator essay archive)
-- 2026-04 — `robert-roses-killer-content-marketing-strategies-to-go-bigger-faster-proven-cont.md` (operator essay archive)
-- 2026-04 — `robert-roses-tips-on-infusing-enablement-in-content-marketing.md` (operator essay archive)
-- 2026-04 — `robert-rose-on-the-operating-models-of-content-its-time-to-get-strategic-ingeniu.md` (operator essay archive)
-- 2026-04 — `content-marketing-strategy-an-interview-with-robert-rose-founder-the-content-adv.md` (operator essay archive)
-- 2026-04 — `content-orchestration-the-2026-marketing-shift.md` (operator essay archive)
+- 2026-04, `how-content-strategy-and-content-marketing-are-separate-but-connected.md` (operator essay archive)
+- 2026-04, `robert-roses-killer-content-marketing-strategies-to-go-bigger-faster-proven-cont.md` (operator essay archive)
+- 2026-04, `robert-roses-tips-on-infusing-enablement-in-content-marketing.md` (operator essay archive)
+- 2026-04, `robert-rose-on-the-operating-models-of-content-its-time-to-get-strategic-ingeniu.md` (operator essay archive)
+- 2026-04, `content-marketing-strategy-an-interview-with-robert-rose-founder-the-content-adv.md` (operator essay archive)
+- 2026-04, `content-orchestration-the-2026-marketing-shift.md` (operator essay archive)

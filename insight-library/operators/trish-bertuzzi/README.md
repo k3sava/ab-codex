@@ -23,10 +23,10 @@ Trish Bertuzzi is the operational architect of sales development teams. Where Aa
 - **Sales Process Design**
 
 ## Cards
-- `ins_six-elements-sales-development` — SDR teams are precision operating systems — six interdependent elements; optimize one without the others = systemic mediocrity [Tier B]
+- `ins_six-elements-sales-development`, SDR teams are precision operating systems, six interdependent elements; optimize one without the others = systemic mediocrity [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `sales-development-playbook-trish-bertuzzi.md` (operator essay archive)
-- 2026-04 — `bridge-group-sdr-metrics-benchmarks.md` (operator essay archive)
-- 2026-04 — `trish-bertuzzi-six-elements-sales-development.md` (operator essay archive)
+- 2026-04, `sales-development-playbook-trish-bertuzzi.md` (operator essay archive)
+- 2026-04, `bridge-group-sdr-metrics-benchmarks.md` (operator essay archive)
+- 2026-04, `trish-bertuzzi-six-elements-sales-development.md` (operator essay archive)

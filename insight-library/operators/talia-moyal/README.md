@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Talia Moyal — PMM @ Lovable
+Talia Moyal, PMM @ Lovable
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Nagarjun Reddy — Sales Leader | Nudge- agentic commerce platform for AI search visibility
+Nagarjun Reddy, Sales Leader | Nudge- agentic commerce platform for AI search visibility
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

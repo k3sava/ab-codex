@@ -26,12 +26,12 @@ Chris Orlob is the empiricist of modern sales methodology. Rather than prescribi
 - **Discovery Call Framework**
 
 ## Cards
-- `ins_pov-led-outbound` — Lead with a per-account point of view, not a templated cold ask [Tier A]
-- `ins_competency-analytics-over-activity-dashboards` — Coach reps on skill-friction, not call counts [Tier B]
+- `ins_pov-led-outbound`, Lead with a per-account point of view, not a templated cold ask [Tier A]
+- `ins_competency-analytics-over-activity-dashboards`, Coach reps on skill-friction, not call counts [Tier B]
 
 ## Sources captured
-- 2026-04-21 — *POV-Led Outbound*, pclub.io (`raw/essays/chris-orlob--pov-led-outbound--2026-04-21.md`)
-- 2026-04-17 — *Sales Competency Analytics*, pclub.io (`raw/essays/chris-orlob--sales-competency-analytics--2026-04-17.md`)
-- 2026-04 — `chris-orlob-gong-labs-discovery-call-data.md` (operator essay archive)
-- 2026-04 — `chris-orlob-gong-labs-competitive-deals-multithreading.md` (operator essay archive)
-- 2026-04 — `chris-orlob-gong-labs-talk-listen-ratio-pricing.md` (operator essay archive)
+- 2026-04-21, *POV-Led Outbound*, pclub.io (`raw/essays/chris-orlob--pov-led-outbound--2026-04-21.md`)
+- 2026-04-17, *Sales Competency Analytics*, pclub.io (`raw/essays/chris-orlob--sales-competency-analytics--2026-04-17.md`)
+- 2026-04, `chris-orlob-gong-labs-discovery-call-data.md` (operator essay archive)
+- 2026-04, `chris-orlob-gong-labs-competitive-deals-multithreading.md` (operator essay archive)
+- 2026-04, `chris-orlob-gong-labs-talk-listen-ratio-pricing.md` (operator essay archive)

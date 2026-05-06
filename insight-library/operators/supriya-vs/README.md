@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Supriya VS — Product Marketing - Agentic AI | Ex - Multiplier, Directi, upGrad
+Supriya VS, Product Marketing - Agentic AI | Ex - Multiplier, Directi, upGrad
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

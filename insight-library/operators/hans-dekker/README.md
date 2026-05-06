@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Hans Dekker — AI-powered GTM strategist | Education & Content Lead at Instantly.ai
+Hans Dekker, AI-powered GTM strategist | Education & Content Lead at Instantly.ai
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

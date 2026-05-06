@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Aayush Kumar — Performative AI Enthusiast
+Aayush Kumar, Performative AI Enthusiast
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

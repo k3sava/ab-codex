@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Amanda Groves 🏃🏼‍♀️ — VP Product Marketing | 5x Top 100 PMM | Startup to Scaleup Expertise | Ultra runner | Artist | Mom x2
+Amanda Groves 🏃🏼‍♀️, VP Product Marketing | 5x Top 100 PMM | Startup to Scaleup Expertise | Ultra runner | Artist | Mom x2
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

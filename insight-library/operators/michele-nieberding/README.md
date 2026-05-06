@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Michele Nieberding 🚀 — The AI Product Marketer
+Michele Nieberding 🚀, The AI Product Marketer
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

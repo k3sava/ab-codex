@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Andrew Jones — Let me know if you agree or disagree:
+Andrew Jones, Let me know if you agree or disagree:
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

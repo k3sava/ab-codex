@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Samuel Cahoon — Senior Product Marketing @ Pontera | Prev. HubSpot | Scaling AI-native GTM strategy in mission-driven tech | Advocate 🏳️‍🌈
+Samuel Cahoon, Senior Product Marketing @ Pontera | Prev. HubSpot | Scaling AI-native GTM strategy in mission-driven tech | Advocate 🏳️‍🌈
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

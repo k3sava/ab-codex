@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Maddy Hirshan — Strategic Marketing Leader, SaaS & AI @ Wolters Kluwer Health | Driving Product Launches & GTM | MBA Student
+Maddy Hirshan, Strategic Marketing Leader, SaaS & AI @ Wolters Kluwer Health | Driving Product Launches & GTM | MBA Student
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Anirban Banerjee — Storyteller | Content wrangler | Brand fixer-upper | I create content machines that make your brand more human.
+Anirban Banerjee, Storyteller | Content wrangler | Brand fixer-upper | I create content machines that make your brand more human.
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

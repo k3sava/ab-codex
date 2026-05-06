@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Sourav Mohanty — Not yet a Product Marketing Leader | B2B Positioning & Messaging | ARR is not my son but I’ll raise it
+Sourav Mohanty, Not yet a Product Marketing Leader | B2B Positioning & Messaging | ARR is not my son but I'll raise it
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

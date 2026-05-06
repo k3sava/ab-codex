@@ -25,11 +25,11 @@ Sahil Bloom's primary contribution is the curation and operationalization of men
 - **Systems Thinking**
 
 ## Cards
-- `ins_compounding-applies-everywhere` — Compounding applies to everything — the greatest results come from showing up when it's boring [Tier B]
+- `ins_compounding-applies-everywhere`, Compounding applies to everything, the greatest results come from showing up when it's boring [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `mental-razors-by-sahil-bloom-the-curiosity-chronicle.md` (operator essay archive)
-- 2026-04 — `when-mental-models-attack-by-sahil-bloom.md` (operator essay archive)
-- 2026-04 — `investor-or-borrower-a-mental-model-for-life-the-curiosity-chronicle.md` (operator essay archive)
-- 2026-04 — `the-framework-handbook-by-sahil-bloom.md` (operator essay archive)
+- 2026-04, `mental-razors-by-sahil-bloom-the-curiosity-chronicle.md` (operator essay archive)
+- 2026-04, `when-mental-models-attack-by-sahil-bloom.md` (operator essay archive)
+- 2026-04, `investor-or-borrower-a-mental-model-for-life-the-curiosity-chronicle.md` (operator essay archive)
+- 2026-04, `the-framework-handbook-by-sahil-bloom.md` (operator essay archive)

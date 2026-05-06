@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Daniel Cmejla — ***Community Marketing + Events*** Running the Community Marketing Company
+Daniel Cmejla, ***Community Marketing + Events*** Running the Community Marketing Company
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

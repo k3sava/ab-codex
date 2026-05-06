@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Meghana Kansagara — One Month Since I Closed a Chapter I Deeply Loved - Adios Clari ✨
+Meghana Kansagara, One Month Since I Closed a Chapter I Deeply Loved - Adios Clari ✨
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

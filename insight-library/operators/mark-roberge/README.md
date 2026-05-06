@@ -25,15 +25,15 @@ Mark Roberge is the quintessential engineer-turned-sales-leader. His MIT enginee
 - **Sdr Team Design**
 
 ## Cards
-- `ins_coachability-beats-experience` — Coachability — not prior experience or charisma — is the strongest predictor of sales success [Tier A]
-- `ins_roberge-sales-as-engineering-discipline` — Sales is engineering, not art — system design beats individual talent at scale [Tier A]
-- `ins_roberge-structured-training` — Replace "shadow a top rep" with structured curriculum + pass/fail certifications [Tier A]
-- `ins_roberge-data-driven-coaching` — Coach on 1-2 specific peer-relative metric gaps per rep — generic coaching wastes manager time [Tier A]
-- `ins_roberge-premature-scaling` — Premature scaling — hiring sales before stage-of-fit — is the single most destructive GTM mistake [Tier A]
-- `ins_roberge-technology-feedback-loop` — Instrument every buyer interaction so the data feeds back into the four formulas [Tier B]
+- `ins_coachability-beats-experience`, Coachability, not prior experience or charisma, is the strongest predictor of sales success [Tier A]
+- `ins_roberge-sales-as-engineering-discipline`, Sales is engineering, not art, system design beats individual talent at scale [Tier A]
+- `ins_roberge-structured-training`, Replace "shadow a top rep" with structured curriculum + pass/fail certifications [Tier A]
+- `ins_roberge-data-driven-coaching`, Coach on 1-2 specific peer-relative metric gaps per rep, generic coaching wastes manager time [Tier A]
+- `ins_roberge-premature-scaling`, Premature scaling, hiring sales before stage-of-fit, is the single most destructive GTM mistake [Tier A]
+- `ins_roberge-technology-feedback-loop`, Instrument every buyer interaction so the data feeds back into the four formulas [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `sales-acceleration-formula-summary-mark-roberge.md` (operator essay archive)
-- 2026-04 — `mark-roberge-data-driven-sales-hiring-scorecard.md` (operator essay archive)
-- 2026-04 — `mark-roberge-science-of-scaling-stage2-capital.md` (operator essay archive)
+- 2026-04, `sales-acceleration-formula-summary-mark-roberge.md` (operator essay archive)
+- 2026-04, `mark-roberge-data-driven-sales-hiring-scorecard.md` (operator essay archive)
+- 2026-04, `mark-roberge-science-of-scaling-stage2-capital.md` (operator essay archive)

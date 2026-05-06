@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Giorgio Zanella — GTM Engineer @TheKiln DM if you have a cool API to try
+Giorgio Zanella, GTM Engineer @TheKiln DM if you have a cool API to try
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

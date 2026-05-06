@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Yogi Gnanavel — The Acceleration Guy - GTM Leader
+Yogi Gnanavel, The Acceleration Guy - GTM Leader
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

@@ -25,12 +25,12 @@ Sam Kuehnle brings a practitioner's perspective to B2B demand generation, blendi
 - **Dark Social Strategy**
 
 ## Cards
-- `ins_brand-coefficient-multiplier` — Brand is the force multiplier on demand gen — strengthen the brand coefficient, not just spend more on ads [Tier B]
+- `ins_brand-coefficient-multiplier`, Brand is the force multiplier on demand gen, strengthen the brand coefficient, not just spend more on ads [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `take-back-50-450-of-your-ad-budget-by-sam-kuehnle.md` (operator essay archive)
-- 2026-04 — `the-brand-coefficient-by-sam-kuehnle.md` (operator essay archive)
-- 2026-04 — `when-common-practice-buries-common-sense-by-sam-kuehnle.md` (operator essay archive)
-- 2026-04 — `separating-goals-and-metrics-by-sam-kuehnle.md` (operator essay archive)
-- 2026-04 — `i-dont-know-if-this-will-work-by-sam-kuehnle.md` (operator essay archive)
+- 2026-04, `take-back-50-450-of-your-ad-budget-by-sam-kuehnle.md` (operator essay archive)
+- 2026-04, `the-brand-coefficient-by-sam-kuehnle.md` (operator essay archive)
+- 2026-04, `when-common-practice-buries-common-sense-by-sam-kuehnle.md` (operator essay archive)
+- 2026-04, `separating-goals-and-metrics-by-sam-kuehnle.md` (operator essay archive)
+- 2026-04, `i-dont-know-if-this-will-work-by-sam-kuehnle.md` (operator essay archive)

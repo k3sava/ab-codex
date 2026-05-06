@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Shaambhav Shankar — Product Marketing Manager (PMM) | AI Marketing Automation | Vibe Marketing
+Shaambhav Shankar, Product Marketing Manager (PMM) | AI Marketing Automation | Vibe Marketing
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

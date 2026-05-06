@@ -27,12 +27,12 @@ David Mackenzie Ogilvy (1911–1999) was a British advertising executive and fou
 - **Hire Bigger Than Yourself**
 
 ## Cards
-- `ins_ogilvy-we-sell-or-else` — When I write an advertisement I don't want you to find it 'creative'; I want you to find it so interesting you buy the product [Tier A]
-- `ins_ogilvy-consumer-is-your-wife` — The consumer isn't a moron; she is your wife — respect her intelligence [Tier A]
-- `ins_ogilvy-family-test` — Never write an advertisement you wouldn't want your own family to read [Tier A]
-- `ins_ogilvy-discipline-of-knowledge` — I prefer the discipline of knowledge to the anarchy of ignorance [Tier A]
-- `ins_ogilvy-hire-bigger-than-yourself` — If each of us hires people bigger than ourselves, we become a company of giants [Tier A]
-- `ins_ogilvy-celebrity-warning` — Viewers remember the celebrity and forget the product — celebrity endorsements often fail their job [Tier B]
+- `ins_ogilvy-we-sell-or-else`, When I write an advertisement I don't want you to find it 'creative'; I want you to find it so interesting you buy the product [Tier A]
+- `ins_ogilvy-consumer-is-your-wife`, The consumer isn't a moron; she is your wife, respect her intelligence [Tier A]
+- `ins_ogilvy-family-test`, Never write an advertisement you wouldn't want your own family to read [Tier A]
+- `ins_ogilvy-discipline-of-knowledge`, I prefer the discipline of knowledge to the anarchy of ignorance [Tier A]
+- `ins_ogilvy-hire-bigger-than-yourself`, If each of us hires people bigger than ourselves, we become a company of giants [Tier A]
+- `ins_ogilvy-celebrity-warning`, Viewers remember the celebrity and forget the product, celebrity endorsements often fail their job [Tier B]
 
 ## Sources captured
-- 2026-05 — Wikiquote canonical page (`raw/essays/ogilvy--principles--2026-05.md`) — verbatim quotes from *Confessions of an Advertising Man* (1963) and *Ogilvy on Advertising* (1983) with page numbers.
+- 2026-05, Wikiquote canonical page (`raw/essays/ogilvy--principles--2026-05.md`), verbatim quotes from *Confessions of an Advertising Man* (1963) and *Ogilvy on Advertising* (1983) with page numbers.

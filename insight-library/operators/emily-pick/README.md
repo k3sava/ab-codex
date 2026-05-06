@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Emily Pick — Product Marketing @ Docebo
+Emily Pick, Product Marketing @ Docebo
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

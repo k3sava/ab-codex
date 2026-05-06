@@ -25,10 +25,10 @@ Sam Oh has become the most authoritative voice in video SEO through his dual rol
 - **Keyword Research Methodology**
 
 ## Cards
-- `ins_youtube-seo-engagement-not-links` — Video SEO is a different sport — YouTube ranks on engagement, not link authority [Tier B]
+- `ins_youtube-seo-engagement-not-links`, Video SEO is a different sport, YouTube ranks on engagement, not link authority [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `youtube-seo-how-to-rank-your-videos-from-start-to-finish.md` (operator essay archive)
-- 2026-04 — `video-seo-how-to-rank-youtube-videos-on-google.md` (operator essay archive)
-- 2026-04 — `seo-for-startups-9-steps-to-grow-on-a-budget.md` (operator essay archive)
+- 2026-04, `youtube-seo-how-to-rank-your-videos-from-start-to-finish.md` (operator essay archive)
+- 2026-04, `video-seo-how-to-rank-youtube-videos-on-google.md` (operator essay archive)
+- 2026-04, `seo-for-startups-9-steps-to-grow-on-a-budget.md` (operator essay archive)

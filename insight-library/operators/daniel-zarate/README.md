@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Daniel Zarate — Helping Businesses Scale with Ads + Content Marketing
+Daniel Zarate, Helping Businesses Scale with Ads + Content Marketing
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

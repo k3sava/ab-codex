@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Holly Allen — Founding AE @ FullEnrich 🚀 ask me about how to get a 14%+ connect rate on cold calls ☎️
+Holly Allen, Founding AE @ FullEnrich 🚀 ask me about how to get a 14%+ connect rate on cold calls ☎️
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

@@ -18,7 +18,7 @@ external:
 # Bret Taylor
 
 ## Bio
-Chair of OpenAI and co-founder/CEO of Sierra. Former co-CEO of Salesforce alongside Marc Benioff, former CTO of Meta, and lead on Google Maps (after the Google Local launch failure was reset). Operator-class voice on agent-native SaaS and outcomes-based pricing as the structurally inevitable next pricing model.
+Bret Taylor. Chair of OpenAI and co-founder/CEO of Sierra. Former co-CEO of Salesforce alongside Marc Benioff, former CTO of Meta, and lead on Google Maps (after the Google Local launch failure was reset). Operator-class voice on agent-native SaaS and outcomes-based pricing as the structurally inevitable next pricing model.
 
 ## Operating themes
 - **Outcomes pricing is structural.** The agent shift forces the pricing model to flip.
@@ -26,7 +26,7 @@ Chair of OpenAI and co-founder/CEO of Sierra. Former co-CEO of Salesforce alongs
 - **Morning ruthlessness.** "What's the most impactful thing today?" as a daily question, not productivity theatre.
 
 ## Cards
-- `ins_outcomes-pricing-restructures-saas` — Agents push SaaS to outcomes pricing; the incentive flip rewrites everything [Tier B]
+- `ins_outcomes-pricing-restructures-saas`, Agents push SaaS to outcomes pricing; the incentive flip rewrites everything [Tier B]
 
 ## Sources captured
-- 2026-04-28 — Lenny's Podcast, "Agent futures, outcomes-based pricing, Google Local to Maps" (`raw/podcasts/bret-taylor--agents-outcomes-pricing--2026-04-28.md`)
+- 2026-04-28, Lenny's Podcast, "Agent futures, outcomes-based pricing, Google Local to Maps" (`raw/podcasts/bret-taylor--agents-outcomes-pricing--2026-04-28.md`)

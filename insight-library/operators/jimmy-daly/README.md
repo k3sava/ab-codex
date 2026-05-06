@@ -25,15 +25,15 @@ Jimmy Daly's content philosophy is grounded in the belief that content strategy 
 - **Content Measurement**
 
 ## Cards
-- `ins_blog-as-library-business-model-revealed` — Content strategy should be revealed by the business model, not invented from scratch [Tier B]
+- `ins_blog-as-library-business-model-revealed`, Content strategy should be revealed by the business model, not invented from scratch [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `how-to-create-content-that-actually-ranks-in-search-results.md` (operator essay archive)
-- 2026-04 — `blogs-are-libraries-not-publications.md` (operator essay archive)
-- 2026-04 — `content-strategy-distilled.md` (operator essay archive)
-- 2026-04 — `content-marketing-power-laws.md` (operator essay archive)
-- 2026-04 — `big-wins-for-content-marketing-or-unsexy-strategies-for-long-term-growth.md` (operator essay archive)
-- 2026-04 — `superpath-content-strategy-template.md` (operator essay archive)
-- 2026-04 — `is-your-content-strategy-working.md` (operator essay archive)
-- 2026-04 — `content-in-2025-how-to-maximize-and-measure-revenue-impact.md` (operator essay archive)
+- 2026-04, `how-to-create-content-that-actually-ranks-in-search-results.md` (operator essay archive)
+- 2026-04, `blogs-are-libraries-not-publications.md` (operator essay archive)
+- 2026-04, `content-strategy-distilled.md` (operator essay archive)
+- 2026-04, `content-marketing-power-laws.md` (operator essay archive)
+- 2026-04, `big-wins-for-content-marketing-or-unsexy-strategies-for-long-term-growth.md` (operator essay archive)
+- 2026-04, `superpath-content-strategy-template.md` (operator essay archive)
+- 2026-04, `is-your-content-strategy-working.md` (operator essay archive)
+- 2026-04, `content-in-2025-how-to-maximize-and-measure-revenue-impact.md` (operator essay archive)

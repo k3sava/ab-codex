@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Sara Popken — Head of Product Marketing at Quizlet
+Sara Popken, Head of Product Marketing at Quizlet
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

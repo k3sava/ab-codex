@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Charly Wargnier — accurate
+Charly Wargnier, accurate
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

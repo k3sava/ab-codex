@@ -26,15 +26,15 @@ David Skok is the architect of the modern SaaS metrics framework. His contributi
 - **Pricing Strategy**
 
 ## Cards
-- `ins_ltv-cac-ratio-and-cash-flow-trough` — LTV ≥ 3× CAC, recover CAC in <12 months — and expect a multi-year cash flow trough [Tier A]
-- `ins_skok-churn-reduction-doubles-ltv` — Halve churn, double LTV — retention beats acquisition optimisation by a multiple [Tier A]
-- `ins_skok-negative-churn` — NRR > 100% (negative churn) is the defining property of the best SaaS businesses [Tier A]
-- `ins_skok-salesperson-unit-economics` — Salesperson unit economics is its own model — ramp time, payback, failure rate [Tier A]
-- `ins_skok-sales-rep-failure-rate` — 30-40% of sales hires never reach quota — plan against failure rate, not headcount [Tier A]
-- `ins_skok-ltv-cac-as-cross-functional-diagnostic` — LTV:CAC decline is a diagnostic, not a metric — points at product, sales, or fit [Tier A]
+- `ins_ltv-cac-ratio-and-cash-flow-trough`, LTV ≥ 3× CAC, recover CAC in <12 months, and expect a multi-year cash flow trough [Tier A]
+- `ins_skok-churn-reduction-doubles-ltv`, Halve churn, double LTV, retention beats acquisition optimisation by a multiple [Tier A]
+- `ins_skok-negative-churn`, NRR > 100% (negative churn) is the defining property of the best SaaS businesses [Tier A]
+- `ins_skok-salesperson-unit-economics`, Salesperson unit economics is its own model, ramp time, payback, failure rate [Tier A]
+- `ins_skok-sales-rep-failure-rate`, 30-40% of sales hires never reach quota, plan against failure rate, not headcount [Tier A]
+- `ins_skok-ltv-cac-as-cross-functional-diagnostic`, LTV:CAC decline is a diagnostic, not a metric, points at product, sales, or fit [Tier A]
 
 
 ## Sources captured
-- 2026-04 — `saas-metrics-20-a-guide-to-measuring-and-improving-what-matters-for-entrepreneur.md` (operator essay archive)
-- 2026-04 — `saas-economics-part-1-the-saas-cash-flow-trough-for-entrepreneurs.md` (operator essay archive)
-- 2026-04 — `saas-economics-part-2-scaling-the-business-for-entrepreneurs.md` (operator essay archive)
+- 2026-04, `saas-metrics-20-a-guide-to-measuring-and-improving-what-matters-for-entrepreneur.md` (operator essay archive)
+- 2026-04, `saas-economics-part-1-the-saas-cash-flow-trough-for-entrepreneurs.md` (operator essay archive)
+- 2026-04, `saas-economics-part-2-scaling-the-business-for-entrepreneurs.md` (operator essay archive)

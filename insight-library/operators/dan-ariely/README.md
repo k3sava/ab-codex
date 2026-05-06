@@ -26,16 +26,16 @@ Dan Ariely provides the scientific foundation for understanding why customers ma
 - **Willingness To Pay Research**
 
 ## Cards
-- `ins_decoy-effect-pricing` — Add a strictly-worse third tier to make the premium tier look like the obvious choice [Tier A]
-- `ins_pain-of-paying` — Every transaction inflicts psychological pain — design payment to decouple it from consumption [Tier A]
-- `ins_ariely-relativity-principle` — Humans cannot evaluate prices in isolation — only by comparison [Tier A]
-- `ins_ariely-arbitrary-coherence` — Once an initial price is set, the entire category is anchored to it forever [Tier A]
-- `ins_ariely-power-of-free` — The gap between $0.01 and $0.00 is psychologically larger than any other 1-cent gap [Tier A]
-- `ins_ariely-pain-of-paying-modulators` — Pain of paying varies with method, timing, and granularity — design payment to minimise it [Tier A]
-- `ins_ariely-pennies-a-day-effect` — Framing annual price as daily trivializes the cost [Tier B]
+- `ins_decoy-effect-pricing`, Add a strictly-worse third tier to make the premium tier look like the obvious choice [Tier A]
+- `ins_pain-of-paying`, Every transaction inflicts psychological pain, design payment to decouple it from consumption [Tier A]
+- `ins_ariely-relativity-principle`, Humans cannot evaluate prices in isolation, only by comparison [Tier A]
+- `ins_ariely-arbitrary-coherence`, Once an initial price is set, the entire category is anchored to it forever [Tier A]
+- `ins_ariely-power-of-free`, The gap between $0.01 and $0.00 is psychologically larger than any other 1-cent gap [Tier A]
+- `ins_ariely-pain-of-paying-modulators`, Pain of paying varies with method, timing, and granularity, design payment to minimise it [Tier A]
+- `ins_ariely-pennies-a-day-effect`, Framing annual price as daily trivializes the cost [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `predictably-irrational-the-hidden-forces-that-shape-our-decisions-speed-summary-.md` (operator essay archive)
-- 2026-04 — `the-economist-magazine-a-story-of-clever-decoy-pricing-effect-the-strategy-story.md` (operator essay archive)
-- 2026-04 — `a-behavioral-economist-breaks-down-the-pain-of-paying.md` (operator essay archive)
+- 2026-04, `predictably-irrational-the-hidden-forces-that-shape-our-decisions-speed-summary-.md` (operator essay archive)
+- 2026-04, `the-economist-magazine-a-story-of-clever-decoy-pricing-effect-the-strategy-story.md` (operator essay archive)
+- 2026-04, `a-behavioral-economist-breaks-down-the-pain-of-paying.md` (operator essay archive)

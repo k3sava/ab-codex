@@ -25,12 +25,12 @@ Patrick Campbell is the foremost data-driven practitioner of SaaS pricing strate
 - **Plg Pricing Strategy**
 
 ## Cards
-- ins_pricing-needs-weekly-customer-calls — Without weekly customer calls you have a guess, not a pricing strategy [Tier B]
+- ins_pricing-needs-weekly-customer-calls, Without weekly customer calls you have a guess, not a pricing strategy [Tier B]
 
 ## Sources captured
-- 2026-04 — `the-price-is-right-essential-tips-for-nailing-your-pricing-strategy.md` (operator essay archive)
-- 2026-04 — `profitwells-patrick-campbell-on-the-art-and-science-of-pricing.md` (operator essay archive)
-- 2026-04 — `7-saas-pricing-tactics-from-patrick-campbell-earlynode.md` (operator essay archive)
-- 2026-04 — `pricing-optimization-and-monetization-strategies-for-startups.md` (operator essay archive)
-- 2026-04 — `articles-by-patrick-campbell.md` (operator essay archive)
-- 2026-04 — `patrick-campbells-profitwell-playbook-boost-startup-revenue-with-value-metric-pr.md` (operator essay archive)
+- 2026-04, `the-price-is-right-essential-tips-for-nailing-your-pricing-strategy.md` (operator essay archive)
+- 2026-04, `profitwells-patrick-campbell-on-the-art-and-science-of-pricing.md` (operator essay archive)
+- 2026-04, `7-saas-pricing-tactics-from-patrick-campbell-earlynode.md` (operator essay archive)
+- 2026-04, `pricing-optimization-and-monetization-strategies-for-startups.md` (operator essay archive)
+- 2026-04, `articles-by-patrick-campbell.md` (operator essay archive)
+- 2026-04, `patrick-campbells-profitwell-playbook-boost-startup-revenue-with-value-metric-pr.md` (operator essay archive)

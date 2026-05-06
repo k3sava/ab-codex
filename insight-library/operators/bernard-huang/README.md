@@ -26,10 +26,10 @@ Bernard Huang identified and operationalized a critical gap in the SEO workflow:
 - **Search Intent Mapping**
 
 ## Cards
-- `ins_nlp-content-grading-over-keyword-density` — Optimize content for semantic comprehensiveness, not keyword density [Tier B]
+- `ins_nlp-content-grading-over-keyword-density`, Optimize content for semantic comprehensiveness, not keyword density [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `clearscope-why-content-optimization-is-all-the-rage.md` (operator essay archive)
-- 2026-04 — `clearscope-educational-resources.md` (operator essay archive)
-- 2026-04 — `clearscope-seo-software-review-the-content-technologist.md` (operator essay archive)
+- 2026-04, `clearscope-why-content-optimization-is-all-the-rage.md` (operator essay archive)
+- 2026-04, `clearscope-educational-resources.md` (operator essay archive)
+- 2026-04, `clearscope-seo-software-review-the-content-technologist.md` (operator essay archive)

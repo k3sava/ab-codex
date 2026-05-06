@@ -24,13 +24,13 @@ Annie Duke's intellectual project is the systematic separation of decision quali
 - **Cognitive Bias Management**
 
 ## Cards
-- `ins_kill-criteria-make-pre-mortems-real` — Pre-mortems become decision gates only with explicit kill thresholds [Tier A]
-- `ins_make-intuition-explicit` — Force intuitions into falsifiable predictions to learn from them [Tier B]
-- `ins_no-such-thing-as-long-feedback-loop` — Replace the long signal with a correlated short one [Tier B]
+- `ins_kill-criteria-make-pre-mortems-real`, Pre-mortems become decision gates only with explicit kill thresholds [Tier A]
+- `ins_make-intuition-explicit`, Force intuitions into falsifiable predictions to learn from them [Tier B]
+- `ins_no-such-thing-as-long-feedback-loop`, Replace the long signal with a correlated short one [Tier B]
 
 ## Sources captured
-- 2026-04-28 — Lenny's Podcast, "Decision quality, explicit thinking, feedback loops" (`raw/podcasts/annie-duke--decision-quality-explicit-thinking--2026-04-28.md`)
-- 2026-04 — `behavioral-scientist-practical-tools-for-better-decisions-a-qa-with-annie-duke-o.md` (operator essay archive)
-- 2026-04 — `a-framework-for-making-better-decisions-annie-duke-partner-at-first-round-capita.md` (operator essay archive)
-- 2026-04 — `big-think-when-to-quit-a-simple-framework-for-lifes-toughest-decisions-annie-duk.md` (operator essay archive)
-- 2026-04 — `practical-tools-for-better-decisions-a-qa-with-annie-duke-on-how-to-decide-by-da.md` (operator essay archive)
+- 2026-04-28, Lenny's Podcast, "Decision quality, explicit thinking, feedback loops" (`raw/podcasts/annie-duke--decision-quality-explicit-thinking--2026-04-28.md`)
+- 2026-04, `behavioral-scientist-practical-tools-for-better-decisions-a-qa-with-annie-duke-o.md` (operator essay archive)
+- 2026-04, `a-framework-for-making-better-decisions-annie-duke-partner-at-first-round-capita.md` (operator essay archive)
+- 2026-04, `big-think-when-to-quit-a-simple-framework-for-lifes-toughest-decisions-annie-duk.md` (operator essay archive)
+- 2026-04, `practical-tools-for-better-decisions-a-qa-with-annie-duke-on-how-to-decide-by-da.md` (operator essay archive)

@@ -18,17 +18,17 @@ external:
 
 ## Bio
 
-Product marketing operator with 20 years across support, sales, operations, social media, content, and PMM. Founding PMM at Wingman through the Clari acquisition. First marketer at Fincent. Head of PMM at JustCall. The method is the same everywhere: customer interviews, a Value Proposition Canvas (Jobs, Pains, Triggers, Gains, Solution, Evidence), then messaging where every claim traces to a quote.
+Kesava Mandiga. Product marketing operator with 20 years across support, sales, operations, social media, content, and PMM. Founding PMM at Wingman through the Clari acquisition. First marketer at Fincent. Head of PMM at JustCall. The method is the same everywhere: customer interviews, a Value Proposition Canvas (Jobs, Pains, Triggers, Gains, Solution, Evidence), then messaging where every claim traces to a quote.
 
 Builds in parallel: Flywheel (PMM operating model, on Claude Code and GitHub), the ab-codex corpus you're reading, and a personal agent ecosystem (miniu, Commons, Curiosity).
 
 ## Voice
 
-Writes like he's talking to a friend. Personal register, mid-sentence personality injection, throwaway humor, the occasional confession. Not the polished "operator voice" he prescribes for outbound — that's a separate discipline reserved for cold DMs and cover letters. Posts are conversational thinking-aloud, not posture.
+Writes like he's talking to a friend. Personal register, mid-sentence personality injection, throwaway humor, the occasional confession. Not the polished "operator voice" he prescribes for outbound, that's a separate discipline reserved for cold DMs and cover letters. Posts are conversational thinking-aloud, not posture.
 
 ## Operating themes
 
-- **Anti-fabrication.** Every claim has to trace to a source — a customer quote, a Wayback snapshot, a press release, a repo commit. "Unverified" is a legal value; invented metrics are not.
+- **Anti-fabrication.** Every claim has to trace to a source, a customer quote, a Wayback snapshot, a press release, a repo commit. "Unverified" is a legal value; invented metrics are not.
 - **Workflow collapse beats workflow speedup.** AI-native isn't doing the same job faster; it's collapsing roles and rebuilding the function around the substrate.
 - **Substrate-driven intelligence.** Unstructured raw → categorized files → systematic analysis. The wiki, the flywheel ledger, this codex are all instances.
 - **Cheap-tier delegation.** Bulk reads and boilerplate go to external models (DeepSeek V4 Flash); judgment stays on Claude Sonnet/Opus. The router is the architecture.
@@ -37,6 +37,6 @@ Writes like he's talking to a friend. Personal register, mid-sentence personalit
 ## Sources captured
 
 - Wiki concepts (Kesava-authored): anti-fabrication, evidence-ladder, principal-marketer-flywheel, super-ic-rotation-doctrine, onboarding-friction-trough, ai-native-pmm-practice, discovery-corpus-design-brief, operator-voice (outbound rules), writing-voice (personal register).
-- Flywheel substrate (`~/r2d2/flywheel/`) — ledger, measurement frameworks.
-- iamkesava.com — public site, apps, toys, tools.
-- LinkedIn `linkedin.com/in/k3sava` — personal-register posts, JustCall PMM threads, ship-queue announcements.
+- Flywheel substrate (`~/r2d2/flywheel/`), ledger, measurement frameworks.
+- iamkesava.com, public site, apps, toys, tools.
+- LinkedIn `linkedin.com/in/k3sava`, personal-register posts, JustCall PMM threads, ship-queue announcements.

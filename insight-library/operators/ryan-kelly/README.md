@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Ryan Kelly — B2B Marketing Leader | Driving revenue for scaling tech companies
+Ryan Kelly, B2B Marketing Leader | Driving revenue for scaling tech companies
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

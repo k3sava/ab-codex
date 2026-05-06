@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Mark Kosoglow — Everyone has AI. Humans are the differentiators.
+Mark Kosoglow, Everyone has AI. Humans are the differentiators.
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

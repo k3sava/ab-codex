@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Anisha Jain — How to write (better) with AI.
+Anisha Jain, How to write (better) with AI.
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

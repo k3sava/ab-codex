@@ -22,12 +22,12 @@ Cole Schafer runs Honeycopy as a writers' room, not a template factory. His fund
 - **Content Quality Standards**
 
 ## Cards
-- `ins_20-percent-rule-headline` — Spend 20% of total writing time on the headline alone — it carries 80% of the persuasive weight [Tier B]
-- `ins_schafer-pain-pleasure-polarity` — Every buying decision reduces to one polarity — moving toward pleasure or away from pain [Tier A]
-- `ins_schafer-uncomfortable-honesty` — The face-test: would you say it to the reader's face without flinching? [Tier A]
-- `ins_schafer-three-headline-archetypes` — Flirting (curiosity), Direct (clarity), Pain-based (problem-recognition) — pick the archetype that matches funnel stage [Tier B]
-- `ins_schafer-three-pass-writing-process` — Three sequential passes: pole + headline first, voice second, integration third [Tier B]
+- `ins_20-percent-rule-headline`, Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight [Tier B]
+- `ins_schafer-pain-pleasure-polarity`, Every buying decision reduces to one polarity, moving toward pleasure or away from pain [Tier A]
+- `ins_schafer-uncomfortable-honesty`, The face-test: would you say it to the reader's face without flinching? [Tier A]
+- `ins_schafer-three-headline-archetypes`, Flirting (curiosity), Direct (clarity), Pain-based (problem-recognition), pick the archetype that matches funnel stage [Tier B]
+- `ins_schafer-three-pass-writing-process`, Three sequential passes: pole + headline first, voice second, integration third [Tier B]
 
 
 ## Sources captured
-_None archived in codex yet — original ingest archived externally._
+_None archived in codex yet, original ingest archived externally._

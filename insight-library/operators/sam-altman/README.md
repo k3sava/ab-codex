@@ -24,15 +24,15 @@ Sam Altman's system of thought operates at two levels simultaneously: macro-stra
 - **Building With Llms**
 
 ## Cards
-- `ins_intelligence-cost-converging-electricity` — The cost of intelligence is converging toward the cost of electricity [Tier A]
-- `ins_altman-singularity-as-smooth-curve` — The singularity is one smooth curve — vertical forward, flat backward [Tier A]
-- `ins_altman-ai-not-a-business-exception` — "We're using AI" is not a strategy — defensibility comes from non-AI moats [Tier A]
-- `ins_altman-belief-as-sales-engine` — Sales is conviction transfer — the best way to be good at sales is to genuinely believe [Tier B]
-- `ins_altman-network-through-generosity` — Build a network by helping people as much as you can — generosity compounds [Tier B]
-- `ins_altman-scarce-resources-abundant-intelligence` — When intelligence is abundant, taste, judgment, relationships become scarce [Tier A]
+- `ins_intelligence-cost-converging-electricity`, The cost of intelligence is converging toward the cost of electricity [Tier A]
+- `ins_altman-singularity-as-smooth-curve`, The singularity is one smooth curve, vertical forward, flat backward [Tier A]
+- `ins_altman-ai-not-a-business-exception`, "We're using AI" is not a strategy, defensibility comes from non-AI moats [Tier A]
+- `ins_altman-belief-as-sales-engine`, Sales is conviction transfer, the best way to be good at sales is to genuinely believe [Tier B]
+- `ins_altman-network-through-generosity`, Build a network by helping people as much as you can, generosity compounds [Tier B]
+- `ins_altman-scarce-resources-abundant-intelligence`, When intelligence is abundant, taste, judgment, relationships become scarce [Tier A]
 
 
 ## Sources captured
-- 2026-04 — `how-to-be-successful-sam-altman.md` (operator essay archive)
-- 2026-04 — `the-gentle-singularity-sam-altman.md` (operator essay archive)
-- 2026-04 — `sam-altman-how-to-win-when-ai-changes-everything-transcript-the-singju-post.md` (operator essay archive)
+- 2026-04, `how-to-be-successful-sam-altman.md` (operator essay archive)
+- 2026-04, `the-gentle-singularity-sam-altman.md` (operator essay archive)
+- 2026-04, `sam-altman-how-to-win-when-ai-changes-everything-transcript-the-singju-post.md` (operator essay archive)

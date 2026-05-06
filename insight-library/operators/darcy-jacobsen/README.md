@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Darcy Jacobsen — Content Savant
+Darcy Jacobsen, Content Savant
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

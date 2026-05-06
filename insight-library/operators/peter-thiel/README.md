@@ -24,16 +24,16 @@ Peter Thiel's central thesis is the distinction between horizontal progress (1 t
 - **Zero To One Thinking**
 
 ## Cards
-- `ins_zero-to-one-monopoly` — Competition is for losers — build a monopoly on a truth most people don't yet see [Tier A]
-- `ins_thiel-vertical-vs-horizontal-progress` — 0-to-1 creates value; 1-to-n gets the funding — most operators invert this [Tier A]
-- `ins_thiel-competition-destroys-profits` — The more competitors, the less money anyone makes [Tier A]
-- `ins_thiel-poor-sales-not-bad-product` — Most companies fail from poor distribution, not bad product [Tier A]
-- `ins_thiel-definite-vs-indefinite-optimism` — Definite optimists build concrete plans; indefinite optimists hedge [Tier A]
-- `ins_thiel-power-law` — Power-law outcomes demand power-law allocation — concentrate on the one thing [Tier A]
+- `ins_zero-to-one-monopoly`, Competition is for losers, build a monopoly on a truth most people don't yet see [Tier A]
+- `ins_thiel-vertical-vs-horizontal-progress`, 0-to-1 creates value; 1-to-n gets the funding, most operators invert this [Tier A]
+- `ins_thiel-competition-destroys-profits`, The more competitors, the less money anyone makes [Tier A]
+- `ins_thiel-poor-sales-not-bad-product`, Most companies fail from poor distribution, not bad product [Tier A]
+- `ins_thiel-definite-vs-indefinite-optimism`, Definite optimists build concrete plans; indefinite optimists hedge [Tier A]
+- `ins_thiel-power-law`, Power-law outcomes demand power-law allocation, concentrate on the one thing [Tier A]
 
 
 ## Sources captured
-- 2026-04 — `zero-to-one-by-peter-thiel-summary-notes.md` (operator essay archive)
-- 2026-04 — `zero-to-one-by-peter-thiel-omd-ventures.md` (operator essay archive)
-- 2026-04 — `zero-to-one-do-not-compete-build-a-monopoly-instead-books-on-trial.md` (operator essay archive)
-- 2026-04 — `zero-to-one-by-peter-thiel-summary-and-analysis-chris-lehnes-factoring-specialis.md` (operator essay archive)
+- 2026-04, `zero-to-one-by-peter-thiel-summary-notes.md` (operator essay archive)
+- 2026-04, `zero-to-one-by-peter-thiel-omd-ventures.md` (operator essay archive)
+- 2026-04, `zero-to-one-do-not-compete-build-a-monopoly-instead-books-on-trial.md` (operator essay archive)
+- 2026-04, `zero-to-one-by-peter-thiel-summary-and-analysis-chris-lehnes-factoring-specialis.md` (operator essay archive)

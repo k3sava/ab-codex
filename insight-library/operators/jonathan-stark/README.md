@@ -26,11 +26,11 @@ Jonathan Stark's system of thought begins with a single provocation: hourly bill
 - **Agency Positioning**
 
 ## Cards
-- `ins_hourly-billing-is-nuts` — Hourly billing penalizes expertise — when you bill by the hour, getting better reduces your income [Tier B]
+- `ins_hourly-billing-is-nuts`, Hourly billing penalizes expertise, when you bill by the hour, getting better reduces your income [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `hourly-billing-is-nuts-by-jonathan-stark.md` (operator essay archive)
-- 2026-04 — `crystalizing-your-specialization-by-jonathan-stark.md` (operator essay archive)
-- 2026-04 — `how-i-realized-that-hourly-billing-is-nuts-jonathan-stark.md` (operator essay archive)
-- 2026-04 — `jonathan-stark-explains-value-based-pricing.md` (operator essay archive)
+- 2026-04, `hourly-billing-is-nuts-by-jonathan-stark.md` (operator essay archive)
+- 2026-04, `crystalizing-your-specialization-by-jonathan-stark.md` (operator essay archive)
+- 2026-04, `how-i-realized-that-hourly-billing-is-nuts-jonathan-stark.md` (operator essay archive)
+- 2026-04, `jonathan-stark-explains-value-based-pricing.md` (operator essay archive)

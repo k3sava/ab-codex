@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Deepan Siddhu — Sr. Director, Growth Marketing @ JustCall | SaaS Labs
+Deepan Siddhu, Sr. Director, Growth Marketing @ JustCall | SaaS Labs
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Sumitra Laishram — Talent@Rippling | Ex Uber & Coinbase
+Sumitra Laishram, Talent@Rippling | Ex Uber & Coinbase
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

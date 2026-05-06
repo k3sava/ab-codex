@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Prithivi Rajan — Lead Solutions Engineer - JustCall (Growth & Commercials) @ SaaS Labs - JustCall | Ex-Freshworks - ITSM
+Prithivi Rajan, Lead Solutions Engineer - JustCall (Growth & Commercials) @ SaaS Labs - JustCall | Ex-Freshworks - ITSM
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

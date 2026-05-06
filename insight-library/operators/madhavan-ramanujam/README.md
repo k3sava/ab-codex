@@ -22,19 +22,19 @@ Madhavan Ramanujam is the leading voice on monetization strategy and the integra
 - **Monetization Timing**
 
 ## Cards
-- `ins_price-before-product` — Price before product. 72% of innovations fail because companies design first and price later. [Tier A]
-- `ins_ramanujam-feature-shock` — Feature Shock — too many features make the product hard to explain, costly, and overpriced [Tier A]
-- `ins_ramanujam-minivation` — Minivation — a correctly designed product priced too low, leaving massive revenue on the table [Tier A]
-- `ins_ramanujam-hidden-gems` — Hidden Gems — potential blockbusters never shipped because they fall outside the core business [Tier A]
-- `ins_ramanujam-ai-pricing-against-labor-budgets` — AI products should price against labor budgets (10× IT) and capture 25-50% of value [Tier A]
-- `ins_ramanujam-three-wtp-questions` — Three WTP questions, each followed by "Why?" — surfaces psychological price thresholds [Tier A]
-- `ins_ramanujam-leaders-fillers-killers` — Segment customers by WTP, then bundle features by Leaders/Fillers/Killers per segment [Tier B]
+- `ins_price-before-product`, Price before product. 72% of innovations fail because companies design first and price later. [Tier A]
+- `ins_ramanujam-feature-shock`, Feature Shock, too many features make the product hard to explain, costly, and overpriced [Tier A]
+- `ins_ramanujam-minivation`, Minivation, a correctly designed product priced too low, leaving massive revenue on the table [Tier A]
+- `ins_ramanujam-hidden-gems`, Hidden Gems, potential blockbusters never shipped because they fall outside the core business [Tier A]
+- `ins_ramanujam-ai-pricing-against-labor-budgets`, AI products should price against labor budgets (10× IT) and capture 25-50% of value [Tier A]
+- `ins_ramanujam-three-wtp-questions`, Three WTP questions, each followed by "Why?", surfaces psychological price thresholds [Tier A]
+- `ins_ramanujam-leaders-fillers-killers`, Segment customers by WTP, then bundle features by Leaders/Fillers/Killers per segment [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `its-price-before-product-period.md` (operator essay archive)
-- 2026-04 — `monetizing-innovation-an-interview-with-simon-kucher-partners-madhavan-ramanujam.md` (operator essay archive)
-- 2026-04 — `monetizing-innovation-by-georg-tacke-madhavan-ramanujam.md` (operator essay archive)
-- 2026-04 — `monetizing-innovation-how-smart-companies-design-the-product-around-price-by-mad.md` (operator essay archive)
-- 2026-04 — `price-before-product-the-ai-monetization-playbook-madhavan-ramanujam-49-palms.md` (operator essay archive)
-- 2026-04 — `from-concept-to-profit-monetisation-framework-seedtoscale.md` (operator essay archive)
+- 2026-04, `its-price-before-product-period.md` (operator essay archive)
+- 2026-04, `monetizing-innovation-an-interview-with-simon-kucher-partners-madhavan-ramanujam.md` (operator essay archive)
+- 2026-04, `monetizing-innovation-by-georg-tacke-madhavan-ramanujam.md` (operator essay archive)
+- 2026-04, `monetizing-innovation-how-smart-companies-design-the-product-around-price-by-mad.md` (operator essay archive)
+- 2026-04, `price-before-product-the-ai-monetization-playbook-madhavan-ramanujam-49-palms.md` (operator essay archive)
+- 2026-04, `from-concept-to-profit-monetisation-framework-seedtoscale.md` (operator essay archive)

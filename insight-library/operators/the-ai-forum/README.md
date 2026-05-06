@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-The AI Forum — “Your daily dose of AI - Tools, trends, insights, and ethical perspectives, Innovations & Industry Shifts. Simplified"
+The AI Forum, "Your daily dose of AI - Tools, trends, insights, and ethical perspectives, Innovations & Industry Shifts. Simplified"
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

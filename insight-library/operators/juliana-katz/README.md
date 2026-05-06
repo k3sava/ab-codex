@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Juliana Katz — Product Marketing, GTM Strategy & Monetization Leader | Championing Conscious Leadership & AI Innovation
+Juliana Katz, Product Marketing, GTM Strategy & Monetization Leader | Championing Conscious Leadership & AI Innovation
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

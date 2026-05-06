@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Hamna Aslam Kahn — Follow me to get insights on how to use AI at work and beyond. Join the world’s biggest AI newsletter with 1M+ readers ↓
+Hamna Aslam Kahn, Follow me to get insights on how to use AI at work and beyond. Join the world's biggest AI newsletter with 1M+ readers ↓
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

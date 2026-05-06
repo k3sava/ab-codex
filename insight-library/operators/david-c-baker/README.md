@@ -26,13 +26,13 @@ David C. Baker is the leading authority on positioning, reinventing, and selling
 - **Expertise Development**
 
 ## Cards
-- `ins_thinking-vs-doing-two-rooms` — Close the execution door. Force prospects through the strategy door first. [Tier A]
+- `ins_thinking-vs-doing-two-rooms`, Close the execution door. Force prospects through the strategy door first. [Tier A]
 
 
 ## Sources captured
-- 2026-04 — `expert-positioning-for-creative-agencies-freelancers-w-david-c-baker.md` (operator essay archive)
-- 2026-04 — `david-c-baker-the-business-of-expertise-how-entrepreneurial-firms-agencies-can-g.md` (operator essay archive)
-- 2026-04 — `the-business-of-expertise-with-david-c-baker-agency-management-institute.md` (operator essay archive)
-- 2026-04 — `insights-on-expertise-from-the-business-of-expertise-by-david-c-baker-helios-des.md` (operator essay archive)
-- 2026-04 — `david-c-baker-expert-agency-agency-profit-podcast.md` (operator essay archive)
-- 2026-04 — `thrive-your-agency-resource-podcast-by-kelly-campbell.md` (operator essay archive)
+- 2026-04, `expert-positioning-for-creative-agencies-freelancers-w-david-c-baker.md` (operator essay archive)
+- 2026-04, `david-c-baker-the-business-of-expertise-how-entrepreneurial-firms-agencies-can-g.md` (operator essay archive)
+- 2026-04, `the-business-of-expertise-with-david-c-baker-agency-management-institute.md` (operator essay archive)
+- 2026-04, `insights-on-expertise-from-the-business-of-expertise-by-david-c-baker-helios-des.md` (operator essay archive)
+- 2026-04, `david-c-baker-expert-agency-agency-profit-podcast.md` (operator essay archive)
+- 2026-04, `thrive-your-agency-resource-podcast-by-kelly-campbell.md` (operator essay archive)

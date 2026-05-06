@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Gideon Harris — Managing Partner, Build Executive. Author, The Weight of Monday.
+Gideon Harris, Managing Partner, Build Executive. Author, The Weight of Monday.
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

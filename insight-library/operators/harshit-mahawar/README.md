@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Harshit Mahawar — Flirting with LinkedIn Algorithm | Standup Comedian
+Harshit Mahawar, Flirting with LinkedIn Algorithm | Standup Comedian
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

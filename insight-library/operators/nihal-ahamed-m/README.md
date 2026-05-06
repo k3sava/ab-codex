@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Nihal Ahamed M — Growth at Stitchflow
+Nihal Ahamed M, Growth at Stitchflow
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

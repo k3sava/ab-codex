@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Dani Romain — Chief Revenue Officer at ChowNow
+Dani Romain, Chief Revenue Officer at ChowNow
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

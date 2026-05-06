@@ -26,10 +26,10 @@ Matt Gray's foundational lens is that modern businesses should be built media-fi
 - **Community Led Growth**
 
 ## Cards
-- `ins_media-first-business` — Build media-first: long-form for trust, short-form for discovery, newsletter for retention, community for conversion [Tier B]
+- `ins_media-first-business`, Build media-first: long-form for trust, short-form for discovery, newsletter for retention, community for conversion [Tier B]
 
 
 ## Sources captured
-- 2026-04 — `matt-grays-art-vs-algorithm-strategy-for-scaling-content.md` (operator essay archive)
-- 2026-04 — `matt-gray-interview-building-personal-brands-communities-and-media-first-startup.md` (operator essay archive)
-- 2026-04 — `the-success-journey-of-matt-gray-from-building-profitable-companies-to-cultivati.md` (operator essay archive)
+- 2026-04, `matt-grays-art-vs-algorithm-strategy-for-scaling-content.md` (operator essay archive)
+- 2026-04, `matt-gray-interview-building-personal-brands-communities-and-media-first-startup.md` (operator essay archive)
+- 2026-04, `the-success-journey-of-matt-gray-from-building-profitable-companies-to-cultivati.md` (operator essay archive)

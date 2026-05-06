@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Daniel Matias — Helping Founders Scale with AI Growth Systems - Freelance AI Engineer - 100K+ users funneled
+Daniel Matias, Helping Founders Scale with AI Growth Systems - Freelance AI Engineer - 100K+ users funneled
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

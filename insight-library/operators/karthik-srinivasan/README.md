@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Karthik Srinivasan — Communications strategy consultant. Connect with me for corporate workshops on personal branding. Ex-Ogilvy, ex-Flipkart, ex-Edelman. No paid posts - my words are not for sale.
+Karthik Srinivasan, Communications strategy consultant. Connect with me for corporate workshops on personal branding. Ex-Ogilvy, ex-Flipkart, ex-Edelman. No paid posts - my words are not for sale.
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

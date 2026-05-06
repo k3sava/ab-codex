@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Dileep Krishna — Co-founder & CEO, Supatest AI | AI agents for software testing
+Dileep Krishna, Co-founder & CEO, Supatest AI | AI agents for software testing
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

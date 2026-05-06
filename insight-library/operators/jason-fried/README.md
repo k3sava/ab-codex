@@ -24,10 +24,10 @@ Jason Fried's system of thought is built on a contrarian premise in the software
 - **Service Productization**
 
 ## Cards
-- `ins_shape-up-appetite-not-estimate` — Don't ask 'how long will this take?' — ask 'how much time do we want to spend on this?' [Tier A]
+- `ins_shape-up-appetite-not-estimate`, Don't ask 'how long will this take?', ask 'how much time do we want to spend on this?' [Tier A]
 
 
 ## Sources captured
-- 2026-04 — `introduction-shape-up.md` (operator essay archive)
-- 2026-04 — `my-interview-with-jason-fried-ceo-of-37signals-and-author-of-rework-practical-fo.md` (operator essay archive)
-- 2026-04 — `jason-fried-doing-the-enough-thing-the-knowledge-project-ep-54.md` (operator essay archive)
+- 2026-04, `introduction-shape-up.md` (operator essay archive)
+- 2026-04, `my-interview-with-jason-fried-ceo-of-37signals-and-author-of-rework-practical-fo.md` (operator essay archive)
+- 2026-04, `jason-fried-doing-the-enough-thing-the-knowledge-project-ep-54.md` (operator essay archive)

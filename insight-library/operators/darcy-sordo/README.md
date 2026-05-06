@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Darcy Sordo — Senior Director of Sales | GTM Strategy & Sales Enablement | Building, Coaching & Scaling High-Performing Teams
+Darcy Sordo, Senior Director of Sales | GTM Strategy & Sales Enablement | Building, Coaching & Scaling High-Performing Teams
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

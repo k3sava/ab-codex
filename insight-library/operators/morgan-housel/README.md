@@ -25,17 +25,17 @@ Morgan Housel's central thesis is that financial outcomes are driven not by inte
 - **Optionality Strategy**
 
 ## Cards
-- `ins_getting-vs-staying-wealthy` — Getting wealthy and staying wealthy require opposite skill sets [Tier A]
-- `ins_housel-pretty-good-strategy-30-years` — A "pretty good" strategy maintained 30 years beats a "brilliant" one maintained 5 [Tier A]
-- `ins_housel-pessimism-sounds-smarter` — Pessimism sounds smarter; progress happens slowly; people underestimate long-term improvement [Tier A]
-- `ins_housel-biggest-risk-nobody-talks-about` — The biggest risk is the one nobody is talking about — by definition unprepared-for [Tier A]
-- `ins_housel-doing-nothing-during-crisis` — Willingness to do nothing during crisis is one of the most valuable skills [Tier A]
-- `ins_housel-reasonable-beats-rational` — Reasonable beats rational — sustainable strategies win over mathematically optimal ones [Tier A]
-- `ins_housel-tail-events-drive-results` — Tail events drive the majority of results — be wrong most of the time, right on the few big calls [Tier A]
+- `ins_getting-vs-staying-wealthy`, Getting wealthy and staying wealthy require opposite skill sets [Tier A]
+- `ins_housel-pretty-good-strategy-30-years`, A "pretty good" strategy maintained 30 years beats a "brilliant" one maintained 5 [Tier A]
+- `ins_housel-pessimism-sounds-smarter`, Pessimism sounds smarter; progress happens slowly; people underestimate long-term improvement [Tier A]
+- `ins_housel-biggest-risk-nobody-talks-about`, The biggest risk is the one nobody is talking about, by definition unprepared-for [Tier A]
+- `ins_housel-doing-nothing-during-crisis`, Willingness to do nothing during crisis is one of the most valuable skills [Tier A]
+- `ins_housel-reasonable-beats-rational`, Reasonable beats rational, sustainable strategies win over mathematically optimal ones [Tier A]
+- `ins_housel-tail-events-drive-results`, Tail events drive the majority of results, be wrong most of the time, right on the few big calls [Tier A]
 
 
 ## Sources captured
-- 2026-04 — `getting-wealthy-vs-staying-wealthy-collaborative-fund.md` (operator essay archive)
-- 2026-04 — `little-rules-about-big-things-collaborative-fund.md` (operator essay archive)
-- 2026-04 — `compounding-optimism-collaborative-fund.md` (operator essay archive)
-- 2026-04 — `the-psychology-of-money-collaborative-fund.md` (operator essay archive)
+- 2026-04, `getting-wealthy-vs-staying-wealthy-collaborative-fund.md` (operator essay archive)
+- 2026-04, `little-rules-about-big-things-collaborative-fund.md` (operator essay archive)
+- 2026-04, `compounding-optimism-collaborative-fund.md` (operator essay archive)
+- 2026-04, `the-psychology-of-money-collaborative-fund.md` (operator essay archive)

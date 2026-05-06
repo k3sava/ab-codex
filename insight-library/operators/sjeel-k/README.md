@@ -12,6 +12,6 @@ external: ""
 
 ## Bio
 
-Sjeel K. — Shadow CMO 💁🏼‍♀️ | Fractional Go-To-Market Strategist | Marketing Leadership Coach | Likes to help founders and executive teams in Series A to Series C. 👉 Follow me for your next Job in Marketing 👈
+Sjeel K., Shadow CMO 💁🏼‍♀️ | Fractional Go-To-Market Strategist | Marketing Leadership Coach | Likes to help founders and executive teams in Series A to Series C. 👉 Follow me for your next Job in Marketing 👈
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

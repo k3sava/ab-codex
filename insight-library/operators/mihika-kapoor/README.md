@@ -15,7 +15,7 @@ external:
 # Mihika Kapoor
 
 ## Bio
-Design-engineering-PM hybrid at Figma, often cited as one of the most effective product managers in the company. Early PM on FigJam and current lead on a new zero-to-one Figma launch. Public reference voice for the "your scope is the world" operating stance, the interleaved pain-solution-proof pitch structure, and the discipline of explicit confidence labels.
+Mihika Kapoor. Design-engineering-PM hybrid at Figma, often cited as one of the most effective product managers in the company. Early PM on FigJam and current lead on a new zero-to-one Figma launch. Public reference voice for the "your scope is the world" operating stance, the interleaved pain-solution-proof pitch structure, and the discipline of explicit confidence labels.
 
 ## Operating themes
 - **Your scope is the world.** Nothing is out of bounds for an operator who acts.
@@ -25,8 +25,8 @@ Design-engineering-PM hybrid at Figma, often cited as one of the most effective 
 - **Internal hype as a job.** Insert demos at every forum even when not polished.
 
 ## Cards
-- `ins_label-confidence-explicitly` — Attach explicit confidence to strong opinions so dissent stays alive [Tier A]
-- `ins_pain-solution-proof-interleaved-pitch` — Pair each pain with its own solution and proof beat [Tier B]
+- `ins_label-confidence-explicitly`, Attach explicit confidence to strong opinions so dissent stays alive [Tier A]
+- `ins_pain-solution-proof-interleaved-pitch`, Pair each pain with its own solution and proof beat [Tier B]
 
 ## Sources captured
-- 2026-04-28 — Lenny's Podcast, "Vision, conviction, building hype, scope is the world" (`raw/podcasts/mihika-kapoor--zero-to-one-vision-conviction-hype--2026-04-28.md`)
+- 2026-04-28, Lenny's Podcast, "Vision, conviction, building hype, scope is the world" (`raw/podcasts/mihika-kapoor--zero-to-one-vision-conviction-hype--2026-04-28.md`)
