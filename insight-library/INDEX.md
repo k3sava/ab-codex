@@ -3,8 +3,8 @@
 _Generated 2026-05-06. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 775 insight cards
-- 458 operator profiles
+- 779 insight cards
+- 459 operator profiles
 - 209 raw source files
 - 39 synthesis patterns
 - 11 contradictions
@@ -12,7 +12,7 @@ _Generated 2026-05-06. Auto-built from frontmatter — do not edit by hand._
 
 ## Insights by tier
 
-### Tier A (317)
+### Tier A (320)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -35,6 +35,7 @@ _Generated 2026-05-06. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ariely-relativity-principle`](insights/ins_ariely-relativity-principle.md) — The Relativity Principle — humans cannot evaluate prices in isolation, only by comparison _(Dan Ariely)_
 - [`ins_ashley-bass-intake-interview-guide-for-pmm-gtm-alignment`](insights/ins_ashley-bass-intake-interview-guide-for-pmm-gtm-alignment.md) — An intake interview guide aligns PM and PMM before any GTM work begins. _(Ashley Bass)_
 - [`ins_ashley-herbert-popa-build-skill-frameworks-for-pmm-levels`](insights/ins_ashley-herbert-popa-build-skill-frameworks-for-pmm-levels.md) — Build custom skill frameworks to develop PMMs at each level. _(Ashley Herbert Popa)_
+- [`ins_b2b-buyer-emotion-personal-stakes`](insights/ins_b2b-buyer-emotion-personal-stakes.md) — B2B buying is more emotional than the rational-buyer myth says — large-contract decisions carry personal-career stakes _(Dave Gerhardt)_
 - [`ins_below-absolutely-worth-studying-amanda`](insights/ins_below-absolutely-worth-studying-amanda.md) — The CV below is absolutely worth studying! Amanda Fernandes didn’t just apply for a job _(Andreas Horn)_
 - [`ins_bottleneck-is-context-not-capability`](insights/ins_bottleneck-is-context-not-capability.md) — When the agent isn't doing what you want, fix the context — not the model _(Sherwin Wu)_
 - [`ins_bowtie-recurring-revenue-architecture`](insights/ins_bowtie-recurring-revenue-architecture.md) — 82% of recurring revenue comes after the initial sale — design GTM around the Bowtie, not the funnel _(Jacco van der Kooij)_
@@ -43,8 +44,10 @@ _Generated 2026-05-06. Auto-built from frontmatter — do not edit by hand._
 - [`ins_build-for-model-six-months-out`](insights/ins_build-for-model-six-months-out.md) — Build for the model six months out, not the one that ships today _(Boris Cherny)_
 - [`ins_build-for-next-model-not-current`](insights/ins_build-for-next-model-not-current.md) — Build for the model six months out — the current model will eat your scaffolding _(Sherwin Wu)_
 - [`ins_calibrated-questions-illusion-of-control`](insights/ins_calibrated-questions-illusion-of-control.md) — "How am I supposed to do that?" — give the other party the illusion of control and they solve your problem for you _(Chris Voss)_
+- [`ins_capability-spikes-where-verification-loops-exist`](insights/ins_capability-spikes-where-verification-loops-exist.md) — AI capability is not evenly distributed — it spikes where labs have data, rewards, and verification loops _(Andrej Karpathy)_
 - [`ins_cash-four-stage-growth-automation`](insights/ins_cash-four-stage-growth-automation.md) — Automate the four stages of a growth experiment; keep humans on alignment _(Amol Avasare)_
 - [`ins_cccd-continuous-calibration`](insights/ins_cccd-continuous-calibration.md) — Continuous Calibration, Continuous Development (CCCD) is the operating loop for AI products _(Aishwarya Naresh Reganti)_
+- [`ins_chatgpt-prompts-invisible-to-keyword-tools`](insights/ins_chatgpt-prompts-invisible-to-keyword-tools.md) — 65 to 85 percent of ChatGPT prompts are invisible to keyword tools _(Kevin Indig)_
 - [`ins_circle-of-competence`](insights/ins_circle-of-competence.md) — Knowing what you don't know beats being brilliant — the discipline is the boundary, not the expansion _(Charlie Munger)_
 - [`ins_coachability-beats-experience`](insights/ins_coachability-beats-experience.md) — Coachability — not prior experience or charisma — is the strongest predictor of sales success _(Mark Roberge)_
 - [`ins_code-and-media-permissionless-leverage`](insights/ins_code-and-media-permissionless-leverage.md) — Code and media are the only forms of leverage that don't require asking — labour and capital both come gated _(Naval Ravikant)_
@@ -331,7 +334,7 @@ _Generated 2026-05-06. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click — create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers — build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (386)
+### Tier B (387)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone — it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -422,6 +425,7 @@ _Generated 2026-05-06. Auto-built from frontmatter — do not edit by hand._
 - [`ins_context-docs-as-battery-packs`](insights/ins_context-docs-as-battery-packs.md) — Context documents are reusable battery packs that need named owners _(Aatir Abdul Rauf)_
 - [`ins_context-engineering-beats-prompt-engineering`](insights/ins_context-engineering-beats-prompt-engineering.md) — Context engineering beats prompt engineering for marketing AI workflows _(Aatir Abdul Rauf)_
 - [`ins_context-pain-points-product-what`](insights/ins_context-pain-points-product-what.md) — -> Context on pain points and product: what and who are we solving for, and how _(Shivangi Sahu)_
+- [`ins_couch-to-5k-for-ai-start-not-depth`](insights/ins_couch-to-5k-for-ai-start-not-depth.md) — The block to AI adoption is the start, not the depth — design 30-day ladders, not deep-dive bootcamps _(Hilary Gridley)_
 - [`ins_crawlability-shapes-everything`](insights/ins_crawlability-shapes-everything.md) — In the AI-search era, crawlability shapes everything _(Aleyda Solis)_
 - [`ins_creative-is-the-spike`](insights/ins_creative-is-the-spike.md) — Media buying is the setter; creative is the hitter — the score comes from creative _(Andrew Faris)_
 - [`ins_criticize-in-public`](insights/ins_criticize-in-public.md) — Establish enough trust to critique and debate in public — not "praise public, criticize private" _(Jeetu Patel)_
@@ -987,6 +991,7 @@ _Generated 2026-05-06. Auto-built from frontmatter — do not edit by hand._
 - [Hattie the PMM](operators/hattie-the-pmm/README.md)
 - [Heer Chheda](operators/heer-chheda/README.md)
 - [Hermann Simon](operators/hermann-simon/README.md)
+- [Hilary Gridley](operators/hilary-gridley/README.md)
 - [Hira Saeed](operators/hira-saeed/README.md)
 - [Hiten Shah](operators/hiten-shah/README.md)
 - [Holly Allen](operators/holly-allen/README.md)

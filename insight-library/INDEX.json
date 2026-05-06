@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-06T13:12:12.947Z",
+  "generated_at": "2026-05-06T13:20:43.693Z",
   "counts": {
-    "insights": 775,
-    "operators": 458,
+    "insights": 779,
+    "operators": 459,
     "raw_sources": 209,
     "patterns": 39,
     "contradictions": 11,
@@ -13,10 +13,11 @@
     "path": "daily/2026-05-06.md",
     "date": "2026-05-06",
     "title": "Verification, judgement, scarcity, voice — three converging frames in one week",
-    "summary": "11 new cards, 2 synthesis patterns, 3 new operators. Two convergences across the week — verification as the new human job (Karpathy + Chase + Yan) and judgement-as-bottleneck (Indig + Karpathy + Yan + McCormick) — plus distinct atomic claims on agent-first content (Osmani), AI-search measurement (Solis already covered), AI-erased voice (Handley), and brand-authority economics (Ray).",
+    "summary": "15 new cards, 2 synthesis patterns, 4 new operators. Today's batch plus a back-audit of past digests (April 26 to May 4) for atomic claims that hadn't yet been ingested.",
     "sources": [
       "Morning brief 2026-05-06 (multi-run)",
-      "Morning brief 2026-05-04"
+      "Morning brief 2026-05-04",
+      "Backfill audit — past digests April 26 to May 4"
     ],
     "insights_added": [
       "ins_traces-need-feedback-to-learn",
@@ -29,12 +30,17 @@
       "ins_middle-is-hollowing-out",
       "ins_scarcity-supercycle",
       "ins_handley-ai-cant-violate-expectation",
-      "ins_owned-brand-authority-organic-moat"
+      "ins_owned-brand-authority-organic-moat",
+      "ins_couch-to-5k-for-ai-start-not-depth",
+      "ins_capability-spikes-where-verification-loops-exist",
+      "ins_chatgpt-prompts-invisible-to-keyword-tools",
+      "ins_b2b-buyer-emotion-personal-stakes"
     ],
     "operators_added": [
       "harrison-chase",
       "eugene-yan",
-      "addy-osmani"
+      "addy-osmani",
+      "hilary-gridley"
     ],
     "patterns_added": [
       "pat_verification-as-human-job",
@@ -2313,6 +2319,39 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_b2b-buyer-emotion-personal-stakes.md",
+      "title": "B2B buying is more emotional than the rational-buyer myth says — large-contract decisions carry personal-career stakes",
+      "id": "ins_b2b-buyer-emotion-personal-stakes",
+      "operator": "Dave Gerhardt",
+      "operator_role": "Founder, Exit Five; B2B marketing community + podcast",
+      "source_url": "https://www.exitfive.com/podcast/real-talk-from-three-cmos-attribution-paid-media-and-why-b2b-is-more-emotional-than-you-think",
+      "source_type": "podcast",
+      "source_title": "Exit Five Ep. 349 — Real talk from three CMOs",
+      "source_date": "2026-04-23",
+      "captured_date": "2026-05-06",
+      "domain": [
+        "pmm",
+        "gtm",
+        "sales",
+        "marketing"
+      ],
+      "lifecycle": [
+        "positioning",
+        "messaging-frameworks",
+        "brand-strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "A",
+      "related": [
+        "ins_b2b-movement-not-campaigns",
+        "ins_gerhardt-founder-story-as-weapon",
+        "ins_gerhardt-brand-reputation-compounds"
+      ],
+      "raw_ref": ""
+    },
+    {
       "path": "insights/ins_b2b-landing-page-consumption.md",
       "title": "Conversion isn't the goal of a B2B landing page — consumption is. Send them to the next section.",
       "id": "ins_b2b-landing-page-consumption",
@@ -3127,6 +3166,39 @@
       "raw_ref": "raw/podcasts/amole-naik--anthropic-automating-growth--2026-04-27.md"
     },
     {
+      "path": "insights/ins_capability-spikes-where-verification-loops-exist.md",
+      "title": "AI capability is not evenly distributed — it spikes where labs have data, rewards, and verification loops",
+      "id": "ins_capability-spikes-where-verification-loops-exist",
+      "operator": "Andrej Karpathy",
+      "operator_role": "AI researcher; ex-OpenAI, ex-Tesla; founder of Eureka Labs",
+      "source_url": "https://www.theaiopportunities.com/p/sequoia-ai-ascent-2026-andrej-karpathy",
+      "source_type": "talk",
+      "source_title": "Sequoia AI Ascent 2026 — fireside recap",
+      "source_date": "2026-04-30",
+      "captured_date": "2026-05-06",
+      "domain": [
+        "ai-native",
+        "engineering",
+        "research",
+        "leadership"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "decision-making",
+        "llm-evals"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_judgment-vs-understanding",
+        "ins_traces-need-feedback-to-learn",
+        "ins_mine-transcripts-to-promote-config"
+      ],
+      "raw_ref": ""
+    },
+    {
       "path": "insights/ins_capital-vs-lowercase-marketing.md",
       "title": "Distinguish Capital-M Marketing (the function) from lowercase-m marketing (the whole-company motion)",
       "id": "ins_capital-vs-lowercase-marketing",
@@ -3317,6 +3389,37 @@
       "tier": "C",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_chatgpt-prompts-invisible-to-keyword-tools.md",
+      "title": "65 to 85 percent of ChatGPT prompts are invisible to keyword tools",
+      "id": "ins_chatgpt-prompts-invisible-to-keyword-tools",
+      "operator": "Kevin Indig",
+      "operator_role": "Growth advisor; author of Growth Memo",
+      "source_url": "https://www.growth-memo.com/p/growth-intelligence-brief-17",
+      "source_type": "essay",
+      "source_title": "Growth Intelligence Brief #17 — what your keyword tool can't see",
+      "source_date": "2026-04-17",
+      "captured_date": "2026-05-06",
+      "domain": [
+        "growth",
+        "pmm",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "measurement-experimentation",
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "research",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_ghost-citation-gap",
+        "ins_aeo-three-layer-presence-readiness-impact",
+        "ins_owned-brand-authority-organic-moat"
+      ],
+      "raw_ref": ""
     },
     {
       "path": "insights/ins_chirayu-akotiya-content-engine-scaling.md",
@@ -4006,6 +4109,36 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_couch-to-5k-for-ai-start-not-depth.md",
+      "title": "The block to AI adoption is the start, not the depth — design 30-day ladders, not deep-dive bootcamps",
+      "id": "ins_couch-to-5k-for-ai-start-not-depth",
+      "operator": "Hilary Gridley",
+      "operator_role": "Director of Product, WHOOP",
+      "source_url": "https://www.lennysnewsletter.com/p/your-couch-to-5k-for-ai",
+      "source_type": "essay",
+      "source_title": "Your Couch-to-5K for AI",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-06",
+      "domain": [
+        "ai-native",
+        "product",
+        "leadership"
+      ],
+      "lifecycle": [
+        "adoption",
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_judgment-vs-understanding",
+        "ins_handley-voice-as-moat-against-ai"
+      ],
+      "raw_ref": ""
     },
     {
       "path": "insights/ins_crawlability-shapes-everything.md",
@@ -24584,6 +24717,25 @@
       }
     },
     {
+      "path": "operators/hilary-gridley/README.md",
+      "title": "Hilary Gridley",
+      "name": "Hilary Gridley",
+      "slug": "hilary-gridley",
+      "roles": [
+        "Director of Product, WHOOP",
+        "Writer on AI adoption in product workflows"
+      ],
+      "domains_active": [
+        "ai-native",
+        "product",
+        "leadership"
+      ],
+      "captured_first": "2026-05-06",
+      "external": {
+        "newsletter": "https://www.lennysnewsletter.com/p/your-couch-to-5k-for-ai"
+      }
+    },
+    {
       "path": "operators/hira-saeed/README.md",
       "title": "Hira Saeed",
       "name": "Hira Saeed",
@@ -34488,10 +34640,11 @@
       "path": "daily/2026-05-06.md",
       "date": "2026-05-06",
       "title": "Verification, judgement, scarcity, voice — three converging frames in one week",
-      "summary": "11 new cards, 2 synthesis patterns, 3 new operators. Two convergences across the week — verification as the new human job (Karpathy + Chase + Yan) and judgement-as-bottleneck (Indig + Karpathy + Yan + McCormick) — plus distinct atomic claims on agent-first content (Osmani), AI-search measurement (Solis already covered), AI-erased voice (Handley), and brand-authority economics (Ray).",
+      "summary": "15 new cards, 2 synthesis patterns, 4 new operators. Today's batch plus a back-audit of past digests (April 26 to May 4) for atomic claims that hadn't yet been ingested.",
       "sources": [
         "Morning brief 2026-05-06 (multi-run)",
-        "Morning brief 2026-05-04"
+        "Morning brief 2026-05-04",
+        "Backfill audit — past digests April 26 to May 4"
       ],
       "insights_added": [
         "ins_traces-need-feedback-to-learn",
@@ -34504,12 +34657,17 @@
         "ins_middle-is-hollowing-out",
         "ins_scarcity-supercycle",
         "ins_handley-ai-cant-violate-expectation",
-        "ins_owned-brand-authority-organic-moat"
+        "ins_owned-brand-authority-organic-moat",
+        "ins_couch-to-5k-for-ai-start-not-depth",
+        "ins_capability-spikes-where-verification-loops-exist",
+        "ins_chatgpt-prompts-invisible-to-keyword-tools",
+        "ins_b2b-buyer-emotion-personal-stakes"
       ],
       "operators_added": [
         "harrison-chase",
         "eugene-yan",
-        "addy-osmani"
+        "addy-osmani",
+        "hilary-gridley"
       ],
       "patterns_added": [
         "pat_verification-as-human-job",

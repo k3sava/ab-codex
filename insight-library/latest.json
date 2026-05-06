@@ -1,13 +1,14 @@
 {
-  "generated_at": "2026-05-06T13:12:12.962Z",
+  "generated_at": "2026-05-06T13:20:43.706Z",
   "latest_daily": {
     "path": "daily/2026-05-06.md",
     "date": "2026-05-06",
     "title": "Verification, judgement, scarcity, voice — three converging frames in one week",
-    "summary": "11 new cards, 2 synthesis patterns, 3 new operators. Two convergences across the week — verification as the new human job (Karpathy + Chase + Yan) and judgement-as-bottleneck (Indig + Karpathy + Yan + McCormick) — plus distinct atomic claims on agent-first content (Osmani), AI-search measurement (Solis already covered), AI-erased voice (Handley), and brand-authority economics (Ray).",
+    "summary": "15 new cards, 2 synthesis patterns, 4 new operators. Today's batch plus a back-audit of past digests (April 26 to May 4) for atomic claims that hadn't yet been ingested.",
     "sources": [
       "Morning brief 2026-05-06 (multi-run)",
-      "Morning brief 2026-05-04"
+      "Morning brief 2026-05-04",
+      "Backfill audit — past digests April 26 to May 4"
     ],
     "insights_added": [
       "ins_traces-need-feedback-to-learn",
@@ -20,12 +21,17 @@
       "ins_middle-is-hollowing-out",
       "ins_scarcity-supercycle",
       "ins_handley-ai-cant-violate-expectation",
-      "ins_owned-brand-authority-organic-moat"
+      "ins_owned-brand-authority-organic-moat",
+      "ins_couch-to-5k-for-ai-start-not-depth",
+      "ins_capability-spikes-where-verification-loops-exist",
+      "ins_chatgpt-prompts-invisible-to-keyword-tools",
+      "ins_b2b-buyer-emotion-personal-stakes"
     ],
     "operators_added": [
       "harrison-chase",
       "eugene-yan",
-      "addy-osmani"
+      "addy-osmani",
+      "hilary-gridley"
     ],
     "patterns_added": [
       "pat_verification-as-human-job",
@@ -38,10 +44,11 @@
       "path": "daily/2026-05-06.md",
       "date": "2026-05-06",
       "title": "Verification, judgement, scarcity, voice — three converging frames in one week",
-      "summary": "11 new cards, 2 synthesis patterns, 3 new operators. Two convergences across the week — verification as the new human job (Karpathy + Chase + Yan) and judgement-as-bottleneck (Indig + Karpathy + Yan + McCormick) — plus distinct atomic claims on agent-first content (Osmani), AI-search measurement (Solis already covered), AI-erased voice (Handley), and brand-authority economics (Ray).",
+      "summary": "15 new cards, 2 synthesis patterns, 4 new operators. Today's batch plus a back-audit of past digests (April 26 to May 4) for atomic claims that hadn't yet been ingested.",
       "sources": [
         "Morning brief 2026-05-06 (multi-run)",
-        "Morning brief 2026-05-04"
+        "Morning brief 2026-05-04",
+        "Backfill audit — past digests April 26 to May 4"
       ],
       "insights_added": [
         "ins_traces-need-feedback-to-learn",
@@ -54,12 +61,17 @@
         "ins_middle-is-hollowing-out",
         "ins_scarcity-supercycle",
         "ins_handley-ai-cant-violate-expectation",
-        "ins_owned-brand-authority-organic-moat"
+        "ins_owned-brand-authority-organic-moat",
+        "ins_couch-to-5k-for-ai-start-not-depth",
+        "ins_capability-spikes-where-verification-loops-exist",
+        "ins_chatgpt-prompts-invisible-to-keyword-tools",
+        "ins_b2b-buyer-emotion-personal-stakes"
       ],
       "operators_added": [
         "harrison-chase",
         "eugene-yan",
-        "addy-osmani"
+        "addy-osmani",
+        "hilary-gridley"
       ],
       "patterns_added": [
         "pat_verification-as-human-job",

@@ -28,6 +28,7 @@ Kevin Indig is the most systematic strategic thinker in SEO, bringing a rigorous
 ## Cards
 - `ins_ghost-citation-gap` — Citation rate and mention rate are different metrics; comparative content closes the gap [Tier A]
 - `ins_judgment-doesnt-compress` — Building costs collapsed; judgement didn't — the squeeze is on positioning, not production [Tier A]
+- `ins_chatgpt-prompts-invisible-to-keyword-tools` — 65 to 85 percent of ChatGPT prompts are invisible to keyword tools [Tier A]
 
 ## Sources captured
 - 2026-04-26 — *The Ghost Citation Problem*, Growth Memo (`raw/essays/kevin-indig--ghost-citation-problem--2026-04-26.md`)

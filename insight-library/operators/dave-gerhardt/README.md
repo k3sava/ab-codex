@@ -33,6 +33,7 @@ Dave Gerhardt's central thesis is that B2B marketing suffers from a creativity d
 - `ins_gerhardt-social-as-testing-lab` — Social media is a content testing lab, not a distribution channel [Tier A]
 - `ins_gerhardt-distribution-beats-creation` — Distribution beats creation — diagnose: "whose content are you actually looking forward to?" [Tier A]
 - `ins_gerhardt-community-as-distribution-moat` — Private community is the ultimate distribution moat — demand engine + content flywheel + dark-social trust [Tier A]
+- `ins_b2b-buyer-emotion-personal-stakes` — B2B buying is more emotional than the rational-buyer myth says — large-contract decisions carry personal-career stakes [Tier A]
 
 
 ## Sources captured
