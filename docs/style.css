@@ -862,13 +862,24 @@ dialog .search-head kbd{font-family:var(--mono);font-size:.65rem;padding:3px 7px
   text-decoration:underline;text-underline-offset:3px;
 }
 .tlfilter-reset:hover{color:var(--ink)}
-/* Density-scaled, sticky timeline navigation. Bars sized by card count, not by elapsed time. */
-.timeline-spark-wrap{
+/* Sticky timeline navigation: filter row + density spark stay on screen while
+   the reader scrolls the list of insights. Both share a single sticky wrapper
+   so they move together rather than overlapping. */
+.timeline-sticky{
   position:sticky;top:var(--hdr-h);z-index:30;
+  margin:0 calc(-1 * var(--gut)) 32px;
+  padding:8px var(--gut) 8px;
+  background:color-mix(in oklab,var(--paper) 92%,transparent);
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line-2);
+}
+.timeline-sticky .tlfilter{margin:0 0 8px;border-top:0;border-bottom:1px solid var(--line-2);padding-bottom:8px;padding-top:4px}
+.timeline-sticky .timeline-spark-wrap{position:static;margin:0;padding:8px 0 0;background:transparent;backdrop-filter:none;-webkit-backdrop-filter:none;border-bottom:0}
+/* Density-scaled bars + year axis live inside the sticky wrapper. */
+.timeline-spark-wrap{
   margin:0 calc(-1 * var(--gut)) 32px;
   padding:14px var(--gut) 8px;
   background:color-mix(in oklab,var(--paper) 92%,transparent);
-  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
   border-bottom:1px solid var(--line-2);
 }
 .timeline-spark-bars{

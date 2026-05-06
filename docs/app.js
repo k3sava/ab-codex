@@ -1275,8 +1275,10 @@ function timeline(){
     <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <span>timeline</span></div>
     <h1>timeline</h1>
     <p class='lede'>${dated.length} dated insights · ${dayKeys.length} active days · ${dayKeys[0]||'—'} → ${dayKeys[dayKeys.length-1]||'—'}. <span class='timeline-hint'>bar width = cards in month · click to jump · highlight follows scroll</span></p>
-    ${filterRow}
-    ${sparkSvg}
+    <div class='timeline-sticky'>
+      ${filterRow}
+      ${sparkSvg}
+    </div>
     <div class='timeline-stream'>${orderedMonths.map(ym => `
       <section class='tmonth' data-ym='${ym}' id='tm-${ym}'>
         <header class='tmonth-head'><h2>${fmtMonth(ym)}</h2><span class='ct'>${months.get(ym).length}</span></header>
