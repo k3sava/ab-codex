@@ -323,7 +323,7 @@ async function main() {
         ``,
         `**${ld.title ?? "What's new"}** — ${ld.summary ?? ""}`,
         ``,
-        `[Read what landed →](insight-library/${latestPath}) · [See on the site →](https://k3sava.github.io/ab-codex/#/today)`,
+        `[Read what landed →](insight-library/${latestPath}) · [See on the site →](https://codex.iamkesava.com/#/today)`,
       ].join("\n");
       readme = spliceMarkers(readme, "LATEST", latestBlock);
     }

@@ -1,13 +1,13 @@
 # a builder's codex
 
-> **[Open the interactive site → k3sava.github.io/ab-codex](https://k3sava.github.io/ab-codex/)**
+> **[Open the interactive site → codex.iamkesava.com](https://codex.iamkesava.com/)**
 
 <!-- LATEST:START -->
 ### Latest — 2026-05-06 · 15 insights · 4 operators · 2 patterns
 
 **Verification, judgement, scarcity, voice — three converging frames in one week** — 15 new cards, 2 synthesis patterns, 4 new operators. Today's batch plus a back-audit of past digests (April 26 to May 4) for atomic claims that hadn't yet been ingested.
 
-[Read what landed →](insight-library/daily/2026-05-06.md) · [See on the site →](https://k3sava.github.io/ab-codex/#/today)
+[Read what landed →](insight-library/daily/2026-05-06.md) · [See on the site →](https://codex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights — atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -27,31 +27,31 @@ Every card carries: operator, role, source URL, source date, claim, mechanism, c
 
 ## Browse
 
-The site at [k3sava.github.io/ab-codex](https://k3sava.github.io/ab-codex/) gives you several ways to read the same corpus:
+The site at [codex.iamkesava.com](https://codex.iamkesava.com/) gives you several ways to read the same corpus:
 
 | View | What it's for |
 |------|---------------|
-| [Home](https://k3sava.github.io/ab-codex/) | Tier A claims and a domain index |
-| [Map](https://k3sava.github.io/ab-codex/#/map) | Visual graph: operators outside, domains in the middle, insights orbiting between |
-| [Operators](https://k3sava.github.io/ab-codex/#/operators) | All 460 profiles, sorted by card count |
-| [Patterns](https://k3sava.github.io/ab-codex/#/patterns) | Where 3+ operators converge on the same claim |
-| [Browse](https://k3sava.github.io/ab-codex/#/browse) | Filter by tier or domain, sort by date / operator / tier |
-| [Timeline](https://k3sava.github.io/ab-codex/#/timeline) | Newest captures first |
-| [Flash](https://k3sava.github.io/ab-codex/#/flash) | One card at a time, prev/next/shuffle |
+| [Home](https://codex.iamkesava.com/) | Tier A claims and a domain index |
+| [Map](https://codex.iamkesava.com/#/map) | Visual graph: operators outside, domains in the middle, insights orbiting between |
+| [Operators](https://codex.iamkesava.com/#/operators) | All 460 profiles, sorted by card count |
+| [Patterns](https://codex.iamkesava.com/#/patterns) | Where 3+ operators converge on the same claim |
+| [Browse](https://codex.iamkesava.com/#/browse) | Filter by tier or domain, sort by date / operator / tier |
+| [Timeline](https://codex.iamkesava.com/#/timeline) | Newest captures first |
+| [Flash](https://codex.iamkesava.com/#/flash) | One card at a time, prev/next/shuffle |
 
 Press `⌘K` (or `Ctrl-K`) anywhere to search across operators, claims, and patterns.
 
 ### Map
 
-[![map](docs/screenshots/map.png)](https://k3sava.github.io/ab-codex/#/map)
+[![map](docs/screenshots/map.png)](https://codex.iamkesava.com/#/map)
 
 ### Patterns
 
-[![patterns](docs/screenshots/patterns.png)](https://k3sava.github.io/ab-codex/#/patterns)
+[![patterns](docs/screenshots/patterns.png)](https://codex.iamkesava.com/#/patterns)
 
 ### A single insight
 
-[![insight](docs/screenshots/insight.png)](https://k3sava.github.io/ab-codex/#/ins/ins_agents-as-team-not-tools)
+[![insight](docs/screenshots/insight.png)](https://codex.iamkesava.com/#/ins/ins_agents-as-team-not-tools)
 
 ## What you'll find
 

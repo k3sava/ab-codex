@@ -1828,7 +1828,7 @@ function setPageMeta(title, description){
   }
   set('meta[property="og:title"]', fullTitle);
   set('meta[name="twitter:title"]', fullTitle);
-  const url = `https://k3sava.github.io/ab-codex/${location.hash || '#/'}`;
+  const url = `https://codex.iamkesava.com/${location.hash || '#/'}`;
   set('meta[property="og:url"]', url);
 }
 

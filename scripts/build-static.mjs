@@ -30,7 +30,7 @@ import { fileURLToPath } from "node:url";
 const ROOT = join(fileURLToPath(import.meta.url), "..", "..");
 const LIB = join(ROOT, "insight-library");
 const DOCS = join(ROOT, "docs");
-const SITE_URL = "https://k3sava.github.io/ab-codex";
+const SITE_URL = "https://codex.iamkesava.com";
 
 const escapeHtml = s => (s || "").toString().replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
@@ -375,7 +375,7 @@ async function main(){
           "keywords": (i.domain || []).join(", "),
           "license": "https://opensource.org/licenses/MIT",
           "speakable": { "@type": "SpeakableSpecification", "cssSelector": ["h1", ".static-tldr-claim"] },
-          ...(i.tier ? { "additionalType": `https://k3sava.github.io/ab-codex/tier/${i.tier}` } : {}),
+          ...(i.tier ? { "additionalType": `${SITE_URL}/tier/${i.tier}` } : {}),
         },
         {
           "@type": "BreadcrumbList",

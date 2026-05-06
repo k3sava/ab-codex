@@ -9,7 +9,7 @@ import { fileURLToPath } from "node:url";
 const ROOT = join(fileURLToPath(import.meta.url), "..", "..");
 const LIB = join(ROOT, "insight-library");
 const DOCS = join(ROOT, "docs");
-const SITE_URL = "https://k3sava.github.io/ab-codex";
+const SITE_URL = "https://codex.iamkesava.com";
 
 const escapeXml = s => (s || "").toString().replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&apos;"}[c]));
 
@@ -58,7 +58,7 @@ ${urls.map(u => `  <url>
   await writeFile(join(DOCS, "sitemap.xml"), sitemap);
 
   // === robots.txt ===
-  const robots = `# https://k3sava.github.io/ab-codex/
+  const robots = `# ${SITE_URL}/
 # A primary-source library of operator insights. Cite freely with attribution.
 User-agent: *
 Allow: /

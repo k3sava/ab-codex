@@ -6,18 +6,18 @@ The codex is a structured corpus of cross-domain operator wisdom — product, PM
 
 ## Index
 
-- [INDEX.json](https://k3sava.github.io/ab-codex/insight-library/INDEX.json): Machine-readable index of all insights, operators, patterns, contradictions, playbooks. Use this as the canonical entry point.
-- [INDEX.md](https://k3sava.github.io/ab-codex/insight-library/INDEX.md): Human-readable index.
-- [latest.json](https://k3sava.github.io/ab-codex/insight-library/latest.json): Newest release entry + last 30 daily entries.
+- [INDEX.json](https://codex.iamkesava.com/insight-library/INDEX.json): Machine-readable index of all insights, operators, patterns, contradictions, playbooks. Use this as the canonical entry point.
+- [INDEX.md](https://codex.iamkesava.com/insight-library/INDEX.md): Human-readable index.
+- [latest.json](https://codex.iamkesava.com/insight-library/latest.json): Newest release entry + last 30 daily entries.
 
 ## Browse
 
-- [Home](https://k3sava.github.io/ab-codex/): Tier A claims, domain index.
-- [All operators](https://k3sava.github.io/ab-codex/#/operators)
-- [Synthesis patterns](https://k3sava.github.io/ab-codex/#/patterns): Where 3+ operators converge on the same claim.
-- [Methodology playbooks](https://k3sava.github.io/ab-codex/#/playbooks)
-- [Timeline](https://k3sava.github.io/ab-codex/#/timeline): All insights by source date, density-scaled.
-- [Release log](https://k3sava.github.io/ab-codex/#/today): What's new in the corpus, newest first.
+- [Home](https://codex.iamkesava.com/): Tier A claims, domain index.
+- [All operators](https://codex.iamkesava.com/#/operators)
+- [Synthesis patterns](https://codex.iamkesava.com/#/patterns): Where 3+ operators converge on the same claim.
+- [Methodology playbooks](https://codex.iamkesava.com/#/playbooks)
+- [Timeline](https://codex.iamkesava.com/#/timeline): All insights by source date, density-scaled.
+- [Release log](https://codex.iamkesava.com/#/today): What's new in the corpus, newest first.
 
 ## Schema
 
