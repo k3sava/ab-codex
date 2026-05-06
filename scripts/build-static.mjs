@@ -334,9 +334,30 @@ async function main(){
       <a href="https://raw.githubusercontent.com/k3sava/ab-codex/main/insight-library/${i.path}" rel="noopener">Markdown source →</a>
     </div>`;
     const crumbs = `<div class="static-crumbs"><a href="${SITE_URL}/">codex</a> · <a href="${SITE_URL}/operators/">operators</a> · <a href="${SITE_URL}/o/${opSlug}/">${escapeHtml(opName)}</a> · ${i.id}</div>`;
-    // Schema.org graph — Article + BreadcrumbList in @graph for search-engine
-    // sitelinks. Article carries author, publisher, datePublished, isBasedOn
-    // (the original primary source), and keywords (domains).
+    // Pull ## Section bodies out of the markdown for FAQPage extraction.
+    // Treats the card as Q (section name) + A (section body) so AI search /
+    // Google FAQ rich snippets can lift Mechanism, Conditions, Evidence, etc.
+    const sectionsForFaq = ["Mechanism", "Conditions", "Evidence", "Signals", "Counter-evidence"];
+    const faqEntries = [];
+    for (const sec of sectionsForFaq){
+      const re = new RegExp(`(^|\\n)##\\s+${sec}\\s*\\n([\\s\\S]+?)(?=\\n##\\s+|$)`, "m");
+      const m = body.match(re);
+      if (m && m[2]){
+        // Strip markdown markup for clean schema text + cap length.
+        const answer = m[2].trim()
+          .replace(/^[-*]\s+/gm, "")
+          .replace(/\*\*([^*]+)\*\*/g, "$1")
+          .replace(/`([^`]+)`/g, "$1")
+          .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+          .replace(/\s+/g, " ")
+          .slice(0, 1200);
+        if (answer.length > 40){
+          faqEntries.push({ "@type": "Question", "name": sec, "acceptedAnswer": { "@type": "Answer", "text": answer } });
+        }
+      }
+    }
+    // Schema.org graph: Article + BreadcrumbList + FAQPage (when sections exist) +
+    // Speakable so voice assistants pick up the title and the claim section first.
     const jsonLd = {
       "@context": "https://schema.org",
       "@graph": [
@@ -353,6 +374,7 @@ async function main(){
           "mainEntityOfPage": `${SITE_URL}/ins/${i.id}/`,
           "keywords": (i.domain || []).join(", "),
           "license": "https://opensource.org/licenses/MIT",
+          "speakable": { "@type": "SpeakableSpecification", "cssSelector": ["h1", ".static-tldr-claim"] },
           ...(i.tier ? { "additionalType": `https://k3sava.github.io/ab-codex/tier/${i.tier}` } : {}),
         },
         {
@@ -364,6 +386,7 @@ async function main(){
             { "@type": "ListItem", "position": 4, "name": i.title || i.id, "item": `${SITE_URL}/ins/${i.id}/` },
           ],
         },
+        ...(faqEntries.length ? [{ "@type": "FAQPage", "mainEntity": faqEntries }] : []),
       ],
     };
     await writeOne({

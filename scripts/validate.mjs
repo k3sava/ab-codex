@@ -125,6 +125,15 @@ async function main(){
     if (typeof fm.operator === "string" && /\s+(\+|&|with|and)\s+/i.test(fm.operator)){
       warn(f, `operator field looks compound: "${fm.operator}" — consider splitting into operator + co_operators`);
     }
+    // Token-budget audit (Osmani Layer 5). Cards over ~3000 words / ~4000 tokens
+    // start chewing significant context window when an agent fetches multiple at
+    // once. Warn so cards over budget can be split or summarized.
+    const text = await readFile(f, "utf8");
+    const bodyText = text.slice(text.indexOf("\n---", 4) + 4);
+    const wordCount = bodyText.trim().split(/\s+/).length;
+    if (wordCount > 3000){
+      warn(f, `body is ${wordCount} words — exceeds ~3000-word budget; consider splitting`);
+    }
     // store related for later resolution
     if (Array.isArray(fm.related)){
       for (const r of fm.related){
