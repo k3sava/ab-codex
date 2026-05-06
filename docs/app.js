@@ -101,34 +101,41 @@ function stripFrontmatter(md){ if (md.startsWith('---\n')){ const e = md.indexOf
 
 // Walk rendered HTML and map relative .md paths to SPA routes so clicks stay in-app
 // instead of fetching the raw markdown file (or 404'ing on GH Pages).
+// Also: if the rendered link text looks slug-like (matches the id, slug, or
+// filename), replace it with the resource's actual title/claim/name so readers
+// see "A trace tells you nothing…" instead of "ins_traces-need-feedback-to-learn".
 function rewriteRelativeLinks(root){
   if (!root) return;
+  // Heuristic: link text is auto-generated (replace) vs human-written (keep).
+  // Auto-generated = matches the resource id, slug, or filename basename.
+  const looksLikeSlug = (text, ...candidates) => {
+    const t = (text || '').trim();
+    if (!t) return true;
+    return candidates.some(c => c && t === c);
+  };
   root.querySelectorAll('a').forEach(a => {
     const href = a.getAttribute('href') || '';
     if (!href || href.startsWith('#') || /^https?:/i.test(href) || href.startsWith('mailto:')) return;
-    // The release-note bodies use paths relative to insight-library/ (e.g. "insights/ins_X.md").
-    // Some legacy links may include a leading "./" or "insight-library/" prefix — normalise.
-    // The mdToHtml acronym pass uppercases "AI" inside hrefs (a known side-effect), so
-    // match paths case-insensitively against the corpus index.
     const norm = href.replace(/^\.\//, '').replace(/^insight-library\//, '').toLowerCase();
-    const route = (() => {
-      const ins = cards.find(c => (c.path || '').toLowerCase() === norm);
-      if (ins) return `#/ins/${ins.id}`;
-      const op = operators.find(o => (o.path || '').toLowerCase() === norm);
-      if (op) return `#/o/${op.slug}`;
-      const pat = patterns.find(p => (p.path || '').toLowerCase() === norm);
-      if (pat && pat.id) return `#/pat/${pat.id}`;
-      const con = contradictions.find(c => (c.path || '').toLowerCase() === norm);
-      if (con && con.id) return `#/con/${con.id}`;
-      const pb = playbooks.find(p => (p.path || '').toLowerCase() === norm);
-      if (pb && pb.id) return `#/play/${pb.id}`;
-      return null;
-    })();
-    if (route){
+    const filenameBase = (norm.split('/').pop() || '').replace(/\.md$/, '');
+    const setRoute = (route, prettyTitle, ...slugCandidates) => {
       a.setAttribute('href', route);
       a.removeAttribute('target');
       a.removeAttribute('rel');
-    }
+      if (prettyTitle && looksLikeSlug(a.textContent, ...slugCandidates, filenameBase)){
+        a.textContent = prettyTitle;
+      }
+    };
+    const ins = cards.find(c => (c.path || '').toLowerCase() === norm);
+    if (ins){ setRoute(`#/ins/${ins.id}`, ins.claim, ins.id); return; }
+    const op = operators.find(o => (o.path || '').toLowerCase() === norm);
+    if (op){ setRoute(`#/o/${op.slug}`, op.name, op.slug); return; }
+    const pat = patterns.find(p => (p.path || '').toLowerCase() === norm);
+    if (pat && pat.id){ setRoute(`#/pat/${pat.id}`, pat.title, pat.id); return; }
+    const con = contradictions.find(c => (c.path || '').toLowerCase() === norm);
+    if (con && con.id){ setRoute(`#/con/${con.id}`, con.title, con.id); return; }
+    const pb = playbooks.find(p => (p.path || '').toLowerCase() === norm);
+    if (pb && pb.id){ setRoute(`#/play/${pb.id}`, pb.title, pb.id); return; }
   });
 }
 const ACRONYMS = ['AI','GTM','PMM','PLG','ICP','JTBD','ROI','KPI','SEO','AEO','LLM','LLMs','API','APIs','CRO','B2B','B2C','SaaS','CEO','CTO','CMO','CFO','COO','VP','VPs','UI','UX','SDK','MCP','RAG','SQL','URL','URLs','HTML','CSS','JS','JSON','HTTP','HTTPS','PDF','PR','PRs','QA','GTM','OKR','OKRs','POV','SDR','BDR','AE','AEs','RevOps','GTM','TAM','SAM','LTV','CAC','MRR','ARR','PMF','MVP','NPS','CSM','CX','VPC','SNM','TPS','OS','iOS','iPadOS','macOS'];
