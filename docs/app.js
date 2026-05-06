@@ -334,6 +334,14 @@ function animateHome(){
 async function insight(id){
   const c = cards.find(x=>x.id===id);
   if (!c){ app.innerHTML = `<div class='insight-page'><p>card not found.</p></div>`; return; }
+  // Compute sibling navigation once so both prev/next + the rail panel agree.
+  const siblings = cards.filter(x => x.operator_slug === c.operator_slug);
+  const sibIdx = siblings.findIndex(x => x.id === c.id);
+  const sibPrev = sibIdx > 0 ? siblings[sibIdx - 1] : null;
+  const sibNext = sibIdx >= 0 && sibIdx < siblings.length - 1 ? siblings[sibIdx + 1] : null;
+  const relatedItems = (c.related || [])
+    .map(r => ({ id: r, card: cards.find(x => x.id === r) }))
+    .filter(x => x.card);
   app.innerHTML = `<article class='insight-page'>
     <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <a href='#/operators'>operators</a> <span>·</span> <a href='#/o/${c.operator_slug}'>${escapeHtml(c.operator)}</a> <span>·</span> <span>${c.id}</span></div>
     <div class='layout'>
@@ -343,24 +351,55 @@ async function insight(id){
         <p class='byline'>${escapeHtml(c.operator)}${(c.co_operators||[]).length ? ` <span class='co-byline'>with ${c.co_operators.map(co => `<a href='#/o/${slugify(co)}'>${escapeHtml(co)}</a>`).join(', ')}</span>` : ''}${c.operator_role?`<span class='role'>${escapeHtml(c.operator_role)}</span>`:''}</p>
         <p class='source'>${c.source_url?`<a href='${c.source_url}' target='_blank' rel='noopener'>${escapeHtml(c.source_title||c.source_url)}</a>`:''} ${c.source_date?`<span>·</span><span>${c.source_date}</span>`:''} ${c.source_type?`<span>·</span><span>${c.source_type}</span>`:''}</p>
         <div class='body' id='cardBody'><p style='color:var(--muted);font-family:var(--mono);font-size:.8rem'>loading…</p></div>
-        <div class='actions'>
-          <button class='btn' id='citeBtn'>copy citation</button>
-          <button class='btn ghost' id='copyMdBtn' title='Copy this card as markdown so you can paste it into your agent'>copy as markdown</button>
-          <a class='btn ghost' href='${REPO_BASE}/insight-library/${c.path}' target='_blank' rel='noopener'>view source</a>
-        </div>
-        ${(()=>{ const sib = cards.filter(x=>x.operator_slug===c.operator_slug); const i = sib.findIndex(x=>x.id===c.id); const prev = i>0?sib[i-1]:null; const next = i>=0&&i<sib.length-1?sib[i+1]:null; return (prev||next) ? `<nav class='ins-nav'>${prev?`<a class='ins-nav-prev' href='#/ins/${prev.id}'><span>← previous</span><em>${escapeHtml(prev.claim.slice(0,80))}${prev.claim.length>80?'…':''}</em></a>`:'<span></span>'}${next?`<a class='ins-nav-next' href='#/ins/${next.id}'><span>next →</span><em>${escapeHtml(next.claim.slice(0,80))}${next.claim.length>80?'…':''}</em></a>`:'<span></span>'}</nav>` : ''; })()}
       </div>
-      <aside>
-        <div class='card-meta'>
+      <aside class='ins-rail'>
+        <section class='rail-panel'>
           <h4>operator${(c.co_operators||[]).length ? 's' : ''}</h4>
-          <p style='margin-bottom:4px'><a href='#/o/${c.operator_slug}' style='border-bottom:1px solid var(--line)'>${escapeHtml(c.operator)}</a></p>
-          ${(c.co_operators||[]).map(co => `<p style='margin-bottom:4px'><a href='#/o/${slugify(co)}' style='border-bottom:1px solid var(--line)'>${escapeHtml(co)}</a> <span style='font-family:var(--mono);font-size:.65rem;color:var(--muted)'>co-author</span></p>`).join('')}
-          ${c.operator_role?`<p style='font-family:var(--mono);font-size:.7rem;color:var(--muted)'>${escapeHtml(c.operator_role)}</p>`:''}
+          <p class='rail-op'><a href='#/o/${c.operator_slug}'>${escapeHtml(c.operator)}</a></p>
+          ${(c.co_operators||[]).map(co => `<p class='rail-op'><a href='#/o/${slugify(co)}'>${escapeHtml(co)}</a> <span class='rail-meta'>co-author</span></p>`).join('')}
+          ${c.operator_role?`<p class='rail-meta-line'>${escapeHtml(c.operator_role)}</p>`:''}
+        </section>
+        <section class='rail-panel'>
+          <h4>actions</h4>
+          <div class='rail-actions'>
+            <button class='rail-btn' id='citeBtn' aria-label='Copy citation'>
+              <svg viewBox='0 0 16 16' aria-hidden='true' width='13' height='13' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'><path d='M5 5h6v8H5z'/><path d='M3 3h6v2'/></svg>
+              <span>copy citation</span>
+            </button>
+            <button class='rail-btn' id='copyMdBtn' aria-label='Copy as markdown' title='Copy this card as markdown to paste into your agent'>
+              <svg viewBox='0 0 16 16' aria-hidden='true' width='13' height='13' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'><rect x='2' y='3' width='12' height='10' rx='1.5'/><path d='M5 9V7l1.5 1.5L8 7v2'/><path d='M11 7v3M9.5 8.5L11 10l1.5-1.5'/></svg>
+              <span>copy as markdown</span>
+            </button>
+            <a class='rail-btn' href='${REPO_BASE}/insight-library/${c.path}' target='_blank' rel='noopener' aria-label='View raw source on GitHub'>
+              <svg viewBox='0 0 16 16' aria-hidden='true' width='13' height='13' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'><path d='M11 3h2v2'/><path d='M13 3l-5 5'/><path d='M12 9v3a1 1 0 01-1 1H4a1 1 0 01-1-1V5a1 1 0 011-1h3'/></svg>
+              <span>view raw source</span>
+            </a>
+            ${c.source_url ? `<a class='rail-btn' href='${escapeHtml(c.source_url)}' target='_blank' rel='noopener external' aria-label='Open the original primary source'>
+              <svg viewBox='0 0 16 16' aria-hidden='true' width='13' height='13' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'><circle cx='8' cy='8' r='6'/><path d='M2.5 8h11M8 2.5c2 2 2 9 0 11M8 2.5c-2 2-2 9 0 11'/></svg>
+              <span>original source</span>
+            </a>` : ''}
+          </div>
+        </section>
+        ${c.lifecycle && c.lifecycle.length ? `<section class='rail-panel'>
           <h4>lifecycle</h4>
-          <p style='font-family:var(--mono);font-size:.75rem;color:var(--muted)'>${c.lifecycle.join(' · ')||'—'}</p>
+          <p class='rail-tags'>${c.lifecycle.join(' · ')}</p>
+        </section>` : ''}
+        ${relatedItems.length ? `<section class='rail-panel'>
           <h4>related</h4>
-          <ul>${c.related.length?c.related.map(r=>`<li><a href='#/ins/${r}'>${r.replace(/^ins_/,'').replace(/-/g,' ')}</a></li>`).join(''):'<li style="color:var(--muted)">none yet</li>'}</ul>
-        </div>
+          <ul class='rail-related'>${relatedItems.map(({card: r}) => `<li><a href='#/ins/${r.id}'>${escapeHtml(r.claim)}</a></li>`).join('')}</ul>
+        </section>` : ''}
+        ${(sibPrev || sibNext) ? `<section class='rail-panel rail-sib'>
+          <h4>more from ${escapeHtml(c.operator)}</h4>
+          ${sibPrev ? `<a class='rail-sib-link' href='#/ins/${sibPrev.id}'>
+            <span class='rail-sib-dir'>← previous</span>
+            <span class='rail-sib-title'>${escapeHtml(sibPrev.claim)}</span>
+          </a>` : ''}
+          ${sibNext ? `<a class='rail-sib-link' href='#/ins/${sibNext.id}'>
+            <span class='rail-sib-dir'>next →</span>
+            <span class='rail-sib-title'>${escapeHtml(sibNext.claim)}</span>
+          </a>` : ''}
+          <a class='rail-sib-all' href='#/o/${c.operator_slug}'>see all ${siblings.length} cards →</a>
+        </section>` : ''}
       </aside>
     </div>
   </article>`;
@@ -1263,13 +1302,19 @@ function timeline(){
   const tierChips = ['A','B','C'].map(t => `<button class='tlfilter-chip tlfilter-tier ${tlFilter.tiers.has(t) ? 'on' : ''}' data-tier='${t}'>tier ${t}<span class='tlfilter-ct'>${tierCounts[t]}</span></button>`).join('');
   const domainChips = allDomains.map(d => `<button class='tlfilter-chip tlfilter-domain ${tlFilter.domains.has(d) ? 'on' : ''}' data-domain='${d}'>${d}<span class='tlfilter-ct'>${domainCounts.get(d) || 0}</span></button>`).join('');
   const filterActive = tlFilter.tiers.size < 3 || tlFilter.domains.size > 0;
+  // Filter sits on two rows so every chip is one click away — no horizontal
+  // scroll. Row 1: tier (always 3 chips) + reset; Row 2: domains (wraps to as
+  // many lines as needed). The grid keeps labels aligned across rows.
   const filterRow = `<div class='tlfilter'>
-    <span class='tlfilter-label'>tier</span>
-    <div class='tlfilter-group'>${tierChips}</div>
-    <span class='tlfilter-divider' aria-hidden='true'></span>
-    <span class='tlfilter-label'>domain</span>
-    <div class='tlfilter-group tlfilter-domains'>${domainChips}</div>
-    ${filterActive ? `<button class='tlfilter-reset'>reset</button>` : ''}
+    <div class='tlfilter-row'>
+      <span class='tlfilter-label'>tier</span>
+      <div class='tlfilter-group'>${tierChips}</div>
+      ${filterActive ? `<button class='tlfilter-reset' aria-label='Clear all filters'>reset</button>` : ''}
+    </div>
+    <div class='tlfilter-row'>
+      <span class='tlfilter-label'>domain</span>
+      <div class='tlfilter-group tlfilter-domains'>${domainChips}</div>
+    </div>
   </div>`;
   app.innerHTML = `<section class='timeline-page'>
     <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <span>timeline</span></div>

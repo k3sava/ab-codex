@@ -425,20 +425,72 @@ main{padding-top:var(--hdr-h);min-height:100vh}
 .insight-page .body code{background:var(--paper-2);padding:2px 5px;border-radius:3px;font-size:.9em}
 .insight-page .body pre{background:var(--paper-2);padding:16px;border-radius:8px;overflow:auto;margin-bottom:16px}
 .insight-page .body a{color:var(--accent-2);border-bottom:1px solid color-mix(in oklab,var(--accent-2) 50%,transparent)}
-.insight-page .actions{margin-top:48px;display:flex;gap:12px;flex-wrap:wrap}
+/* Legacy .btn — kept in case any other view uses it. New insight rail uses
+   .rail-btn with a denser, more sidebar-appropriate visual weight. */
 .btn{display:inline-flex;align-items:center;gap:6px;padding:9px 16px;font-size:.85rem;border:1px solid var(--ink);border-radius:999px;color:var(--ink);transition:background .2s,color .2s,transform .15s;min-height:42px}
 .btn:hover{background:var(--ink);color:var(--paper)}
 .btn:active{transform:scale(.97)}
 .btn.ghost{border-color:var(--line);color:var(--muted)}
 .btn.ghost:hover{border-color:var(--accent);color:var(--accent-2);background:transparent}
-.insight-page aside{position:sticky;top:calc(var(--hdr-h) + 24px)}
-.insight-page aside .card-meta{padding:24px;background:var(--paper-2);border-radius:14px;margin-bottom:14px}
-.insight-page aside h4{font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:18px 0 8px;font-weight:500}
-.insight-page aside h4:first-child{margin-top:0}
-.insight-page aside ul{list-style:none}
-.insight-page aside li{margin-bottom:6px;font-size:.875rem}
-.insight-page aside a{color:var(--ink-2);border-bottom:1px solid transparent;transition:color .2s,border-color .2s}
-.insight-page aside a:hover{color:var(--accent-2);border-bottom-color:currentColor}
+
+/* ===== Insight rail (right sidebar) =====
+   Each panel is its own self-contained card on the rail. The reading column
+   stays uninterrupted; tools live where the eye expects tools — alongside, not
+   between paragraphs. The rail is sticky on desktop, sequential on mobile. */
+.insight-page aside.ins-rail{position:sticky;top:calc(var(--hdr-h) + 24px);display:flex;flex-direction:column;gap:14px;align-self:start}
+.rail-panel{padding:18px 20px;background:var(--paper-2);border:1px solid color-mix(in oklab,var(--ink) 5%,transparent);border-radius:12px;font-size:.85rem;line-height:1.5}
+.rail-panel h4{font-family:var(--mono);font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 12px;font-weight:600}
+.rail-panel a{color:var(--ink);border-bottom:1px solid transparent;padding-bottom:1px;transition:color .15s,border-color .15s}
+.rail-panel a:hover{color:var(--accent-2);border-bottom-color:currentColor}
+.rail-panel ul{list-style:none;display:flex;flex-direction:column;gap:8px}
+
+/* Operators panel */
+.rail-op{margin:0 0 4px;font-family:var(--serif);font-size:1rem;line-height:1.3}
+.rail-op .rail-meta{font-family:var(--mono);font-size:.6rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-left:6px;font-weight:500}
+.rail-meta-line{font-family:var(--mono);font-size:.7rem;color:var(--muted);margin-top:8px;line-height:1.5}
+
+/* Actions panel — stacked thin buttons. Density beats prominence; the panel is
+   the visual frame, the buttons just carry the action. */
+.rail-actions{display:flex;flex-direction:column;gap:6px}
+.rail-btn{
+  display:inline-flex;align-items:center;gap:9px;
+  padding:9px 12px;border-radius:8px;
+  background:transparent;border:1px solid color-mix(in oklab,var(--ink) 7%,transparent);
+  color:var(--ink-2);font-family:var(--mono);font-size:.74rem;letter-spacing:.01em;
+  cursor:pointer;text-decoration:none;
+  transition:background .15s ease,border-color .15s ease,color .15s ease;
+  text-align:left;line-height:1;
+}
+.rail-btn svg{flex-shrink:0;color:var(--muted);transition:color .15s}
+.rail-btn:hover{background:color-mix(in oklab,var(--accent) 8%,var(--paper-2));border-color:color-mix(in oklab,var(--accent) 35%,transparent);color:var(--accent-2)}
+.rail-btn:hover svg{color:var(--accent-2)}
+.rail-btn:active{transform:scale(.99)}
+
+/* Lifecycle tags as a single line */
+.rail-tags{font-family:var(--mono);font-size:.72rem;color:var(--ink-2);margin:0}
+
+/* Related cards — full claim text, line-clamped on overflow */
+.rail-related li{font-size:.85rem;line-height:1.4}
+.rail-related a{display:inline-block}
+
+/* "More from <Operator>" — sibling navigation as labeled cards */
+.rail-sib-link{
+  display:flex;flex-direction:column;gap:4px;
+  padding:10px 12px;border-radius:8px;
+  background:color-mix(in oklab,var(--paper) 70%,transparent);
+  border:1px solid color-mix(in oklab,var(--ink) 5%,transparent);
+  margin-bottom:8px;text-decoration:none;
+  transition:background .15s,border-color .15s;
+}
+.rail-sib-link:hover{background:color-mix(in oklab,var(--accent) 6%,var(--paper));border-color:color-mix(in oklab,var(--accent) 25%,transparent);border-bottom-color:color-mix(in oklab,var(--accent) 25%,transparent)}
+.rail-sib-dir{font-family:var(--mono);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:500}
+.rail-sib-title{font-family:var(--serif);font-size:.95rem;line-height:1.3;color:var(--ink)}
+.rail-sib-all{
+  display:block;margin-top:4px;
+  font-family:var(--mono);font-size:.7rem;color:var(--muted);
+  text-decoration:none;border-bottom:0;padding:6px 0 0;
+}
+.rail-sib-all:hover{color:var(--accent-2)}
 
 /* ===== OPERATOR ===== */
 .operator-page{max-width:var(--maxw);margin:0 auto;padding:48px var(--gut) 120px}
@@ -811,22 +863,25 @@ dialog .search-head kbd{font-family:var(--mono);font-size:.65rem;padding:3px 7px
 /* ===== TIMELINE redesign ===== */
 .timeline-page .lede{font-family:var(--mono);font-size:.78rem;color:var(--muted);margin-bottom:18px}
 .timeline-hint{display:inline-block;margin-left:6px;font-size:.7rem;color:var(--muted);opacity:.75}
-/* Filter row — single line, scrolls horizontally on narrow screens */
+/* Filter region — two structured rows. Tier on row 1, domain on row 2.
+   Every chip is reachable in one click; no horizontal scroll. Domain row
+   wraps to multiple lines if needed (still better than scrolling). */
 .tlfilter{
-  display:flex;align-items:center;gap:10px;
+  display:flex;flex-direction:column;gap:8px;
   margin:0 0 16px;padding:10px 0;
   border-top:1px solid var(--line-2);border-bottom:1px solid var(--line-2);
   font-family:var(--mono);font-size:.72rem;color:var(--muted);
-  overflow-x:auto;white-space:nowrap;
-  -webkit-overflow-scrolling:touch;
-  scrollbar-width:thin;
 }
-.tlfilter::-webkit-scrollbar{height:4px}
-.tlfilter::-webkit-scrollbar-thumb{background:var(--line);border-radius:2px}
-.tlfilter-label{color:var(--muted);text-transform:uppercase;letter-spacing:.08em;font-size:.62rem;padding-right:2px}
-.tlfilter-group{display:flex;align-items:center;gap:6px}
-.tlfilter-domains{flex-wrap:nowrap}
-.tlfilter-divider{width:1px;height:18px;background:var(--line-2);flex-shrink:0;margin:0 4px}
+.tlfilter-row{
+  display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+}
+.tlfilter-label{
+  color:var(--muted);text-transform:uppercase;letter-spacing:.08em;
+  font-size:.62rem;font-weight:600;
+  flex-shrink:0;min-width:54px;
+}
+.tlfilter-group{display:flex;align-items:center;gap:6px;flex-wrap:wrap;flex:1;min-width:0}
+.tlfilter-domains{flex-wrap:wrap}
 .tlfilter-chip{
   display:inline-flex;align-items:center;gap:6px;
   padding:4px 10px;border-radius:999px;
@@ -857,11 +912,11 @@ dialog .search-head kbd{font-family:var(--mono);font-size:.65rem;padding:3px 7px
 }
 .tlfilter-reset{
   margin-left:auto;flex-shrink:0;
-  background:transparent;border:0;padding:4px 8px;
-  color:var(--muted);font-family:inherit;font-size:.72rem;cursor:pointer;
-  text-decoration:underline;text-underline-offset:3px;
+  background:transparent;border:1px solid var(--line);padding:3px 10px;border-radius:999px;
+  color:var(--muted);font-family:inherit;font-size:.7rem;cursor:pointer;
+  transition:color .15s,border-color .15s,background .15s;
 }
-.tlfilter-reset:hover{color:var(--ink)}
+.tlfilter-reset:hover{color:var(--ink);border-color:var(--ink-2);background:color-mix(in oklab,var(--ink) 4%,transparent)}
 /* Sticky timeline navigation: filter row + density spark stay on screen while
    the reader scrolls the list of insights. Both share a single sticky wrapper
    so they move together rather than overlapping. */
