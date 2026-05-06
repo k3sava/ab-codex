@@ -870,10 +870,11 @@ dialog .search-head kbd{font-family:var(--mono);font-size:.65rem;padding:3px 7px
 }
 .tspark-bar{
   flex:1;display:flex;align-items:flex-end;justify-content:center;
-  min-width:1px;height:100%;padding:0;
+  min-width:5px;height:100%;padding:0;
   background:transparent;border:0;cursor:pointer;
   transition:background .12s ease;
 }
+.tspark-bar:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
 .tspark-bar:hover{background:color-mix(in oklab,var(--accent) 14%,transparent)}
 .tspark-bar.active{background:color-mix(in oklab,var(--accent) 22%,transparent)}
 .tspark-fill{

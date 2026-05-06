@@ -98,6 +98,39 @@ async function fetchBody(path){
   try { const r = await fetch(`insight-library/${path}`); return await r.text(); } catch { return ''; }
 }
 function stripFrontmatter(md){ if (md.startsWith('---\n')){ const e = md.indexOf('\n---',4); if (e>0) return md.slice(e+4).trimStart(); } return md; }
+
+// Walk rendered HTML and map relative .md paths to SPA routes so clicks stay in-app
+// instead of fetching the raw markdown file (or 404'ing on GH Pages).
+function rewriteRelativeLinks(root){
+  if (!root) return;
+  root.querySelectorAll('a').forEach(a => {
+    const href = a.getAttribute('href') || '';
+    if (!href || href.startsWith('#') || /^https?:/i.test(href) || href.startsWith('mailto:')) return;
+    // The release-note bodies use paths relative to insight-library/ (e.g. "insights/ins_X.md").
+    // Some legacy links may include a leading "./" or "insight-library/" prefix — normalise.
+    // The mdToHtml acronym pass uppercases "AI" inside hrefs (a known side-effect), so
+    // match paths case-insensitively against the corpus index.
+    const norm = href.replace(/^\.\//, '').replace(/^insight-library\//, '').toLowerCase();
+    const route = (() => {
+      const ins = cards.find(c => (c.path || '').toLowerCase() === norm);
+      if (ins) return `#/ins/${ins.id}`;
+      const op = operators.find(o => (o.path || '').toLowerCase() === norm);
+      if (op) return `#/o/${op.slug}`;
+      const pat = patterns.find(p => (p.path || '').toLowerCase() === norm);
+      if (pat && pat.id) return `#/pat/${pat.id}`;
+      const con = contradictions.find(c => (c.path || '').toLowerCase() === norm);
+      if (con && con.id) return `#/con/${con.id}`;
+      const pb = playbooks.find(p => (p.path || '').toLowerCase() === norm);
+      if (pb && pb.id) return `#/play/${pb.id}`;
+      return null;
+    })();
+    if (route){
+      a.setAttribute('href', route);
+      a.removeAttribute('target');
+      a.removeAttribute('rel');
+    }
+  });
+}
 const ACRONYMS = ['AI','GTM','PMM','PLG','ICP','JTBD','ROI','KPI','SEO','AEO','LLM','LLMs','API','APIs','CRO','B2B','B2C','SaaS','CEO','CTO','CMO','CFO','COO','VP','VPs','UI','UX','SDK','MCP','RAG','SQL','URL','URLs','HTML','CSS','JS','JSON','HTTP','HTTPS','PDF','PR','PRs','QA','GTM','OKR','OKRs','POV','SDR','BDR','AE','AEs','RevOps','GTM','TAM','SAM','LTV','CAC','MRR','ARR','PMF','MVP','NPS','CSM','CX','VPC','SNM','TPS','OS','iOS','iPadOS','macOS'];
 function fixAcronymsAndSmallWords(text){
   if (!text) return text;
@@ -1127,24 +1160,34 @@ function timeline(){
     const monthNames = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
     return `${monthNames[+m-1]} ${y}`;
   };
-  // Bars: flex-sized by card count. Height of inner fill encodes density.
+  // Bars: flex-sized by sqrt(card count) so sparse months don't collapse to hairlines.
+  // Linear scaling makes a month with 1 card almost invisible next to a month with 100;
+  // sqrt compresses the ratio so sparse months stay visible and clickable while dense
+  // months still read as denser. CSS min-width gives a final safety floor.
+  const flexFor = ct => Math.sqrt(ct); // monotonic, sub-linear
   const barEls = monthKeysAsc.map(ym => {
     const ct = months.get(ym).length;
-    const heightPct = Math.max(8, (ct / maxCt) * 100);
-    return `<button class='tspark-bar' data-ym='${ym}' style='flex:${ct}' aria-label='${fmtMonth(ym)} — ${ct} card${ct===1?'':'s'}' title='${fmtMonth(ym)} — ${ct} card${ct===1?'':'s'}'>
+    const heightPct = Math.max(15, Math.sqrt(ct / maxCt) * 100); // sqrt for height too — same logic
+    return `<button class='tspark-bar' data-ym='${ym}' style='flex:${flexFor(ct).toFixed(3)}' aria-label='${fmtMonth(ym)} — ${ct} card${ct===1?'':'s'}' title='${fmtMonth(ym)} — ${ct} card${ct===1?'':'s'}'>
       <span class='tspark-fill' style='height:${heightPct.toFixed(1)}%'></span>
     </button>`;
   }).join('');
-  // Year tick row: absolutely-positioned labels at cumulative-card percentages.
-  // Sparse years would get tiny flex widths and truncate, so we position by
-  // cumulative-card-count and hide labels that would overlap their neighbour.
+  // Year tick row: absolutely-positioned labels at cumulative-flex percentages so they
+  // align with the sqrt-scaled bars above. The collision detection then prioritises
+  // the latest year, the oldest, and the highest-card-count years.
   const years = [...new Set(monthKeysAsc.map(k => k.slice(0,4)))];
   const yearTotals = years.map(y => monthKeysAsc.filter(k => k.startsWith(y+'-')).reduce((s,k) => s + months.get(k).length, 0));
-  // cumulative start position (percentage) of each year's bar block in the density-scaled axis
-  const totalAll = yearTotals.reduce((a,b) => a+b, 0) || 1;
+  const monthFlex = monthKeysAsc.map(k => flexFor(months.get(k).length));
+  const totalFlex = monthFlex.reduce((a,b) => a+b, 0) || 1;
   const yearStartsPct = [];
-  let acc = 0;
-  for (const t of yearTotals){ yearStartsPct.push((acc / totalAll) * 100); acc += t; }
+  let accFlex = 0;
+  for (const y of years){
+    yearStartsPct.push((accFlex / totalFlex) * 100);
+    // Advance accFlex by the sum of flex for months in this year
+    for (let i = 0; i < monthKeysAsc.length; i++){
+      if (monthKeysAsc[i].startsWith(y+'-')) accFlex += monthFlex[i];
+    }
+  }
   // First pass — render every year as a tick + label; collision detection runs after layout.
   const yearEls = years.map((y, i) => `<button class='tspark-year' data-year='${y}' data-pct='${yearStartsPct[i].toFixed(3)}' data-cards='${yearTotals[i]}' style='left:${yearStartsPct[i].toFixed(3)}%' aria-label='Jump to ${y} (${yearTotals[i]} card${yearTotals[i]===1?'':'s'})'><span class='tspark-tick' aria-hidden='true'></span><span class='tspark-year-label'>${y}</span></button>`).join('');
   // Bar control row: undated link, total
@@ -1665,6 +1708,7 @@ async function today(){
     const md = await fetchBody(e.path);
     const cleaned = stripFm(md).replace(/^#\s+[^\n]+\n+/, '');
     target.innerHTML = mdToHtml(cleaned);
+    rewriteRelativeLinks(target);
   }
   // Active TOC entry follows scroll
   const tocLinks = Array.from(document.querySelectorAll('.today-toc a'));
