@@ -99,6 +99,25 @@ async function fetchBody(path){
 }
 function stripFrontmatter(md){ if (md.startsWith('---\n')){ const e = md.indexOf('\n---',4); if (e>0) return md.slice(e+4).trimStart(); } return md; }
 
+// Toast — site-wide passive feedback for copy/share/listen actions.
+// One toast at a time; reusing the element so they stack-replace.
+let _toastTimer = null;
+function toast(message, opts = {}){
+  const el = document.getElementById('toast');
+  if (!el) return;
+  const icon = opts.icon === 'error' ? '✕' : '✓';
+  el.innerHTML = `<span class="toast-icon" aria-hidden="true">${icon}</span><span>${escapeHtml(message)}</span>`;
+  el.hidden = false;
+  // force reflow so the transition fires
+  void el.offsetHeight;
+  el.dataset.show = 'true';
+  clearTimeout(_toastTimer);
+  _toastTimer = setTimeout(() => {
+    delete el.dataset.show;
+    setTimeout(() => { el.hidden = true; }, 220);
+  }, opts.duration || 2200);
+}
+
 // Walk rendered HTML and map relative .md paths to SPA routes so clicks stay in-app
 // instead of fetching the raw markdown file (or 404'ing on GH Pages).
 // Also: if the rendered link text looks slug-like (matches the id, slug, or
@@ -429,30 +448,19 @@ async function insight(id){
   const minutes = Math.max(1, Math.round(wordCount / 225));
   const rt = document.getElementById('readTime');
   if (rt){ rt.style.display = ''; rt.removeAttribute('aria-hidden'); rt.innerHTML = `<span>·</span><span>${minutes} min read</span>`; }
-  // Helper that flashes a label on a button for confirmation feedback.
-  const flashLabel = (id, msg, ms = 1400) => {
-    const b = document.getElementById(id); if (!b) return;
-    const labelEl = b.querySelector('span') || b;
-    const original = labelEl.textContent;
-    labelEl.textContent = msg;
-    setTimeout(() => { labelEl.textContent = original; }, ms);
-  };
-
   document.getElementById('citeBtn').onclick = async () => {
     const text = `${c.operator}${(c.co_operators||[]).length ? ' with ' + c.co_operators.join(', ') : ''}, "${c.source_title || c.claim}," ${c.source_url || ''}, ${c.source_date || 'n.d.'}. https://codex.iamkesava.com/ins/${c.id}/`;
-    try { await navigator.clipboard.writeText(text); flashLabel('citeBtn', 'copied'); } catch { flashLabel('citeBtn', 'copy failed'); }
+    try { await navigator.clipboard.writeText(text); toast('citation copied'); }
+    catch { toast('copy failed', { icon: 'error' }); }
   };
   // Osmani's UX bridge layer — give a human-with-an-agent a clean way to grab the
   // card's full markdown for their model.
   document.getElementById('copyMdBtn').onclick = async () => {
-    flashLabel('copyMdBtn', 'copying…', 600);
     try {
       const raw = await fetch(`insight-library/${c.path}`).then(r => r.text());
       await navigator.clipboard.writeText(raw);
-      setTimeout(() => flashLabel('copyMdBtn', 'copied'), 600);
-    } catch {
-      setTimeout(() => flashLabel('copyMdBtn', 'copy failed'), 600);
-    }
+      toast('markdown copied');
+    } catch { toast('copy failed', { icon: 'error' }); }
   };
   // Share — native Web Share where available, copy link fallback elsewhere.
   document.getElementById('shareBtn').onclick = async () => {
@@ -463,10 +471,10 @@ async function insight(id){
         await navigator.share(shareData);
       } else {
         await navigator.clipboard.writeText(url);
-        flashLabel('shareBtn', 'link copied');
+        toast('link copied');
       }
     } catch (err){
-      if (err?.name !== 'AbortError') flashLabel('shareBtn', 'share failed');
+      if (err?.name !== 'AbortError') toast('share failed', { icon: 'error' });
     }
   };
   // Read aloud — Web Speech API. Reads claim + body. Toggles play/stop.
@@ -483,7 +491,7 @@ async function insight(id){
     };
     listenBtn.addEventListener('click', () => {
       if (!('speechSynthesis' in window)){
-        flashLabel('listenBtn', 'not supported');
+        toast('your browser doesn\'t support read-aloud', { icon: 'error' });
         return;
       }
       // Toggle off if already speaking.
@@ -494,7 +502,7 @@ async function insight(id){
       // Build readable text. Wait for body to be rendered before reading.
       const bodyText = (cardBodyEl.innerText || '').trim();
       if (!bodyText){
-        flashLabel('listenBtn', 'still loading…', 1000);
+        toast('still loading the card — try again in a moment');
         return;
       }
       const text = `${c.claim}. By ${c.operator}${(c.co_operators||[]).length ? ' with ' + c.co_operators.join(' and ') : ''}. ${bodyText}`.replace(/[—–]/g, ' — ').slice(0, 12000);

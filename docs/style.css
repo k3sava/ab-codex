@@ -39,6 +39,37 @@
 /* Visually-hidden but available to screen readers */
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 
+/* ===== TOAST — passive feedback for copy/share/listen actions =====
+   Replaces the previous "label flash" pattern. Shows once, dismisses on
+   timeout. role=status + aria-live so screen readers announce it. */
+.toast{
+  position:fixed;left:50%;bottom:32px;transform:translate(-50%,16px);
+  z-index:80;
+  background:var(--ink);color:var(--paper);
+  font-family:var(--mono);font-size:.78rem;line-height:1.3;
+  padding:11px 18px;border-radius:999px;
+  box-shadow:0 16px 40px -12px color-mix(in oklab,var(--ink) 30%,transparent);
+  opacity:0;pointer-events:none;
+  transition:opacity .2s ease,transform .2s ease;
+  max-width:min(420px, calc(100vw - 48px));
+  display:flex;align-items:center;gap:8px;
+}
+.toast[data-show='true']{opacity:1;transform:translate(-50%,0)}
+.toast .toast-icon{flex-shrink:0;display:inline-flex;align-items:center;color:var(--accent)}
+@media (prefers-color-scheme:dark){
+  .toast{background:var(--paper);color:var(--ink)}
+}
+
+/* ===== Card hover affordance — subtle lift + accent border on grids ===== */
+.card,.pat-tile,.op-mini,.static-card,.con-card{
+  transition:transform .15s ease, border-color .15s ease, box-shadow .15s ease, background .15s ease;
+}
+.card:hover,.pat-tile:hover,.op-mini:hover,.static-card:hover,.con-card:hover{
+  border-color:color-mix(in oklab,var(--accent) 35%,var(--line));
+  transform:translateY(-1px);
+  box-shadow:0 4px 16px -8px color-mix(in oklab,var(--ink) 18%,transparent);
+}
+
 /* ===== KEYBOARD SHORTCUT DIALOG ===== */
 .shortcut-dialog{
   border:0;border-radius:14px;padding:0;
@@ -444,10 +475,23 @@ main{padding-top:var(--hdr-h);min-height:100vh}
 .card .by{font-size:.85rem;color:var(--muted)}
 .card.pattern .converge{margin-top:12px;font-family:var(--mono);font-size:.7rem;color:var(--accent-2)}
 
-.tier{display:inline-flex;align-items:center;font-family:var(--mono);font-size:.65rem;text-transform:uppercase;letter-spacing:.06em;padding:2px 6px;border-radius:3px}
-.tier-A{background:color-mix(in oklab,var(--tier-a) 18%,transparent);color:var(--accent-2)}
-.tier-B{background:color-mix(in oklab,var(--tier-b) 22%,transparent);color:#5e7e5b}
-.tier-C{background:color-mix(in oklab,var(--tier-c) 22%,transparent);color:#5d5246}
+/* Tier badge — semantic chip with a leading color dot.
+   A = highest confidence (accent green); B = solid (slate); C = exploratory (sand). */
+.tier{
+  display:inline-flex;align-items:center;gap:5px;
+  font-family:var(--mono);font-size:.62rem;font-weight:600;
+  text-transform:uppercase;letter-spacing:.08em;
+  padding:3px 8px;border-radius:999px;
+  border:1px solid transparent;
+  line-height:1;
+}
+.tier::before{
+  content:'';width:5px;height:5px;border-radius:50%;
+  background:currentColor;flex-shrink:0;
+}
+.tier-A{background:color-mix(in oklab,var(--tier-a) 14%,transparent);border-color:color-mix(in oklab,var(--tier-a) 35%,transparent);color:var(--accent-2)}
+.tier-B{background:color-mix(in oklab,var(--tier-b) 16%,transparent);border-color:color-mix(in oklab,var(--tier-b) 35%,transparent);color:#3d5470}
+.tier-C{background:color-mix(in oklab,var(--tier-c) 18%,transparent);border-color:color-mix(in oklab,var(--tier-c) 35%,transparent);color:#7a6b56}
 
 /* ===== CHIPS ===== */
 .chips{display:flex;flex-wrap:wrap;gap:8px}
