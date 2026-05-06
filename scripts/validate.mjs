@@ -128,7 +128,6 @@ async function main(){
     // Token-budget audit (Osmani Layer 5). Cards over ~3000 words / ~4000 tokens
     // start chewing significant context window when an agent fetches multiple at
     // once. Warn so cards over budget can be split or summarized.
-    const text = await readFile(f, "utf8");
     const bodyText = text.slice(text.indexOf("\n---", 4) + 4);
     const wordCount = bodyText.trim().split(/\s+/).length;
     if (wordCount > 3000){
