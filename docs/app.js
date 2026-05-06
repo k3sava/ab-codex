@@ -137,6 +137,33 @@ function rewriteRelativeLinks(root){
     const pb = playbooks.find(p => (p.path || '').toLowerCase() === norm);
     if (pb && pb.id){ setRoute(`#/play/${pb.id}`, pb.title, pb.id); return; }
   });
+
+  // Cross-references in cards are typically rendered as inline <code>ins_X</code>
+  // (backticks in source). Convert known ids into clickable links so cross-references
+  // resolve in-app instead of staying as decorative code.
+  root.querySelectorAll('code').forEach(code => {
+    const t = (code.textContent || '').trim();
+    if (!t) return;
+    const lower = t.toLowerCase();
+    let route = null, title = null;
+    if (lower.startsWith('ins_')){
+      const ins = cards.find(c => c.id && c.id.toLowerCase() === lower);
+      if (ins){ route = `#/ins/${ins.id}`; title = ins.claim; }
+    } else if (lower.startsWith('pat_')){
+      const p = patterns.find(p => p.id && p.id.toLowerCase() === lower);
+      if (p){ route = `#/pat/${p.id}`; title = p.title; }
+    } else if (lower.startsWith('con_')){
+      const c = contradictions.find(c => c.id && c.id.toLowerCase() === lower);
+      if (c){ route = `#/con/${c.id}`; title = c.title; }
+    }
+    if (route && title){
+      const a = document.createElement('a');
+      a.className = 'inline-cross-ref';
+      a.setAttribute('href', route);
+      a.textContent = title;
+      code.replaceWith(a);
+    }
+  });
 }
 const ACRONYMS = ['AI','GTM','PMM','PLG','ICP','JTBD','ROI','KPI','SEO','AEO','LLM','LLMs','API','APIs','CRO','B2B','B2C','SaaS','CEO','CTO','CMO','CFO','COO','VP','VPs','UI','UX','SDK','MCP','RAG','SQL','URL','URLs','HTML','CSS','JS','JSON','HTTP','HTTPS','PDF','PR','PRs','QA','GTM','OKR','OKRs','POV','SDR','BDR','AE','AEs','RevOps','GTM','TAM','SAM','LTV','CAC','MRR','ARR','PMF','MVP','NPS','CSM','CX','VPC','SNM','TPS','OS','iOS','iPadOS','macOS'];
 function fixAcronymsAndSmallWords(text){
@@ -318,6 +345,7 @@ async function insight(id){
         <div class='body' id='cardBody'><p style='color:var(--muted);font-family:var(--mono);font-size:.8rem'>loading…</p></div>
         <div class='actions'>
           <button class='btn' id='citeBtn'>copy citation</button>
+          <button class='btn ghost' id='copyMdBtn' title='Copy this card as markdown so you can paste it into your agent'>copy as markdown</button>
           <a class='btn ghost' href='${REPO_BASE}/insight-library/${c.path}' target='_blank' rel='noopener'>view source</a>
         </div>
         ${(()=>{ const sib = cards.filter(x=>x.operator_slug===c.operator_slug); const i = sib.findIndex(x=>x.id===c.id); const prev = i>0?sib[i-1]:null; const next = i>=0&&i<sib.length-1?sib[i+1]:null; return (prev||next) ? `<nav class='ins-nav'>${prev?`<a class='ins-nav-prev' href='#/ins/${prev.id}'><span>← previous</span><em>${escapeHtml(prev.claim.slice(0,80))}${prev.claim.length>80?'…':''}</em></a>`:'<span></span>'}${next?`<a class='ins-nav-next' href='#/ins/${next.id}'><span>next →</span><em>${escapeHtml(next.claim.slice(0,80))}${next.claim.length>80?'…':''}</em></a>`:'<span></span>'}</nav>` : ''; })()}
@@ -337,10 +365,27 @@ async function insight(id){
     </div>
   </article>`;
   const md = await fetchBody(c.path);
-  document.getElementById('cardBody').innerHTML = mdToHtml(md);
+  const cardBodyEl = document.getElementById('cardBody');
+  cardBodyEl.innerHTML = mdToHtml(md);
+  rewriteRelativeLinks(cardBodyEl);
   document.getElementById('citeBtn').onclick = () => {
     navigator.clipboard.writeText(`${c.operator}, "${c.source_title}," ${c.source_url}, ${c.source_date}. codex/${c.id}`);
     const b = document.getElementById('citeBtn'); const t = b.textContent; b.textContent = 'copied'; setTimeout(()=>b.textContent=t, 1400);
+  };
+  // Osmani's UX bridge layer — give a human-with-an-agent a clean way to grab the
+  // card's full markdown for their model.
+  document.getElementById('copyMdBtn').onclick = async () => {
+    const b = document.getElementById('copyMdBtn');
+    const t = b.textContent;
+    b.textContent = 'copying…';
+    try {
+      const raw = await fetch(`insight-library/${c.path}`).then(r => r.text());
+      await navigator.clipboard.writeText(raw);
+      b.textContent = 'copied';
+    } catch {
+      b.textContent = 'copy failed';
+    }
+    setTimeout(() => b.textContent = t, 1600);
   };
   if (!reduced) gsap.from('.insight-page > .layout > div > *, .insight-page aside', { opacity:0, y:18, duration:.7, ease:'power3.out', stagger:.05 });
 }
@@ -405,7 +450,9 @@ async function operatorPage(slug){
   if (op.path){
     const md = await fetchBody(op.path);
     const cleaned = stripMdSections(md, ['cards','sources captured','sources']);
-    document.getElementById('opBio').innerHTML = mdToHtml(cleaned);
+    const opBioEl = document.getElementById('opBio');
+    opBioEl.innerHTML = mdToHtml(cleaned);
+    rewriteRelativeLinks(opBioEl);
   }
   if (!reduced) gsap.from('.operator-page > *', { opacity:0, y:18, duration:.6, ease:'power3.out', stagger:.05 });
 }
@@ -785,7 +832,10 @@ async function playbookPage(id){
     // Strip the leading H1 (already in header)
     body = body.replace(/^#\s+[^\n]+\n+/, '');
     const target = document.querySelector('.playbook-content');
-    if (target) target.innerHTML = renderMarkdown(body);
+    if (target){
+      target.innerHTML = renderMarkdown(body);
+      rewriteRelativeLinks(target);
+    }
   } catch (e){
     const target = document.querySelector('.playbook-content');
     if (target) target.innerHTML = `<p style='color:var(--muted)'>Could not load playbook body. <a href='https://github.com/k3sava/ab-codex/blob/main/insight-library/${p.path}' target='_blank' rel='noopener'>Read on GitHub</a>.</p>`;
@@ -923,7 +973,9 @@ async function patternPage(id){
   // Strip frontmatter, leading H1, and duplicated Operators/Sources sections (rendered in side rail)
   const stripFm = m => m.startsWith('---\n') ? m.slice(m.indexOf('\n---', 4) + 4).trimStart() : m;
   const cleaned = stripMdSections(stripFm(md).replace(/^#\s+[^\n]+\n+/, ''), ['operators','sources','sources captured']);
-  document.getElementById('patBody').innerHTML = mdToHtml(cleaned);
+  const patBodyEl = document.getElementById('patBody');
+  patBodyEl.innerHTML = mdToHtml(cleaned);
+  rewriteRelativeLinks(patBodyEl);
   if (!reduced){
     gsap.from('.pat-head > *', { opacity:0, y:14, duration:.6, ease:'power2.out', stagger:.06 });
     gsap.from('.pat-radial-line', { opacity:0, drawSVG:0, duration:.8, stagger:.04, ease:'power2.out', delay:.3 });
@@ -1758,6 +1810,69 @@ async function today(){
   });
 }
 
+// Update <title> and <meta description> per route — better SEO/AEO surface and
+// matches the descriptive-link best practice the corpus documents.
+function setPageMeta(title, description){
+  const fullTitle = title ? `${title} · a builder's codex` : `a builder's codex — operator insight library`;
+  document.title = fullTitle;
+  const set = (selector, value) => {
+    const el = document.querySelector(selector);
+    if (el && value) el.setAttribute('content', value);
+  };
+  if (description){
+    set('meta[name="description"]', description);
+    set('meta[property="og:description"]', description);
+    set('meta[name="twitter:description"]', description);
+  }
+  set('meta[property="og:title"]', fullTitle);
+  set('meta[name="twitter:title"]', fullTitle);
+  const url = `https://k3sava.github.io/ab-codex/${location.hash || '#/'}`;
+  set('meta[property="og:url"]', url);
+}
+
+function setMetaForRoute(r, anchor){
+  if (r==='/'||r==='') return setPageMeta(null, 'A primary-source library of operator insights — atomic claims attributed to named operators with verifiable sources.');
+  if (r==='/today') return setPageMeta('release log', 'What\'s new in the codex — daily ingests, prompted batches, and depth passes from inception forward.');
+  if (r==='/timeline') return setPageMeta('timeline', `${cards.filter(c=>/^\d{4}-\d{2}/.test(c.source_date||'')).length} dated insights across the corpus, density-scaled by month.`);
+  if (r==='/operators') return setPageMeta('operators', `${operators.length} operator profiles. Each one a named voice with attributed claims.`);
+  if (r==='/patterns') return setPageMeta('patterns', `${patterns.length} synthesis patterns where 3+ operators converge on the same idea from different angles.`);
+  if (r==='/playbooks') return setPageMeta('playbooks', `${playbooks.length} methodology playbooks distilled across the corpus.`);
+  if (r==='/browse' || r==='/carousel') return setPageMeta('browse', 'Filter insight cards by tier or domain; sort by date, operator, tier.');
+  if (r==='/map' || r==='/graph') return setPageMeta('map', 'Interactive force graph: operators outside, domains in the middle, insights orbiting between.');
+  if (r==='/flash') return setPageMeta('flash', 'One card at a time. Prev / next / shuffle.');
+  if (r==='/about') return setPageMeta('about', 'About a builder\'s codex — primary-source library of operator insights.');
+  if (r.startsWith('/ins/')){
+    const id = decodeURIComponent(r.slice(5));
+    const c = cards.find(x => x.id === id);
+    if (c) return setPageMeta(c.claim, `${c.operator} — "${c.claim}" (${c.source_type || 'source'}, ${c.source_date || 'undated'}).`);
+  }
+  if (r.startsWith('/o/')){
+    const slug = decodeURIComponent(r.slice(3));
+    const op = operators.find(o => o.slug === slug);
+    if (op) return setPageMeta(op.name, `${op.name} on a builder's codex — operator profile, cards, and primary sources.`);
+  }
+  if (r.startsWith('/pat/')){
+    const id = decodeURIComponent(r.slice(5));
+    const p = patterns.find(x => x.id === id);
+    if (p) return setPageMeta(p.title, `Synthesis pattern: ${p.title}`);
+  }
+  if (r.startsWith('/play/')){
+    const id = decodeURIComponent(r.slice(6));
+    const p = playbooks.find(x => x.id === id);
+    if (p) return setPageMeta(p.title, `Playbook: ${p.title}`);
+  }
+  if (r.startsWith('/con/')){
+    const id = decodeURIComponent(r.slice(5));
+    const c = contradictions.find(x => x.id === id);
+    if (c) return setPageMeta(c.title, `Contradiction: ${c.title}`);
+  }
+  if (r.startsWith('/d/')){
+    const d = decodeURIComponent(r.slice(3));
+    return setPageMeta(d, `Domain: ${d} — operator insights tagged ${d}.`);
+  }
+  setPageMeta(null, null);
+}
+
 function render(){
   window.scrollTo(0,0);
   ScrollTrigger.getAll().forEach(t=>t.kill());
@@ -1765,6 +1880,7 @@ function render(){
   const hashIdx = raw.indexOf('#');
   const r = hashIdx === -1 ? raw : raw.slice(0, hashIdx);
   const anchor = hashIdx === -1 ? '' : raw.slice(hashIdx + 1);
+  setMetaForRoute(r, anchor);
   let view;
   if (r==='/'||r==='') view = home;
   else if (r==='/today') view = today;

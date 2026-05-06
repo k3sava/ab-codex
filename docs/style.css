@@ -62,6 +62,15 @@ button{font:inherit;background:none;border:0;cursor:pointer;color:inherit;-webki
 }
 #splash .progress .bar{position:absolute;inset:0;width:0;background:var(--accent)}
 
+/* Inline cross-reference links — replaces decorative `code` for known ids */
+.inline-cross-ref{
+  display:inline;color:var(--ink);
+  border-bottom:1px solid var(--line);
+  padding-bottom:1px;
+  transition:color .2s,border-color .2s;
+}
+.inline-cross-ref:hover{color:var(--accent);border-bottom-color:currentColor}
+
 /* Co-author byline on insight pages */
 .co-byline{
   font-family:var(--mono);font-size:.78rem;color:var(--muted);

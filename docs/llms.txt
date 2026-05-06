@@ -1,0 +1,49 @@
+# A builder's codex
+
+> A primary-source library of operator insights. Atomic claims, named operators, verifiable sources.
+
+The codex is a structured corpus of cross-domain operator wisdom — product, PMM, GTM, AI-native, design, engineering, leadership, sales, growth, research, founder craft. Every claim traces back to its primary source. Cards carry mechanism, conditions, evidence, signals, counter-evidence, and cross-references.
+
+## Index
+
+- [INDEX.json](https://k3sava.github.io/ab-codex/insight-library/INDEX.json): Machine-readable index of all insights, operators, patterns, contradictions, playbooks. Use this as the canonical entry point.
+- [INDEX.md](https://k3sava.github.io/ab-codex/insight-library/INDEX.md): Human-readable index.
+- [latest.json](https://k3sava.github.io/ab-codex/insight-library/latest.json): Newest release entry + last 30 daily entries.
+
+## Browse
+
+- [Home](https://k3sava.github.io/ab-codex/): Tier A claims, domain index.
+- [All operators](https://k3sava.github.io/ab-codex/#/operators)
+- [Synthesis patterns](https://k3sava.github.io/ab-codex/#/patterns): Where 3+ operators converge on the same claim.
+- [Methodology playbooks](https://k3sava.github.io/ab-codex/#/playbooks)
+- [Timeline](https://k3sava.github.io/ab-codex/#/timeline): All insights by source date, density-scaled.
+- [Release log](https://k3sava.github.io/ab-codex/#/today): What's new in the corpus, newest first.
+
+## Schema
+
+Every insight card frontmatter:
+- `id`: globally unique, kebab-case, prefixed `ins_`
+- `operator`: primary author (full name)
+- `co_operators`: list of additional named authors
+- `operator_role`: role at time of source
+- `source_url`, `source_type`, `source_title`, `source_date`: primary source attribution
+- `captured_date`: when added to corpus
+- `domain`: taxonomy domains (product, pmm, gtm, ai-native, …)
+- `lifecycle`: taxonomy lifecycle tags
+- `maturity`: foundational | applied | frontier
+- `artifact_class`: framework | playbook | template | workflow | metric-model | case-study | excerpt
+- `score`: { originality, specificity, evidence, transferability, source } (1-5 each)
+- `tier`: A | B | C
+- `related`: list of related insight ids
+
+Body sections: `Claim` (one sentence), `Mechanism` (why it works), `Conditions` (when it applies, when it does not), `Evidence` (quote, example, data), `Signals` (how to know it's working), `Counter-evidence` (where it fails, who disagrees), `Cross-references`.
+
+## Authoring
+
+- [Ingest protocol](https://github.com/k3sava/ab-codex/blob/main/insight-library/00_meta/INGEST-PROTOCOL.md)
+- [Insight card schema](https://github.com/k3sava/ab-codex/blob/main/insight-library/00_meta/insight-card-schema.md)
+- [Daily release-log contract](https://github.com/k3sava/ab-codex/blob/main/insight-library/daily/README.md)
+
+## Optional
+
+- [GitHub repository](https://github.com/k3sava/ab-codex): MIT licensed. Insights are open source; raw sources retain original copyright.
