@@ -69,6 +69,66 @@
   line-height:1;
 }
 
+/* ===== DaVinci-grade playbook visuals =====
+   Three lifts the playbook body gets: (1) ordered lists become numbered
+   step blocks with a calligraphic step counter; (2) blockquotes that read
+   as a single declarative line render as pull-quotes; (3) Mermaid diagrams
+   embedded via ```mermaid blocks get codex-palette styling. */
+
+/* Step blocks — ordered lists in playbook bodies become numbered cards */
+.playbook-content ol.step-list,
+.playbook-content ol{
+  counter-reset:step;
+  list-style:none;padding:0;margin:1.4em 0;
+  display:flex;flex-direction:column;gap:14px;
+}
+.playbook-content ol > li{
+  counter-increment:step;
+  position:relative;padding:18px 22px 18px 64px;
+  background:color-mix(in oklab,var(--paper-2) 70%,transparent);
+  border:1px solid color-mix(in oklab,var(--ink) 6%,transparent);
+  border-radius:10px;
+  font-size:.95rem;line-height:1.55;color:var(--ink-2);
+  transition:border-color .2s,background .2s;
+}
+.playbook-content ol > li:hover{
+  border-color:color-mix(in oklab,var(--accent) 30%,transparent);
+}
+.playbook-content ol > li::before{
+  content:counter(step,decimal-leading-zero);
+  position:absolute;left:18px;top:18px;
+  font-family:var(--serif);font-size:1.6rem;font-weight:400;
+  color:var(--accent-2);letter-spacing:-.02em;line-height:1;
+  font-feature-settings:'tnum';
+}
+.playbook-content ol > li > strong:first-child{
+  display:block;color:var(--ink);margin-bottom:4px;
+  font-family:var(--serif);font-weight:500;font-size:1.05rem;letter-spacing:-.005em;
+}
+
+/* Pull-quote — single declarative line gets larger serif treatment, accent rule */
+.playbook-content blockquote.pull-quote,
+.release-body blockquote.pull-quote,
+.body blockquote.pull-quote{
+  margin:1.6em 0;padding:6px 0 6px 22px;
+  border-left:3px solid var(--accent);
+  font-family:var(--serif);font-size:1.25rem;line-height:1.4;
+  color:var(--ink);font-style:normal;
+  letter-spacing:-.01em;
+}
+
+/* Mermaid diagram container — center, bordered, subtle paper background */
+.mermaid{
+  margin:1.6em auto;max-width:100%;
+  padding:18px 14px;
+  background:var(--paper-2);
+  border:1px solid color-mix(in oklab,var(--ink) 6%,transparent);
+  border-radius:10px;
+  display:flex;justify-content:center;
+  overflow-x:auto;
+}
+.mermaid svg{max-width:100%;height:auto}
+
 /* ===== Loading + empty states (Ogilvy-style copy = specific over vague) ===== */
 .loading-line{
   font-family:var(--mono);font-size:.78rem;color:var(--muted);

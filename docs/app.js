@@ -953,6 +953,35 @@ async function playbookPage(id){
     if (target){
       target.innerHTML = renderMarkdown(body);
       rewriteRelativeLinks(target);
+      // Render any ```mermaid``` blocks that the markdown converted to .mermaid divs.
+      // Mermaid is loaded lazily and only when a diagram is actually present.
+      if (target.querySelector('.mermaid')){
+        try {
+          const mermaid = (await import('https://cdn.jsdelivr.net/npm/mermaid@10.9.1/+esm')).default;
+          // Theme tuned to the codex palette: paper background, ink text, accent edges.
+          const isDark = matchMedia('(prefers-color-scheme: dark)').matches;
+          mermaid.initialize({
+            startOnLoad: false,
+            theme: 'base',
+            themeVariables: {
+              fontFamily: 'Inter, system-ui, sans-serif',
+              fontSize: '13px',
+              primaryColor: isDark ? '#0d1410' : '#e6ebe0',
+              primaryBorderColor: isDark ? '#3aaf6d' : '#15803d',
+              primaryTextColor: isDark ? '#e6ecdf' : '#0d1410',
+              lineColor: isDark ? '#7a8174' : '#6b7868',
+              secondaryColor: isDark ? '#0a0e0a' : '#f3f5ee',
+              tertiaryColor: isDark ? '#0a0e0a' : '#f3f5ee',
+              edgeLabelBackground: isDark ? '#0a0e0a' : '#f3f5ee',
+            },
+            securityLevel: 'loose',
+          });
+          await mermaid.run({ nodes: target.querySelectorAll('.mermaid') });
+        } catch (e) {
+          // Mermaid load failed — leave the placeholder text visible.
+          console.warn('mermaid load failed:', e);
+        }
+      }
     }
   } catch (e){
     const target = document.querySelector('.playbook-content');
@@ -962,23 +991,65 @@ async function playbookPage(id){
   if (!reduced) ScrollTrigger.batch('.card.reveal', { onEnter: els => gsap.fromTo(els, { opacity:0, y:18 }, { opacity:1, y:0, duration:.6, ease:'power3.out', stagger:.03 }), start:'top 92%' });
 }
 
-// Minimal markdown renderer for playbook bodies — headings, lists, paragraphs, links, code, bold.
+// Minimal markdown renderer for playbook bodies — headings, lists, paragraphs,
+// links, code, bold. Plus: ```mermaid blocks become live diagrams and
+// blockquotes that contain a single emphatic line render as pull-quotes.
 function renderMarkdown(md){
   const lines = md.split('\n');
   const out = [];
   let inList = false;
   let inCode = false;
+  let codeLang = '';
+  let codeBuf = [];
+  let inQuote = false;
+  let quoteBuf = [];
   let para = [];
   const flushPara = () => { if (para.length){ out.push(`<p>${inlineMd(para.join(' '))}</p>`); para = []; } };
-  const closeList = () => { if (inList){ out.push('</ul>'); inList = false; } };
+  const closeList = () => { if (inList){ out.push(inList === 'ol' ? '</ol>' : '</ul>'); inList = false; } };
+  const closeQuote = () => {
+    if (!inQuote) return;
+    const text = quoteBuf.join(' ').trim();
+    // A blockquote with a single short, declarative line gets the pull-quote treatment.
+    const isPullQuote = text.length < 240 && !/\n/.test(text);
+    if (isPullQuote){
+      out.push(`<blockquote class='pull-quote'><p>${inlineMd(text)}</p></blockquote>`);
+    } else {
+      out.push(`<blockquote>${quoteBuf.map(l => `<p>${inlineMd(l)}</p>`).join('')}</blockquote>`);
+    }
+    inQuote = false; quoteBuf = [];
+  };
   for (const ln of lines){
     if (ln.startsWith('```')){
-      flushPara(); closeList();
-      if (!inCode){ out.push('<pre><code>'); inCode = true; }
-      else { out.push('</code></pre>'); inCode = false; }
+      flushPara(); closeList(); closeQuote();
+      if (!inCode){
+        codeLang = ln.replace(/^```/, '').trim().toLowerCase();
+        codeBuf = [];
+        inCode = true;
+      }
+      else {
+        // Mermaid → live diagram placeholder. mermaid.run() picks these up.
+        if (codeLang === 'mermaid'){
+          out.push(`<div class='mermaid'>${escapeHtml(codeBuf.join('\n'))}</div>`);
+        } else {
+          out.push(`<pre><code${codeLang ? ` class="language-${escapeHtml(codeLang)}"` : ''}>${escapeHtml(codeBuf.join('\n'))}</code></pre>`);
+        }
+        codeBuf = []; codeLang = ''; inCode = false;
+      }
       continue;
     }
-    if (inCode){ out.push(escapeHtml(ln)); continue; }
+    if (inCode){ codeBuf.push(ln); continue; }
+    if (/^>\s?/.test(ln)){
+      flushPara(); closeList();
+      if (!inQuote) inQuote = true;
+      quoteBuf.push(ln.replace(/^>\s?/, ''));
+      continue;
+    }
+    if (inQuote && ln.trim() !== '' && !/^>\s?/.test(ln)){
+      // soft continuation
+      quoteBuf[quoteBuf.length - 1] += ' ' + ln.trim();
+      continue;
+    }
+    if (inQuote && ln.trim() === ''){ closeQuote(); continue; }
     if (/^#{1,6}\s/.test(ln)){
       flushPara(); closeList();
       const m = ln.match(/^(#{1,6})\s+(.*)$/);
@@ -987,24 +1058,26 @@ function renderMarkdown(md){
       continue;
     }
     if (/^\s*[-*]\s+/.test(ln)){
-      flushPara();
+      flushPara(); closeQuote();
+      if (inList === 'ol'){ out.push('</ol>'); inList = false; }
       if (!inList){ out.push('<ul>'); inList = true; }
       out.push(`<li>${inlineMd(ln.replace(/^\s*[-*]\s+/, ''))}</li>`);
       continue;
     }
     if (/^\s*\d+\.\s+/.test(ln)){
-      flushPara();
-      if (!inList){ out.push('<ol>'); inList = 'ol'; }
+      flushPara(); closeQuote();
+      if (inList === true){ out.push('</ul>'); inList = false; }
+      if (!inList){ out.push('<ol class="step-list">'); inList = 'ol'; }
       out.push(`<li>${inlineMd(ln.replace(/^\s*\d+\.\s+/, ''))}</li>`);
       continue;
     }
     if (ln.trim() === ''){
-      flushPara(); closeList();
+      flushPara(); closeList(); closeQuote();
       continue;
     }
     para.push(ln);
   }
-  flushPara(); closeList();
+  flushPara(); closeList(); closeQuote();
   return out.join('\n');
 }
 function inlineMd(s){
