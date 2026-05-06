@@ -3,3 +3,21 @@ node_modules/
 # docs/insight-library/ is staged by .github/workflows/pages.yml on deploy.
 # Do not commit the staged copy.
 docs/insight-library/
+# Generated static pages — built fresh on each deploy by build-static.mjs.
+docs/ins/
+docs/o/
+docs/pat/
+docs/con/
+docs/play/
+docs/today/
+docs/operators/
+docs/patterns/
+docs/playbooks/
+docs/.well-known/
+# Generated feeds.
+docs/sitemap.xml
+docs/robots.txt
+docs/rss.xml
+# Dev-only screenshots prefixed with `.dev-` or `.live-`.
+docs/screenshots/.dev-*
+docs/screenshots/.live-*

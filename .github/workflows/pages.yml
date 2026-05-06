@@ -19,6 +19,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Validate corpus
+        run: node scripts/validate.mjs
       - name: Stage data into docs
         run: |
           mkdir -p docs/insight-library
@@ -31,6 +36,10 @@ jobs:
           cp -r insight-library/playbooks docs/insight-library/
           cp -r insight-library/00_meta docs/insight-library/
           cp -r insight-library/daily docs/insight-library/
+      - name: Build static pages (per-route HTML for crawlers + AI agents)
+        run: node scripts/build-static.mjs
+      - name: Build feeds (sitemap, RSS, robots.txt, agent-permissions.json)
+        run: node scripts/build-feeds.mjs
       - name: Validate docs bundle
         run: bash docs/build.sh
       - uses: actions/upload-pages-artifact@v3
