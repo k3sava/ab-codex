@@ -217,7 +217,7 @@ function home(){
     <section class='hero'>
       <p class='eyebrow'>operator insight library</p>
       <h1 id='heroH'>learn from the <em>best</em></h1>
-      <p class='lede'>codex is a primary-source corpus of operator-attributed claims across product, pmm, gtm, ai-native, design, and leadership. every card carries a named operator, source url, date, mechanism, conditions, and evidence.</p>
+      <p class='lede'>Every card here is one idea from one person who actually shipped something. We tell you who said it, where they said it, and when. Then we explain <em>why</em> the idea works, <em>when</em> it applies, and <em>when it doesn't</em> — so you can use it, not just read it.</p>
       <div class='stats'>
         <a class='stat' href='#/browse'><span class='num' data-count='${STATS.cards}'>0</span><span class='lbl'>insight cards</span></a>
         <a class='stat' href='#/operators'><span class='num' data-count='${STATS.operators}'>0</span><span class='lbl'>operators</span></a>
@@ -240,8 +240,8 @@ function home(){
     <section class='section' id='tier-a-section'>
       <div class='section-head'>
         <div>
-          <h2>Tier A — strongest claims</h2>
-          <p>The corpus's highest-confidence operator-attributed insights.</p>
+          <h2>Tier A — the strongest claims</h2>
+          <p>The cards we trust most: clean attribution, real evidence, the kind of idea that holds up when you actually try it.</p>
         </div>
         <div class='meta'>${STATS.tierA} cards · view all in <a href='#/browse'>browse</a></div>
       </div>
@@ -252,7 +252,7 @@ function home(){
       <div class='section-head'>
         <div>
           <h2>Where operators converge</h2>
-          <p>Synthesis patterns: three or more operators arrive at the same idea from different angles.</p>
+          <p>When three or more people arrive at the same idea independently, from different angles, it's probably not just a hot take. These are the convergences.</p>
         </div>
         <div class='meta'><a href='#/patterns'>${STATS.patterns} patterns →</a></div>
       </div>
@@ -278,8 +278,8 @@ function home(){
     ${STATS.contradictions > 0 ? `<section class='section section-contradictions'>
       <div class='section-head'>
         <div>
-          <h2>${STATS.contradictions} places operators disagree</h2>
-          <p>Productive disagreements. Where smart operators reach opposing conclusions on the same question.</p>
+          <h2>${STATS.contradictions} places where operators disagree</h2>
+          <p>Smart people reach opposite conclusions on the same question all the time. We document the disagreements so you can see both sides — and the conditions that decide which one applies to you.</p>
         </div>
         <div class='meta'><a href='#/patterns#contradictions'>see all →</a></div>
       </div>
@@ -293,8 +293,8 @@ function home(){
     <section class='section'>
       <div class='section-head'>
         <div>
-          <h2>Domains</h2>
-          <p>Filter the corpus by topic surface.</p>
+          <h2>Browse by domain</h2>
+          <p>Narrow to the surface you're working on right now.</p>
         </div>
         <div class='meta'>${STATS.domains} domains</div>
       </div>
@@ -1605,20 +1605,43 @@ function timeline(){
 /* ============ ABOUT (scrubbed copy) ============ */
 function about(){
   app.innerHTML = `<section class='about-page'>
-    <h1>about a builder's codex</h1>
-    <p>A builder's codex is an open, primary-source library of operator insights. Each card carries a named operator, a verifiable source URL, and a date — so anyone can read one claim, verify the source, and cite it.</p>
-    <p>The corpus spans product, pmm, gtm, ai-native operating, design, engineering, leadership, sales, growth, research, and founder craft. It is a structured record of what operators have published — books, podcasts, essays, talks, threads — distilled into atomic claims with mechanism, conditions, evidence, and counter-evidence.</p>
-    <p>Every claim traces back to its primary source. Nothing is paraphrased without attribution. Nothing is invented. Where operators disagree, the disagreement is documented as a contradiction. Where multiple operators converge, the convergence is documented as a synthesis pattern.</p>
+    <h1>About a builder's codex</h1>
+    <p class='lede'>A library of ideas from people who've shipped things — every idea attached to the person who said it, the place they said it, and the date.</p>
+
+    <h2>What this is, in one paragraph</h2>
+    <p>Imagine you're learning a craft — product marketing, growth, design, building with AI. The smart move is to read what people who've actually done it think. The problem: the good thinking is scattered across podcasts, posts, talks, books, and threads. By the time you find a useful idea, you've forgotten where it came from, who said it, and whether it was even theirs. So you can't go back to verify it. You can't cite it cleanly. You can't tell when an idea has been re-said by ten different people (a real signal) versus invented by one (a hot take).</p>
+    <p>This codex fixes that. Every card is one idea from one named person, with a primary source URL and a date. We add three things the original source usually doesn't: <em>why</em> it works (mechanism), <em>when</em> it applies (conditions), and <em>when it fails</em> (counter-evidence). So you can use it, not just read it.</p>
+
+    <h2>How to read a card</h2>
+    <p>Every card has the same shape. <strong>Claim</strong> states the idea in one sentence. <strong>Mechanism</strong> explains why it works — the underlying causal model. <strong>Conditions</strong> says when it applies and when it doesn't. <strong>Evidence</strong> is the operator's quote or example, with the source. <strong>Signals</strong> are the things you'd see in your own work if it's working. <strong>Counter-evidence</strong> is where it fails or who disagrees. <strong>Cross-references</strong> link to related cards.</p>
+    <p>If you only have a minute, read the Claim and skip the rest. If you're considering acting on the idea, read Conditions. If you want to know whether to trust it, read Evidence + Counter-evidence.</p>
+
+    <h2>Three things you can do here</h2>
     <ul>
-      <li>${STATS.cards} insight cards across ${STATS.domains} domains</li>
-      <li>${STATS.operators} operator profiles</li>
-      <li>${STATS.patterns} synthesis patterns (3+ operator convergences)</li>
-      <li>${STATS.contradictions} documented contradictions</li>
-      <li>${STATS.playbooks} methodology playbooks</li>
-      <li>${STATS.tierA} Tier A claims</li>
+      <li><strong>Search</strong>. Hit <kbd>⌘K</kbd> or <kbd>/</kbd> from anywhere. Type a phrase, an operator's name, or a domain.</li>
+      <li><strong>Find convergence</strong>. The <a href='#/patterns'>patterns</a> page surfaces ideas where 3+ operators independently agree — the strongest signal in the corpus.</li>
+      <li><strong>Cite it</strong>. Every card has Copy citation, Copy as markdown, and the original source link. Use them.</li>
     </ul>
+
+    <h2>The corpus right now</h2>
+    <ul>
+      <li><strong>${STATS.cards}</strong> insight cards across <strong>${STATS.domains}</strong> domains</li>
+      <li><strong>${STATS.operators}</strong> operator profiles</li>
+      <li><strong>${STATS.patterns}</strong> synthesis patterns (3+ operator convergences)</li>
+      <li><strong>${STATS.contradictions}</strong> documented contradictions (where operators disagree)</li>
+      <li><strong>${STATS.playbooks}</strong> methodology playbooks</li>
+      <li><strong>${STATS.tierA}</strong> Tier A claims (the highest-confidence, best-attributed)</li>
+    </ul>
+
+    <h2>The discipline</h2>
+    <p>Every claim traces to its primary source. Nothing is paraphrased without attribution. Nothing is invented. If we're not sure of a date, we say "unknown" rather than guess. Where operators disagree, we document the disagreement as a contradiction. Where multiple operators converge, we document the convergence as a synthesis pattern. The codex is opinionated about epistemics so you don't have to be.</p>
+
+    <h2>For agents and other tools</h2>
+    <p>The corpus is designed to be readable by AI search engines and other automated tools. <a href='https://codex.iamkesava.com/insight-library/INDEX.json'>INDEX.json</a> is the canonical machine-readable index. Every record carries id, path, operator, source_url, source_date, domain, lifecycle, and tier. <a href='https://codex.iamkesava.com/llms.txt'>llms.txt</a> documents the structure. <a href='https://codex.iamkesava.com/.well-known/agent-permissions.json'>agent-permissions.json</a> declares the licensing terms (MIT, attribution required).</p>
+    <p>Every card has a static URL like <code>codex.iamkesava.com/ins/&lt;id&gt;/</code> with full content + Schema.org structured data, so crawlers and AI search agents can read the page without executing JavaScript.</p>
+
+    <h2>License</h2>
     <p>Source on <a href='https://github.com/k3sava/ab-codex' target='_blank' rel='noopener'>GitHub</a>. Released MIT. Raw sources retain their original copyright; the codex archives short excerpts under fair use, always with attribution and a link to the canonical source.</p>
-    <p>To consume the corpus from another project, read <a href='https://raw.githubusercontent.com/k3sava/ab-codex/main/insight-library/INDEX.json' target='_blank' rel='noopener'>INDEX.json</a> directly. Every record carries id, path, operator, source_url, source_date, domain, lifecycle, and tier — link to cards by id, fetch their markdown bodies at the listed paths.</p>
   </section>`;
 }
 
