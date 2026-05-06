@@ -25,9 +25,11 @@ Packy McCormick's thinking operates at the intersection of technology analysis a
 
 ## Cards
 - `ins_run-up-the-stack` — Run up the stack — use commoditized capabilities as inputs to create higher-order human value [Tier A]
+- `ins_scarcity-supercycle` — As AI abundance expands, demand for structurally scarce assets — judgement, named relationships, original taste — intensifies [Tier A]
 
 
 ## Sources captured
 - 2026-04 — `everything-is-technology-not-boring-by-packy-mccormick.md` (operator essay archive)
 - 2026-04 — `most-human-wins-not-boring-by-packy-mccormick.md` (operator essay archive)
 - 2026-04 — `openai-grand-strategy-not-boring-by-packy-mccormick.md` (operator essay archive)
+- 2026-05-06 — *The Scarcity Supercycle* (https://www.notboring.co/p/scarce-assets)

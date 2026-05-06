@@ -3,22 +3,23 @@
 _Generated 2026-05-06. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 770 insight cards
-- 457 operator profiles
+- 775 insight cards
+- 458 operator profiles
 - 209 raw source files
-- 37 synthesis patterns
+- 39 synthesis patterns
 - 11 contradictions
 - 27 playbooks
 
 ## Insights by tier
 
-### Tier A (312)
+### Tier A (317)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
 - [`ins_aeo-decided-off-your-domain`](insights/ins_aeo-decided-off-your-domain.md) — AEO is decided off your domain — third-party mention density is the missing surface _(Brendan Hufford)_
 - [`ins_aeo-three-layer-presence-readiness-impact`](insights/ins_aeo-three-layer-presence-readiness-impact.md) — Measure AI search on three layers: Presence, Readiness, Business Impact _(Aleyda Solis)_
 - [`ins_agent-first-gtm-flywheel`](insights/ins_agent-first-gtm-flywheel.md) — Run agent-first GTM as a three-stage flywheel with one named agent per job _(Yamini Rangan)_
+- [`ins_agentic-engine-optimization-6-layer`](insights/ins_agentic-engine-optimization-6-layer.md) — Agent-first content has six platform layers — access, discovery, capability, format, token, UX bridge _(Addy Osmani)_
 - [`ins_agents-are-the-new-product-user`](insights/ins_agents-are-the-new-product-user.md) — Agents are first-class product users; design for output reliability, not navigation _(Elena Verna)_
 - [`ins_agents-as-team-not-tools`](insights/ins_agents-as-team-not-tools.md) — Agents work when treated as a team, not a single super-tool _(Claire Vo)_
 - [`ins_ai-slop-loop`](insights/ins_ai-slop-loop.md) — A single seeded fake claim can self-confirm in AI Overviews _(Lily Ray)_
@@ -100,6 +101,7 @@ _Generated 2026-05-06. Auto-built from frontmatter — do not edit by hand._
 - [`ins_going-deep-to-bedrock`](insights/ins_going-deep-to-bedrock.md) — Push past expert opinion until you reach the actual law of physics or contract _(Ayo Omojola)_
 - [`ins_growth-loops-not-funnels`](insights/ins_growth-loops-not-funnels.md) — Growth is a system of interconnected loops, not a collection of tactics _(Reforge)_
 - [`ins_gtm-teams-winning-thirty-year`](insights/ins_gtm-teams-winning-thirty-year.md) — GTM teams are winning with a THIRTY-year-old technology. New AI tools can be great, but _(Mathias Powell)_
+- [`ins_handley-ai-cant-violate-expectation`](insights/ins_handley-ai-cant-violate-expectation.md) — AI prose can't violate expectation because it IS expectation — protect the smallest deliberate rule-break from every polish pass _(Ann Handley)_
 - [`ins_handley-voice-as-moat-against-ai`](insights/ins_handley-voice-as-moat-against-ai.md) — In an AI-flooded content market, voice is the only defensible advantage — distinct, authentic, sounds like one source _(Ann Handley)_
 - [`ins_handley-write-to-one-subscriber`](insights/ins_handley-write-to-one-subscriber.md) — Write as if to a single subscriber — use "you" liberally and remove anything with a whiff of "Dear Valued Customers" _(Ann Handley)_
 - [`ins_handley-write-what-you-want-to-read`](insights/ins_handley-write-what-you-want-to-read.md) — Grow by writing what you want to read — not what you think the audience wants _(Ann Handley)_
@@ -167,6 +169,7 @@ _Generated 2026-05-06. Auto-built from frontmatter — do not edit by hand._
 - [`ins_meta-mcp-shrinks-creative-test-loop`](insights/ins_meta-mcp-shrinks-creative-test-loop.md) — Meta's MCP endpoints for ad buying turn smaller advertisers into early winners _(Eric Seufert)_
 - [`ins_michele-nieberding-ai-tools-for-pmm-workflows`](insights/ins_michele-nieberding-ai-tools-for-pmm-workflows.md) — Claude tools map to distinct PMM workflows: think, analyze, scale, collaborate. _(Michele Nieberding 🚀)_
 - [`ins_michele-nieberding-branch-in-new-chat-for-pmm`](insights/ins_michele-nieberding-branch-in-new-chat-for-pmm.md) — Branching chats with stable taxonomy scales PMM strategy without chaos. _(Michele Nieberding 🚀)_
+- [`ins_middle-is-hollowing-out`](insights/ins_middle-is-hollowing-out.md) — The middle is hollowing out — execution gets automated, leaving spec-writing and verification as the high-value human tasks _(Eugene Yan)_
 - [`ins_miller-caveman-test`](insights/ins_miller-caveman-test.md) — Could a caveman understand your homepage? — three questions, no marketing vocabulary _(Donald Miller)_
 - [`ins_miller-guide-empathy-and-authority`](insights/ins_miller-guide-empathy-and-authority.md) — The brand's job is to be a credible guide — empathy ("I get it") + authority ("I can help") — not to be the hero _(Donald Miller)_
 - [`ins_miller-survival-value-messaging`](insights/ins_miller-survival-value-messaging.md) — The brain ignores anything that doesn't signal survival — your message has to land in survival terms in seconds _(Donald Miller)_
@@ -196,6 +199,7 @@ _Generated 2026-05-06. Auto-built from frontmatter — do not edit by hand._
 - [`ins_one-percent-price-eight-percent-profit`](insights/ins_one-percent-price-eight-percent-profit.md) — A 1% price increase produces 8-11% profit improvement — yet most companies have no pricing function _(Hermann Simon)_
 - [`ins_open-coding-then-axial-coding`](insights/ins_open-coding-then-axial-coding.md) — Sample 100+ traces, write one free-form note per trace, let an LLM cluster the notes — humans first, machines second _(Hamel Husain)_
 - [`ins_original-research-as-link-bait`](insights/ins_original-research-as-link-bait.md) — Run one original-research study a year; it will out-link a year of weekly posts _(Andy Crestodina)_
+- [`ins_owned-brand-authority-organic-moat`](insights/ins_owned-brand-authority-organic-moat.md) — Owned-brand authority is now the only defensible organic asset — middleman content layers erode regardless of quality _(Lily Ray)_
 - [`ins_pain-of-paying`](insights/ins_pain-of-paying.md) — Every transaction inflicts psychological pain — design payment to decouple it from consumption _(Dan Ariely)_
 - [`ins_pattern-of-pain-customer-research`](insights/ins_pattern-of-pain-customer-research.md) — Find the Pattern of Pain — and don't rush past it. Most teams fail by not digging deep enough. _(Hiten Shah)_
 - [`ins_paul-adams-invented-magic-scratching-surface`](insights/ins_paul-adams-invented-magic-scratching-surface.md) — AI-first product means blowing up the roadmap — not adding AI features _(Paul Adams)_
@@ -238,6 +242,7 @@ _Generated 2026-05-06. Auto-built from frontmatter — do not edit by hand._
 - [`ins_roberge-structured-training`](insights/ins_roberge-structured-training.md) — Replace "shadow a top rep" with structured curriculum + pass/fail certifications — competence before customer contact _(Mark Roberge)_
 - [`ins_run-up-the-stack`](insights/ins_run-up-the-stack.md) — Run up the stack — use commoditized capabilities as inputs to create higher-order human value _(Packy McCormick)_
 - [`ins_sam-mallikarjunan-advance-the-market-not-just-share`](insights/ins_sam-mallikarjunan-advance-the-market-not-just-share.md) — The biggest impediment to growth isn''t a cheaper competitor; it''s that the market is bad at marketing and sales _(Sam Mallikarjunan)_
+- [`ins_scarcity-supercycle`](insights/ins_scarcity-supercycle.md) — As AI-driven abundance expands, demand for structurally scarce assets intensifies — humans pay a premium for the things they can't replicate _(Packy McCormick)_
 - [`ins_schafer-pain-pleasure-polarity`](insights/ins_schafer-pain-pleasure-polarity.md) — Every buying decision reduces to one polarity — moving toward pleasure or away from pain. Copy that activates neither doesn't convert. _(Cole Schafer)_
 - [`ins_schafer-uncomfortable-honesty`](insights/ins_schafer-uncomfortable-honesty.md) — Would you say it to the reader's face without flinching? — the test that separates copy from manipulation _(Cole Schafer)_
 - [`ins_sebastien-rankin-treat-marketing-strategy-like-codebase`](insights/ins_sebastien-rankin-treat-marketing-strategy-like-codebase.md) — Treat marketing strategy like a codebase for team-wide AI alignment. _(Sebastien Rankin)_
@@ -797,6 +802,7 @@ _Generated 2026-05-06. Auto-built from frontmatter — do not edit by hand._
 - [Aaron Ross](operators/aaron-ross/README.md)
 - [Aatir Abdul Rauf](operators/aatir-abdul-rauf/README.md)
 - [Aayush Kumar](operators/aayush-kumar/README.md)
+- [Addy Osmani](operators/addy-osmani/README.md)
 - [Aditya Sriram](operators/aditya-sriram/README.md)
 - [Adriel Frederick](operators/adriel-frederick/README.md)
 - [Adrienne Barnes](operators/adrienne-barnes/README.md)
@@ -1270,6 +1276,7 @@ _Generated 2026-05-06. Auto-built from frontmatter — do not edit by hand._
 - [`pat_distribution-as-moat`](synthesis/patterns/distribution-as-moat.md) — Distribution and earned channels are the new moat (5 ops) [Tier A]
 - [`pat_economic-turing-test-rev-per-employee`](synthesis/patterns/economic-turing-test-rev-per-employee.md) — The Economic Turing Test — outcomes pricing, agent labor, revenue per employee (3 ops) [Tier A]
 - [`pat_eval-as-data-analysis`](synthesis/patterns/eval-as-data-analysis.md) — Evals are data analysis — single judge, binary rubrics, error analysis first (3 ops) [Tier A]
+- [`pat_execution-cheap-judgement-scarce`](synthesis/patterns/execution-cheap-judgement-scarce.md) — Execution is becoming free; judgement is the part that doesn't compress (4 ops) [Tier A]
 - [`pat_frontline-as-pmm-substrate`](synthesis/patterns/frontline-as-pmm-substrate.md) — Frontline customer contact is the PMM substrate (5 ops) [Tier A]
 - [`pat_generalists-with-taste`](synthesis/patterns/generalists-with-taste.md) — Generalists with taste, shipping end-to-end (5 ops) [Tier A]
 - [`pat_llm-as-os`](synthesis/patterns/llm-as-os.md) — LLM-as-OS, post-training as moat (4 ops) [Tier A]
@@ -1291,6 +1298,7 @@ _Generated 2026-05-06. Auto-built from frontmatter — do not edit by hand._
 - [`pat_substrate-runs-loop-humans-run-alignment`](synthesis/patterns/substrate-runs-loop-humans-run-alignment.md) — Substrate runs the loop; humans run alignment and taste (7 ops) [Tier A]
 - [`pat_subtraction-first-operating-discipline`](synthesis/patterns/subtraction-first-operating-discipline.md) — Subtraction beats addition — Taleb, Munger, and Hormozi on why removal is more reliable than improvement (3 ops) [Tier A]
 - [`pat_sustainability-beats-optimisation`](synthesis/patterns/sustainability-beats-optimisation.md) — Sustainability beats optimisation — Housel, Naval, Taleb, Munger, and Sinek on why endurance compounds and brilliance abandoned doesn't (5 ops) [Tier A]
+- [`pat_verification-as-human-job`](synthesis/patterns/verification-as-human-job.md) — Verification — not execution — is the irreplaceable human job (3 ops) [Tier A]
 
 ## Contradictions
 - [`con_agents-as-team-vs-tools`](synthesis/contradictions/agents-as-team-vs-agents-as-tools.md) — Agents-as-team vs. agents-as-tools

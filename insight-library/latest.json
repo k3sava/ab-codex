@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-06T12:56:41.664Z",
+  "generated_at": "2026-05-06T13:12:12.962Z",
   "latest_daily": {
     "path": "daily/2026-05-06.md",
     "date": "2026-05-06",
-    "title": "Trace + feedback, judgement as bottleneck, pricing as product",
-    "summary": "Six new cards from this week's operator pulse. Two themes — agent learning needs trace-plus-feedback together, and judgement is the part of the work that didn't get cheaper when execution did.",
+    "title": "Verification, judgement, scarcity, voice — three converging frames in one week",
+    "summary": "11 new cards, 2 synthesis patterns, 3 new operators. Two convergences across the week — verification as the new human job (Karpathy + Chase + Yan) and judgement-as-bottleneck (Indig + Karpathy + Yan + McCormick) — plus distinct atomic claims on agent-first content (Osmani), AI-search measurement (Solis already covered), AI-erased voice (Handley), and brand-authority economics (Ray).",
     "sources": [
-      "Morning brief 2026-05-06",
+      "Morning brief 2026-05-06 (multi-run)",
       "Morning brief 2026-05-04"
     ],
     "insights_added": [
@@ -15,23 +15,32 @@
       "ins_judgment-vs-understanding",
       "ins_judgment-doesnt-compress",
       "ins_ungate-ai-iterate-pricing",
-      "ins_rich-context-beats-sophisticated-agents"
+      "ins_rich-context-beats-sophisticated-agents",
+      "ins_agentic-engine-optimization-6-layer",
+      "ins_middle-is-hollowing-out",
+      "ins_scarcity-supercycle",
+      "ins_handley-ai-cant-violate-expectation",
+      "ins_owned-brand-authority-organic-moat"
     ],
     "operators_added": [
       "harrison-chase",
-      "eugene-yan"
+      "eugene-yan",
+      "addy-osmani"
     ],
-    "patterns_added": [],
+    "patterns_added": [
+      "pat_verification-as-human-job",
+      "pat_execution-cheap-judgement-scarce"
+    ],
     "playbooks_added": []
   },
   "recent_daily": [
     {
       "path": "daily/2026-05-06.md",
       "date": "2026-05-06",
-      "title": "Trace + feedback, judgement as bottleneck, pricing as product",
-      "summary": "Six new cards from this week's operator pulse. Two themes — agent learning needs trace-plus-feedback together, and judgement is the part of the work that didn't get cheaper when execution did.",
+      "title": "Verification, judgement, scarcity, voice — three converging frames in one week",
+      "summary": "11 new cards, 2 synthesis patterns, 3 new operators. Two convergences across the week — verification as the new human job (Karpathy + Chase + Yan) and judgement-as-bottleneck (Indig + Karpathy + Yan + McCormick) — plus distinct atomic claims on agent-first content (Osmani), AI-search measurement (Solis already covered), AI-erased voice (Handley), and brand-authority economics (Ray).",
       "sources": [
-        "Morning brief 2026-05-06",
+        "Morning brief 2026-05-06 (multi-run)",
         "Morning brief 2026-05-04"
       ],
       "insights_added": [
@@ -40,13 +49,22 @@
         "ins_judgment-vs-understanding",
         "ins_judgment-doesnt-compress",
         "ins_ungate-ai-iterate-pricing",
-        "ins_rich-context-beats-sophisticated-agents"
+        "ins_rich-context-beats-sophisticated-agents",
+        "ins_agentic-engine-optimization-6-layer",
+        "ins_middle-is-hollowing-out",
+        "ins_scarcity-supercycle",
+        "ins_handley-ai-cant-violate-expectation",
+        "ins_owned-brand-authority-organic-moat"
       ],
       "operators_added": [
         "harrison-chase",
-        "eugene-yan"
+        "eugene-yan",
+        "addy-osmani"
       ],
-      "patterns_added": [],
+      "patterns_added": [
+        "pat_verification-as-human-job",
+        "pat_execution-cheap-judgement-scarce"
+      ],
       "playbooks_added": []
     }
   ]

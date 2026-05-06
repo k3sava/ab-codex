@@ -24,6 +24,8 @@ Eugene Yan writes about applied AI/ML systems with the practitioner's bias of so
 
 ## Cards
 - `ins_mine-transcripts-to-promote-config` — Close the feedback loop by mining session transcripts for patterns to promote into config [Tier A]
+- `ins_middle-is-hollowing-out` — The middle of the workflow gets automated; spec-writing and verification stay expensive [Tier A]
 
 ## Sources captured
 - 2026-05-03 — *Closing the feedback loop — mining session transcripts for promotable patterns* (eugeneyan.com)
+- 2026-05-03 — *Working with AI — five practices that compound* (https://eugeneyan.com/writing/working-with-ai/)

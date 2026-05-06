@@ -33,9 +33,11 @@ Ann Handley's central contribution to content marketing is elevating writing qua
 - `ins_handley-self-laughter-as-quality-kpi` — Did you make yourself laugh while writing? — a reliable quality KPI [Tier B]
 - `ins_handley-write-to-one-subscriber` — Write as if to a single subscriber — use "you" liberally; remove "Dear Valued Customers" register [Tier A]
 - `ins_handley-white-space-as-oxygen` — White space is oxygen — dense unbroken text creates fatigue; strategic white space lets the eye rest [Tier B]
+- `ins_handley-ai-cant-violate-expectation` — AI prose can't violate expectation because it IS expectation — protect the smallest deliberate rule-break from every polish pass [Tier A]
 
 
 ## Sources captured
+- 2026-05-03 — *What AI Would Delete From Great Writing* (https://annhandley.com/what-ai-would-delete-from-great-writing/)
 - 2026-04 — `chatting-ridiculously-good-content-with-ann-handley.md` (operator essay archive)
 - 2026-04 — `how-ann-handley-grew-her-newsletter-total-annarchy-from-0-42000-subscribers-camp.md` (operator essay archive)
 - 2026-04 — `creator-ann-handley-takes-writing-seriously-with-a-fun-approach.md` (operator essay archive)

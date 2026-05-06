@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-06T12:56:41.652Z",
+  "generated_at": "2026-05-06T13:12:12.947Z",
   "counts": {
-    "insights": 770,
-    "operators": 457,
+    "insights": 775,
+    "operators": 458,
     "raw_sources": 209,
-    "patterns": 37,
+    "patterns": 39,
     "contradictions": 11,
     "playbooks": 27,
     "daily": 1
@@ -12,10 +12,10 @@
   "latest_daily": {
     "path": "daily/2026-05-06.md",
     "date": "2026-05-06",
-    "title": "Trace + feedback, judgement as bottleneck, pricing as product",
-    "summary": "Six new cards from this week's operator pulse. Two themes — agent learning needs trace-plus-feedback together, and judgement is the part of the work that didn't get cheaper when execution did.",
+    "title": "Verification, judgement, scarcity, voice — three converging frames in one week",
+    "summary": "11 new cards, 2 synthesis patterns, 3 new operators. Two convergences across the week — verification as the new human job (Karpathy + Chase + Yan) and judgement-as-bottleneck (Indig + Karpathy + Yan + McCormick) — plus distinct atomic claims on agent-first content (Osmani), AI-search measurement (Solis already covered), AI-erased voice (Handley), and brand-authority economics (Ray).",
     "sources": [
-      "Morning brief 2026-05-06",
+      "Morning brief 2026-05-06 (multi-run)",
       "Morning brief 2026-05-04"
     ],
     "insights_added": [
@@ -24,13 +24,22 @@
       "ins_judgment-vs-understanding",
       "ins_judgment-doesnt-compress",
       "ins_ungate-ai-iterate-pricing",
-      "ins_rich-context-beats-sophisticated-agents"
+      "ins_rich-context-beats-sophisticated-agents",
+      "ins_agentic-engine-optimization-6-layer",
+      "ins_middle-is-hollowing-out",
+      "ins_scarcity-supercycle",
+      "ins_handley-ai-cant-violate-expectation",
+      "ins_owned-brand-authority-organic-moat"
     ],
     "operators_added": [
       "harrison-chase",
-      "eugene-yan"
+      "eugene-yan",
+      "addy-osmani"
     ],
-    "patterns_added": [],
+    "patterns_added": [
+      "pat_verification-as-human-job",
+      "pat_execution-cheap-judgement-scarce"
+    ],
     "playbooks_added": []
   },
   "insights": [
@@ -701,6 +710,40 @@
         "ins_no-decision-is-the-real-competitor"
       ],
       "raw_ref": "raw/research/gartner--hype-cycle-agentic-ai-2026--2026-04.md"
+    },
+    {
+      "path": "insights/ins_agentic-engine-optimization-6-layer.md",
+      "title": "Agent-first content has six platform layers — access, discovery, capability, format, token, UX bridge",
+      "id": "ins_agentic-engine-optimization-6-layer",
+      "operator": "Addy Osmani",
+      "operator_role": "Engineering lead at Google Chrome; web platform writer",
+      "source_url": "https://addyosmani.com/blog/agentic-engine-optimization/",
+      "source_type": "essay",
+      "source_title": "Agentic Engine Optimization",
+      "source_date": "2026-05-01",
+      "captured_date": "2026-05-06",
+      "domain": [
+        "ai-native",
+        "engineering",
+        "growth",
+        "design"
+      ],
+      "lifecycle": [
+        "content-strategy",
+        "ai-workflow",
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "A",
+      "related": [
+        "ins_agents-are-the-new-product-user",
+        "ins_aeo-is-gtm-capability",
+        "ins_aeo-competes-for-mentions-not-rankings",
+        "ins_rich-context-beats-sophisticated-agents"
+      ],
+      "raw_ref": ""
     },
     {
       "path": "insights/ins_agentic-gtm-event-last-week.md",
@@ -7088,6 +7131,39 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_handley-ai-cant-violate-expectation.md",
+      "title": "AI prose can't violate expectation because it IS expectation — protect the smallest deliberate rule-break from every polish pass",
+      "id": "ins_handley-ai-cant-violate-expectation",
+      "operator": "Ann Handley",
+      "operator_role": "Chief Content Officer, MarketingProfs; author of *Everybody Writes*",
+      "source_url": "https://annhandley.com/what-ai-would-delete-from-great-writing/",
+      "source_type": "essay",
+      "source_title": "What AI Would Delete From Great Writing",
+      "source_date": "2026-05-03",
+      "captured_date": "2026-05-06",
+      "domain": [
+        "pmm",
+        "content",
+        "ai-native",
+        "marketing"
+      ],
+      "lifecycle": [
+        "content-strategy",
+        "voice-development",
+        "brand-strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_handley-voice-as-moat-against-ai",
+        "ins_handley-self-laughter-as-quality-kpi",
+        "ins_handley-write-to-one-subscriber"
+      ],
+      "raw_ref": ""
+    },
+    {
       "path": "insights/ins_handley-self-laughter-as-quality-kpi.md",
       "title": "Did you make yourself laugh while writing? — a reliable KPI for newsletter quality",
       "id": "ins_handley-self-laughter-as-quality-kpi",
@@ -11155,6 +11231,39 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_middle-is-hollowing-out.md",
+      "title": "The middle is hollowing out — execution gets automated, leaving spec-writing and verification as the high-value human tasks",
+      "id": "ins_middle-is-hollowing-out",
+      "operator": "Eugene Yan",
+      "operator_role": "Senior Applied Scientist; writes at eugeneyan.com on AI/ML systems",
+      "source_url": "https://eugeneyan.com/writing/working-with-ai/",
+      "source_type": "essay",
+      "source_title": "Working with AI — five practices that compound",
+      "source_date": "2026-05-03",
+      "captured_date": "2026-05-06",
+      "domain": [
+        "ai-native",
+        "engineering",
+        "leadership",
+        "research"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "decision-making"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_judgment-doesnt-compress",
+        "ins_judgment-vs-understanding",
+        "ins_traces-need-feedback-to-learn",
+        "ins_mine-transcripts-to-promote-config"
+      ],
+      "raw_ref": ""
+    },
+    {
       "path": "insights/ins_miller-caveman-test.md",
       "title": "Could a caveman understand your homepage? — three questions, no marketing vocabulary",
       "id": "ins_miller-caveman-test",
@@ -12914,6 +13023,39 @@
         "ins_economic-turing-test-for-ai"
       ],
       "raw_ref": "raw/podcasts/bret-taylor--agents-outcomes-pricing--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_owned-brand-authority-organic-moat.md",
+      "title": "Owned-brand authority is now the only defensible organic asset — middleman content layers erode regardless of quality",
+      "id": "ins_owned-brand-authority-organic-moat",
+      "operator": "Lily Ray",
+      "operator_role": "Senior Director of SEO at Amsive",
+      "source_url": "https://www.amsive.com/insights/seo/google-march-2026-core-update-winners-losers-analysis/",
+      "source_type": "essay",
+      "source_title": "Google March 2026 core update — winners and losers analysis",
+      "source_date": "2026-04-30",
+      "captured_date": "2026-05-06",
+      "domain": [
+        "growth",
+        "pmm",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "brand-strategy",
+        "growth-loops",
+        "positioning"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_ai-slop-loop",
+        "ins_ghost-citation-gap",
+        "ins_aeo-is-gtm-capability",
+        "ins_judgment-doesnt-compress"
+      ],
+      "raw_ref": ""
     },
     {
       "path": "insights/ins_pain-of-paying.md",
@@ -15921,6 +16063,40 @@
       "tier": "C",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_scarcity-supercycle.md",
+      "title": "As AI-driven abundance expands, demand for structurally scarce assets intensifies — humans pay a premium for the things they can't replicate",
+      "id": "ins_scarcity-supercycle",
+      "operator": "Packy McCormick",
+      "operator_role": "Founder, Not Boring",
+      "source_url": "https://www.notboring.co/p/scarce-assets",
+      "source_type": "essay",
+      "source_title": "The Scarcity Supercycle",
+      "source_date": "2026-05-06",
+      "captured_date": "2026-05-06",
+      "domain": [
+        "pmm",
+        "gtm",
+        "leadership",
+        "ai-native",
+        "growth"
+      ],
+      "lifecycle": [
+        "positioning",
+        "brand-strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "A",
+      "related": [
+        "ins_judgment-doesnt-compress",
+        "ins_judgment-vs-understanding",
+        "ins_middle-is-hollowing-out",
+        "ins_intelligence-cost-converging-electricity"
+      ],
+      "raw_ref": ""
     },
     {
       "path": "insights/ins_schafer-pain-pleasure-polarity.md",
@@ -21007,6 +21183,28 @@
       ],
       "captured_first": "2026-05-03",
       "external": ""
+    },
+    {
+      "path": "operators/addy-osmani/README.md",
+      "title": "Addy Osmani",
+      "name": "Addy Osmani",
+      "slug": "addy-osmani",
+      "roles": [
+        "Engineering lead at Google Chrome",
+        "Long-running writer on web platform performance and developer experience",
+        "Author of multiple books on JavaScript and frontend engineering"
+      ],
+      "domains_active": [
+        "ai-native",
+        "engineering",
+        "design",
+        "growth"
+      ],
+      "captured_first": "2026-05-06",
+      "external": {
+        "blog": "https://addyosmani.com/blog/",
+        "linkedin": "https://www.linkedin.com/in/addyosmani/"
+      }
     },
     {
       "path": "operators/aditya-sriram/README.md",
@@ -32979,6 +33177,26 @@
       ]
     },
     {
+      "path": "synthesis/patterns/execution-cheap-judgement-scarce.md",
+      "title": "Execution is becoming free; judgement is the part that doesn't compress",
+      "id": "pat_execution-cheap-judgement-scarce",
+      "captured_date": "2026-05-06",
+      "convergence_count": "4",
+      "tier": "A",
+      "uses_cards": [
+        "ins_judgment-doesnt-compress",
+        "ins_judgment-vs-understanding",
+        "ins_middle-is-hollowing-out",
+        "ins_scarcity-supercycle"
+      ],
+      "domains": [
+        "growth",
+        "pmm",
+        "ai-native",
+        "leadership"
+      ]
+    },
+    {
       "path": "synthesis/patterns/frontline-as-pmm-substrate.md",
       "title": "Frontline customer contact is the PMM substrate",
       "id": "pat_frontline-as-pmm-substrate",
@@ -33456,6 +33674,25 @@
         "strategy",
         "leadership",
         "founder-craft"
+      ]
+    },
+    {
+      "path": "synthesis/patterns/verification-as-human-job.md",
+      "title": "Verification — not execution — is the irreplaceable human job",
+      "id": "pat_verification-as-human-job",
+      "captured_date": "2026-05-06",
+      "convergence_count": "3",
+      "tier": "A",
+      "uses_cards": [
+        "ins_judgment-vs-understanding",
+        "ins_traces-need-feedback-to-learn",
+        "ins_mine-transcripts-to-promote-config"
+      ],
+      "domains": [
+        "ai-native",
+        "engineering",
+        "leadership",
+        "research"
       ]
     }
   ],
@@ -34250,10 +34487,10 @@
     {
       "path": "daily/2026-05-06.md",
       "date": "2026-05-06",
-      "title": "Trace + feedback, judgement as bottleneck, pricing as product",
-      "summary": "Six new cards from this week's operator pulse. Two themes — agent learning needs trace-plus-feedback together, and judgement is the part of the work that didn't get cheaper when execution did.",
+      "title": "Verification, judgement, scarcity, voice — three converging frames in one week",
+      "summary": "11 new cards, 2 synthesis patterns, 3 new operators. Two convergences across the week — verification as the new human job (Karpathy + Chase + Yan) and judgement-as-bottleneck (Indig + Karpathy + Yan + McCormick) — plus distinct atomic claims on agent-first content (Osmani), AI-search measurement (Solis already covered), AI-erased voice (Handley), and brand-authority economics (Ray).",
       "sources": [
-        "Morning brief 2026-05-06",
+        "Morning brief 2026-05-06 (multi-run)",
         "Morning brief 2026-05-04"
       ],
       "insights_added": [
@@ -34262,13 +34499,22 @@
         "ins_judgment-vs-understanding",
         "ins_judgment-doesnt-compress",
         "ins_ungate-ai-iterate-pricing",
-        "ins_rich-context-beats-sophisticated-agents"
+        "ins_rich-context-beats-sophisticated-agents",
+        "ins_agentic-engine-optimization-6-layer",
+        "ins_middle-is-hollowing-out",
+        "ins_scarcity-supercycle",
+        "ins_handley-ai-cant-violate-expectation",
+        "ins_owned-brand-authority-organic-moat"
       ],
       "operators_added": [
         "harrison-chase",
-        "eugene-yan"
+        "eugene-yan",
+        "addy-osmani"
       ],
-      "patterns_added": [],
+      "patterns_added": [
+        "pat_verification-as-human-job",
+        "pat_execution-cheap-judgement-scarce"
+      ],
       "playbooks_added": []
     }
   ]

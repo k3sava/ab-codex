@@ -3,9 +3,9 @@
 > **[Open the interactive site → k3sava.github.io/ab-codex](https://k3sava.github.io/ab-codex/)**
 
 <!-- LATEST:START -->
-### Latest — 2026-05-06 · 6 insights · 2 operators
+### Latest — 2026-05-06 · 11 insights · 3 operators · 2 patterns
 
-**Trace + feedback, judgement as bottleneck, pricing as product** — Six new cards from this week's operator pulse. Two themes — agent learning needs trace-plus-feedback together, and judgement is the part of the work that didn't get cheaper when execution did.
+**Verification, judgement, scarcity, voice — three converging frames in one week** — 11 new cards, 2 synthesis patterns, 3 new operators. Two convergences across the week — verification as the new human job (Karpathy + Chase + Yan) and judgement-as-bottleneck (Indig + Karpathy + Yan + McCormick) — plus distinct atomic claims on agent-first content (Osmani), AI-search measurement (Solis already covered), AI-erased voice (Handley), and brand-authority economics (Ray).
 
 [Read what landed →](insight-library/daily/2026-05-06.md) · [See on the site →](https://k3sava.github.io/ab-codex/#/today)
 <!-- LATEST:END -->
@@ -15,9 +15,9 @@ A primary-source library of operator insights — atomic claims, each one attrib
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **770** insight cards
-- **457** operator profiles
-- **37** synthesis patterns (cross-operator convergences)
+- **775** insight cards
+- **458** operator profiles
+- **39** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
 - **27** methodology playbooks
 - **209** archived raw sources (podcasts, essays, threads, research)
