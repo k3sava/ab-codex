@@ -879,7 +879,22 @@ main{padding-top:var(--hdr-h);min-height:100vh}
   .graph-info > div:first-child{font-size:.72rem}
   .graph-info .legend{flex-direction:row;gap:10px;margin-top:6px;font-size:.62rem}
   .graph-info .hint{display:none}
+  /* Mobile graph: more height since it's the centerpiece, not a sidekick. */
+  .graphWrap{height:min(calc(100vh - var(--hdr-h) - 160px), 100vw);min-height:480px}
 }
+
+/* Fullscreen / fauxscreen — graph fills the viewport. */
+.graphWrap:fullscreen{padding:0;background:var(--paper);height:100vh;max-width:100vw}
+.graphWrap.fauxscreen{position:fixed;inset:0;z-index:90;padding:0;background:var(--paper);max-width:100vw;height:100vh}
+body.graph-fs{overflow:hidden}
+body.graph-fs #hdr,body.graph-fs footer,body.graph-fs .ghead{display:none}
+.graphWrap:fullscreen #graph,.graphWrap.fauxscreen #graph{width:100%;height:100%}
+/* Audio button "on" state — accent dot indicator */
+#graphAudio.on{background:var(--paper);border-color:var(--accent);color:var(--accent-2)}
+#graphAudio.on::after{content:'';position:absolute;top:6px;right:6px;width:6px;height:6px;border-radius:50%;background:var(--accent);box-shadow:0 0 6px var(--accent)}
+#graphAudio,#graphFs{position:relative}
+/* Breath ring on domain nodes */
+.breath-ring{pointer-events:none}
 
 /* ===== TIMELINE ===== */
 .timeline-page{max-width:var(--maxw);margin:0 auto;padding:48px var(--gut) 120px}

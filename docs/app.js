@@ -2081,20 +2081,28 @@ function about(){
 
 /* ============ MAP — interactive force graph (drag, zoom, hover) ============ */
 function graph(){
-  // Mobile: render constellation (sectioned per-domain top operators) instead of force graph
-  const isMobile = window.matchMedia('(max-width:768px)').matches;
-  if (isMobile){ return constellation(); }
+  // Force graph renders on all devices now. Mobile gets a fullscreen toggle
+  // (becomes the primary mode there since the small-screen embedded view is
+  // tight). The constellation fallback is kept available at /map?list for
+  // anyone who explicitly prefers the indexed view.
+  if ((location.hash.split('?')[1] || '').includes('list')){ return constellation(); }
   app.innerHTML = `<section class='graph-page'>
     <div class='ghead'>
       <h1>knowledge map</h1>
-      <p>${STATS.cards} insights · ${STATS.operators} operators · ${STATS.domains} domains. Drag, zoom, click.</p>
+      <p>${STATS.cards} insights · ${STATS.operators} operators · ${STATS.domains} domains. Drag, zoom, click. <a class='ghead-alt' href='#/map?list'>or as a list →</a></p>
     </div>
     <div class='graphWrap'>
       <svg id='graph'></svg>
       <div class='graph-controls'>
-        <button id='zoomIn' title='Zoom in'>+</button>
-        <button id='zoomOut' title='Zoom out'>−</button>
-        <button id='zoomReset' title='Reset'>⟲</button>
+        <button id='zoomIn' title='Zoom in' aria-label='Zoom in'>+</button>
+        <button id='zoomOut' title='Zoom out' aria-label='Zoom out'>−</button>
+        <button id='zoomReset' title='Reset zoom' aria-label='Reset zoom'>⟲</button>
+        <button id='graphFs' title='Toggle fullscreen' aria-label='Toggle fullscreen' aria-pressed='false'>
+          <svg viewBox='0 0 16 16' width='14' height='14' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><path d='M3 6V3h3M13 6V3h-3M3 10v3h3M13 10v3h-3'/></svg>
+        </button>
+        <button id='graphAudio' title='Toggle ambient sound' aria-label='Toggle ambient sound' aria-pressed='false'>
+          <svg viewBox='0 0 16 16' width='14' height='14' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><path d='M3 6v4h2l3 2.5v-9L5 6H3z'/><path d='M11 5.5c1 .8 1 4.2 0 5'/></svg>
+        </button>
       </div>
       <div class='graph-info'>
         <div><strong>${STATS.cards}</strong> cards · <strong>${STATS.operators}</strong> profiles</div>
@@ -2103,7 +2111,7 @@ function graph(){
           <div><span class='sw' style='background:#5d738f'></span>operators</div>
           <div><span class='sw' style='background:#9c9082'></span>insights</div>
         </div>
-        <div class='hint'>drag · scroll to zoom · click to open</div>
+        <div class='hint'>drag · pinch or scroll to zoom · tap to open</div>
       </div>
       <div class='graph-tooltip' id='graphTip'></div>
     </div>
@@ -2291,17 +2299,131 @@ function buildForceGraph(){
     gsap.from('.graph-info, .graph-controls', { opacity:0, y:8, duration:.5, delay:.3, ease:'power2.out' });
   }
 
-  // Re-render on resize
+  // Re-render on resize (and on fullscreen toggle which also fires resize)
   let rafId;
-  window.addEventListener('resize', () => {
+  const onResize = () => {
     cancelAnimationFrame(rafId);
     rafId = requestAnimationFrame(() => {
-      const newW = wrap.clientWidth - 32, newH = svgEl.clientHeight;
+      const newW = wrap.clientWidth - 32;
+      const newH = svgEl.clientHeight || (wrap.clientHeight - 100);
       svg.attr('viewBox', `0 0 ${newW} ${newH}`);
       sim.force('center', d3.forceCenter(newW/2, newH/2));
       sim.alpha(0.3).restart();
     });
-  }, { once:true });
+  };
+  window.addEventListener('resize', onResize);
+
+  // === Fullscreen toggle ===
+  // Browser Fullscreen API on the .graphWrap. Falls back to a CSS "fauxscreen"
+  // mode (fixed-position, fills viewport) on browsers that block requestFs
+  // (e.g. iOS Safari refuses Fullscreen on non-video by default).
+  const fsBtn = document.getElementById('graphFs');
+  const onFsChange = () => {
+    const isFs = document.fullscreenElement === wrap || wrap.classList.contains('fauxscreen');
+    fsBtn.setAttribute('aria-pressed', String(isFs));
+    fsBtn.title = isFs ? 'Exit fullscreen' : 'Toggle fullscreen';
+    setTimeout(onResize, 50);
+  };
+  document.addEventListener('fullscreenchange', onFsChange);
+  fsBtn.addEventListener('click', async () => {
+    try {
+      if (document.fullscreenElement === wrap){ await document.exitFullscreen(); }
+      else if (wrap.classList.contains('fauxscreen')){ wrap.classList.remove('fauxscreen'); document.body.classList.remove('graph-fs'); onFsChange(); }
+      else if (wrap.requestFullscreen){ await wrap.requestFullscreen(); }
+      else { wrap.classList.add('fauxscreen'); document.body.classList.add('graph-fs'); onFsChange(); }
+    } catch (_) {
+      // Fullscreen denied — fall back to fauxscreen.
+      wrap.classList.add('fauxscreen'); document.body.classList.add('graph-fs'); onFsChange();
+    }
+  });
+
+  // === Ambient audio ===
+  // A soft sine-tone drone (220Hz + 330Hz fifth) at -28dB, opt-in. Fades in
+  // when toggled on, fades out when off. Respects prefers-reduced-motion as a
+  // proxy for "user prefers minimal sensory load."
+  let audioCtx = null, oscA = null, oscB = null, gainNode = null;
+  const audioBtn = document.getElementById('graphAudio');
+  let audioOn = false;
+  const startAudio = () => {
+    if (audioOn) return;
+    audioCtx = audioCtx || new (window.AudioContext || window.webkitAudioContext)();
+    const now = audioCtx.currentTime;
+    gainNode = audioCtx.createGain();
+    gainNode.gain.setValueAtTime(0, now);
+    gainNode.gain.linearRampToValueAtTime(0.04, now + 1.4);
+    oscA = audioCtx.createOscillator();
+    oscA.type = 'sine';
+    oscA.frequency.value = 220;
+    oscB = audioCtx.createOscillator();
+    oscB.type = 'sine';
+    oscB.frequency.value = 330;
+    // Slow LFO on frequency for breathing sensation
+    const lfo = audioCtx.createOscillator();
+    lfo.frequency.value = 0.07;
+    const lfoGain = audioCtx.createGain();
+    lfoGain.gain.value = 1.5;
+    lfo.connect(lfoGain).connect(oscA.frequency);
+    oscA.connect(gainNode); oscB.connect(gainNode);
+    gainNode.connect(audioCtx.destination);
+    oscA.start(); oscB.start(); lfo.start();
+    audioOn = true;
+    audioBtn.setAttribute('aria-pressed', 'true');
+    audioBtn.classList.add('on');
+  };
+  const stopAudio = () => {
+    if (!audioOn || !audioCtx) return;
+    const now = audioCtx.currentTime;
+    gainNode.gain.cancelScheduledValues(now);
+    gainNode.gain.linearRampToValueAtTime(0, now + 0.6);
+    setTimeout(() => { try { oscA.stop(); oscB.stop(); } catch(_){} oscA = oscB = null; }, 700);
+    audioOn = false;
+    audioBtn.setAttribute('aria-pressed', 'false');
+    audioBtn.classList.remove('on');
+  };
+  audioBtn.addEventListener('click', () => audioOn ? stopAudio() : startAudio());
+
+  // === Endlessly-beautiful breathing ===
+  // Domain nodes get a slow 6s pulsing ring that breathes regardless of sim
+  // state. Adds gentle motion the eye can return to without distraction.
+  if (!reduced){
+    const breathing = nodeG.selectAll('g').filter(d => d.type === 'domain')
+      .append('circle')
+      .attr('class', 'breath-ring')
+      .attr('r', d => d.radius)
+      .attr('fill', 'none')
+      .attr('stroke', accent)
+      .attr('stroke-width', 1.2)
+      .attr('opacity', 0.5);
+    function breathe(){
+      breathing.transition().duration(2800).ease(d3.easeSinInOut)
+        .attr('r', d => d.radius * 1.9)
+        .attr('opacity', 0)
+        .transition().duration(0)
+        .attr('r', d => d.radius)
+        .attr('opacity', 0.5)
+        .on('end', breathe);
+    }
+    breathing.each(function(d, i){
+      const sel = d3.select(this);
+      setTimeout(() => {
+        sel.transition().duration(2800).ease(d3.easeSinInOut)
+          .attr('r', d.radius * 1.9)
+          .attr('opacity', 0)
+          .transition().duration(0)
+          .attr('r', d.radius)
+          .attr('opacity', 0.5)
+          .on('end', function repeat(){
+            d3.select(this).transition().duration(2800).ease(d3.easeSinInOut)
+              .attr('r', d.radius * 1.9)
+              .attr('opacity', 0)
+              .transition().duration(0)
+              .attr('r', d.radius)
+              .attr('opacity', 0.5)
+              .on('end', repeat);
+          });
+      }, i * 240);
+    });
+  }
 }
 
 /* ============ ROUTER ============ */
