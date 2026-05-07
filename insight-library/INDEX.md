@@ -3,8 +3,8 @@
 _Generated 2026-05-07. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 786 insight cards
-- 460 operator profiles
+- 788 insight cards
+- 461 operator profiles
 - 209 raw source files
 - 39 synthesis patterns
 - 11 contradictions
@@ -12,7 +12,7 @@ _Generated 2026-05-07. Auto-built from frontmatter — do not edit by hand._
 
 ## Insights by tier
 
-### Tier A (322)
+### Tier A (324)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -76,6 +76,7 @@ _Generated 2026-05-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_dixon-no-decision-87-percent-indecision`](insights/ins_dixon-no-decision-87-percent-indecision.md) — 40-60% of B2B deals are lost to "no decision", and 87% of deals show medium-to-high indecision _(Matt Dixon)_
 - [`ins_dixon-sales-experience-drives-loyalty`](insights/ins_dixon-sales-experience-drives-loyalty.md) — 53% of customer loyalty is driven by the sales experience itself, not brand, product, price, or service _(Matt Dixon)_
 - [`ins_dont-box-the-model-in`](insights/ins_dont-box-the-model-in.md) — Give the model tools and a goal; do not hard-code the workflow _(Boris Cherny)_
+- [`ins_dreaming-cross-session-memory-curation`](insights/ins_dreaming-cross-session-memory-curation.md) — Scheduled cross-session transcript reading extracts patterns and proposes memory updates for human review before they land _(Anthropic)_
 - [`ins_each-prospect-gets-scored-based`](insights/ins_each-prospect-gets-scored-based.md) — Each prospect gets scored 1-10 based on company fit, role relevance, how good their eng _(Prerona Basu)_
 - [`ins_earned-channels-over-algorithm-channels`](insights/ins_earned-channels-over-algorithm-channels.md) — Build earned channels, every dollar in algorithm channels makes Google richer, not you _(Elena Verna)_
 - [`ins_economic-turing-test-for-ai`](insights/ins_economic-turing-test-for-ai.md) — The Economic Turing Test, would you hire the agent if you didn't know it was a machine? _(Benjamin Mann)_
@@ -203,6 +204,7 @@ _Generated 2026-05-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_one-percent-price-eight-percent-profit`](insights/ins_one-percent-price-eight-percent-profit.md) — A 1% price increase produces 8-11% profit improvement, yet most companies have no pricing function _(Hermann Simon)_
 - [`ins_open-coding-then-axial-coding`](insights/ins_open-coding-then-axial-coding.md) — Sample 100+ traces, write one free-form note per trace, let an LLM cluster the notes, humans first, machines second _(Hamel Husain)_
 - [`ins_original-research-as-link-bait`](insights/ins_original-research-as-link-bait.md) — Run one original-research study a year; it will out-link a year of weekly posts _(Andy Crestodina)_
+- [`ins_outcomes-grader-agent-evaluation`](insights/ins_outcomes-grader-agent-evaluation.md) — A separate grader agent in its own context window closes the output verification loop at production scale _(Anthropic)_
 - [`ins_owned-brand-authority-organic-moat`](insights/ins_owned-brand-authority-organic-moat.md) — Owned-brand authority is now the only defensible organic asset, middleman content layers erode regardless of quality _(Lily Ray)_
 - [`ins_pain-of-paying`](insights/ins_pain-of-paying.md) — Every transaction inflicts psychological pain, design payment to decouple it from consumption _(Dan Ariely)_
 - [`ins_pattern-of-pain-customer-research`](insights/ins_pattern-of-pain-customer-research.md) — Find the Pattern of Pain, and don't rush past it. Most teams fail by not digging deep enough. _(Hiten Shah)_
@@ -862,6 +864,7 @@ _Generated 2026-05-07. Auto-built from frontmatter — do not edit by hand._
 - [Anna Tankel](operators/anna-tankel/README.md)
 - [Annie Duke](operators/annie-duke/README.md)
 - [Anthony Pierri](operators/anthony-pierri/README.md)
+- [Anthropic](operators/anthropic/README.md)
 - [Anton Osika](operators/anton-osika/README.md)
 - [Anuj Rathi](operators/anuj-rathi/README.md)
 - [Aparna Chennapragada](operators/aparna-chennapragada/README.md)
@@ -1311,7 +1314,7 @@ _Generated 2026-05-07. Auto-built from frontmatter — do not edit by hand._
 - [`pat_substrate-runs-loop-humans-run-alignment`](synthesis/patterns/substrate-runs-loop-humans-run-alignment.md) — Substrate runs the loop; humans run alignment and taste (7 ops) [Tier A]
 - [`pat_subtraction-first-operating-discipline`](synthesis/patterns/subtraction-first-operating-discipline.md) — Subtraction-first operating discipline (3 ops) [Tier A]
 - [`pat_sustainability-beats-optimisation`](synthesis/patterns/sustainability-beats-optimisation.md) — Sustainability beats optimisation (5 ops) [Tier A]
-- [`pat_verification-as-human-job`](synthesis/patterns/verification-as-human-job.md) — Verification, not execution, is the irreplaceable human job (3 ops) [Tier A]
+- [`pat_verification-as-human-job`](synthesis/patterns/verification-as-human-job.md) — Verification, not execution, is the irreplaceable human job (7 ops) [Tier A]
 
 ## Contradictions
 - [`con_agents-as-team-vs-tools`](synthesis/contradictions/agents-as-team-vs-agents-as-tools.md) — Agents-as-team vs. agents-as-tools

@@ -2,9 +2,10 @@
 id: pat_verification-as-human-job
 title: Verification — not execution — is the irreplaceable human job
 captured_date: 2026-05-06
-convergence_count: 3
+last_updated: 2026-05-07
+convergence_count: 7
 tier: A
-uses_cards: [ins_judgment-vs-understanding, ins_traces-need-feedback-to-learn, ins_mine-transcripts-to-promote-config]
+uses_cards: [ins_judgment-vs-understanding, ins_traces-need-feedback-to-learn, ins_mine-transcripts-to-promote-config, ins_make-verification-easy-ai-production, ins_error-analysis-highest-leverage-eval-step, ins_capability-spikes-where-verification-loops-exist, ins_outcomes-grader-agent-evaluation]
 domains: [ai-native, engineering, leadership, research]
 ---
 

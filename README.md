@@ -3,9 +3,9 @@
 > **[Open the interactive site → codex.iamkesava.com](https://codex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest — 2026-05-07 · 7 insights
+### Latest — 2026-05-07 · 2 insights · 1 operator
 
-**Speed is the wrong variable: launch triage, pricing iteration, and the verification gap** — Seven insights land today across measurement, launch discipline, pricing, positioning, and AI production systems, all converging on one finding: generating fast without a feedback loop is not compounding.
+**What landed today, 2026-05-07** — Two new cards from Anthropic's May 6 Code with Claude event. One new operator profile. One pattern extended with four existing cards from this week's four-operator convergence on verification.
 
 [Read what landed →](insight-library/daily/2026-05-07.md) · [See on the site →](https://codex.iamkesava.com/#/today)
 <!-- LATEST:END -->
@@ -15,8 +15,8 @@ A primary-source library of operator insights — atomic claims, each one attrib
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **786** insight cards
-- **460** operator profiles
+- **788** insight cards
+- **461** operator profiles
 - **39** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
 - **27** methodology playbooks
@@ -33,7 +33,7 @@ The site at [codex.iamkesava.com](https://codex.iamkesava.com/) gives you severa
 |------|---------------|
 | [Home](https://codex.iamkesava.com/) | Tier A claims and a domain index |
 | [Map](https://codex.iamkesava.com/#/map) | Visual graph: operators outside, domains in the middle, insights orbiting between |
-| [Operators](https://codex.iamkesava.com/#/operators) | All 460 profiles, sorted by card count |
+| [Operators](https://codex.iamkesava.com/#/operators) | All 461 profiles, sorted by card count |
 | [Patterns](https://codex.iamkesava.com/#/patterns) | Where 3+ operators converge on the same claim |
 | [Browse](https://codex.iamkesava.com/#/browse) | Filter by tier or domain, sort by date / operator / tier |
 | [Timeline](https://codex.iamkesava.com/#/timeline) | Newest captures first |

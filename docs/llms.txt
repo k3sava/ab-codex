@@ -4,7 +4,7 @@
 
 The codex is a structured corpus of cross-domain operator wisdom across product, PMM, GTM, AI-native, design, engineering, leadership, sales, growth, research, and founder craft. Every claim traces back to its primary source. Insights carry mechanism, conditions, evidence, signals, counter-evidence, and cross-references.
 
-Counts: 786 insights · 460 operators · 39 synthesis patterns · 11 contradictions · 27 playbooks · 322 tier-A claims.
+Counts: 788 insights · 461 operators · 39 synthesis patterns · 11 contradictions · 27 playbooks · 324 tier-A claims.
 
 ## Index
 
@@ -51,11 +51,13 @@ Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged wit
 - [strategy-bets](https://codex.iamkesava.com/d/strategy-bets/) — 5 insights
 - [community](https://codex.iamkesava.com/d/community/) — 2 insights
 - [risk](https://codex.iamkesava.com/d/risk/) — 2 insights
+- [ai-product](https://codex.iamkesava.com/d/ai-product/) — 2 insights
 - [ai-engineering](https://codex.iamkesava.com/d/ai-engineering/) — 2 insights
 - [seo](https://codex.iamkesava.com/d/seo/) — 1 insight
 - [aeo](https://codex.iamkesava.com/d/aeo/) — 1 insight
 - [measurement](https://codex.iamkesava.com/d/measurement/) — 1 insight
 - [content-ops](https://codex.iamkesava.com/d/content-ops/) — 1 insight
+- [evals](https://codex.iamkesava.com/d/evals/) — 1 insight
 - [operations](https://codex.iamkesava.com/d/operations/) — 1 insight
 - [pricing](https://codex.iamkesava.com/d/pricing/) — 1 insight
 - [product-marketing](https://codex.iamkesava.com/d/product-marketing/) — 1 insight

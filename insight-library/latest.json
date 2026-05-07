@@ -1,23 +1,20 @@
 {
-  "generated_at": "2026-05-07T04:59:23.860Z",
+  "generated_at": "2026-05-07T05:41:44.581Z",
   "latest_daily": {
     "path": "daily/2026-05-07.md",
     "date": "2026-05-07",
-    "title": "Speed is the wrong variable: launch triage, pricing iteration, and the verification gap",
-    "summary": "Seven insights land today across measurement, launch discipline, pricing, positioning, and AI production systems, all converging on one finding: generating fast without a feedback loop is not compounding.",
+    "title": "What landed today, 2026-05-07",
+    "summary": "Two new cards from Anthropic's May 6 Code with Claude event. One new operator profile. One pattern extended with four existing cards from this week's four-operator convergence on verification.",
     "sources": [
-      "miniu morning brief 2026-05-07"
+      "morning research scan 2026-05-07"
     ],
     "insights_added": [
-      "ins_aeo-citation-rotation-makes-snapshots-worthless",
-      "ins_marketing-debt-compounds-after-every-sprint",
-      "ins_ai-native-launch-triage-not-fewer-gates",
-      "ins_pricing-iteration-finds-right-model",
-      "ins_ux-change-target-emotion-is-relief",
-      "ins_make-verification-easy-ai-production",
-      "ins_error-analysis-highest-leverage-eval-step"
+      "ins_outcomes-grader-agent-evaluation",
+      "ins_dreaming-cross-session-memory-curation"
     ],
-    "operators_added": "",
+    "operators_added": [
+      "anthropic"
+    ],
     "patterns_added": [],
     "playbooks_added": []
   },
@@ -25,21 +22,18 @@
     {
       "path": "daily/2026-05-07.md",
       "date": "2026-05-07",
-      "title": "Speed is the wrong variable: launch triage, pricing iteration, and the verification gap",
-      "summary": "Seven insights land today across measurement, launch discipline, pricing, positioning, and AI production systems, all converging on one finding: generating fast without a feedback loop is not compounding.",
+      "title": "What landed today, 2026-05-07",
+      "summary": "Two new cards from Anthropic's May 6 Code with Claude event. One new operator profile. One pattern extended with four existing cards from this week's four-operator convergence on verification.",
       "sources": [
-        "miniu morning brief 2026-05-07"
+        "morning research scan 2026-05-07"
       ],
       "insights_added": [
-        "ins_aeo-citation-rotation-makes-snapshots-worthless",
-        "ins_marketing-debt-compounds-after-every-sprint",
-        "ins_ai-native-launch-triage-not-fewer-gates",
-        "ins_pricing-iteration-finds-right-model",
-        "ins_ux-change-target-emotion-is-relief",
-        "ins_make-verification-easy-ai-production",
-        "ins_error-analysis-highest-leverage-eval-step"
+        "ins_outcomes-grader-agent-evaluation",
+        "ins_dreaming-cross-session-memory-curation"
       ],
-      "operators_added": "",
+      "operators_added": [
+        "anthropic"
+      ],
       "patterns_added": [],
       "playbooks_added": []
     },

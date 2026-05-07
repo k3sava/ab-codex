@@ -99,33 +99,47 @@ context from the digest. No em dashes. No kill-list words.>
 - **<Theme 2>** <…>
 ```
 
-## Daily release log
+## Daily release log (REQUIRED STRUCTURE)
 
-Write `insight-library/daily/YYYY-MM-DD.md`:
+Write `insight-library/daily/YYYY-MM-DD.md` body in this exact shape, mirroring
+the 2026-05-06 style:
 
-```yaml
----
-date: YYYY-MM-DD
-title: "Plain English headline summarizing today's batch"
-summary: One sentence on what landed.
-sources:
-  - "miniu morning brief YYYY-MM-DD"
-insights_added:
-  - ins_<slug-1>
-  - ins_<slug-2>
-operators_added:
-  - <slug-1>
-  - <slug-2>
-patterns_added: []
-playbooks_added: []
----
+```markdown
+# What landed today, YYYY-MM-DD
 
-# <Title>
+<One opening paragraph: count of new cards, patterns, operators (e.g. "Seven
+new cards, one updated synthesis pattern. Three themes that connected from
+independent angles this week:"). Then a one-line preview of each theme.>
 
-<2-3 paragraphs synthesizing today's batch in Kesava's voice. What landed.
-What the throughline is. Why these matter together. No em dashes. No kill-list
-words. Plain English.>
+## Theme 1, <theme phrase as plain English headline>
+
+<Two paragraphs synthesizing the theme. Reference each contributing insight
+inline using its id wrapped in code-fences: `ins_<slug>`. Reference operators
+by full name. Reference the convergence to any pattern using its id:
+`pat_<slug>`. Use the operator's verbatim quote as `> blockquote` where
+relevant.>
+
+- <Operator Name>, `ins_<slug>`. <One-sentence summary of their contribution
+  to the theme.>
+- <Operator Name>, `ins_<slug>`. <…>
+
+## Theme 2, <theme phrase>
+
+<Same structure: synthesis paragraphs + bulleted operator-card list.>
+
+## Theme 3, <theme phrase>
+
+<Same structure if there's a third theme; otherwise omit.>
 ```
+
+Use 1-3 themed H2 sections depending on how the day's insights cluster. Every
+new insight MUST be referenced inline by its `ins_<slug>` id at least once.
+Every operator named MUST appear with their card-id linked. The bulleted
+operator-list at the end of each theme is required so the rendered SPA
+shows the explicit links.
+
+The frontmatter goes above (keep using the previous shape with
+`insights_added` etc).
 
 ## LinkedIn post
 
@@ -133,6 +147,58 @@ A 50-100 word LinkedIn post in Kesava's personal voice (talking-to-a-friend
 register, NOT formal operator voice). Short sentences. One specific claim.
 Optional question to invite engagement. No em dashes. No kill-list words.
 No hashtags unless they read naturally. Single paragraph or two short ones.
+
+## Synthesis patterns
+
+A miniu morning brief OFTEN opens with an explicit cross-operator convergence
+("Four operators published the same theme this week without coordinating…").
+That is exactly a synthesis pattern. Two cases:
+
+1. **Existing pattern extended.** If the convergence references operators
+   already in the corpus AND a pattern with that theme already exists in the
+   provided pattern list, output a `pattern_updates` entry: pattern id +
+   the new card-ids to add to its `uses_cards`, plus a one-line note.
+2. **New pattern.** If the convergence is novel, output a `new_patterns`
+   entry with full body markdown matching the existing pattern shape:
+
+```markdown
+---
+id: pat_<slug>
+title: <Title in plain English. NO em dashes.>
+captured_date: YYYY-MM-DD
+convergence_count: <integer ≥ 3>
+tier: A | B
+uses_cards: [ins_<id-1>, ins_<id-2>, …]
+domains: [domain-1, domain-2, …]
+---
+
+# <Title>
+
+## Convergence
+<2-3 sentences naming the convergence: who said what from where, why it
+matters that they converged independently.>
+
+## Operators
+- <Name>, `ins_<id>`. <One-sentence contribution to the theme.>
+- <Name>, `ins_<id>`. <…>
+
+## Variation
+- <Operator>: <how their angle differs.>
+- <…>
+- Convergence: <the shared claim that survives the variations.>
+
+## Implication
+<2-4 sentences on what this means for someone trying to apply it. End with
+a concrete diagnostic or test.>
+
+## Sources
+- ins_<id>, <Operator> (<source-title>, YYYY-MM-DD)
+- <…>
+```
+
+A new pattern requires at least 3 distinct operators converging independently.
+Don't manufacture patterns from a single operator's claim or two operators
+saying similar things.
 
 ## Output format (strict)
 
@@ -146,6 +212,16 @@ Return ONLY valid JSON with this exact shape. No prose before or after.
     "summary": "...",
     "body_markdown": "..."
   },
+  "pattern_updates": [
+    { "id": "pat_<slug>", "add_cards": ["ins_<id>"], "note": "fourth operator added: <name>" }
+  ],
+  "new_patterns": [
+    {
+      "id": "pat_<slug>",
+      "frontmatter": { "title": "...", "captured_date": "YYYY-MM-DD", "convergence_count": 3, "tier": "A", "uses_cards": ["ins_..."], "domains": ["..."] },
+      "body_markdown": "# Title\n\n## Convergence\n..."
+    }
+  ],
   "insights": [
     {
       "id": "ins_<slug>",

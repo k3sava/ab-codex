@@ -156,10 +156,11 @@ async function loadIndex(){
       insightIds: new Set((data.insights || []).map(i => i.id)),
       insightTitles: (data.insights || []).map(i => ({ id: i.id, title: (i.title || "").toLowerCase(), operator: (i.operator || "").toLowerCase() })),
       operatorSlugs: new Set((data.operators || []).map(o => o.slug)),
+      patterns: (data.patterns || []).map(p => ({ id: p.id, title: p.title, uses_cards: p.uses_cards || [], domains: p.domains || [] })),
       counts: data.counts || {},
     };
   } catch {
-    return { insightIds: new Set(), insightTitles: [], operatorSlugs: new Set(), counts: {} };
+    return { insightIds: new Set(), insightTitles: [], operatorSlugs: new Set(), patterns: [], counts: {} };
   }
 }
 
@@ -220,6 +221,7 @@ async function main(){
       `# Existing operator slugs (do not duplicate)\n${[...idx.operatorSlugs].sort().join(", ")}\n`,
       `# Existing insight ids (do not duplicate)\n${[...idx.insightIds].sort().join(", ")}\n`,
       `# Existing insight titles (for fuzzy dedup against the digest claims)\n${idx.insightTitles.slice(0, 200).map(i => `- ${i.id}: ${i.title} [${i.operator}]`).join("\n")}\n`,
+      `# Existing synthesis patterns (consider extending these vs creating new)\n${idx.patterns.map(p => `- ${p.id}: ${p.title} [uses: ${p.uses_cards.join(", ")}]`).join("\n")}\n`,
       `# Today's miniu morning brief\n\n${digestText}`,
     ].join("\n");
 
@@ -267,6 +269,67 @@ async function main(){
     }
     await log(`wrote ${opsWritten} operator profiles`);
 
+    // Apply pattern updates (extend uses_cards on existing patterns)
+    let patternsUpdated = 0;
+    for (const upd of (result.pattern_updates || [])){
+      if (!upd.id || !Array.isArray(upd.add_cards) || upd.add_cards.length === 0) continue;
+      // Find the pattern file by id. We don't store path directly but it's
+      // derivable from the id (drop "pat_" prefix → filename) under
+      // synthesis/patterns/, with a fallback to scanning if the slug differs.
+      const slug = upd.id.replace(/^pat_/, "");
+      const candidates = [
+        join(LIB, "synthesis", "patterns", `${slug}.md`),
+        join(LIB, "synthesis", "patterns", `${upd.id}.md`),
+      ];
+      let patPath = null;
+      for (const p of candidates){
+        try { await stat(p); patPath = p; break; } catch {}
+      }
+      if (!patPath){ await log(`warn: pattern file not found for ${upd.id}, skipping update`); continue; }
+      const text = await readFile(patPath, "utf8");
+      // Extend uses_cards in frontmatter; bump convergence_count if implied; set last_updated.
+      const fmEnd = text.indexOf("\n---", 4);
+      if (fmEnd < 0) { await log(`warn: ${upd.id} has no frontmatter, skipping`); continue; }
+      let fm = text.slice(4, fmEnd);
+      const body = text.slice(fmEnd + 4);
+      const usesM = fm.match(/^uses_cards:\s*\[([^\]]*)\]/m);
+      if (!usesM) { await log(`warn: ${upd.id} has no uses_cards field, skipping`); continue; }
+      const existing = usesM[1].split(",").map(s => s.trim()).filter(Boolean);
+      const additions = upd.add_cards.filter(id => !existing.includes(id));
+      if (additions.length === 0) { await log(`pattern ${upd.id}: nothing new to add`); continue; }
+      const merged = [...existing, ...additions];
+      fm = fm.replace(/^uses_cards:\s*\[[^\]]*\]/m, `uses_cards: [${merged.join(", ")}]`);
+      // last_updated
+      if (/^last_updated:/m.test(fm)){
+        fm = fm.replace(/^last_updated:.*$/m, `last_updated: ${TARGET_DATE}`);
+      } else {
+        fm = fm.replace(/^captured_date:.*$/m, m => `${m}\nlast_updated: ${TARGET_DATE}`);
+      }
+      // convergence_count
+      fm = fm.replace(/^convergence_count:\s*\d+/m, `convergence_count: ${merged.length}`);
+      const updated = `---\n${fm}\n---${body}`;
+      await writeFile(patPath, updated);
+      patternsUpdated++;
+      await log(`extended ${upd.id} (+${additions.length}: ${additions.join(", ")})`);
+    }
+    await log(`pattern updates: ${patternsUpdated}`);
+
+    // Write new patterns
+    let patternsCreated = 0;
+    const newPatternIds = [];
+    for (const np of (result.new_patterns || [])){
+      if (!np.id || !np.frontmatter || !np.body_markdown) continue;
+      const slug = np.id.replace(/^pat_/, "");
+      const path = join(LIB, "synthesis", "patterns", `${slug}.md`);
+      try { await stat(path); await log(`pattern ${np.id} already exists, skipping`); continue; } catch {}
+      const fullFm = { id: np.id, ...np.frontmatter };
+      const text = `${frontmatterBlock(fullFm)}\n\n${np.body_markdown.trim()}\n`;
+      await writeFile(path, text);
+      newPatternIds.push(np.id);
+      patternsCreated++;
+    }
+    await log(`wrote ${patternsCreated} new pattern files`);
+
     // Write daily release log
     const releaseFm = {
       date: TARGET_DATE,
@@ -290,7 +353,7 @@ async function main(){
       ...validInsightIds.map(id => `  - ${id}`),
       `operators_added:`,
       ...validOpSlugs.map(s => `  - ${s}`),
-      `patterns_added: []`,
+      ...(newPatternIds.length ? [`patterns_added:`, ...newPatternIds.map(id => `  - ${id}`)] : ["patterns_added: []"]),
       `playbooks_added: []`,
       "---",
     ].join("\n");

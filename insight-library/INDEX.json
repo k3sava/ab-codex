@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-07T04:59:23.842Z",
+  "generated_at": "2026-05-07T05:41:44.565Z",
   "counts": {
-    "insights": 786,
-    "operators": 460,
+    "insights": 788,
+    "operators": 461,
     "raw_sources": 209,
     "patterns": 39,
     "contradictions": 11,
@@ -12,21 +12,18 @@
   "latest_daily": {
     "path": "daily/2026-05-07.md",
     "date": "2026-05-07",
-    "title": "Speed is the wrong variable: launch triage, pricing iteration, and the verification gap",
-    "summary": "Seven insights land today across measurement, launch discipline, pricing, positioning, and AI production systems, all converging on one finding: generating fast without a feedback loop is not compounding.",
+    "title": "What landed today, 2026-05-07",
+    "summary": "Two new cards from Anthropic's May 6 Code with Claude event. One new operator profile. One pattern extended with four existing cards from this week's four-operator convergence on verification.",
     "sources": [
-      "miniu morning brief 2026-05-07"
+      "morning research scan 2026-05-07"
     ],
     "insights_added": [
-      "ins_aeo-citation-rotation-makes-snapshots-worthless",
-      "ins_marketing-debt-compounds-after-every-sprint",
-      "ins_ai-native-launch-triage-not-fewer-gates",
-      "ins_pricing-iteration-finds-right-model",
-      "ins_ux-change-target-emotion-is-relief",
-      "ins_make-verification-easy-ai-production",
-      "ins_error-analysis-highest-leverage-eval-step"
+      "ins_outcomes-grader-agent-evaluation",
+      "ins_dreaming-cross-session-memory-curation"
     ],
-    "operators_added": "",
+    "operators_added": [
+      "anthropic"
+    ],
     "patterns_added": [],
     "playbooks_added": []
   },
@@ -5407,6 +5404,37 @@
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md",
       "title": "Community is the most powerful ingredient in B2B marketing because it taps shared interest"
+    },
+    {
+      "path": "insights/ins_dreaming-cross-session-memory-curation.md",
+      "id": "ins_dreaming-cross-session-memory-curation",
+      "operator": "Anthropic",
+      "operator_role": "AI safety research company and Claude developer",
+      "co_operators": [],
+      "source_url": "unknown",
+      "source_type": "talk",
+      "source_title": "Code with Claude",
+      "source_date": "2026-05-06",
+      "captured_date": "2026-05-07",
+      "domain": [
+        "ai-product"
+      ],
+      "lifecycle": [
+        "retention",
+        "onboarding"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "workflow",
+      "score": "{ originality: 5, specificity: 3, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "A",
+      "related": [
+        "ins_outcomes-grader-agent-evaluation",
+        "ins_traces-need-feedback-to-learn",
+        "ins_make-verification-easy-ai-production",
+        "ins_mine-transcripts-to-promote-config"
+      ],
+      "raw_ref": "",
+      "title": "Scheduled cross-session transcript reading extracts patterns and proposes memory updates for human review before they land"
     },
     {
       "path": "insights/ins_dtc-do-less-better.md",
@@ -13261,6 +13289,39 @@
       ],
       "raw_ref": "raw/expert-content/experts/seth-godin.md",
       "title": "Design for the otaku, the obsessive customer who already wants what you make and will tell their hive"
+    },
+    {
+      "path": "insights/ins_outcomes-grader-agent-evaluation.md",
+      "id": "ins_outcomes-grader-agent-evaluation",
+      "operator": "Anthropic",
+      "operator_role": "AI safety research company and Claude developer",
+      "co_operators": [],
+      "source_url": "unknown",
+      "source_type": "talk",
+      "source_title": "Code with Claude",
+      "source_date": "2026-05-06",
+      "captured_date": "2026-05-07",
+      "domain": [
+        "ai-product",
+        "evals"
+      ],
+      "lifecycle": [
+        "growth-loops",
+        "retention"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 3 }",
+      "tier": "A",
+      "related": [
+        "ins_traces-need-feedback-to-learn",
+        "ins_error-analysis-highest-leverage-eval-step",
+        "ins_evals-are-data-analysis-on-llm-apps",
+        "ins_benevolent-dictator-not-committee",
+        "ins_dreaming-cross-session-memory-curation"
+      ],
+      "raw_ref": "",
+      "title": "A separate grader agent in its own context window closes the output verification loop at production scale"
     },
     {
       "path": "insights/ins_outcomes-pricing-restructures-saas.md",
@@ -22373,6 +22434,22 @@
         "linkedin": "https://www.linkedin.com/in/anthonypierri/"
       },
       "title": "Anthony Pierri"
+    },
+    {
+      "path": "operators/anthropic/README.md",
+      "slug": "anthropic",
+      "name": "Anthropic",
+      "roles": [
+        "AI safety research company and Claude developer"
+      ],
+      "domains_active": [
+        "ai-product",
+        "evals",
+        "gtm"
+      ],
+      "captured_first": "2026-05-07",
+      "external": "{  }",
+      "title": "Anthropic"
     },
     {
       "path": "operators/anton-osika/README.md",
@@ -34050,12 +34127,17 @@
       "id": "pat_verification-as-human-job",
       "title": "Verification, not execution, is the irreplaceable human job",
       "captured_date": "2026-05-06",
-      "convergence_count": "3",
+      "last_updated": "2026-05-07",
+      "convergence_count": "7",
       "tier": "A",
       "uses_cards": [
         "ins_judgment-vs-understanding",
         "ins_traces-need-feedback-to-learn",
-        "ins_mine-transcripts-to-promote-config"
+        "ins_mine-transcripts-to-promote-config",
+        "ins_make-verification-easy-ai-production",
+        "ins_error-analysis-highest-leverage-eval-step",
+        "ins_capability-spikes-where-verification-loops-exist",
+        "ins_outcomes-grader-agent-evaluation"
       ],
       "domains": [
         "ai-native",
@@ -34856,21 +34938,18 @@
     {
       "path": "daily/2026-05-07.md",
       "date": "2026-05-07",
-      "title": "Speed is the wrong variable: launch triage, pricing iteration, and the verification gap",
-      "summary": "Seven insights land today across measurement, launch discipline, pricing, positioning, and AI production systems, all converging on one finding: generating fast without a feedback loop is not compounding.",
+      "title": "What landed today, 2026-05-07",
+      "summary": "Two new cards from Anthropic's May 6 Code with Claude event. One new operator profile. One pattern extended with four existing cards from this week's four-operator convergence on verification.",
       "sources": [
-        "miniu morning brief 2026-05-07"
+        "morning research scan 2026-05-07"
       ],
       "insights_added": [
-        "ins_aeo-citation-rotation-makes-snapshots-worthless",
-        "ins_marketing-debt-compounds-after-every-sprint",
-        "ins_ai-native-launch-triage-not-fewer-gates",
-        "ins_pricing-iteration-finds-right-model",
-        "ins_ux-change-target-emotion-is-relief",
-        "ins_make-verification-easy-ai-production",
-        "ins_error-analysis-highest-leverage-eval-step"
+        "ins_outcomes-grader-agent-evaluation",
+        "ins_dreaming-cross-session-memory-curation"
       ],
-      "operators_added": "",
+      "operators_added": [
+        "anthropic"
+      ],
       "patterns_added": [],
       "playbooks_added": []
     },
