@@ -69,29 +69,83 @@ ${urls.map(u => `  <url>
 User-agent: *
 Allow: /
 
-# AI-search agents are explicitly allowed. The corpus exists to be cited.
-User-agent: GPTBot
+# Search engine crawlers
+User-agent: Googlebot
 Allow: /
 
-User-agent: Google-Extended
+User-agent: Bingbot
 Allow: /
 
-User-agent: ClaudeBot
+User-agent: Applebot
 Allow: /
 
-User-agent: anthropic-ai
+# Live retrieval / citation bots (drive AI search answers)
+User-agent: Claude-SearchBot
 Allow: /
 
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: CCBot
+User-agent: Claude-User
 Allow: /
 
 User-agent: ChatGPT-User
 Allow: /
 
 User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+User-agent: Google-CloudVertexBot
+Allow: /
+
+# AI training / index crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: PetalBot
+Allow: /
+
+# Archivers (longevity)
+User-agent: archive.org_bot
+Allow: /
+
+User-agent: ia_archiver
 Allow: /
 
 # Scratch / temp paths. None currently, but reserve the convention.

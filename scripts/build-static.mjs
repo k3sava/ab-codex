@@ -200,7 +200,7 @@ function shell({ title, description, canonical, hashRoute, jsonLd, body, ogImage
 <title>${fullTitle}</title>
 <meta name="description" content="${desc}">
 <link rel="canonical" href="${escapeAttr(url)}">
-<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
 <meta property="og:type" content="article">
 <meta property="og:title" content="${fullTitle}">
 <meta property="og:description" content="${desc}">
