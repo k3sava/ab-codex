@@ -32,6 +32,13 @@ const LIB = join(ROOT, "insight-library");
 const DOCS = join(ROOT, "docs");
 const SITE_URL = "https://codex.iamkesava.com";
 
+// Shared Person + Organization references. Every static page's @graph cites
+// these by @id so AI search agents see one canonical entity per author/org
+// across the entire corpus instead of duplicate per-page Person nodes.
+const PERSON_KESAVA_ID = "https://iamkesava.com/#kesava";
+const ORG_CODEX_ID = SITE_URL + "/#org";
+const PUBLISHER_REF = { "@id": ORG_CODEX_ID };
+
 const escapeHtml = s => (s || "").toString().replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
 // YAML scalar decoder — single quotes use '' to escape ', double quotes use
@@ -378,7 +385,7 @@ async function main(){
           "author": [{ "@type": "Person", "name": opName, ...(i.operator_role ? { "jobTitle": i.operator_role } : {}) },
             ...(Array.isArray(i.co_operators) ? i.co_operators.map(co => ({ "@type": "Person", "name": co })) : [])],
           "isBasedOn": i.source_url || undefined,
-          "publisher": { "@type": "Organization", "name": "a builder's codex", "url": SITE_URL, "logo": { "@type": "ImageObject", "url": `${SITE_URL}/og.png` } },
+          "publisher": { "@type": "Organization", "@id": ORG_CODEX_ID, "name": "a builder's codex", "url": SITE_URL, "logo": { "@type": "ImageObject", "url": `${SITE_URL}/og.png` }, "founder": { "@id": PERSON_KESAVA_ID } },
           "url": `${SITE_URL}/ins/${i.id}/`,
           "mainEntityOfPage": `${SITE_URL}/ins/${i.id}/`,
           "keywords": (i.domain || []).join(", "),
@@ -481,7 +488,7 @@ async function main(){
       description: `Synthesis pattern: ${p.title || p.id}. Where multiple operators converge on the same idea from different angles.`,
       canonical: `${SITE_URL}/pat/${p.id}/`,
       hashRoute: `#/pat/${p.id}`,
-      jsonLd: { "@context": "https://schema.org", "@type": "Article", "headline": p.title || p.id, "url": `${SITE_URL}/pat/${p.id}/`, "publisher": { "@type": "Organization", "name": "a builder's codex", "url": SITE_URL } },
+      jsonLd: { "@context": "https://schema.org", "@type": "Article", "headline": p.title || p.id, "url": `${SITE_URL}/pat/${p.id}/`, "publisher": { "@type": "Organization", "@id": ORG_CODEX_ID, "name": "a builder's codex", "url": SITE_URL, "founder": { "@id": PERSON_KESAVA_ID } } },
       ogImage: `${SITE_URL}/og/pat/${p.id}.svg`,
       body: `${crumbs}<h1>${escapeHtml(p.title || p.id)}</h1><article>${renderedBody}</article>${cta}`,
     });
@@ -503,7 +510,7 @@ async function main(){
       description: `Contradiction: ${c.title || c.id}. Where operators disagree on the same question.`,
       canonical: `${SITE_URL}/con/${c.id}/`,
       hashRoute: `#/con/${c.id}`,
-      jsonLd: { "@context": "https://schema.org", "@type": "Article", "headline": c.title || c.id, "url": `${SITE_URL}/con/${c.id}/`, "publisher": { "@type": "Organization", "name": "a builder's codex", "url": SITE_URL } },
+      jsonLd: { "@context": "https://schema.org", "@type": "Article", "headline": c.title || c.id, "url": `${SITE_URL}/con/${c.id}/`, "publisher": { "@type": "Organization", "@id": ORG_CODEX_ID, "name": "a builder's codex", "url": SITE_URL, "founder": { "@id": PERSON_KESAVA_ID } } },
       body: `${crumbs}<h1>${escapeHtml(c.title || c.id)}</h1><article>${renderedBody}</article>${cta}`,
     });
   }
@@ -548,7 +555,7 @@ async function main(){
       "description": `Playbook bundling operator-attributed insights from ${opsForPlaybook.slice(0, 6).join(", ")}.`,
       "url": `${SITE_URL}/play/${p.id}/`,
       ...(steps.length ? { "step": steps } : {}),
-      "publisher": { "@type": "Organization", "name": "a builder's codex", "url": SITE_URL },
+      "publisher": { "@type": "Organization", "@id": ORG_CODEX_ID, "name": "a builder's codex", "url": SITE_URL, "founder": { "@id": PERSON_KESAVA_ID } },
     };
     const jsonLd = {
       "@context": "https://schema.org",
@@ -604,7 +611,7 @@ async function main(){
       description: d.summary || `Release notes for ${d.date}.`,
       canonical: `${SITE_URL}/today/${d.date}/`,
       hashRoute: `#/today#r-${d.date}`,
-      jsonLd: { "@context": "https://schema.org", "@type": "Article", "headline": d.title || `release ${d.date}`, "datePublished": d.date, "url": `${SITE_URL}/today/${d.date}/`, "publisher": { "@type": "Organization", "name": "a builder's codex", "url": SITE_URL } },
+      jsonLd: { "@context": "https://schema.org", "@type": "Article", "headline": d.title || `release ${d.date}`, "datePublished": d.date, "url": `${SITE_URL}/today/${d.date}/`, "publisher": { "@type": "Organization", "@id": ORG_CODEX_ID, "name": "a builder's codex", "url": SITE_URL, "founder": { "@id": PERSON_KESAVA_ID } } },
       body: `${crumbs}<h1>${escapeHtml(d.title || `release ${d.date}`)}</h1>${meta}<article>${renderedBody}</article>${cta}`,
     });
   }
@@ -617,7 +624,7 @@ async function main(){
     title, description,
     canonical: `${SITE_URL}/${path}/`,
     hashRoute: path === "" ? "" : `#/${path === "today" ? "today" : path}`,
-    jsonLd: { "@context": "https://schema.org", "@type": "CollectionPage", "name": title, "url": `${SITE_URL}/${path}/`, "publisher": { "@type": "Organization", "name": "a builder's codex", "url": SITE_URL } },
+    jsonLd: { "@context": "https://schema.org", "@type": "CollectionPage", "name": title, "url": `${SITE_URL}/${path}/`, "publisher": { "@type": "Organization", "@id": ORG_CODEX_ID, "name": "a builder's codex", "url": SITE_URL, "founder": { "@id": PERSON_KESAVA_ID } } },
     body,
   });
 
@@ -729,7 +736,7 @@ async function main(){
             "name": `${dom} · a builder's codex`,
             "url": `${SITE_URL}/d/${dom}/`,
             "about": { "@type": "DefinedTerm", "name": dom },
-            "publisher": { "@type": "Organization", "name": "a builder's codex", "url": SITE_URL },
+            "publisher": { "@type": "Organization", "@id": ORG_CODEX_ID, "name": "a builder's codex", "url": SITE_URL, "founder": { "@id": PERSON_KESAVA_ID } },
             "hasPart": cardsInDom.slice(0, 30).map(c => ({ "@type": "Article", "url": `${SITE_URL}/ins/${c.id}/`, "name": c.title || c.id, "author": { "@type": "Person", "name": c.operator || "·" } })),
           },
           {

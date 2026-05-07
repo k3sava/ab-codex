@@ -330,7 +330,7 @@ function home(){
         <a class='stat' href='#/patterns#contradictions'><span class='num' data-count='${STATS.contradictions}'>0</span><span class='lbl'>contradictions</span></a>
         <a class='stat' href='#/playbooks'><span class='num' data-count='${STATS.playbooks}'>0</span><span class='lbl'>playbooks</span></a>
       </div>
-      <a id='helloBar' class='hello-bar' href='#/today' hidden aria-label='What landed today'>
+      <a id='helloBar' class='hello-bar' href='#/today' hidden aria-label='See what landed today in the release log'>
         <div class='hello-marquee' id='helloMarquee' aria-hidden='false'></div>
       </a>
       <div class='scroll-cue' id='scrollCue' aria-hidden='true'>
@@ -2776,8 +2776,14 @@ function wireMobileMenu(){
   const btn = document.getElementById('menuBtn');
   const menu = document.getElementById('mobileMenu');
   const back = document.getElementById('mobileBackdrop');
-  const close = () => { menu.classList.remove('open'); back.classList.remove('show'); };
-  const open = () => { menu.classList.add('open'); back.classList.add('show'); };
+  const close = () => {
+    menu.classList.remove('open'); back.classList.remove('show');
+    menu.setAttribute('aria-hidden', 'true'); menu.setAttribute('inert', '');
+  };
+  const open = () => {
+    menu.classList.add('open'); back.classList.add('show');
+    menu.setAttribute('aria-hidden', 'false'); menu.removeAttribute('inert');
+  };
   btn.onclick = () => menu.classList.contains('open') ? close() : open();
   back.onclick = close;
   menu.querySelectorAll('a').forEach(a => a.onclick = close);

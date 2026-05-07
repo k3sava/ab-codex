@@ -18,6 +18,77 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css?v=46" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://codex.iamkesava.com/#site",
+        "name": "a builder's codex",
+        "alternateName": "ab-codex, operator insight library",
+        "url": "https://codex.iamkesava.com/",
+        "description": "A primary-source library of operator insights. Atomic claims, named operators, verifiable sources. Free, open-source, MIT licensed.",
+        "publisher": { "@id": "https://codex.iamkesava.com/#org" },
+        "sameAs": [
+          "https://tools.iamkesava.com/",
+          "https://apps.iamkesava.com/",
+          "https://toys.iamkesava.com/",
+          "https://iamkesava.com/",
+          "https://github.com/k3sava/ab-codex"
+        ],
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": { "@type": "EntryPoint", "urlTemplate": "https://codex.iamkesava.com/?q={search_term_string}" },
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://codex.iamkesava.com/#org",
+        "name": "a builder's codex",
+        "url": "https://codex.iamkesava.com/",
+        "founder": { "@id": "https://iamkesava.com/#kesava" },
+        "logo": { "@type": "ImageObject", "url": "https://codex.iamkesava.com/og.png" }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://iamkesava.com/#kesava",
+        "name": "Kesava",
+        "givenName": "Kesava",
+        "alternateName": "Kesava Mandiga",
+        "url": "https://iamkesava.com/",
+        "jobTitle": "Product marketing operator and indie builder",
+        "knowsAbout": [
+          "Product marketing",
+          "Go-to-market",
+          "AI-native product design",
+          "Open source",
+          "Operator-attributed knowledge synthesis"
+        ],
+        "sameAs": [
+          "https://github.com/k3sava",
+          "https://www.linkedin.com/in/k3sava",
+          "https://apps.iamkesava.com/",
+          "https://tools.iamkesava.com/",
+          "https://toys.iamkesava.com/",
+          "https://codex.iamkesava.com/"
+        ]
+      },
+      {
+        "@type": "SoftwareSourceCode",
+        "@id": "https://codex.iamkesava.com/#source",
+        "name": "ab-codex source code and corpus",
+        "description": "Markdown corpus + static SPA + build pipeline. Open source, MIT.",
+        "codeRepository": "https://github.com/k3sava/ab-codex",
+        "programmingLanguage": ["JavaScript", "Markdown"],
+        "license": "https://opensource.org/licenses/MIT",
+        "author": { "@id": "https://iamkesava.com/#kesava" },
+        "about": "A primary-source library of operator insights with build pipeline that emits sitemap.xml, llms.txt, agent-permissions.json, and per-page Schema.org @graph for AI search agents."
+      }
+    ]
+  }
+  </script>
   <script>
     // Apply theme override before paint to avoid flash
     (function(){
@@ -65,7 +136,7 @@
   </header>
 
   <div id="mobileBackdrop" aria-hidden="true"></div>
-  <aside id="mobileMenu" aria-hidden="true">
+  <aside id="mobileMenu" aria-hidden="true" inert>
     <a href="#/" data-route="/">home</a>
     <a href="#/map" data-route="/map">map</a>
     <a href="#/operators" data-route="/operators">operators</a>
@@ -114,7 +185,7 @@
       <svg viewBox="0 0 16 16" aria-hidden="true" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="4" r="1.8"/><circle cx="4" cy="8" r="1.8"/><circle cx="12" cy="12" r="1.8"/><path d="M5.6 7.2l4.8-2.4M5.6 8.8l4.8 2.4"/></svg>
       <span>share</span>
     </button>
-    <button id="ptListen" class="pt-btn" aria-label="Read this page aloud" aria-pressed="false">
+    <button id="ptListen" class="pt-btn" aria-label="Listen to this page read aloud" aria-pressed="false">
       <svg viewBox="0 0 16 16" aria-hidden="true" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6v4h2l3 2.5v-9L5 6H3z"/><path d="M11 5.5c1 .8 1 4.2 0 5"/><path d="M12.5 4c1.8 1.4 1.8 6.6 0 8"/></svg>
       <span class="pt-listen-label">listen</span>
     </button>

@@ -588,7 +588,7 @@ main{padding-top:var(--hdr-h);min-height:100vh}
 .chip{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border-radius:999px;background:var(--paper-2);border:1px solid transparent;font-family:var(--mono);font-size:.72rem;color:var(--ink-2);transition:background .2s,border-color .2s,color .2s;cursor:pointer}
 .chip:hover,.chip:focus-visible{background:var(--paper);border-color:color-mix(in oklab,var(--accent) 30%,var(--line));color:var(--ink)}
 .chip.active{background:var(--accent);color:var(--paper);border-color:var(--accent)}
-.chip .ct{font-family:var(--mono);font-size:.65rem;opacity:.7}
+.chip .ct{font-family:var(--mono);font-size:.65rem;color:var(--ink-2)}
 
 /* ===== INSIGHT ===== */
 .insight-page{max-width:var(--maxw);margin:0 auto;padding:48px var(--gut) 120px}
@@ -1125,7 +1125,7 @@ dialog .search-head kbd{font-family:var(--mono);font-size:.65rem;padding:3px 7px
 .con-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
 .con-strip-item{display:flex;align-items:center;gap:18px;padding:24px 22px;border:1px solid var(--line);border-radius:14px;background:var(--paper);text-decoration:none;color:inherit;transition:border-color .25s var(--ease),transform .25s var(--ease)}
 .con-strip-item:hover{border-color:var(--accent);transform:translateY(-2px)}
-.con-strip-vs{font-family:var(--serif);font-style:italic;font-size:1.1rem;color:var(--accent);flex-shrink:0;width:32px;text-align:center;border-right:1px solid var(--line);padding-right:18px}
+.con-strip-vs{font-family:var(--serif);font-style:italic;font-size:1.1rem;color:var(--accent-2);flex-shrink:0;width:32px;text-align:center;border-right:1px solid var(--line);padding-right:18px;font-weight:500}
 .con-strip-title{font-family:var(--serif);font-size:1rem;line-height:1.35;color:var(--ink)}
 
 /* ===== OPERATORS TABLE ===== */
@@ -1414,7 +1414,7 @@ dialog .search-head kbd{font-family:var(--mono);font-size:.65rem;padding:3px 7px
 
 /* ===== FOOTER ===== */
 footer{border-top:1px solid var(--line);margin-top:60px;padding:48px var(--gut);font-family:var(--mono);font-size:.72rem;color:var(--muted);text-align:center;display:flex;flex-direction:column;gap:8px;align-items:center}
-footer a{color:var(--ink-2);border-bottom:1px solid transparent;padding-bottom:1px;transition:color .15s,border-color .15s}
+footer a{color:var(--ink-2);border-bottom:1px solid color-mix(in oklab,var(--ink-2) 30%,transparent);padding-bottom:1px;transition:color .15s,border-color .15s}
 footer a:hover{color:var(--accent-2);border-bottom-color:currentColor}
 .footer-feeds{font-size:.68rem;opacity:.85;display:flex;flex-wrap:wrap;justify-content:center;gap:8px}
 
