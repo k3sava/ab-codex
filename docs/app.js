@@ -805,7 +805,9 @@ function operatorsList(){
   // Build domain options (top 12 by appearance)
   const domCounts = new Map();
   ops.forEach(o => o.op_domains.forEach(d => domCounts.set(d, (domCounts.get(d)||0) + 1)));
-  const topDomains = [...domCounts.entries()].sort((a,b)=>b[1]-a[1]).slice(0,12).map(e=>e[0]);
+  // Show every domain, sorted by operator count desc. Was previously sliced
+  // to 12 — that hid 14 of the 26 domains and broke the affordance.
+  const topDomains = [...domCounts.entries()].sort((a,b)=>b[1]-a[1]).map(e=>e[0]);
   // Apply filters
   const q = opsState.q.toLowerCase();
   let filtered = ops.filter(o => {
@@ -884,7 +886,12 @@ function operatorsList(){
   const refresh = () => operatorsList();
   document.getElementById('opsSearch').addEventListener('input', e => { opsState.q = e.target.value; clearTimeout(window._opsT); window._opsT = setTimeout(refresh, 120); });
   document.getElementById('opsMin').addEventListener('change', e => { opsState.minCards = +e.target.value; refresh(); });
-  document.querySelectorAll('.ops-chips .chip').forEach(b => b.addEventListener('click', () => { opsState.domain = b.dataset.domain; refresh(); }));
+  document.querySelectorAll('.ops-chips .chip').forEach(b => b.addEventListener('click', () => {
+    // Click-to-toggle: clicking the active pill clears the filter back to 'all'.
+    const next = b.dataset.domain;
+    opsState.domain = (opsState.domain === next && next !== 'all') ? 'all' : next;
+    refresh();
+  }));
   document.querySelectorAll('.th-sort').forEach(th => th.addEventListener('click', () => {
     const k = th.dataset.sort;
     if (opsState.sort === k) opsState.dir = opsState.dir === 'desc' ? 'asc' : 'desc';
@@ -1070,14 +1077,12 @@ function patternsList(){
     <button class='list-domchip ${patternsState.domain === 'all' ? 'on' : ''}' data-d='all'>all<span class='ct'>${patterns.length}</span></button>
     ${domCounts.map(([d, ct]) => `<button class='list-domchip ${patternsState.domain === d ? 'on' : ''}' data-d='${d}'>${d}<span class='ct'>${ct}</span></button>`).join('')}
   </div>` : '';
-  const activePill = patternsState.domain !== 'all' ? `<div class='list-active'><span class='br-active-label'>filtered:</span><button class='br-active-pill' data-clear='1'>${patternsState.domain}<span aria-hidden='true'>×</span></button></div>` : '';
   app.innerHTML = `<section class='list-page'>
     <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <span>patterns</span></div>
     <h1>synthesis patterns</h1>
     <p class='lede'>${all.length} of ${STATS.patterns} convergences ${patternsState.domain !== 'all' ? `in <strong>${patternsState.domain}</strong>` : `across ${STATS.cards} cards`}. ${STATS.contradictions} contradictions.</p>
     ${domChips}
-    ${activePill}
-    ${all.length === 0 ? `<p class='browse-empty' style='margin-top:32px'>No patterns match this filter. <a href='#'>Clear filter →</a></p>` : `${tierA}${tierB}${tierC}${tierOther}`}
+    ${all.length === 0 ? `<p class='browse-empty' style='margin-top:32px'>No patterns match this filter.</p>` : `${tierA}${tierB}${tierC}${tierOther}`}
 
     ${contradictions.length ? `
     <section id='contradictions' class='contradictions-section reveal'>
@@ -1093,13 +1098,12 @@ function patternsList(){
         </a>`).join('')}</div>
     </section>` : ''}
   </section>`;
-  // Wire domain chips
+  // Click-to-toggle: clicking the active pill clears the filter.
   document.querySelectorAll('.list-domfilter [data-d]').forEach(b => b.addEventListener('click', () => {
-    patternsState.domain = b.dataset.d;
+    const next = b.dataset.d;
+    patternsState.domain = (patternsState.domain === next && next !== 'all') ? 'all' : next;
     patternsList();
   }));
-  const clearBtn = document.querySelector('.list-active [data-clear]');
-  if (clearBtn) clearBtn.addEventListener('click', () => { patternsState.domain = 'all'; patternsList(); });
   if (!reduced) ScrollTrigger.batch('.pat-tile.reveal, .pat-row.reveal, .card.reveal', { onEnter: els => gsap.fromTo(els, { opacity:0, y:18 }, { opacity:1, y:0, duration:.6, ease:'power3.out', stagger:.03 }), start:'top 92%' });
 }
 
@@ -1161,13 +1165,11 @@ function playbooksList(){
     <button class='list-domchip ${playbooksState.domain === 'all' ? 'on' : ''}' data-d='all'>all<span class='ct'>${playbooks.length}</span></button>
     ${domCounts.map(([d, ct]) => `<button class='list-domchip ${playbooksState.domain === d ? 'on' : ''}' data-d='${d}'>${d}<span class='ct'>${ct}</span></button>`).join('')}
   </div>` : '';
-  const activePill = playbooksState.domain !== 'all' ? `<div class='list-active'><span class='br-active-label'>filtered:</span><button class='br-active-pill' data-clear='1'>${playbooksState.domain}<span aria-hidden='true'>×</span></button></div>` : '';
   app.innerHTML = `<section class='list-page'>
     <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <span>playbooks</span></div>
     <h1>methodology playbooks</h1>
     <p class='lede'>${all.length} of ${STATS.playbooks} playbooks ${playbooksState.domain !== 'all' ? `in <strong>${playbooksState.domain}</strong>` : `across ${order.length} categor${order.length === 1 ? 'y' : 'ies'}`}. Each bundles operator-attributed insights into a working procedure with inputs, process, outputs, and quality gates.</p>
     ${domChips}
-    ${activePill}
     ${all.length === 0 ? `<p class='browse-empty' style='margin-top:32px'>No playbooks match this filter.</p>` : ''}
     ${order.map(cat => {
       const items = byCat[cat];
@@ -1188,11 +1190,10 @@ function playbooksList(){
     }).join('')}
   </section>`;
   document.querySelectorAll('.list-domfilter [data-d]').forEach(b => b.addEventListener('click', () => {
-    playbooksState.domain = b.dataset.d;
+    const next = b.dataset.d;
+    playbooksState.domain = (playbooksState.domain === next && next !== 'all') ? 'all' : next;
     playbooksList();
   }));
-  const clearBtn = document.querySelector('.list-active [data-clear]');
-  if (clearBtn) clearBtn.addEventListener('click', () => { playbooksState.domain = 'all'; playbooksList(); });
   if (!reduced) ScrollTrigger.batch('.card.reveal', { onEnter: els => gsap.fromTo(els, { opacity:0, y:18 }, { opacity:1, y:0, duration:.6, ease:'power3.out', stagger:.03 }), start:'top 92%' });
 }
 
