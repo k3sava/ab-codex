@@ -203,6 +203,30 @@ Sitemap: ${SITE_URL}/sitemap.xml
   await mkdir(join(DOCS, ".well-known"), { recursive: true });
   await writeFile(join(DOCS, ".well-known", "agent-permissions.json"), JSON.stringify(agentPermissions, null, 2));
 
+  // === api-catalog (RFC 9727) — linkset+json discovery anchor ===
+  const apiCatalog = {
+    linkset: [
+      {
+        anchor: `${SITE_URL}/`,
+        links: [
+          { rel: "service-doc", href: `${SITE_URL}/llms.txt` },
+          { rel: "describedby", href: `${SITE_URL}/.well-known/agent-permissions.json` },
+          { rel: "sitemap", href: `${SITE_URL}/sitemap.xml` },
+          { rel: "index", href: `${SITE_URL}/insight-library/INDEX.json` }
+        ]
+      }
+    ]
+  };
+  await writeFile(join(DOCS, ".well-known", "api-catalog"), JSON.stringify(apiCatalog, null, 2));
+
+  // === agent-skills/index.json — Agent Skills Discovery v0.2 ===
+  await mkdir(join(DOCS, ".well-known", "agent-skills"), { recursive: true });
+  const agentSkills = {
+    "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+    skills: []
+  };
+  await writeFile(join(DOCS, ".well-known", "agent-skills", "index.json"), JSON.stringify(agentSkills, null, 2));
+
   // === RSS — the release log ===
   const dailySorted = [...(INDEX.daily || [])].sort((a, b) => (b.date || "").localeCompare(a.date || "")).slice(0, 30);
   const items = dailySorted.map(d => `    <item>
