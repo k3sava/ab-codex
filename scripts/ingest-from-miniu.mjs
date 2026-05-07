@@ -152,15 +152,19 @@ async function loadIndex(){
   const indexPath = join(LIB, "INDEX.json");
   try {
     const data = JSON.parse(await readFile(indexPath, "utf8"));
+    const insights = data.insights || [];
     return {
-      insightIds: new Set((data.insights || []).map(i => i.id)),
-      insightTitles: (data.insights || []).map(i => ({ id: i.id, title: (i.title || "").toLowerCase(), operator: (i.operator || "").toLowerCase() })),
+      insightIds: new Set(insights.map(i => i.id)),
+      insightTitles: insights.map(i => ({ id: i.id, title: (i.title || "").toLowerCase(), operator: (i.operator || "").toLowerCase() })),
+      // Insights carrying today's captured_date — release log should reference
+      // ALL of them, not just what's new in this --force re-run.
+      todaysCapturedIds: (date) => insights.filter(i => i.captured_date === date).map(i => i.id),
       operatorSlugs: new Set((data.operators || []).map(o => o.slug)),
       patterns: (data.patterns || []).map(p => ({ id: p.id, title: p.title, uses_cards: p.uses_cards || [], domains: p.domains || [] })),
       counts: data.counts || {},
     };
   } catch {
-    return { insightIds: new Set(), insightTitles: [], operatorSlugs: new Set(), patterns: [], counts: {} };
+    return { insightIds: new Set(), insightTitles: [], todaysCapturedIds: () => [], operatorSlugs: new Set(), patterns: [], counts: {} };
   }
 }
 
@@ -216,14 +220,16 @@ async function main(){
     const idx = await loadIndex();
     await log(`existing corpus: ${idx.insightIds.size} insights, ${idx.operatorSlugs.size} operators`);
 
+    const todaysExisting = idx.todaysCapturedIds(TARGET_DATE);
     const userMessage = [
       `# Target date\n${TARGET_DATE}\n`,
+      todaysExisting.length ? `# Insights already captured for ${TARGET_DATE} (must reference in release log)\n${todaysExisting.join(", ")}\n` : "",
       `# Existing operator slugs (do not duplicate)\n${[...idx.operatorSlugs].sort().join(", ")}\n`,
       `# Existing insight ids (do not duplicate)\n${[...idx.insightIds].sort().join(", ")}\n`,
       `# Existing insight titles (for fuzzy dedup against the digest claims)\n${idx.insightTitles.slice(0, 200).map(i => `- ${i.id}: ${i.title} [${i.operator}]`).join("\n")}\n`,
       `# Existing synthesis patterns (consider extending these vs creating new)\n${idx.patterns.map(p => `- ${p.id}: ${p.title} [uses: ${p.uses_cards.join(", ")}]`).join("\n")}\n`,
       `# Today's miniu morning brief\n\n${digestText}`,
-    ].join("\n");
+    ].filter(Boolean).join("\n");
 
     await log(`calling Claude (model=${ANTHROPIC_MODEL}, prompt+user=${prompt.length + userMessage.length} chars)`);
     const result = await callClaude(prompt, userMessage);
@@ -330,17 +336,19 @@ async function main(){
     }
     await log(`wrote ${patternsCreated} new pattern files`);
 
-    // Write daily release log
+    // Write daily release log. The frontmatter list of insights_added covers
+    // the full day (everything captured today), not just this run's new files.
     const releaseFm = {
       date: TARGET_DATE,
       title: JSON.stringify(result.release.title),
       summary: result.release.summary,
-      sources: [`miniu morning brief ${TARGET_DATE}`],
+      sources: [`morning research scan ${TARGET_DATE}`],
       insights_added: validInsightIds,
       operators_added: validOpSlugs,
       patterns_added: [],
       playbooks_added: [],
     };
+    const fullDayInsightIds = [...new Set([...idx.todaysCapturedIds(TARGET_DATE), ...validInsightIds])];
     // Custom YAML for release: arrays vertical, summary/sources as quoted strings
     const releaseYaml = [
       "---",
@@ -350,7 +358,7 @@ async function main(){
       `sources:`,
       `  - "morning research scan ${TARGET_DATE}"`,
       `insights_added:`,
-      ...validInsightIds.map(id => `  - ${id}`),
+      ...fullDayInsightIds.map(id => `  - ${id}`),
       `operators_added:`,
       ...validOpSlugs.map(s => `  - ${s}`),
       ...(newPatternIds.length ? [`patterns_added:`, ...newPatternIds.map(id => `  - ${id}`)] : ["patterns_added: []"]),
