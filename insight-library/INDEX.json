@@ -1,51 +1,33 @@
 {
-  "generated_at": "2026-05-07T04:22:30.716Z",
+  "generated_at": "2026-05-07T04:59:23.842Z",
   "counts": {
-    "insights": 779,
+    "insights": 786,
     "operators": 460,
     "raw_sources": 209,
     "patterns": 39,
     "contradictions": 11,
     "playbooks": 27,
-    "daily": 7
+    "daily": 8
   },
   "latest_daily": {
-    "path": "daily/2026-05-06.md",
-    "date": "2026-05-06",
-    "title": "Verification, judgement, scarcity, voice, three converging frames in one week",
-    "summary": "15 new cards, 2 synthesis patterns, 4 new operators. Today's batch plus a back-audit of past digests (April 26 to May 4) for atomic claims that hadn't yet been ingested.",
+    "path": "daily/2026-05-07.md",
+    "date": "2026-05-07",
+    "title": "Speed is the wrong variable: launch triage, pricing iteration, and the verification gap",
+    "summary": "Seven insights land today across measurement, launch discipline, pricing, positioning, and AI production systems, all converging on one finding: generating fast without a feedback loop is not compounding.",
     "sources": [
-      "Morning brief 2026-05-06 (multi-run)",
-      "Morning brief 2026-05-04",
-      "Backfill audit, past digests April 26 to May 4"
+      "miniu morning brief 2026-05-07"
     ],
     "insights_added": [
-      "ins_traces-need-feedback-to-learn",
-      "ins_mine-transcripts-to-promote-config",
-      "ins_judgment-vs-understanding",
-      "ins_judgment-doesnt-compress",
-      "ins_ungate-ai-iterate-pricing",
-      "ins_rich-context-beats-sophisticated-agents",
-      "ins_agentic-engine-optimization-6-layer",
-      "ins_middle-is-hollowing-out",
-      "ins_scarcity-supercycle",
-      "ins_handley-ai-cant-violate-expectation",
-      "ins_owned-brand-authority-organic-moat",
-      "ins_couch-to-5k-for-ai-start-not-depth",
-      "ins_capability-spikes-where-verification-loops-exist",
-      "ins_chatgpt-prompts-invisible-to-keyword-tools",
-      "ins_b2b-buyer-emotion-personal-stakes"
+      "ins_aeo-citation-rotation-makes-snapshots-worthless",
+      "ins_marketing-debt-compounds-after-every-sprint",
+      "ins_ai-native-launch-triage-not-fewer-gates",
+      "ins_pricing-iteration-finds-right-model",
+      "ins_ux-change-target-emotion-is-relief",
+      "ins_make-verification-easy-ai-production",
+      "ins_error-analysis-highest-leverage-eval-step"
     ],
-    "operators_added": [
-      "harrison-chase",
-      "eugene-yan",
-      "addy-osmani",
-      "hilary-gridley"
-    ],
-    "patterns_added": [
-      "pat_verification-as-human-job",
-      "pat_execution-cheap-judgement-scarce"
-    ],
+    "operators_added": "",
+    "patterns_added": [],
     "playbooks_added": []
   },
   "insights": [
@@ -460,6 +442,37 @@
       "related": [],
       "raw_ref": "",
       "title": "Advisor-tool replaces ensemble-of-3 stability hacks at near-Sonnet rates"
+    },
+    {
+      "path": "insights/ins_aeo-citation-rotation-makes-snapshots-worthless.md",
+      "id": "ins_aeo-citation-rotation-makes-snapshots-worthless",
+      "operator": "Aleyda Solis",
+      "operator_role": "International SEO consultant and SEOFOMO newsletter author",
+      "co_operators": [],
+      "source_url": "unknown",
+      "source_type": "newsletter",
+      "source_title": "SEOFOMO Issue, May 3 2026",
+      "source_date": "2026-05-03",
+      "captured_date": "2026-05-07",
+      "domain": [
+        "seo",
+        "aeo",
+        "measurement"
+      ],
+      "lifecycle": [
+        "measurement",
+        "channel-strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "A",
+      "related": [
+        "ins_aeo-three-layer-presence-readiness-impact",
+        "ins_crawlability-shapes-everything"
+      ],
+      "raw_ref": "",
+      "title": "Point-in-time AEO citation counts are noise: 74 percent of cited sources rotate weekly"
     },
     {
       "path": "insights/ins_aeo-competes-for-mentions-not-rankings.md",
@@ -1001,6 +1014,36 @@
       "related": [],
       "raw_ref": "raw/expert-content/experts/matt-shumer.md",
       "title": "AI has crossed the threshold to something indistinguishable from judgment and taste, winners will know what to build, not how"
+    },
+    {
+      "path": "insights/ins_ai-native-launch-triage-not-fewer-gates.md",
+      "id": "ins_ai-native-launch-triage-not-fewer-gates",
+      "operator": "Aatir Abdul Rauf",
+      "operator_role": "PMM practitioner and writer",
+      "co_operators": [],
+      "source_url": "https://www.linkedin.com/posts/aatirar_have-ai-companies-broken-the-rules-of-feature-activity-7457066561388900352-8CJr",
+      "source_type": "post",
+      "source_title": "Have AI companies broken the rules of feature launches?",
+      "source_date": "2026-05-05",
+      "captured_date": "2026-05-07",
+      "domain": [
+        "pmm",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "launch",
+        "positioning"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_maddy-hirshan-fewer-larger-launches-always-on-gtm",
+        "ins_james-doman-pmm-curate-not-process-launches"
+      ],
+      "raw_ref": "",
+      "title": "AI-native GTM teams win by triaging launches faster, not by removing launch discipline"
     },
     {
       "path": "insights/ins_ai-slop-loop.md",
@@ -5885,6 +5928,38 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_error-analysis-highest-leverage-eval-step.md",
+      "id": "ins_error-analysis-highest-leverage-eval-step",
+      "operator": "Hamel Husain",
+      "operator_role": "ML engineer and evaluation methodology advisor",
+      "co_operators": [
+        "Shreya Shankar"
+      ],
+      "source_url": "unknown",
+      "source_type": "essay",
+      "source_title": "Evals Masterclass (Aakash Gupta's newsletter, May 2026)",
+      "source_date": "2026-05-05",
+      "captured_date": "2026-05-07",
+      "domain": [
+        "ai-engineering"
+      ],
+      "lifecycle": [
+        "evaluation"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_open-coding-then-axial-coding",
+        "ins_llm-as-judge-binary-not-likert",
+        "ins_evals-are-data-analysis-on-llm-apps",
+        "ins_benevolent-dictator-not-committee"
+      ],
+      "raw_ref": "",
+      "title": "Error analysis is the most-skipped step in AI evals and gives the most leverage per hour invested"
+    },
+    {
       "path": "insights/ins_eureka-onboarding.md",
       "id": "ins_eureka-onboarding",
       "operator": "Ramli John",
@@ -10612,6 +10687,35 @@
       "title": "In every meeting, name the why, the decider, the criterion, and the informed"
     },
     {
+      "path": "insights/ins_make-verification-easy-ai-production.md",
+      "id": "ins_make-verification-easy-ai-production",
+      "operator": "Eugene Yan",
+      "operator_role": "Applied scientist writing on AI systems in production",
+      "co_operators": [],
+      "source_url": "unknown",
+      "source_type": "post",
+      "source_title": "unverified",
+      "source_date": "2026-05-07",
+      "captured_date": "2026-05-07",
+      "domain": [
+        "ai-engineering"
+      ],
+      "lifecycle": [
+        "evaluation",
+        "infrastructure"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 2, transferability: 5, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_traces-need-feedback-to-learn",
+        "ins_evals-are-data-analysis-on-llm-apps"
+      ],
+      "raw_ref": "",
+      "title": "Verification is a first-class design constraint in AI production systems, not an afterthought QA step"
+    },
+    {
       "path": "insights/ins_manager-skill-not-technical.md",
       "id": "ins_manager-skill-not-technical",
       "operator": "Claire Vo",
@@ -10928,6 +11032,36 @@
       "related": [],
       "raw_ref": "raw/expert-content/experts/rowan-tonkin.md",
       "title": "Marketing must speak the language of finance, not the language of marketing"
+    },
+    {
+      "path": "insights/ins_marketing-debt-compounds-after-every-sprint.md",
+      "id": "ins_marketing-debt-compounds-after-every-sprint",
+      "operator": "Aatir Abdul Rauf",
+      "operator_role": "PMM practitioner and writer",
+      "co_operators": [],
+      "source_url": "unknown",
+      "source_type": "post",
+      "source_title": "LinkedIn posts on marketing debt (April-May 2026)",
+      "source_date": "2026-04-30",
+      "captured_date": "2026-05-07",
+      "domain": [
+        "pmm",
+        "content-ops"
+      ],
+      "lifecycle": [
+        "product-marketing",
+        "positioning"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_context-docs-as-battery-packs",
+        "ins_context-engineering-beats-prompt-engineering"
+      ],
+      "raw_ref": "",
+      "title": "Marketing debt is the gap between your actual product and your marketing footprint, and it compounds silently after every sprint"
     },
     {
       "path": "insights/ins_marketoonist-generations-not-monoliths.md",
@@ -14159,6 +14293,35 @@
       "related": [],
       "raw_ref": "raw/expert-content/experts/elad-gil.md",
       "title": "Doubling revenue per user is often more meaningful than doubling user count"
+    },
+    {
+      "path": "insights/ins_pricing-iteration-finds-right-model.md",
+      "id": "ins_pricing-iteration-finds-right-model",
+      "operator": "Elena Verna",
+      "operator_role": "Growth advisor and former SVP Growth at Miro",
+      "co_operators": [],
+      "source_url": "https://www.elenaverna.com/p/the-biggest-takeaway-from-my-stripe",
+      "source_type": "essay",
+      "source_title": "The biggest takeaway from my Stripe Sessions keynote",
+      "source_date": "2026-05-05",
+      "captured_date": "2026-05-07",
+      "domain": [
+        "pricing",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "monetization"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "A",
+      "related": [
+        "ins_add-new-growth-model-every-18-months",
+        "ins_ungate-ai-iterate-pricing"
+      ],
+      "raw_ref": "",
+      "title": "Treat pricing like a product: assume the first model is wrong and iterate monthly until it fits"
     },
     {
       "path": "insights/ins_pricing-needs-weekly-customer-calls.md",
@@ -20110,6 +20273,37 @@
       "related": [],
       "raw_ref": "raw/expert-content/experts/ann-handley.md",
       "title": "Quality content = Utility × Inspiration × Empathy. Any factor at zero produces nothing."
+    },
+    {
+      "path": "insights/ins_ux-change-target-emotion-is-relief.md",
+      "id": "ins_ux-change-target-emotion-is-relief",
+      "operator": "Emily Pick",
+      "operator_role": "Product Marketer at Docebo",
+      "co_operators": [],
+      "source_url": "https://www.linkedin.com/posts/emilypick_we-have-20-product-updates-rolling-out-to-activity-7455262155609624576-WtbQ",
+      "source_type": "post",
+      "source_title": "We have 20 product updates rolling out to customers",
+      "source_date": "2026-04-30",
+      "captured_date": "2026-05-07",
+      "domain": [
+        "pmm",
+        "product-marketing"
+      ],
+      "lifecycle": [
+        "launch",
+        "messaging",
+        "positioning"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_emily-pick-pmm-traits-craft-empathy-adaptability",
+        "ins_jolt-effect-customer-indecision"
+      ],
+      "raw_ref": "",
+      "title": "When shipping a workflow change, the target emotion is relief, not excitement"
     },
     {
       "path": "insights/ins_value-equation-grand-slam-offer.md",
@@ -34659,6 +34853,27 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-05-07.md",
+      "date": "2026-05-07",
+      "title": "Speed is the wrong variable: launch triage, pricing iteration, and the verification gap",
+      "summary": "Seven insights land today across measurement, launch discipline, pricing, positioning, and AI production systems, all converging on one finding: generating fast without a feedback loop is not compounding.",
+      "sources": [
+        "miniu morning brief 2026-05-07"
+      ],
+      "insights_added": [
+        "ins_aeo-citation-rotation-makes-snapshots-worthless",
+        "ins_marketing-debt-compounds-after-every-sprint",
+        "ins_ai-native-launch-triage-not-fewer-gates",
+        "ins_pricing-iteration-finds-right-model",
+        "ins_ux-change-target-emotion-is-relief",
+        "ins_make-verification-easy-ai-production",
+        "ins_error-analysis-highest-leverage-eval-step"
+      ],
+      "operators_added": "",
+      "patterns_added": [],
+      "playbooks_added": []
+    },
     {
       "path": "daily/2026-05-06.md",
       "date": "2026-05-06",

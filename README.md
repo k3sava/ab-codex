@@ -3,11 +3,11 @@
 > **[Open the interactive site → codex.iamkesava.com](https://codex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest — 2026-05-06 · 15 insights · 4 operators · 2 patterns
+### Latest — 2026-05-07 · 7 insights
 
-**Verification, judgement, scarcity, voice, three converging frames in one week** — 15 new cards, 2 synthesis patterns, 4 new operators. Today's batch plus a back-audit of past digests (April 26 to May 4) for atomic claims that hadn't yet been ingested.
+**Speed is the wrong variable: launch triage, pricing iteration, and the verification gap** — Seven insights land today across measurement, launch discipline, pricing, positioning, and AI production systems, all converging on one finding: generating fast without a feedback loop is not compounding.
 
-[Read what landed →](insight-library/daily/2026-05-06.md) · [See on the site →](https://codex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-05-07.md) · [See on the site →](https://codex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights — atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights — atomic claims, each one attrib
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **779** insight cards
+- **786** insight cards
 - **460** operator profiles
 - **39** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions

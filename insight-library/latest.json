@@ -1,45 +1,48 @@
 {
-  "generated_at": "2026-05-07T04:22:30.727Z",
+  "generated_at": "2026-05-07T04:59:23.860Z",
   "latest_daily": {
-    "path": "daily/2026-05-06.md",
-    "date": "2026-05-06",
-    "title": "Verification, judgement, scarcity, voice, three converging frames in one week",
-    "summary": "15 new cards, 2 synthesis patterns, 4 new operators. Today's batch plus a back-audit of past digests (April 26 to May 4) for atomic claims that hadn't yet been ingested.",
+    "path": "daily/2026-05-07.md",
+    "date": "2026-05-07",
+    "title": "Speed is the wrong variable: launch triage, pricing iteration, and the verification gap",
+    "summary": "Seven insights land today across measurement, launch discipline, pricing, positioning, and AI production systems, all converging on one finding: generating fast without a feedback loop is not compounding.",
     "sources": [
-      "Morning brief 2026-05-06 (multi-run)",
-      "Morning brief 2026-05-04",
-      "Backfill audit, past digests April 26 to May 4"
+      "miniu morning brief 2026-05-07"
     ],
     "insights_added": [
-      "ins_traces-need-feedback-to-learn",
-      "ins_mine-transcripts-to-promote-config",
-      "ins_judgment-vs-understanding",
-      "ins_judgment-doesnt-compress",
-      "ins_ungate-ai-iterate-pricing",
-      "ins_rich-context-beats-sophisticated-agents",
-      "ins_agentic-engine-optimization-6-layer",
-      "ins_middle-is-hollowing-out",
-      "ins_scarcity-supercycle",
-      "ins_handley-ai-cant-violate-expectation",
-      "ins_owned-brand-authority-organic-moat",
-      "ins_couch-to-5k-for-ai-start-not-depth",
-      "ins_capability-spikes-where-verification-loops-exist",
-      "ins_chatgpt-prompts-invisible-to-keyword-tools",
-      "ins_b2b-buyer-emotion-personal-stakes"
+      "ins_aeo-citation-rotation-makes-snapshots-worthless",
+      "ins_marketing-debt-compounds-after-every-sprint",
+      "ins_ai-native-launch-triage-not-fewer-gates",
+      "ins_pricing-iteration-finds-right-model",
+      "ins_ux-change-target-emotion-is-relief",
+      "ins_make-verification-easy-ai-production",
+      "ins_error-analysis-highest-leverage-eval-step"
     ],
-    "operators_added": [
-      "harrison-chase",
-      "eugene-yan",
-      "addy-osmani",
-      "hilary-gridley"
-    ],
-    "patterns_added": [
-      "pat_verification-as-human-job",
-      "pat_execution-cheap-judgement-scarce"
-    ],
+    "operators_added": "",
+    "patterns_added": [],
     "playbooks_added": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-05-07.md",
+      "date": "2026-05-07",
+      "title": "Speed is the wrong variable: launch triage, pricing iteration, and the verification gap",
+      "summary": "Seven insights land today across measurement, launch discipline, pricing, positioning, and AI production systems, all converging on one finding: generating fast without a feedback loop is not compounding.",
+      "sources": [
+        "miniu morning brief 2026-05-07"
+      ],
+      "insights_added": [
+        "ins_aeo-citation-rotation-makes-snapshots-worthless",
+        "ins_marketing-debt-compounds-after-every-sprint",
+        "ins_ai-native-launch-triage-not-fewer-gates",
+        "ins_pricing-iteration-finds-right-model",
+        "ins_ux-change-target-emotion-is-relief",
+        "ins_make-verification-easy-ai-production",
+        "ins_error-analysis-highest-leverage-eval-step"
+      ],
+      "operators_added": "",
+      "patterns_added": [],
+      "playbooks_added": []
+    },
     {
       "path": "daily/2026-05-06.md",
       "date": "2026-05-06",
