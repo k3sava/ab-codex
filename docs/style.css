@@ -1417,6 +1417,8 @@ footer{border-top:1px solid var(--line);margin-top:60px;padding:48px var(--gut);
 footer a{color:var(--ink-2);border-bottom:1px solid color-mix(in oklab,var(--ink-2) 30%,transparent);padding-bottom:1px;transition:color .15s,border-color .15s}
 footer a:hover{color:var(--accent-2);border-bottom-color:currentColor}
 .footer-feeds{font-size:.68rem;opacity:.85;display:flex;flex-wrap:wrap;justify-content:center;gap:8px}
+.footer-sister,.static-sister{font-size:.68rem;opacity:.85;display:flex;flex-wrap:wrap;justify-content:center;gap:8px}
+.footer-sister [aria-current="page"],.static-sister [aria-current="page"]{color:var(--ink);font-weight:500;border-bottom:none}
 
 /* ===== RESPONSIVE ===== */
 @media (max-width:1024px){
