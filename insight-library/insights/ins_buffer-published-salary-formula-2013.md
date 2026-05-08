@@ -13,7 +13,7 @@ maturity: applied
 artifact_class: framework
 score: { originality: 4, specificity: 5, evidence: 5, transferability: 4, source: 5 }
 tier: B
-related: [ins_company-of-one-define-enough, ins_kesava-mandiga-workflow-collapse-not-speedup]
+related: [ins_company-of-one-define-enough, ins_kesava-mandiga-workflow-collapse-not-speedup, ins_outseta-flat-comp-no-hierarchy-no-budgets, ins_kesava-mandiga-solo-operator-billion-dollar-doctrine]
 raw_ref: unknown
 ---
 
@@ -42,8 +42,16 @@ Per-employee table includes names, teams, titles, roles, locations, and exact sa
 - New hires reference the formula, not negotiation.
 
 ## Counter-evidence
-Buffer's formula bakes in a geo-cost-of-living adjustment (90% Global, 100% High), which is the geo-arbitrage pattern an AI-native human-first doctrine explicitly rejects. Transparency without geo-equity pays the same human less for the same output based on where they live. Pay should track value created, not location.
+Buffer's formula bakes in a geo-cost-of-living adjustment (90% Global, 100% High), which is the geo-arbitrage pattern the AI-native human-first doctrine rejects. The flag is partial, not absolute: in February 2022 Joel Gascoigne committed Buffer to eliminating cost-of-living bands entirely on a multi-year glide path. Buffer first compressed from four bands to two, raising 55 of 85 team members by an average of $10,265, with the eventual goal of "salaries that will not be based on location."
+
+> "Long-term goal that salaries will not be based on location."
+
+· Joel Gascoigne, *Our Vision for Location-Independent Salaries at Buffer*, joel.is/location-independent-salaries, February 25, 2022
+
+So the fuller picture: Buffer's transparency is doctrine-aligned, the geo-band formula at original capture is doctrine-misaligned, and Buffer's stated direction of travel is back toward doctrine-aligned. Compare to Outseta (ins_outseta-flat-comp-no-hierarchy-no-budgets), which arrived at the location-independent endpoint immediately without a glide path.
 
 ## Cross-references
 - ins_company-of-one-define-enough · adjacent calm-company posture
+- ins_outseta-flat-comp-no-hierarchy-no-budgets · sibling location-independent endpoint (arrived there directly)
 - ins_kesava-mandiga-workflow-collapse-not-speedup · org-design parent
+- ins_kesava-mandiga-solo-operator-billion-dollar-doctrine · doctrine parent (rule 3)

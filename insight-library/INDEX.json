@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-08T05:44:50.607Z",
+  "generated_at": "2026-05-08T06:39:22.374Z",
   "counts": {
-    "insights": 803,
+    "insights": 814,
     "operators": 460,
     "raw_sources": 209,
     "patterns": 39,
@@ -149,6 +149,40 @@
       ],
       "raw_ref": "unknown",
       "title": "37signals has run Basecamp profitably for 23 years on no outside investment"
+    },
+    {
+      "path": "insights/ins_37signals-sabbaticals-keep-attrition-at-bay.md",
+      "id": "ins_37signals-sabbaticals-keep-attrition-at-bay",
+      "operator": "David Heinemeier Hansson",
+      "co_operators": [
+        "Jason Fried"
+      ],
+      "operator_role": "Co-founder and CTO, 37signals",
+      "source_url": "https://world.hey.com/dhh/sabbaticals-keep-our-attrition-at-bay-1c20bdb1",
+      "source_type": "essay",
+      "source_title": "Sabbaticals Keep Our Attrition at Bay",
+      "source_date": "2025-10-29",
+      "captured_date": "2026-05-08",
+      "domain": [
+        "founder-craft",
+        "leadership"
+      ],
+      "lifecycle": [
+        "hiring-team-design",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_37signals-23-years-no-vc-basecamp",
+        "ins_doist-no-exit-strategy-async-since-2007",
+        "ins_knowledgeowl-25-hour-workweek-as-full-time",
+        "ins_kesava-mandiga-solo-operator-billion-dollar-doctrine"
+      ],
+      "raw_ref": "unknown",
+      "title": "37signals uses sabbaticals as the retention mechanism against the industry's atrocious 18-month tenure baseline"
     },
     {
       "path": "insights/ins_3s-content-from-sales-success-support.md",
@@ -3109,7 +3143,9 @@
       "tier": "B",
       "related": [
         "ins_company-of-one-define-enough",
-        "ins_kesava-mandiga-workflow-collapse-not-speedup"
+        "ins_kesava-mandiga-workflow-collapse-not-speedup",
+        "ins_outseta-flat-comp-no-hierarchy-no-budgets",
+        "ins_kesava-mandiga-solo-operator-billion-dollar-doctrine"
       ],
       "raw_ref": "unknown",
       "title": "Buffer published a salary formula and every employee's exact pay since December 2013"
@@ -7721,6 +7757,38 @@
       "title": "GTM teams are winning with a THIRTY-year-old technology. New AI tools can be great, but"
     },
     {
+      "path": "insights/ins_gumroad-creating-value-over-capturing-it.md",
+      "id": "ins_gumroad-creating-value-over-capturing-it",
+      "operator": "Sahil Lavingia",
+      "operator_role": "CEO and founder, Gumroad",
+      "source_url": "https://sahillavingia.com/reflecting",
+      "source_type": "essay",
+      "source_title": "Reflecting on My Failure to Build a Billion-Dollar Company",
+      "source_date": "2019-02-06",
+      "captured_date": "2026-05-08",
+      "domain": [
+        "founder-craft",
+        "leadership",
+        "strategy"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 5, specificity: 5, evidence: 5, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_gumroad-no-meetings-no-deadlines-async",
+        "ins_company-of-one-define-enough",
+        "ins_wistia-debt-buyout-investors-2017",
+        "ins_kesava-mandiga-solo-operator-billion-dollar-doctrine"
+      ],
+      "raw_ref": "unknown",
+      "title": "Sahil Lavingia: \"I am now more focused on creating value than capturing it\""
+    },
+    {
       "path": "insights/ins_gumroad-no-meetings-no-deadlines-async.md",
       "id": "ins_gumroad-no-meetings-no-deadlines-async",
       "operator": "Sahil Lavingia",
@@ -10481,6 +10549,37 @@
       "title": "Killing your own initiatives loudly is the highest-trust move with executives"
     },
     {
+      "path": "insights/ins_knowledgeowl-25-hour-workweek-as-full-time.md",
+      "id": "ins_knowledgeowl-25-hour-workweek-as-full-time",
+      "operator": "Marybeth Alexander",
+      "operator_role": "Co-founder and Chief Executive Owl, KnowledgeOwl",
+      "source_url": "https://blog.peoplefirstjobs.com/running-a-company-on-a-25-hour-workweek/",
+      "source_type": "essay",
+      "source_title": "Running a company on a 25-hour workweek",
+      "source_date": "unknown",
+      "captured_date": "2026-05-08",
+      "domain": [
+        "founder-craft",
+        "leadership"
+      ],
+      "lifecycle": [
+        "hiring-team-design",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 5, specificity: 5, evidence: 5, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_doist-no-exit-strategy-async-since-2007",
+        "ins_quaderno-five-hour-workday-for-support",
+        "ins_company-of-one-define-enough",
+        "ins_kesava-mandiga-solo-operator-billion-dollar-doctrine"
+      ],
+      "raw_ref": "unknown",
+      "title": "KnowledgeOwl runs on a 25-hour workweek as full-time, started by a customer support hire's request in 2016"
+    },
+    {
       "path": "insights/ins_krishnam-malpani-stop-writing-boring-blogs.md",
       "id": "ins_krishnam-malpani-stop-writing-boring-blogs",
       "title": "Stop writing boring blogs, make content that makes people stop scrolling.",
@@ -12062,6 +12161,38 @@
       ],
       "raw_ref": "unknown",
       "title": "MetaLab funded Flow as an in-house product without venture capital, agency revenue covered the build"
+    },
+    {
+      "path": "insights/ins_metalab-growth-shouldnt-hurt-andrew-wilkinson.md",
+      "id": "ins_metalab-growth-shouldnt-hurt-andrew-wilkinson",
+      "operator": "Andrew Wilkinson",
+      "operator_role": "Founder, MetaLab; co-founder, Tiny Capital",
+      "source_url": "https://awilkinson.medium.com/growth-shouldnt-hurt-c0f33da6dd84",
+      "source_type": "essay",
+      "source_title": "Growth Shouldn't Hurt",
+      "source_date": "2017-11-07",
+      "captured_date": "2026-05-08",
+      "domain": [
+        "founder-craft",
+        "leadership",
+        "strategy"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "hiring-team-design"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_metalab-flow-design-agency-incubates-saas",
+        "ins_company-of-one-define-enough",
+        "ins_outseta-flat-comp-no-hierarchy-no-budgets",
+        "ins_kesava-mandiga-solo-operator-billion-dollar-doctrine"
+      ],
+      "raw_ref": "unknown",
+      "title": "Andrew Wilkinson on growth: \"I told myself I'd never let the company get bigger than 10 people\""
     },
     {
       "path": "insights/ins_michele-nieberding-ai-tools-for-pmm-workflows.md",
@@ -13944,6 +14075,39 @@
       "title": "Agents push SaaS from per-seat to outcomes-based pricing; the incentive flip changes everything"
     },
     {
+      "path": "insights/ins_outseta-flat-comp-no-hierarchy-no-budgets.md",
+      "id": "ins_outseta-flat-comp-no-hierarchy-no-budgets",
+      "operator": "Geoff Roberts",
+      "operator_role": "Co-founder, Outseta",
+      "source_url": "https://www.outseta.com/posts/five-years-a-founder",
+      "source_type": "essay",
+      "source_title": "Five Years A Founder",
+      "source_date": "2024-01-01",
+      "captured_date": "2026-05-08",
+      "domain": [
+        "founder-craft",
+        "leadership",
+        "gtm"
+      ],
+      "lifecycle": [
+        "hiring-team-design",
+        "ownership-org",
+        "strategy-bets"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 5, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_knowledgeowl-25-hour-workweek-as-full-time",
+        "ins_youcanbookme-vc-as-someone-elses-business-plan",
+        "ins_doist-no-exit-strategy-async-since-2007",
+        "ins_kesava-mandiga-solo-operator-billion-dollar-doctrine"
+      ],
+      "raw_ref": "unknown",
+      "title": "Outseta runs on flat comp, equity to all on founder terms, no hierarchy, no budgets, no sales team"
+    },
+    {
       "path": "insights/ins_owned-brand-authority-organic-moat.md",
       "id": "ins_owned-brand-authority-organic-moat",
       "operator": "Lily Ray",
@@ -14334,6 +14498,41 @@
       "related": [],
       "raw_ref": "",
       "title": "Pin workflows to capabilities you re-baseline quarterly, not to a model snapshot"
+    },
+    {
+      "path": "insights/ins_planning-center-ministry-foundation.md",
+      "id": "ins_planning-center-ministry-foundation",
+      "operator": "Jeff Berg",
+      "co_operators": [
+        "Aaron Stewart"
+      ],
+      "operator_role": "CEO and co-founder, Planning Center",
+      "source_url": "https://www.planningcenter.com/about",
+      "source_type": "essay",
+      "source_title": "About — Planning Center",
+      "source_date": "2024-01-01",
+      "captured_date": "2026-05-08",
+      "domain": [
+        "founder-craft",
+        "leadership",
+        "strategy"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 5, specificity: 5, evidence: 5, transferability: 3, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_ghost-non-profit-foundation-cannot-be-acquired",
+        "ins_the-ready-employee-ownership-trust-2025",
+        "ins_text-em-all-100-percent-employee-owned",
+        "ins_kesava-mandiga-solo-operator-billion-dollar-doctrine"
+      ],
+      "raw_ref": "unknown",
+      "title": "Planning Center created the Ministry Centered Foundation in 2024 to ensure it will never be sold"
     },
     {
       "path": "insights/ins_planning-fallacy-launch-timelines.md",
@@ -15360,6 +15559,36 @@
       ],
       "raw_ref": "raw/expert-content/experts/marie-haynes.md",
       "title": "The Quality Rater Guidelines are the closest thing Google has to a public ranking roadmap"
+    },
+    {
+      "path": "insights/ins_quaderno-five-hour-workday-for-support.md",
+      "id": "ins_quaderno-five-hour-workday-for-support",
+      "operator": "Carlos Hernández Medina",
+      "operator_role": "CEO and Founder, Quaderno",
+      "source_url": "https://x.com/polimorfico/status/1308436215620947968",
+      "source_type": "thread",
+      "source_title": "Quaderno hiring: 5 hours of focused and meaningful work per day",
+      "source_date": "2020-09-22",
+      "captured_date": "2026-05-08",
+      "domain": [
+        "founder-craft",
+        "leadership"
+      ],
+      "lifecycle": [
+        "hiring-team-design",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 5, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_knowledgeowl-25-hour-workweek-as-full-time",
+        "ins_company-of-one-define-enough",
+        "ins_kesava-mandiga-solo-operator-billion-dollar-doctrine"
+      ],
+      "raw_ref": "unknown",
+      "title": "Quaderno hires customer support on a 5-hour workday, fully remote"
     },
     {
       "path": "insights/ins_qual-quant-synthesis-claude-code.md",
@@ -19771,6 +20000,37 @@
       "title": "Test positioning in a live sales pitch, marketing stories are unfalsified theory until then"
     },
     {
+      "path": "insights/ins_text-em-all-100-percent-employee-owned.md",
+      "id": "ins_text-em-all-100-percent-employee-owned",
+      "operator": "Brad Herrmann",
+      "operator_role": "Founder and CEO, Text-Em-All",
+      "source_url": "https://text-em-all.com/about-us",
+      "source_type": "essay",
+      "source_title": "About — Text-Em-All",
+      "source_date": "unknown",
+      "captured_date": "2026-05-08",
+      "domain": [
+        "founder-craft",
+        "leadership"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_ghost-non-profit-foundation-cannot-be-acquired",
+        "ins_the-ready-employee-ownership-trust-2025",
+        "ins_planning-center-ministry-foundation",
+        "ins_kesava-mandiga-solo-operator-billion-dollar-doctrine"
+      ],
+      "raw_ref": "unknown",
+      "title": "Text-Em-All converted to 100% employee ownership; founder-led 18-year SaaS now owned by the team"
+    },
+    {
       "path": "insights/ins_the-ai-forum-agent-ai-challenge-announcement.md",
       "id": "ins_the-ai-forum-agent-ai-challenge-announcement",
       "title": "Agent.ai Challenge is LIVE: $50K prizes, no-code AI builder backed by HubSpot's Dharmesh Shah.",
@@ -19792,6 +20052,38 @@
       "tier": "C",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_the-ready-employee-ownership-trust-2025.md",
+      "id": "ins_the-ready-employee-ownership-trust-2025",
+      "operator": "Aaron Dignan",
+      "operator_role": "Founder, The Ready; author, Brave New Work; writer, The Last Question",
+      "source_url": "https://thelastquestion.substack.com",
+      "source_type": "essay",
+      "source_title": "The Last Question — Aaron Dignan's Substack",
+      "source_date": "2025-09-01",
+      "captured_date": "2026-05-08",
+      "domain": [
+        "founder-craft",
+        "leadership",
+        "strategy"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ownership-org"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 5, specificity: 4, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_ghost-non-profit-foundation-cannot-be-acquired",
+        "ins_doist-no-exit-strategy-async-since-2007",
+        "ins_company-of-one-define-enough",
+        "ins_kesava-mandiga-solo-operator-billion-dollar-doctrine"
+      ],
+      "raw_ref": "unknown",
+      "title": "The Ready converted to an Employee Ownership Trust in 2025, third structural-permanence pattern in the calm-company canon"
     },
     {
       "path": "insights/ins_there-course-exceptions-caveats-well.md",
@@ -20741,6 +21033,39 @@
       ],
       "raw_ref": "raw/podcasts/amole-naik--anthropic-automating-growth--2026-04-27.md",
       "title": "Use 2 engineering weeks as the threshold for engineer-owned vs PM-owned work"
+    },
+    {
+      "path": "insights/ins_ubundi-adii-pienaar-ubuntu-ai-native-venture-studio.md",
+      "id": "ins_ubundi-adii-pienaar-ubuntu-ai-native-venture-studio",
+      "operator": "Adii Pienaar",
+      "operator_role": "Founder, Ubundi; previously co-founder of WooCommerce, Conversio, Cogsy",
+      "source_url": "https://adii.me/building-for-belonging",
+      "source_type": "essay",
+      "source_title": "Building for Belonging",
+      "source_date": "2025-06-17",
+      "captured_date": "2026-05-08",
+      "domain": [
+        "founder-craft",
+        "leadership",
+        "ai-native",
+        "strategy"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ownership-org"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 4, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_kesava-mandiga-solo-operator-billion-dollar-doctrine",
+        "ins_metalab-flow-design-agency-incubates-saas",
+        "ins_outseta-flat-comp-no-hierarchy-no-budgets",
+        "ins_run-up-the-stack"
+      ],
+      "raw_ref": "unknown",
+      "title": "Adii Pienaar founded Ubundi as an AI-native venture studio infusing Ubuntu principles into early-stage product development"
     },
     {
       "path": "insights/ins_uddhav-parab-awards-bait-system.md",
@@ -22073,6 +22398,41 @@
       "tier": "C",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_youcanbookme-vc-as-someone-elses-business-plan.md",
+      "id": "ins_youcanbookme-vc-as-someone-elses-business-plan",
+      "operator": "Bridget Harris",
+      "co_operators": [
+        "Keith Harris"
+      ],
+      "operator_role": "Co-founder and CEO, YouCanBook.Me",
+      "source_url": "https://youcanbook.me/blog/doing-it-differently-10-years-growing-a-scheduling-tool",
+      "source_type": "essay",
+      "source_title": "Doing it differently: 10 years growing a scheduling tool",
+      "source_date": "2021-01-01",
+      "captured_date": "2026-05-08",
+      "domain": [
+        "founder-craft",
+        "leadership",
+        "strategy"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_zapier-fully-remote-since-day-one",
+        "ins_doist-no-exit-strategy-async-since-2007",
+        "ins_kesava-mandiga-solo-operator-billion-dollar-doctrine",
+        "ins_company-of-one-define-enough"
+      ],
+      "raw_ref": "unknown",
+      "title": "Bridget Harris on outside money: \"you have to start to deliver someone else's business plan\""
     },
     {
       "path": "insights/ins_youtube-seo-engagement-not-links.md",

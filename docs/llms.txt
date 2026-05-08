@@ -4,7 +4,7 @@
 
 The codex is a structured corpus of cross-domain operator wisdom across product, PMM, GTM, AI-native, design, engineering, leadership, sales, growth, research, and founder craft. Every claim traces back to its primary source. Insights carry mechanism, conditions, evidence, signals, counter-evidence, and cross-references.
 
-Counts: 803 insights · 460 operators · 39 synthesis patterns · 11 contradictions · 27 playbooks · 319 tier-A claims.
+Counts: 814 insights · 460 operators · 39 synthesis patterns · 11 contradictions · 27 playbooks · 319 tier-A claims.
 
 ## Index
 
@@ -27,15 +27,15 @@ Counts: 803 insights · 460 operators · 39 synthesis patterns · 11 contradicti
 Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged with one or more domains.
 
 - [pmm](https://codex.iamkesava.com/d/pmm/) — 423 insights
-- [gtm](https://codex.iamkesava.com/d/gtm/) — 167 insights
+- [leadership](https://codex.iamkesava.com/d/leadership/) — 169 insights
+- [gtm](https://codex.iamkesava.com/d/gtm/) — 168 insights
 - [marketing](https://codex.iamkesava.com/d/marketing/) — 160 insights
-- [leadership](https://codex.iamkesava.com/d/leadership/) — 158 insights
-- [ai-native](https://codex.iamkesava.com/d/ai-native/) — 141 insights
+- [ai-native](https://codex.iamkesava.com/d/ai-native/) — 142 insights
+- [strategy](https://codex.iamkesava.com/d/strategy/) — 125 insights
 - [growth-demand](https://codex.iamkesava.com/d/growth-demand/) — 123 insights
-- [strategy](https://codex.iamkesava.com/d/strategy/) — 119 insights
 - [content](https://codex.iamkesava.com/d/content/) — 97 insights
 - [product](https://codex.iamkesava.com/d/product/) — 96 insights
-- [founder-craft](https://codex.iamkesava.com/d/founder-craft/) — 84 insights
+- [founder-craft](https://codex.iamkesava.com/d/founder-craft/) — 95 insights
 - [growth](https://codex.iamkesava.com/d/growth/) — 57 insights
 - [sales](https://codex.iamkesava.com/d/sales/) — 41 insights
 - [engineering](https://codex.iamkesava.com/d/engineering/) — 40 insights
