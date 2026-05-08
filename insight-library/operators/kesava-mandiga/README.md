@@ -1,7 +1,9 @@
 ---
 name: Kesava Mandiga
 slug: kesava-mandiga
+hidden: true
 roles:
+  - Founder, [unnamed]
   - Head of PMM, JustCall (SaaS Labs)
   - Founding PMM, Wingman (acquired by Clari)
   - First marketer, Fincent
@@ -18,9 +20,9 @@ external:
 
 ## Bio
 
-Kesava Mandiga. Product marketing operator with 20 years across support, sales, operations, social media, content, and PMM. Founding PMM at Wingman through the Clari acquisition. First marketer at Fincent. Head of PMM at JustCall. The method is the same everywhere: customer interviews, a Value Proposition Canvas (Jobs, Pains, Triggers, Gains, Solution, Evidence), then messaging where every claim traces to a quote.
+Kesava Mandiga. Product marketing operator with 20 years across support, sales, operations, social media, content, and PMM. Founding PMM at Wingman through the Clari acquisition. First marketer at Fincent. Most recently Head of PMM at JustCall. The method is the same everywhere: customer interviews, a Value Proposition Canvas (Jobs, Pains, Triggers, Gains, Solution, Evidence), then messaging where every claim traces to a quote.
 
-Builds in parallel: Flywheel (PMM operating model, on Claude Code and GitHub), the ab-codex corpus you're reading, and a personal agent ecosystem (miniu, Commons, Curiosity).
+Now solo. Resigned from JustCall in May 2026 to build full-time. Working on Flywheel (PMM operating model, on Claude Code and GitHub), the ab-codex corpus you're reading, and a personal agent ecosystem (miniu, Commons, Curiosity). Operating under the AI-native, human-first, solo-operator doctrine: the only human employee for the first six months, then add humans only when customer demand justifies it.
 
 ## Voice
 

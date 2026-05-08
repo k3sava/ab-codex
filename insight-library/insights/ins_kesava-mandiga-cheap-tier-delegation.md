@@ -2,7 +2,7 @@
 id: ins_kesava-mandiga-cheap-tier-delegation
 title: 'Cheap external model for grunt work; Claude only sees judgment'
 operator: Kesava Mandiga
-operator_role: 'Head of PMM, JustCall (SaaS Labs)'
+operator_role: 'Founder, [unnamed]'
 source_url: https://www.linkedin.com/in/k3sava/
 source_type: thread
 source_title: 'Kesava on cheap-tier delegation as routing pattern'

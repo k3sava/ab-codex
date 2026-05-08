@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-07T14:39:02.893Z",
+  "generated_at": "2026-05-08T05:28:55.915Z",
   "counts": {
-    "insights": 788,
-    "operators": 461,
+    "insights": 792,
+    "operators": 460,
     "raw_sources": 209,
     "patterns": 39,
     "contradictions": 11,
@@ -115,6 +115,40 @@
       "related": [],
       "raw_ref": "raw/expert-content/experts/cole-schafer.md",
       "title": "Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight"
+    },
+    {
+      "path": "insights/ins_37signals-23-years-no-vc-basecamp.md",
+      "id": "ins_37signals-23-years-no-vc-basecamp",
+      "operator": "Jason Fried",
+      "co_operators": [
+        "David Heinemeier Hansson"
+      ],
+      "operator_role": "CEO and co-founder, 37signals (Basecamp, HEY)",
+      "source_url": "https://basecamp.com/about",
+      "source_type": "essay",
+      "source_title": "About — 37signals",
+      "source_date": "unknown",
+      "captured_date": "2026-05-08",
+      "domain": [
+        "founder-craft",
+        "leadership",
+        "strategy"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_company-of-one-define-enough",
+        "ins_shape-up-appetite-not-estimate",
+        "ins_kesava-mandiga-workflow-collapse-not-speedup"
+      ],
+      "raw_ref": "unknown",
+      "title": "37signals has run Basecamp profitably for 23 years on no outside investment"
     },
     {
       "path": "insights/ins_3s-content-from-sales-success-support.md",
@@ -2300,6 +2334,36 @@
       "title": "Your audience is a manifestation of the content you produce"
     },
     {
+      "path": "insights/ins_automattic-distributed-since-2005-81-countries.md",
+      "id": "ins_automattic-distributed-since-2005-81-countries",
+      "operator": "Matt Mullenweg",
+      "operator_role": "CEO and founder, Automattic; co-founder, WordPress",
+      "source_url": "https://automattic.com/work-with-us/",
+      "source_type": "essay",
+      "source_title": "Work With Us — Automattic",
+      "source_date": "unknown",
+      "captured_date": "2026-05-08",
+      "domain": [
+        "founder-craft",
+        "leadership"
+      ],
+      "lifecycle": [
+        "hiring-team-design",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_zapier-fully-remote-since-day-one",
+        "ins_company-of-one-define-enough",
+        "ins_kesava-mandiga-workflow-collapse-not-speedup"
+      ],
+      "raw_ref": "unknown",
+      "title": "Automattic has been distributed-first since 2005, scaling to 1,449 people across 81 countries"
+    },
+    {
       "path": "insights/ins_avinash-raghava-indian-ai-founders-disrupt-no-code.md",
       "id": "ins_avinash-raghava-indian-ai-founders-disrupt-no-code",
       "title": "Indian AI founders can use deep tech to disrupt the no-code movement at scale.",
@@ -2987,6 +3051,36 @@
       "related": [],
       "raw_ref": "raw/expert-content/experts/debbie-millman.md",
       "title": "Brands are tribal identifiers. Loyalty is affiliative, not rational."
+    },
+    {
+      "path": "insights/ins_buffer-published-salary-formula-2013.md",
+      "id": "ins_buffer-published-salary-formula-2013",
+      "operator": "Joel Gascoigne",
+      "operator_role": "CEO and co-founder, Buffer",
+      "source_url": "https://buffer.com/salaries",
+      "source_type": "essay",
+      "source_title": "Open Salaries at Buffer",
+      "source_date": "2024-01-01",
+      "captured_date": "2026-05-08",
+      "domain": [
+        "founder-craft",
+        "leadership",
+        "gtm"
+      ],
+      "lifecycle": [
+        "hiring-team-design",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_company-of-one-define-enough",
+        "ins_kesava-mandiga-workflow-collapse-not-speedup"
+      ],
+      "raw_ref": "unknown",
+      "title": "Buffer published a salary formula and every employee's exact pay since December 2013"
     },
     {
       "path": "insights/ins_build-for-model-six-months-out.md",
@@ -4372,6 +4466,42 @@
       "title": "Iconic brands compete for culture share, not market share, they soothe collective anxieties through identity myths"
     },
     {
+      "path": "insights/ins_cursor-product-led-to-2b-arr-no-sales.md",
+      "id": "ins_cursor-product-led-to-2b-arr-no-sales",
+      "operator": "Michael Truell",
+      "co_operators": [
+        "Sualeh Asif",
+        "Aman Sanger",
+        "Arvid Lunnemark"
+      ],
+      "operator_role": "CEO and co-founder, Anysphere (Cursor)",
+      "source_url": "https://www.lennysnewsletter.com/p/the-rise-of-cursor-michael-truell",
+      "source_type": "podcast",
+      "source_title": "The rise of Cursor — Michael Truell on Lenny's Podcast",
+      "source_date": "2025-11-21",
+      "captured_date": "2026-05-08",
+      "domain": [
+        "ai-native",
+        "gtm",
+        "product"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "gtm-motion"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 5, specificity: 5, evidence: 5, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_generalists-over-specialists-ai-native",
+        "ins_rebuild-gtm-around-ai",
+        "ins_kesava-mandiga-workflow-collapse-not-speedup"
+      ],
+      "raw_ref": "unknown",
+      "title": "Cursor reached $2B ARR through pure product-led adoption with no traditional sales motion"
+    },
+    {
       "path": "insights/ins_customer-led-growth-experience-map.md",
       "id": "ins_customer-led-growth-experience-map",
       "operator": "Georgiana Laudi",
@@ -5271,6 +5401,37 @@
       ],
       "raw_ref": "raw/expert-content/experts/matt-dixon.md",
       "title": "53% of customer loyalty is driven by the sales experience itself, not brand, product, price, or service"
+    },
+    {
+      "path": "insights/ins_doist-no-exit-strategy-async-since-2007.md",
+      "id": "ins_doist-no-exit-strategy-async-since-2007",
+      "operator": "Amir Salihefendić",
+      "operator_role": "CEO and founder, Doist (Todoist, Twist)",
+      "source_url": "https://doist.com/how-we-work/no-exit-strategy",
+      "source_type": "essay",
+      "source_title": "Why We Don't Have an Exit Strategy",
+      "source_date": "unknown",
+      "captured_date": "2026-05-08",
+      "domain": [
+        "founder-craft",
+        "leadership",
+        "strategy"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ownership-org",
+        "hiring-team-design"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_company-of-one-define-enough",
+        "ins_kesava-mandiga-workflow-collapse-not-speedup"
+      ],
+      "raw_ref": "unknown",
+      "title": "Doist rejected an exit strategy in 2009 and has been async-and-remote-first since founding"
     },
     {
       "path": "insights/ins_don-care-how-awesome-prompting.md",
@@ -6398,6 +6559,39 @@
       "title": "Five things CEO, CMO, CRO, and PMM will never agree on"
     },
     {
+      "path": "insights/ins_float-bootstrapped-distributed-bcorp.md",
+      "id": "ins_float-bootstrapped-distributed-bcorp",
+      "operator": "Glenn Rogers",
+      "co_operators": [
+        "Lars Gelfan"
+      ],
+      "operator_role": "Co-founder, Float",
+      "source_url": "https://www.float.com/about",
+      "source_type": "essay",
+      "source_title": "About — Float",
+      "source_date": "2024-03-01",
+      "captured_date": "2026-05-08",
+      "domain": [
+        "founder-craft",
+        "leadership",
+        "gtm"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_company-of-one-define-enough",
+        "ins_kesava-mandiga-workflow-collapse-not-speedup"
+      ],
+      "raw_ref": "unknown",
+      "title": "Float bootstrapped to 4,500+ customers as a globally distributed B Corp without venture capital"
+    },
+    {
       "path": "insights/ins_flywheel-ai-cross-functional-pod.md",
       "id": "ins_flywheel-ai-cross-functional-pod",
       "operator": "Kieran Flanagan",
@@ -7323,6 +7517,37 @@
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md",
       "title": "GTM teams are winning with a THIRTY-year-old technology. New AI tools can be great, but"
+    },
+    {
+      "path": "insights/ins_gumroad-no-meetings-no-deadlines-async.md",
+      "id": "ins_gumroad-no-meetings-no-deadlines-async",
+      "operator": "Sahil Lavingia",
+      "operator_role": "CEO and founder, Gumroad",
+      "source_url": "https://sahillavingia.com/work",
+      "source_type": "essay",
+      "source_title": "Work at Gumroad",
+      "source_date": "2021-01-07",
+      "captured_date": "2026-05-08",
+      "domain": [
+        "founder-craft",
+        "leadership",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "hiring-team-design",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_company-of-one-define-enough",
+        "ins_generalists-over-specialists-ai-native",
+        "ins_kesava-mandiga-workflow-collapse-not-speedup"
+      ],
+      "raw_ref": "unknown",
+      "title": "Gumroad runs as 25 contractors with zero full-time employees, no meetings, no deadlines"
     },
     {
       "path": "insights/ins_hallucinations-when-makes-things-thinks.md",
@@ -9660,7 +9885,7 @@
       "id": "ins_kesava-mandiga-anti-fabrication-as-rule",
       "title": "If you can't trace a claim to a source, write \"unverified\" and stop",
       "operator": "Kesava Mandiga",
-      "operator_role": "Head of PMM, JustCall (SaaS Labs)",
+      "operator_role": "Founder, [unnamed]",
       "source_url": "https://www.linkedin.com/in/k3sava/",
       "source_type": "thread",
       "source_title": "Kesava on anti-fabrication as a portfolio rule",
@@ -9681,14 +9906,15 @@
       "related": [
         "ins_kesava-mandiga-substrate-driven-intelligence"
       ],
-      "raw_ref": "../wiki/concepts/anti-fabrication.md"
+      "raw_ref": "../wiki/concepts/anti-fabrication.md",
+      "hidden": true
     },
     {
       "path": "insights/ins_kesava-mandiga-cheap-tier-delegation.md",
       "id": "ins_kesava-mandiga-cheap-tier-delegation",
       "title": "Cheap external model for grunt work; Claude only sees judgment",
       "operator": "Kesava Mandiga",
-      "operator_role": "Head of PMM, JustCall (SaaS Labs)",
+      "operator_role": "Founder, [unnamed]",
       "source_url": "https://www.linkedin.com/in/k3sava/",
       "source_type": "thread",
       "source_title": "Kesava on cheap-tier delegation as routing pattern",
@@ -9709,7 +9935,8 @@
       "related": [
         "ins_kesava-mandiga-workflow-collapse-not-speedup"
       ],
-      "raw_ref": "../delegation/README.md"
+      "raw_ref": "../delegation/README.md",
+      "hidden": true
     },
     {
       "path": "insights/ins_kesava-mandiga-repositioning-commits-to-one-buyer.md",
@@ -9736,14 +9963,65 @@
       "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
       "tier": "A",
       "related": [],
-      "raw_ref": "../wiki/projects/portfolio-foundation.md"
+      "raw_ref": "../wiki/projects/portfolio-foundation.md",
+      "hidden": true
+    },
+    {
+      "path": "insights/ins_kesava-mandiga-solo-operator-billion-dollar-doctrine.md",
+      "id": "ins_kesava-mandiga-solo-operator-billion-dollar-doctrine",
+      "title": "AI-native, human-first, solo-operator: the path to a one-person billion-dollar company",
+      "operator": "Kesava Mandiga",
+      "operator_role": "Founder, [unnamed]",
+      "source_url": "https://www.linkedin.com/in/k3sava/",
+      "source_type": "thread",
+      "source_title": "Kesava on the AI-native human-first solo-operator doctrine",
+      "source_date": "2026-05-08",
+      "captured_date": "2026-05-08",
+      "domain": [
+        "ai-native",
+        "gtm",
+        "pmm",
+        "leadership",
+        "founder-craft"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ownership-org",
+        "hiring-team-design"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "A",
+      "related": [
+        "ins_kesava-mandiga-workflow-collapse-not-speedup",
+        "ins_kesava-mandiga-substrate-driven-intelligence",
+        "ins_kesava-mandiga-cheap-tier-delegation",
+        "ins_run-up-the-stack",
+        "ins_outcomes-pricing-restructures-saas",
+        "ins_rebuild-gtm-around-ai",
+        "ins_generalists-over-specialists-ai-native",
+        "ins_buffer-published-salary-formula-2013",
+        "ins_37signals-23-years-no-vc-basecamp",
+        "ins_doist-no-exit-strategy-async-since-2007",
+        "ins_gumroad-no-meetings-no-deadlines-async",
+        "ins_cursor-product-led-to-2b-arr-no-sales",
+        "ins_zapier-fully-remote-since-day-one",
+        "ins_automattic-distributed-since-2005-81-countries",
+        "ins_float-bootstrapped-distributed-bcorp",
+        "ins_metalab-flow-design-agency-incubates-saas",
+        "ins_company-of-one-define-enough",
+        "ins_embedded-entrepreneur"
+      ],
+      "raw_ref": "unknown",
+      "hidden": true
     },
     {
       "path": "insights/ins_kesava-mandiga-substrate-driven-intelligence.md",
       "id": "ins_kesava-mandiga-substrate-driven-intelligence",
       "title": "Files first, vibes never. The substrate IS the work.",
       "operator": "Kesava Mandiga",
-      "operator_role": "Head of PMM, JustCall (SaaS Labs)",
+      "operator_role": "Founder, [unnamed]",
       "source_url": "https://www.linkedin.com/in/k3sava/",
       "source_type": "thread",
       "source_title": "Kesava on substrate-driven intelligence",
@@ -9766,14 +10044,15 @@
         "ins_kesava-mandiga-anti-fabrication-as-rule",
         "ins_kesava-mandiga-workflow-collapse-not-speedup"
       ],
-      "raw_ref": "../wiki/CLAUDE.md"
+      "raw_ref": "../wiki/CLAUDE.md",
+      "hidden": true
     },
     {
       "path": "insights/ins_kesava-mandiga-workflow-collapse-not-speedup.md",
       "id": "ins_kesava-mandiga-workflow-collapse-not-speedup",
       "title": "AI-native isn't doing the same job faster, it's collapsing roles",
       "operator": "Kesava Mandiga",
-      "operator_role": "Head of PMM, JustCall (SaaS Labs)",
+      "operator_role": "Founder, [unnamed]",
       "source_url": "https://www.linkedin.com/in/k3sava/",
       "source_type": "thread",
       "source_title": "Kesava on workflow collapse vs workflow speedup",
@@ -9796,7 +10075,8 @@
         "ins_kesava-mandiga-substrate-driven-intelligence",
         "ins_kesava-mandiga-cheap-tier-delegation"
       ],
-      "raw_ref": "../wiki/concepts/ai-native-pmm-practice.md"
+      "raw_ref": "../wiki/concepts/ai-native-pmm-practice.md",
+      "hidden": true
     },
     {
       "path": "insights/ins_keshav-goyal-whatsapp-community-for-marketers.md",
@@ -11478,6 +11758,37 @@
       "related": [],
       "raw_ref": "",
       "title": "Meta's MCP endpoints for ad buying turn smaller advertisers into early winners"
+    },
+    {
+      "path": "insights/ins_metalab-flow-design-agency-incubates-saas.md",
+      "id": "ins_metalab-flow-design-agency-incubates-saas",
+      "operator": "Andrew Wilkinson",
+      "operator_role": "Founder, MetaLab; co-founder, Tiny Capital",
+      "source_url": "https://techcrunch.com/2011/03/22/metalab-launches-flow-a-beautiful-tool-for-task-management/",
+      "source_type": "essay",
+      "source_title": "MetaLab Launches Flow, A Beautiful Tool For Task Management",
+      "source_date": "2011-03-22",
+      "captured_date": "2026-05-08",
+      "domain": [
+        "founder-craft",
+        "leadership",
+        "strategy"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_company-of-one-define-enough",
+        "ins_embedded-entrepreneur",
+        "ins_kesava-mandiga-workflow-collapse-not-speedup"
+      ],
+      "raw_ref": "unknown",
+      "title": "MetaLab funded Flow as an in-house product without venture capital, agency revenue covered the build"
     },
     {
       "path": "insights/ins_michele-nieberding-ai-tools-for-pmm-workflows.md",
@@ -21412,6 +21723,41 @@
       "title": "Video SEO is a different sport, YouTube ranks on engagement, not link authority"
     },
     {
+      "path": "insights/ins_zapier-fully-remote-since-day-one.md",
+      "id": "ins_zapier-fully-remote-since-day-one",
+      "operator": "Wade Foster",
+      "co_operators": [
+        "Bryan Helmig",
+        "Mike Knoop"
+      ],
+      "operator_role": "CEO and co-founder, Zapier",
+      "source_url": "https://zapier.com/about",
+      "source_type": "essay",
+      "source_title": "About — Zapier",
+      "source_date": "unknown",
+      "captured_date": "2026-05-08",
+      "domain": [
+        "founder-craft",
+        "leadership",
+        "gtm"
+      ],
+      "lifecycle": [
+        "hiring-team-design",
+        "ownership-org",
+        "strategy-bets"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 3, specificity: 5, evidence: 5, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_company-of-one-define-enough",
+        "ins_kesava-mandiga-workflow-collapse-not-speedup"
+      ],
+      "raw_ref": "unknown",
+      "title": "Zapier ran fully remote since day one and scaled to 800+ people across 38 countries without an office"
+    },
+    {
       "path": "insights/ins_zappos-rotation-through-support.md",
       "id": "ins_zappos-rotation-through-support",
       "operator": "Tony Hsieh",
@@ -25991,7 +26337,9 @@
       "path": "operators/kesava-mandiga/README.md",
       "name": "Kesava Mandiga",
       "slug": "kesava-mandiga",
+      "hidden": "true",
       "roles": [
+        "Founder, [unnamed]",
         "Head of PMM, JustCall (SaaS Labs)",
         "Founding PMM, Wingman (acquired by Clari)",
         "First marketer, Fincent",

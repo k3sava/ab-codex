@@ -17,7 +17,10 @@ const tierBadge = t => `<span class="tier tier-${t}">tier ${t}</span>`;
 async function loadIndex(){
   const res = await fetch('insight-library/INDEX.json');
   const data = await res.json();
-  cards = (data.insights||[]).map(i => ({
+  // Filter out items flagged hidden:true so the SPA never lists, searches,
+  // or routes to them. Hidden items remain in INDEX.json for agents that
+  // fetch the json directly.
+  cards = (data.insights||[]).filter(i => !i.hidden).map(i => ({
     id:i.id, claim:i.title, operator:i.operator||'unknown', operator_slug:slugify(i.operator),
     operator_role:i.operator_role||'', source_url:i.source_url||'', source_title:i.source_title||'',
     source_date:i.source_date||'', source_type:i.source_type||'',
@@ -26,7 +29,7 @@ async function loadIndex(){
     lifecycle:Array.isArray(i.lifecycle)?i.lifecycle:(i.lifecycle?[i.lifecycle]:[]),
     tier:i.tier||'C', related:Array.isArray(i.related)?i.related:[], path:i.path
   }));
-  operators = (data.operators||[]).map(o => ({
+  operators = (data.operators||[]).filter(o => !o.hidden).map(o => ({
     name:o.name||o.title||'', slug:o.slug||slugify(o.name||o.title||''),
     roles:Array.isArray(o.roles)?o.roles:[],
     domains_active:Array.isArray(o.domains_active)?o.domains_active:[], path:o.path

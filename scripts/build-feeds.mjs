@@ -27,10 +27,14 @@ async function main(){
   push(`${SITE_URL}/patterns/`, today, 0.8, "weekly");
   push(`${SITE_URL}/playbooks/`, today, 0.7, "weekly");
   push(`${SITE_URL}/today/`, today, 0.9, "daily");
+  // Hidden insights/operators are excluded from sitemap so search engines
+  // and AI crawlers don't index URLs that build-static doesn't generate.
   for (const i of INDEX.insights){
+    if (i.hidden) continue;
     push(`${SITE_URL}/ins/${i.id}/`, i.captured_date || i.source_date, 0.7, "monthly");
   }
   for (const o of INDEX.operators){
+    if (o.hidden) continue;
     push(`${SITE_URL}/o/${o.slug}/`, o.captured_first || today, 0.6, "monthly");
   }
   for (const p of INDEX.patterns){
@@ -45,9 +49,9 @@ async function main(){
   for (const d of (INDEX.daily || [])){
     push(`${SITE_URL}/today/${d.date}/`, d.date, 0.6, "monthly");
   }
-  // Domain pages — one per unique domain referenced by any insight.
+  // Domain pages — one per unique domain referenced by any visible insight.
   const domSet = new Set();
-  for (const i of INDEX.insights){ for (const d of (i.domain || [])) domSet.add(d); }
+  for (const i of INDEX.insights){ if (!i.hidden) for (const d of (i.domain || [])) domSet.add(d); }
   for (const dom of [...domSet].sort()){
     push(`${SITE_URL}/d/${dom}/`, today, 0.7, "weekly");
   }
@@ -291,19 +295,23 @@ ${items}
   // === llms.txt — generated. Adds per-domain entry points + tier-A roll-up
   // so AI agents can fetch a single index and resolve to the right corner of
   // the corpus by domain or tier without parsing the full INDEX.json. ===
+  // Hidden insights/operators are excluded from llms.txt counts and domain
+  // index so AI agents fetching the file see only the visible corpus.
+  const visibleInsightsForFeeds = INDEX.insights.filter(i => !i.hidden);
+  const visibleOperatorsForFeeds = INDEX.operators.filter(o => !o.hidden);
   const domainCounts = new Map();
-  for (const i of INDEX.insights){
+  for (const i of visibleInsightsForFeeds){
     for (const d of (i.domain || [])) domainCounts.set(d, (domainCounts.get(d) || 0) + 1);
   }
   const domainsSorted = [...domainCounts.entries()].sort((a, b) => b[1] - a[1]);
-  const tierACount = INDEX.insights.filter(i => i.tier === "A").length;
+  const tierACount = visibleInsightsForFeeds.filter(i => i.tier === "A").length;
   const llms = `# A builder's codex
 
 > A primary-source library of operator insights. Atomic claims, named operators, verifiable sources.
 
 The codex is a structured corpus of cross-domain operator wisdom across product, PMM, GTM, AI-native, design, engineering, leadership, sales, growth, research, and founder craft. Every claim traces back to its primary source. Insights carry mechanism, conditions, evidence, signals, counter-evidence, and cross-references.
 
-Counts: ${INDEX.insights.length} insights · ${INDEX.operators.length} operators · ${(INDEX.patterns || []).length} synthesis patterns · ${(INDEX.contradictions || []).length} contradictions · ${(INDEX.playbooks || []).length} playbooks · ${tierACount} tier-A claims.
+Counts: ${visibleInsightsForFeeds.length} insights · ${visibleOperatorsForFeeds.length} operators · ${(INDEX.patterns || []).length} synthesis patterns · ${(INDEX.contradictions || []).length} contradictions · ${(INDEX.playbooks || []).length} playbooks · ${tierACount} tier-A claims.
 
 ## Index
 
@@ -377,6 +385,7 @@ Last updated: ${today}.
   // search covers the entire corpus.
   const searchIndex = [];
   for (const i of INDEX.insights){
+    if (i.hidden) continue;
     searchIndex.push({
       type: "insight", id: i.id, title: i.title || i.id,
       operator: i.operator || "", domain: i.domain || [],
@@ -385,6 +394,7 @@ Last updated: ${today}.
     });
   }
   for (const o of INDEX.operators){
+    if (o.hidden) continue;
     searchIndex.push({
       type: "operator", slug: o.slug, name: o.name || o.slug,
       domains: o.domains_active || [],

@@ -118,13 +118,16 @@ function escapeAttr(s){ return s.replace(/"/g, "&quot;"); }
 // link text so readers see meaning, not slugs.
 function rewriteBodyLinks(html, INDEX){
   // 1. Markdown link href rewriting (path → canonical URL).
+  // Hidden insights/operators are treated as "not found" so links stay
+  // as the original href (typically a relative md path) rather than
+  // becoming a live link to a non-rendered page.
   html = html.replace(/href="([^"]+)"/g, (m, href) => {
     if (href.startsWith("#") || /^https?:/.test(href) || href.startsWith("mailto:")) return m;
     const norm = href.replace(/^\.\//, "").replace(/^insight-library\//, "").toLowerCase();
     const ins = INDEX.insights.find(c => (c.path || "").toLowerCase() === norm);
-    if (ins) return `href="${SITE_URL}/ins/${ins.id}/"`;
+    if (ins && !ins.hidden) return `href="${SITE_URL}/ins/${ins.id}/"`;
     const op = INDEX.operators.find(o => (o.path || "").toLowerCase() === norm);
-    if (op) return `href="${SITE_URL}/o/${op.slug}/"`;
+    if (op && !op.hidden) return `href="${SITE_URL}/o/${op.slug}/"`;
     const pat = INDEX.patterns.find(p => (p.path || "").toLowerCase() === norm);
     if (pat && pat.id) return `href="${SITE_URL}/pat/${pat.id}/"`;
     const con = INDEX.contradictions.find(c => (c.path || "").toLowerCase() === norm);
@@ -165,6 +168,8 @@ function rewriteBodyLinks(html, INDEX){
 
   // 3. Inline <code>ins_X</code> / <code>pat_X</code> / <code>con_X</code>
   //    that map to a known resource → wrap in an <a> with the resource title.
+  //    Hidden insights render as plain text (no link) so the cross-reference
+  //    surface visibly degrades but doesn't 404.
   html = html.replace(/<code>([^<]+)<\/code>/g, (m, text) => {
     const t = (text || "").trim();
     const lower = t.toLowerCase();
@@ -172,7 +177,8 @@ function rewriteBodyLinks(html, INDEX){
       `<a class="inline-cross-ref" href="${route}">${escapeHtml(title)}</a>`;
     if (lower.startsWith("ins_")){
       const ins = INDEX.insights.find(i => i.id && i.id.toLowerCase() === lower);
-      if (ins) return wrap(`${SITE_URL}/ins/${ins.id}/`, ins.title || ins.id);
+      if (ins && !ins.hidden) return wrap(`${SITE_URL}/ins/${ins.id}/`, ins.title || ins.id);
+      if (ins && ins.hidden) return `<span class="inline-cross-ref-hidden">${escapeHtml(ins.title || ins.id)}</span>`;
     } else if (lower.startsWith("pat_")){
       const p = INDEX.patterns.find(x => x.id && x.id.toLowerCase() === lower);
       if (p) return wrap(`${SITE_URL}/pat/${p.id}/`, p.title || p.id);
@@ -334,6 +340,7 @@ async function main(){
 
   // === insights ===
   for (const i of INDEX.insights){
+    if (i.hidden) continue; // operator-flagged hide; skip page generation
     const filePath = join(LIB, i.path);
     if (!existsSync(filePath)) continue;
     const text = await readFile(filePath, "utf8");
@@ -427,13 +434,14 @@ async function main(){
 
   // === operators ===
   for (const op of INDEX.operators){
+    if (op.hidden) continue; // operator-flagged hide; skip profile page
     const filePath = join(LIB, op.path);
     if (!existsSync(filePath)) continue;
     const text = await readFile(filePath, "utf8");
     const { body } = parseFrontmatter(text);
     const cleaned = body.replace(/^#\s+[^\n]+\n+/, "");
     const renderedBody = rewriteBodyLinks(mdToHtml(cleaned), INDEX);
-    const cards = INDEX.insights.filter(i => (i.operator || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") === op.slug || (Array.isArray(i.co_operators) && i.co_operators.some(co => co.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") === op.slug)));
+    const cards = INDEX.insights.filter(i => !i.hidden && ((i.operator || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") === op.slug || (Array.isArray(i.co_operators) && i.co_operators.some(co => co.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") === op.slug))));
     // Cards by this operator (primary + co-author) as an a11y-friendly grid.
     const cardsList = cards.length ? `<h2>Insights · ${cards.length}</h2><div class="static-cards-grid">${cards.map(c => `<a class="static-card" href="${SITE_URL}/ins/${c.id}/"><div class="tier">Tier ${c.tier || "C"} · ${(c.domain||[]).slice(0,2).join(" · ") || "·"}</div><div class="static-card-title">${escapeHtml(c.title || c.id)}</div></a>`).join("")}</div>` : "";
     const externalLinks = (op.external && typeof op.external === "object")
@@ -555,7 +563,7 @@ async function main(){
       const text = buf.join(" ").slice(0, 400);
       if (text) steps.push({ "@type": "HowToStep", "position": steps.length + 1, "name": name, "text": text, "url": `${SITE_URL}/play/${p.id}/#step-${steps.length + 1}` });
     }
-    const cardsForPlaybook = (p.uses_cards || []).slice(0, 8).map(cid => INDEX.insights.find(i => i.id === cid)).filter(Boolean);
+    const cardsForPlaybook = (p.uses_cards || []).slice(0, 8).map(cid => INDEX.insights.find(i => i.id === cid)).filter(Boolean).filter(c => !c.hidden);
     const opsForPlaybook = [...new Set((p.originating_operators || []).concat(cardsForPlaybook.map(c => c.operator).filter(Boolean)))];
     const howTo = {
       "@type": "HowTo",
@@ -697,11 +705,13 @@ async function main(){
   // Each is a CollectionPage + DefinedTerm so AI agents and crawlers can
   // resolve domain names to definitions and a curated list of insights.
   {
+    // Hidden insights are excluded from domain pages so the public taxonomy
+    // matches what the SPA, sitemap, and llms.txt surface.
     const domSet = new Set();
-    for (const i of INDEX.insights){ for (const d of (i.domain || [])) domSet.add(d); }
+    for (const i of INDEX.insights){ if (!i.hidden) for (const d of (i.domain || [])) domSet.add(d); }
     const domains = [...domSet].sort();
     for (const dom of domains){
-      const cardsInDom = INDEX.insights.filter(i => (i.domain || []).includes(dom));
+      const cardsInDom = INDEX.insights.filter(i => !i.hidden && (i.domain || []).includes(dom));
       const opsInDom = new Set(cardsInDom.map(c => c.operator).filter(Boolean));
       const patsInDom = (INDEX.patterns || []).filter(p => (p.domains || []).includes(dom));
       const adj = new Map();

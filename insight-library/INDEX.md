@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-05-07. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-05-08. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 788 insight cards
+- 798 insight cards
 - 461 operator profiles
 - 209 raw source files
 - 39 synthesis patterns
@@ -12,7 +12,7 @@ _Generated 2026-05-07. Auto-built from frontmatter — do not edit by hand._
 
 ## Insights by tier
 
-### Tier A (324)
+### Tier A (325)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -145,6 +145,7 @@ _Generated 2026-05-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_kesava-mandiga-anti-fabrication-as-rule`](insights/ins_kesava-mandiga-anti-fabrication-as-rule.md) — If you can't trace a claim to a source, write "unverified" and stop _(Kesava Mandiga)_
 - [`ins_kesava-mandiga-cheap-tier-delegation`](insights/ins_kesava-mandiga-cheap-tier-delegation.md) — Cheap external model for grunt work; Claude only sees judgment _(Kesava Mandiga)_
 - [`ins_kesava-mandiga-repositioning-commits-to-one-buyer`](insights/ins_kesava-mandiga-repositioning-commits-to-one-buyer.md) — Repositioning doesn't work until you cut three buyers and pick one _(Kesava Mandiga)_
+- [`ins_kesava-mandiga-solo-operator-billion-dollar-doctrine`](insights/ins_kesava-mandiga-solo-operator-billion-dollar-doctrine.md) — AI-native, human-first, solo-operator: the path to a one-person billion-dollar company _(Kesava Mandiga)_
 - [`ins_kesava-mandiga-substrate-driven-intelligence`](insights/ins_kesava-mandiga-substrate-driven-intelligence.md) — Files first, vibes never. The substrate IS the work. _(Kesava Mandiga)_
 - [`ins_kesava-mandiga-workflow-collapse-not-speedup`](insights/ins_kesava-mandiga-workflow-collapse-not-speedup.md) — AI-native isn't doing the same job faster, it's collapsing roles _(Kesava Mandiga)_
 - [`ins_key-challenge-will-actually-getting`](insights/ins_key-challenge-will-actually-getting.md) — The key challenge will be actually getting in front of our target audience _(Rory Woodbridge)_
@@ -338,10 +339,11 @@ _Generated 2026-05-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (392)
+### Tier B (401)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
+- [`ins_37signals-23-years-no-vc-basecamp`](insights/ins_37signals-23-years-no-vc-basecamp.md) — 37signals has run Basecamp profitably for 23 years on no outside investment _(Jason Fried)_
 - [`ins_3s-content-from-sales-success-support`](insights/ins_3s-content-from-sales-success-support.md) — Source content briefs from Sales, Success, and Support, not keyword tools _(Brendan Hufford)_
 - [`ins_95-5-rule-content-resonance`](insights/ins_95-5-rule-content-resonance.md) — Most content should serve the 95% who aren't buying yet, not the 5% who are _(Devin Reed)_
 - [`ins_aakrit-vaish-indian-ai-founders-not-behind`](insights/ins_aakrit-vaish-indian-ai-founders-not-behind.md) — India's AI advantage is applied, not foundational, and that's where founders should bet _(Aakrit Vaish)_
@@ -385,6 +387,7 @@ _Generated 2026-05-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ask-revenue-impact-how-much`](insights/ins_ask-revenue-impact-how-much.md) — Fix weak messaging by reordering, value, then benefit, then feature _(Richard King)_
 - [`ins_audience-community-product`](insights/ins_audience-community-product.md) — Audience first, Community second, Product last, and AI makes the inversion much faster _(Greg Isenberg)_
 - [`ins_audience-mirrors-content-tone`](insights/ins_audience-mirrors-content-tone.md) — Your audience is a manifestation of the content you produce _(Devran Karaca)_
+- [`ins_automattic-distributed-since-2005-81-countries`](insights/ins_automattic-distributed-since-2005-81-countries.md) — Automattic has been distributed-first since 2005, scaling to 1,449 people across 81 countries _(Matt Mullenweg)_
 - [`ins_avinash-raghava-indian-ai-founders-disrupt-no-code`](insights/ins_avinash-raghava-indian-ai-founders-disrupt-no-code.md) — Indian AI founders can use deep tech to disrupt the no-code movement at scale. _(Avinash Raghava)_
 - [`ins_ayush-barnwal-pmm-multiplies-results`](insights/ins_ayush-barnwal-pmm-multiplies-results.md) — PMM involvement multiplies design outcomes 3-4x through positioning and messaging _(Ayush Barnwal)_
 - [`ins_b2b-landing-page-consumption`](insights/ins_b2b-landing-page-consumption.md) — Conversion isn't the goal of a B2B landing page, consumption is. Send them to the next section. _(Tas Bober)_
@@ -403,6 +406,7 @@ _Generated 2026-05-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_bogdan-tyskyy-data-foundation-for-ai-agents`](insights/ins_bogdan-tyskyy-data-foundation-for-ai-agents.md) — Data foundation determines AI agent value delivery. _(Bogdan Tyskyy)_
 - [`ins_brand-coefficient-multiplier`](insights/ins_brand-coefficient-multiplier.md) — Brand is the force multiplier on demand gen, strengthen the brand coefficient, not just spend more on ads _(Sam Kuehnle)_
 - [`ins_brands-as-tribal-identifiers`](insights/ins_brands-as-tribal-identifiers.md) — Brands are tribal identifiers. Loyalty is affiliative, not rational. _(Debbie Millman)_
+- [`ins_buffer-published-salary-formula-2013`](insights/ins_buffer-published-salary-formula-2013.md) — Buffer published a salary formula and every employee's exact pay since December 2013 _(Joel Gascoigne)_
 - [`ins_build-products-that-dont-yet-work`](insights/ins_build-products-that-dont-yet-work.md) — Build products at the edge of what does not yet work _(Cat Wu)_
 - [`ins_build-quietly`](insights/ins_build-quietly.md) — Best work is done alone and quietly, caveat: only if you already have a network _(Qasar Younis)_
 - [`ins_buy-boring-businesses`](insights/ins_buy-boring-businesses.md) — Buying eliminates the Valley of Death, the highest-risk phase of entrepreneurship is already done _(Codie Sanchez)_
@@ -434,6 +438,7 @@ _Generated 2026-05-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_crawlability-shapes-everything`](insights/ins_crawlability-shapes-everything.md) — In the AI-search era, crawlability shapes everything _(Aleyda Solis)_
 - [`ins_creative-is-the-spike`](insights/ins_creative-is-the-spike.md) — Media buying is the setter; creative is the hitter, the score comes from creative _(Andrew Faris)_
 - [`ins_criticize-in-public`](insights/ins_criticize-in-public.md) — Establish enough trust to critique and debate in public, not "praise public, criticize private" _(Jeetu Patel)_
+- [`ins_cursor-product-led-to-2b-arr-no-sales`](insights/ins_cursor-product-led-to-2b-arr-no-sales.md) — Cursor reached $2B ARR through pure product-led adoption with no traditional sales motion _(Michael Truell)_
 - [`ins_dani-romain-building-with-heart`](insights/ins_dani-romain-building-with-heart.md) — Scaling a GTM engine requires both speed and heart, not just hustle. _(Dani Romain)_
 - [`ins_daniel-cmejla-customer-marketing-is-new-product-marketing`](insights/ins_daniel-cmejla-customer-marketing-is-new-product-marketing.md) — Customer Marketing is the new Product Marketing because harnessing customer sentiment reveals the truth of how to market. _(Daniel Cmejla)_
 - [`ins_daniel-matias-one-call-close-system`](insights/ins_daniel-matias-one-call-close-system.md) — The One-Call Close System eliminates the 60+ day sales cycle by combining discovery, proposal, and close into a single call. _(Daniel Matias)_
@@ -448,6 +453,7 @@ _Generated 2026-05-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_design-as-bottleneck`](insights/ins_design-as-bottleneck.md) — Make design an explicit ship-blocking bottleneck _(Evan Spiegel)_
 - [`ins_different-is-better-than-better`](insights/ins_different-is-better-than-better.md) — Different is better than better, you don't learn how to be fascinating, you unlearn how to be boring _(Sally Hogshead)_
 - [`ins_dileep-krishna-automation-maintenance-bottleneck`](insights/ins_dileep-krishna-automation-maintenance-bottleneck.md) — Test automation that can't adapt to product changes creates a maintenance burden worse than manual testing. _(Dileep Krishna)_
+- [`ins_doist-no-exit-strategy-async-since-2007`](insights/ins_doist-no-exit-strategy-async-since-2007.md) — Doist rejected an exit strategy in 2009 and has been async-and-remote-first since founding _(Amir Salihefendić)_
 - [`ins_don-care-how-awesome-prompting`](insights/ins_don-care-how-awesome-prompting.md) — I don't care how awesome you are at prompting; a PMM must be a decent writer. Practice _(Stefan Gladbach)_
 - [`ins_don-ignore-stuck-feeling-pointing`](insights/ins_don-ignore-stuck-feeling-pointing.md) — 𝗔𝘀 𝗮𝗻 𝗲𝗺𝗽𝗹𝗼𝘆𝗲𝗲: Don't ignore that stuck feeling. It's pointing you toward something bet _(Lola Han)_
 - [`ins_dotclaude-as-deployable-artifact`](insights/ins_dotclaude-as-deployable-artifact.md) — Treat `.claude/` as a deployable artifact with versioning and rollback _(Pawel Huryn)_
@@ -475,6 +481,7 @@ _Generated 2026-05-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_financial-services-track-scaling-fast`](insights/ins_financial-services-track-scaling-fast.md) — 💸 The Financial Services track is scaling fast, introducing new features like Business _(Jesse Bellaiche)_
 - [`ins_first-one-going-rebuild-custom`](insights/ins_first-one-going-rebuild-custom.md) — My first one is going to be to rebuild my custom audio daily briefing that looks at my _(Sam Mallikarjunan)_
 - [`ins_five-disagreements-cmo-cro-pmm`](insights/ins_five-disagreements-cmo-cro-pmm.md) — Five things CEO, CMO, CRO, and PMM will never agree on _(Anna Tankel)_
+- [`ins_float-bootstrapped-distributed-bcorp`](insights/ins_float-bootstrapped-distributed-bcorp.md) — Float bootstrapped to 4,500+ customers as a globally distributed B Corp without venture capital _(Glenn Rogers)_
 - [`ins_focus-ultimate-competitive-advantage-today`](insights/ins_focus-ultimate-competitive-advantage-today.md) — If Focus is the ultimate competitive advantage, today we're doubling down on it _(Vengat Krishnaraj)_
 - [`ins_fortune-cookie-principle`](insights/ins_fortune-cookie-principle.md) — Product + Meaning = Brand. Product − Meaning = Commodity. _(Bernadette Jiwa)_
 - [`ins_four-bb-prioritization`](insights/ins_four-bb-prioritization.md) — Sort the roadmap into four buckets, Brilliant Basics, Bread-and-Butter, Big Bets, Breaking Bad _(Anuj Rathi)_
@@ -489,6 +496,7 @@ _Generated 2026-05-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_great-brands-start-inside`](insights/ins_great-brands-start-inside.md) — Great brands start inside, build the culture first, let external messaging emerge from it _(Denise Lee Yohn)_
 - [`ins_great-insight-precisely-why-shouldn`](insights/ins_great-insight-precisely-why-shouldn.md) — But Great insight is. And this is precisely why AI shouldn't scale formats. It should s _(Kaizad Hansotia)_
 - [`ins_growing-solutions-marketing-team-lovable`](insights/ins_growing-solutions-marketing-team-lovable.md) — I'm growing the Solutions Marketing team at Lovable, and I'm hiring for two senior roles 🚀 _(Vikas Bhagat)_
+- [`ins_gumroad-no-meetings-no-deadlines-async`](insights/ins_gumroad-no-meetings-no-deadlines-async.md) — Gumroad runs as 25 contractors with zero full-time employees, no meetings, no deadlines _(Sahil Lavingia)_
 - [`ins_hallucinations-when-makes-things-thinks`](insights/ins_hallucinations-when-makes-things-thinks.md) — Hallucinations are when the AI makes up things that it *thinks* are true -- but just ar _(Dharmesh Shah)_
 - [`ins_hamna-aslam-kahn-ai-as-digital-chief-of-staff`](insights/ins_hamna-aslam-kahn-ai-as-digital-chief-of-staff.md) — The most powerful AI prompts are those that pull from integrated workspace data, not generic queries. _(Hamna Aslam Kahn)_
 - [`ins_handley-self-laughter-as-quality-kpi`](insights/ins_handley-self-laughter-as-quality-kpi.md) — Did you make yourself laugh while writing?, a reliable KPI for newsletter quality _(Ann Handley)_
@@ -562,6 +570,7 @@ _Generated 2026-05-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_mental-models-as-os-not-library`](insights/ins_mental-models-as-os-not-library.md) — Mental models compound only if they run automatically, looking up the right model in the moment is too slow _(Charlie Munger)_
 - [`ins_message-testing-sameness-default`](insights/ins_message-testing-sameness-default.md) — In B2B, sameness is the default, you cannot win on features competitors will copy in 6 months _(Peep Laja)_
 - [`ins_messaging-equation-personalization-tiers`](insights/ins_messaging-equation-personalization-tiers.md) — Persona + Trigger + Value = Relevant Message. Personalize ~25%, no more. _(John Barrows)_
+- [`ins_metalab-flow-design-agency-incubates-saas`](insights/ins_metalab-flow-design-agency-incubates-saas.md) — MetaLab funded Flow as an in-house product without venture capital, agency revenue covered the build _(Andrew Wilkinson)_
 - [`ins_miller-one-liner-formula`](insights/ins_miller-one-liner-formula.md) — Problem → Solution → Result, the one-liner answers "what do you do?" in narrative shape _(Donald Miller)_
 - [`ins_miller-storybrand-is-execution-not-strategy`](insights/ins_miller-storybrand-is-execution-not-strategy.md) — StoryBrand clarifies *how* you communicate, not *what* you should stand for, strategy still has to come first _(Donald Miller)_
 - [`ins_mina-break-down-why-it-works`](insights/ins_mina-break-down-why-it-works.md) — Strong product marketers break down why marketing works, not just admire it. _(Mina ..)_
@@ -731,6 +740,7 @@ _Generated 2026-05-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_yasser-elsaid-b2b-thick-wrapper-defensibility`](insights/ins_yasser-elsaid-b2b-thick-wrapper-defensibility.md) — B2B AI tools benefit from being 'thick wrappers'. _(Yasser Elsaid)_
 - [`ins_yogi-gnanavel-job-search-endurance-loop`](insights/ins_yogi-gnanavel-job-search-endurance-loop.md) — Job searching is a loop you survive by staying in it, not a straight line. _(Yogi Gnanavel)_
 - [`ins_youtube-seo-engagement-not-links`](insights/ins_youtube-seo-engagement-not-links.md) — Video SEO is a different sport, YouTube ranks on engagement, not link authority _(Sam Oh)_
+- [`ins_zapier-fully-remote-since-day-one`](insights/ins_zapier-fully-remote-since-day-one.md) — Zapier ran fully remote since day one and scaled to 800+ people across 38 countries without an office _(Wade Foster)_
 
 ### Tier C (72)
 - [`ins_aayush-kumar-forced-lessons-from-daily-life`](insights/ins_aayush-kumar-forced-lessons-from-daily-life.md) — The best leadership lessons come from forced analogies from mundane life events _(Aayush Kumar)_

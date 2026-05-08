@@ -143,6 +143,21 @@ async function main() {
     });
   }
 
+  // Propagate operator-level `hidden: true` onto each insight authored
+  // (primary or co-author) by that operator. Build steps downstream
+  // (build-static, build-feeds) read the per-insight flag to skip rendering.
+  const slugify = s => (s || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  const hiddenSlugs = new Set(operators.filter(o => o.hidden).map(o => o.slug));
+  if (hiddenSlugs.size > 0){
+    for (const i of insights){
+      const primary = slugify(i.operator);
+      const cos = (i.co_operators || []).map(slugify);
+      if (hiddenSlugs.has(primary) || cos.some(s => hiddenSlugs.has(s))){
+        i.hidden = true;
+      }
+    }
+  }
+
   const raw = [];
   for (const f of rawFiles) {
     if (f.endsWith("README.md")) continue;
@@ -205,11 +220,16 @@ async function main() {
   daily.sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""));
   const latest_daily = daily[0] ?? null;
 
+  // Counts surface the visible totals so the web UI doesn't display numbers
+  // that include items the SPA filters out at load time. Hidden items remain
+  // in the json arrays so agents fetching INDEX.json directly still see them.
+  const visibleInsights = insights.filter(i => !i.hidden).length;
+  const visibleOperators = operators.filter(o => !o.hidden).length;
   const json = {
     generated_at: new Date().toISOString(),
     counts: {
-      insights: insights.length,
-      operators: operators.length,
+      insights: visibleInsights,
+      operators: visibleOperators,
       raw_sources: raw.length,
       patterns: patterns.length,
       contradictions: contradictions.length,
@@ -312,9 +332,12 @@ async function main() {
   const readmePath = join(REPO_ROOT, "README.md");
   let readme = await readFile(readmePath, "utf8").catch(() => "");
   if (readme) {
+    // README counts mirror the visible-on-the-web totals (i.e. minus hidden
+    // operators and their insights) so casual readers and contributors see
+    // the same numbers the site does.
     const countsBlock = [
-      `- **${insights.length}** insight cards`,
-      `- **${operators.length}** operator profiles`,
+      `- **${visibleInsights}** insight cards`,
+      `- **${visibleOperators}** operator profiles`,
       `- **${patterns.length}** synthesis patterns (cross-operator convergences)`,
       `- **${contradictions.length}** documented contradictions`,
       `- **${playbooks.length}** methodology playbooks`,

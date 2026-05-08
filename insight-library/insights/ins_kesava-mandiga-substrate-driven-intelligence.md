@@ -2,7 +2,7 @@
 id: ins_kesava-mandiga-substrate-driven-intelligence
 title: 'Files first, vibes never. The substrate IS the work.'
 operator: Kesava Mandiga
-operator_role: 'Head of PMM, JustCall (SaaS Labs)'
+operator_role: 'Founder, [unnamed]'
 source_url: https://www.linkedin.com/in/k3sava/
 source_type: thread
 source_title: 'Kesava on substrate-driven intelligence'

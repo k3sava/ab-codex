@@ -99,19 +99,25 @@ async function main(){
   const INDEX = JSON.parse(await readFile(join(LIB, "INDEX.json"), "utf8"));
   let count = 0;
 
+  // Hidden insights/operators don't get OG images since the underlying
+  // pages aren't generated. Counts in the default OG match the visible
+  // surface.
+  const visibleInsightsForOg = INDEX.insights.filter(i => !i.hidden);
+  const visibleOperatorsForOg = INDEX.operators.filter(o => !o.hidden);
+
   // Default OG (home, lists, fallback)
   const defaultSvg = ogSvg({
     kind: "default",
     eyebrow: "operator insight library",
     title: "Atomic claims. Named operators. Verifiable sources.",
-    byline: `${INDEX.insights.length} insights · ${INDEX.operators.length} operators`,
+    byline: `${visibleInsightsForOg.length} insights · ${visibleOperatorsForOg.length} operators`,
     footer: "browse the codex",
   });
   await writeImage("og.svg", defaultSvg);
   count++;
 
   // Insights
-  for (const i of INDEX.insights){
+  for (const i of visibleInsightsForOg){
     const svg = ogSvg({
       kind: "insight",
       eyebrow: (i.domain || []).slice(0, 3).join(" · "),
@@ -124,7 +130,7 @@ async function main(){
     count++;
   }
   // Operators
-  for (const o of INDEX.operators){
+  for (const o of visibleOperatorsForOg){
     const role = (o.roles || [])[0] || "";
     const svg = ogSvg({
       kind: "operator",

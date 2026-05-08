@@ -2,7 +2,7 @@
 id: ins_kesava-mandiga-anti-fabrication-as-rule
 title: 'If you can''t trace a claim to a source, write "unverified" and stop'
 operator: Kesava Mandiga
-operator_role: 'Head of PMM, JustCall (SaaS Labs)'
+operator_role: 'Founder, [unnamed]'
 source_url: https://www.linkedin.com/in/k3sava/
 source_type: thread
 source_title: 'Kesava on anti-fabrication as a portfolio rule'

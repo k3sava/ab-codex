@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7f8f3"/>
+      <stop offset="1" stop-color="#eef2e6"/>
+    </linearGradient>
+    <linearGradient id="band" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5a6d8a" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#5a6d8a" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="6" fill="url(#band)"/>
+  <g transform="translate(80, 60)">
+    <circle cx="0" cy="14" r="6" fill="#2c8b4f"/>
+    <text x="16" y="20" font-family="Newsreader, serif" font-size="22" fill="#0d1410">a builder's codex</text>
+  </g>
+  <text x="80" y="170" font-family="JetBrains Mono, monospace" font-size="16" fill="#5a6757" letter-spacing="2">FOUNDER-CRAFT · LEADERSHIP · GTM</text>
+  
+    <g transform="translate(80, 90)">
+      <rect width="120" height="44" rx="22" fill="#f3f5ee" stroke="#5a6d8a" stroke-width="2"/>
+      <circle cx="22" cy="22" r="6" fill="#5a6d8a"/>
+      <text x="38" y="29" font-family="JetBrains Mono, monospace" font-size="18" font-weight="600" fill="#5a6d8a" letter-spacing="1">TIER B</text>
+    </g>
+  <text x="80" y="240" font-family="Newsreader, serif" font-size="60" font-weight="500" fill="#0d1410">Buffer published a salary formula</text>
+  <text x="80" y="310" font-family="Newsreader, serif" font-size="60" font-weight="500" fill="#0d1410">and every employee&apos;s exact pay since</text>
+  <text x="80" y="380" font-family="Newsreader, serif" font-size="60" font-weight="500" fill="#0d1410">December 2013</text>
+  <text x="80" y="486" font-family="JetBrains Mono, monospace" font-size="22" fill="#5a6757">Joel Gascoigne</text>
+  <text x="80" y="570" font-family="JetBrains Mono, monospace" font-size="16" fill="#7a8474" letter-spacing="1">2024-01-01</text>
+  <text x="1120" y="570" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="14" fill="#7a8474">codex.iamkesava.com</text>
+</svg>

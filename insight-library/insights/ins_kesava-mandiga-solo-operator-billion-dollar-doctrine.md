@@ -2,7 +2,7 @@
 id: ins_kesava-mandiga-solo-operator-billion-dollar-doctrine
 title: 'AI-native, human-first, solo-operator: the path to a one-person billion-dollar company'
 operator: Kesava Mandiga
-operator_role: 'Head of PMM, JustCall (SaaS Labs); building Flywheel and ab-codex'
+operator_role: 'Founder, [unnamed]'
 source_url: https://www.linkedin.com/in/k3sava/
 source_type: thread
 source_title: 'Kesava on the AI-native human-first solo-operator doctrine'
