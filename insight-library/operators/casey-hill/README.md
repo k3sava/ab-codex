@@ -1,14 +1,14 @@
 ---
 slug: casey-hill
 name: Casey Hill
-roles: ["CMO at DoWhatWorks"]
-domains_active: [aeo, content-strategy, growth-demand]
+roles: ["B2B growth advisor and content strategist"]
+domains_active: [pmm, content-strategy, seo]
 captured_first: 2026-05-09
 external: {  }
 ---
 
-Casey Hill. Growth marketer and CMO at DoWhatWorks. Tactical AEO observations drawn from live citation-rate experiments across content teams. Known for identifying structural and infrastructural dimensions of AI search visibility that standard content audits miss.
+Casey Hill. B2B growth advisor and content strategist known for testing structural and navigational placement as LLM citation levers. Works across SaaS companies including Replit, Clay, and Sundial, running before-and-after citation experiments when product use cases are moved from body content into navigation, headers, and footers. Focuses on the intersection of page architecture and AI discoverability, bringing empirical before-and-after data where most AEO writing stays abstract.
 
 ## Operating themes
-- **AEO infrastructure** structural site elements including nav and footer as first-class LLM relevance signals, distinct from page content
-- **Citation-rate measurement** observing citation rate changes after specific structural interventions, with named working examples from Replit, Clay, and Sundial
+- **Structural placement as citation lever** Test nav and footer as AEO signal surfaces, not just body content; the structural signal reaches LLMs before body text is fully parsed.
+- **Empirical not theoretical** Shares citation rate changes with named companies and specific placements, not general principles.

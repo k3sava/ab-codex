@@ -2,9 +2,10 @@
 id: pat_context-not-capability
 title: Context, not capability, is the bottleneck
 captured_date: 2026-05-01
-convergence_count: 4
+last_updated: 2026-05-09
+convergence_count: 7
 tier: A
-uses_cards: [ins_bottleneck-is-context-not-capability, ins_llm-wiki-pattern, ins_personal-pattern-hoarding, ins_red-green-tdd-shorthand-for-agents, ins_dotclaude-as-deployable-artifact, ins_remove-features-as-models-improve]
+uses_cards: [ins_bottleneck-is-context-not-capability, ins_llm-wiki-pattern, ins_personal-pattern-hoarding, ins_red-green-tdd-shorthand-for-agents, ins_dotclaude-as-deployable-artifact, ins_remove-features-as-models-improve, ins_maja-voje-substrate-first-content-engineering]
 domains: [ai-native, engineering]
 ---
 

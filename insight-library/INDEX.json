@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-09T03:14:28.395Z",
+  "generated_at": "2026-05-09T03:19:18.111Z",
   "counts": {
-    "insights": 791,
-    "operators": 462,
+    "insights": 801,
+    "operators": 465,
     "raw_sources": 209,
-    "patterns": 39,
+    "patterns": 40,
     "contradictions": 11,
     "playbooks": 27,
     "daily": 9
@@ -12,20 +12,33 @@
   "latest_daily": {
     "path": "daily/2026-05-09.md",
     "date": "2026-05-09",
-    "title": "AEO infrastructure and content sameness: three new cards",
-    "summary": "Three new cards, one new operator. Mike King and Casey Hill converged on AEO infrastructure from independent angles. Brendan Hufford named the four failure modes turning SaaS content into noise by default.",
+    "title": "AEO becomes a page-experience problem; agentic architecture settles into named patterns",
+    "summary": "Eleven new cards, one new synthesis pattern, two pattern updates, four new operators. Four AEO practitioners converged on a unified experience-and-structure gate frame. Three themes from independent directions.",
     "sources": [
       "morning research scan 2026-05-09"
     ],
     "insights_added": [
-      "ins_mike-king-ai-crawler-499-speed-gate",
-      "ins_casey-hill-structural-prominence-llm-citations",
-      "ins_brendan-hufford-four-content-failure-modes"
+      "ins_casey-hill-aeo-structural-prominence",
+      "ins_kyle-poyar-ai-recommendation-share",
+      "ins_lily-ray-firsthand-experience-ai-overviews",
+      "ins_mike-king-499-ai-bot-silence",
+      "ins_phil-schmid-four-subagent-patterns",
+      "ins_kyle-poyar-continuous-monitoring-agents",
+      "ins_maja-voje-substrate-first-content-engineering",
+      "ins_max-schoening-agency-over-skills",
+      "ins_vikas-kansal-freemium-ai-paywall-multistep",
+      "ins_brendan-hufford-four-content-failure-modes",
+      "ins_anthropic-skills-as-vertical-distribution-unit"
     ],
     "operators_added": [
-      "casey-hill"
+      "casey-hill",
+      "phil-schmid",
+      "max-schoening",
+      "vikas-kansal"
     ],
-    "patterns_added": [],
+    "patterns_added": [
+      "pat_aeo-experience-gate"
+    ],
     "playbooks_added": []
   },
   "insights": [
@@ -1929,6 +1942,37 @@
       "title": "Anonymous benchmark stats unlock ROI proof when named-customer attribution is blocked"
     },
     {
+      "path": "insights/ins_anthropic-skills-as-vertical-distribution-unit.md",
+      "id": "ins_anthropic-skills-as-vertical-distribution-unit",
+      "operator": "Anthropic",
+      "operator_role": "AI safety company and foundation model developer",
+      "co_operators": [],
+      "source_url": "https://www.anthropic.com/news/finance-agents",
+      "source_type": "post",
+      "source_title": "Finance Agents",
+      "source_date": "2026-05-05",
+      "captured_date": "2026-05-09",
+      "domain": [
+        "ai-ops",
+        "product",
+        "gtm"
+      ],
+      "lifecycle": [
+        "product-development"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_agent-first-gtm-flywheel",
+        "ins_dotclaude-as-deployable-artifact",
+        "ins_skills-as-prompts-as-code"
+      ],
+      "raw_ref": "",
+      "title": "Anthropic is treating Skills and Cookbooks as the unit of vertical agent distribution, not one-off integrations"
+    },
+    {
       "path": "insights/ins_antifragile-barbell.md",
       "id": "ins_antifragile-barbell",
       "operator": "Nassim Nicholas Taleb",
@@ -2986,11 +3030,11 @@
       "path": "insights/ins_brendan-hufford-four-content-failure-modes.md",
       "id": "ins_brendan-hufford-four-content-failure-modes",
       "operator": "Brendan Hufford",
-      "operator_role": "Founder, Growth Sprints",
+      "operator_role": "B2B content strategist and founder, Growth Sprints",
       "co_operators": [],
-      "source_url": "unknown",
+      "source_url": "https://www.linkedin.com/in/brendanhufford/",
       "source_type": "post",
-      "source_title": "Sea of sameness",
+      "source_title": "The Four Content Failure Modes",
       "source_date": "2026-05-05",
       "captured_date": "2026-05-09",
       "domain": [
@@ -2998,21 +3042,19 @@
         "pmm"
       ],
       "lifecycle": [
-        "awareness",
-        "growth-loops"
+        "content-production"
       ],
       "maturity": "applied",
       "artifact_class": "framework",
-      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 2 }",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 3 }",
       "tier": "B",
       "related": [
-        "ins_handley-voice-as-moat-against-ai",
+        "ins_aeo-decided-off-your-domain",
         "ins_death-of-the-ultimate-guide",
-        "ins_schafer-uncomfortable-honesty",
-        "ins_sameness-perception-is-the-differentiation-barrier"
+        "ins_handley-voice-as-moat-against-ai"
       ],
       "raw_ref": "",
-      "title": "SaaS content fails in four named patterns. Naming them makes sameness diagnosable."
+      "title": "Four content failure modes destroy every funnel: corporate, commodity, copycat, and ChatGPT content. GTM engineering cannot exit the sameness trap they produce."
     },
     {
       "path": "insights/ins_build-for-model-six-months-out.md",
@@ -3353,6 +3395,38 @@
       "related": [],
       "raw_ref": "raw/expert-content/experts/joel-klettke.md",
       "title": "Information in narrative form is 22x more memorable. Integrate the metric into the moment."
+    },
+    {
+      "path": "insights/ins_casey-hill-aeo-structural-prominence.md",
+      "id": "ins_casey-hill-aeo-structural-prominence",
+      "operator": "Casey Hill",
+      "operator_role": "B2B growth advisor",
+      "co_operators": [],
+      "source_url": "https://www.growthunhinged.com/p/what-s-working-right-now-in-ai-search",
+      "source_type": "post",
+      "source_title": "What's Working Right Now in AI Search",
+      "source_date": "2026-05-03",
+      "captured_date": "2026-05-09",
+      "domain": [
+        "pmm",
+        "content-strategy",
+        "seo"
+      ],
+      "lifecycle": [
+        "awareness"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_ghost-citation-gap",
+        "ins_manual-action-propagates-to-ai-surfaces",
+        "ins_crawlability-shapes-everything",
+        "ins_aeo-decided-off-your-domain"
+      ],
+      "raw_ref": "",
+      "title": "Structural prominence in nav, headers, and footer predicts LLM citation rates more reliably than body content alone"
     },
     {
       "path": "insights/ins_casey-hill-structural-prominence-llm-citations.md",
@@ -10072,6 +10146,68 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_kyle-poyar-ai-recommendation-share.md",
+      "id": "ins_kyle-poyar-ai-recommendation-share",
+      "operator": "Kyle Poyar",
+      "operator_role": "Growth advisor and GTM strategist",
+      "co_operators": [],
+      "source_url": "https://www.growthunhinged.com/p/what-s-working-right-now-in-ai-search",
+      "source_type": "post",
+      "source_title": "What's Working Right Now in AI Search",
+      "source_date": "2026-05-03",
+      "captured_date": "2026-05-09",
+      "domain": [
+        "pmm",
+        "growth-demand",
+        "seo"
+      ],
+      "lifecycle": [
+        "awareness"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_aeo-competes-for-mentions-not-rankings",
+        "ins_aeo-is-gtm-capability",
+        "ins_aeo-three-layer-presence-readiness-impact"
+      ],
+      "raw_ref": "",
+      "title": "The AEO metric is recommendation-share, not citation volume. AI responses recommend products; they do not list links."
+    },
+    {
+      "path": "insights/ins_kyle-poyar-continuous-monitoring-agents.md",
+      "id": "ins_kyle-poyar-continuous-monitoring-agents",
+      "operator": "Kyle Poyar",
+      "operator_role": "Growth advisor and GTM strategist",
+      "co_operators": [],
+      "source_url": "https://www.growthunhinged.com/p/the-best-ai-native-gtm-plays-you-re-not-running",
+      "source_type": "post",
+      "source_title": "The Best AI-Native GTM Plays You're Not Running",
+      "source_date": "2026-05-07",
+      "captured_date": "2026-05-09",
+      "domain": [
+        "gtm",
+        "ai-ops",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "growth-loops"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_cash-four-stage-growth-automation",
+        "ins_agent-first-gtm-flywheel",
+        "ins_phil-schmid-four-subagent-patterns"
+      ],
+      "raw_ref": "",
+      "title": "GTM automation shifted from triggered batch automations to continuous-monitoring agents in under 18 months. The agent decides when to act."
+    },
+    {
       "path": "insights/ins_label-confidence-explicitly.md",
       "id": "ins_label-confidence-explicitly",
       "operator": "Mihika Kapoor",
@@ -10276,6 +10412,36 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_lily-ray-firsthand-experience-ai-overviews.md",
+      "id": "ins_lily-ray-firsthand-experience-ai-overviews",
+      "operator": "Lily Ray",
+      "operator_role": "Senior SEO and AI search researcher",
+      "co_operators": [],
+      "source_url": "https://ppc.land/google-adds-5-outbound-link-features-to-ai-mode-and-ai-overviews/",
+      "source_type": "post",
+      "source_title": "Google adds 5 outbound link features to AI Mode and AI Overviews",
+      "source_date": "2026-05-06",
+      "captured_date": "2026-05-09",
+      "domain": [
+        "content-strategy",
+        "seo"
+      ],
+      "lifecycle": [
+        "awareness"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_ai-slop-loop",
+        "ins_eeat-quality-rater-perspective",
+        "ins_aeo-three-layer-presence-readiness-impact"
+      ],
+      "raw_ref": "",
+      "title": "First-hand experience is a distinct AEO primitive that drives additional clicks from AI Overviews and AI Mode, not just an E-E-A-T input signal"
     },
     {
       "path": "insights/ins_linde-hasker-human-insight-over-ai.md",
@@ -10719,6 +10885,39 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_maja-voje-substrate-first-content-engineering.md",
+      "id": "ins_maja-voje-substrate-first-content-engineering",
+      "operator": "Maja Voje",
+      "operator_role": "GTM strategist and founder, GTM Strategist",
+      "co_operators": [
+        "Benjamin Gibert"
+      ],
+      "source_url": "https://knowledge.gtmstrategist.com/p/content-engineering-how-to-build-content-system-in-claude-code",
+      "source_type": "post",
+      "source_title": "Content Engineering: How to Build a Content System in Claude Code",
+      "source_date": "2026-05-01",
+      "captured_date": "2026-05-09",
+      "domain": [
+        "pmm",
+        "content-strategy",
+        "ai-ops"
+      ],
+      "lifecycle": [
+        "content-production"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_bottleneck-is-context-not-capability",
+        "ins_context-engineering-beats-prompt-engineering",
+        "ins_llm-wiki-pattern"
+      ],
+      "raw_ref": "",
+      "title": "90% of AI content system output quality comes from the knowledge fed in, not from agent sophistication. One canonical artifact, many consumers."
     },
     {
       "path": "insights/ins_make-intuition-explicit.md",
@@ -11283,6 +11482,36 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_max-schoening-agency-over-skills.md",
+      "id": "ins_max-schoening-agency-over-skills",
+      "operator": "Max Schoening",
+      "operator_role": "Practitioner and writer on agency in AI-era work",
+      "co_operators": [],
+      "source_url": "https://www.lennysnewsletter.com/p/why-cultivating-agency-matters-more",
+      "source_type": "post",
+      "source_title": "Why Cultivating Agency Matters More Than Skills",
+      "source_date": "2026-05-03",
+      "captured_date": "2026-05-09",
+      "domain": [
+        "hiring",
+        "leadership"
+      ],
+      "lifecycle": [
+        "hiring"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_judgment-doesnt-compress",
+        "ins_ai-exposes-execution-only-pmms",
+        "ins_altman-scarce-resources-abundant-intelligence"
+      ],
+      "raw_ref": "",
+      "title": "Agency, not skills, separates people who thrive from those who fall behind. Skills are acquirable and AI-generatable; self-direction is not."
+    },
+    {
       "path": "insights/ins_mayuresh-patole-ai-should-not-lower-the-bar.md",
       "id": "ins_mayuresh-patole-ai-should-not-lower-the-bar",
       "title": "AI presentation tools must preserve credibility, not make work look disposable.",
@@ -11620,6 +11849,36 @@
       ],
       "raw_ref": "",
       "title": "The middle is hollowing out, execution gets automated, leaving spec-writing and verification as the high-value human tasks"
+    },
+    {
+      "path": "insights/ins_mike-king-499-ai-bot-silence.md",
+      "id": "ins_mike-king-499-ai-bot-silence",
+      "operator": "Mike King",
+      "operator_role": "Founder and CEO, iPullRank",
+      "co_operators": [],
+      "source_url": "https://ipullrank.com/page-speed-impacts",
+      "source_type": "post",
+      "source_title": "Page Speed Impacts on AI Bot Crawling",
+      "source_date": "2026-05-08",
+      "captured_date": "2026-05-09",
+      "domain": [
+        "seo",
+        "content-strategy"
+      ],
+      "lifecycle": [
+        "awareness"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 5, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_crawlability-shapes-everything",
+        "ins_aeo-three-layer-presence-readiness-impact",
+        "ins_casey-hill-aeo-structural-prominence"
+      ],
+      "raw_ref": "",
+      "title": "A 499 from an AI bot UA means the bot decided the page was not worth waiting for and silently excluded it from the LLM candidate set"
     },
     {
       "path": "insights/ins_mike-king-ai-crawler-499-speed-gate.md",
@@ -13810,6 +14069,36 @@
       "related": [],
       "raw_ref": "raw/linkedin/pmm-mining/linkedin-saved-posts-2026-04-10.md",
       "title": "Personal user manuals belong in company onboarding to compress alignment time"
+    },
+    {
+      "path": "insights/ins_phil-schmid-four-subagent-patterns.md",
+      "id": "ins_phil-schmid-four-subagent-patterns",
+      "operator": "Phil Schmid",
+      "operator_role": "ML engineer and agentic systems practitioner",
+      "co_operators": [],
+      "source_url": "https://www.philschmid.de/subagent-patterns-2026",
+      "source_type": "essay",
+      "source_title": "Subagent Patterns 2026",
+      "source_date": "2026-05-05",
+      "captured_date": "2026-05-09",
+      "domain": [
+        "ai-ops",
+        "product"
+      ],
+      "lifecycle": [
+        "product-development"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_three-class-agent-taxonomy",
+        "ins_agents-as-team-not-tools",
+        "ins_kyle-poyar-continuous-monitoring-agents"
+      ],
+      "raw_ref": "",
+      "title": "Four subagent patterns are settling as standard: Inline Tool, Fan-Out, Agent Pool, and Teams. Each adds control surface at a real debugging cost."
     },
     {
       "path": "insights/ins_pin-workflows-to-capabilities-not-models.md",
@@ -20580,6 +20869,37 @@
       "title": "Video + matching article = double SERP occupancy. Two of ten organic positions, taken from competitors."
     },
     {
+      "path": "insights/ins_vikas-kansal-freemium-ai-paywall-multistep.md",
+      "id": "ins_vikas-kansal-freemium-ai-paywall-multistep",
+      "operator": "Vikas Kansal",
+      "operator_role": "Product leader and SaaS strategist",
+      "co_operators": [],
+      "source_url": "https://www.lennysnewsletter.com/p/why-saas-freemium-playbooks-dont",
+      "source_type": "post",
+      "source_title": "Why SaaS Freemium Playbooks Don't Work Under AI Economics",
+      "source_date": "2026-05-05",
+      "captured_date": "2026-05-09",
+      "domain": [
+        "pricing",
+        "product",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "monetization"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_ungate-ai-iterate-pricing",
+        "ins_outcomes-pricing-restructures-saas",
+        "ins_ramanujam-ai-pricing-against-labor-budgets"
+      ],
+      "raw_ref": "",
+      "title": "AI-native freemium must paywall features that collapse multi-step tasks into a single click. GPU cost structure makes free one-click AI features unsustainable."
+    },
+    {
       "path": "insights/ins_vinayak-padiyar-vinayak-padiyar-strategy-logistics.md",
       "id": "ins_vinayak-padiyar-vinayak-padiyar-strategy-logistics",
       "title": "Drives strategic logistics operations for SAR and RTW",
@@ -23186,12 +23506,12 @@
       "slug": "casey-hill",
       "name": "Casey Hill",
       "roles": [
-        "CMO at DoWhatWorks"
+        "B2B growth advisor and content strategist"
       ],
       "domains_active": [
-        "aeo",
+        "pmm",
         "content-strategy",
-        "growth-demand"
+        "seo"
       ],
       "captured_first": "2026-05-09",
       "external": "{  }",
@@ -26964,6 +27284,21 @@
       "title": "Matt Shumer"
     },
     {
+      "path": "operators/max-schoening/README.md",
+      "slug": "max-schoening",
+      "name": "Max Schoening",
+      "roles": [
+        "Practitioner and writer on agency in AI-era work"
+      ],
+      "domains_active": [
+        "hiring",
+        "leadership"
+      ],
+      "captured_first": "2026-05-09",
+      "external": "{  }",
+      "title": "Max Schoening"
+    },
+    {
       "path": "operators/mayuresh-patole/README.md",
       "name": "Mayuresh Patole",
       "slug": "mayuresh-patole",
@@ -27688,6 +28023,21 @@
         "website": "https://foundersfund.com/team/peter-thiel/"
       },
       "title": "Peter Thiel"
+    },
+    {
+      "path": "operators/phil-schmid/README.md",
+      "slug": "phil-schmid",
+      "name": "Phil Schmid",
+      "roles": [
+        "ML engineer and agentic systems practitioner"
+      ],
+      "domains_active": [
+        "ai-ops",
+        "product"
+      ],
+      "captured_first": "2026-05-09",
+      "external": "{ website: \"https://www.philschmid.de\" }",
+      "title": "Phil Schmid"
     },
     {
       "path": "operators/pia-silva/README.md",
@@ -29721,6 +30071,22 @@
         "linkedin": "https://www.linkedin.com/in/vbhagat/"
       },
       "title": "Vikas Bhagat"
+    },
+    {
+      "path": "operators/vikas-kansal/README.md",
+      "slug": "vikas-kansal",
+      "name": "Vikas Kansal",
+      "roles": [
+        "Product leader and SaaS strategist"
+      ],
+      "domains_active": [
+        "pricing",
+        "product",
+        "growth-demand"
+      ],
+      "captured_first": "2026-05-09",
+      "external": "{  }",
+      "title": "Vikas Kansal"
     },
     {
       "path": "operators/vinayak-padiyar/README.md",
@@ -33349,6 +33715,25 @@
   ],
   "patterns": [
     {
+      "path": "synthesis/patterns/aeo-experience-gate.md",
+      "id": "pat_aeo-experience-gate",
+      "title": "AEO experience and structure gate",
+      "captured_date": "2026-05-09",
+      "convergence_count": "4",
+      "tier": "A",
+      "uses_cards": [
+        "ins_casey-hill-aeo-structural-prominence",
+        "ins_kyle-poyar-ai-recommendation-share",
+        "ins_lily-ray-firsthand-experience-ai-overviews",
+        "ins_mike-king-499-ai-bot-silence"
+      ],
+      "domains": [
+        "pmm",
+        "content-strategy",
+        "seo"
+      ]
+    },
+    {
       "path": "synthesis/patterns/aeo-triangle.md",
       "id": "pat_aeo-triangle",
       "title": "The AEO triangle, presence, relevance, manual-action propagation",
@@ -33378,7 +33763,8 @@
       "id": "pat_agent-first-gtm",
       "title": "Agent-first GTM (rebuild, don't bolt-on)",
       "captured_date": "2026-05-01",
-      "convergence_count": "4",
+      "last_updated": "2026-05-09",
+      "convergence_count": "8",
       "tier": "A",
       "uses_cards": [
         "ins_rebuild-gtm-around-ai",
@@ -33387,7 +33773,8 @@
         "ins_aeo-is-gtm-capability",
         "ins_seller-workflows-begin-with-ai",
         "ins_systems-of-action-replace-seller-stack",
-        "ins_reps-want-questions-not-dashboards"
+        "ins_reps-want-questions-not-dashboards",
+        "ins_kyle-poyar-continuous-monitoring-agents"
       ],
       "domains": [
         "gtm",
@@ -33550,7 +33937,8 @@
       "id": "pat_context-not-capability",
       "title": "Context, not capability, is the bottleneck",
       "captured_date": "2026-05-01",
-      "convergence_count": "4",
+      "last_updated": "2026-05-09",
+      "convergence_count": "7",
       "tier": "A",
       "uses_cards": [
         "ins_bottleneck-is-context-not-capability",
@@ -33558,7 +33946,8 @@
         "ins_personal-pattern-hoarding",
         "ins_red-green-tdd-shorthand-for-agents",
         "ins_dotclaude-as-deployable-artifact",
-        "ins_remove-features-as-models-improve"
+        "ins_remove-features-as-models-improve",
+        "ins_maja-voje-substrate-first-content-engineering"
       ],
       "domains": [
         "ai-native",
@@ -35052,20 +35441,33 @@
     {
       "path": "daily/2026-05-09.md",
       "date": "2026-05-09",
-      "title": "AEO infrastructure and content sameness: three new cards",
-      "summary": "Three new cards, one new operator. Mike King and Casey Hill converged on AEO infrastructure from independent angles. Brendan Hufford named the four failure modes turning SaaS content into noise by default.",
+      "title": "AEO becomes a page-experience problem; agentic architecture settles into named patterns",
+      "summary": "Eleven new cards, one new synthesis pattern, two pattern updates, four new operators. Four AEO practitioners converged on a unified experience-and-structure gate frame. Three themes from independent directions.",
       "sources": [
         "morning research scan 2026-05-09"
       ],
       "insights_added": [
-        "ins_mike-king-ai-crawler-499-speed-gate",
-        "ins_casey-hill-structural-prominence-llm-citations",
-        "ins_brendan-hufford-four-content-failure-modes"
+        "ins_casey-hill-aeo-structural-prominence",
+        "ins_kyle-poyar-ai-recommendation-share",
+        "ins_lily-ray-firsthand-experience-ai-overviews",
+        "ins_mike-king-499-ai-bot-silence",
+        "ins_phil-schmid-four-subagent-patterns",
+        "ins_kyle-poyar-continuous-monitoring-agents",
+        "ins_maja-voje-substrate-first-content-engineering",
+        "ins_max-schoening-agency-over-skills",
+        "ins_vikas-kansal-freemium-ai-paywall-multistep",
+        "ins_brendan-hufford-four-content-failure-modes",
+        "ins_anthropic-skills-as-vertical-distribution-unit"
       ],
       "operators_added": [
-        "casey-hill"
+        "casey-hill",
+        "phil-schmid",
+        "max-schoening",
+        "vikas-kansal"
       ],
-      "patterns_added": [],
+      "patterns_added": [
+        "pat_aeo-experience-gate"
+      ],
       "playbooks_added": []
     },
     {

@@ -2,9 +2,10 @@
 id: pat_agent-first-gtm
 title: Agent-first GTM (rebuild, don't bolt-on)
 captured_date: 2026-05-01
-convergence_count: 4
+last_updated: 2026-05-09
+convergence_count: 8
 tier: A
-uses_cards: [ins_rebuild-gtm-around-ai, ins_agent-first-gtm-flywheel, ins_agents-as-team-not-tools, ins_aeo-is-gtm-capability, ins_seller-workflows-begin-with-ai, ins_systems-of-action-replace-seller-stack, ins_reps-want-questions-not-dashboards]
+uses_cards: [ins_rebuild-gtm-around-ai, ins_agent-first-gtm-flywheel, ins_agents-as-team-not-tools, ins_aeo-is-gtm-capability, ins_seller-workflows-begin-with-ai, ins_systems-of-action-replace-seller-stack, ins_reps-want-questions-not-dashboards, ins_kyle-poyar-continuous-monitoring-agents]
 domains: [gtm, ai-native, pmm]
 ---
 

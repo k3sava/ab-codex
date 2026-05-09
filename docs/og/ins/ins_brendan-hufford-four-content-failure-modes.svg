@@ -22,10 +22,11 @@
       <circle cx="22" cy="22" r="6" fill="#5a6d8a"/>
       <text x="38" y="29" font-family="JetBrains Mono, monospace" font-size="18" font-weight="600" fill="#5a6d8a" letter-spacing="1">TIER B</text>
     </g>
-  <text x="80" y="240" font-family="Newsreader, serif" font-size="60" font-weight="500" fill="#0d1410">SaaS content fails in four named</text>
-  <text x="80" y="310" font-family="Newsreader, serif" font-size="60" font-weight="500" fill="#0d1410">patterns. Naming them makes sameness</text>
-  <text x="80" y="380" font-family="Newsreader, serif" font-size="60" font-weight="500" fill="#0d1410">diagnosable.</text>
-  <text x="80" y="486" font-family="JetBrains Mono, monospace" font-size="22" fill="#5a6757">Brendan Hufford</text>
+  <text x="80" y="240" font-family="Newsreader, serif" font-size="60" font-weight="500" fill="#0d1410">Four content failure modes destroy</text>
+  <text x="80" y="310" font-family="Newsreader, serif" font-size="60" font-weight="500" fill="#0d1410">every funnel: corporate, commodity,</text>
+  <text x="80" y="380" font-family="Newsreader, serif" font-size="60" font-weight="500" fill="#0d1410">copycat, and ChatGPT content. GTM</text>
+  <text x="80" y="450" font-family="Newsreader, serif" font-size="60" font-weight="500" fill="#0d1410">engineering cannot exit the sameness…</text>
+  <text x="80" y="556" font-family="JetBrains Mono, monospace" font-size="22" fill="#5a6757">Brendan Hufford</text>
   <text x="80" y="570" font-family="JetBrains Mono, monospace" font-size="16" fill="#7a8474" letter-spacing="1">2026-05-05</text>
   <text x="1120" y="570" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="14" fill="#7a8474">codex.iamkesava.com</text>
 </svg>

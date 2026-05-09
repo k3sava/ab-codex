@@ -3,10 +3,10 @@
 _Generated 2026-05-09. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 791 insight cards
-- 462 operator profiles
+- 801 insight cards
+- 465 operator profiles
 - 209 raw source files
-- 39 synthesis patterns
+- 40 synthesis patterns
 - 11 contradictions
 - 27 playbooks
 
@@ -338,7 +338,7 @@ _Generated 2026-05-09. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (395)
+### Tier B (405)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -380,6 +380,7 @@ _Generated 2026-05-09. Auto-built from frontmatter — do not edit by hand._
 - [`ins_anjli-jain-growth-architect-marketing`](insights/ins_anjli-jain-growth-architect-marketing.md) — AI-first companies should be born inside institutions, not against them _(Anjli Jain)_
 - [`ins_ankita-agarwal-duolingo-product-feedback`](insights/ins_ankita-agarwal-duolingo-product-feedback.md) — Duolingo's gamification helps but lacks adaptive difficulty and grammar depth for serious learners _(Ankita Agarwal)_
 - [`ins_anonymous-benchmark-rescues-roi-evidence`](insights/ins_anonymous-benchmark-rescues-roi-evidence.md) — Anonymous benchmark stats unlock ROI proof when named-customer attribution is blocked _(Jason Oakley)_
+- [`ins_anthropic-skills-as-vertical-distribution-unit`](insights/ins_anthropic-skills-as-vertical-distribution-unit.md) — Anthropic is treating Skills and Cookbooks as the unit of vertical agent distribution, not one-off integrations _(Anthropic)_
 - [`ins_ariely-pennies-a-day-effect`](insights/ins_ariely-pennies-a-day-effect.md) — Pennies-a-day, framing an annual price as daily trivializes the cost _(Dan Ariely)_
 - [`ins_ashwin-krishna-ashwin-krishna-abm-saas`](insights/ins_ashwin-krishna-ashwin-krishna-abm-saas.md) — ABM is the most-talked, least-implemented growth strategy in B2B SaaS _(Ashwin Krishna)_
 - [`ins_ask-revenue-impact-how-much`](insights/ins_ask-revenue-impact-how-much.md) — Fix weak messaging by reordering, value, then benefit, then feature _(Richard King)_
@@ -403,7 +404,7 @@ _Generated 2026-05-09. Auto-built from frontmatter — do not edit by hand._
 - [`ins_bogdan-tyskyy-data-foundation-for-ai-agents`](insights/ins_bogdan-tyskyy-data-foundation-for-ai-agents.md) — Data foundation determines AI agent value delivery. _(Bogdan Tyskyy)_
 - [`ins_brand-coefficient-multiplier`](insights/ins_brand-coefficient-multiplier.md) — Brand is the force multiplier on demand gen, strengthen the brand coefficient, not just spend more on ads _(Sam Kuehnle)_
 - [`ins_brands-as-tribal-identifiers`](insights/ins_brands-as-tribal-identifiers.md) — Brands are tribal identifiers. Loyalty is affiliative, not rational. _(Debbie Millman)_
-- [`ins_brendan-hufford-four-content-failure-modes`](insights/ins_brendan-hufford-four-content-failure-modes.md) — SaaS content fails in four named patterns. Naming them makes sameness diagnosable. _(Brendan Hufford)_
+- [`ins_brendan-hufford-four-content-failure-modes`](insights/ins_brendan-hufford-four-content-failure-modes.md) — Four content failure modes destroy every funnel: corporate, commodity, copycat, and ChatGPT content. GTM engineering cannot exit the sameness trap they produce. _(Brendan Hufford)_
 - [`ins_build-products-that-dont-yet-work`](insights/ins_build-products-that-dont-yet-work.md) — Build products at the edge of what does not yet work _(Cat Wu)_
 - [`ins_build-quietly`](insights/ins_build-quietly.md) — Best work is done alone and quietly, caveat: only if you already have a network _(Qasar Younis)_
 - [`ins_buy-boring-businesses`](insights/ins_buy-boring-businesses.md) — Buying eliminates the Valley of Death, the highest-risk phase of entrepreneurship is already done _(Codie Sanchez)_
@@ -412,6 +413,7 @@ _Generated 2026-05-09. Auto-built from frontmatter — do not edit by hand._
 - [`ins_capital-vs-lowercase-marketing`](insights/ins_capital-vs-lowercase-marketing.md) — Distinguish Capital-M Marketing (the function) from lowercase-m marketing (the whole-company motion) _(Krithika Shankarraman)_
 - [`ins_career-sequence-leverage-then-judgment`](insights/ins_career-sequence-leverage-then-judgment.md) — Spend the first half of your career acquiring leverage, the second half slowing down to apply judgment _(Naval Ravikant)_
 - [`ins_case-study-customer-as-hero`](insights/ins_case-study-customer-as-hero.md) — Information in narrative form is 22x more memorable. Integrate the metric into the moment. _(Joel Klettke)_
+- [`ins_casey-hill-aeo-structural-prominence`](insights/ins_casey-hill-aeo-structural-prominence.md) — Structural prominence in nav, headers, and footer predicts LLM citation rates more reliably than body content alone _(Casey Hill)_
 - [`ins_casey-hill-structural-prominence-llm-citations`](insights/ins_casey-hill-structural-prominence-llm-citations.md) — Nav and footer placement is a first-class LLM relevance signal, independent of page content. _(Casey Hill)_
 - [`ins_changing-everything-faster-than-most`](insights/ins_changing-everything-faster-than-most.md) — AI is changing everything. Faster than most people are ready for _(Dan Murphy)_
 - [`ins_chirayu-akotiya-content-engine-scaling`](insights/ins_chirayu-akotiya-content-engine-scaling.md) — Replace the marketing org with a growth team to fix GTM alignment _(Chirayu Akotiya)_
@@ -535,10 +537,13 @@ _Generated 2026-05-09. Auto-built from frontmatter — do not edit by hand._
 - [`ins_kevin-lord-barry-timeless-b2b-ad-principles`](insights/ins_kevin-lord-barry-timeless-b2b-ad-principles.md) — Winning B2B ads are built on timeless principles that work today, not trendy tactics. _(Kevin Lord Barry)_
 - [`ins_kristen-kris-hicks-hustle-culture-is-ableist`](insights/ins_kristen-kris-hicks-hustle-culture-is-ableist.md) — Hustle culture is ableist and excludes neurodivergent workers _(Kristen (Kris) Hicks)_
 - [`ins_kyle-james-graveyard-of-incomplete-agents`](insights/ins_kyle-james-graveyard-of-incomplete-agents.md) — A graveyard of incomplete agents is where the good stuff lives _(Kyle James)_
+- [`ins_kyle-poyar-ai-recommendation-share`](insights/ins_kyle-poyar-ai-recommendation-share.md) — The AEO metric is recommendation-share, not citation volume. AI responses recommend products; they do not list links. _(Kyle Poyar)_
+- [`ins_kyle-poyar-continuous-monitoring-agents`](insights/ins_kyle-poyar-continuous-monitoring-agents.md) — GTM automation shifted from triggered batch automations to continuous-monitoring agents in under 18 months. The agent decides when to act. _(Kyle Poyar)_
 - [`ins_langley-barth-great-pmm-companies`](insights/ins_langley-barth-great-pmm-companies.md) — The best product marketing companies are those you admire but have never worked at. _(Langley Barth)_
 - [`ins_lead-bullets-and-cannonballs`](insights/ins_lead-bullets-and-cannonballs.md) — Growth needs both lead bullets and cannonballs, the laziness trap is shipping only lead bullets _(Adriel Frederick)_
 - [`ins_lead-major-repositioning-pivots-over`](insights/ins_lead-major-repositioning-pivots-over.md) — i've lead major repositioning and pivots over the last 12 years and these are the most _(James Doman-Pipe)_
 - [`ins_leah-knobler-customer-stories-at-center`](insights/ins_leah-knobler-customer-stories-at-center.md) — If you ask candidates to do work, pay them, that's the recruiting hot take _(Leah Knobler)_
+- [`ins_lily-ray-firsthand-experience-ai-overviews`](insights/ins_lily-ray-firsthand-experience-ai-overviews.md) — First-hand experience is a distinct AEO primitive that drives additional clicks from AI Overviews and AI Mode, not just an E-E-A-T input signal _(Lily Ray)_
 - [`ins_linde-hasker-human-insight-over-ai`](insights/ins_linde-hasker-human-insight-over-ai.md) — Even OpenAI knows AI can't replace human strategic thinking for content strategy. _(Linde Hasker)_
 - [`ins_listening-mode-not-selling-mode`](insights/ins_listening-mode-not-selling-mode.md) — Switch from selling mode to listening mode when the market breaks _(Shruti Kapoor)_
 - [`ins_llms-learn-from-the-world`](insights/ins_llms-learn-from-the-world.md) — LLMs learn about your brand from the world, not from your site _(Eli Schwartz)_
@@ -548,6 +553,7 @@ _Generated 2026-05-09. Auto-built from frontmatter — do not edit by hand._
 - [`ins_machine-customers-displace-storefront-interactions`](insights/ins_machine-customers-displace-storefront-interactions.md) — By 2028, AI agent "machine customers" will replace 20% of human-readable storefront interactions _(Gartner)_
 - [`ins_madeleine-work-ai-strips-humanity-from-marketing`](insights/ins_madeleine-work-ai-strips-humanity-from-marketing.md) — AI-generated marketing materials strip out the humanity that makes content compelling. _(Madeleine Work)_
 - [`ins_maha-shahid-ai-prompt-context-matters`](insights/ins_maha-shahid-ai-prompt-context-matters.md) — AI output quality depends on prompt context, not the tool. _(Maha Shahid)_
+- [`ins_maja-voje-substrate-first-content-engineering`](insights/ins_maja-voje-substrate-first-content-engineering.md) — 90% of AI content system output quality comes from the knowledge fed in, not from agent sophistication. One canonical artifact, many consumers. _(Maja Voje)_
 - [`ins_make-intuition-explicit`](insights/ins_make-intuition-explicit.md) — Force intuitions into explicit predictions so you can find out where you are wrong _(Annie Duke)_
 - [`ins_make-the-implicit-explicit`](insights/ins_make-the-implicit-explicit.md) — In every meeting, name the why, the decider, the criterion, and the informed _(Claire Hughes Johnson)_
 - [`ins_make-verification-easy-ai-production`](insights/ins_make-verification-easy-ai-production.md) — Verification is a first-class design constraint in AI production systems, not an afterthought QA step _(Eugene Yan)_
@@ -558,12 +564,14 @@ _Generated 2026-05-09. Auto-built from frontmatter — do not edit by hand._
 - [`ins_market-to-product-product-to-market`](insights/ins_market-to-product-product-to-market.md) — PMM owns both halves of the loop, market to the product, product to the market _(Martina Lauchengco)_
 - [`ins_marketing-cfo-language`](insights/ins_marketing-cfo-language.md) — Marketing must speak the language of finance, not the language of marketing _(Rowan Tonkin)_
 - [`ins_marketing-debt-compounds-after-every-sprint`](insights/ins_marketing-debt-compounds-after-every-sprint.md) — Marketing debt is the gap between your actual product and your marketing footprint, and it compounds silently after every sprint _(Aatir Abdul Rauf)_
+- [`ins_max-schoening-agency-over-skills`](insights/ins_max-schoening-agency-over-skills.md) — Agency, not skills, separates people who thrive from those who fall behind. Skills are acquirable and AI-generatable; self-direction is not. _(Max Schoening)_
 - [`ins_mayuresh-patole-ai-should-not-lower-the-bar`](insights/ins_mayuresh-patole-ai-should-not-lower-the-bar.md) — AI presentation tools must preserve credibility, not make work look disposable. _(Mayuresh Patole)_
 - [`ins_media-first-business`](insights/ins_media-first-business.md) — Build media-first: long-form for trust, short-form for discovery, newsletter for retention, community for conversion _(Matt Gray)_
 - [`ins_megha-sharma-founders-need-end-to-end-gtm`](insights/ins_megha-sharma-founders-need-end-to-end-gtm.md) — Founders who need brand positioning always end up asking for lead generation, so offer both. _(Megha Sharma)_
 - [`ins_mental-models-as-os-not-library`](insights/ins_mental-models-as-os-not-library.md) — Mental models compound only if they run automatically, looking up the right model in the moment is too slow _(Charlie Munger)_
 - [`ins_message-testing-sameness-default`](insights/ins_message-testing-sameness-default.md) — In B2B, sameness is the default, you cannot win on features competitors will copy in 6 months _(Peep Laja)_
 - [`ins_messaging-equation-personalization-tiers`](insights/ins_messaging-equation-personalization-tiers.md) — Persona + Trigger + Value = Relevant Message. Personalize ~25%, no more. _(John Barrows)_
+- [`ins_mike-king-499-ai-bot-silence`](insights/ins_mike-king-499-ai-bot-silence.md) — A 499 from an AI bot UA means the bot decided the page was not worth waiting for and silently excluded it from the LLM candidate set _(Mike King)_
 - [`ins_mike-king-ai-crawler-499-speed-gate`](insights/ins_mike-king-ai-crawler-499-speed-gate.md) — AI crawlers return 499 errors on slow pages. Speed is a gate, not a ranking modifier. _(Mike King)_
 - [`ins_miller-one-liner-formula`](insights/ins_miller-one-liner-formula.md) — Problem → Solution → Result, the one-liner answers "what do you do?" in narrative shape _(Donald Miller)_
 - [`ins_miller-storybrand-is-execution-not-strategy`](insights/ins_miller-storybrand-is-execution-not-strategy.md) — StoryBrand clarifies *how* you communicate, not *what* you should stand for, strategy still has to come first _(Donald Miller)_
@@ -602,6 +610,7 @@ _Generated 2026-05-09. Auto-built from frontmatter — do not edit by hand._
 - [`ins_pavithra-krishnaswamy-sisyphean-pmm-journey`](insights/ins_pavithra-krishnaswamy-sisyphean-pmm-journey.md) — Nobody chose product marketing, it chooses you _(Pavithra Krishnaswamy)_
 - [`ins_peer-mentorship-supply-scaling`](insights/ins_peer-mentorship-supply-scaling.md) — Use peer mentorship instead of HR overhead to scale supply quality _(Benjamin Lauzier)_
 - [`ins_persistence-channels-vs-hit-or-miss`](insights/ins_persistence-channels-vs-hit-or-miss.md) — Persistence channels compound; hit-or-miss channels don't. Originate in the first, accelerate in the second. _(Julian Shapiro)_
+- [`ins_phil-schmid-four-subagent-patterns`](insights/ins_phil-schmid-four-subagent-patterns.md) — Four subagent patterns are settling as standard: Inline Tool, Fan-Out, Agent Pool, and Teams. Each adds control surface at a real debugging cost. _(Phil Schmid)_
 - [`ins_pin-workflows-to-capabilities-not-models`](insights/ins_pin-workflows-to-capabilities-not-models.md) — Pin workflows to capabilities you re-baseline quarterly, not to a model snapshot _(Ethan Mollick)_
 - [`ins_pm-as-orchestrator-of-agents`](insights/ins_pm-as-orchestrator-of-agents.md) — AI raises the bar for PMs, tactical work is delegatable; judgment, taste, and customer empathy become more valuable _(Lenny Rachitsky)_
 - [`ins_pm-design-handoff-collapse`](insights/ins_pm-design-handoff-collapse.md) — PM-to-design handoff is collapsing; PRDs ship with a working prototype attached _(Aakash Gupta)_
@@ -713,6 +722,7 @@ _Generated 2026-05-09. Auto-built from frontmatter — do not edit by hand._
 - [`ins_veena-ramakrishnan-fixing-the-follow-up-gap`](insights/ins_veena-ramakrishnan-fixing-the-follow-up-gap.md) — The biggest sales gap isn't outbound, it's missing the callback. _(Veena Ramakrishnan)_
 - [`ins_victor-c-leave-expiry-is-motivation-killer`](insights/ins_victor-c-leave-expiry-is-motivation-killer.md) — Expiring annual leave is like Amul Taaza, it's not perishable, it's an employee's time. _(Victor C.)_
 - [`ins_video-first-double-serp`](insights/ins_video-first-double-serp.md) — Video + matching article = double SERP occupancy. Two of ten organic positions, taken from competitors. _(Gaetano DiNardi)_
+- [`ins_vikas-kansal-freemium-ai-paywall-multistep`](insights/ins_vikas-kansal-freemium-ai-paywall-multistep.md) — AI-native freemium must paywall features that collapse multi-step tasks into a single click. GPU cost structure makes free one-click AI features unsustainable. _(Vikas Kansal)_
 - [`ins_voc-first-then-positioning`](insights/ins_voc-first-then-positioning.md) — Customer language first, positioning built upward from it, not the reverse _(Momoko Price)_
 - [`ins_voice-agent-call-volume-recovery`](insights/ins_voice-agent-call-volume-recovery.md) — A first AI voice agent shipped solo for a real customer _(Kubi Rich)_
 - [`ins_want-product-marketing-drive-revenue`](insights/ins_want-product-marketing-drive-revenue.md) — If you want product marketing to drive revenue without sales involvement, you have to r _(Hattie the PMM)_
@@ -1104,6 +1114,7 @@ _Generated 2026-05-09. Auto-built from frontmatter — do not edit by hand._
 - [Matt Dixon](operators/matt-dixon/README.md)
 - [Matt Gray](operators/matt-gray/README.md)
 - [Matt Shumer](operators/matt-shumer/README.md)
+- [Max Schoening](operators/max-schoening/README.md)
 - [Mayuresh Patole](operators/mayuresh-patole/README.md)
 - [Megha Sharma](operators/megha-sharma/README.md)
 - [Meghana Kansagara](operators/meghana-kansagara/README.md)
@@ -1144,6 +1155,7 @@ _Generated 2026-05-09. Auto-built from frontmatter — do not edit by hand._
 - [Pawel Huryn](operators/pawel-huryn/README.md)
 - [Peep Laja](operators/peep-laja/README.md)
 - [Peter Thiel](operators/peter-thiel/README.md)
+- [Phil Schmid](operators/phil-schmid/README.md)
 - [Pia Silva](operators/pia-silva/README.md)
 - [Pieter Levels](operators/pieter-levels/README.md)
 - [Pietro Montaldo](operators/pietro-montaldo/README.md)
@@ -1259,6 +1271,7 @@ _Generated 2026-05-09. Auto-built from frontmatter — do not edit by hand._
 - [Victoria Penker](operators/victoria-penker/README.md)
 - [Vijay Jay](operators/vijay-jay/README.md)
 - [Vikas Bhagat](operators/vikas-bhagat/README.md)
+- [Vikas Kansal](operators/vikas-kansal/README.md)
 - [Vinayak Padiyar](operators/vinayak-padiyar/README.md)
 - [Vishnu Prasad](operators/vishnu-prasad/README.md)
 - [Vivian Jordan](operators/vivian-jordan/README.md)
@@ -1280,15 +1293,16 @@ _Generated 2026-05-09. Auto-built from frontmatter — do not edit by hand._
 - **unknown**: 184
 
 ## Synthesis patterns
+- [`pat_aeo-experience-gate`](synthesis/patterns/aeo-experience-gate.md) — AEO experience and structure gate (4 ops) [Tier A]
 - [`pat_aeo-triangle`](synthesis/patterns/aeo-triangle.md) — The AEO triangle, presence, relevance, manual-action propagation (9 ops) [Tier A]
-- [`pat_agent-first-gtm`](synthesis/patterns/agent-first-gtm.md) — Agent-first GTM (rebuild, don't bolt-on) (4 ops) [Tier A]
+- [`pat_agent-first-gtm`](synthesis/patterns/agent-first-gtm.md) — Agent-first GTM (rebuild, don't bolt-on) (8 ops) [Tier A]
 - [`pat_agents-as-product-users`](synthesis/patterns/agents-as-product-users.md) — Agents are first-class users, design for output, not navigation (3 ops) [Tier A]
 - [`pat_agents-mapped-to-jtbd`](synthesis/patterns/agents-mapped-to-jtbd.md) — Agents mapped 1:1 to JTBD with named human checkpoints (5 ops) [Tier A]
 - [`pat_ai-defensibility-comes-from-non-ai`](synthesis/patterns/ai-defensibility-comes-from-non-ai.md) — AI defensibility comes from non-AI moats (3 ops) [Tier A]
 - [`pat_behavioral-pricing-architecture`](synthesis/patterns/behavioral-pricing-architecture.md) — Pricing is a behavioral-architecture problem (5 ops) [Tier A]
 - [`pat_build-for-next-model`](synthesis/patterns/build-for-next-model.md) — Build for the next model, not the current one (6 ops) [Tier A]
 - [`pat_buyer-mindset-not-product-features`](synthesis/patterns/buyer-mindset-not-product-features.md) — Sell to the buyer's mindset, not to product features (5 ops) [Tier A]
-- [`pat_context-not-capability`](synthesis/patterns/context-not-capability.md) — Context, not capability, is the bottleneck (4 ops) [Tier A]
+- [`pat_context-not-capability`](synthesis/patterns/context-not-capability.md) — Context, not capability, is the bottleneck (7 ops) [Tier A]
 - [`pat_copywriting-craft-fundamentals`](synthesis/patterns/copywriting-craft-fundamentals.md) — Copywriting craft is built on five reinforcing fundamentals (6 ops) [Tier A]
 - [`pat_decision-quality-through-process-not-willpower`](synthesis/patterns/decision-quality-through-process-not-willpower.md) — Decision quality at scale comes from process, not willpower (4 ops) [Tier A]
 - [`pat_diagnose-before-execute`](synthesis/patterns/diagnose-before-execute.md) — Diagnose before executing, refuse the playbook ask (4 ops) [Tier A]

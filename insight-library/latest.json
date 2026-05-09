@@ -1,42 +1,68 @@
 {
-  "generated_at": "2026-05-09T03:14:28.463Z",
+  "generated_at": "2026-05-09T03:19:18.157Z",
   "latest_daily": {
     "path": "daily/2026-05-09.md",
     "date": "2026-05-09",
-    "title": "AEO infrastructure and content sameness: three new cards",
-    "summary": "Three new cards, one new operator. Mike King and Casey Hill converged on AEO infrastructure from independent angles. Brendan Hufford named the four failure modes turning SaaS content into noise by default.",
+    "title": "AEO becomes a page-experience problem; agentic architecture settles into named patterns",
+    "summary": "Eleven new cards, one new synthesis pattern, two pattern updates, four new operators. Four AEO practitioners converged on a unified experience-and-structure gate frame. Three themes from independent directions.",
     "sources": [
       "morning research scan 2026-05-09"
     ],
     "insights_added": [
-      "ins_mike-king-ai-crawler-499-speed-gate",
-      "ins_casey-hill-structural-prominence-llm-citations",
-      "ins_brendan-hufford-four-content-failure-modes"
+      "ins_casey-hill-aeo-structural-prominence",
+      "ins_kyle-poyar-ai-recommendation-share",
+      "ins_lily-ray-firsthand-experience-ai-overviews",
+      "ins_mike-king-499-ai-bot-silence",
+      "ins_phil-schmid-four-subagent-patterns",
+      "ins_kyle-poyar-continuous-monitoring-agents",
+      "ins_maja-voje-substrate-first-content-engineering",
+      "ins_max-schoening-agency-over-skills",
+      "ins_vikas-kansal-freemium-ai-paywall-multistep",
+      "ins_brendan-hufford-four-content-failure-modes",
+      "ins_anthropic-skills-as-vertical-distribution-unit"
     ],
     "operators_added": [
-      "casey-hill"
+      "casey-hill",
+      "phil-schmid",
+      "max-schoening",
+      "vikas-kansal"
     ],
-    "patterns_added": [],
+    "patterns_added": [
+      "pat_aeo-experience-gate"
+    ],
     "playbooks_added": []
   },
   "recent_daily": [
     {
       "path": "daily/2026-05-09.md",
       "date": "2026-05-09",
-      "title": "AEO infrastructure and content sameness: three new cards",
-      "summary": "Three new cards, one new operator. Mike King and Casey Hill converged on AEO infrastructure from independent angles. Brendan Hufford named the four failure modes turning SaaS content into noise by default.",
+      "title": "AEO becomes a page-experience problem; agentic architecture settles into named patterns",
+      "summary": "Eleven new cards, one new synthesis pattern, two pattern updates, four new operators. Four AEO practitioners converged on a unified experience-and-structure gate frame. Three themes from independent directions.",
       "sources": [
         "morning research scan 2026-05-09"
       ],
       "insights_added": [
-        "ins_mike-king-ai-crawler-499-speed-gate",
-        "ins_casey-hill-structural-prominence-llm-citations",
-        "ins_brendan-hufford-four-content-failure-modes"
+        "ins_casey-hill-aeo-structural-prominence",
+        "ins_kyle-poyar-ai-recommendation-share",
+        "ins_lily-ray-firsthand-experience-ai-overviews",
+        "ins_mike-king-499-ai-bot-silence",
+        "ins_phil-schmid-four-subagent-patterns",
+        "ins_kyle-poyar-continuous-monitoring-agents",
+        "ins_maja-voje-substrate-first-content-engineering",
+        "ins_max-schoening-agency-over-skills",
+        "ins_vikas-kansal-freemium-ai-paywall-multistep",
+        "ins_brendan-hufford-four-content-failure-modes",
+        "ins_anthropic-skills-as-vertical-distribution-unit"
       ],
       "operators_added": [
-        "casey-hill"
+        "casey-hill",
+        "phil-schmid",
+        "max-schoening",
+        "vikas-kansal"
       ],
-      "patterns_added": [],
+      "patterns_added": [
+        "pat_aeo-experience-gate"
+      ],
       "playbooks_added": []
     },
     {
