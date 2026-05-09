@@ -22,7 +22,7 @@
 //
 // Run after build-index.mjs so INDEX.json is current.
 
-import { readdir, readFile, writeFile, mkdir, stat } from "node:fs/promises";
+import { readdir, readFile, writeFile, mkdir, stat, copyFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import { join, basename, dirname, relative } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -186,7 +186,7 @@ function rewriteBodyLinks(html, INDEX){
   return html;
 }
 
-function shell({ title, description, canonical, hashRoute, jsonLd, body, ogImage }){
+function shell({ title, description, canonical, hashRoute, jsonLd, body, ogImage, hasVisual }){
   const fullTitle = title ? `${escapeHtml(title)} · a builder's codex` : "a builder's codex";
   const desc = escapeHtml(description || "A primary-source library of operator insights. Atomic claims, named operators, verifiable sources.");
   const url = canonical;
@@ -222,6 +222,7 @@ function shell({ title, description, canonical, hashRoute, jsonLd, body, ogImage
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+${hasVisual ? '<link rel="stylesheet" href="/assets/css/pb-visuals.css">' : ''}
 <style>
 /* Static page styling — self-contained so the HTML reads cleanly without
    the SPA's stylesheet (which targets different selectors). Carries the
@@ -299,6 +300,7 @@ ${ld}
 <main class="static">
 ${body}
 </main>
+${hasVisual ? '<script src="/assets/js/pb-visuals.js" defer></script>' : ''}
 <footer class="static-footer">
   <div class="static-feeds"><a href="${SITE_URL}/llms.txt" rel="noopener">llms.txt</a> · <a href="${SITE_URL}/sitemap.xml" rel="noopener">sitemap</a> · <a href="${SITE_URL}/rss.xml" rel="noopener">rss</a> · <a href="${SITE_URL}/insight-library/INDEX.json" rel="noopener">index.json</a></div>
   <nav aria-label="Sister sites" class="static-sister"><a href="https://apps.iamkesava.com/">apps</a> · <a href="https://tools.iamkesava.com/">tools</a> · <a href="https://toys.iamkesava.com/">toys</a> · <span aria-current="page">codex</span></nav>
@@ -317,6 +319,12 @@ function tldrFor(card){
 
 async function ensureDir(p){ await mkdir(p, { recursive: true }); }
 
+async function loadVisual(playbook_id){
+  const p = join(ROOT, "assets/visuals", playbook_id, "animated.html");
+  if (!existsSync(p)) return "";
+  return await readFile(p, "utf8");
+}
+
 async function main(){
   // Read INDEX.json (must be built first).
   const INDEX = JSON.parse(await readFile(join(LIB, "INDEX.json"), "utf8"));
@@ -325,8 +333,8 @@ async function main(){
   let count = 0;
 
   // Helper to write static HTML for a markdown file at canonical URL.
-  const writeOne = async ({ outPath, title, description, canonical, hashRoute, jsonLd, body, ogImage }) => {
-    const html = shell({ title, description, canonical, hashRoute, jsonLd, body, ogImage });
+  const writeOne = async ({ outPath, title, description, canonical, hashRoute, jsonLd, body, ogImage, hasVisual }) => {
+    const html = shell({ title, description, canonical, hashRoute, jsonLd, body, ogImage, hasVisual });
     await ensureDir(dirname(outPath));
     await writeFile(outPath, html);
     count++;
@@ -534,6 +542,7 @@ async function main(){
     const renderedBody = rewriteBodyLinks(mdToHtml(cleaned), INDEX);
     const cta = `<div class="static-actions"><a class="primary" href="${SITE_URL}/#/play/${p.id}">Open the interactive view →</a></div>`;
     const crumbs = `<div class="static-crumbs"><a href="${SITE_URL}/">codex</a> · <a href="${SITE_URL}/playbooks/">playbooks</a> · ${escapeHtml(p.title || p.id)}</div>`;
+    const visualHtml = await loadVisual(p.id);
     // Extract H2 sections from the body as HowTo steps. Each step gets the
     // section heading as name and the first paragraph after it as text.
     // Skip generic wrappers like "References" or "Sources".
@@ -588,7 +597,8 @@ async function main(){
       hashRoute: `#/play/${p.id}`,
       jsonLd,
       ogImage: `${SITE_URL}/og/play/${p.id}.svg`,
-      body: `${crumbs}<h1>${escapeHtml(p.title || p.id)}</h1><article>${renderedBody}</article>${cta}`,
+      hasVisual: !!visualHtml,
+      body: `${crumbs}<h1>${escapeHtml(p.title || p.id)}</h1>${visualHtml}<article>${renderedBody}</article>${cta}`,
     });
   }
 
@@ -769,6 +779,14 @@ async function main(){
       });
     }
   }
+
+  // Copy pb-visuals CSS and JS to docs/assets/ so GH Pages can serve them.
+  const cssDir = join(DOCS, "assets", "css");
+  const jsDir = join(DOCS, "assets", "js");
+  await ensureDir(cssDir);
+  await ensureDir(jsDir);
+  await copyFile(join(ROOT, "assets/css/pb-visuals.css"), join(cssDir, "pb-visuals.css"));
+  await copyFile(join(ROOT, "assets/js/pb-visuals.js"), join(jsDir, "pb-visuals.js"));
 
   console.log(`build-static: emitted ${count} static HTML files under docs/`);
 }

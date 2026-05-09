@@ -1,0 +1,93 @@
+<div class="pbv" data-observe aria-label="Win/loss framework — the closed-deal loop">
+  <span class="pbv-eyebrow">Annotated pipeline · dual flow</span>
+  <p class="pbv-vis-title">The Deal-to-Positioning Loop</p>
+
+  <!-- The loop: two parallel flows → signal engine -->
+  <div style="display:grid;grid-template-columns:1fr auto 1fr;gap:0 20px;align-items:center;margin-bottom:20px">
+
+    <!-- Lost flow -->
+    <div>
+      <p style="font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#991B1B;margin-bottom:10px">Closed-lost</p>
+      <div class="pbv-pipeline-inner" style="padding-left:20px">
+        <div class="pbv-spine"></div>
+        <div class="pbv-step" style="--step:0">
+          <div class="pbv-step-dot" style="left:-17px"></div>
+          <span class="pbv-step-num">01</span>
+          <div><p class="pbv-step-name">Call intel deep dive</p><p class="pbv-step-note">AE-recorded call if available</p></div>
+        </div>
+        <div class="pbv-step" style="--step:1">
+          <div class="pbv-step-dot" style="left:-17px"></div>
+          <span class="pbv-step-num">02</span>
+          <div><p class="pbv-step-name">Closed-lost interview</p><p class="pbv-step-note">7-question script · timing · trigger · alternatives · decision drivers</p></div>
+        </div>
+        <div class="pbv-step" style="--step:2">
+          <div class="pbv-step-dot" style="left:-17px"></div>
+          <span class="pbv-step-num">03</span>
+          <div><p class="pbv-step-name">Theme extraction</p><p class="pbv-step-note">Monthly cluster into 6 gap types below</p></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Arrow -->
+    <div style="text-align:center;opacity:0;transition:opacity .4s .7s" class="pbv-arrow-center">
+      <div style="font-size:20px;color:#D6CFC4">↓</div>
+      <div style="font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#92400E;white-space:nowrap;margin-top:4px">Signal<br>engine</div>
+      <div style="font-size:20px;color:#D6CFC4;margin-top:4px">↑</div>
+    </div>
+
+    <!-- Won flow -->
+    <div>
+      <p style="font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#4A5E4A;margin-bottom:10px">Closed-won</p>
+      <div class="pbv-pipeline-inner" style="padding-left:20px">
+        <div class="pbv-spine"></div>
+        <div class="pbv-step" style="--step:0">
+          <div class="pbv-step-dot" style="left:-17px;background:#4A5E4A"></div>
+          <span class="pbv-step-num">01</span>
+          <div><p class="pbv-step-name">Pattern match</p><p class="pbv-step-note">Against best-deal cohort — firmographics + behavior</p></div>
+        </div>
+        <div class="pbv-step" style="--step:1">
+          <div class="pbv-step-dot" style="left:-17px;background:#4A5E4A"></div>
+          <span class="pbv-step-num">02</span>
+          <div><p class="pbv-step-name">Narrative signal</p><p class="pbv-step-note">What story did they believe? Reinforces messaging</p></div>
+        </div>
+        <div class="pbv-step" style="--step:2">
+          <div class="pbv-step-dot" style="left:-17px;background:#4A5E4A"></div>
+          <span class="pbv-step-num">03</span>
+          <div><p class="pbv-step-name">Case-study flag</p><p class="pbv-step-note">Allowed-claims fit · written approval required</p></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="pbv-section-divider"></div>
+
+  <!-- 6 gap types -->
+  <p style="font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#57534E;margin-bottom:12px">Six gap types from closed-lost theme extraction</p>
+
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px">
+    <div style="--fi:0" class="pbv-fail"><span class="pbv-fail-dot"></span><span class="pbv-fail-text"><strong>Positioning</strong> — they thought we were X; we are Y</span></div>
+    <div style="--fi:1" class="pbv-fail"><span class="pbv-fail-dot"></span><span class="pbv-fail-text"><strong>Capability</strong> — genuine missing feature; feeds product</span></div>
+    <div style="--fi:2" class="pbv-fail"><span class="pbv-fail-dot"></span><span class="pbv-fail-text"><strong>Competitive</strong> — we have it; didn't communicate it</span></div>
+    <div style="--fi:3" class="pbv-fail"><span class="pbv-fail-dot"></span><span class="pbv-fail-text"><strong>Price</strong> — genuine value-price mismatch</span></div>
+    <div style="--fi:4" class="pbv-fail"><span class="pbv-fail-dot"></span><span class="pbv-fail-text"><strong>Trust/brand</strong> — confidence issue; feeds content</span></div>
+    <div style="--fi:5" class="pbv-fail"><span class="pbv-fail-dot" style="background:#57534E"></span><span class="pbv-fail-text"><strong>Team-fit</strong> — hiring/timing; not addressable via PMM</span></div>
+  </div>
+
+  <div class="pbv-footer">
+    <span>Channels: Rohde · Tufte · Moore</span>
+    <span>ab-codex</span>
+  </div>
+</div>
+
+<script>
+/* Wire the centre arrow to the same observer */
+(function(){
+  var el=document.querySelector('.pbv-arrow-center');
+  if(!el)return;
+  var obs=new IntersectionObserver(function(e){
+    if(e[0].isIntersecting){el.style.opacity='1';obs.disconnect();}
+  },{threshold:.15});
+  obs.observe(el.closest('[data-observe]')||el);
+})();
+</script>

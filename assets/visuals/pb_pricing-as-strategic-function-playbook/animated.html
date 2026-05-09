@@ -1,0 +1,83 @@
+<div class="pbv" data-observe aria-label="Pricing as strategic function — profit lever analysis and WTP demand curve">
+  <span class="pbv-eyebrow">Data portrait + annotated curve</span>
+  <p class="pbv-vis-title">Pricing as Strategic Function</p>
+
+  <div class="pbv-portrait-layout">
+
+    <!-- Left: Du Bois bars -->
+    <div>
+      <div class="pbv-bars">
+
+        <div class="pbv-bar-row">
+          <span class="pbv-bar-label">Pricing</span>
+          <div class="pbv-bar-track">
+            <div class="pbv-bar-fill" style="--bar-color:#92400E; --bar-pct:100%; --bi:0"></div>
+          </div>
+          <span class="pbv-bar-value" style="--bar-color:#92400E">+8%</span>
+          <span class="pbv-bar-note">A 1% price improvement → 8% operating profit lift</span>
+        </div>
+
+        <div class="pbv-bar-row">
+          <span class="pbv-bar-label">Volume</span>
+          <div class="pbv-bar-track">
+            <div class="pbv-bar-fill" style="--bar-color:#4A5E4A; --bar-pct:37.5%; --bi:1"></div>
+          </div>
+          <span class="pbv-bar-value" style="--bar-color:#4A5E4A">+3%</span>
+          <span class="pbv-bar-note">A 1% volume increase → 3% operating profit lift</span>
+        </div>
+
+        <div class="pbv-bar-row">
+          <span class="pbv-bar-label">Variable Cost</span>
+          <div class="pbv-bar-track">
+            <div class="pbv-bar-fill" style="--bar-color:#475569; --bar-pct:25%; --bi:2"></div>
+          </div>
+          <span class="pbv-bar-value" style="--bar-color:#475569">-2%</span>
+          <span class="pbv-bar-note">A 1% variable cost reduction → 2% operating profit lift</span>
+        </div>
+
+        <div class="pbv-bar-row">
+          <span class="pbv-bar-label">Fixed Cost</span>
+          <div class="pbv-bar-track">
+            <div class="pbv-bar-fill" style="--bar-color:#475569; --bar-pct:12.5%; --bi:3"></div>
+          </div>
+          <span class="pbv-bar-value" style="--bar-color:#475569">-1%</span>
+          <span class="pbv-bar-note">A 1% fixed cost reduction → 1% operating profit lift</span>
+        </div>
+
+      </div>
+      <p style="font-size:9px;color:#57534E;margin-top:12px;font-style:italic">McKinsey study · 2,463 companies · each lever at 1% change</p>
+    </div>
+
+    <!-- Right: WTP demand curve -->
+    <div class="pbv-curve-section">
+      <div class="pbv-curve-label">The WTP Cliff</div>
+      <svg class="pbv-curve-svg" viewBox="0 0 280 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- Axes -->
+        <line x1="32" y1="16" x2="32" y2="228" stroke="#1C1917" stroke-width="1.5"/>
+        <line x1="32" y1="228" x2="264" y2="228" stroke="#1C1917" stroke-width="1.5"/>
+        <!-- Axis labels -->
+        <text x="8" y="20" font-size="9" fill="#57534E" class="pbv-curve-anno">Price</text>
+        <text x="230" y="242" font-size="9" fill="#57534E" class="pbv-curve-anno">Qty</text>
+        <!-- Demand curve -->
+        <path class="demand-line"
+          d="M 34 28 C 38 55 42 82 50 108 C 60 140 90 182 140 210 C 180 228 230 232 262 234"
+          stroke="#1C1917" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <!-- WTP ceiling marker -->
+        <line x1="32" y1="108" x2="50" y2="108" stroke="#D97706" stroke-width="1.5"/>
+        <circle cx="50" cy="108" r="4" fill="#92400E"/>
+        <text x="55" y="104" font-size="8.5" fill="#92400E" font-weight="600" class="pbv-curve-marker-label">WTP ceiling</text>
+        <text x="55" y="118" font-size="9" fill="#57534E" class="pbv-curve-anno">Above here → zero buyers</text>
+        <!-- Psych floor marker -->
+        <line x1="32" y1="210" x2="140" y2="210" stroke="#991B1B" stroke-width="1.5" stroke-dasharray="3 2"/>
+        <text x="36" y="223" font-size="8.5" fill="#991B1B" font-weight="600" class="pbv-curve-marker-label">Psych. floor</text>
+      </svg>
+      <p style="font-size:10px;color:#57534E;font-style:italic;margin-top:6px">Below the floor, buyers assume low quality. Demand stalls.</p>
+    </div>
+
+  </div>
+
+  <div class="pbv-footer">
+    <span>Channels: Du Bois · Tufte · McCandless · old Economist</span>
+    <span>ab-codex</span>
+  </div>
+</div>
