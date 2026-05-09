@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-05-07. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-05-09. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 788 insight cards
-- 461 operator profiles
+- 791 insight cards
+- 462 operator profiles
 - 209 raw source files
 - 39 synthesis patterns
 - 11 contradictions
@@ -338,7 +338,7 @@ _Generated 2026-05-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (392)
+### Tier B (395)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -403,6 +403,7 @@ _Generated 2026-05-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_bogdan-tyskyy-data-foundation-for-ai-agents`](insights/ins_bogdan-tyskyy-data-foundation-for-ai-agents.md) — Data foundation determines AI agent value delivery. _(Bogdan Tyskyy)_
 - [`ins_brand-coefficient-multiplier`](insights/ins_brand-coefficient-multiplier.md) — Brand is the force multiplier on demand gen, strengthen the brand coefficient, not just spend more on ads _(Sam Kuehnle)_
 - [`ins_brands-as-tribal-identifiers`](insights/ins_brands-as-tribal-identifiers.md) — Brands are tribal identifiers. Loyalty is affiliative, not rational. _(Debbie Millman)_
+- [`ins_brendan-hufford-four-content-failure-modes`](insights/ins_brendan-hufford-four-content-failure-modes.md) — SaaS content fails in four named patterns. Naming them makes sameness diagnosable. _(Brendan Hufford)_
 - [`ins_build-products-that-dont-yet-work`](insights/ins_build-products-that-dont-yet-work.md) — Build products at the edge of what does not yet work _(Cat Wu)_
 - [`ins_build-quietly`](insights/ins_build-quietly.md) — Best work is done alone and quietly, caveat: only if you already have a network _(Qasar Younis)_
 - [`ins_buy-boring-businesses`](insights/ins_buy-boring-businesses.md) — Buying eliminates the Valley of Death, the highest-risk phase of entrepreneurship is already done _(Codie Sanchez)_
@@ -411,6 +412,7 @@ _Generated 2026-05-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_capital-vs-lowercase-marketing`](insights/ins_capital-vs-lowercase-marketing.md) — Distinguish Capital-M Marketing (the function) from lowercase-m marketing (the whole-company motion) _(Krithika Shankarraman)_
 - [`ins_career-sequence-leverage-then-judgment`](insights/ins_career-sequence-leverage-then-judgment.md) — Spend the first half of your career acquiring leverage, the second half slowing down to apply judgment _(Naval Ravikant)_
 - [`ins_case-study-customer-as-hero`](insights/ins_case-study-customer-as-hero.md) — Information in narrative form is 22x more memorable. Integrate the metric into the moment. _(Joel Klettke)_
+- [`ins_casey-hill-structural-prominence-llm-citations`](insights/ins_casey-hill-structural-prominence-llm-citations.md) — Nav and footer placement is a first-class LLM relevance signal, independent of page content. _(Casey Hill)_
 - [`ins_changing-everything-faster-than-most`](insights/ins_changing-everything-faster-than-most.md) — AI is changing everything. Faster than most people are ready for _(Dan Murphy)_
 - [`ins_chirayu-akotiya-content-engine-scaling`](insights/ins_chirayu-akotiya-content-engine-scaling.md) — Replace the marketing org with a growth team to fix GTM alignment _(Chirayu Akotiya)_
 - [`ins_ciana-abdollahian-vibe-coded-customer-discovery-tool`](insights/ins_ciana-abdollahian-vibe-coded-customer-discovery-tool.md) — Vibe-coding a lightweight internal tool solves the 'I need a customer who' request gap. _(Ciana Abdollahian)_
@@ -562,6 +564,7 @@ _Generated 2026-05-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_mental-models-as-os-not-library`](insights/ins_mental-models-as-os-not-library.md) — Mental models compound only if they run automatically, looking up the right model in the moment is too slow _(Charlie Munger)_
 - [`ins_message-testing-sameness-default`](insights/ins_message-testing-sameness-default.md) — In B2B, sameness is the default, you cannot win on features competitors will copy in 6 months _(Peep Laja)_
 - [`ins_messaging-equation-personalization-tiers`](insights/ins_messaging-equation-personalization-tiers.md) — Persona + Trigger + Value = Relevant Message. Personalize ~25%, no more. _(John Barrows)_
+- [`ins_mike-king-ai-crawler-499-speed-gate`](insights/ins_mike-king-ai-crawler-499-speed-gate.md) — AI crawlers return 499 errors on slow pages. Speed is a gate, not a ranking modifier. _(Mike King)_
 - [`ins_miller-one-liner-formula`](insights/ins_miller-one-liner-formula.md) — Problem → Solution → Result, the one-liner answers "what do you do?" in narrative shape _(Donald Miller)_
 - [`ins_miller-storybrand-is-execution-not-strategy`](insights/ins_miller-storybrand-is-execution-not-strategy.md) — StoryBrand clarifies *how* you communicate, not *what* you should stand for, strategy still has to come first _(Donald Miller)_
 - [`ins_mina-break-down-why-it-works`](insights/ins_mina-break-down-why-it-works.md) — Strong product marketers break down why marketing works, not just admire it. _(Mina ..)_
@@ -899,6 +902,7 @@ _Generated 2026-05-07. Auto-built from frontmatter — do not edit by hand._
 - [Brian Dean](operators/brian-dean/README.md)
 - [Brian Halligan](operators/brian-halligan/README.md)
 - [Brian Sierakowski](operators/brian-sierakowski/README.md)
+- [Casey Hill](operators/casey-hill/README.md)
 - [Cat Wu](operators/cat-wu/README.md)
 - [Chantal Cox](operators/chantal-cox/README.md)
 - [Charlie Munger](operators/charlie-munger/README.md)
@@ -1276,7 +1280,7 @@ _Generated 2026-05-07. Auto-built from frontmatter — do not edit by hand._
 - **unknown**: 184
 
 ## Synthesis patterns
-- [`pat_aeo-triangle`](synthesis/patterns/aeo-triangle.md) — The AEO triangle, presence, relevance, manual-action propagation (6 ops) [Tier A]
+- [`pat_aeo-triangle`](synthesis/patterns/aeo-triangle.md) — The AEO triangle, presence, relevance, manual-action propagation (9 ops) [Tier A]
 - [`pat_agent-first-gtm`](synthesis/patterns/agent-first-gtm.md) — Agent-first GTM (rebuild, don't bolt-on) (4 ops) [Tier A]
 - [`pat_agents-as-product-users`](synthesis/patterns/agents-as-product-users.md) — Agents are first-class users, design for output, not navigation (3 ops) [Tier A]
 - [`pat_agents-mapped-to-jtbd`](synthesis/patterns/agents-mapped-to-jtbd.md) — Agents mapped 1:1 to JTBD with named human checkpoints (5 ops) [Tier A]
@@ -1288,7 +1292,7 @@ _Generated 2026-05-07. Auto-built from frontmatter — do not edit by hand._
 - [`pat_copywriting-craft-fundamentals`](synthesis/patterns/copywriting-craft-fundamentals.md) — Copywriting craft is built on five reinforcing fundamentals (6 ops) [Tier A]
 - [`pat_decision-quality-through-process-not-willpower`](synthesis/patterns/decision-quality-through-process-not-willpower.md) — Decision quality at scale comes from process, not willpower (4 ops) [Tier A]
 - [`pat_diagnose-before-execute`](synthesis/patterns/diagnose-before-execute.md) — Diagnose before executing, refuse the playbook ask (4 ops) [Tier A]
-- [`pat_differentiation-vs-sameness`](synthesis/patterns/differentiation-vs-sameness.md) — Differentiation requires three checks, different, better, matters (3 ops) [Tier B]
+- [`pat_differentiation-vs-sameness`](synthesis/patterns/differentiation-vs-sameness.md) — Differentiation requires three checks, different, better, matters (5 ops) [Tier B]
 - [`pat_distribution-as-moat`](synthesis/patterns/distribution-as-moat.md) — Distribution and earned channels are the new moat (5 ops) [Tier A]
 - [`pat_economic-turing-test-rev-per-employee`](synthesis/patterns/economic-turing-test-rev-per-employee.md) — The Economic Turing Test, outcomes pricing, agent labor, revenue per employee (3 ops) [Tier A]
 - [`pat_eval-as-data-analysis`](synthesis/patterns/eval-as-data-analysis.md) — Evals are data analysis, single judge, binary rubrics, error analysis first (3 ops) [Tier A]

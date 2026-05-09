@@ -4,7 +4,7 @@
 
 The codex is a structured corpus of cross-domain operator wisdom across product, PMM, GTM, AI-native, design, engineering, leadership, sales, growth, research, and founder craft. Every claim traces back to its primary source. Insights carry mechanism, conditions, evidence, signals, counter-evidence, and cross-references.
 
-Counts: 788 insights · 461 operators · 39 synthesis patterns · 11 contradictions · 27 playbooks · 324 tier-A claims.
+Counts: 791 insights · 462 operators · 39 synthesis patterns · 11 contradictions · 27 playbooks · 324 tier-A claims.
 
 ## Index
 
@@ -26,7 +26,7 @@ Counts: 788 insights · 461 operators · 39 synthesis patterns · 11 contradicti
 
 Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged with one or more domains.
 
-- [pmm](https://codex.iamkesava.com/d/pmm/) — 427 insights
+- [pmm](https://codex.iamkesava.com/d/pmm/) — 428 insights
 - [gtm](https://codex.iamkesava.com/d/gtm/) — 165 insights
 - [marketing](https://codex.iamkesava.com/d/marketing/) — 160 insights
 - [ai-native](https://codex.iamkesava.com/d/ai-native/) — 141 insights
@@ -49,14 +49,16 @@ Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged wit
 - [research](https://codex.iamkesava.com/d/research/) — 7 insights
 - [marketing-ops](https://codex.iamkesava.com/d/marketing-ops/) — 7 insights
 - [strategy-bets](https://codex.iamkesava.com/d/strategy-bets/) — 5 insights
+- [aeo](https://codex.iamkesava.com/d/aeo/) — 3 insights
 - [community](https://codex.iamkesava.com/d/community/) — 2 insights
 - [risk](https://codex.iamkesava.com/d/risk/) — 2 insights
+- [content-strategy](https://codex.iamkesava.com/d/content-strategy/) — 2 insights
 - [ai-product](https://codex.iamkesava.com/d/ai-product/) — 2 insights
 - [ai-engineering](https://codex.iamkesava.com/d/ai-engineering/) — 2 insights
 - [seo](https://codex.iamkesava.com/d/seo/) — 1 insight
-- [aeo](https://codex.iamkesava.com/d/aeo/) — 1 insight
 - [measurement](https://codex.iamkesava.com/d/measurement/) — 1 insight
 - [content-ops](https://codex.iamkesava.com/d/content-ops/) — 1 insight
+- [technical-seo](https://codex.iamkesava.com/d/technical-seo/) — 1 insight
 - [evals](https://codex.iamkesava.com/d/evals/) — 1 insight
 - [operations](https://codex.iamkesava.com/d/operations/) — 1 insight
 - [pricing](https://codex.iamkesava.com/d/pricing/) — 1 insight
@@ -103,4 +105,4 @@ Every page emits Schema.org @graph: Article + BreadcrumbList + FAQPage + Speakab
 
 - [GitHub repository](https://github.com/k3sava/ab-codex): MIT licensed. Insights are open source; raw sources retain original copyright.
 
-Last updated: 2026-05-07.
+Last updated: 2026-05-09.

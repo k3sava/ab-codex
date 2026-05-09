@@ -2,9 +2,10 @@
 id: pat_differentiation-vs-sameness
 title: Differentiation requires three checks — different, better, matters
 captured_date: 2026-05-01
-convergence_count: 3
+last_updated: 2026-05-09
+convergence_count: 5
 tier: B
-uses_cards: [ins_different-better-and-matters, ins_sameness-perception-is-the-differentiation-barrier, ins_test-positioning-in-live-sales-pitch, ins_use-case-epiphany-as-marketing-job]
+uses_cards: [ins_different-better-and-matters, ins_sameness-perception-is-the-differentiation-barrier, ins_test-positioning-in-live-sales-pitch, ins_use-case-epiphany-as-marketing-job, ins_brendan-hufford-four-content-failure-modes]
 domains: [pmm, gtm]
 ---
 

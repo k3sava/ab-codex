@@ -3,11 +3,11 @@
 > **[Open the interactive site → codex.iamkesava.com](https://codex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest — 2026-05-07 · 9 insights · 1 operator
+### Latest — 2026-05-09 · 3 insights · 1 operator
 
-**Verification convergence: four operators, one platform answer** — Nine new cards plus one extended pattern. The week's dominant signal — closing the verification loop is the production bottleneck in AI-native work — converged across four independent operators, and Anthropic shipped the platform version of the same argument.
+**AEO infrastructure and content sameness: three new cards** — Three new cards, one new operator. Mike King and Casey Hill converged on AEO infrastructure from independent angles. Brendan Hufford named the four failure modes turning SaaS content into noise by default.
 
-[Read what landed →](insight-library/daily/2026-05-07.md) · [See on the site →](https://codex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-05-09.md) · [See on the site →](https://codex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights — atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,8 +15,8 @@ A primary-source library of operator insights — atomic claims, each one attrib
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **788** insight cards
-- **461** operator profiles
+- **791** insight cards
+- **462** operator profiles
 - **39** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
 - **27** methodology playbooks
@@ -33,7 +33,7 @@ The site at [codex.iamkesava.com](https://codex.iamkesava.com/) gives you severa
 |------|---------------|
 | [Home](https://codex.iamkesava.com/) | Tier A claims and a domain index |
 | [Map](https://codex.iamkesava.com/#/map) | Visual graph: operators outside, domains in the middle, insights orbiting between |
-| [Operators](https://codex.iamkesava.com/#/operators) | All 461 profiles, sorted by card count |
+| [Operators](https://codex.iamkesava.com/#/operators) | All 462 profiles, sorted by card count |
 | [Patterns](https://codex.iamkesava.com/#/patterns) | Where 3+ operators converge on the same claim |
 | [Browse](https://codex.iamkesava.com/#/browse) | Filter by tier or domain, sort by date / operator / tier |
 | [Timeline](https://codex.iamkesava.com/#/timeline) | Newest captures first |

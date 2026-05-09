@@ -1,31 +1,44 @@
 {
-  "generated_at": "2026-05-07T14:39:02.905Z",
+  "generated_at": "2026-05-09T03:14:28.463Z",
   "latest_daily": {
-    "path": "daily/2026-05-07.md",
-    "date": "2026-05-07",
-    "title": "Verification convergence: four operators, one platform answer",
-    "summary": "Nine new cards plus one extended pattern. The week's dominant signal — closing the verification loop is the production bottleneck in AI-native work — converged across four independent operators, and Anthropic shipped the platform version of the same argument.",
+    "path": "daily/2026-05-09.md",
+    "date": "2026-05-09",
+    "title": "AEO infrastructure and content sameness: three new cards",
+    "summary": "Three new cards, one new operator. Mike King and Casey Hill converged on AEO infrastructure from independent angles. Brendan Hufford named the four failure modes turning SaaS content into noise by default.",
     "sources": [
-      "morning research scan 2026-05-07"
+      "morning research scan 2026-05-09"
     ],
     "insights_added": [
-      "ins_aeo-citation-rotation-makes-snapshots-worthless",
-      "ins_marketing-debt-compounds-after-every-sprint",
-      "ins_ai-native-launch-triage-not-fewer-gates",
-      "ins_pricing-iteration-finds-right-model",
-      "ins_ux-change-target-emotion-is-relief",
-      "ins_make-verification-easy-ai-production",
-      "ins_error-analysis-highest-leverage-eval-step",
-      "ins_outcomes-grader-agent-evaluation",
-      "ins_dreaming-cross-session-memory-curation"
+      "ins_mike-king-ai-crawler-499-speed-gate",
+      "ins_casey-hill-structural-prominence-llm-citations",
+      "ins_brendan-hufford-four-content-failure-modes"
     ],
     "operators_added": [
-      "anthropic"
+      "casey-hill"
     ],
     "patterns_added": [],
     "playbooks_added": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-05-09.md",
+      "date": "2026-05-09",
+      "title": "AEO infrastructure and content sameness: three new cards",
+      "summary": "Three new cards, one new operator. Mike King and Casey Hill converged on AEO infrastructure from independent angles. Brendan Hufford named the four failure modes turning SaaS content into noise by default.",
+      "sources": [
+        "morning research scan 2026-05-09"
+      ],
+      "insights_added": [
+        "ins_mike-king-ai-crawler-499-speed-gate",
+        "ins_casey-hill-structural-prominence-llm-citations",
+        "ins_brendan-hufford-four-content-failure-modes"
+      ],
+      "operators_added": [
+        "casey-hill"
+      ],
+      "patterns_added": [],
+      "playbooks_added": []
+    },
     {
       "path": "daily/2026-05-07.md",
       "date": "2026-05-07",
