@@ -11,7 +11,7 @@ originating_operators: [april-dunford, gartner-research, ayo-omojola]
 
 # Competitive analysis
 
-A 10-step process for turning competitive intel into decisions. Draws on Crayon's battlecard research (a competitive intelligence platform), Gartner's differentiation studies, and April Dunford's positioning work. Output is a competitive package that helps sales win, product prioritize, and marketing sharpen messaging. The quality bar is not comprehensiveness. It is whether the analysis changes a decision within 30 days of delivery.
+A 10-step process for turning competitive intel into decisions. Draws on Crayon's battlecard research, Gartner's differentiation studies, and April Dunford's positioning work. Output is a competitive package that helps sales win, product prioritize, and marketing sharpen messaging. The quality bar is not comprehensiveness. It is whether the analysis changes a decision within 30 days of delivery.
 
 ## When to use
 

@@ -58,7 +58,7 @@ Edges render the same way on every page. A user entering through any door must a
 8. Layout drift. Any page narrower than others is a bug. Width set once, not per-page.
 9. Compound operators. `"Lily Ray + Britney Muller"` wrong. Split into `operator` + `co_operators[]`.
 10. Emoji insertion. Never, unless explicitly asked.
-11. Named reference without context. Every person, tool, company, or framework cited in body text must be introduced with enough context for a cold reader to understand why it matters. "Use Ayo Omojola's three-check filter" is not enough without saying who he is. "CI without a business question" is not enough without expanding CI on first use. If a name or acronym appears and the reader would need to search to understand why it's there, add one clause. This check must be run on the intro paragraph and every step heading.
+11. Named reference without context. If a name, acronym, or framework would be opaque to the target reader — a working PMM or operator — add one clause. Do not explain what the target reader already knows. "Crayon" needs no gloss; "CIA 4-phase cycle" does, because that acronym is not shared vocabulary and the framework is never defined. The test: would the target reader have to search to understand why this is cited? If yes, add context. If no, leave it bare.
 12. Topic-label titles. Every playbook title must be a reader-facing job-to-be-done statement, not a category label. "Competitive analysis — landscape, profiles, battlecards" fails. "Run competitive analysis that arms sellers and sharpens positioning" passes. The test: does the title tell the reader what they will be able to do after reading?
 
 ## Eye for errors (Kesava's pattern)
