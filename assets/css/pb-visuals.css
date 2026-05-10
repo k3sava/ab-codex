@@ -230,6 +230,16 @@
   line-height: 1.4;
 }
 
+.pbv-step-name a {
+  color: inherit;
+  text-decoration: none;
+}
+.pbv-step-name a:hover {
+  color: var(--pbv-accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 .pbv-pipeline-more {
   margin-top: 16px;
   font-size: 10px;

@@ -390,10 +390,10 @@ main.static blockquote.pb-operator-quote .pb-quote-attr .inline-cross-ref:hover{
 .pb-toc li::before{counter-increment:toc;content:counter(toc,decimal-leading-zero);font-family:JetBrains Mono,monospace;font-size:.62rem;color:var(--muted);min-width:20px}
 .pb-toc a{font-family:Newsreader,Georgia,serif;font-size:1rem;color:var(--ink-2);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:1px;transition:color .15s,border-color .15s;line-height:1.45}
 .pb-toc a:hover{color:var(--accent);border-bottom-color:var(--accent)}
-h2#common-failure-modes+ul{list-style:none;padding-left:0;margin-top:.8em}
-h2#common-failure-modes+ul li{border-top:1px solid var(--line-2);padding:14px 0;padding-left:0;margin:0;color:var(--ink-2);line-height:1.6}
-h2#common-failure-modes+ul li:first-child{border-top:none;padding-top:0}
-h2#common-failure-modes+ul li strong:first-child{font-family:JetBrains Mono,monospace;font-size:.72rem;color:var(--accent);text-transform:uppercase;letter-spacing:.05em;font-weight:600;display:inline-block;margin-right:.5em}
+h2#failure-modes+ul{list-style:none;padding-left:0;margin-top:.8em}
+h2#failure-modes+ul li{border-top:1px solid var(--line-2);padding:14px 0;padding-left:0;margin:0;color:var(--ink-2);line-height:1.5}
+h2#failure-modes+ul li:first-child{border-top:none;padding-top:0}
+h2#failure-modes+ul li strong:first-child{font-family:JetBrains Mono,monospace;font-size:.7rem;color:var(--accent);text-transform:uppercase;letter-spacing:.06em;font-weight:600;display:block;margin-bottom:2px}
 h2#outputs+ol{list-style:none;padding-left:0;counter-reset:outputs;margin-top:.8em}
 h2#outputs+ol li{counter-increment:outputs;display:flex;gap:14px;align-items:baseline;padding:10px 0;border-top:1px solid var(--line-2);color:var(--ink-2);line-height:1.6;margin:0}
 h2#outputs+ol li:first-child{border-top:none;padding-top:0}
@@ -743,9 +743,9 @@ async function main(){
       : "";
     const cardsForPlaybook = (p.uses_cards || []).slice(0, 8).map(cid => INDEX.insights.find(i => i.id === cid)).filter(Boolean);
     const opsForPlaybook = [...new Set((p.originating_operators || []).concat(cardsForPlaybook.map(c => c.operator).filter(Boolean)))];
-    // Insight chips — linked pills shown below the intro paragraph
+    // Insight chips — operator + year, full title as tooltip
     const insightChips = cardsForPlaybook.length
-      ? `<div class="pb-insight-chips"><span class="pb-insight-chips-label">Insights used</span>${cardsForPlaybook.map(c=>`<a class="pb-insight-chip" href="${SITE_URL}/ins/${c.id}/">${escapeHtml(c.title||c.id)}</a>`).join("")}</div>`
+      ? `<div class="pb-insight-chips"><span class="pb-insight-chips-label">Insights used</span>${cardsForPlaybook.map(c=>{const yr=(c.source_date||"").slice(0,4);const label=`${c.operator||c.id}${yr?" · "+yr:""}`;return`<a class="pb-insight-chip" href="${SITE_URL}/ins/${c.id}/" title="${escapeHtml(c.title||c.id)}">${escapeHtml(label)}</a>`}).join("")}</div>`
       : "";
     // Split visual into Phase 1 and Phase 2; inject Phase 1 after Steps H2, Phase 2 after step 5
     const [visual1, visual2] = splitVisualHtml(visualHtml);
@@ -783,7 +783,7 @@ async function main(){
     };
     // Wide layout (sidebar TOC) is added as per-playbook extra CSS only when there are sections
     const extraStyle = h2s.length >= 3
-      ? `@media(min-width:1160px){main.static{max-width:1100px}.pb-layout{display:grid;grid-template-columns:1fr 196px;gap:56px;align-items:start}.pb-toc-mobile{display:none}.pb-sidebar{display:block;position:sticky;top:72px;max-height:calc(100vh - 90px);overflow-y:auto}.pb-sidebar .pb-toc{margin:0;background:transparent;border:none;padding:0 0 0 14px;border-left:2px solid var(--line)}.pb-sidebar .pb-toc li::before{display:none}.pb-sidebar .pb-toc a{font-size:.82rem}}`
+      ? `@media(min-width:1160px){main.static{max-width:1100px}.pb-layout{display:grid;grid-template-columns:1fr 196px;gap:56px;align-items:start}.pb-toc-mobile{display:none}.pb-sidebar{display:block;position:sticky;top:72px;max-height:calc(100vh - 90px);overflow-y:auto}.pb-sidebar .pb-toc{margin:0;background:transparent;border:none;padding:0 0 0 14px;border-left:2px solid var(--line)}.pb-sidebar .pb-toc li::before{display:none}.pb-sidebar .pb-toc a{font-size:.82rem;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:182px}}`
       : "";
     await writeOne({
       outPath: join(DOCS, "play", p.id, "index.html"),

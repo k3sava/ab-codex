@@ -9,7 +9,7 @@ uses_cards: [ins_battle-cards-as-workflow-primitive, ins_no-decision-is-the-real
 originating_operators: [april-dunford, gartner-research, ayo-omojola]
 ---
 
-# Competitive analysis playbook
+# Competitive analysis
 
 Synthesizes the CIA 4-phase cycle, Crayon's battlecard structure, and Dunford's positioning research. Output is a competitive package that helps sales win, product prioritize, and marketing sharpen positioning. The quality bar is not comprehensiveness. It is whether the analysis changes a decision within 30 days of delivery.
 
@@ -191,14 +191,6 @@ Define the refresh cadence before you ship:
 
 The calendar cadence is a floor, not the trigger. Real battlecard refreshes happen event-driven: a competitor ships something, a market shift occurs, sales asks for updated intel. If nobody is asking for updates, check adoption first. Stale content is a smaller problem than content nobody uses.
 
-## Tiering model
-
-| Tier | Definition | Action | Typical count |
-|------|-----------|--------|---------------|
-| Tier 1 | 80% of competitive deals. Sales mentions constantly. | Full profile, battlecard, ongoing monitoring. | 3 to 5 |
-| Tier 2 | Noisy but low revenue impact. | Brief profile, basic talking points, periodic check. | 3 to 5 |
-| Tier 3 | Niche. Rarely encountered. | One paragraph. Revisit if frequency increases. | All others |
-
 ## Honest comparison page template
 
 When publishing a competitor-vs-you page, the most credible structure:
@@ -222,18 +214,18 @@ Tone by competitor position: market leader requires maximum deference; direct co
 - Every differentiator passes the three-check filter: different, better, and matters viscerally.
 - Living document cadence is defined and owned before distribution.
 
-## Common failure modes
+## Failure modes
 
-- **Boiling the ocean.** Profiling 15 competitors at equal depth. Five competitors drive 80% of competitive deals. Tier honestly and focus ruthlessly.
-- **Feature-checklist syndrome.** A 50-row comparison matrix. Buyers decide based on value delivered against their situation, not feature counts.
-- **Ignoring status quo.** Only analyzing direct competitors. "Do nothing" is often the real competitor, and it requires completely different positioning.
-- **CRM data without interviews.** Disposition codes tell you who. Interviews tell you why. Real win/loss requires both.
-- **One-and-done analysis.** A static document is stale within 60 days. Establish the refresh cadence before you ship.
-- **Battlecard bloat.** Five-page documents sellers never open. Keep cards to one to two scannable pages.
+- **Boiling the ocean.** Five rivals account for 80% of deals. Tier by revenue impact, not marketing noise.
+- **Feature-checklist syndrome.** Buyers decide on value in their situation, not feature counts.
+- **Ignoring status quo.** "Do nothing" is the real competitor and requires completely different positioning.
+- **CRM data without interviews.** CRM says who. Interviews say why. Real win/loss analysis needs both.
+- **One-and-done analysis.** Static analysis is stale within 60 days. Define the refresh cadence before you ship.
+- **Battlecard bloat.** Five-page documents sellers never open. Keep cards to two scannable pages.
 - **Accuracy failures.** One wrong claim destroys all credibility with sellers. Verify everything.
-- **Depositioning the wrong competitors.** Investing campaigns against competitors where your win rate is 3%. Low win rate means a structural problem. Fix the root cause before spending marketing dollars.
-- **No adoption plan.** Great analysis sent in an email attachment. If it is not in Slack and CRM, it will not get used.
-- **Same tone across all comparisons.** Market leaders require deference. Niche players get directness. One tone does not fit all.
+- **Depositioning the wrong competitors.** A 3% win rate signals a structural problem. Fix the root cause before campaigns.
+- **No adoption plan.** Not in Slack and CRM at the deal level means not used.
+- **Same tone across all comparisons.** Market leaders need deference. Niche players get directness.
 
 ## Outputs
 

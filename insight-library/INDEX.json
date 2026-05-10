@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-10T14:58:28.428Z",
+  "generated_at": "2026-05-10T16:15:34.935Z",
   "counts": {
     "insights": 805,
     "operators": 465,
@@ -34990,7 +34990,7 @@
     {
       "path": "playbooks/competitive/competitive-analysis.md",
       "id": "pb_competitive-analysis",
-      "title": "Competitive analysis playbook",
+      "title": "Competitive analysis",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
       "depth": "full",
