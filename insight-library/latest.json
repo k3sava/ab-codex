@@ -1,38 +1,42 @@
 {
-  "generated_at": "2026-05-09T03:19:18.157Z",
+  "generated_at": "2026-05-10T03:16:07.996Z",
   "latest_daily": {
-    "path": "daily/2026-05-09.md",
-    "date": "2026-05-09",
-    "title": "AEO becomes a page-experience problem; agentic architecture settles into named patterns",
-    "summary": "Eleven new cards, one new synthesis pattern, two pattern updates, four new operators. Four AEO practitioners converged on a unified experience-and-structure gate frame. Three themes from independent directions.",
+    "path": "daily/2026-05-10.md",
+    "date": "2026-05-10",
+    "title": "Context engineering quantified, AEO continuity, volume versus curation",
+    "summary": "Four new cards from the week of May 10, 2026. Poyar and Voje survey 200 GTM operators and produce the first large-sample quantitative evidence for the context-not-capability thesis. Lily Ray frames AEO as an extension of SEO discipline, not a replacement. Swyx names curation as the quality lever in the AI-volume era. Anthropic Routines establishes the boundary between cloud-hosted and local agent execution.",
     "sources": [
-      "morning research scan 2026-05-09"
+      "morning research scan 2026-05-10"
     ],
     "insights_added": [
-      "ins_casey-hill-aeo-structural-prominence",
-      "ins_kyle-poyar-ai-recommendation-share",
-      "ins_lily-ray-firsthand-experience-ai-overviews",
-      "ins_mike-king-499-ai-bot-silence",
-      "ins_phil-schmid-four-subagent-patterns",
-      "ins_kyle-poyar-continuous-monitoring-agents",
-      "ins_maja-voje-substrate-first-content-engineering",
-      "ins_max-schoening-agency-over-skills",
-      "ins_vikas-kansal-freemium-ai-paywall-multistep",
-      "ins_brendan-hufford-four-content-failure-modes",
-      "ins_anthropic-skills-as-vertical-distribution-unit"
+      "ins_poyar-voje-context-engineering-gap",
+      "ins_swyx-scaling-without-slop",
+      "ins_lily-ray-aeo-seo-continuity",
+      "ins_anthropic-routines-cloud-agent-tasks"
     ],
-    "operators_added": [
-      "casey-hill",
-      "phil-schmid",
-      "max-schoening",
-      "vikas-kansal"
-    ],
-    "patterns_added": [
-      "pat_aeo-experience-gate"
-    ],
+    "operators_added": "",
+    "patterns_added": [],
     "playbooks_added": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-05-10.md",
+      "date": "2026-05-10",
+      "title": "Context engineering quantified, AEO continuity, volume versus curation",
+      "summary": "Four new cards from the week of May 10, 2026. Poyar and Voje survey 200 GTM operators and produce the first large-sample quantitative evidence for the context-not-capability thesis. Lily Ray frames AEO as an extension of SEO discipline, not a replacement. Swyx names curation as the quality lever in the AI-volume era. Anthropic Routines establishes the boundary between cloud-hosted and local agent execution.",
+      "sources": [
+        "morning research scan 2026-05-10"
+      ],
+      "insights_added": [
+        "ins_poyar-voje-context-engineering-gap",
+        "ins_swyx-scaling-without-slop",
+        "ins_lily-ray-aeo-seo-continuity",
+        "ins_anthropic-routines-cloud-agent-tasks"
+      ],
+      "operators_added": "",
+      "patterns_added": [],
+      "playbooks_added": []
+    },
     {
       "path": "daily/2026-05-09.md",
       "date": "2026-05-09",

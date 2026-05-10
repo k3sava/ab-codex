@@ -3,11 +3,11 @@
 > **[Open the interactive site → codex.iamkesava.com](https://codex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest — 2026-05-09 · 11 insights · 4 operators · 1 pattern
+### Latest — 2026-05-10 · 4 insights
 
-**AEO becomes a page-experience problem; agentic architecture settles into named patterns** — Eleven new cards, one new synthesis pattern, two pattern updates, four new operators. Four AEO practitioners converged on a unified experience-and-structure gate frame. Three themes from independent directions.
+**Context engineering quantified, AEO continuity, volume versus curation** — Four new cards from the week of May 10, 2026. Poyar and Voje survey 200 GTM operators and produce the first large-sample quantitative evidence for the context-not-capability thesis. Lily Ray frames AEO as an extension of SEO discipline, not a replacement. Swyx names curation as the quality lever in the AI-volume era. Anthropic Routines establishes the boundary between cloud-hosted and local agent execution.
 
-[Read what landed →](insight-library/daily/2026-05-09.md) · [See on the site →](https://codex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-05-10.md) · [See on the site →](https://codex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights — atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights — atomic claims, each one attrib
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **801** insight cards
+- **805** insight cards
 - **465** operator profiles
 - **40** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions

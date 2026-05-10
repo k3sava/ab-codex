@@ -15,16 +15,18 @@
     <circle cx="0" cy="14" r="6" fill="#2c8b4f"/>
     <text x="16" y="20" font-family="Newsreader, serif" font-size="22" fill="#0d1410">a builder's codex</text>
   </g>
-  <text x="80" y="170" font-family="JetBrains Mono, monospace" font-size="16" fill="#5a6757" letter-spacing="2">SYNTHESIS PATTERN · PMM · GTM</text>
+  <text x="80" y="170" font-family="JetBrains Mono, monospace" font-size="16" fill="#5a6757" letter-spacing="2">SEO · AEO · CONTENT-STRATEGY</text>
   
     <g transform="translate(80, 90)">
       <rect width="120" height="44" rx="22" fill="#f3f5ee" stroke="#5a6d8a" stroke-width="2"/>
       <circle cx="22" cy="22" r="6" fill="#5a6d8a"/>
       <text x="38" y="29" font-family="JetBrains Mono, monospace" font-size="18" font-weight="600" fill="#5a6d8a" letter-spacing="1">TIER B</text>
     </g>
-  <text x="80" y="240" font-family="Newsreader, serif" font-size="60" font-weight="500" fill="#0d1410">Differentiation requires three</text>
-  <text x="80" y="310" font-family="Newsreader, serif" font-size="60" font-weight="500" fill="#0d1410">checks, different, better, matters</text>
-  <text x="80" y="416" font-family="JetBrains Mono, monospace" font-size="22" fill="#5a6757">6 operators converge</text>
-  <text x="80" y="570" font-family="JetBrains Mono, monospace" font-size="16" fill="#7a8474" letter-spacing="1">2026-05-01</text>
+  <text x="80" y="240" font-family="Newsreader, serif" font-size="60" font-weight="500" fill="#0d1410">The signals that earn blue-link</text>
+  <text x="80" y="310" font-family="Newsreader, serif" font-size="60" font-weight="500" fill="#0d1410">rankings are the same ones that earn</text>
+  <text x="80" y="380" font-family="Newsreader, serif" font-size="60" font-weight="500" fill="#0d1410">AI-generated answer citations,</text>
+  <text x="80" y="450" font-family="Newsreader, serif" font-size="60" font-weight="500" fill="#0d1410">making AEO an extension of SEO…</text>
+  <text x="80" y="556" font-family="JetBrains Mono, monospace" font-size="22" fill="#5a6757">Lily Ray</text>
+  <text x="80" y="570" font-family="JetBrains Mono, monospace" font-size="16" fill="#7a8474" letter-spacing="1">2026-05-10</text>
   <text x="1120" y="570" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="14" fill="#7a8474">codex.iamkesava.com</text>
 </svg>

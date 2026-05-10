@@ -1,44 +1,30 @@
 {
-  "generated_at": "2026-05-09T03:19:18.111Z",
+  "generated_at": "2026-05-10T03:16:07.956Z",
   "counts": {
-    "insights": 801,
+    "insights": 805,
     "operators": 465,
     "raw_sources": 209,
     "patterns": 40,
     "contradictions": 11,
     "playbooks": 27,
-    "daily": 9
+    "daily": 10
   },
   "latest_daily": {
-    "path": "daily/2026-05-09.md",
-    "date": "2026-05-09",
-    "title": "AEO becomes a page-experience problem; agentic architecture settles into named patterns",
-    "summary": "Eleven new cards, one new synthesis pattern, two pattern updates, four new operators. Four AEO practitioners converged on a unified experience-and-structure gate frame. Three themes from independent directions.",
+    "path": "daily/2026-05-10.md",
+    "date": "2026-05-10",
+    "title": "Context engineering quantified, AEO continuity, volume versus curation",
+    "summary": "Four new cards from the week of May 10, 2026. Poyar and Voje survey 200 GTM operators and produce the first large-sample quantitative evidence for the context-not-capability thesis. Lily Ray frames AEO as an extension of SEO discipline, not a replacement. Swyx names curation as the quality lever in the AI-volume era. Anthropic Routines establishes the boundary between cloud-hosted and local agent execution.",
     "sources": [
-      "morning research scan 2026-05-09"
+      "morning research scan 2026-05-10"
     ],
     "insights_added": [
-      "ins_casey-hill-aeo-structural-prominence",
-      "ins_kyle-poyar-ai-recommendation-share",
-      "ins_lily-ray-firsthand-experience-ai-overviews",
-      "ins_mike-king-499-ai-bot-silence",
-      "ins_phil-schmid-four-subagent-patterns",
-      "ins_kyle-poyar-continuous-monitoring-agents",
-      "ins_maja-voje-substrate-first-content-engineering",
-      "ins_max-schoening-agency-over-skills",
-      "ins_vikas-kansal-freemium-ai-paywall-multistep",
-      "ins_brendan-hufford-four-content-failure-modes",
-      "ins_anthropic-skills-as-vertical-distribution-unit"
+      "ins_poyar-voje-context-engineering-gap",
+      "ins_swyx-scaling-without-slop",
+      "ins_lily-ray-aeo-seo-continuity",
+      "ins_anthropic-routines-cloud-agent-tasks"
     ],
-    "operators_added": [
-      "casey-hill",
-      "phil-schmid",
-      "max-schoening",
-      "vikas-kansal"
-    ],
-    "patterns_added": [
-      "pat_aeo-experience-gate"
-    ],
+    "operators_added": "",
+    "patterns_added": [],
     "playbooks_added": []
   },
   "insights": [
@@ -1940,6 +1926,38 @@
       ],
       "raw_ref": "raw/linkedin/pmm-mining/linkedin-saved-posts-2026-04-10.md",
       "title": "Anonymous benchmark stats unlock ROI proof when named-customer attribution is blocked"
+    },
+    {
+      "path": "insights/ins_anthropic-routines-cloud-agent-tasks.md",
+      "id": "ins_anthropic-routines-cloud-agent-tasks",
+      "operator": "Anthropic",
+      "operator_role": "AI safety company and model developer",
+      "co_operators": [],
+      "source_url": "https://9to5mac.com/2026/04/14/anthropic-adds-repeatable-routines-feature-to-claude-code-heres-how-it-works/",
+      "source_type": "post",
+      "source_title": "Anthropic adds repeatable Routines feature to Claude Code",
+      "source_date": "2026-04-14",
+      "captured_date": "2026-05-10",
+      "domain": [
+        "ai-gtm",
+        "developer-tools",
+        "product"
+      ],
+      "lifecycle": [
+        "product-development",
+        "automation"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "workflow",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 3, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_dreaming-cross-session-memory-curation",
+        "ins_outcomes-grader-agent-evaluation",
+        "ins_dotclaude-as-deployable-artifact"
+      ],
+      "raw_ref": "",
+      "title": "Claude Code Routines separates cloud-hosted scheduled agent tasks from local compute, enabling event-triggered agent work on Anthropic's servers without the user's machine being online."
     },
     {
       "path": "insights/ins_anthropic-skills-as-vertical-distribution-unit.md",
@@ -10414,6 +10432,39 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_lily-ray-aeo-seo-continuity.md",
+      "id": "ins_lily-ray-aeo-seo-continuity",
+      "operator": "Lily Ray",
+      "operator_role": "VP of SEO, Amsive",
+      "co_operators": [],
+      "source_url": "https://www.affiliatesummit.com/blogs/the-state-of-ai-and-seo-in-2026-with-lily-ray",
+      "source_type": "talk",
+      "source_title": "The State of AI and SEO in 2026",
+      "source_date": "2026-05-10",
+      "captured_date": "2026-05-10",
+      "domain": [
+        "seo",
+        "aeo",
+        "content-strategy"
+      ],
+      "lifecycle": [
+        "organic-growth",
+        "content"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_lily-ray-firsthand-experience-ai-overviews",
+        "ins_aeo-three-layer-presence-readiness-impact",
+        "ins_crawlability-shapes-everything",
+        "ins_aeo-is-gtm-capability"
+      ],
+      "raw_ref": "",
+      "title": "The signals that earn blue-link rankings are the same ones that earn AI-generated answer citations, making AEO an extension of SEO discipline, not a replacement."
+    },
+    {
       "path": "insights/ins_lily-ray-firsthand-experience-ai-overviews.md",
       "id": "ins_lily-ray-firsthand-experience-ai-overviews",
       "operator": "Lily Ray",
@@ -14600,6 +14651,41 @@
       ],
       "raw_ref": "raw/essays/chris-orlob--pov-led-outbound--2026-04-21.md",
       "title": "Lead with a per-account point of view, not a templated cold ask"
+    },
+    {
+      "path": "insights/ins_poyar-voje-context-engineering-gap.md",
+      "id": "ins_poyar-voje-context-engineering-gap",
+      "operator": "Kyle Poyar",
+      "operator_role": "Founder, Growth Unhinged newsletter",
+      "co_operators": [
+        "Maja Voje"
+      ],
+      "source_url": "https://knowledge.gtmstrategist.com/p/claude-for-gtm-pulse-report-2026",
+      "source_type": "research",
+      "source_title": "Claude for GTM Pulse Report 2026",
+      "source_date": "2026-05-10",
+      "captured_date": "2026-05-10",
+      "domain": [
+        "pmm",
+        "ai-gtm",
+        "content-strategy"
+      ],
+      "lifecycle": [
+        "adoption",
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "A",
+      "related": [
+        "ins_context-engineering-beats-prompt-engineering",
+        "ins_maja-voje-substrate-first-content-engineering",
+        "ins_bottleneck-is-context-not-capability",
+        "ins_claude-plus-crm-plus-orchestration-stack"
+      ],
+      "raw_ref": "",
+      "title": "Among 200 GTM operators surveyed, detailed company context adoption separates systemic AI builders from task runners by 21 percentage points."
     },
     {
       "path": "insights/ins_pradeep-dhayalan-operations-excellence-advocate.md",
@@ -19130,6 +19216,38 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_swyx-scaling-without-slop.md",
+      "id": "ins_swyx-scaling-without-slop",
+      "operator": "Swyx",
+      "operator_role": "Founder, Latent Space podcast and newsletter",
+      "co_operators": [],
+      "source_url": "https://www.latent.space/p/2026",
+      "source_type": "essay",
+      "source_title": "Scaling without Slop",
+      "source_date": "2026-05-10",
+      "captured_date": "2026-05-10",
+      "domain": [
+        "content-strategy",
+        "ai-gtm"
+      ],
+      "lifecycle": [
+        "content",
+        "adoption"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 2, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_brendan-hufford-four-content-failure-modes",
+        "ins_ai-slop-loop",
+        "ins_death-of-the-ultimate-guide",
+        "ins_different-better-and-matters"
+      ],
+      "raw_ref": "",
+      "title": "In AI content, the quality lever is curation and a distinct point of view, not output volume."
     },
     {
       "path": "insights/ins_system1-system2-thinking.md",
@@ -33738,8 +33856,8 @@
       "id": "pat_aeo-triangle",
       "title": "The AEO triangle, presence, relevance, manual-action propagation",
       "captured_date": "2026-05-01",
-      "last_updated": "2026-05-09",
-      "convergence_count": "9",
+      "last_updated": "2026-05-10",
+      "convergence_count": "10",
       "tier": "A",
       "uses_cards": [
         "ins_aeo-three-layer-presence-readiness-impact",
@@ -33750,7 +33868,8 @@
         "ins_manual-action-propagates-to-ai-surfaces",
         "ins_ai-slop-loop",
         "ins_mike-king-ai-crawler-499-speed-gate",
-        "ins_casey-hill-structural-prominence-llm-citations"
+        "ins_casey-hill-structural-prominence-llm-citations",
+        "ins_lily-ray-aeo-seo-continuity"
       ],
       "domains": [
         "pmm",
@@ -33937,8 +34056,8 @@
       "id": "pat_context-not-capability",
       "title": "Context, not capability, is the bottleneck",
       "captured_date": "2026-05-01",
-      "last_updated": "2026-05-09",
-      "convergence_count": "7",
+      "last_updated": "2026-05-10",
+      "convergence_count": "8",
       "tier": "A",
       "uses_cards": [
         "ins_bottleneck-is-context-not-capability",
@@ -33947,7 +34066,8 @@
         "ins_red-green-tdd-shorthand-for-agents",
         "ins_dotclaude-as-deployable-artifact",
         "ins_remove-features-as-models-improve",
-        "ins_maja-voje-substrate-first-content-engineering"
+        "ins_maja-voje-substrate-first-content-engineering",
+        "ins_poyar-voje-context-engineering-gap"
       ],
       "domains": [
         "ai-native",
@@ -34048,15 +34168,16 @@
       "id": "pat_differentiation-vs-sameness",
       "title": "Differentiation requires three checks, different, better, matters",
       "captured_date": "2026-05-01",
-      "last_updated": "2026-05-09",
-      "convergence_count": "5",
+      "last_updated": "2026-05-10",
+      "convergence_count": "6",
       "tier": "B",
       "uses_cards": [
         "ins_different-better-and-matters",
         "ins_sameness-perception-is-the-differentiation-barrier",
         "ins_test-positioning-in-live-sales-pitch",
         "ins_use-case-epiphany-as-marketing-job",
-        "ins_brendan-hufford-four-content-failure-modes"
+        "ins_brendan-hufford-four-content-failure-modes",
+        "ins_swyx-scaling-without-slop"
       ],
       "domains": [
         "pmm",
@@ -35438,6 +35559,24 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-05-10.md",
+      "date": "2026-05-10",
+      "title": "Context engineering quantified, AEO continuity, volume versus curation",
+      "summary": "Four new cards from the week of May 10, 2026. Poyar and Voje survey 200 GTM operators and produce the first large-sample quantitative evidence for the context-not-capability thesis. Lily Ray frames AEO as an extension of SEO discipline, not a replacement. Swyx names curation as the quality lever in the AI-volume era. Anthropic Routines establishes the boundary between cloud-hosted and local agent execution.",
+      "sources": [
+        "morning research scan 2026-05-10"
+      ],
+      "insights_added": [
+        "ins_poyar-voje-context-engineering-gap",
+        "ins_swyx-scaling-without-slop",
+        "ins_lily-ray-aeo-seo-continuity",
+        "ins_anthropic-routines-cloud-agent-tasks"
+      ],
+      "operators_added": "",
+      "patterns_added": [],
+      "playbooks_added": []
+    },
     {
       "path": "daily/2026-05-09.md",
       "date": "2026-05-09",

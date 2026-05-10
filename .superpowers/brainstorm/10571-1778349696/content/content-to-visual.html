@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Content → Visual Map</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #F5F0E8;
+    font-family: 'Inter', system-ui, sans-serif;
+    color: #1C1917;
+    padding: 40px 32px 80px;
+  }
+  .header {
+    max-width: 1000px;
+    margin: 0 auto 12px;
+    border-bottom: 2px solid #1C1917;
+    padding-bottom: 20px;
+  }
+  .eyebrow { font-size: 11px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #92400E; margin-bottom: 8px; }
+  h1 { font-family: Georgia, serif; font-size: 28px; font-weight: 700; font-style: italic; margin-bottom: 8px; }
+  .subtitle { font-size: 13px; color: #57534E; line-height: 1.6; max-width: 680px; }
+
+  .direction-badge {
+    max-width: 1000px;
+    margin: 14px auto 28px;
+    padding: 10px 16px;
+    border-left: 3px solid #92400E;
+    background: rgba(146,64,14,0.05);
+    font-size: 13px;
+    color: #57534E;
+    line-height: 1.6;
+  }
+  .direction-badge strong { color: #1C1917; }
+
+  .grid {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 14px;
+  }
+
+  .card {
+    background: #fff;
+    border: 1.5px solid #D6CFC4;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    user-select: none;
+  }
+  .card:hover { border-color: #92400E; box-shadow: 0 3px 12px rgba(0,0,0,0.08); }
+  .card.selected { border-color: #92400E; box-shadow: 0 0 0 2px #92400E; }
+  .card.selected .card-check { opacity: 1; }
+
+  .card-preview {
+    background: #F5F0E8;
+    padding: 20px;
+    min-height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .card-check {
+    position: absolute;
+    top: 8px; right: 10px;
+    font-size: 14px; color: #92400E; font-weight: 700;
+    opacity: 0; transition: opacity 0.15s;
+  }
+
+  .card-body { padding: 14px 16px 16px; }
+  .card-type {
+    font-size: 10px; font-weight: 700; letter-spacing: 0.12em;
+    text-transform: uppercase; color: #92400E; margin-bottom: 4px;
+  }
+  .card-name {
+    font-family: Georgia, serif; font-size: 15px; font-weight: 700;
+    font-style: italic; color: #1C1917; margin-bottom: 4px;
+    line-height: 1.3;
+  }
+  .card-desc { font-size: 12px; color: #57534E; line-height: 1.5; }
+  .card-examples {
+    margin-top: 8px;
+    font-size: 10px;
+    font-family: 'Courier New', monospace;
+    color: #92400E;
+    line-height: 1.6;
+    border-top: 1px dashed #E8E2D9;
+    padding-top: 6px;
+  }
+  .card-influence {
+    margin-top: 6px;
+    font-size: 10px;
+    color: #A8A29E;
+    font-style: italic;
+  }
+
+  /* ——— MINI PREVIEWS ——— */
+
+  /* 1. Annotated pipeline */
+  .pipe { display: flex; flex-direction: column; gap: 0; width: 100%; }
+  .pipe-step { display: flex; align-items: flex-start; gap: 8px; padding: 4px 0; }
+  .pipe-num { font-size: 9px; font-family: 'Courier New', monospace; color: #92400E; width: 14px; flex-shrink: 0; padding-top: 1px; }
+  .pipe-line { flex: 1; }
+  .pipe-label { font-size: 11px; font-family: Georgia, serif; font-style: italic; color: #1C1917; border-bottom: 1px solid #D6CFC4; padding-bottom: 2px; }
+  .pipe-note { font-size: 9px; color: #57534E; margin-top: 2px; padding-left: 4px; border-left: 1px solid #D97706; }
+  .pipe-connector { margin-left: 14px; width: 1px; height: 6px; background: #D6CFC4; }
+
+  /* 2. Pillar diagram */
+  .pillars { display: flex; align-items: flex-end; gap: 6px; width: 100%; }
+  .pillar-col { display: flex; flex-direction: column; align-items: center; flex: 1; gap: 4px; }
+  .pillar-cap { font-size: 9px; font-family: Georgia, serif; font-style: italic; text-align: center; color: #1C1917; line-height: 1.2; }
+  .pillar-shaft { width: 100%; border: 1.5px solid #1C1917; display: flex; align-items: flex-end; justify-content: center; padding: 4px; }
+  .pillar-base { width: 100%; height: 4px; background: #1C1917; }
+  .pillar-pediment { width: 120%; height: 6px; background: #92400E; margin-top: 2px; }
+  .pillar-entablature { width: 140%; height: 3px; background: #1C1917; margin-top: 1px; }
+
+  /* 3. Data portrait / bar */
+  .bars { display: flex; flex-direction: column; gap: 6px; width: 100%; }
+  .bar-row { display: flex; align-items: center; gap: 8px; }
+  .bar-label { font-size: 9px; color: #57534E; font-family: 'Courier New', monospace; width: 70px; flex-shrink: 0; text-align: right; text-transform: uppercase; letter-spacing: 0.04em; }
+  .bar-track { flex: 1; height: 10px; background: #E8E2D9; position: relative; }
+  .bar-fill { height: 100%; background: #1C1917; position: absolute; left: 0; }
+  .bar-fill.accent { background: #92400E; }
+  .bar-fill.danger { background: #991B1B; }
+  .bar-val { font-size: 9px; font-family: 'Courier New', monospace; color: #57534E; width: 28px; text-align: right; }
+  .bar-title { font-size: 10px; font-family: Georgia, serif; font-style: italic; color: #92400E; margin-bottom: 6px; }
+
+  /* 4. Quadrant / 2×2 */
+  .quad { width: 130px; height: 110px; position: relative; }
+  .quad-lines { position: absolute; inset: 0; }
+  .quad-h { position: absolute; top: 50%; left: 0; right: 0; height: 1.5px; background: #1C1917; }
+  .quad-v { position: absolute; left: 50%; top: 0; bottom: 0; width: 1.5px; background: #1C1917; }
+  .quad-label { position: absolute; font-size: 9px; font-family: Georgia, serif; font-style: italic; color: #1C1917; line-height: 1.2; }
+  .quad-label.tl { top: 6px; left: 6px; }
+  .quad-label.tr { top: 6px; right: 6px; text-align: right; }
+  .quad-label.bl { bottom: 6px; left: 6px; }
+  .quad-label.br { bottom: 6px; right: 6px; text-align: right; }
+  .quad-dot { position: absolute; width: 7px; height: 7px; border-radius: 50%; background: #92400E; border: 1.5px solid #1C1917; transform: translate(-50%,-50%); }
+  .quad-axis-label { position: absolute; font-size: 8px; color: #A8A29E; font-family: 'Courier New', monospace; letter-spacing: 0.06em; text-transform: uppercase; }
+  .quad-axis-label.bottom { bottom: -14px; left: 50%; transform: translateX(-50%); }
+  .quad-axis-label.right { right: -32px; top: 50%; transform: translateY(-50%) rotate(90deg); }
+
+  /* 5. Conversation / script */
+  .convo { display: flex; flex-direction: column; gap: 6px; width: 100%; }
+  .convo-line { display: flex; gap: 6px; align-items: flex-start; }
+  .convo-speaker { font-size: 8px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #92400E; width: 28px; flex-shrink: 0; padding-top: 2px; }
+  .convo-bubble { background: #fff; border: 1px solid #D6CFC4; border-radius: 3px; padding: 5px 8px; font-size: 10px; font-family: Georgia, serif; font-style: italic; color: #1C1917; line-height: 1.4; flex: 1; }
+  .convo-bubble.highlight { border-color: #92400E; background: rgba(146,64,14,0.04); }
+  .convo-note { font-size: 9px; color: #57534E; margin-left: 34px; padding-left: 6px; border-left: 2px solid #D97706; }
+
+  /* 6. Timeline / Gantt */
+  .gantt { width: 100%; }
+  .gantt-title { font-size: 9px; font-family: 'Courier New', monospace; color: #92400E; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 8px; }
+  .gantt-row { display: flex; align-items: center; gap: 6px; margin-bottom: 5px; }
+  .gantt-name { font-size: 9px; color: #57534E; width: 52px; flex-shrink: 0; text-align: right; font-family: Georgia, serif; font-style: italic; }
+  .gantt-track { flex: 1; height: 10px; background: #E8E2D9; position: relative; }
+  .gantt-bar { position: absolute; height: 100%; top: 0; background: #1C1917; }
+  .gantt-bar.accent { background: #92400E; }
+  .gantt-bar.light { background: #D4A574; }
+  .gantt-weeks { display: flex; justify-content: space-between; margin-top: 6px; margin-left: 58px; }
+  .gantt-wk { font-size: 8px; font-family: 'Courier New', monospace; color: #A8A29E; }
+
+  /* 7. Concept illustration */
+  .concept { display: flex; align-items: center; gap: 16px; width: 100%; }
+  .concept-left { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+  .concept-circle { width: 48px; height: 48px; border: 2px solid #1C1917; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+  .concept-inner-txt { font-size: 9px; font-family: Georgia, serif; font-style: italic; text-align: center; color: #1C1917; line-height: 1.3; }
+  .concept-label { font-size: 9px; font-family: 'Courier New', monospace; color: #92400E; text-align: center; letter-spacing: 0.04em; }
+  .concept-right { flex: 1; }
+  .concept-formula { font-size: 11px; font-family: Georgia, serif; font-style: italic; color: #1C1917; margin-bottom: 6px; line-height: 1.5; }
+  .concept-annotation { font-size: 9px; color: #57534E; line-height: 1.5; }
+
+  /* 8. Failure taxonomy */
+  .failures { display: flex; flex-direction: column; gap: 5px; width: 100%; }
+  .fail-row { display: flex; align-items: center; gap: 8px; }
+  .fail-bullet { width: 8px; height: 8px; border-radius: 50%; background: #991B1B; flex-shrink: 0; }
+  .fail-bullet.warn { background: #D97706; }
+  .fail-label { font-size: 10px; font-family: Georgia, serif; font-style: italic; color: #1C1917; flex: 1; }
+  .fail-note { font-size: 9px; color: #57534E; }
+
+  /* 9. Demand curve */
+  .curve-wrap { width: 100%; position: relative; height: 90px; }
+  .curve-svg { width: 100%; height: 100%; }
+
+  .instruction {
+    max-width: 1000px; margin: 0 auto 24px;
+    background: #1C1917; color: #F5F0E8;
+    padding: 10px 16px; border-radius: 3px;
+    font-size: 12px; line-height: 1.5;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="eyebrow">ab-codex · Visual System</div>
+  <h1>Content type → Visual treatment</h1>
+  <p class="subtitle">Context is everything. Each of these appears across the 27 playbooks. Click to approve or adjust — each gets the visual form that serves <em>it</em>, not a uniform style across everything.</p>
+</div>
+
+<div class="direction-badge">
+  <strong>Aesthetic north star:</strong> Classical information design + handmade quality. Think Du Bois data portraits, old Scientific American cutaways, Nigel Holmes at his most precise, Eames educational films. Not AI-minimalist, not loud. Patient, earned, crafted.
+</div>
+
+<div class="instruction">Click each treatment you want to keep. Deselect to flag for rethinking. All 9 content types are shown.</div>
+
+<div class="grid">
+
+  <!-- 1. Step-by-step pipeline -->
+  <div class="card" onclick="toggleCard(this)" data-choice="pipeline">
+    <div class="card-preview">
+      <span class="card-check">✓</span>
+      <div class="pipe">
+        <div class="pipe-step">
+          <span class="pipe-num">01</span>
+          <div class="pipe-line">
+            <div class="pipe-label">Identify best customers</div>
+            <div class="pipe-note">fast close · stayed · advocate</div>
+          </div>
+        </div>
+        <div class="pipe-connector"></div>
+        <div class="pipe-step">
+          <span class="pipe-num">02</span>
+          <div class="pipe-line">
+            <div class="pipe-label">Run customer interviews</div>
+            <div class="pipe-note">5–10 structured · verbatim language</div>
+          </div>
+        </div>
+        <div class="pipe-connector"></div>
+        <div class="pipe-step">
+          <span class="pipe-num">03</span>
+          <div class="pipe-line">
+            <div class="pipe-label">Map competitive alternatives</div>
+            <div class="pipe-note">incl. doing nothing ←</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="card-type">Process</div>
+      <div class="card-name">Annotated pipeline</div>
+      <div class="card-desc">Step-by-step with inline annotations — the reasoning alongside the step, not separated. Hand-lettered feel, margin notes, connecting rules.</div>
+      <div class="card-examples">positioning (16 steps) · launch plan · campaign strategy</div>
+      <div class="card-influence">Rohde + Tufte + old Scientific American</div>
+    </div>
+  </div>
+
+  <!-- 2. Pillar / architectural -->
+  <div class="card" onclick="toggleCard(this)" data-choice="pillars">
+    <div class="card-preview">
+      <span class="card-check">✓</span>
+      <div class="pillars">
+        <div class="pillar-col">
+          <div class="pillar-cap">Org<br>structure</div>
+          <div class="pillar-shaft" style="height:60px; background:rgba(146,64,14,0.06);">
+            <span style="font-size:8px;font-family:'Courier New',monospace;color:#92400E;transform:rotate(-90deg);display:block;white-space:nowrap;">Simon</span>
+          </div>
+        </div>
+        <div class="pillar-col">
+          <div class="pillar-cap">Four-phase<br>process</div>
+          <div class="pillar-shaft" style="height:60px; background:rgba(146,64,14,0.06);">
+            <span style="font-size:8px;font-family:'Courier New',monospace;color:#92400E;transform:rotate(-90deg);display:block;white-space:nowrap;">Simon</span>
+          </div>
+        </div>
+        <div class="pillar-col">
+          <div class="pillar-cap">WTP<br>research</div>
+          <div class="pillar-shaft" style="height:60px; background:rgba(146,64,14,0.06);">
+            <span style="font-size:8px;font-family:'Courier New',monospace;color:#92400E;transform:rotate(-90deg);display:block;white-space:nowrap;">Ramanujam</span>
+          </div>
+        </div>
+        <div class="pillar-col">
+          <div class="pillar-cap">Unit<br>economics</div>
+          <div class="pillar-shaft" style="height:60px; background:rgba(146,64,14,0.06);">
+            <span style="font-size:8px;font-family:'Courier New',monospace;color:#92400E;transform:rotate(-90deg);display:block;white-space:nowrap;">Skok</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="card-type">Framework</div>
+      <div class="card-name">Architectural diagram</div>
+      <div class="card-desc">Classical column structure for 3–5 mutually exclusive components. Draws on Greek architectural vocabulary — entablature at top, base at bottom. Operator attributions on shafts.</div>
+      <div class="card-examples">pricing 4 pillars · voss 5-tool stack · mental models OS</div>
+      <div class="card-influence">Eames + Bass + Du Bois</div>
+    </div>
+  </div>
+
+  <!-- 3. Data portrait -->
+  <div class="card" onclick="toggleCard(this)" data-choice="data-portrait">
+    <div class="card-preview">
+      <span class="card-check">✓</span>
+      <div class="bars">
+        <div class="bar-title">1% price increase → profit impact</div>
+        <div class="bar-row">
+          <span class="bar-label">pricing</span>
+          <div class="bar-track"><div class="bar-fill accent" style="width:100%"></div></div>
+          <span class="bar-val" style="color:#92400E;">+8%</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">volume</span>
+          <div class="bar-track"><div class="bar-fill" style="width:37%"></div></div>
+          <span class="bar-val">+3%</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">variable cost</span>
+          <div class="bar-track"><div class="bar-fill" style="width:23%"></div></div>
+          <span class="bar-val">+2%</span>
+        </div>
+        <div class="bar-row">
+          <span class="bar-label">fixed cost</span>
+          <div class="bar-track"><div class="bar-fill danger" style="width:14%"></div></div>
+          <span class="bar-val" style="color:#991B1B;">+1%</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="card-type">Data</div>
+      <div class="card-name">Data portrait</div>
+      <div class="card-desc">Du Bois-style horizontal bars. Rich annotation, evidence-grade labelling. Each bar has a claim — the chart IS the argument, not decoration for the argument.</div>
+      <div class="card-examples">pricing leverage · pmm measurement · LTV:CAC ratios</div>
+      <div class="card-influence">Du Bois + Tufte + McCandless</div>
+    </div>
+  </div>
+
+  <!-- 4. Quadrant -->
+  <div class="card" onclick="toggleCard(this)" data-choice="quadrant">
+    <div class="card-preview">
+      <span class="card-check">✓</span>
+      <div style="position:relative;">
+        <div class="quad">
+          <div class="quad-lines">
+            <div class="quad-h"></div>
+            <div class="quad-v"></div>
+          </div>
+          <div class="quad-label tl" style="font-size:8.5px;">Feature<br>shock</div>
+          <div class="quad-label tr" style="font-size:8.5px;">Right<br>product</div>
+          <div class="quad-label bl" style="font-size:8.5px;">Hidden<br>gem</div>
+          <div class="quad-label br" style="font-size:8.5px;">Mini-<br>vation</div>
+          <div class="quad-dot" style="top:30%;left:70%;"></div>
+          <div class="quad-dot" style="top:65%;left:35%;background:#57534E;"></div>
+          <div class="quad-axis-label bottom">WTP ←→</div>
+          <div class="quad-axis-label right">value →</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="card-type">Taxonomy</div>
+      <div class="card-name">Classical quadrant</div>
+      <div class="card-desc">Hand-ruled 2×2 with plotted points and annotated zones. Axis labels as argumentative claims, not neutral descriptors. Failure modes in danger red.</div>
+      <div class="card-examples">feature shock/minivation · competitive positioning · icp tiers</div>
+      <div class="card-influence">Tufte + Lupi + Roam</div>
+    </div>
+  </div>
+
+  <!-- 5. Conversation / script annotation -->
+  <div class="card" onclick="toggleCard(this)" data-choice="conversation">
+    <div class="card-preview">
+      <span class="card-check">✓</span>
+      <div class="convo">
+        <div class="convo-line">
+          <span class="convo-speaker">Buyer</span>
+          <div class="convo-bubble">"It didn't really stick last year."</div>
+        </div>
+        <div class="convo-note">mirror → repeat last 3 words, upward inflection</div>
+        <div class="convo-line">
+          <span class="convo-speaker">You</span>
+          <div class="convo-bubble highlight">"Didn't really stick?"</div>
+        </div>
+        <div class="convo-note">surfaces procurement / legal — never asked directly</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="card-type">Dialogue</div>
+      <div class="card-name">Annotated script</div>
+      <div class="card-desc">Screenplay format with technique annotations in the margin. Shows the move, then the reasoning. McCloud's panel-to-panel time compression — each exchange is a beat.</div>
+      <div class="card-examples">tactical empathy · accusation audit · discovery plays</div>
+      <div class="card-influence">McCloud + Rohde + Holmes</div>
+    </div>
+  </div>
+
+  <!-- 6. Gantt / timeline -->
+  <div class="card" onclick="toggleCard(this)" data-choice="gantt">
+    <div class="card-preview">
+      <span class="card-check">✓</span>
+      <div class="gantt">
+        <div class="gantt-title">launch plan · 8-week view</div>
+        <div class="gantt-row">
+          <span class="gantt-name">Research</span>
+          <div class="gantt-track">
+            <div class="gantt-bar" style="left:0%;width:25%"></div>
+          </div>
+        </div>
+        <div class="gantt-row">
+          <span class="gantt-name">Positioning</span>
+          <div class="gantt-track">
+            <div class="gantt-bar accent" style="left:20%;width:30%"></div>
+          </div>
+        </div>
+        <div class="gantt-row">
+          <span class="gantt-name">Creative</span>
+          <div class="gantt-track">
+            <div class="gantt-bar light" style="left:40%;width:35%"></div>
+          </div>
+        </div>
+        <div class="gantt-row">
+          <span class="gantt-name">Launch</span>
+          <div class="gantt-track">
+            <div class="gantt-bar accent" style="left:75%;width:25%"></div>
+          </div>
+        </div>
+        <div class="gantt-weeks">
+          <span class="gantt-wk">W1</span><span class="gantt-wk">W3</span><span class="gantt-wk">W5</span><span class="gantt-wk">W7</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="card-type">Execution</div>
+      <div class="card-name">Phased Gantt</div>
+      <div class="card-desc">Old-school project management aesthetic — ink-ruled bars on a ruled grid. No gradient fills. Color denotes owner or phase, not decoration. Works at a glance and on print.</div>
+      <div class="card-examples">campaign strategy · launch plan · pmm measurement cadence</div>
+      <div class="card-influence">Eames + Tufte + Moore</div>
+    </div>
+  </div>
+
+  <!-- 7. Concept equation -->
+  <div class="card" onclick="toggleCard(this)" data-choice="concept">
+    <div class="card-preview">
+      <span class="card-check">✓</span>
+      <div class="concept">
+        <div class="concept-left">
+          <div class="concept-circle">
+            <div class="concept-inner-txt">Dream<br>Outcome</div>
+          </div>
+          <div class="concept-label">× Likelihood</div>
+        </div>
+        <div style="font-size:20px;color:#92400E;font-family:Georgia,serif;flex-shrink:0;">÷</div>
+        <div class="concept-left">
+          <div class="concept-circle">
+            <div class="concept-inner-txt">Time<br>Delay</div>
+          </div>
+          <div class="concept-label">× Effort</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="card-type">Equation / Relationship</div>
+      <div class="card-name">Concept diagram</div>
+      <div class="card-desc">A single relationship rendered precisely. No decorative elements — just the formula and the minimum geometry needed to make it legible. Annotation explains the variables.</div>
+      <div class="card-examples">hormozi value equation · system 1/2 · WTP 3 questions</div>
+      <div class="card-influence">Bass + Noma Bar + Tufte</div>
+    </div>
+  </div>
+
+  <!-- 8. Failure taxonomy -->
+  <div class="card" onclick="toggleCard(this)" data-choice="failures">
+    <div class="card-preview">
+      <span class="card-check">✓</span>
+      <div class="failures">
+        <div style="font-size:9px;font-family:Georgia,serif;font-style:italic;color:#92400E;margin-bottom:4px;">Common failure modes</div>
+        <div class="fail-row">
+          <div class="fail-bullet"></div>
+          <div>
+            <div class="fail-label">A/B testing positioning</div>
+            <div class="fail-note">positioning is a strategic call, not copy</div>
+          </div>
+        </div>
+        <div class="fail-row">
+          <div class="fail-bullet warn"></div>
+          <div>
+            <div class="fail-label">Skipping org enablement</div>
+            <div class="fail-note">the doc lands, nothing changes</div>
+          </div>
+        </div>
+        <div class="fail-row">
+          <div class="fail-bullet"></div>
+          <div>
+            <div class="fail-label">Naming a new category early</div>
+            <div class="fail-note">market doesn't exist yet</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="card-type">Anti-patterns</div>
+      <div class="card-name">Failure taxonomy</div>
+      <div class="card-desc">Red/amber bullet system. Each failure mode gets one precise label and one explanatory clause. No verbose descriptions — the constraint forces clarity. Danger red is non-negotiable.</div>
+      <div class="card-examples">every playbook has failure modes · qc gates · common mistakes</div>
+      <div class="card-influence">Thalheimer + Moore + Tufte</div>
+    </div>
+  </div>
+
+  <!-- 9. Demand curve / annotated chart -->
+  <div class="card" onclick="toggleCard(this)" data-choice="curve">
+    <div class="card-preview">
+      <span class="card-check">✓</span>
+      <div style="width:100%">
+        <div style="font-size:9px;font-family:Georgia,serif;font-style:italic;color:#92400E;margin-bottom:6px;">WTP demand cliffs · 3-question protocol</div>
+        <svg viewBox="0 0 180 80" style="width:100%;height:70px;">
+          <!-- Axes -->
+          <line x1="20" y1="70" x2="175" y2="70" stroke="#1C1917" stroke-width="1"/>
+          <line x1="20" y1="5" x2="20" y2="70" stroke="#1C1917" stroke-width="1"/>
+          <!-- Curve -->
+          <path d="M 25,15 C 50,16 70,20 90,35 C 110,50 130,62 175,68"
+                fill="none" stroke="#92400E" stroke-width="2"/>
+          <!-- Cliff annotation -->
+          <line x1="90" y1="5" x2="90" y2="70" stroke="#1C1917" stroke-width="0.5" stroke-dasharray="3,2"/>
+          <text x="92" y="12" font-size="7" fill="#92400E" font-family="Georgia" font-style="italic">cliff</text>
+          <!-- Dot -->
+          <circle cx="90" cy="35" r="3" fill="#92400E" stroke="#1C1917" stroke-width="1"/>
+          <!-- Labels -->
+          <text x="22" y="78" font-size="7" fill="#57534E" font-family="Courier New">$0</text>
+          <text x="80" y="78" font-size="7" fill="#57534E" font-family="Courier New">price →</text>
+          <text x="3" y="50" font-size="7" fill="#57534E" font-family="Courier New" transform="rotate(-90,10,50)">WTP</text>
+        </svg>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="card-type">Economics</div>
+      <div class="card-name">Annotated curve</div>
+      <div class="card-desc">Classical economics illustration style — hand-plotted curve, annotated cliff points, minimal axes. No gridlines. The annotation IS the insight; the curve is just the vehicle.</div>
+      <div class="card-examples">pricing wtp cliffs · t2d3 growth trajectory · ltv:cac trough</div>
+      <div class="card-influence">Tufte + McCandless + old Economist</div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  const selected = new Set();
+  function toggleCard(el) {
+    const choice = el.dataset.choice;
+    if (selected.has(choice)) { selected.delete(choice); el.classList.remove('selected'); }
+    else { selected.add(choice); el.classList.add('selected'); }
+    if (window.recordChoice) window.recordChoice(Array.from(selected).join(','), `Approved: ${Array.from(selected).join(', ')}`);
+  }
+</script>
+
+</body>
+</html>

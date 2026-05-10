@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Dream Team</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: #F5F0E8;
+    font-family: 'Inter', system-ui, sans-serif;
+    color: #1C1917;
+    padding: 40px 32px 80px;
+    min-height: 100vh;
+  }
+
+  .header {
+    max-width: 900px;
+    margin: 0 auto 48px;
+    border-bottom: 2px solid #1C1917;
+    padding-bottom: 24px;
+  }
+
+  .eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #92400E;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: 36px;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 1.15;
+    margin-bottom: 12px;
+  }
+
+  .subtitle {
+    font-size: 15px;
+    color: #57534E;
+    line-height: 1.6;
+    max-width: 600px;
+  }
+
+  .domain-section {
+    max-width: 900px;
+    margin: 0 auto 48px;
+  }
+
+  .domain-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #57534E;
+    border-left: 3px solid #92400E;
+    padding-left: 10px;
+    margin-bottom: 16px;
+  }
+
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 12px;
+  }
+
+  .member {
+    background: #fff;
+    border: 1.5px solid #D6CFC4;
+    border-radius: 4px;
+    padding: 18px 16px 16px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    position: relative;
+    user-select: none;
+  }
+
+  .member:hover {
+    border-color: #92400E;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  }
+
+  .member.selected {
+    border-color: #92400E;
+    background: #FEF9F0;
+    box-shadow: 0 0 0 2px #92400E;
+  }
+
+  .member.selected::after {
+    content: '✓';
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    font-size: 13px;
+    color: #92400E;
+    font-weight: 700;
+  }
+
+  .member-name {
+    font-family: 'Georgia', serif;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: italic;
+    color: #1C1917;
+    margin-bottom: 4px;
+    line-height: 1.3;
+  }
+
+  .member-role {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #92400E;
+    margin-bottom: 8px;
+  }
+
+  .member-signature {
+    font-size: 12px;
+    color: #57534E;
+    line-height: 1.5;
+  }
+
+  .member-works {
+    margin-top: 10px;
+    font-size: 10px;
+    font-family: 'Courier New', monospace;
+    color: #92400E;
+    border-top: 1px dashed #D6CFC4;
+    padding-top: 8px;
+    line-height: 1.6;
+  }
+
+  .domain-color-1 { border-left: 3px solid #92400E; }
+  .domain-color-2 { border-left: 3px solid #4A5E4A; }
+  .domain-color-3 { border-left: 3px solid #475569; }
+  .domain-color-4 { border-left: 3px solid #D97706; }
+
+  .instruction {
+    max-width: 900px;
+    margin: 0 auto 32px;
+    background: #1C1917;
+    color: #F5F0E8;
+    padding: 14px 20px;
+    border-radius: 4px;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .selection-count {
+    max-width: 900px;
+    margin: 24px auto 0;
+    font-size: 13px;
+    color: #57534E;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="eyebrow">ab-codex · Visual Design System</div>
+  <h1>The Dream Team</h1>
+  <p class="subtitle">27 playbooks. Each deserves a visual that stops the reader. Select the practitioners whose sensibility should shape this work — we'll channel their approach into every diagram, chart, and illustration.</p>
+</div>
+
+<div class="instruction">
+  Click to select the practitioners you want on this team. Mix freely across disciplines. Your selections define the creative direction.
+</div>
+
+<!-- INFORMATION DESIGN -->
+<div class="domain-section">
+  <div class="domain-label domain-color-1">Information Design — making complexity visible</div>
+  <div class="team-grid">
+
+    <div class="member" onclick="toggleMember(this)" data-choice="tufte">
+      <div class="member-name">Edward Tufte</div>
+      <div class="member-role">Data Ink Master</div>
+      <div class="member-signature">Maximise signal, eliminate chartjunk. Every pixel earns its place. Density over decoration.</div>
+      <div class="member-works">The Visual Display of Quantitative Information · Envisioning Information</div>
+    </div>
+
+    <div class="member" onclick="toggleMember(this)" data-choice="lupi">
+      <div class="member-name">Giorgia Lupi</div>
+      <div class="member-role">Data Humanism</div>
+      <div class="member-signature">Hand-drawn data. Warm, human, imperfect. Numbers as stories, not statistics. Personal and beautiful.</div>
+      <div class="member-works">Dear Data · Observe, Collect, Draw · Pentagram</div>
+    </div>
+
+    <div class="member" onclick="toggleMember(this)" data-choice="holmes">
+      <div class="member-name">Nigel Holmes</div>
+      <div class="member-role">Explanation Graphics</div>
+      <div class="member-signature">Wit + information. Pictorial statistics. The infographic as a small story with characters.</div>
+      <div class="member-works">Time Magazine (27 yrs) · Designer's Guide to Creating Charts & Diagrams</div>
+    </div>
+
+    <div class="member" onclick="toggleMember(this)" data-choice="dubois">
+      <div class="member-name">W.E.B. Du Bois</div>
+      <div class="member-role">Pioneer / Hand-Drawn Data</div>
+      <div class="member-signature">1900s data portraits. Hand-drawn, political, gorgeous. Charts as arguments, not decorations.</div>
+      <div class="member-works">1900 Paris Exposition · "The colour line" data portraits</div>
+    </div>
+
+    <div class="member" onclick="toggleMember(this)" data-choice="mccandless">
+      <div class="member-name">David McCandless</div>
+      <div class="member-role">Infographic Journalism</div>
+      <div class="member-signature">Beautiful information. Dense data made inviting. Hierarchy through colour and scale.</div>
+      <div class="member-works">Information is Beautiful · Knowledge is Beautiful</div>
+    </div>
+
+  </div>
+</div>
+
+<!-- STORYTELLING -->
+<div class="domain-section">
+  <div class="domain-label domain-color-2">Storytelling & Narrative — ideas that stick</div>
+  <div class="team-grid">
+
+    <div class="member" onclick="toggleMember(this)" data-choice="rohde">
+      <div class="member-name">Mike Rohde</div>
+      <div class="member-role">Sketchnotes</div>
+      <div class="member-signature">Visual thinking in real time. Hand-lettering, simple icons, clear hierarchy. Warm and immediate.</div>
+      <div class="member-works">The Sketchnote Handbook · The Sketchnote Workbook</div>
+    </div>
+
+    <div class="member" onclick="toggleMember(this)" data-choice="roam">
+      <div class="member-name">Dan Roam</div>
+      <div class="member-role">Visual Problem Solving</div>
+      <div class="member-signature">The back of the napkin. Six types of problems, six types of pictures. Anyone can draw their ideas.</div>
+      <div class="member-works">The Back of the Napkin · Blah Blah Blah · Draw to Win</div>
+    </div>
+
+    <div class="member" onclick="toggleMember(this)" data-choice="duarte">
+      <div class="member-name">Nancy Duarte</div>
+      <div class="member-role">Presentation Narrative</div>
+      <div class="member-signature">Story structure for business ideas. The sparkline. What-is vs what-could-be tension drives every visual.</div>
+      <div class="member-works">Resonate · slide:ology · DataStory</div>
+    </div>
+
+    <div class="member" onclick="toggleMember(this)" data-choice="mccloud">
+      <div class="member-name">Scott McCloud</div>
+      <div class="member-role">Sequential Visual Language</div>
+      <div class="member-signature">Comics as cognitive science. Closure, time, motion, space between panels. Every diagram is a comic strip.</div>
+      <div class="member-works">Understanding Comics · Making Comics · Reinventing Comics</div>
+    </div>
+
+  </div>
+</div>
+
+<!-- L&D -->
+<div class="domain-section">
+  <div class="domain-label domain-color-3">Learning & Development — knowledge that transfers</div>
+  <div class="team-grid">
+
+    <div class="member" onclick="toggleMember(this)" data-choice="moore">
+      <div class="member-name">Cathy Moore</div>
+      <div class="member-role">Action Mapping</div>
+      <div class="member-signature">Design for doing, not knowing. Action maps before content. Every visual asks: what will they do differently?</div>
+      <div class="member-works">Map It · Action Mapping methodology</div>
+    </div>
+
+    <div class="member" onclick="toggleMember(this)" data-choice="mayer">
+      <div class="member-name">Richard Mayer</div>
+      <div class="member-role">Multimedia Learning</div>
+      <div class="member-signature">Cognitive load is the enemy. Segmenting, signalling, spatial contiguity. Science of what visuals actually teach.</div>
+      <div class="member-works">Multimedia Learning · e-Learning and the Science of Instruction</div>
+    </div>
+
+    <div class="member" onclick="toggleMember(this)" data-choice="thalheimer">
+      <div class="member-name">Will Thalheimer</div>
+      <div class="member-role">Evidence-Based Design</div>
+      <div class="member-signature">What the research actually says. Spaced repetition, retrieval practice, interleaving. No myths, no fads.</div>
+      <div class="member-works">Performance-Focused Smile Sheets · Work-Learning Research</div>
+    </div>
+
+    <div class="member" onclick="toggleMember(this)" data-choice="eames">
+      <div class="member-name">Charles & Ray Eames</div>
+      <div class="member-role">Educational Film & Design</div>
+      <div class="member-signature">Powers of Ten. Learning through delight. Honest materials, honest communication. Complexity without condescension.</div>
+      <div class="member-works">Powers of Ten · IBM Think · A Communications Primer</div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ARTISTS -->
+<div class="domain-section">
+  <div class="domain-label domain-color-4">Artists & Illustrators — visual that stops the eye</div>
+  <div class="team-grid">
+
+    <div class="member" onclick="toggleMember(this)" data-choice="niemann">
+      <div class="member-name">Christoph Niemann</div>
+      <div class="member-role">Abstract Editorial</div>
+      <div class="member-signature">New Yorker covers. Playful abstraction from everyday objects. Wit as intelligence. One idea, perfectly expressed.</div>
+      <div class="member-works">Sunday Sketching · Abstract City · New Yorker (20+ years)</div>
+    </div>
+
+    <div class="member" onclick="toggleMember(this)" data-choice="nomabar">
+      <div class="member-name">Noma Bar</div>
+      <div class="member-role">Negative Space</div>
+      <div class="member-signature">Two images, one shape. Dual meaning through negative space. Economical, political, quietly devastating.</div>
+      <div class="member-works">Bittersweet · Enemy of the State · The Guardian covers</div>
+    </div>
+
+    <div class="member" onclick="toggleMember(this)" data-choice="bass">
+      <div class="member-name">Saul Bass</div>
+      <div class="member-role">Graphic Distillation</div>
+      <div class="member-signature">Reduce to essence. Title sequences as argument. The symbol that carries everything. Motion and stillness unified.</div>
+      <div class="member-works">Hitchcock titles · AT&T logo · Anatomy of a Murder</div>
+    </div>
+
+    <div class="member" onclick="toggleMember(this)" data-choice="favre">
+      <div class="member-name">Malika Favre</div>
+      <div class="member-role">Bold Graphic Illustration</div>
+      <div class="member-signature">Flat geometry, optical illusion, bold colour. French rigour meets British wit. Clean, confident, contemporary.</div>
+      <div class="member-works">New Yorker · Penguin Books · Vogue Paris</div>
+    </div>
+
+    <div class="member" onclick="toggleMember(this)" data-choice="glaser">
+      <div class="member-name">Milton Glaser</div>
+      <div class="member-role">Eclectic Humanism</div>
+      <div class="member-signature">I ♥ NY. Art Nouveau meets pop art. The poster as love letter. Warmth and wit in equal measure.</div>
+      <div class="member-works">I ♥ NY · Bob Dylan poster · Push Pin Studios · NY Magazine</div>
+    </div>
+
+  </div>
+</div>
+
+<div class="selection-count" id="count">Select as many as feel right. No wrong answer.</div>
+
+<script>
+  const selected = new Set();
+  function toggleMember(el) {
+    const choice = el.dataset.choice;
+    if (selected.has(choice)) {
+      selected.delete(choice);
+      el.classList.remove('selected');
+    } else {
+      selected.add(choice);
+      el.classList.add('selected');
+    }
+    const count = selected.size;
+    document.getElementById('count').textContent =
+      count === 0 ? 'Select as many as feel right. No wrong answer.' :
+      `${count} selected: ${Array.from(selected).join(', ')} — tell me in the terminal when ready.`;
+
+    // Write selection to events if available
+    if (window.recordChoice) window.recordChoice(Array.from(selected).join(','), `Team: ${Array.from(selected).join(', ')}`);
+  }
+</script>
+
+</body>
+</html>

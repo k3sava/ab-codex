@@ -2,10 +2,10 @@
 id: pat_aeo-triangle
 title: The AEO triangle — presence, relevance, manual-action propagation
 captured_date: 2026-05-01
-last_updated: 2026-05-09
-convergence_count: 9
+last_updated: 2026-05-10
+convergence_count: 10
 tier: A
-uses_cards: [ins_aeo-three-layer-presence-readiness-impact, ins_ghost-citation-gap, ins_relevance-engineering-passage-level, ins_aeo-is-gtm-capability, ins_death-of-the-ultimate-guide, ins_manual-action-propagates-to-ai-surfaces, ins_ai-slop-loop, ins_mike-king-ai-crawler-499-speed-gate, ins_casey-hill-structural-prominence-llm-citations]
+uses_cards: [ins_aeo-three-layer-presence-readiness-impact, ins_ghost-citation-gap, ins_relevance-engineering-passage-level, ins_aeo-is-gtm-capability, ins_death-of-the-ultimate-guide, ins_manual-action-propagates-to-ai-surfaces, ins_ai-slop-loop, ins_mike-king-ai-crawler-499-speed-gate, ins_casey-hill-structural-prominence-llm-citations, ins_lily-ray-aeo-seo-continuity]
 domains: [pmm, growth, gtm]
 ---
 

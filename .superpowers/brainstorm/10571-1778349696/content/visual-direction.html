@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Visual Direction</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: #F5F0E8;
+    font-family: 'Inter', system-ui, sans-serif;
+    color: #1C1917;
+    padding: 40px 32px 80px;
+  }
+
+  .header {
+    max-width: 960px;
+    margin: 0 auto 16px;
+    border-bottom: 2px solid #1C1917;
+    padding-bottom: 20px;
+  }
+
+  .eyebrow { font-size: 11px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #92400E; margin-bottom: 8px; }
+  h1 { font-family: Georgia, serif; font-size: 30px; font-weight: 700; font-style: italic; margin-bottom: 8px; }
+  .subtitle { font-size: 14px; color: #57534E; line-height: 1.6; max-width: 620px; }
+
+  .tension-note {
+    max-width: 960px;
+    margin: 16px auto 28px;
+    font-size: 13px;
+    color: #57534E;
+    line-height: 1.6;
+    padding: 12px 16px;
+    border-left: 3px solid #92400E;
+    background: rgba(146,64,14,0.04);
+  }
+  .tension-note strong { color: #1C1917; }
+
+  .directions {
+    max-width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  .direction {
+    background: #fff;
+    border: 2px solid #D6CFC4;
+    border-radius: 6px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    user-select: none;
+  }
+
+  .direction:hover { border-color: #92400E; transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.1); }
+  .direction.selected { border-color: #92400E; box-shadow: 0 0 0 3px #92400E; }
+
+  .direction-preview {
+    padding: 24px;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .direction-meta {
+    padding: 16px 20px 20px;
+    border-top: 1px solid #E8E2D9;
+  }
+
+  .direction-letter {
+    position: absolute;
+    top: 12px;
+    left: 14px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: #92400E;
+  }
+
+  .selected-badge {
+    position: absolute;
+    top: 12px;
+    right: 14px;
+    font-size: 18px;
+    color: #92400E;
+    opacity: 0;
+    transition: opacity 0.15s;
+  }
+  .direction.selected .selected-badge { opacity: 1; }
+
+  .direction-name { font-family: Georgia, serif; font-size: 17px; font-weight: 700; font-style: italic; margin-bottom: 4px; }
+  .direction-leads { font-size: 10px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #92400E; margin-bottom: 8px; }
+  .direction-desc { font-size: 13px; color: #57534E; line-height: 1.55; }
+
+  /* ——— PREVIEW STYLES per direction ——— */
+
+  /* A: Hand-drawn editorial */
+  .preview-a {
+    background: #F5F0E8;
+    font-family: Georgia, serif;
+    width: 100%;
+    position: relative;
+  }
+  .sketch-box {
+    border: 2px solid #1C1917;
+    border-radius: 2px;
+    padding: 8px 12px;
+    font-size: 11px;
+    color: #1C1917;
+    position: relative;
+    background: #fff;
+    transform: rotate(-0.5deg);
+  }
+  .sketch-flow {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 100%;
+  }
+  .sketch-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .sketch-arrow {
+    font-size: 14px;
+    color: #92400E;
+    flex-shrink: 0;
+  }
+  .sketch-label {
+    font-size: 11px;
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: #1C1917;
+    flex: 1;
+    line-height: 1.3;
+  }
+  .sketch-num {
+    font-size: 10px;
+    font-family: 'Courier New', monospace;
+    color: #92400E;
+    width: 18px;
+    flex-shrink: 0;
+  }
+  .sketch-annotation {
+    font-size: 10px;
+    color: #57534E;
+    font-style: italic;
+    margin-top: 2px;
+    padding-left: 26px;
+  }
+  .sketch-underline {
+    border-bottom: 1px solid #92400E;
+    padding-bottom: 2px;
+  }
+
+  /* B: Data art */
+  .preview-b {
+    background: #1C1917;
+    width: 100%;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .data-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .data-label {
+    font-size: 9px;
+    color: #D4A574;
+    font-family: 'Courier New', monospace;
+    letter-spacing: 0.08em;
+    width: 90px;
+    flex-shrink: 0;
+    text-transform: uppercase;
+  }
+  .data-bar-track {
+    flex: 1;
+    height: 3px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 1px;
+  }
+  .data-bar {
+    height: 3px;
+    border-radius: 1px;
+    background: #92400E;
+  }
+  .data-value {
+    font-size: 11px;
+    color: #F5F0E8;
+    font-family: 'Courier New', monospace;
+    width: 32px;
+    text-align: right;
+    flex-shrink: 0;
+  }
+  .data-title {
+    font-size: 10px;
+    color: rgba(245,240,232,0.4);
+    font-family: 'Courier New', monospace;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+  .data-headline {
+    font-family: Georgia, serif;
+    font-size: 14px;
+    color: #F5F0E8;
+    font-style: italic;
+    margin-bottom: 10px;
+    line-height: 1.3;
+  }
+
+  /* C: Graphic distillation */
+  .preview-c {
+    background: #F5F0E8;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    position: relative;
+  }
+  .distill-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+  .distill-shape {
+    width: 80px;
+    height: 80px;
+    background: #1C1917;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .distill-inner {
+    width: 36px;
+    height: 36px;
+    background: #F5F0E8;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+  }
+  .distill-word-a {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+    color: #1C1917;
+    text-align: center;
+    margin-top: 12px;
+    letter-spacing: -0.02em;
+  }
+  .distill-word-b {
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #92400E;
+    margin-top: 4px;
+    text-align: center;
+  }
+  .distill-orbit {
+    position: absolute;
+    font-size: 9px;
+    color: #57534E;
+    font-family: 'Courier New', monospace;
+    letter-spacing: 0.06em;
+  }
+  .distill-orbit.tl { top: 20px; left: 20px; }
+  .distill-orbit.tr { top: 20px; right: 20px; }
+  .distill-orbit.bl { bottom: 20px; left: 20px; }
+  .distill-orbit.br { bottom: 20px; right: 20px; }
+
+  /* D: Wit + warmth */
+  .preview-d {
+    background: #F5F0E8;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 8px;
+  }
+  .wit-character {
+    width: 70px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+  .wit-head {
+    width: 40px;
+    height: 40px;
+    background: #D97706;
+    border-radius: 50%;
+    border: 2.5px solid #1C1917;
+    position: relative;
+  }
+  .wit-head::before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: 8px;
+    width: 5px;
+    height: 5px;
+    background: #1C1917;
+    border-radius: 50%;
+    box-shadow: 14px 0 0 #1C1917;
+  }
+  .wit-head::after {
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 18px;
+    height: 6px;
+    border-bottom: 2px solid #1C1917;
+    border-radius: 0 0 8px 8px;
+  }
+  .wit-body {
+    width: 30px;
+    height: 35px;
+    background: #92400E;
+    border-radius: 4px 4px 0 0;
+    border: 2px solid #1C1917;
+    margin-top: -2px;
+  }
+  .wit-caption {
+    font-size: 9px;
+    color: #57534E;
+    font-family: Georgia, serif;
+    font-style: italic;
+    text-align: center;
+  }
+  .wit-speech {
+    background: #fff;
+    border: 2px solid #1C1917;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 12px;
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: #1C1917;
+    line-height: 1.5;
+    position: relative;
+    flex: 1;
+  }
+  .wit-speech::before {
+    content: '';
+    position: absolute;
+    left: -12px;
+    top: 16px;
+    border: 6px solid transparent;
+    border-right-color: #1C1917;
+  }
+  .wit-speech::after {
+    content: '';
+    position: absolute;
+    left: -8px;
+    top: 17px;
+    border: 5px solid transparent;
+    border-right-color: #fff;
+  }
+  .wit-punchline {
+    font-size: 10px;
+    color: #92400E;
+    font-weight: 700;
+    margin-top: 6px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .direction-name-tag {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #fff;
+    background: #92400E;
+    padding: 2px 8px;
+    border-radius: 2px;
+    margin-bottom: 6px;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="eyebrow">ab-codex · Visual Design System</div>
+  <h1>Which aesthetic leads?</h1>
+  <p class="subtitle">16 practitioners, real tensions. Each direction assigns a different lead voice and supporting cast. The others don't disappear — they become the texture.</p>
+</div>
+
+<div class="tension-note">
+  <strong>The tension:</strong> Tufte says "every pixel earns its place." Glaser says "warmth and wit." Rohde says "draw it now, imperfectly." Noma Bar says "one image, two meanings." You picked all of them — now pick who leads.
+</div>
+
+<div class="directions">
+
+  <!-- A: Hand-drawn editorial -->
+  <div class="direction" onclick="selectDirection(this)" data-choice="hand-drawn">
+    <div class="direction-preview preview-a">
+      <span class="direction-letter">A</span>
+      <span class="selected-badge">✓</span>
+      <div class="sketch-flow">
+        <div style="font-size:10px;font-family:Georgia,serif;font-style:italic;color:#92400E;margin-bottom:6px;letter-spacing:0.04em;">POSITIONING — 16 steps</div>
+        <div class="sketch-row">
+          <span class="sketch-num">01</span>
+          <span class="sketch-label sketch-underline">Identify best customers</span>
+        </div>
+        <div class="sketch-annotation">who bought fast, stayed, became advocates →</div>
+        <div class="sketch-row">
+          <span class="sketch-num">02</span>
+          <span class="sketch-label sketch-underline">Run customer interviews</span>
+        </div>
+        <div class="sketch-annotation">5–10 structured. Verbatim language only.</div>
+        <div class="sketch-row">
+          <span class="sketch-num">03</span>
+          <span class="sketch-label">Map competitive alternatives</span>
+        </div>
+        <div class="sketch-annotation">"what if we didn't exist?" ← include doing nothing</div>
+        <div style="border-top:1px dashed #D6CFC4;margin-top:8px;padding-top:8px;font-size:10px;font-style:italic;color:#92400E;font-family:Georgia,serif;">↳ 13 more steps...</div>
+      </div>
+    </div>
+    <div class="direction-meta">
+      <span class="direction-name-tag">A</span>
+      <div class="direction-name">Hand-drawn editorial</div>
+      <div class="direction-leads">Rohde + Lupi + Roam lead · Eames + Mayer support</div>
+      <div class="direction-desc">Sketchnote-style. Imperfect lines, hand lettering, annotations in the margins. Feels like a brilliant colleague's notebook. Warm, immediate, human. Every diagram looks drawn — not generated.</div>
+    </div>
+  </div>
+
+  <!-- B: Data art -->
+  <div class="direction" onclick="selectDirection(this)" data-choice="data-art">
+    <div class="direction-preview preview-b">
+      <span class="direction-letter" style="color:#D4A574;">B</span>
+      <span class="selected-badge" style="color:#D97706;">✓</span>
+      <div style="width:100%">
+        <div class="data-title">Positioning pipeline · quality gates</div>
+        <div class="data-headline">What breaks before it ships</div>
+        <div class="data-row"><span class="data-label">5-sec test</span><div class="data-bar-track"><div class="data-bar" style="width:20%"></div></div><span class="data-value" style="color:#991B1B">FAIL</span></div>
+        <div class="data-row"><span class="data-label">4 questions</span><div class="data-bar-track"><div class="data-bar" style="width:72%"></div></div><span class="data-value">72%</span></div>
+        <div class="data-row"><span class="data-label">Alternatives</span><div class="data-bar-track"><div class="data-bar" style="width:45%;background:#D97706"></div></div><span class="data-value" style="color:#D97706">gap</span></div>
+        <div class="data-row"><span class="data-label">3 pillars only</span><div class="data-bar-track"><div class="data-bar" style="width:100%"></div></div><span class="data-value">✓</span></div>
+        <div class="data-row"><span class="data-label">Enabled sales</span><div class="data-bar-track"><div class="data-bar" style="width:10%"></div></div><span class="data-value" style="color:#991B1B">FAIL</span></div>
+      </div>
+    </div>
+    <div class="direction-meta">
+      <span class="direction-name-tag">B</span>
+      <div class="direction-name">Data art</div>
+      <div class="direction-leads">Tufte + McCandless + Du Bois lead · Thalheimer + Mayer support</div>
+      <div class="direction-desc">Evidence first. Dense, precise, beautiful. Charts as arguments. Dark backgrounds for impact moments, paper for context. Every number earns its placement. The Economist meets W.E.B. Du Bois.</div>
+    </div>
+  </div>
+
+  <!-- C: Graphic distillation -->
+  <div class="direction" onclick="selectDirection(this)" data-choice="distillation">
+    <div class="direction-preview preview-c" style="min-height:200px;">
+      <span class="direction-letter">C</span>
+      <span class="selected-badge">✓</span>
+      <div class="distill-center">
+        <div class="distill-shape">
+          <div class="distill-inner"></div>
+        </div>
+        <div class="distill-word-a">No decision<br>is a decision</div>
+        <div class="distill-word-b">ins_no-decision-is-real-competitor</div>
+      </div>
+      <div class="distill-orbit tl">direct<br>rival</div>
+      <div class="distill-orbit tr">adjacent<br>tool</div>
+      <div class="distill-orbit bl">manual<br>process</div>
+      <div class="distill-orbit br">do<br>nothing ←</div>
+    </div>
+    <div class="direction-meta">
+      <span class="direction-name-tag">C</span>
+      <div class="direction-name">Graphic distillation</div>
+      <div class="direction-leads">Noma Bar + Bass + Favre lead · Niemann + Holmes support</div>
+      <div class="direction-desc">Reduce to the single irreducible idea. Negative space as argument. One image that means two things. Bold geometry, no decoration. Each visual is a small poster — the concept crystallised. Requires the most editorial judgment.</div>
+    </div>
+  </div>
+
+  <!-- D: Wit + warmth -->
+  <div class="direction" onclick="selectDirection(this)" data-choice="wit-warmth">
+    <div class="direction-preview preview-d">
+      <span class="direction-letter">D</span>
+      <span class="selected-badge">✓</span>
+      <div class="wit-character">
+        <div class="wit-head"></div>
+        <div class="wit-body"></div>
+        <div class="wit-caption">the buyer<br>who says no</div>
+      </div>
+      <div>
+        <div class="wit-speech">
+          "We tried something<br>similar last year and it<br>didn't <em>really stick.</em>"
+          <div class="wit-punchline">Mirror → "Didn't really stick?"</div>
+        </div>
+      </div>
+    </div>
+    <div class="direction-meta">
+      <span class="direction-name-tag">D</span>
+      <div class="direction-name">Wit + warmth</div>
+      <div class="direction-leads">Niemann + Holmes + Glaser lead · Rohde + McCloud support</div>
+      <div class="direction-desc">Characters, scenes, editorial wit. The infographic as a small story with protagonists. Playful but precise. A diagram that makes you smile before it makes you think. Highest engagement risk — highest reward if it lands.</div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  const MULTI = false;
+  let current = null;
+  function selectDirection(el) {
+    if (current && current !== el) current.classList.remove('selected');
+    el.classList.toggle('selected');
+    current = el.classList.contains('selected') ? el : null;
+    const choice = el.dataset.choice;
+    if (window.recordChoice) window.recordChoice(choice, el.querySelector('.direction-name').textContent);
+  }
+</script>
+
+</body>
+</html>
