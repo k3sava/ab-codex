@@ -8,64 +8,64 @@ Counts: 805 insights · 465 operators · 40 synthesis patterns · 11 contradicti
 
 ## Index
 
-- [INDEX.json](https://codex.iamkesava.com/insight-library/INDEX.json): Machine-readable index of all insights, operators, patterns, contradictions, playbooks. Use this as the canonical entry point.
-- [INDEX.md](https://codex.iamkesava.com/insight-library/INDEX.md): Human-readable index.
-- [latest.json](https://codex.iamkesava.com/insight-library/latest.json): Newest release entry + last 30 daily entries.
-- [search-index.json](https://codex.iamkesava.com/search-index.json): Flat list of every searchable resource with type, id, title, url.
+- [INDEX.json](https://abcodex.iamkesava.com/insight-library/INDEX.json): Machine-readable index of all insights, operators, patterns, contradictions, playbooks. Use this as the canonical entry point.
+- [INDEX.md](https://abcodex.iamkesava.com/insight-library/INDEX.md): Human-readable index.
+- [latest.json](https://abcodex.iamkesava.com/insight-library/latest.json): Newest release entry + last 30 daily entries.
+- [search-index.json](https://abcodex.iamkesava.com/search-index.json): Flat list of every searchable resource with type, id, title, url.
 
 ## Browse
 
-- [Home](https://codex.iamkesava.com/): Tier A claims, domain index.
-- [All operators](https://codex.iamkesava.com/operators/)
-- [Synthesis patterns](https://codex.iamkesava.com/patterns/): Where 3+ operators converge on the same claim.
-- [Methodology playbooks](https://codex.iamkesava.com/playbooks/): Each carries HowTo schema with explicit steps.
-- [Timeline](https://codex.iamkesava.com/#/timeline): All insights by source date, density-scaled.
-- [Release log](https://codex.iamkesava.com/today/): What's new in the corpus, newest first.
+- [Home](https://abcodex.iamkesava.com/): Tier A claims, domain index.
+- [All operators](https://abcodex.iamkesava.com/operators/)
+- [Synthesis patterns](https://abcodex.iamkesava.com/patterns/): Where 3+ operators converge on the same claim.
+- [Methodology playbooks](https://abcodex.iamkesava.com/playbooks/): Each carries HowTo schema with explicit steps.
+- [Timeline](https://abcodex.iamkesava.com/#/timeline): All insights by source date, density-scaled.
+- [Release log](https://abcodex.iamkesava.com/today/): What's new in the corpus, newest first.
 
 ## Domains
 
 Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged with one or more domains.
 
-- [pmm](https://codex.iamkesava.com/d/pmm/) — 432 insights
-- [gtm](https://codex.iamkesava.com/d/gtm/) — 167 insights
-- [marketing](https://codex.iamkesava.com/d/marketing/) — 160 insights
-- [ai-native](https://codex.iamkesava.com/d/ai-native/) — 141 insights
-- [leadership](https://codex.iamkesava.com/d/leadership/) — 141 insights
-- [growth-demand](https://codex.iamkesava.com/d/growth-demand/) — 127 insights
-- [strategy](https://codex.iamkesava.com/d/strategy/) — 109 insights
-- [product](https://codex.iamkesava.com/d/product/) — 98 insights
-- [content](https://codex.iamkesava.com/d/content/) — 97 insights
-- [founder-craft](https://codex.iamkesava.com/d/founder-craft/) — 66 insights
-- [growth](https://codex.iamkesava.com/d/growth/) — 57 insights
-- [engineering](https://codex.iamkesava.com/d/engineering/) — 41 insights
-- [sales](https://codex.iamkesava.com/d/sales/) — 41 insights
-- [hiring](https://codex.iamkesava.com/d/hiring/) — 41 insights
-- [sales-cs](https://codex.iamkesava.com/d/sales-cs/) — 37 insights
-- [design](https://codex.iamkesava.com/d/design/) — 32 insights
-- [founder-operator](https://codex.iamkesava.com/d/founder-operator/) — 30 insights
-- [research-discovery](https://codex.iamkesava.com/d/research-discovery/) — 28 insights
-- [design-ux](https://codex.iamkesava.com/d/design-ux/) — 13 insights
-- [customer-success](https://codex.iamkesava.com/d/customer-success/) — 11 insights
-- [content-strategy](https://codex.iamkesava.com/d/content-strategy/) — 9 insights
-- [research](https://codex.iamkesava.com/d/research/) — 7 insights
-- [marketing-ops](https://codex.iamkesava.com/d/marketing-ops/) — 7 insights
-- [seo](https://codex.iamkesava.com/d/seo/) — 6 insights
-- [strategy-bets](https://codex.iamkesava.com/d/strategy-bets/) — 5 insights
-- [aeo](https://codex.iamkesava.com/d/aeo/) — 4 insights
-- [ai-ops](https://codex.iamkesava.com/d/ai-ops/) — 4 insights
-- [ai-gtm](https://codex.iamkesava.com/d/ai-gtm/) — 3 insights
-- [community](https://codex.iamkesava.com/d/community/) — 2 insights
-- [risk](https://codex.iamkesava.com/d/risk/) — 2 insights
-- [ai-product](https://codex.iamkesava.com/d/ai-product/) — 2 insights
-- [ai-engineering](https://codex.iamkesava.com/d/ai-engineering/) — 2 insights
-- [pricing](https://codex.iamkesava.com/d/pricing/) — 2 insights
-- [measurement](https://codex.iamkesava.com/d/measurement/) — 1 insight
-- [developer-tools](https://codex.iamkesava.com/d/developer-tools/) — 1 insight
-- [content-ops](https://codex.iamkesava.com/d/content-ops/) — 1 insight
-- [technical-seo](https://codex.iamkesava.com/d/technical-seo/) — 1 insight
-- [evals](https://codex.iamkesava.com/d/evals/) — 1 insight
-- [operations](https://codex.iamkesava.com/d/operations/) — 1 insight
-- [product-marketing](https://codex.iamkesava.com/d/product-marketing/) — 1 insight
+- [pmm](https://abcodex.iamkesava.com/d/pmm/) — 432 insights
+- [gtm](https://abcodex.iamkesava.com/d/gtm/) — 167 insights
+- [marketing](https://abcodex.iamkesava.com/d/marketing/) — 160 insights
+- [ai-native](https://abcodex.iamkesava.com/d/ai-native/) — 141 insights
+- [leadership](https://abcodex.iamkesava.com/d/leadership/) — 141 insights
+- [growth-demand](https://abcodex.iamkesava.com/d/growth-demand/) — 127 insights
+- [strategy](https://abcodex.iamkesava.com/d/strategy/) — 109 insights
+- [product](https://abcodex.iamkesava.com/d/product/) — 98 insights
+- [content](https://abcodex.iamkesava.com/d/content/) — 97 insights
+- [founder-craft](https://abcodex.iamkesava.com/d/founder-craft/) — 66 insights
+- [growth](https://abcodex.iamkesava.com/d/growth/) — 57 insights
+- [engineering](https://abcodex.iamkesava.com/d/engineering/) — 41 insights
+- [sales](https://abcodex.iamkesava.com/d/sales/) — 41 insights
+- [hiring](https://abcodex.iamkesava.com/d/hiring/) — 41 insights
+- [sales-cs](https://abcodex.iamkesava.com/d/sales-cs/) — 37 insights
+- [design](https://abcodex.iamkesava.com/d/design/) — 32 insights
+- [founder-operator](https://abcodex.iamkesava.com/d/founder-operator/) — 30 insights
+- [research-discovery](https://abcodex.iamkesava.com/d/research-discovery/) — 28 insights
+- [design-ux](https://abcodex.iamkesava.com/d/design-ux/) — 13 insights
+- [customer-success](https://abcodex.iamkesava.com/d/customer-success/) — 11 insights
+- [content-strategy](https://abcodex.iamkesava.com/d/content-strategy/) — 9 insights
+- [research](https://abcodex.iamkesava.com/d/research/) — 7 insights
+- [marketing-ops](https://abcodex.iamkesava.com/d/marketing-ops/) — 7 insights
+- [seo](https://abcodex.iamkesava.com/d/seo/) — 6 insights
+- [strategy-bets](https://abcodex.iamkesava.com/d/strategy-bets/) — 5 insights
+- [aeo](https://abcodex.iamkesava.com/d/aeo/) — 4 insights
+- [ai-ops](https://abcodex.iamkesava.com/d/ai-ops/) — 4 insights
+- [ai-gtm](https://abcodex.iamkesava.com/d/ai-gtm/) — 3 insights
+- [community](https://abcodex.iamkesava.com/d/community/) — 2 insights
+- [risk](https://abcodex.iamkesava.com/d/risk/) — 2 insights
+- [ai-product](https://abcodex.iamkesava.com/d/ai-product/) — 2 insights
+- [ai-engineering](https://abcodex.iamkesava.com/d/ai-engineering/) — 2 insights
+- [pricing](https://abcodex.iamkesava.com/d/pricing/) — 2 insights
+- [measurement](https://abcodex.iamkesava.com/d/measurement/) — 1 insight
+- [developer-tools](https://abcodex.iamkesava.com/d/developer-tools/) — 1 insight
+- [content-ops](https://abcodex.iamkesava.com/d/content-ops/) — 1 insight
+- [technical-seo](https://abcodex.iamkesava.com/d/technical-seo/) — 1 insight
+- [evals](https://abcodex.iamkesava.com/d/evals/) — 1 insight
+- [operations](https://abcodex.iamkesava.com/d/operations/) — 1 insight
+- [product-marketing](https://abcodex.iamkesava.com/d/product-marketing/) — 1 insight
 
 ## Schema
 
@@ -88,13 +88,13 @@ Body sections: `Claim` (one sentence), `Mechanism` (why it works), `Conditions` 
 
 ## URL templates
 
-- Insight: `https://codex.iamkesava.com/ins/{id}/`
-- Operator: `https://codex.iamkesava.com/o/{slug}/`
-- Pattern: `https://codex.iamkesava.com/pat/{id}/`
-- Contradiction: `https://codex.iamkesava.com/con/{id}/`
-- Playbook: `https://codex.iamkesava.com/play/{id}/`
-- Domain: `https://codex.iamkesava.com/d/{domain}/`
-- Release: `https://codex.iamkesava.com/today/{date}/`
+- Insight: `https://abcodex.iamkesava.com/ins/{id}/`
+- Operator: `https://abcodex.iamkesava.com/o/{slug}/`
+- Pattern: `https://abcodex.iamkesava.com/pat/{id}/`
+- Contradiction: `https://abcodex.iamkesava.com/con/{id}/`
+- Playbook: `https://abcodex.iamkesava.com/play/{id}/`
+- Domain: `https://abcodex.iamkesava.com/d/{domain}/`
+- Release: `https://abcodex.iamkesava.com/today/{date}/`
 
 Every page emits Schema.org @graph: Article + BreadcrumbList + FAQPage + Speakable per insight; Person + sameAs per operator; HowTo + step[] per playbook; CollectionPage + DefinedTerm per domain.
 

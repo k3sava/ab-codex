@@ -1,5 +1,5 @@
 // codex frontend — primary-source operator insight library
-const REPO_BASE = 'https://github.com/k3sava/ab-codex/blob/main';
+const REPO_BASE = 'https://github.com/k3sava/abcodex/blob/main';
 const app = document.getElementById('app');
 const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 gsap.registerPlugin(ScrollTrigger);
@@ -595,7 +595,7 @@ async function insight(id){
     }
   }
   document.getElementById('citeBtn').onclick = async () => {
-    const text = `${c.operator}${(c.co_operators||[]).length ? ' with ' + c.co_operators.join(', ') : ''}, "${c.source_title || c.claim}," ${c.source_url || ''}, ${c.source_date || 'n.d.'}. https://codex.iamkesava.com/ins/${c.id}/`;
+    const text = `${c.operator}${(c.co_operators||[]).length ? ' with ' + c.co_operators.join(', ') : ''}, "${c.source_title || c.claim}," ${c.source_url || ''}, ${c.source_date || 'n.d.'}. https://abcodex.iamkesava.com/ins/${c.id}/`;
     try { await navigator.clipboard.writeText(text); toast('citation copied'); }
     catch { toast('copy failed', { icon: 'error' }); }
   };
@@ -611,7 +611,7 @@ async function insight(id){
   // Share — opens a menu with native / copy / LinkedIn / X / email options.
   document.getElementById('shareBtn').onclick = (e) => {
     e.stopPropagation();
-    const url = `https://codex.iamkesava.com/ins/${c.id}/`;
+    const url = `https://abcodex.iamkesava.com/ins/${c.id}/`;
     const text = `${c.operator}${(c.co_operators||[]).length ? ' with ' + c.co_operators.join(' and ') : ''}: "${c.claim}"`;
     openShareMenu(e.currentTarget, { url, title: c.claim, text });
   };
@@ -1257,13 +1257,13 @@ async function playbookPage(id){
     </section>
 
     <section class='playbook-section'>
-      <p style='color:var(--muted);font-size:.85rem'>Source on <a href='https://github.com/k3sava/ab-codex/blob/main/insight-library/${p.path}' target='_blank' rel='noopener'>GitHub</a>.</p>
+      <p style='color:var(--muted);font-size:.85rem'>Source on <a href='https://github.com/k3sava/abcodex/blob/main/insight-library/${p.path}' target='_blank' rel='noopener'>GitHub</a>.</p>
     </section>
   </article>`;
 
   // Fetch markdown body
   try {
-    const res = await fetch(`https://raw.githubusercontent.com/k3sava/ab-codex/main/insight-library/${p.path}`);
+    const res = await fetch(`https://raw.githubusercontent.com/k3sava/abcodex/main/insight-library/${p.path}`);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const md = await res.text();
     // Strip frontmatter
@@ -1338,7 +1338,7 @@ async function playbookPage(id){
     }
   } catch (e){
     const target = document.querySelector('.playbook-content');
-    if (target) target.innerHTML = `<p style='color:var(--muted)'>Could not load playbook body. <a href='https://github.com/k3sava/ab-codex/blob/main/insight-library/${p.path}' target='_blank' rel='noopener'>Read on GitHub</a>.</p>`;
+    if (target) target.innerHTML = `<p style='color:var(--muted)'>Could not load playbook body. <a href='https://github.com/k3sava/abcodex/blob/main/insight-library/${p.path}' target='_blank' rel='noopener'>Read on GitHub</a>.</p>`;
   }
 
   if (!reduced) ScrollTrigger.batch('.card.reveal', { onEnter: els => gsap.fromTo(els, { opacity:0, y:18 }, { opacity:1, y:0, duration:.6, ease:'power3.out', stagger:.03 }), start:'top 92%' });
@@ -1639,7 +1639,7 @@ async function contradictionPage(id){
     </div>
     ${conditions ? `<section class='con-section'><h3>Where they differ</h3><div class='con-prose'>${fmtBlock(conditions)}</div></section>` : ''}
     ${resolution ? `<section class='con-section con-resolution'><h3>Reconciliation</h3><div class='con-prose'>${fmtBlock(resolution)}</div></section>` : ''}
-    <p class='con-source'><a href='https://github.com/k3sava/ab-codex/blob/main/insight-library/${c.path}' target='_blank' rel='noopener'>Source on GitHub →</a></p>
+    <p class='con-source'><a href='https://github.com/k3sava/abcodex/blob/main/insight-library/${c.path}' target='_blank' rel='noopener'>Source on GitHub →</a></p>
   `;
   if (!reduced){
     gsap.from('.con-side-a', { opacity:0, x:-24, duration:.6, ease:'power3.out' });
@@ -2124,11 +2124,11 @@ function about(){
     <p>Every claim traces to its primary source. Nothing is paraphrased without attribution. Nothing is invented. If we are not sure of a date, we say "unknown" rather than guess. Where operators disagree, we document the disagreement as a contradiction. Where multiple operators converge, we document the convergence as a synthesis pattern. The codex is opinionated about epistemics so you don't have to be.</p>
 
     <h2>For agents and other tools</h2>
-    <p>The corpus is built to be readable by AI search engines and other automated tools. <a href='https://codex.iamkesava.com/insight-library/INDEX.json'>INDEX.json</a> is the canonical machine-readable index. Every record carries id, path, operator, source_url, source_date, domain, lifecycle, and tier. <a href='https://codex.iamkesava.com/llms.txt'>llms.txt</a> documents the structure. <a href='https://codex.iamkesava.com/.well-known/agent-permissions.json'>agent-permissions.json</a> declares the licensing terms (MIT, attribution required).</p>
+    <p>The corpus is built to be readable by AI search engines and other automated tools. <a href='https://abcodex.iamkesava.com/insight-library/INDEX.json'>INDEX.json</a> is the canonical machine-readable index. Every record carries id, path, operator, source_url, source_date, domain, lifecycle, and tier. <a href='https://abcodex.iamkesava.com/llms.txt'>llms.txt</a> documents the structure. <a href='https://abcodex.iamkesava.com/.well-known/agent-permissions.json'>agent-permissions.json</a> declares the licensing terms (MIT, attribution required).</p>
     <p>Every insight has a static URL at <code>codex.iamkesava.com/ins/&lt;id&gt;/</code> with full content plus Schema.org structured data, so crawlers and AI search agents can read the page without executing JavaScript.</p>
 
     <h2>License</h2>
-    <p>Source on <a href='https://github.com/k3sava/ab-codex' target='_blank' rel='noopener'>GitHub</a>. Released MIT. Raw sources retain their original copyright. The codex archives short excerpts under fair use, always with attribution and a link to the canonical source.</p>
+    <p>Source on <a href='https://github.com/k3sava/abcodex' target='_blank' rel='noopener'>GitHub</a>. Released MIT. Raw sources retain their original copyright. The codex archives short excerpts under fair use, always with attribution and a link to the canonical source.</p>
   </section>`;
 }
 
@@ -2605,7 +2605,7 @@ function setPageMeta(title, description){
   }
   set('meta[property="og:title"]', fullTitle);
   set('meta[name="twitter:title"]', fullTitle);
-  const url = `https://codex.iamkesava.com/${location.hash || '#/'}`;
+  const url = `https://abcodex.iamkesava.com/${location.hash || '#/'}`;
   set('meta[property="og:url"]', url);
 }
 

@@ -30,7 +30,7 @@ import { fileURLToPath } from "node:url";
 const ROOT = join(fileURLToPath(import.meta.url), "..", "..");
 const LIB = join(ROOT, "insight-library");
 const DOCS = join(ROOT, "docs");
-const SITE_URL = "https://codex.iamkesava.com";
+const SITE_URL = "https://abcodex.iamkesava.com";
 
 // Shared Person + Organization references. Every static page's @graph cites
 // these by @id so AI search agents see one canonical entity per author/org
