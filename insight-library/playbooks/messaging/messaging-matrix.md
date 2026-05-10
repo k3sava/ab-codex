@@ -3,6 +3,7 @@ id: pb_messaging-matrix
 title: Messaging matrix and homepage rollout
 maintained_by: codex maintainers
 captured_date: 2026-05-01
+depth: full
 domain: [messaging, copywriting, gtm]
 uses_cards: [ins_homepage-five-second-trinity, ins_pain-solution-proof-interleaved-pitch, ins_setup-follow-through-pitch, ins_company-story-is-the-strategy, ins_jtbd-interviews-surface-customer-language, ins_market-to-product-product-to-market, ins_no-decision-is-the-real-competitor]
 originating_operators: [anthony-pierri, bob-moesta, april-dunford, andy-raskin, mihika-kapoor, martina-lauchengco]

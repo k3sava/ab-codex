@@ -3,6 +3,7 @@ id: pb_copywriting-mastery
 title: Copywriting mastery — direct response to modern conversion
 maintained_by: codex maintainers
 captured_date: 2026-05-01
+depth: full
 domain: [copywriting, messaging, conversion]
 uses_cards: [ins_homepage-five-second-trinity, ins_pain-solution-proof-interleaved-pitch, ins_schafer-pain-pleasure-polarity, ins_20-percent-rule-headline, ins_shleyner-clarity-beats-cleverness, ins_shleyner-headline-as-complete-argument, ins_harland-benefits-over-pride, ins_handley-voice-as-moat-against-ai]
 originating_operators: [cole-schafer, eddie-shleyner, dave-harland, ann-handley, eugene-schwartz, david-ogilvy, gary-halbert, joanna-wiebe, anthony-pierri, mihika-kapoor]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-10T03:16:07.956Z",
+  "generated_at": "2026-05-10T06:29:32.210Z",
   "counts": {
     "insights": 805,
     "operators": 465,
@@ -34993,6 +34993,7 @@
       "title": "Competitive analysis playbook",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
+      "depth": "full",
       "domain": [
         "competitive",
         "sales-enablement",
@@ -35002,15 +35003,13 @@
         "ins_battle-cards-as-workflow-primitive",
         "ins_no-decision-is-the-real-competitor",
         "ins_sameness-perception-is-the-differentiation-barrier",
-        "ins_sales-team-detects-positioning-failure-first"
+        "ins_sales-team-detects-positioning-failure-first",
+        "ins_different-better-and-matters"
       ],
       "originating_operators": [
-        "april-dunford"
-      ],
-      "secondary_sources": [
-        "team-brain/workflows/competitive-analysis.md",
-        "flywheel/skills/competitive-displace/SKILL.md",
-        "flywheel/skills/competitive-scout/SKILL.md"
+        "april-dunford",
+        "gartner-research",
+        "ayo-omojola"
       ]
     },
     {
@@ -35043,6 +35042,7 @@
       "title": "Copywriting mastery playbook",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
+      "depth": "full",
       "domain": [
         "copywriting",
         "messaging",
@@ -35050,15 +35050,25 @@
       ],
       "uses_cards": [
         "ins_homepage-five-second-trinity",
-        "ins_pain-solution-proof-interleaved-pitch"
+        "ins_pain-solution-proof-interleaved-pitch",
+        "ins_schafer-pain-pleasure-polarity",
+        "ins_20-percent-rule-headline",
+        "ins_shleyner-clarity-beats-cleverness",
+        "ins_shleyner-headline-as-complete-argument",
+        "ins_harland-benefits-over-pride",
+        "ins_handley-voice-as-moat-against-ai"
       ],
       "originating_operators": [
-        "eli-schwartz"
-      ],
-      "secondary_sources": [
-        "team-brain/workflows/copywriting-mastery.md",
-        "flywheel/skills/copywrite/SKILL.md",
-        "flywheel/skills/voice-enforce/SKILL.md"
+        "cole-schafer",
+        "eddie-shleyner",
+        "dave-harland",
+        "ann-handley",
+        "eugene-schwartz",
+        "david-ogilvy",
+        "gary-halbert",
+        "joanna-wiebe",
+        "anthony-pierri",
+        "mihika-kapoor"
       ]
     },
     {
@@ -35363,6 +35373,7 @@
       "title": "Messaging matrix playbook",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
+      "depth": "full",
       "domain": [
         "messaging",
         "copywriting",
@@ -35374,19 +35385,16 @@
         "ins_setup-follow-through-pitch",
         "ins_company-story-is-the-strategy",
         "ins_jtbd-interviews-surface-customer-language",
-        "ins_market-to-product-product-to-market"
+        "ins_market-to-product-product-to-market",
+        "ins_no-decision-is-the-real-competitor"
       ],
       "originating_operators": [
         "anthony-pierri",
-        "yi-lin-pei",
-        "emily-kramer",
-        "april-dunford"
-      ],
-      "secondary_sources": [
-        "team-brain/workflows/messaging-matrix.md",
-        "team-brain/workflows/messaging-system-builder.md",
-        "team-brain/workflows/narrative-rollout.md",
-        "flywheel/skills/fletch-homepage-rewrite/SKILL.md"
+        "bob-moesta",
+        "april-dunford",
+        "andy-raskin",
+        "mihika-kapoor",
+        "martina-lauchengco"
       ]
     },
     {
@@ -35439,6 +35447,7 @@
       "title": "Positioning playbook",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
+      "depth": "full",
       "domain": [
         "positioning",
         "gtm",
@@ -35452,21 +35461,15 @@
         "ins_test-positioning-in-live-sales-pitch",
         "ins_sales-team-detects-positioning-failure-first",
         "ins_sameness-perception-is-the-differentiation-barrier",
-        "ins_market-to-product-product-to-market"
+        "ins_market-to-product-product-to-market",
+        "ins_jtbd-interviews-surface-customer-language"
       ],
       "originating_operators": [
         "april-dunford",
         "anthony-pierri",
         "emily-kramer",
-        "yi-lin-pei",
-        "bob-moesta"
-      ],
-      "secondary_sources": [
-        "team-brain/workflows/positioning.md",
-        "team-brain/workflows/vpc-methodology.md",
-        "team-brain/workflows/messaging-system-builder.md",
-        "flywheel/skills/positioning-forge/SKILL.md",
-        "flywheel/skills/dunford-value-frame/SKILL.md"
+        "martina-lauchengco",
+        "ayo-omojola"
       ]
     },
     {

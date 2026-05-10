@@ -3,6 +3,7 @@ id: pb_positioning-document
 title: Positioning Document — full pipeline
 maintained_by: codex maintainers
 captured_date: 2026-05-01
+depth: full
 domain: [positioning, gtm, pmm]
 uses_cards: [ins_company-story-is-the-strategy, ins_homepage-five-second-trinity, ins_different-better-and-matters, ins_no-decision-is-the-real-competitor, ins_test-positioning-in-live-sales-pitch, ins_sales-team-detects-positioning-failure-first, ins_sameness-perception-is-the-differentiation-barrier, ins_market-to-product-product-to-market, ins_jtbd-interviews-surface-customer-language]
 originating_operators: [april-dunford, anthony-pierri, emily-kramer, martina-lauchengco, ayo-omojola]

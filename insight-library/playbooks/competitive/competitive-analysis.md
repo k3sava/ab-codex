@@ -3,6 +3,7 @@ id: pb_competitive-analysis
 title: Competitive analysis — landscape, profiles, battlecards
 maintained_by: codex maintainers
 captured_date: 2026-05-01
+depth: full
 domain: [competitive, sales-enablement, gtm]
 uses_cards: [ins_battle-cards-as-workflow-primitive, ins_no-decision-is-the-real-competitor, ins_sameness-perception-is-the-differentiation-barrier, ins_sales-team-detects-positioning-failure-first, ins_different-better-and-matters]
 originating_operators: [april-dunford, gartner-research, ayo-omojola]

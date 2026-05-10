@@ -33,7 +33,7 @@ async function loadIndex(){
   }));
   patterns = (data.patterns||[]).map(p => ({ id:p.id, title:p.title, tier:p.tier, path:p.path, uses_cards:p.uses_cards||[], domains:p.domains||[] }));
   contradictions = (data.contradictions||[]).map(c => ({ id:c.id, title:c.title, path:c.path }));
-  playbooks = (data.playbooks||[]).map(p => ({ id:p.id, title:p.title, path:p.path, domain:p.domain||[], uses_cards:p.uses_cards||[], originating_operators:p.originating_operators||[], maintained_by:p.maintained_by||'', captured_date:p.captured_date||'' }));
+  playbooks = (data.playbooks||[]).map(p => ({ id:p.id, title:p.title, path:p.path, domain:p.domain||[], uses_cards:p.uses_cards||[], originating_operators:p.originating_operators||[], maintained_by:p.maintained_by||'', captured_date:p.captured_date||'', depth:p.depth||'' }));
   DOMAINS = [...new Set(cards.flatMap(c=>c.domain))].sort();
   const counts = data.counts || {};
   STATS = {
@@ -1181,10 +1181,10 @@ function playbooksList(){
           <span class='ct'>${items.length} playbook${items.length===1?'':'s'}</span>
         </header>
         <div class='pb-grid'>${items.map(p => `
-          <a class='card pb-card reveal' href='#/play/${p.id}'>
+          <a class='card pb-card reveal${p.depth==='full'?' pb-card--full':''}' href='#/play/${p.id}'>
             <div class='meta-row'><span>playbook</span><span>${(p.domain||[]).slice(0,3).join(' · ')}</span></div>
             <h3>${escapeHtml(p.title)}</h3>
-            <div class='converge'>${(p.uses_cards||[]).length} insight${(p.uses_cards||[]).length===1?'':'s'} · ${(p.originating_operators||[]).length} operator${(p.originating_operators||[]).length===1?'':'s'}</div>
+            <div class='converge'>${(p.uses_cards||[]).length} insight${(p.uses_cards||[]).length===1?'':'s'} · ${(p.originating_operators||[]).length} operator${(p.originating_operators||[]).length===1?'':'s'}${p.depth==='full'?` · <span class='pb-depth-badge'>full depth</span>`:''}</div>
           </a>`).join('')}</div>
       </section>`;
     }).join('')}
