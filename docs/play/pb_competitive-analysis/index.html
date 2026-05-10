@@ -90,14 +90,14 @@ main.static blockquote.pb-operator-quote .pb-quote-attr .inline-cross-ref:hover{
 .pb-toc li::before{counter-increment:toc;content:counter(toc,decimal-leading-zero);font-family:JetBrains Mono,monospace;font-size:.62rem;color:var(--muted);min-width:20px}
 .pb-toc a{font-family:Newsreader,Georgia,serif;font-size:1rem;color:var(--ink-2);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:1px;transition:color .15s,border-color .15s;line-height:1.45}
 .pb-toc a:hover{color:var(--accent);border-bottom-color:var(--accent)}
-h2#failure-modes+ul{list-style:none;padding-left:0;margin-top:.8em}
-h2#failure-modes+ul li{border-top:1px solid var(--line-2);padding:14px 0;padding-left:0;margin:0;color:var(--ink-2);line-height:1.5}
-h2#failure-modes+ul li:first-child{border-top:none;padding-top:0}
-h2#failure-modes+ul li strong:first-child{font-family:JetBrains Mono,monospace;font-size:.7rem;color:var(--accent);text-transform:uppercase;letter-spacing:.06em;font-weight:600;display:block;margin-bottom:2px}
-h2#outputs+ol{list-style:none;padding-left:0;counter-reset:outputs;margin-top:.8em}
-h2#outputs+ol li{counter-increment:outputs;display:flex;gap:14px;align-items:baseline;padding:10px 0;border-top:1px solid var(--line-2);color:var(--ink-2);line-height:1.6;margin:0}
-h2#outputs+ol li:first-child{border-top:none;padding-top:0}
-h2#outputs+ol li::before{content:counter(outputs,decimal-leading-zero);font-family:JetBrains Mono,monospace;font-size:.7rem;color:var(--accent);opacity:.7;min-width:20px;flex-shrink:0}
+h2#failure-modes+ul,h2#what-goes-wrong+ul{list-style:none;padding-left:0;margin-top:.8em}
+h2#failure-modes+ul li,h2#what-goes-wrong+ul li{border-top:1px solid var(--line-2);padding:14px 0;padding-left:0;margin:0;color:var(--ink-2);line-height:1.5}
+h2#failure-modes+ul li:first-child,h2#what-goes-wrong+ul li:first-child{border-top:none;padding-top:0}
+h2#failure-modes+ul li strong:first-child,h2#what-goes-wrong+ul li strong:first-child{font-family:JetBrains Mono,monospace;font-size:.7rem;color:var(--accent);text-transform:uppercase;letter-spacing:.06em;font-weight:600;display:block;margin-bottom:2px}
+h2#outputs+ol,h2#what-you-get+ol{list-style:none;padding-left:0;counter-reset:outputs;margin-top:.8em}
+h2#outputs+ol li,h2#what-you-get+ol li{counter-increment:outputs;display:flex;gap:14px;align-items:baseline;padding:10px 0;border-top:1px solid var(--line-2);color:var(--ink-2);line-height:1.6;margin:0}
+h2#outputs+ol li:first-child,h2#what-you-get+ol li:first-child{border-top:none;padding-top:0}
+h2#outputs+ol li::before,h2#what-you-get+ol li::before{content:counter(outputs,decimal-leading-zero);font-family:JetBrains Mono,monospace;font-size:.7rem;color:var(--accent);opacity:.7;min-width:20px;flex-shrink:0}
 .pb-layout{display:block}
 .pb-article-col{display:block}
 .pb-sidebar{display:none}
@@ -148,7 +148,7 @@ main.static pre code{background:transparent;padding:0}
   </nav>
 </header>
 <main class="static">
-<div class="static-crumbs"><a href="https://abcodex.iamkesava.com/">codex</a> · <a href="https://abcodex.iamkesava.com/playbooks/">playbooks</a> · Competitive analysis</div><h1>Competitive analysis</h1><p>Synthesizes the CIA 4-phase cycle, Crayon's battlecard structure, and Dunford's positioning research. Output is a competitive package that helps sales win, product prioritize, and marketing sharpen positioning. The quality bar is not comprehensiveness. It is whether the analysis changes a decision within 30 days of delivery.</p><div class="pb-insight-chips"><span class="pb-insight-chips-label">Insights used</span><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_battle-cards-as-workflow-primitive/" title="Battle cards become workflow primitives, not Notion pages">Gartner · 2025</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_no-decision-is-the-real-competitor/" title="40–60% of B2B buyers say &quot;no decision&quot;, your real competitor is the status quo">April Dunford · 2026</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_sameness-perception-is-the-differentiation-barrier/" title="Buyers see &quot;sameness&quot;, test differentiators with external audiences before any campaign launch">Gartner · 2025</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_sales-team-detects-positioning-failure-first/" title="The sales team detects positioning failure months before the dashboard does">April Dunford · 2026</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_different-better-and-matters/" title="Differentiation requires three checks: different, better, and matters viscerally to users">Ayo Omojola · 2026</a></div><div class="pb-layout"><div class="pb-article-col"><nav class="pb-toc pb-toc-mobile"><p class="pb-toc-label">In this playbook</p><ol><li><a href="#when-to-use">When to use</a></li><li><a href="#steps">Steps</a></li><li><a href="#honest-comparison-page-template">Honest comparison page template</a></li><li><a href="#quality-gates">Quality gates</a></li><li><a href="#failure-modes">Failure modes</a></li><li><a href="#outputs">Outputs</a></li></ol></nav><article><h2 id="when-to-use">When to use</h2>
+<div class="static-crumbs"><a href="https://abcodex.iamkesava.com/">codex</a> · <a href="https://abcodex.iamkesava.com/playbooks/">playbooks</a> · Competitive analysis</div><h1>Competitive analysis</h1><p>Synthesizes the CIA 4-phase cycle, Crayon's battlecard structure, and Dunford's positioning research. Output is a competitive package that helps sales win, product prioritize, and marketing sharpen positioning. The quality bar is not comprehensiveness. It is whether the analysis changes a decision within 30 days of delivery.</p><div class="pb-insight-chips"><span class="pb-insight-chips-label">Insights used</span><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_battle-cards-as-workflow-primitive/" title="Battle cards become workflow primitives, not Notion pages">Gartner · 2025</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_no-decision-is-the-real-competitor/" title="40–60% of B2B buyers say &quot;no decision&quot;, your real competitor is the status quo">April Dunford · 2026</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_sameness-perception-is-the-differentiation-barrier/" title="Buyers see &quot;sameness&quot;, test differentiators with external audiences before any campaign launch">Gartner · 2025</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_sales-team-detects-positioning-failure-first/" title="The sales team detects positioning failure months before the dashboard does">April Dunford · 2026</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_different-better-and-matters/" title="Differentiation requires three checks: different, better, and matters viscerally to users">Ayo Omojola · 2026</a></div><div class="pb-layout"><div class="pb-article-col"><nav class="pb-toc pb-toc-mobile"><p class="pb-toc-label">In this playbook</p><ol><li><a href="#when-to-use">When to use</a></li><li><a href="#how-to-use">How to use</a></li><li><a href="#compare-honestly">Compare honestly</a></li><li><a href="#check-your-work">Check your work</a></li><li><a href="#what-goes-wrong">What goes wrong</a></li><li><a href="#what-you-get">What you get</a></li></ol></nav><article><h2 id="when-to-use">When to use</h2>
 
 <ul>
 <li>Win rate is stalling against a specific competitor</li>
@@ -157,7 +157,7 @@ main.static pre code{background:transparent;padding:0}
 <li>Before a depositioning campaign or a head-to-head comparison page</li>
 </ul>
 
-<h2 id="steps">Steps</h2><div class="pbv" data-observe aria-label="Competitive analysis — Phase 1: Intelligence gathering">
+<h2 id="how-to-use">How to use</h2><div class="pbv" data-observe aria-label="Competitive analysis — Phase 1: Intelligence gathering">
   <span class="pbv-eyebrow">Phase 1 · Intelligence gathering</span>
   <p class="pbv-vis-title">Build the evidence base</p>
 
@@ -434,21 +434,89 @@ main.static pre code{background:transparent;padding:0}
 
 <p>The calendar cadence is a floor, not the trigger. Real battlecard refreshes happen event-driven: a competitor ships something, a market shift occurs, sales asks for updated intel. If nobody is asking for updates, check adoption first. Stale content is a smaller problem than content nobody uses.</p>
 
-</div><h2 id="honest-comparison-page-template">Honest comparison page template</h2>
+</div><h2 id="compare-honestly">Compare honestly</h2><div class="pbv" data-observe aria-label="Comparison page — five-section narrative arc">
+  <span class="pbv-eyebrow">Template · comparison pages</span>
+  <p class="pbv-vis-title">Five sections. One ask: earn the comparison.</p>
 
-<p>When publishing a competitor-vs-you page, the most credible structure:</p>
+  <div class="pbv-pipeline-inner">
+    <div class="pbv-spine"></div>
 
-<ol>
-<li>Disarm skepticism. Acknowledge you have a stake.</li>
-<li>Concede competitor strengths honestly. The more you concede, the more your claims are believed.</li>
-<li>Reframe the buying criteria. The criteria themselves are the real argument.</li>
-<li>Stack your differentiation under the new criteria.</li>
-<li>Unify under a shared problem narrative.</li>
-</ol>
+    <div class="pbv-step" style="--step:0">
+      <div class="pbv-step-dot"></div>
+      <span class="pbv-step-num">01</span>
+      <div>
+        <p class="pbv-step-name">Disarm skepticism</p>
+        <p class="pbv-step-note">Name your stake in the first sentence. Reader trust begins here or not at all.</p>
+      </div>
+    </div>
 
-<p>Tone by competitor position: market leader requires maximum deference; direct competitor allows more aggression; adjacent category calls for confident repositioning.</p>
+    <div class="pbv-step" style="--step:1">
+      <div class="pbv-step-dot"></div>
+      <span class="pbv-step-num">02</span>
+      <div>
+        <p class="pbv-step-name">Concede real strengths</p>
+        <p class="pbv-step-note">Call out genuine competitor strengths. The more you concede, the more your claims land.</p>
+      </div>
+    </div>
 
-<h2 id="quality-gates">Quality gates</h2>
+    <div class="pbv-step" style="--step:2">
+      <div class="pbv-step-dot"></div>
+      <span class="pbv-step-num">03</span>
+      <div>
+        <p class="pbv-step-name">Reframe the criteria</p>
+        <p class="pbv-step-note">Shift which dimensions matter. The criteria are the argument, not the features.</p>
+      </div>
+    </div>
+
+    <div class="pbv-step" style="--step:3">
+      <div class="pbv-step-dot"></div>
+      <span class="pbv-step-num">04</span>
+      <div>
+        <p class="pbv-step-name">Stack differentiation</p>
+        <p class="pbv-step-note">Proof under the new frame. Each differentiator needs a deal reference or customer quote.</p>
+      </div>
+    </div>
+
+    <div class="pbv-step" style="--step:4">
+      <div class="pbv-step-dot"></div>
+      <span class="pbv-step-num">05</span>
+      <div>
+        <p class="pbv-step-name">Unify under a shared problem</p>
+        <p class="pbv-step-note">One problem, two different answers. End on what you solve together, not who wins.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pbv-section-divider"></div>
+
+  <div class="pbv-failures">
+    <div class="pbv-fail" style="--fi:0">
+      <div class="pbv-fail-dot" style="background:var(--pbv-accent)"></div>
+      <span class="pbv-fail-text"><strong style="color:var(--pbv-ink)">Market leader</strong> — maximum deference. Concede more than feels comfortable.</span>
+    </div>
+    <div class="pbv-fail" style="--fi:1">
+      <div class="pbv-fail-dot" style="background:var(--pbv-accent)"></div>
+      <span class="pbv-fail-text"><strong style="color:var(--pbv-ink)">Direct competitor</strong> — direct contrast. No attacks, just precise difference.</span>
+    </div>
+    <div class="pbv-fail" style="--fi:2">
+      <div class="pbv-fail-dot" style="background:var(--pbv-accent)"></div>
+      <span class="pbv-fail-text"><strong style="color:var(--pbv-ink)">Adjacent category</strong> — reposition. You are not competing. You are reframing.</span>
+    </div>
+  </div>
+
+  <div class="pbv-footer">
+    <span>Sources: April Dunford · Crayon · Gartner</span>
+    <span>a builder's codex</span>
+  </div>
+</div>
+
+<p>The five-section arc that earns the comparison instead of demanding it. Each section does one job for the reader's mental state.</p>
+
+<div class="md-table-wrap"><table class="md-table"><thead><tr><th>Section</th><th>Reader's mental state</th><th>What you do</th></tr></thead><tbody><tr><td>Disarm</td><td>"They're biased — why should I trust this?"</td><td>Name your stake upfront. First sentence.</td></tr><tr><td>Concede</td><td>"Wait, they're being honest about weaknesses?"</td><td>Call out real competitor strengths. Buyers will test you live.</td></tr><tr><td>Reframe</td><td>"I hadn't thought about it that way."</td><td>Shift which criteria matter. The criteria are the argument.</td></tr><tr><td>Differentiate</td><td>"They're right — X matters more for my situation."</td><td>Stack proof under the new frame. Each differentiator needs a deal reference.</td></tr><tr><td>Unify</td><td>"I understand what problem this solves."</td><td>One shared problem. Two very different answers.</td></tr></tbody></table></div>
+
+<p>Tone calibration: market leader requires maximum deference — concede more than feels comfortable. Direct competitor allows direct contrast but no attacks. Adjacent category calls for reframing, not competing.</p>
+
+<h2 id="check-your-work">Check your work</h2>
 
 <ul>
 <li>Tiering is based on CRM revenue impact, not gut or marketing noise.</li>
@@ -461,7 +529,7 @@ main.static pre code{background:transparent;padding:0}
 <li>Living document cadence is defined and owned before distribution.</li>
 </ul>
 
-<h2 id="failure-modes">Failure modes</h2>
+<h2 id="what-goes-wrong">What goes wrong</h2>
 
 <ul>
 <li><strong>Boiling the ocean.</strong> Five rivals account for 80% of deals. Tier by revenue impact, not marketing noise.</li>
@@ -476,7 +544,7 @@ main.static pre code{background:transparent;padding:0}
 <li><strong>Same tone across all comparisons.</strong> Market leaders need deference. Niche players get directness.</li>
 </ul>
 
-<h2 id="outputs">Outputs</h2>
+<h2 id="what-you-get">What you get</h2>
 
 <ol>
 <li>Competitor tier list with rationale.</li>
@@ -488,7 +556,7 @@ main.static pre code{background:transparent;padding:0}
 <li>Strategic recommendations per audience (sales, product, marketing).</li>
 <li>Monitoring cadence with named owner.</li>
 </ol>
-</article><div class="static-actions"><a class="primary" href="https://abcodex.iamkesava.com/#/play/pb_competitive-analysis">Open the interactive view →</a></div></div><aside class="pb-sidebar"><nav class="pb-toc"><p class="pb-toc-label">Contents</p><ol><li><a href="#when-to-use">When to use</a></li><li><a href="#steps">Steps</a></li><li><a href="#honest-comparison-page-template">Honest comparison page template</a></li><li><a href="#quality-gates">Quality gates</a></li><li><a href="#failure-modes">Failure modes</a></li><li><a href="#outputs">Outputs</a></li></ol></nav></aside></div>
+</article><div class="static-actions"><a class="primary" href="https://abcodex.iamkesava.com/#/play/pb_competitive-analysis">Open the interactive view →</a></div></div><aside class="pb-sidebar"><nav class="pb-toc"><p class="pb-toc-label">Contents</p><ol><li><a href="#when-to-use">When to use</a></li><li><a href="#how-to-use">How to use</a></li><li><a href="#compare-honestly">Compare honestly</a></li><li><a href="#check-your-work">Check your work</a></li><li><a href="#what-goes-wrong">What goes wrong</a></li><li><a href="#what-you-get">What you get</a></li></ol></nav></aside></div>
 </main>
 <script src="/assets/js/pb-visuals.js" defer></script>
 <footer class="static-footer">
