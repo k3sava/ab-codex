@@ -199,13 +199,20 @@ function mergeQuoteAttributions(html){
     }
   );
 }
-function splitVisualHtml(html){
-  if (!html) return ["", ""];
-  const first = html.indexOf('<div class="pbv"');
-  if (first < 0) return ["", ""];
-  const second = html.indexOf('<div class="pbv"', first + 1);
-  if (second < 0) return [html.trim(), ""];
-  return [html.slice(0, second).trim(), html.slice(second).trim()];
+function splitVisuals(html){
+  // Split a visual HTML file into individual <div class="pbv"> blocks.
+  if (!html) return [];
+  const visuals = [];
+  let pos = 0;
+  while (true){
+    const start = html.indexOf('<div class="pbv"', pos);
+    if (start < 0) break;
+    const next = html.indexOf('<div class="pbv"', start + 1);
+    visuals.push(next < 0 ? html.slice(start).trim() : html.slice(start, next).trim());
+    if (next < 0) break;
+    pos = next;
+  }
+  return visuals;
 }
 function injectBeforeNthStep(html, insertion, n){
   // Insert `insertion` immediately before the nth occurrence of <div class="pb-step">
@@ -390,14 +397,14 @@ main.static blockquote.pb-operator-quote .pb-quote-attr .inline-cross-ref:hover{
 .pb-toc li::before{counter-increment:toc;content:counter(toc,decimal-leading-zero);font-family:JetBrains Mono,monospace;font-size:.62rem;color:var(--muted);min-width:20px}
 .pb-toc a{font-family:Newsreader,Georgia,serif;font-size:1rem;color:var(--ink-2);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:1px;transition:color .15s,border-color .15s;line-height:1.45}
 .pb-toc a:hover{color:var(--accent);border-bottom-color:var(--accent)}
-h2#failure-modes+ul{list-style:none;padding-left:0;margin-top:.8em}
-h2#failure-modes+ul li{border-top:1px solid var(--line-2);padding:14px 0;padding-left:0;margin:0;color:var(--ink-2);line-height:1.5}
-h2#failure-modes+ul li:first-child{border-top:none;padding-top:0}
-h2#failure-modes+ul li strong:first-child{font-family:JetBrains Mono,monospace;font-size:.7rem;color:var(--accent);text-transform:uppercase;letter-spacing:.06em;font-weight:600;display:block;margin-bottom:2px}
-h2#outputs+ol{list-style:none;padding-left:0;counter-reset:outputs;margin-top:.8em}
-h2#outputs+ol li{counter-increment:outputs;display:flex;gap:14px;align-items:baseline;padding:10px 0;border-top:1px solid var(--line-2);color:var(--ink-2);line-height:1.6;margin:0}
-h2#outputs+ol li:first-child{border-top:none;padding-top:0}
-h2#outputs+ol li::before{content:counter(outputs,decimal-leading-zero);font-family:JetBrains Mono,monospace;font-size:.7rem;color:var(--accent);opacity:.7;min-width:20px;flex-shrink:0}
+h2#failure-modes+ul,h2#what-goes-wrong+ul{list-style:none;padding-left:0;margin-top:.8em}
+h2#failure-modes+ul li,h2#what-goes-wrong+ul li{border-top:1px solid var(--line-2);padding:14px 0;padding-left:0;margin:0;color:var(--ink-2);line-height:1.5}
+h2#failure-modes+ul li:first-child,h2#what-goes-wrong+ul li:first-child{border-top:none;padding-top:0}
+h2#failure-modes+ul li strong:first-child,h2#what-goes-wrong+ul li strong:first-child{font-family:JetBrains Mono,monospace;font-size:.7rem;color:var(--accent);text-transform:uppercase;letter-spacing:.06em;font-weight:600;display:block;margin-bottom:2px}
+h2#outputs+ol,h2#what-you-get+ol{list-style:none;padding-left:0;counter-reset:outputs;margin-top:.8em}
+h2#outputs+ol li,h2#what-you-get+ol li{counter-increment:outputs;display:flex;gap:14px;align-items:baseline;padding:10px 0;border-top:1px solid var(--line-2);color:var(--ink-2);line-height:1.6;margin:0}
+h2#outputs+ol li:first-child,h2#what-you-get+ol li:first-child{border-top:none;padding-top:0}
+h2#outputs+ol li::before,h2#what-you-get+ol li::before{content:counter(outputs,decimal-leading-zero);font-family:JetBrains Mono,monospace;font-size:.7rem;color:var(--accent);opacity:.7;min-width:20px;flex-shrink:0}
 .pb-layout{display:block}
 .pb-article-col{display:block}
 .pb-sidebar{display:none}
@@ -777,16 +784,24 @@ async function main(){
     const insightChips = cardsForPlaybook.length
       ? `<div class="pb-insight-chips"><span class="pb-insight-chips-label">Insights used</span>${cardsForPlaybook.map(c=>{const yr=(c.source_date||"").slice(0,4);const label=`${c.operator||c.id}${yr?" · "+yr:""}`;return`<a class="pb-insight-chip" href="${SITE_URL}/ins/${c.id}/" title="${escapeHtml(c.title||c.id)}">${escapeHtml(label)}</a>`}).join("")}</div>`
       : "";
-    // Split visual into Phase 1 and Phase 2; inject Phase 1 after Steps H2, Phase 2 after step 5
-    const [visual1, visual2] = splitVisualHtml(visualHtml);
+    // Split visual file into individual pbv blocks and inject each at the right position.
+    const [visual1, visual2, visual3] = splitVisuals(visualHtml);
     let mainBodyWithVisual = mainBody;
     if (visual1) {
-      mainBodyWithVisual = mainBodyWithVisual.match(/<h2 [^>]*id="steps"[^>]*>[^<]*<\/h2>/)
-        ? mainBodyWithVisual.replace(/(<h2 [^>]*id="steps"[^>]*>[^<]*<\/h2>)/, `$1${visual1}`)
-        : visual1 + mainBodyWithVisual;
+      mainBodyWithVisual = mainBodyWithVisual.match(/<h2 [^>]*id="how-to-use"[^>]*>[^<]*<\/h2>/)
+        ? mainBodyWithVisual.replace(/(<h2 [^>]*id="how-to-use"[^>]*>[^<]*<\/h2>)/, `$1${visual1}`)
+        : mainBodyWithVisual.match(/<h2 [^>]*id="steps"[^>]*>[^<]*<\/h2>/)
+          ? mainBodyWithVisual.replace(/(<h2 [^>]*id="steps"[^>]*>[^<]*<\/h2>)/, `$1${visual1}`)
+          : visual1 + mainBodyWithVisual;
     }
     if (visual2) {
       mainBodyWithVisual = injectBeforeNthStep(mainBodyWithVisual, visual2, 6);
+    }
+    if (visual3) {
+      mainBodyWithVisual = mainBodyWithVisual.replace(
+        /(<h2 [^>]*id="compare-honestly"[^>]*>[^<]*<\/h2>)/,
+        `$1${visual3}`
+      );
     }
     const howTo = {
       "@type": "HowTo",

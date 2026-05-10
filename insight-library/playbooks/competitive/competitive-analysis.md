@@ -20,7 +20,7 @@ Synthesizes the CIA 4-phase cycle, Crayon's battlecard structure, and Dunford's 
 - Quarterly refresh on Tier-1 rivals
 - Before a depositioning campaign or a head-to-head comparison page
 
-## Steps
+## How to use
 
 ### 1. Scope the landscape. Anchor on a business question, not a competitor list.
 
@@ -191,19 +191,21 @@ Define the refresh cadence before you ship:
 
 The calendar cadence is a floor, not the trigger. Real battlecard refreshes happen event-driven: a competitor ships something, a market shift occurs, sales asks for updated intel. If nobody is asking for updates, check adoption first. Stale content is a smaller problem than content nobody uses.
 
-## Honest comparison page template
+## Compare honestly
 
-When publishing a competitor-vs-you page, the most credible structure:
+The five-section arc that earns the comparison instead of demanding it. Each section does one job for the reader's mental state.
 
-1. Disarm skepticism. Acknowledge you have a stake.
-2. Concede competitor strengths honestly. The more you concede, the more your claims are believed.
-3. Reframe the buying criteria. The criteria themselves are the real argument.
-4. Stack your differentiation under the new criteria.
-5. Unify under a shared problem narrative.
+| Section | Reader's mental state | What you do |
+|---------|----------------------|-------------|
+| Disarm | "They're biased — why should I trust this?" | Name your stake upfront. First sentence. |
+| Concede | "Wait, they're being honest about weaknesses?" | Call out real competitor strengths. Buyers will test you live. |
+| Reframe | "I hadn't thought about it that way." | Shift which criteria matter. The criteria are the argument. |
+| Differentiate | "They're right — X matters more for my situation." | Stack proof under the new frame. Each differentiator needs a deal reference. |
+| Unify | "I understand what problem this solves." | One shared problem. Two very different answers. |
 
-Tone by competitor position: market leader requires maximum deference; direct competitor allows more aggression; adjacent category calls for confident repositioning.
+Tone calibration: market leader requires maximum deference — concede more than feels comfortable. Direct competitor allows direct contrast but no attacks. Adjacent category calls for reframing, not competing.
 
-## Quality gates
+## Check your work
 
 - Tiering is based on CRM revenue impact, not gut or marketing noise.
 - Win/loss patterns are based on prospect interviews, not just CRM disposition codes.
@@ -214,7 +216,7 @@ Tone by competitor position: market leader requires maximum deference; direct co
 - Every differentiator passes the three-check filter: different, better, and matters viscerally.
 - Living document cadence is defined and owned before distribution.
 
-## Failure modes
+## What goes wrong
 
 - **Boiling the ocean.** Five rivals account for 80% of deals. Tier by revenue impact, not marketing noise.
 - **Feature-checklist syndrome.** Buyers decide on value in their situation, not feature counts.
@@ -227,7 +229,7 @@ Tone by competitor position: market leader requires maximum deference; direct co
 - **No adoption plan.** Not in Slack and CRM at the deal level means not used.
 - **Same tone across all comparisons.** Market leaders need deference. Niche players get directness.
 
-## Outputs
+## What you get
 
 1. Competitor tier list with rationale.
 2. Tier-1 competitor profiles.
