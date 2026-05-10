@@ -65,6 +65,15 @@ main.static strong{color:var(--ink);font-weight:600}
 .md-table tbody tr:last-child td{border-bottom:none}
 .md-table tbody tr:hover{background:color-mix(in oklab,var(--accent) 4%,var(--paper))}
 .step-num-badge{display:block;font-family:JetBrains Mono,monospace;font-size:1.1rem;letter-spacing:.04em;color:var(--accent);font-weight:700;margin-bottom:4px;line-height:1}
+.pb-step{border-left:2px solid color-mix(in oklab,var(--accent) 28%,var(--line));padding:0 0 24px 20px;margin:0 0 4px}
+.pb-step h3{margin-top:0}
+main.static blockquote.pb-operator-quote{border-left:none;padding:18px 22px;background:color-mix(in oklab,var(--accent) 5%,var(--paper));border-radius:6px;font-style:normal;margin:1.6em 0}
+main.static blockquote.pb-operator-quote p:first-child{font-family:Newsreader,Georgia,serif;font-size:1.05rem;font-style:italic;color:var(--ink);margin-bottom:8px}
+main.static blockquote.pb-operator-quote p:not(:first-child){font-family:JetBrains Mono,monospace;font-size:.72rem;font-style:normal;color:var(--muted);margin:.2em 0}
+.pb-insight-chips{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:.4em 0 28px}
+.pb-insight-chips-label{font-family:JetBrains Mono,monospace;font-size:.6rem;letter-spacing:.1em;color:var(--muted);text-transform:uppercase;font-weight:600;margin-right:4px;white-space:nowrap}
+.pb-insight-chip{font-family:Newsreader,Georgia,serif;font-size:.85rem;color:var(--ink-2);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:2px 12px;transition:border-color .15s,color .15s;display:inline-block}
+.pb-insight-chip:hover{color:var(--accent);border-color:var(--accent);border-bottom-color:var(--accent)}
 .pb-toc{margin:0 0 44px;padding:20px 24px;background:var(--paper-2);border-radius:5px;border:1px solid var(--line)}
 .pb-toc-label{font-family:JetBrains Mono,monospace;font-size:.6rem;letter-spacing:.1em;color:var(--muted);text-transform:uppercase;font-weight:600;margin-bottom:14px}
 .pb-toc ol{padding:0;margin:0;list-style:none;display:flex;flex-direction:column;gap:2px;counter-reset:toc}

@@ -137,8 +137,9 @@ function mdToHtml(md){
       if(inList){out.push("</ul>");inList=false;} if(inOl){out.push("</ol>");inOl=false;} closeQuote(); flushTable();
       const t=line.replace(/^###\s+/,"");
       const stepM=t.match(/^(\d+)\.\s+(.+)/);
-      const inner=stepM?`<span class='step-num-badge'>${String(stepM[1]).padStart(2,"0")}</span> ${inline(stepM[2])}`:inline(t);
-      out.push(`<h3 id="${makeId(t)}">${inner}</h3>`); continue;
+      if(stepM){const num=String(stepM[1]).padStart(2,"0");out.push(`<h3 id="step-${num}"><span class='step-num-badge'>${num}</span> ${inline(stepM[2])}</h3>`);}
+      else{out.push(`<h3 id="${makeId(t)}">${inline(t)}</h3>`);}
+      continue;
     }
     if (/^>\s?/.test(line)){
       if(inList){out.push("</ul>");inList=false;} if(inOl){out.push("</ol>");inOl=false;} flushTable();
@@ -163,6 +164,15 @@ function mdToHtml(md){
   if (inQuote) out.push("</blockquote>");
   flushTable();
   return out.join("\n");
+}
+function wrapStepContainers(html){
+  // Split at each H2/H3 boundary; wrap numbered-step H3 groups in .pb-step
+  const parts = html.split(/(?=<h[23] )/);
+  return parts.map(p => /^<h3 id="step-\d+"/.test(p) ? `<div class="pb-step">${p}</div>` : p).join("");
+}
+function markOperatorQuotes(html){
+  // Blockquotes whose first paragraph starts with a quotation mark → operator attribution style
+  return html.replace(/<blockquote>(\s*)<p>"/g, '<blockquote class="pb-operator-quote">$1<p>"');
 }
 function escapeAttr(s){ return s.replace(/"/g, "&quot;"); }
 
@@ -314,6 +324,15 @@ main.static strong{color:var(--ink);font-weight:600}
 .md-table tbody tr:last-child td{border-bottom:none}
 .md-table tbody tr:hover{background:color-mix(in oklab,var(--accent) 4%,var(--paper))}
 .step-num-badge{display:block;font-family:JetBrains Mono,monospace;font-size:1.1rem;letter-spacing:.04em;color:var(--accent);font-weight:700;margin-bottom:4px;line-height:1}
+.pb-step{border-left:2px solid color-mix(in oklab,var(--accent) 28%,var(--line));padding:0 0 24px 20px;margin:0 0 4px}
+.pb-step h3{margin-top:0}
+main.static blockquote.pb-operator-quote{border-left:none;padding:18px 22px;background:color-mix(in oklab,var(--accent) 5%,var(--paper));border-radius:6px;font-style:normal;margin:1.6em 0}
+main.static blockquote.pb-operator-quote p:first-child{font-family:Newsreader,Georgia,serif;font-size:1.05rem;font-style:italic;color:var(--ink);margin-bottom:8px}
+main.static blockquote.pb-operator-quote p:not(:first-child){font-family:JetBrains Mono,monospace;font-size:.72rem;font-style:normal;color:var(--muted);margin:.2em 0}
+.pb-insight-chips{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:.4em 0 28px}
+.pb-insight-chips-label{font-family:JetBrains Mono,monospace;font-size:.6rem;letter-spacing:.1em;color:var(--muted);text-transform:uppercase;font-weight:600;margin-right:4px;white-space:nowrap}
+.pb-insight-chip{font-family:Newsreader,Georgia,serif;font-size:.85rem;color:var(--ink-2);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:2px 12px;transition:border-color .15s,color .15s;display:inline-block}
+.pb-insight-chip:hover{color:var(--accent);border-color:var(--accent);border-bottom-color:var(--accent)}
 .pb-toc{margin:0 0 44px;padding:20px 24px;background:var(--paper-2);border-radius:5px;border:1px solid var(--line)}
 .pb-toc-label{font-family:JetBrains Mono,monospace;font-size:.6rem;letter-spacing:.1em;color:var(--muted);text-transform:uppercase;font-weight:600;margin-bottom:14px}
 .pb-toc ol{padding:0;margin:0;list-style:none;display:flex;flex-direction:column;gap:2px;counter-reset:toc}
@@ -618,6 +637,11 @@ async function main(){
     const { body } = parseFrontmatter(text);
     const cleaned = body.replace(/^#\s+[^\n]+\n+/, "");
     const renderedBody = rewriteBodyLinks(mdToHtml(cleaned), INDEX);
+    const processedBody = wrapStepContainers(markOperatorQuotes(renderedBody));
+    // Split intro paragraph(s) (before first H2) from the rest of the body
+    const h2idx = processedBody.indexOf("<h2 ");
+    const introHtml = h2idx > 0 ? processedBody.slice(0, h2idx).trim() : "";
+    const mainBody = h2idx > 0 ? processedBody.slice(h2idx) : processedBody;
     const cta = `<div class="static-actions"><a class="primary" href="${SITE_URL}/#/play/${p.id}">Open the interactive view →</a></div>`;
     const crumbs = `<div class="static-crumbs"><a href="${SITE_URL}/">codex</a> · <a href="${SITE_URL}/playbooks/">playbooks</a> · ${escapeHtml(p.title || p.id)}</div>`;
     const visualHtml = await loadVisual(p.id);
@@ -651,6 +675,16 @@ async function main(){
       : "";
     const cardsForPlaybook = (p.uses_cards || []).slice(0, 8).map(cid => INDEX.insights.find(i => i.id === cid)).filter(Boolean);
     const opsForPlaybook = [...new Set((p.originating_operators || []).concat(cardsForPlaybook.map(c => c.operator).filter(Boolean)))];
+    // Insight chips — linked pills shown below the intro paragraph
+    const insightChips = cardsForPlaybook.length
+      ? `<div class="pb-insight-chips"><span class="pb-insight-chips-label">Insights used</span>${cardsForPlaybook.map(c=>`<a class="pb-insight-chip" href="${SITE_URL}/ins/${c.id}/">${escapeHtml(c.title||c.id)}</a>`).join("")}</div>`
+      : "";
+    // Inject animated visual contextually inside the Steps section (or prepend if no Steps H2)
+    const mainBodyWithVisual = visualHtml
+      ? (mainBody.match(/<h2 [^>]*id="steps"[^>]*>/)
+          ? mainBody.replace(/(<h2 [^>]*id="steps"[^>]*>)/, `$1${visualHtml}`)
+          : visualHtml + mainBody)
+      : mainBody;
     const howTo = {
       "@type": "HowTo",
       "name": p.title || p.id,
@@ -683,7 +717,7 @@ async function main(){
       jsonLd,
       ogImage: socialOgUrl || `${SITE_URL}/og/play/${p.id}.svg`,
       hasVisual: !!visualHtml,
-      body: `${crumbs}<h1>${escapeHtml(p.title || p.id)}</h1>${visualHtml}${tocHtml}<article>${renderedBody}</article>${cta}`,
+      body: `${crumbs}<h1>${escapeHtml(p.title || p.id)}</h1>${introHtml}${insightChips}${tocHtml}<article>${mainBodyWithVisual}</article>${cta}`,
     });
   }
 
