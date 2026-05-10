@@ -303,10 +303,24 @@ main.static p{margin:.7em 0;line-height:1.65;max-width:72ch;color:var(--ink-2)}
 main.static a{color:var(--ink);border-bottom:1px solid var(--line);padding-bottom:1px;text-decoration:none;transition:color .2s,border-color .2s}
 main.static a:hover{color:var(--accent);border-bottom-color:currentColor}
 main.static a.inline-cross-ref{font-family:Newsreader,serif}
-main.static ul{margin:.5em 0 1em 1.4em;display:flex;flex-direction:column;gap:.4em}
-main.static li{padding-left:.2em;color:var(--ink-2)}
-main.static blockquote{margin:1em 0;padding:.4em 0 .4em 16px;border-left:2px solid var(--accent);color:var(--ink-2);font-style:italic}
-main.static strong{color:var(--ink);font-weight:500}
+main.static ul,main.static ol{padding-left:1.5em;margin:.5em 0 1em 0;display:flex;flex-direction:column;gap:.45em}
+main.static li{padding-left:.15em;color:var(--ink-2);line-height:1.6}
+main.static blockquote{margin:1.6em 0;padding:.6em 0 .6em 20px;border-left:3px solid var(--accent);color:var(--ink-2);font-style:italic;font-family:Newsreader,Georgia,serif;font-size:1.05rem;line-height:1.55}
+main.static strong{color:var(--ink);font-weight:600}
+.md-table-wrap{overflow-x:auto;margin:1.6em 0;border-radius:5px;border:1px solid color-mix(in oklab,var(--accent) 20%,var(--line))}
+.md-table{width:100%;border-collapse:collapse;font-size:.88rem;line-height:1.5}
+.md-table thead th{background:color-mix(in oklab,var(--accent) 9%,var(--paper));color:var(--ink);font-family:JetBrains Mono,monospace;font-size:.68rem;font-weight:600;text-transform:uppercase;letter-spacing:.07em;padding:10px 16px;text-align:left;border-bottom:2px solid color-mix(in oklab,var(--accent) 22%,var(--paper))}
+.md-table td{padding:9px 16px;border-bottom:1px solid var(--line-2);color:var(--ink-2);vertical-align:top}
+.md-table tbody tr:last-child td{border-bottom:none}
+.md-table tbody tr:hover{background:color-mix(in oklab,var(--accent) 4%,var(--paper))}
+.step-num-badge{display:block;font-family:JetBrains Mono,monospace;font-size:.6rem;letter-spacing:.1em;color:var(--accent);text-transform:uppercase;font-weight:600;margin-bottom:1px}
+.pb-toc{margin:0 0 44px;padding:20px 24px;background:var(--paper-2);border-radius:5px;border:1px solid var(--line)}
+.pb-toc-label{font-family:JetBrains Mono,monospace;font-size:.6rem;letter-spacing:.1em;color:var(--muted);text-transform:uppercase;font-weight:600;margin-bottom:14px}
+.pb-toc ol{padding:0;margin:0;list-style:none;display:flex;flex-direction:column;gap:2px;counter-reset:toc}
+.pb-toc li{padding:0;margin:0;display:flex;align-items:baseline;gap:10px}
+.pb-toc li::before{counter-increment:toc;content:counter(toc,decimal-leading-zero);font-family:JetBrains Mono,monospace;font-size:.62rem;color:var(--muted);min-width:20px}
+.pb-toc a{font-family:Newsreader,Georgia,serif;font-size:1rem;color:var(--ink-2);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:1px;transition:color .15s,border-color .15s;line-height:1.45}
+.pb-toc a:hover{color:var(--accent);border-bottom-color:var(--accent)}
 main.static code{font-family:JetBrains Mono,monospace;font-size:.85em;background:color-mix(in oklab,var(--ink) 6%,transparent);padding:1px 6px;border-radius:3px}
 main.static pre{background:color-mix(in oklab,var(--ink) 4%,transparent);padding:14px 16px;border-radius:6px;overflow-x:auto;margin:1em 0}
 main.static pre code{background:transparent;padding:0}
@@ -629,6 +643,12 @@ async function main(){
       const text = buf.join(" ").slice(0, 400);
       if (text) steps.push({ "@type": "HowToStep", "position": steps.length + 1, "name": name, "text": text, "url": `${SITE_URL}/play/${p.id}/#step-${steps.length + 1}` });
     }
+    // Build in-article TOC from H2 headings (shown when ≥3 sections)
+    const slugifyToc = t => t.toLowerCase().replace(/\*\*/g,"").replace(/`[^`]+`/g,"").replace(/[^\w\s-]/g,"").trim().replace(/[\s_]+/g,"-").replace(/^-+|-+$/g,"");
+    const h2s = cleaned.split("\n").filter(l => /^##\s+/.test(l)).map(l => l.replace(/^##\s+/,"").trim()).filter(Boolean);
+    const tocHtml = h2s.length >= 3
+      ? `<nav class="pb-toc"><p class="pb-toc-label">In this playbook</p><ol>${h2s.map(h => `<li><a href="#${slugifyToc(h)}">${escapeHtml(h)}</a></li>`).join("")}</ol></nav>`
+      : "";
     const cardsForPlaybook = (p.uses_cards || []).slice(0, 8).map(cid => INDEX.insights.find(i => i.id === cid)).filter(Boolean);
     const opsForPlaybook = [...new Set((p.originating_operators || []).concat(cardsForPlaybook.map(c => c.operator).filter(Boolean)))];
     const howTo = {
@@ -663,7 +683,7 @@ async function main(){
       jsonLd,
       ogImage: socialOgUrl || `${SITE_URL}/og/play/${p.id}.svg`,
       hasVisual: !!visualHtml,
-      body: `${crumbs}<h1>${escapeHtml(p.title || p.id)}</h1>${visualHtml}<article>${renderedBody}</article>${cta}`,
+      body: `${crumbs}<h1>${escapeHtml(p.title || p.id)}</h1>${visualHtml}${tocHtml}<article>${renderedBody}</article>${cta}`,
     });
   }
 

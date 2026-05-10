@@ -197,8 +197,8 @@
   border-radius: 50%;
   background: var(--pbv-accent);
   position: absolute;
-  left: -23px;
-  top: 17px;
+  left: -28px;
+  top: 18px;
   scale: 0;
   transition: scale 0.28s cubic-bezier(0.16, 1, 0.3, 1);
   transition-delay: calc(var(--step, 0) * 0.11s + 0.18s);
