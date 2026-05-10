@@ -1357,7 +1357,7 @@ _Generated 2026-05-10. Auto-built from frontmatter — do not edit by hand._
 - [Claim-verify gate playbook](playbooks/ai-native-gtm/claim-verify-gate.md)
 - [LLM wiki playbook](playbooks/ai-native-gtm/llm-wiki.md)
 - [Synthetic audience test playbook](playbooks/ai-native-gtm/synthetic-audience-test.md)
-- [Competitive analysis](playbooks/competitive/competitive-analysis.md)
+- [Run competitive analysis that arms sellers and sharpens positioning](playbooks/competitive/competitive-analysis.md)
 - [Win/loss framework playbook](playbooks/competitive/win-loss-framework.md)
 - [Copywriting mastery playbook](playbooks/copywriting/copywriting-mastery.md)
 - [Humanizer playbook](playbooks/copywriting/humanizer.md)
