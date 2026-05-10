@@ -355,8 +355,8 @@ main.static{max-width:880px;margin:0 auto;padding:48px 24px 120px}
 .static-crumbs a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:1px;transition:color .2s,border-color .2s}
 .static-crumbs a:hover{color:var(--accent);border-bottom-color:currentColor}
 main.static h1{font-family:Newsreader,Georgia,serif;font-weight:400;font-size:clamp(2rem,4vw,3rem);letter-spacing:-.02em;line-height:1.12;margin-bottom:18px;color:var(--ink)}
-main.static h2{font-family:Newsreader,Georgia,serif;font-weight:400;font-size:1.5rem;margin:1.8em 0 .5em;line-height:1.25;color:var(--ink)}
-main.static h3{font-family:Newsreader,Georgia,serif;font-weight:400;font-size:1.15rem;margin:1.4em 0 .4em;color:var(--ink)}
+main.static h2{font-family:Newsreader,Georgia,serif;font-weight:400;font-size:1.5rem;margin:1.8em 0 .5em;line-height:1.25;color:var(--ink);scroll-margin-top:72px}
+main.static h3{font-family:Newsreader,Georgia,serif;font-weight:400;font-size:1.15rem;margin:1.4em 0 .4em;color:var(--ink);scroll-margin-top:72px}
 main.static p{margin:.7em 0;line-height:1.65;max-width:72ch;color:var(--ink-2)}
 main.static a{color:var(--ink);border-bottom:1px solid var(--line);padding-bottom:1px;text-decoration:none;transition:color .2s,border-color .2s}
 main.static a:hover{color:var(--accent);border-bottom-color:currentColor}
@@ -489,6 +489,17 @@ async function copySocialOg(playbook_id){
   await ensureDir(dirname(dest));
   await copyFile(src, dest);
   return `${SITE_URL}/og/play/${playbook_id}.png`;
+}
+
+async function copyVisualImages(playbook_id){
+  const dir = join(ROOT, "assets/visuals", playbook_id);
+  let entries;
+  try { entries = await readdir(dir); } catch { return; }
+  const imgs = entries.filter(f => /\.(png|jpg|webp|svg)$/.test(f) && f !== "social.png");
+  if (!imgs.length) return;
+  const destDir = join(DOCS, "assets", "visuals", playbook_id);
+  await ensureDir(destDir);
+  for (const f of imgs) await copyFile(join(dir, f), join(destDir, f));
 }
 
 async function main(){
@@ -715,6 +726,7 @@ async function main(){
     const crumbs = `<div class="static-crumbs"><a href="${SITE_URL}/">codex</a> · <a href="${SITE_URL}/playbooks/">playbooks</a> · ${escapeHtml(p.title || p.id)}</div>`;
     const visualHtml = await loadVisual(p.id);
     const socialOgUrl = await copySocialOg(p.id);
+    await copyVisualImages(p.id);
     // Extract numbered H3 steps (### N. Title) as HowToStep schema objects with
     // correct #step-NN anchor URLs. Falls back to H2 sections for playbooks
     // without the numbered-step structure.
@@ -781,11 +793,12 @@ async function main(){
     const cardsForPlaybook = (p.uses_cards || []).slice(0, 8).map(cid => INDEX.insights.find(i => i.id === cid)).filter(Boolean);
     const opsForPlaybook = [...new Set((p.originating_operators || []).concat(cardsForPlaybook.map(c => c.operator).filter(Boolean)))];
     // Insight chips — operator + year, full title as tooltip
+    const seenChipLabels = new Set();
     const insightChips = cardsForPlaybook.length
-      ? `<div class="pb-insight-chips"><span class="pb-insight-chips-label">Insights used</span>${cardsForPlaybook.map(c=>{const yr=(c.source_date||"").slice(0,4);const label=`${c.operator||c.id}${yr?" · "+yr:""}`;return`<a class="pb-insight-chip" href="${SITE_URL}/ins/${c.id}/" title="${escapeHtml(c.title||c.id)}">${escapeHtml(label)}</a>`}).join("")}</div>`
+      ? `<div class="pb-insight-chips"><span class="pb-insight-chips-label">Insights used</span>${cardsForPlaybook.map(c=>{const yr=(c.source_date||"").slice(0,4);const label=`${c.operator||c.id}${yr?" · "+yr:""}`;if(seenChipLabels.has(label))return"";seenChipLabels.add(label);return`<a class="pb-insight-chip" href="${SITE_URL}/ins/${c.id}/" title="${escapeHtml(c.title||c.id)}">${escapeHtml(label)}</a>`;}).filter(Boolean).join("")}</div>`
       : "";
     // Split visual file into individual pbv blocks and inject each at the right position.
-    const [visual1, visual2, visual3] = splitVisuals(visualHtml);
+    const [visual1, visual2, visual3, visual4] = splitVisuals(visualHtml);
     let mainBodyWithVisual = mainBody;
     if (visual1) {
       mainBodyWithVisual = mainBodyWithVisual.match(/<h2 [^>]*id="how-to-use"[^>]*>[^<]*<\/h2>/)
@@ -797,10 +810,12 @@ async function main(){
     if (visual2) {
       mainBodyWithVisual = injectBeforeNthStep(mainBodyWithVisual, visual2, 6);
     }
-    if (visual3) {
+    // visual3 = comparison page template pipeline, visual4 = annotated real example
+    const compareBlock = [visual3, visual4].filter(Boolean).join("\n");
+    if (compareBlock) {
       mainBodyWithVisual = mainBodyWithVisual.replace(
         /(<h2 [^>]*id="compare-honestly"[^>]*>[^<]*<\/h2>)/,
-        `$1${visual3}`
+        `$1${compareBlock}`
       );
     }
     const howTo = {
