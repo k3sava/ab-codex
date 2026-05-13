@@ -1,33 +1,37 @@
 {
-  "generated_at": "2026-05-11T03:14:15.130Z",
+  "generated_at": "2026-05-13T03:25:04.452Z",
   "counts": {
-    "insights": 809,
-    "operators": 467,
+    "insights": 816,
+    "operators": 468,
     "raw_sources": 209,
-    "patterns": 40,
+    "patterns": 41,
     "contradictions": 11,
     "playbooks": 27,
-    "daily": 11
+    "daily": 12
   },
   "latest_daily": {
-    "path": "daily/2026-05-11.md",
-    "date": "2026-05-11",
-    "title": "AI implementation realism and AEO benchmarks, 2026-05-11",
-    "summary": "Four new cards across two themes: human checkpoints as the AI implementation separator (Pierri + Breunig convergence extending pat_verification-as-human-job), and AI discovery producing measurable signup volume (Poyar benchmark + Schwartz on Google's formalized citation surfaces). Two new operators: Drew Breunig, Barry Schwartz.",
+    "path": "daily/2026-05-13.md",
+    "date": "2026-05-13",
+    "title": "The reliability trap, stripping what does not compound, and context isolation",
+    "summary": "Seven new cards, one new pattern, three pattern extensions. Two themes surfaced independently across the week: reliability quietly degrading the oversight it depends on, and AI abundance shifting the scarce resource from output to judgment.",
     "sources": [
-      "morning research scan 2026-05-11"
+      "morning research scan 2026-05-13"
     ],
     "insights_added": [
-      "ins_pierri-ai-positioning-needs-human-checkpoints",
-      "ins_breunig-agentic-code-free-as-puppies",
-      "ins_kyle-poyar-ai-discovery-signup-channel",
-      "ins_barry-schwartz-google-ai-mode-citation-surfaces"
+      "ins_breunig-harness-lock-in-model-layer",
+      "ins_willison-reliability-erodes-review-discipline",
+      "ins_anthropic-claude-code-subagents-haiku-routing",
+      "ins_rory-woodbridge-launch-tier-not-debate",
+      "ins_kevin-indig-verification-cost-rising",
+      "ins_maja-voje-strip-what-doesnt-compound",
+      "ins_google-ai-mode-subscription-highlight"
     ],
     "operators_added": [
-      "drew-breunig",
-      "barry-schwartz"
+      "google"
     ],
-    "patterns_added": [],
+    "patterns_added": [
+      "pat_strip-what-doesnt-compound"
+    ],
     "playbooks_added": []
   },
   "insights": [
@@ -1931,6 +1935,35 @@
       "title": "Anonymous benchmark stats unlock ROI proof when named-customer attribution is blocked"
     },
     {
+      "path": "insights/ins_anthropic-claude-code-subagents-haiku-routing.md",
+      "id": "ins_anthropic-claude-code-subagents-haiku-routing",
+      "operator": "Anthropic",
+      "operator_role": "AI research and deployment company",
+      "co_operators": [],
+      "source_url": "https://code.claude.com/docs/en/sub-agents",
+      "source_type": "research",
+      "source_title": "Claude Code: Sub-agents",
+      "source_date": "2026-05-13",
+      "captured_date": "2026-05-13",
+      "domain": [
+        "ai-native",
+        "product"
+      ],
+      "lifecycle": [
+        "build"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 3, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_anthropic-routines-cloud-agent-tasks",
+        "ins_anthropic-skills-as-vertical-distribution-unit"
+      ],
+      "raw_ref": "",
+      "title": "Claude Code subagents run in isolated context windows with model routing, enabling cost-optimized bulk delegation without polluting the orchestrator session"
+    },
+    {
       "path": "insights/ins_anthropic-routines-cloud-agent-tasks.md",
       "id": "ins_anthropic-routines-cloud-agent-tasks",
       "operator": "Anthropic",
@@ -3134,6 +3167,34 @@
       ],
       "raw_ref": "",
       "title": "Agentic code is free as in puppies: generation is cheap, but maintenance, support, and security are the real cost"
+    },
+    {
+      "path": "insights/ins_breunig-harness-lock-in-model-layer.md",
+      "id": "ins_breunig-harness-lock-in-model-layer",
+      "operator": "Drew Breunig",
+      "operator_role": "Technology strategist and writer",
+      "co_operators": [],
+      "source_url": "https://dbreunig.com/2026/05/10/overfitting-the-harness.html",
+      "source_type": "essay",
+      "source_title": "Overfitting the Harness",
+      "source_date": "2026-05-10",
+      "captured_date": "2026-05-13",
+      "domain": [
+        "ai-native",
+        "product"
+      ],
+      "lifecycle": [
+        "build"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "A",
+      "related": [
+        "ins_breunig-agentic-code-free-as-puppies"
+      ],
+      "raw_ref": "",
+      "title": "Frontier labs are baking native harness preferences into model weights, not layering them on top"
     },
     {
       "path": "insights/ins_build-for-model-six-months-out.md",
@@ -7327,6 +7388,36 @@
       "title": "Push past expert opinion until you reach the actual law of physics or contract"
     },
     {
+      "path": "insights/ins_google-ai-mode-subscription-highlight.md",
+      "id": "ins_google-ai-mode-subscription-highlight",
+      "operator": "Google",
+      "operator_role": "Search product team",
+      "co_operators": [],
+      "source_url": "https://blog.google/products-and-platforms/products/search/explore-web-generative-ai-search/",
+      "source_type": "post",
+      "source_title": "Explore the web with generative AI in Search",
+      "source_date": "2026-05-06",
+      "captured_date": "2026-05-13",
+      "domain": [
+        "aeo",
+        "seo"
+      ],
+      "lifecycle": [
+        "awareness"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 3, specificity: 4, evidence: 5, transferability: 3, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_casey-hill-aeo-structural-prominence",
+        "ins_aeo-three-layer-presence-readiness-impact",
+        "ins_barry-schwartz-google-ai-mode-citation-surfaces"
+      ],
+      "raw_ref": "",
+      "title": "Google's subscription highlight in AI Mode gives paywalled content a visual trust tag inline, changing the ROI on publisher partnerships for AEO"
+    },
+    {
       "path": "insights/ins_gordon-m-gtm-tactics-are-theory.md",
       "id": "ins_gordon-m-gtm-tactics-are-theory",
       "title": "Go-to-market tactics for new features is a theory question; real launches depend on timeline, resources, and favors.",
@@ -10031,6 +10122,35 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_kevin-indig-verification-cost-rising.md",
+      "id": "ins_kevin-indig-verification-cost-rising",
+      "operator": "Kevin Indig",
+      "operator_role": "Growth advisor and creator of Growth Memo",
+      "co_operators": [],
+      "source_url": "https://www.growth-memo.com/p/ai-changed-my-work-and-yours-too",
+      "source_type": "essay",
+      "source_title": "AI changed my work and yours too",
+      "source_date": "2026-05-04",
+      "captured_date": "2026-05-13",
+      "domain": [
+        "pmm",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "awareness"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 3 }",
+      "tier": "A",
+      "related": [
+        "ins_chatgpt-prompts-invisible-to-keyword-tools",
+        "ins_judgment-doesnt-compress"
+      ],
+      "raw_ref": "",
+      "title": "The cost to produce AI output is falling. The cost to verify it is rising. Judgment is the binding constraint."
+    },
+    {
       "path": "insights/ins_kevin-lord-barry-timeless-b2b-ad-principles.md",
       "id": "ins_kevin-lord-barry-timeless-b2b-ad-principles",
       "title": "Winning B2B ads are built on timeless principles that work today, not trendy tactics.",
@@ -11026,6 +11146,41 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_maja-voje-strip-what-doesnt-compound.md",
+      "id": "ins_maja-voje-strip-what-doesnt-compound",
+      "operator": "Maja Voje",
+      "operator_role": "GTM strategist and creator of GTM Strategist newsletter",
+      "co_operators": [
+        "Elena Verna",
+        "Emily Kramer",
+        "Kyle Norton"
+      ],
+      "source_url": "https://knowledge.gtmstrategist.com/p/3-big-ideas-for-the-ai-first-gtm",
+      "source_type": "essay",
+      "source_title": "3 big ideas for the AI-first GTM",
+      "source_date": "2026-05-08",
+      "captured_date": "2026-05-13",
+      "domain": [
+        "pmm",
+        "growth-demand",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "growth-loops"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "A",
+      "related": [
+        "ins_kevin-indig-verification-cost-rising",
+        "ins_rory-woodbridge-launch-tier-not-debate",
+        "ins_add-new-growth-model-every-18-months"
+      ],
+      "raw_ref": "",
+      "title": "The 2026 GTM AI playbook is not about doing more things faster. It is about stripping everything that does not compound."
     },
     {
       "path": "insights/ins_maja-voje-substrate-first-content-engineering.md",
@@ -16642,6 +16797,35 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_rory-woodbridge-launch-tier-not-debate.md",
+      "id": "ins_rory-woodbridge-launch-tier-not-debate",
+      "operator": "Rory Woodbridge",
+      "operator_role": "Product marketer and GTM consultant",
+      "co_operators": [],
+      "source_url": "https://productmarketer.substack.com/p/how-to-tier-your-product-launches",
+      "source_type": "essay",
+      "source_title": "How to tier your product launches",
+      "source_date": "2026-05-05",
+      "captured_date": "2026-05-13",
+      "domain": [
+        "pmm",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "launch"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_ai-native-launch-triage-not-fewer-gates",
+        "ins_james-doman-pmm-curate-not-process-launches"
+      ],
+      "raw_ref": "",
+      "title": "Engineering ships every 2.8 weeks on average now. Without a tier system, every release becomes a launch debate."
+    },
+    {
       "path": "insights/ins_run-up-the-stack.md",
       "id": "ins_run-up-the-stack",
       "operator": "Packy McCormick",
@@ -21719,6 +21903,35 @@
       "title": "Same service, different segment, 5x price, the variable is buyer economics, not effort"
     },
     {
+      "path": "insights/ins_willison-reliability-erodes-review-discipline.md",
+      "id": "ins_willison-reliability-erodes-review-discipline",
+      "operator": "Simon Willison",
+      "operator_role": "Independent developer and creator of Datasette",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/",
+      "source_type": "essay",
+      "source_title": "Vibe coding and agentic engineering",
+      "source_date": "2026-05-06",
+      "captured_date": "2026-05-13",
+      "domain": [
+        "ai-native",
+        "product"
+      ],
+      "lifecycle": [
+        "build"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "excerpt",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "A",
+      "related": [
+        "ins_dark-factory-pattern",
+        "ins_breunig-harness-lock-in-model-layer"
+      ],
+      "raw_ref": "",
+      "title": "As coding agents become more reliable, review discipline erodes and the failure mode becomes invisible"
+    },
+    {
       "path": "insights/ins_words-matter-most-innovative-features.md",
       "id": "ins_words-matter-most-innovative-features",
       "operator": "Aatir Abdul Rauf",
@@ -25408,6 +25621,23 @@
         "website": "https://www.gsqi.com/"
       },
       "title": "Glenn Gabe"
+    },
+    {
+      "path": "operators/google/README.md",
+      "slug": "google",
+      "name": "Google",
+      "roles": [
+        "\"Search product team",
+        "Google\""
+      ],
+      "domains_active": [
+        "aeo",
+        "seo",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-13",
+      "external": "{ newsletter: \"https://blog.google/products-and-platforms/products/search/\" }",
+      "title": "Google"
     },
     {
       "path": "operators/gordon-m/README.md",
@@ -34010,8 +34240,8 @@
       "id": "pat_aeo-triangle",
       "title": "The AEO triangle, presence, relevance, manual-action propagation",
       "captured_date": "2026-05-01",
-      "last_updated": "2026-05-10",
-      "convergence_count": "10",
+      "last_updated": "2026-05-13",
+      "convergence_count": "11",
       "tier": "A",
       "uses_cards": [
         "ins_aeo-three-layer-presence-readiness-impact",
@@ -34023,7 +34253,8 @@
         "ins_ai-slop-loop",
         "ins_mike-king-ai-crawler-499-speed-gate",
         "ins_casey-hill-structural-prominence-llm-citations",
-        "ins_lily-ray-aeo-seo-continuity"
+        "ins_lily-ray-aeo-seo-continuity",
+        "ins_google-ai-mode-subscription-highlight"
       ],
       "domains": [
         "pmm",
@@ -34210,8 +34441,8 @@
       "id": "pat_context-not-capability",
       "title": "Context, not capability, is the bottleneck",
       "captured_date": "2026-05-01",
-      "last_updated": "2026-05-10",
-      "convergence_count": "8",
+      "last_updated": "2026-05-13",
+      "convergence_count": "9",
       "tier": "A",
       "uses_cards": [
         "ins_bottleneck-is-context-not-capability",
@@ -34221,7 +34452,8 @@
         "ins_dotclaude-as-deployable-artifact",
         "ins_remove-features-as-models-improve",
         "ins_maja-voje-substrate-first-content-engineering",
-        "ins_poyar-voje-context-engineering-gap"
+        "ins_poyar-voje-context-engineering-gap",
+        "ins_anthropic-claude-code-subagents-haiku-routing"
       ],
       "domains": [
         "ai-native",
@@ -34829,6 +35061,24 @@
       ]
     },
     {
+      "path": "synthesis/patterns/strip-what-doesnt-compound.md",
+      "id": "pat_strip-what-doesnt-compound",
+      "title": "Strip what does not compound: AI abundance makes judgment the scarce resource",
+      "captured_date": "2026-05-13",
+      "convergence_count": "3",
+      "tier": "A",
+      "uses_cards": [
+        "ins_rory-woodbridge-launch-tier-not-debate",
+        "ins_kevin-indig-verification-cost-rising",
+        "ins_maja-voje-strip-what-doesnt-compound"
+      ],
+      "domains": [
+        "pmm",
+        "growth-demand",
+        "ai-native"
+      ]
+    },
+    {
       "path": "synthesis/patterns/substrate-runs-loop-humans-run-alignment.md",
       "id": "pat_substrate-runs-loop-humans-run-alignment",
       "title": "Substrate runs the loop; humans run alignment and taste",
@@ -34905,8 +35155,8 @@
       "id": "pat_verification-as-human-job",
       "title": "Verification, not execution, is the irreplaceable human job",
       "captured_date": "2026-05-06",
-      "last_updated": "2026-05-11",
-      "convergence_count": "9",
+      "last_updated": "2026-05-13",
+      "convergence_count": "11",
       "tier": "A",
       "uses_cards": [
         "ins_judgment-vs-understanding",
@@ -34917,7 +35167,9 @@
         "ins_capability-spikes-where-verification-loops-exist",
         "ins_outcomes-grader-agent-evaluation",
         "ins_pierri-ai-positioning-needs-human-checkpoints",
-        "ins_breunig-agentic-code-free-as-puppies"
+        "ins_breunig-agentic-code-free-as-puppies",
+        "ins_willison-reliability-erodes-review-discipline",
+        "ins_breunig-harness-lock-in-model-layer"
       ],
       "domains": [
         "ai-native",
@@ -35161,6 +35413,16 @@
         "ins_sameness-perception-is-the-differentiation-barrier",
         "ins_sales-team-detects-positioning-failure-first",
         "ins_different-better-and-matters"
+      ],
+      "uses_patterns": [
+        "pat_diagnose-before-execute",
+        "pat_status-quo-is-the-competitor",
+        "pat_frontline-as-pmm-substrate",
+        "pat_differentiation-vs-sameness",
+        "pat_buyer-mindset-not-product-features"
+      ],
+      "uses_contradictions": [
+        "con_no-decision-vs-named-competitor"
       ],
       "originating_operators": [
         "april-dunford",
@@ -35721,6 +35983,31 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-05-13.md",
+      "date": "2026-05-13",
+      "title": "The reliability trap, stripping what does not compound, and context isolation",
+      "summary": "Seven new cards, one new pattern, three pattern extensions. Two themes surfaced independently across the week: reliability quietly degrading the oversight it depends on, and AI abundance shifting the scarce resource from output to judgment.",
+      "sources": [
+        "morning research scan 2026-05-13"
+      ],
+      "insights_added": [
+        "ins_breunig-harness-lock-in-model-layer",
+        "ins_willison-reliability-erodes-review-discipline",
+        "ins_anthropic-claude-code-subagents-haiku-routing",
+        "ins_rory-woodbridge-launch-tier-not-debate",
+        "ins_kevin-indig-verification-cost-rising",
+        "ins_maja-voje-strip-what-doesnt-compound",
+        "ins_google-ai-mode-subscription-highlight"
+      ],
+      "operators_added": [
+        "google"
+      ],
+      "patterns_added": [
+        "pat_strip-what-doesnt-compound"
+      ],
+      "playbooks_added": []
+    },
     {
       "path": "daily/2026-05-11.md",
       "date": "2026-05-11",

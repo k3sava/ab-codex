@@ -6,6 +6,8 @@ captured_date: 2026-05-01
 depth: full
 domain: [competitive, sales-enablement, gtm]
 uses_cards: [ins_battle-cards-as-workflow-primitive, ins_no-decision-is-the-real-competitor, ins_sameness-perception-is-the-differentiation-barrier, ins_sales-team-detects-positioning-failure-first, ins_different-better-and-matters]
+uses_patterns: [pat_diagnose-before-execute, pat_status-quo-is-the-competitor, pat_frontline-as-pmm-substrate, pat_differentiation-vs-sameness, pat_buyer-mindset-not-product-features]
+uses_contradictions: [con_no-decision-vs-named-competitor]
 originating_operators: [april-dunford, gartner-research, ayo-omojola]
 ---
 
@@ -26,7 +28,7 @@ A 10-step process for turning competitive intel into decisions. Quality bar: doe
 
 Before you gather anything, define what decision this analysis needs to inform. Competitive intelligence (CI) without a business question is data collection. It is not intelligence.
 
-Ask: which three decisions does this analysis need to enable in the next 30 days? Typical examples: which competitor to name-drop in demos, how to handle a specific objection, whether to compete or avoid in enterprise deals. If a section of the analysis does not connect to one of those three decisions, cut it. State the questions at the top of the deliverable and check against them at the end.
+Ask: which three decisions does this analysis need to enable in the next 30 days? Typical examples: which competitor to name-drop in demos, how to handle a specific objection, whether to compete or avoid in enterprise deals. If a section of the analysis does not connect to one of those three decisions, cut it. State the questions at the top of the deliverable and check against them at the end. `pat_diagnose-before-execute`
 
 Then tier your competitors by revenue impact, not by marketing noise. Pull three months of CRM data on competitive mentions in won and lost deals. Ask sales which five competitors come up most. Ask prospects during interviews who else they evaluated. Cross-reference.
 
@@ -38,7 +40,7 @@ One thing most competitive tiers miss: include the status quo. When you survey b
 > · April Dunford, Lenny's Podcast, 2026-04-28
 > `ins_no-decision-is-the-real-competitor`
 
-That means "do nothing" belongs in your competitive tier list. Not as a named competitor, but as a real option the buyer weighs. The analysis must account for it.
+That means "do nothing" belongs in your competitive tier list. Not as a named competitor, but as a real option the buyer weighs. The analysis must account for it. `pat_status-quo-is-the-competitor`
 
 **Tiering model:**
 
@@ -65,7 +67,7 @@ The most important source is the sales floor. Reps are the leading indicator for
 
 When you centralize this intel, you are also building the feedback loop you will need to keep analysis current. Set up a competitive Slack channel now. The channel does two things: it is where you publish insights going forward, and it is where reps drop what they hear. Neither works without the other.
 
-Interview 3 to 5 top-performing reps specifically about competitive deals. Ask: which competitors come up most? Where do you feel least confident? What's the objection you hear that you cannot answer well? The answer to the third question is where to invest first.
+Interview 3 to 5 top-performing reps specifically about competitive deals. Ask: which competitors come up most? Where do you feel least confident? What's the objection you hear that you cannot answer well? The answer to the third question is where to invest first. `pat_frontline-as-pmm-substrate`
 
 ### 3. Research competitors externally. Know what you are looking for before you start.
 
@@ -91,6 +93,8 @@ The most important question to ask in a loss interview: did they make a purchase
 
 Separate your analysis: competitive losses (they chose Competitor X) vs. status-quo losses (they chose nothing). Invest in different responses to each.
 
+Where your losses fall determines where PMM time should go. Status-quo losses call for narrative and problem framing. Competitive losses call for battlecards and comparison content. Most teams default to battlecards because they are more legible. That is often the wrong allocation. Run the loss-reason audit before choosing. `con_no-decision-vs-named-competitor`
+
 ### 5. Build competitor profiles. Honest about strengths. Specific at the capability level.
 
 For each Tier-1 competitor, build a profile that answers: what do they do, who do they serve, where do they win, and where do they lose. The profile is your internal analytical document. It is not the same as a battlecard.
@@ -112,7 +116,7 @@ Use Ayo Omojola's three-check filter on every differentiator you plan to include
 > · Ayo Omojola, Lenny's Podcast, 2026-04-28
 > `ins_different-better-and-matters`
 
-A property that passes the first two checks but not the third is a feature comparison, not a differentiator. Drop it from the profile's attack angles and note it separately.
+A property that passes the first two checks but not the third is a feature comparison, not a differentiator. Drop it from the profile's attack angles and note it separately. `pat_differentiation-vs-sameness`
 
 ---
 
@@ -120,7 +124,7 @@ A property that passes the first two checks but not the third is a feature compa
 
 The dimensions in your matrix must come from win/loss interviews and sales conversations. Not from your product team's feature list. Ask buyers: what were the top three factors in your decision? Those are your dimensions.
 
-A 50-row feature comparison grid answers a question buyers are not asking. They are asking whether your product handles their specific situation better than the alternatives they are considering. Features are evidence for that claim. They are not the claim itself.
+A 50-row feature comparison grid answers a question buyers are not asking. They are asking whether your product handles their specific situation better than the alternatives they are considering. Features are evidence for that claim. They are not the claim itself. `pat_buyer-mindset-not-product-features`
 
 Limit to 6 to 8 dimensions. More than that and the matrix becomes a checklist nobody uses. For each dimension, include a proof point: a customer quote, a specific metric, a deal reference. Without evidence, the matrix is claims, not analysis.
 
@@ -178,7 +182,7 @@ A battlecard nobody opens is the same as no battlecard. Embed in CRM at the oppo
 
 The more important step is building the feedback loop going forward. Reps hear positioning failures in real time. Build a channel for that signal to reach you.
 
-Set up a simple ritual: weekly competitive objection log. Reps paste one objection or one competitor claim they heard that week. You review Friday, update the battlecard if needed. That loop catches positioning drift months before any pipeline metric shows it.
+Set up a simple ritual: weekly competitive objection log. Reps paste one objection or one competitor claim they heard that week. You review Friday, update the battlecard if needed. That loop catches positioning drift months before any pipeline metric shows it. `pat_frontline-as-pmm-substrate`
 
 Define the refresh cadence before you ship:
 
@@ -206,6 +210,8 @@ The five-section arc that earns the comparison instead of demanding it. Each sec
 
 Tone calibration: market leader requires maximum deference. Concede more than feels comfortable. Direct competitor allows direct contrast but no attacks. Adjacent category calls for reframing, not competing.
 
+The sequence matters. Trust (Disarm + Concede) must come before proof (Differentiate). Buyers in evaluation mode carry skepticism as a cognitive default. You cannot differentiate your way through it. You have to disarm it first. `pat_buyer-mindset-not-product-features`
+
 ## Check your work
 
 - Tiering is based on CRM revenue impact, not gut or marketing noise.
@@ -220,13 +226,13 @@ Tone calibration: market leader requires maximum deference. Concede more than fe
 ## What goes wrong
 
 - **Boiling the ocean.** Five rivals account for 80% of deals. Tier by revenue impact, not marketing noise.
-- **Feature-checklist syndrome.** Buyers decide on value in their situation, not feature counts.
-- **Ignoring status quo.** "Do nothing" is the real competitor and requires completely different positioning.
-- **CRM data without interviews.** CRM says who. Interviews say why. Real win/loss analysis needs both.
+- **Feature-checklist syndrome.** Buyers decide on value in their situation, not feature counts. `pat_buyer-mindset-not-product-features`
+- **Ignoring status quo.** "Do nothing" is the real competitor and requires completely different positioning. `pat_status-quo-is-the-competitor`
+- **CRM data without interviews.** CRM says who. Interviews say why. Real win/loss analysis needs both. `pat_frontline-as-pmm-substrate`
 - **One-and-done analysis.** Static analysis is stale within 60 days. Define the refresh cadence before you ship.
 - **Battlecard bloat.** Five-page documents sellers never open. Keep cards to two scannable pages.
 - **Accuracy failures.** One wrong claim destroys all credibility with sellers. Verify everything.
-- **Running campaigns against the wrong competitors.** A 3% win rate is a structural problem. Fix root cause before repositioning spend.
+- **Running campaigns against the wrong competitors.** A 3% win rate is a structural problem. Fix root cause before repositioning spend. `con_no-decision-vs-named-competitor`
 - **No adoption plan.** Not in Slack and CRM at the deal level means not used.
 - **Same tone across all comparisons.** Market leaders need deference. Niche players get directness.
 

@@ -1,27 +1,56 @@
 {
-  "generated_at": "2026-05-11T03:14:15.161Z",
+  "generated_at": "2026-05-13T03:25:04.489Z",
   "latest_daily": {
-    "path": "daily/2026-05-11.md",
-    "date": "2026-05-11",
-    "title": "AI implementation realism and AEO benchmarks, 2026-05-11",
-    "summary": "Four new cards across two themes: human checkpoints as the AI implementation separator (Pierri + Breunig convergence extending pat_verification-as-human-job), and AI discovery producing measurable signup volume (Poyar benchmark + Schwartz on Google's formalized citation surfaces). Two new operators: Drew Breunig, Barry Schwartz.",
+    "path": "daily/2026-05-13.md",
+    "date": "2026-05-13",
+    "title": "The reliability trap, stripping what does not compound, and context isolation",
+    "summary": "Seven new cards, one new pattern, three pattern extensions. Two themes surfaced independently across the week: reliability quietly degrading the oversight it depends on, and AI abundance shifting the scarce resource from output to judgment.",
     "sources": [
-      "morning research scan 2026-05-11"
+      "morning research scan 2026-05-13"
     ],
     "insights_added": [
-      "ins_pierri-ai-positioning-needs-human-checkpoints",
-      "ins_breunig-agentic-code-free-as-puppies",
-      "ins_kyle-poyar-ai-discovery-signup-channel",
-      "ins_barry-schwartz-google-ai-mode-citation-surfaces"
+      "ins_breunig-harness-lock-in-model-layer",
+      "ins_willison-reliability-erodes-review-discipline",
+      "ins_anthropic-claude-code-subagents-haiku-routing",
+      "ins_rory-woodbridge-launch-tier-not-debate",
+      "ins_kevin-indig-verification-cost-rising",
+      "ins_maja-voje-strip-what-doesnt-compound",
+      "ins_google-ai-mode-subscription-highlight"
     ],
     "operators_added": [
-      "drew-breunig",
-      "barry-schwartz"
+      "google"
     ],
-    "patterns_added": [],
+    "patterns_added": [
+      "pat_strip-what-doesnt-compound"
+    ],
     "playbooks_added": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-05-13.md",
+      "date": "2026-05-13",
+      "title": "The reliability trap, stripping what does not compound, and context isolation",
+      "summary": "Seven new cards, one new pattern, three pattern extensions. Two themes surfaced independently across the week: reliability quietly degrading the oversight it depends on, and AI abundance shifting the scarce resource from output to judgment.",
+      "sources": [
+        "morning research scan 2026-05-13"
+      ],
+      "insights_added": [
+        "ins_breunig-harness-lock-in-model-layer",
+        "ins_willison-reliability-erodes-review-discipline",
+        "ins_anthropic-claude-code-subagents-haiku-routing",
+        "ins_rory-woodbridge-launch-tier-not-debate",
+        "ins_kevin-indig-verification-cost-rising",
+        "ins_maja-voje-strip-what-doesnt-compound",
+        "ins_google-ai-mode-subscription-highlight"
+      ],
+      "operators_added": [
+        "google"
+      ],
+      "patterns_added": [
+        "pat_strip-what-doesnt-compound"
+      ],
+      "playbooks_added": []
+    },
     {
       "path": "daily/2026-05-11.md",
       "date": "2026-05-11",
