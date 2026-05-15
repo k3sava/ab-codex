@@ -1,37 +1,30 @@
 {
-  "generated_at": "2026-05-13T03:25:04.452Z",
+  "generated_at": "2026-05-15T03:15:01.418Z",
   "counts": {
-    "insights": 816,
+    "insights": 820,
     "operators": 468,
     "raw_sources": 209,
     "patterns": 41,
     "contradictions": 11,
     "playbooks": 27,
-    "daily": 12
+    "daily": 13
   },
   "latest_daily": {
-    "path": "daily/2026-05-13.md",
-    "date": "2026-05-13",
-    "title": "The reliability trap, stripping what does not compound, and context isolation",
-    "summary": "Seven new cards, one new pattern, three pattern extensions. Two themes surfaced independently across the week: reliability quietly degrading the oversight it depends on, and AI abundance shifting the scarce resource from output to judgment.",
+    "path": "daily/2026-05-15.md",
+    "date": "2026-05-15",
+    "title": "Earn the citation, hold the floor, retire the position metric",
+    "summary": "Four new cards from Lily Ray, Aleyda Solis, Eli Schwartz, and Aakash Gupta. Ray and Solis converge on the structural architecture of AEO visibility from opposite directions. Schwartz names the measurement construct that is dissolving beneath the whole category. Gupta gives a one-sentence test that changes how you scope a skills library.",
     "sources": [
-      "morning research scan 2026-05-13"
+      "morning research scan 2026-05-15"
     ],
     "insights_added": [
-      "ins_breunig-harness-lock-in-model-layer",
-      "ins_willison-reliability-erodes-review-discipline",
-      "ins_anthropic-claude-code-subagents-haiku-routing",
-      "ins_rory-woodbridge-launch-tier-not-debate",
-      "ins_kevin-indig-verification-cost-rising",
-      "ins_maja-voje-strip-what-doesnt-compound",
-      "ins_google-ai-mode-subscription-highlight"
+      "ins_lily-ray-geo-penalty-multi-surface-cascade",
+      "ins_aleyda-solis-aeo-offsite-corroboration-floor",
+      "ins_eli-schwartz-personalized-search-dissolves-position",
+      "ins_aakash-gupta-paste-twice-test"
     ],
-    "operators_added": [
-      "google"
-    ],
-    "patterns_added": [
-      "pat_strip-what-doesnt-compound"
-    ],
+    "operators_added": "",
+    "patterns_added": [],
     "playbooks_added": []
   },
   "insights": [
@@ -175,6 +168,37 @@
       ],
       "raw_ref": "raw/expert-content/experts/devin-reed.md",
       "title": "Most content should serve the 95% who aren't buying yet, not the 5% who are"
+    },
+    {
+      "path": "insights/ins_aakash-gupta-paste-twice-test.md",
+      "id": "ins_aakash-gupta-paste-twice-test",
+      "operator": "Aakash Gupta",
+      "operator_role": "Product growth advisor and AI tools practitioner",
+      "co_operators": [],
+      "source_url": "https://www.aibyaakash.com/p/claude-skills-7-laws",
+      "source_type": "essay",
+      "source_title": "Claude Skills: 7 Laws",
+      "source_date": "2026-05-12",
+      "captured_date": "2026-05-15",
+      "domain": [
+        "ai-tools",
+        "workflow",
+        "pmm"
+      ],
+      "lifecycle": [
+        "enablement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_bottleneck-is-context-not-capability",
+        "ins_dotclaude-as-deployable-artifact",
+        "ins_anthropic-skills-as-vertical-distribution-unit"
+      ],
+      "raw_ref": "",
+      "title": "If you would paste the same instructions twice, that workflow belongs in a skill, not session memory"
     },
     {
       "path": "insights/ins_aakrit-vaish-indian-ai-founders-not-behind.md",
@@ -1238,6 +1262,38 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_aleyda-solis-aeo-offsite-corroboration-floor.md",
+      "id": "ins_aleyda-solis-aeo-offsite-corroboration-floor",
+      "operator": "Aleyda Solis",
+      "operator_role": "International SEO consultant and AI search researcher",
+      "co_operators": [],
+      "source_url": "https://www.aleydasolis.com/en/ai-search/ecommerce-ai-search-citations-optimization/",
+      "source_type": "essay",
+      "source_title": "Ecommerce AI Search Citations Optimization",
+      "source_date": "2026-05-12",
+      "captured_date": "2026-05-15",
+      "domain": [
+        "aeo",
+        "seo",
+        "ecommerce"
+      ],
+      "lifecycle": [
+        "content-strategy",
+        "growth-demand"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "A",
+      "related": [
+        "ins_lily-ray-geo-penalty-multi-surface-cascade",
+        "ins_aeo-three-layer-presence-readiness-impact",
+        "ins_crawlability-shapes-everything"
+      ],
+      "raw_ref": "",
+      "title": "AI search visibility is an off-site corroboration problem with an on-site quality floor, not the inverse"
     },
     {
       "path": "insights/ins_alina-vandenberghe-recruiting-process-transparency.md",
@@ -5949,6 +6005,37 @@
       "tier": "C",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_eli-schwartz-personalized-search-dissolves-position.md",
+      "id": "ins_eli-schwartz-personalized-search-dissolves-position",
+      "operator": "Eli Schwartz",
+      "operator_role": "Product-led SEO consultant and author",
+      "co_operators": [],
+      "source_url": "https://www.productledseo.com/p/the-personalized-internet-is-here",
+      "source_type": "essay",
+      "source_title": "The Personalized Internet Is Here",
+      "source_date": "2026-05-07",
+      "captured_date": "2026-05-15",
+      "domain": [
+        "seo",
+        "aeo"
+      ],
+      "lifecycle": [
+        "measurement",
+        "content-strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "A",
+      "related": [
+        "ins_aeo-citation-rotation-makes-snapshots-worthless",
+        "ins_rebaseline-quarterly-not-pin-to-snapshot",
+        "ins_aeo-three-layer-presence-readiness-impact"
+      ],
+      "raw_ref": "",
+      "title": "Keyword position reporting is measuring a construct that is dissolving as Google personalizes results per user"
     },
     {
       "path": "insights/ins_elise-beck-webinar-gtm-opportunity.md",
@@ -10703,6 +10790,37 @@
       ],
       "raw_ref": "",
       "title": "First-hand experience is a distinct AEO primitive that drives additional clicks from AI Overviews and AI Mode, not just an E-E-A-T input signal"
+    },
+    {
+      "path": "insights/ins_lily-ray-geo-penalty-multi-surface-cascade.md",
+      "id": "ins_lily-ray-geo-penalty-multi-surface-cascade",
+      "operator": "Lily Ray",
+      "operator_role": "SEO strategist and AI search researcher",
+      "co_operators": [],
+      "source_url": "https://ppc.land/lily-ray-what-the-seo-industry-is-getting-dangerously-wrong-about-ai-search/",
+      "source_type": "podcast",
+      "source_title": "What the SEO Industry Is Getting Dangerously Wrong About AI Search",
+      "source_date": "2026-05-13",
+      "captured_date": "2026-05-15",
+      "domain": [
+        "aeo",
+        "seo"
+      ],
+      "lifecycle": [
+        "content-strategy",
+        "risk-management"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "A",
+      "related": [
+        "ins_aleyda-solis-aeo-offsite-corroboration-floor",
+        "ins_lily-ray-aeo-seo-continuity",
+        "ins_manual-action-propagates-to-ai-surfaces"
+      ],
+      "raw_ref": "",
+      "title": "A Google penalty removes a page from every AI surface at once, not just Google search"
     },
     {
       "path": "insights/ins_linde-hasker-human-insight-over-ai.md",
@@ -34240,8 +34358,8 @@
       "id": "pat_aeo-triangle",
       "title": "The AEO triangle, presence, relevance, manual-action propagation",
       "captured_date": "2026-05-01",
-      "last_updated": "2026-05-13",
-      "convergence_count": "11",
+      "last_updated": "2026-05-15",
+      "convergence_count": "13",
       "tier": "A",
       "uses_cards": [
         "ins_aeo-three-layer-presence-readiness-impact",
@@ -34254,7 +34372,9 @@
         "ins_mike-king-ai-crawler-499-speed-gate",
         "ins_casey-hill-structural-prominence-llm-citations",
         "ins_lily-ray-aeo-seo-continuity",
-        "ins_google-ai-mode-subscription-highlight"
+        "ins_google-ai-mode-subscription-highlight",
+        "ins_lily-ray-geo-penalty-multi-surface-cascade",
+        "ins_aleyda-solis-aeo-offsite-corroboration-floor"
       ],
       "domains": [
         "pmm",
@@ -34441,8 +34561,8 @@
       "id": "pat_context-not-capability",
       "title": "Context, not capability, is the bottleneck",
       "captured_date": "2026-05-01",
-      "last_updated": "2026-05-13",
-      "convergence_count": "9",
+      "last_updated": "2026-05-15",
+      "convergence_count": "10",
       "tier": "A",
       "uses_cards": [
         "ins_bottleneck-is-context-not-capability",
@@ -34453,7 +34573,8 @@
         "ins_remove-features-as-models-improve",
         "ins_maja-voje-substrate-first-content-engineering",
         "ins_poyar-voje-context-engineering-gap",
-        "ins_anthropic-claude-code-subagents-haiku-routing"
+        "ins_anthropic-claude-code-subagents-haiku-routing",
+        "ins_aakash-gupta-paste-twice-test"
       ],
       "domains": [
         "ai-native",
@@ -34769,14 +34890,16 @@
       "id": "pat_measurement-correlated-short-signals",
       "title": "Absolute counts + correlated short signals, not stage rates and long loops",
       "captured_date": "2026-05-01",
-      "convergence_count": "3",
+      "last_updated": "2026-05-15",
+      "convergence_count": "6",
       "tier": "A",
       "uses_cards": [
         "ins_absolute-counts-over-conversion-rates",
         "ins_long-term-holdouts-30-40-evaporate",
         "ins_no-such-thing-as-long-feedback-loop",
         "ins_experimentation-paralysis",
-        "ins_competency-analytics-over-activity-dashboards"
+        "ins_competency-analytics-over-activity-dashboards",
+        "ins_eli-schwartz-personalized-search-dissolves-position"
       ],
       "domains": [
         "growth",
@@ -35983,6 +36106,24 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-05-15.md",
+      "date": "2026-05-15",
+      "title": "Earn the citation, hold the floor, retire the position metric",
+      "summary": "Four new cards from Lily Ray, Aleyda Solis, Eli Schwartz, and Aakash Gupta. Ray and Solis converge on the structural architecture of AEO visibility from opposite directions. Schwartz names the measurement construct that is dissolving beneath the whole category. Gupta gives a one-sentence test that changes how you scope a skills library.",
+      "sources": [
+        "morning research scan 2026-05-15"
+      ],
+      "insights_added": [
+        "ins_lily-ray-geo-penalty-multi-surface-cascade",
+        "ins_aleyda-solis-aeo-offsite-corroboration-floor",
+        "ins_eli-schwartz-personalized-search-dissolves-position",
+        "ins_aakash-gupta-paste-twice-test"
+      ],
+      "operators_added": "",
+      "patterns_added": [],
+      "playbooks_added": []
+    },
     {
       "path": "daily/2026-05-13.md",
       "date": "2026-05-13",

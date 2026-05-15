@@ -2,9 +2,10 @@
 id: pat_measurement-correlated-short-signals
 title: Measure with absolute counts and correlated short signals, not stage rates and long loops
 captured_date: 2026-05-01
-convergence_count: 3
+last_updated: 2026-05-15
+convergence_count: 6
 tier: A
-uses_cards: [ins_absolute-counts-over-conversion-rates, ins_long-term-holdouts-30-40-evaporate, ins_no-such-thing-as-long-feedback-loop, ins_experimentation-paralysis, ins_competency-analytics-over-activity-dashboards]
+uses_cards: [ins_absolute-counts-over-conversion-rates, ins_long-term-holdouts-30-40-evaporate, ins_no-such-thing-as-long-feedback-loop, ins_experimentation-paralysis, ins_competency-analytics-over-activity-dashboards, ins_eli-schwartz-personalized-search-dissolves-position]
 domains: [growth, attribution-measurement, product]
 ---
 

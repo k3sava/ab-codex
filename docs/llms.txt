@@ -4,7 +4,7 @@
 
 The codex is a structured corpus of cross-domain operator wisdom across product, PMM, GTM, AI-native, design, engineering, leadership, sales, growth, research, and founder craft. Every claim traces back to its primary source. Insights carry mechanism, conditions, evidence, signals, counter-evidence, and cross-references.
 
-Counts: 816 insights · 468 operators · 41 synthesis patterns · 11 contradictions · 27 playbooks · 330 tier-A claims.
+Counts: 820 insights · 468 operators · 41 synthesis patterns · 11 contradictions · 27 playbooks · 333 tier-A claims.
 
 ## Index
 
@@ -26,7 +26,7 @@ Counts: 816 insights · 468 operators · 41 synthesis patterns · 11 contradicti
 
 Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged with one or more domains.
 
-- [pmm](https://abcodex.iamkesava.com/d/pmm/) — 436 insights
+- [pmm](https://abcodex.iamkesava.com/d/pmm/) — 437 insights
 - [gtm](https://abcodex.iamkesava.com/d/gtm/) — 167 insights
 - [marketing](https://abcodex.iamkesava.com/d/marketing/) — 160 insights
 - [ai-native](https://abcodex.iamkesava.com/d/ai-native/) — 146 insights
@@ -45,10 +45,10 @@ Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged wit
 - [founder-operator](https://abcodex.iamkesava.com/d/founder-operator/) — 30 insights
 - [research-discovery](https://abcodex.iamkesava.com/d/research-discovery/) — 28 insights
 - [design-ux](https://abcodex.iamkesava.com/d/design-ux/) — 13 insights
+- [seo](https://abcodex.iamkesava.com/d/seo/) — 11 insights
 - [customer-success](https://abcodex.iamkesava.com/d/customer-success/) — 11 insights
+- [aeo](https://abcodex.iamkesava.com/d/aeo/) — 10 insights
 - [content-strategy](https://abcodex.iamkesava.com/d/content-strategy/) — 9 insights
-- [seo](https://abcodex.iamkesava.com/d/seo/) — 8 insights
-- [aeo](https://abcodex.iamkesava.com/d/aeo/) — 7 insights
 - [research](https://abcodex.iamkesava.com/d/research/) — 7 insights
 - [marketing-ops](https://abcodex.iamkesava.com/d/marketing-ops/) — 7 insights
 - [strategy-bets](https://abcodex.iamkesava.com/d/strategy-bets/) — 5 insights
@@ -60,7 +60,10 @@ Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged wit
 - [risk](https://abcodex.iamkesava.com/d/risk/) — 2 insights
 - [technical-seo](https://abcodex.iamkesava.com/d/technical-seo/) — 2 insights
 - [pricing](https://abcodex.iamkesava.com/d/pricing/) — 2 insights
+- [ai-tools](https://abcodex.iamkesava.com/d/ai-tools/) — 1 insight
+- [workflow](https://abcodex.iamkesava.com/d/workflow/) — 1 insight
 - [measurement](https://abcodex.iamkesava.com/d/measurement/) — 1 insight
+- [ecommerce](https://abcodex.iamkesava.com/d/ecommerce/) — 1 insight
 - [developer-tools](https://abcodex.iamkesava.com/d/developer-tools/) — 1 insight
 - [content-ops](https://abcodex.iamkesava.com/d/content-ops/) — 1 insight
 - [evals](https://abcodex.iamkesava.com/d/evals/) — 1 insight
@@ -108,4 +111,4 @@ Every page emits Schema.org @graph: Article + BreadcrumbList + FAQPage + Speakab
 
 - [GitHub repository](https://github.com/k3sava/abcodex): MIT licensed. Insights are open source; raw sources retain original copyright.
 
-Last updated: 2026-05-13.
+Last updated: 2026-05-15.

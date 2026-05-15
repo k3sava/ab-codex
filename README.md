@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest — 2026-05-13 · 7 insights · 1 operator · 1 pattern
+### Latest — 2026-05-15 · 4 insights
 
-**The reliability trap, stripping what does not compound, and context isolation** — Seven new cards, one new pattern, three pattern extensions. Two themes surfaced independently across the week: reliability quietly degrading the oversight it depends on, and AI abundance shifting the scarce resource from output to judgment.
+**Earn the citation, hold the floor, retire the position metric** — Four new cards from Lily Ray, Aleyda Solis, Eli Schwartz, and Aakash Gupta. Ray and Solis converge on the structural architecture of AEO visibility from opposite directions. Schwartz names the measurement construct that is dissolving beneath the whole category. Gupta gives a one-sentence test that changes how you scope a skills library.
 
-[Read what landed →](insight-library/daily/2026-05-13.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-05-15.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights — atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights — atomic claims, each one attrib
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **816** insight cards
+- **820** insight cards
 - **468** operator profiles
 - **41** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions

@@ -1,31 +1,42 @@
 {
-  "generated_at": "2026-05-13T03:25:04.489Z",
+  "generated_at": "2026-05-15T03:15:01.446Z",
   "latest_daily": {
-    "path": "daily/2026-05-13.md",
-    "date": "2026-05-13",
-    "title": "The reliability trap, stripping what does not compound, and context isolation",
-    "summary": "Seven new cards, one new pattern, three pattern extensions. Two themes surfaced independently across the week: reliability quietly degrading the oversight it depends on, and AI abundance shifting the scarce resource from output to judgment.",
+    "path": "daily/2026-05-15.md",
+    "date": "2026-05-15",
+    "title": "Earn the citation, hold the floor, retire the position metric",
+    "summary": "Four new cards from Lily Ray, Aleyda Solis, Eli Schwartz, and Aakash Gupta. Ray and Solis converge on the structural architecture of AEO visibility from opposite directions. Schwartz names the measurement construct that is dissolving beneath the whole category. Gupta gives a one-sentence test that changes how you scope a skills library.",
     "sources": [
-      "morning research scan 2026-05-13"
+      "morning research scan 2026-05-15"
     ],
     "insights_added": [
-      "ins_breunig-harness-lock-in-model-layer",
-      "ins_willison-reliability-erodes-review-discipline",
-      "ins_anthropic-claude-code-subagents-haiku-routing",
-      "ins_rory-woodbridge-launch-tier-not-debate",
-      "ins_kevin-indig-verification-cost-rising",
-      "ins_maja-voje-strip-what-doesnt-compound",
-      "ins_google-ai-mode-subscription-highlight"
+      "ins_lily-ray-geo-penalty-multi-surface-cascade",
+      "ins_aleyda-solis-aeo-offsite-corroboration-floor",
+      "ins_eli-schwartz-personalized-search-dissolves-position",
+      "ins_aakash-gupta-paste-twice-test"
     ],
-    "operators_added": [
-      "google"
-    ],
-    "patterns_added": [
-      "pat_strip-what-doesnt-compound"
-    ],
+    "operators_added": "",
+    "patterns_added": [],
     "playbooks_added": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-05-15.md",
+      "date": "2026-05-15",
+      "title": "Earn the citation, hold the floor, retire the position metric",
+      "summary": "Four new cards from Lily Ray, Aleyda Solis, Eli Schwartz, and Aakash Gupta. Ray and Solis converge on the structural architecture of AEO visibility from opposite directions. Schwartz names the measurement construct that is dissolving beneath the whole category. Gupta gives a one-sentence test that changes how you scope a skills library.",
+      "sources": [
+        "morning research scan 2026-05-15"
+      ],
+      "insights_added": [
+        "ins_lily-ray-geo-penalty-multi-surface-cascade",
+        "ins_aleyda-solis-aeo-offsite-corroboration-floor",
+        "ins_eli-schwartz-personalized-search-dissolves-position",
+        "ins_aakash-gupta-paste-twice-test"
+      ],
+      "operators_added": "",
+      "patterns_added": [],
+      "playbooks_added": []
+    },
     {
       "path": "daily/2026-05-13.md",
       "date": "2026-05-13",

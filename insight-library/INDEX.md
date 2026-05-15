@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-05-13. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-05-15. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 816 insight cards
+- 820 insight cards
 - 468 operator profiles
 - 209 raw source files
 - 41 synthesis patterns
@@ -12,7 +12,7 @@ _Generated 2026-05-13. Auto-built from frontmatter — do not edit by hand._
 
 ## Insights by tier
 
-### Tier A (330)
+### Tier A (333)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -24,6 +24,7 @@ _Generated 2026-05-13. Auto-built from frontmatter — do not edit by hand._
 - [`ins_agents-are-the-new-product-user`](insights/ins_agents-are-the-new-product-user.md) — Agents are first-class product users; design for output reliability, not navigation _(Elena Verna)_
 - [`ins_agents-as-team-not-tools`](insights/ins_agents-as-team-not-tools.md) — Agents work when treated as a team, not a single super-tool _(Claire Vo)_
 - [`ins_ai-slop-loop`](insights/ins_ai-slop-loop.md) — A single seeded fake claim can self-confirm in AI Overviews _(Lily Ray)_
+- [`ins_aleyda-solis-aeo-offsite-corroboration-floor`](insights/ins_aleyda-solis-aeo-offsite-corroboration-floor.md) — AI search visibility is an off-site corroboration problem with an on-site quality floor, not the inverse _(Aleyda Solis)_
 - [`ins_altman-ai-not-a-business-exception`](insights/ins_altman-ai-not-a-business-exception.md) — "We're using AI" is not a business strategy, defensibility comes from domain expertise, customer relationships, and data, not from the model layer _(Sam Altman)_
 - [`ins_altman-scarce-resources-abundant-intelligence`](insights/ins_altman-scarce-resources-abundant-intelligence.md) — When intelligence is abundant, taste, judgment, relationships, and the ability to identify what is worth doing become the scarce resources _(Sam Altman)_
 - [`ins_altman-singularity-as-smooth-curve`](insights/ins_altman-singularity-as-smooth-curve.md) — The singularity is one smooth curve, vertical looking forward, flat looking backward, never the disruptive shock people expect _(Sam Altman)_
@@ -82,6 +83,7 @@ _Generated 2026-05-13. Auto-built from frontmatter — do not edit by hand._
 - [`ins_earned-channels-over-algorithm-channels`](insights/ins_earned-channels-over-algorithm-channels.md) — Build earned channels, every dollar in algorithm channels makes Google richer, not you _(Elena Verna)_
 - [`ins_economic-turing-test-for-ai`](insights/ins_economic-turing-test-for-ai.md) — The Economic Turing Test, would you hire the agent if you didn't know it was a machine? _(Benjamin Mann)_
 - [`ins_eeat-quality-rater-perspective`](insights/ins_eeat-quality-rater-perspective.md) — E-E-A-T isn't a ranking factor; it's the rubric raters use, and Google approximates it via indirect signals _(Cyrus Shepard)_
+- [`ins_eli-schwartz-personalized-search-dissolves-position`](insights/ins_eli-schwartz-personalized-search-dissolves-position.md) — Keyword position reporting is measuring a construct that is dissolving as Google personalizes results per user _(Eli Schwartz)_
 - [`ins_emails-will-let-know-next`](insights/ins_emails-will-let-know-next.md) — - Emails: Will let you know next week. Aleksandar Lepidovski running it right now _(Alan Zhao)_
 - [`ins_emily-pick-claude-skills-pmm-library`](insights/ins_emily-pick-claude-skills-pmm-library.md) — Claude Skills let non-technical PMMs build a reusable library of AI tools. _(Emily Pick)_
 - [`ins_evals-are-data-analysis-on-llm-apps`](insights/ins_evals-are-data-analysis-on-llm-apps.md) — Evals are systematic data analysis on your LLM application, start with error analysis, not tests _(Hamel Husain)_
@@ -156,6 +158,7 @@ _Generated 2026-05-13. Auto-built from frontmatter — do not edit by hand._
 - [`ins_label-confidence-explicitly`](insights/ins_label-confidence-explicitly.md) — Label every strong opinion with a confidence level so the room knows when to push back _(Mihika Kapoor)_
 - [`ins_latent-demand-as-search-algorithm`](insights/ins_latent-demand-as-search-algorithm.md) — Latent demand, what users hack around the product to get, is the next loop _(Boris Cherny)_
 - [`ins_latticework-of-mental-models`](insights/ins_latticework-of-mental-models.md) — Reliable thinking requires 80-90 mental models from multiple disciplines, not one _(Charlie Munger)_
+- [`ins_lily-ray-geo-penalty-multi-surface-cascade`](insights/ins_lily-ray-geo-penalty-multi-surface-cascade.md) — A Google penalty removes a page from every AI surface at once, not just Google search _(Lily Ray)_
 - [`ins_llm-as-judge-binary-not-likert`](insights/ins_llm-as-judge-binary-not-likert.md) — Build LLM-as-judge as binary true/false, one judge per pesky failure mode, and validate against human labels _(Hamel Husain)_
 - [`ins_llm-wiki-pattern`](insights/ins_llm-wiki-pattern.md) — An LLM should maintain a wiki, not re-derive knowledge per query _(Andrej Karpathy)_
 - [`ins_llms-are-new-os-agents-are-apps`](insights/ins_llms-are-new-os-agents-are-apps.md) — LLM platform is the new OS, agents are the new apps, MCP registries are the new app stores _(Mark Petty)_
@@ -344,12 +347,13 @@ _Generated 2026-05-13. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (414)
+### Tier B (415)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
 - [`ins_3s-content-from-sales-success-support`](insights/ins_3s-content-from-sales-success-support.md) — Source content briefs from Sales, Success, and Support, not keyword tools _(Brendan Hufford)_
 - [`ins_95-5-rule-content-resonance`](insights/ins_95-5-rule-content-resonance.md) — Most content should serve the 95% who aren't buying yet, not the 5% who are _(Devin Reed)_
+- [`ins_aakash-gupta-paste-twice-test`](insights/ins_aakash-gupta-paste-twice-test.md) — If you would paste the same instructions twice, that workflow belongs in a skill, not session memory _(Aakash Gupta)_
 - [`ins_aakrit-vaish-indian-ai-founders-not-behind`](insights/ins_aakrit-vaish-indian-ai-founders-not-behind.md) — India's AI advantage is applied, not foundational, and that's where founders should bet _(Aakrit Vaish)_
 - [`ins_aayush-kumar-ai-employee-department`](insights/ins_aayush-kumar-ai-employee-department.md) — AI employees should be single-task specialists who never get promoted _(Aayush Kumar)_
 - [`ins_aayush-kumar-ai-honesty-over-pretending`](insights/ins_aayush-kumar-ai-honesty-over-pretending.md) — AI models should be honest about what they don't know instead of pretending _(Aayush Kumar)_
@@ -1312,7 +1316,7 @@ _Generated 2026-05-13. Auto-built from frontmatter — do not edit by hand._
 
 ## Synthesis patterns
 - [`pat_aeo-experience-gate`](synthesis/patterns/aeo-experience-gate.md) — AEO experience and structure gate (4 ops) [Tier A]
-- [`pat_aeo-triangle`](synthesis/patterns/aeo-triangle.md) — The AEO triangle, presence, relevance, manual-action propagation (11 ops) [Tier A]
+- [`pat_aeo-triangle`](synthesis/patterns/aeo-triangle.md) — The AEO triangle, presence, relevance, manual-action propagation (13 ops) [Tier A]
 - [`pat_agent-first-gtm`](synthesis/patterns/agent-first-gtm.md) — Agent-first GTM (rebuild, don't bolt-on) (8 ops) [Tier A]
 - [`pat_agents-as-product-users`](synthesis/patterns/agents-as-product-users.md) — Agents are first-class users, design for output, not navigation (3 ops) [Tier A]
 - [`pat_agents-mapped-to-jtbd`](synthesis/patterns/agents-mapped-to-jtbd.md) — Agents mapped 1:1 to JTBD with named human checkpoints (5 ops) [Tier A]
@@ -1320,7 +1324,7 @@ _Generated 2026-05-13. Auto-built from frontmatter — do not edit by hand._
 - [`pat_behavioral-pricing-architecture`](synthesis/patterns/behavioral-pricing-architecture.md) — Pricing is a behavioral-architecture problem (5 ops) [Tier A]
 - [`pat_build-for-next-model`](synthesis/patterns/build-for-next-model.md) — Build for the next model, not the current one (6 ops) [Tier A]
 - [`pat_buyer-mindset-not-product-features`](synthesis/patterns/buyer-mindset-not-product-features.md) — Sell to the buyer's mindset, not to product features (5 ops) [Tier A]
-- [`pat_context-not-capability`](synthesis/patterns/context-not-capability.md) — Context, not capability, is the bottleneck (9 ops) [Tier A]
+- [`pat_context-not-capability`](synthesis/patterns/context-not-capability.md) — Context, not capability, is the bottleneck (10 ops) [Tier A]
 - [`pat_copywriting-craft-fundamentals`](synthesis/patterns/copywriting-craft-fundamentals.md) — Copywriting craft is built on five reinforcing fundamentals (6 ops) [Tier A]
 - [`pat_decision-quality-through-process-not-willpower`](synthesis/patterns/decision-quality-through-process-not-willpower.md) — Decision quality at scale comes from process, not willpower (4 ops) [Tier A]
 - [`pat_diagnose-before-execute`](synthesis/patterns/diagnose-before-execute.md) — Diagnose before executing, refuse the playbook ask (4 ops) [Tier A]
@@ -1334,7 +1338,7 @@ _Generated 2026-05-13. Auto-built from frontmatter — do not edit by hand._
 - [`pat_llm-as-os`](synthesis/patterns/llm-as-os.md) — LLM-as-OS, post-training as moat (4 ops) [Tier A]
 - [`pat_make-implicit-explicit`](synthesis/patterns/make-implicit-explicit.md) — Make the implicit explicit (5 ops) [Tier A]
 - [`pat_market-and-offer-beat-funnel-optimisation`](synthesis/patterns/market-and-offer-beat-funnel-optimisation.md) — Market and offer beat funnel optimisation (3 ops) [Tier A]
-- [`pat_measurement-correlated-short-signals`](synthesis/patterns/measurement-correlated-short-signals.md) — Absolute counts + correlated short signals, not stage rates and long loops (3 ops) [Tier A]
+- [`pat_measurement-correlated-short-signals`](synthesis/patterns/measurement-correlated-short-signals.md) — Absolute counts + correlated short signals, not stage rates and long loops (6 ops) [Tier A]
 - [`pat_monopoly-economics-differentiation-beats-competition`](synthesis/patterns/monopoly-economics-differentiation-beats-competition.md) — Differentiation, not competition, is what compounds (6 ops) [Tier A]
 - [`pat_narrative-as-strategy`](synthesis/patterns/narrative-as-strategy.md) — Company story IS the strategy, name the shift, run the audit (4 ops) [Tier A]
 - [`pat_parenting-meets-leadership`](synthesis/patterns/parenting-meets-leadership.md) — Repair, generous interpretation, identity-vs-behavior, parenting frames as leadership ops (3 ops) [Tier B]

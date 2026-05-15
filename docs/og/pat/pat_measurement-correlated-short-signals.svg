@@ -25,7 +25,7 @@
   <text x="80" y="240" font-family="Newsreader, serif" font-size="60" font-weight="500" fill="#0d1410">Absolute counts + correlated short</text>
   <text x="80" y="310" font-family="Newsreader, serif" font-size="60" font-weight="500" fill="#0d1410">signals, not stage rates and long</text>
   <text x="80" y="380" font-family="Newsreader, serif" font-size="60" font-weight="500" fill="#0d1410">loops</text>
-  <text x="80" y="486" font-family="JetBrains Mono, monospace" font-size="22" fill="#5a6757">5 operators converge</text>
+  <text x="80" y="486" font-family="JetBrains Mono, monospace" font-size="22" fill="#5a6757">6 operators converge</text>
   <text x="80" y="570" font-family="JetBrains Mono, monospace" font-size="16" fill="#7a8474" letter-spacing="1">2026-05-01</text>
   <text x="1120" y="570" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="14" fill="#7a8474">abcodex.iamkesava.com</text>
 </svg>
