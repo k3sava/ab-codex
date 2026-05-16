@@ -39,6 +39,76 @@ const PERSON_KESAVA_ID = "https://iamkesava.com/#kesava";
 const ORG_CODEX_ID = SITE_URL + "/#org";
 const PUBLISHER_REF = { "@id": ORG_CODEX_ID };
 
+// JTBD H1 + lede per domain. Falls back to "operator insights tagged X" so
+// new domains don't ship as blank slates. Keep these short — they front the
+// page above the index, and they read in voice search.
+const DOMAIN_TITLES = {
+  "pmm": "Position B2B products so the buyer self-selects",
+  "gtm": "Build a go-to-market that doesn't leak in the funnel",
+  "marketing": "Move the market, not just the dashboard",
+  "ai-native": "Build for an AI-native operating model",
+  "leadership": "Lead operators who actually shipped things",
+  "growth-demand": "Generate demand the sales team can close",
+  "strategy": "Make the choice that matters, then defend it",
+  "product": "Ship the thing the buyer pulls out of your hand",
+  "content": "Write so the right people self-identify",
+  "founder-craft": "Build the company most founders skip",
+  "growth": "Run growth like a system, not a stunt",
+  "engineering": "Engineer for the system that actually runs",
+  "sales": "Sell the way the buyer already wants to buy",
+  "hiring": "Hire operators who change the slope",
+  "sales-cs": "Move buyers from no-decision to expansion",
+  "design": "Design so the function is obvious",
+  "founder-operator": "Operate as the founder, not the manager",
+  "research-discovery": "Find the problem before you sell the answer",
+  "design-ux": "Design UX that earns the next click",
+  "seo": "Earn pages worth ranking, in the AI-search era",
+  "customer-success": "Make first-value the cheapest part of the loop",
+  "aeo": "Get cited by AI search, not crawled-and-skipped",
+  "content-strategy": "Plan content as a system, not a calendar",
+  "research": "Research that changes the decision",
+  "marketing-ops": "Wire marketing so attribution is honest",
+  "strategy-bets": "Place fewer bets, fund the ones that pay back",
+  "ai-ops": "Operate AI systems that actually learn",
+  "ai-product": "Ship AI products people return to on Tuesday",
+  "ai-tools": "Build AI tools operators reach for first",
+  "ai-gtm": "Sell into a buyer who already used ChatGPT",
+  "ai-engineering": "Engineer the AI system, not the prompt",
+};
+const DOMAIN_LEDES = {
+  "pmm": "Positioning, narrative, launch, sales enablement, win/loss. Insights from named operators who ran the play and shipped the artifact.",
+  "gtm": "Funnel mechanics, ICP, segmentation, sales motion, attribution. From operators who built the GTM, not the deck about it.",
+  "ai-native": "How operating changes when the agent is on the team. Verification loops, evals, AI-mediated workflows, agent infrastructure.",
+  "marketing": "Demand creation, brand, content, performance. Tactics that survived contact with a real budget.",
+  "leadership": "Decision-making, hiring, scaling, the calls that compound. Operators who led teams that shipped.",
+  "growth-demand": "Acquisition, activation, retention, expansion. Demand-gen, lifecycle, growth loops, paid + organic.",
+  "strategy": "Where to play, how to win, what to refuse. Operator-grade strategy, not consultant abstractions.",
+  "product": "Discovery, prototyping, scope, taste, prioritization. From PMs who shipped products people actually use.",
+  "content": "Headlines, structure, voice, distribution. Writing operators use to move attention and pipeline.",
+  "founder-craft": "Hard parts founders don't talk about: cofounders, hiring, cash, narrative, when to push.",
+  "growth": "Loops, levers, channel economics. The systems that compound, not the campaign that spiked.",
+  "engineering": "Architecture, AI codegen, evals, agents, infra. From engineers who shipped at scale.",
+  "sales": "Discovery, qualification, negotiation, multi-thread. From sellers who closed real revenue.",
+  "hiring": "How to source, screen, sequence, and decide. Hiring as the highest-leverage operator move.",
+  "sales-cs": "Bridge between sales and CS: handoffs, expansion, retention, churn signals.",
+  "design": "Information design, interaction, type, accessibility. Design that earns the click.",
+  "founder-operator": "Founders as operators: what changes once you're the one paying salaries.",
+  "research-discovery": "Customer interviews, JTBD, demand-side analysis, problem framing.",
+  "design-ux": "UX systems, mobile, accessibility, micro-interactions, motion. From designers who shipped products.",
+  "seo": "On-page, technical, content, links. SEO in the AI-search era, from operators who run real sites.",
+  "customer-success": "Onboarding, activation, expansion, churn. CS as a growth function.",
+  "aeo": "Answer-engine optimization: structured data, schema, llms.txt, .well-known surfaces. Designed for AI search.",
+  "content-strategy": "Content as a system: taxonomy, surface, refresh cadence, internal linking.",
+  "research": "User research, market research, AI research. From operators using research to ship.",
+  "marketing-ops": "Attribution, lead routing, lifecycle automation, data plumbing.",
+  "strategy-bets": "Portfolio bets, prioritization, kill criteria. Where to invest, what to defund.",
+  "ai-ops": "Running AI in production: monitoring, evals, drift, cost, fallbacks.",
+  "ai-product": "Building AI features and products: prompts, UX, evals, latency, trust.",
+  "ai-tools": "Tools operators reach for: codegen, agents, copilots, research, ops.",
+  "ai-gtm": "Selling into AI-aware buyers: positioning, ROI framing, anti-slop signals.",
+  "ai-engineering": "Engineering AI systems: retrieval, evals, agents, observability, safety.",
+};
+
 const escapeHtml = s => (s || "").toString().replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
 // YAML scalar decoder — single quotes use '' to escape ', double quotes use
@@ -431,6 +501,23 @@ main.static pre code{background:transparent;padding:0}
 .static-card:hover{border-color:var(--accent);transform:translateY(-1px)}
 .static-card .tier{font-family:JetBrains Mono,monospace;font-size:.6rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px}
 .static-card-title{font-family:Newsreader,serif;font-size:1rem;line-height:1.3}
+.static-eyebrow{font-family:JetBrains Mono,monospace;font-size:.7rem;color:var(--accent);text-transform:uppercase;letter-spacing:.12em;font-weight:600;margin-bottom:14px}
+.static-lede{font-family:Newsreader,Georgia,serif;font-size:1.2rem;line-height:1.55;color:var(--ink-2);margin:0 0 28px;max-width:60ch}
+.static-lede a{color:var(--accent-2)}
+.static-op-index{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:6px 16px}
+.static-op-index li{display:flex;justify-content:space-between;align-items:baseline;gap:8px;padding:4px 0}
+.static-op-index .static-op-count{font-family:JetBrains Mono,monospace;font-size:.68rem;color:var(--muted)}
+.static-pat-list{list-style:none;padding:0;display:flex;flex-direction:column;gap:8px}
+.static-pat-list li{padding:8px 12px;border-radius:6px;background:color-mix(in oklab,var(--paper-2) 50%,transparent);display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.static-pat-list .static-pat-count{font-family:JetBrains Mono,monospace;font-size:.68rem;color:var(--muted);white-space:nowrap}
+.static-rel-list{list-style:none;padding:0;display:flex;flex-direction:column;gap:6px}
+.static-rel-list li{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:8px 0;border-bottom:1px solid var(--line-2)}
+.static-rel-list li:last-child{border-bottom:0}
+.static-rel-list a{display:flex;gap:16px;align-items:baseline;flex:1;border:0}
+.static-rel-list a:hover .static-rel-title{color:var(--accent-2)}
+.static-rel-date{font-family:JetBrains Mono,monospace;font-size:.78rem;color:var(--muted);min-width:90px}
+.static-rel-title{font-family:Newsreader,serif;font-size:1.05rem;color:var(--ink)}
+.static-rel-counts{font-family:JetBrains Mono,monospace;font-size:.68rem;color:var(--muted);white-space:nowrap}
 .static-related{margin-top:56px;padding-top:32px;border-top:1px solid var(--line)}
 .static-related h2{font-family:Newsreader,serif;font-weight:500;font-size:1.35rem;line-height:1.25;margin:0 0 22px}
 .static-related-group{margin-bottom:28px}
@@ -1106,6 +1193,31 @@ ${relatedGroup("Cards on both sides", conCards.slice(0, 12).map(cardTile).join("
       extraStyle,
       body: `${crumbs}<h1>${escapeHtml(p.title || p.id)}</h1>${introHtml}${insightChips}<div class="pb-layout"><div class="pb-article-col">${mobileTocHtml}<article>${mainBodyWithVisual}</article>${cta}</div>${sidebarTocHtml}</div>`,
     });
+
+    // Emit a stripped-slug alias for stranger-cold-click. /play/competitive-analysis/
+    // would 404 because the canonical lives at /play/pb_competitive-analysis/. The
+    // alias is a same-origin HTML redirect with rel=canonical pointing at the real page
+    // so search engines treat it as a 301 equivalent.
+    if (p.id && p.id.startsWith("pb_")){
+      const aliasSlug = p.id.replace(/^pb_/, "");
+      const aliasPath = join(DOCS, "play", aliasSlug, "index.html");
+      const canonical = `${SITE_URL}/play/${p.id}/`;
+      const aliasHtml = `<!doctype html><html lang="en"><head>
+<meta charset="utf-8">
+<title>${escapeHtml(p.title || p.id)} · abcodex</title>
+<link rel="canonical" href="${canonical}">
+<meta name="robots" content="noindex,follow">
+<meta http-equiv="refresh" content="0; url=${canonical}">
+<meta property="og:url" content="${canonical}">
+<style>body{font-family:system-ui,sans-serif;background:#f3f5ee;color:#0d1410;margin:0;padding:48px 24px;text-align:center}a{color:#1f9d55}</style>
+</head><body>
+<p>Redirecting to <a href="${canonical}">${escapeHtml(p.title || p.id)}</a>.</p>
+<script>location.replace(${JSON.stringify(canonical)});</script>
+</body></html>`;
+      await ensureDir(dirname(aliasPath));
+      await writeFile(aliasPath, aliasHtml);
+      count++;
+    }
   }
 
   // === daily / release log ===
@@ -1152,7 +1264,7 @@ ${relatedGroup("Cards on both sides", conCards.slice(0, 12).map(cardTile).join("
     body,
   });
 
-  // Operators index
+  // Operators index. JTBD H1, domain-counts row, then A–Z sections.
   {
     const ops = [...INDEX.operators].sort((a, b) => (a.name || a.slug).localeCompare(b.name || b.slug));
     const groups = new Map();
@@ -1162,51 +1274,116 @@ ${relatedGroup("Cards on both sides", conCards.slice(0, 12).map(cardTile).join("
       if (!groups.has(key)) groups.set(key, []);
       groups.get(key).push(o);
     }
+    // Attach card count next to each operator so the index reads as a leaderboard,
+    // not an alphabetical wall.
     const sectionEls = [...groups.entries()].sort(([a],[b]) => a.localeCompare(b)).map(([letter, list]) => `
-      <section><h2>${letter}</h2><ul>${list.map(o => `<li><a href="${SITE_URL}/o/${o.slug}/">${escapeHtml(o.name || o.slug)}</a></li>`).join("")}</ul></section>
+      <section><h2>${letter}</h2><ul class="static-op-index">${list.map(o => {
+        const ct = (cardsForOperator.get(o.slug) || []).length;
+        return `<li><a href="${SITE_URL}/o/${o.slug}/">${escapeHtml(o.name || o.slug)}</a>${ct ? `<span class="static-op-count">${ct}</span>` : ""}</li>`;
+      }).join("")}</ul></section>
     `).join("");
     const body = `<div class="static-crumbs"><a href="${SITE_URL}/">codex</a> · operators</div>
-      <h1>${INDEX.operators.length} operators</h1>
-      <p class="static-meta">Each profile carries the operator's bio, operating themes, attributed cards, and primary sources.</p>
+      <p class="static-eyebrow">operators</p>
+      <h1>Learn from the people who shipped it</h1>
+      <p class="static-lede">${INDEX.operators.length} named operators across product, PMM, GTM, AI-native, design, engineering, leadership, sales, growth, research, and founder craft. Every claim traces back to one person and one source.</p>
       ${sectionEls}`;
-    await listShell("operators", "operators", `Index of ${INDEX.operators.length} operator profiles in abcodex. Primary-source, named-author insights.`, body);
+    await listShell("operators", "Learn from the people who shipped it · operators", `Index of ${INDEX.operators.length} operator profiles in abcodex. Primary-source, named-author insights across product, PMM, GTM, AI-native, design, engineering, leadership, sales, growth, research, and founder craft.`, body);
   }
 
-  // Patterns index
+  // Patterns index. JTBD H1, grouped by primary domain.
   {
     const list = [...INDEX.patterns].sort((a, b) => (b.convergence_count || 0) - (a.convergence_count || 0) || (a.title || a.id).localeCompare(b.title || b.id));
+    // Group by primary domain (first listed). Within group, keep convergence_count order.
+    const byDomain = new Map();
+    for (const p of list){
+      const dom = (p.domains && p.domains[0]) || "other";
+      if (!byDomain.has(dom)) byDomain.set(dom, []);
+      byDomain.get(dom).push(p);
+    }
+    const ordered = [...byDomain.entries()].sort((a,b) => b[1].length - a[1].length);
+    const groupEls = ordered.map(([dom, items]) => `
+      <section><h2>${escapeHtml(dom)} · ${items.length}</h2>
+        <ul class="static-pat-list">${items.map(p => `<li><a href="${SITE_URL}/pat/${p.id}/">${escapeHtml(p.title || p.id)}</a>${p.convergence_count ? ` <span class="static-pat-count">${p.convergence_count} ops</span>` : ""}</li>`).join("")}</ul>
+      </section>`).join("");
     const body = `<div class="static-crumbs"><a href="${SITE_URL}/">codex</a> · patterns</div>
-      <h1>${list.length} synthesis patterns</h1>
-      <p class="static-meta">Where 3+ operators converge on the same idea from different angles. Each pattern names the operators, the cards, and the implication.</p>
-      <ul>${list.map(p => `<li><a href="${SITE_URL}/pat/${p.id}/">${escapeHtml(p.title || p.id)}</a>${p.convergence_count ? ` <span style="color:var(--muted);font-family:JetBrains Mono,monospace;font-size:.75em">(${p.convergence_count} ops)</span>` : ""}</li>`).join("")}</ul>`;
-    await listShell("patterns", "patterns", `${list.length} cross-operator convergences in abcodex.`, body);
+      <p class="static-eyebrow">patterns</p>
+      <h1>See where operators converge on the same answer</h1>
+      <p class="static-lede">${list.length} cross-operator convergences. When three or more people arrive at the same idea independently, from different angles, it's probably not just a hot take. Each pattern names the operators, the cards, and the implication.</p>
+      ${groupEls}`;
+    await listShell("patterns", "See where operators converge on the same answer · patterns", `${list.length} cross-operator convergences in abcodex. Each pattern names the operators, the cards, and the implication.`, body);
   }
 
-  // Playbooks index
+  // Playbooks index. JTBD H1, taxonomy buckets, one-line "what this gets you" per playbook.
   if (INDEX.playbooks && INDEX.playbooks.length){
-    const list = [...INDEX.playbooks].filter(p => p.id).sort((a, b) => (a.title || a.id).localeCompare(b.title || b.id));
+    const list = [...INDEX.playbooks].filter(p => p.id);
+    // Group by primary domain. "other" catches multi-domain or domain-less.
+    const byDomain = new Map();
+    for (const p of list){
+      const dom = Array.isArray(p.domain) ? (p.domain[0] || "other") : (p.domain || "other");
+      if (!byDomain.has(dom)) byDomain.set(dom, []);
+      byDomain.get(dom).push(p);
+    }
+    const ordered = [...byDomain.entries()].sort((a,b) => b[1].length - a[1].length);
+    const groupEls = ordered.map(([dom, items]) => {
+      const tiles = items.sort((a,b) => (a.title || a.id).localeCompare(b.title || b.id)).map(p => {
+        const ops = (p.originating_operators || []).slice(0, 3).join(", ");
+        const cardCount = (p.uses_cards || []).length;
+        const meta = [];
+        if (ops) meta.push(escapeHtml(ops));
+        if (cardCount) meta.push(`${cardCount} card${cardCount===1?"":"s"}`);
+        return `<a class="static-card" href="${SITE_URL}/play/${p.id}/"><div class="tier">Playbook${meta.length ? " · " + meta.join(" · ") : ""}</div><div class="static-card-title">${escapeHtml(p.title || p.id)}</div></a>`;
+      }).join("");
+      return `<section><h2>${escapeHtml(dom)} · ${items.length}</h2><div class="static-cards-grid">${tiles}</div></section>`;
+    }).join("");
     const body = `<div class="static-crumbs"><a href="${SITE_URL}/">codex</a> · playbooks</div>
-      <h1>${list.length} playbooks</h1>
-      <p class="static-meta">Methodology playbooks distilled across the corpus.</p>
-      <ul>${list.map(p => `<li><a href="${SITE_URL}/play/${p.id}/">${escapeHtml(p.title || p.id)}</a></li>`).join("")}</ul>`;
-    await listShell("playbooks", "playbooks", `${list.length} methodology playbooks in abcodex.`, body);
+      <p class="static-eyebrow">playbooks</p>
+      <h1>Run the play the operators ran</h1>
+      <p class="static-lede">${list.length} methodology playbooks distilled across the corpus. Each one ties named operators to a step-by-step workflow you can run on Monday. HowTo schema attached.</p>
+      ${groupEls}`;
+    await listShell("playbooks", "Run the play the operators ran · playbooks", `${list.length} methodology playbooks in abcodex, grouped by domain. Each carries named operators, step-by-step workflow, and HowTo schema.`, body);
   }
 
-  // Release log index
+  // Release log index. JTBD H1, weekly grouping.
   if (INDEX.daily && INDEX.daily.length){
     const list = [...INDEX.daily].sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+    // Group by ISO week (Mon-based). Each release is YYYY-MM-DD.
+    const weekKey = (iso) => {
+      if (!iso) return "·";
+      const d = new Date(iso + "T00:00:00Z");
+      // Find the Monday of this ISO week.
+      const day = d.getUTCDay() || 7;
+      const monday = new Date(d.getTime() - (day - 1) * 86400000);
+      return monday.toISOString().slice(0, 10);
+    };
+    const groups = new Map();
+    for (const d of list){
+      const k = weekKey(d.date);
+      if (!groups.has(k)) groups.set(k, []);
+      groups.get(k).push(d);
+    }
+    const ordered = [...groups.entries()].sort(([a],[b]) => b.localeCompare(a));
+    const itemHtml = (d) => {
+      const ia = (d.insights_added||[]).length;
+      const oa = (d.operators_added||[]).length;
+      const pa = (d.patterns_added||[]).length;
+      const pba = (d.playbooks_added||[]).length;
+      const counts = [];
+      if (ia) counts.push(`+${ia} insight${ia===1?"":"s"}`);
+      if (oa) counts.push(`+${oa} operator${oa===1?"":"s"}`);
+      if (pa) counts.push(`+${pa} pattern${pa===1?"":"s"}`);
+      if (pba) counts.push(`+${pba} playbook${pba===1?"":"s"}`);
+      return `<li><a href="${SITE_URL}/today/${d.date}/"><span class="static-rel-date">${escapeHtml(d.date)}</span><span class="static-rel-title">${escapeHtml(d.title || "release")}</span></a>${counts.length ? `<span class="static-rel-counts">${counts.join(" · ")}</span>` : ""}</li>`;
+    };
+    const sectionEls = ordered.map(([wk, items]) => `
+      <section><h2>Week of ${wk}</h2><ul class="static-rel-list">${items.map(itemHtml).join("")}</ul></section>
+    `).join("");
+    const oldestDate = list[list.length-1]?.date || "";
     const body = `<div class="static-crumbs"><a href="${SITE_URL}/">codex</a> · release log</div>
-      <h1>release log</h1>
-      <p class="static-meta">${list.length} releases since ${list[list.length-1]?.date}. Newest first.</p>
-      <ul>${list.map(d => {
-        const ia = (d.insights_added||[]).length;
-        const oa = (d.operators_added||[]).length;
-        const counts = [];
-        if (ia) counts.push(`+${ia} insight${ia===1?"":"s"}`);
-        if (oa) counts.push(`+${oa} operator${oa===1?"":"s"}`);
-        return `<li><a href="${SITE_URL}/today/${d.date}/">${escapeHtml(d.date)} · ${escapeHtml(d.title || "release")}</a>${counts.length ? ` <span style="color:var(--muted);font-family:JetBrains Mono,monospace;font-size:.75em">(${counts.join(" · ")})</span>` : ""}</li>`;
-      }).join("")}</ul>`;
-    await listShell("today", "release log", `${list.length} releases in abcodex. Daily ingests, prompted batches, depth passes.`, body);
+      <p class="static-eyebrow">release log</p>
+      <h1>See what changed in the codex this week</h1>
+      <p class="static-lede">${list.length} releases since ${oldestDate}. Daily ingests, prompted batches, depth passes. Subscribe via <a href="${SITE_URL}/rss.xml">RSS</a>.</p>
+      ${sectionEls}`;
+    await listShell("today", "See what changed in the codex this week · release log", `${list.length} releases in abcodex, grouped by week. Daily ingests, prompted batches, depth passes. RSS feed available.`, body);
   }
 
   // === domain pages — one per unique domain across the corpus ===
@@ -1240,9 +1417,13 @@ ${relatedGroup("Cards on both sides", conCards.slice(0, 12).map(cardTile).join("
       }
       sectionParts.push(`<h2>${cardsInDom.length} insights in ${dom}</h2><ul class="static-card-list">${cardsInDom.slice(0, 60).map(c => `<li><a href="${SITE_URL}/ins/${c.id}/">${escapeHtml(c.title || c.id)}</a> · <span style="color:var(--muted)">${escapeHtml(c.operator || "·")}</span></li>`).join("")}</ul>`);
 
+      // Domain leads. A reader-facing description of what they'll learn here,
+      // not just a count. Falls back to a generic line if no curated lede exists.
+      const domLede = DOMAIN_LEDES[dom] || `Operator insights tagged ${dom}, from ${opsInDom.size} named operators with primary sources.`;
       const body = `<div class="static-crumbs"><a href="${SITE_URL}/">codex</a> · <a href="${SITE_URL}/browse/">browse</a> · ${dom}</div>
-        <p class="static-eyebrow" style="font-family:JetBrains Mono,monospace;font-size:.75rem;color:var(--accent);text-transform:uppercase;letter-spacing:.1em">domain</p>
-        <h1>${dom}</h1>
+        <p class="static-eyebrow">domain · ${dom}</p>
+        <h1>${escapeHtml(DOMAIN_TITLES[dom] || dom)}</h1>
+        <p class="static-lede">${escapeHtml(domLede)}</p>
         <p class="static-meta">${cardsInDom.length} cards · ${opsInDom.size} operators · ${cardsInDom.filter(c=>c.tier==='A').length} tier-A claims · ${patsInDom.length} synthesis pattern${patsInDom.length===1?'':'s'}.</p>
         ${sectionParts.join("\n")}`;
       const jsonLd = {
