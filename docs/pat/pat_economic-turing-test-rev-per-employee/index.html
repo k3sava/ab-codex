@@ -161,6 +161,16 @@ main.static pre code{background:transparent;padding:0}
   .static-actions{flex-direction:column;align-items:stretch}
   .static-actions a,.static-actions button{justify-content:center}
 }
+@media print{
+  .static-topbar,.static-footer,.static-actions,.skip-link{display:none !important}
+  main.static{max-width:none;padding:0}
+  main.static h1{font-size:1.8rem}
+  main.static h2{font-size:1.2rem;page-break-after:avoid}
+  main.static a{color:#000;border-bottom:none}
+  main.static a[href^="http"]::after{content:" (" attr(href) ")";font-size:.78em;color:#555}
+  .static-related-group{break-inside:avoid}
+  .static-card{break-inside:avoid}
+}
 
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"The Economic Turing Test, outcomes pricing, agent labor, revenue per employee","url":"https://abcodex.iamkesava.com/pat/pat_economic-turing-test-rev-per-employee/","mainEntityOfPage":"https://abcodex.iamkesava.com/pat/pat_economic-turing-test-rev-per-employee/","datePublished":"2026-05-01","keywords":"ai-native, gtm, leadership","license":"https://opensource.org/licenses/MIT","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1","article p:first-of-type"]},"publisher":{"@type":"Organization","@id":"https://abcodex.iamkesava.com/#org","name":"abcodex","url":"https://abcodex.iamkesava.com","founder":{"@id":"https://iamkesava.com/#kesava"}}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"patterns","item":"https://abcodex.iamkesava.com/patterns/"},{"@type":"ListItem","position":3,"name":"The Economic Turing Test, outcomes pricing, agent labor, revenue per employee","item":"https://abcodex.iamkesava.com/pat/pat_economic-turing-test-rev-per-employee/"}]},{"@type":"ItemList","name":"Cards in pattern: The Economic Turing Test, outcomes pricing, agent labor, revenue per employee","numberOfItems":4,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://abcodex.iamkesava.com/ins/ins_economic-turing-test-for-ai/","name":"The Economic Turing Test, would you hire the agent if you didn't know it was a machine?"},{"@type":"ListItem","position":2,"url":"https://abcodex.iamkesava.com/ins/ins_outcomes-pricing-restructures-saas/","name":"Agents push SaaS from per-seat to outcomes-based pricing; the incentive flip changes everything"},{"@type":"ListItem","position":3,"url":"https://abcodex.iamkesava.com/ins/ins_underfund-deliberately/","name":"Underfund teams deliberately so AI substrate, not headcount, absorbs the work"},{"@type":"ListItem","position":4,"url":"https://abcodex.iamkesava.com/ins/ins_top-performers-benefit-disproportionately/","name":"AI tools widen the spread between top and bottom performers, invest in top performers"}]}]}</script>

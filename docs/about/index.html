@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About a builder&#39;s codex · a builder's codex</title>
+<meta name="description" content="About a builder&#39;s codex. A primary-source library of operator insights. Atomic claims, named operators, verifiable sources. MIT-licensed, AI-readable.">
+<link rel="canonical" href="https://abcodex.iamkesava.com/about/">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta property="og:type" content="article">
+<meta property="og:title" content="About a builder&#39;s codex · a builder's codex">
+<meta property="og:description" content="About a builder&#39;s codex. A primary-source library of operator insights. Atomic claims, named operators, verifiable sources. MIT-licensed, AI-readable.">
+<meta property="og:url" content="https://abcodex.iamkesava.com/about/">
+<meta property="og:image" content="https://abcodex.iamkesava.com/og.png">
+<meta property="og:site_name" content="a builder's codex">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="About a builder&#39;s codex · a builder's codex">
+<meta name="twitter:description" content="About a builder&#39;s codex. A primary-source library of operator insights. Atomic claims, named operators, verifiable sources. MIT-licensed, AI-readable.">
+<meta name="twitter:image" content="https://abcodex.iamkesava.com/og.png">
+<link rel="alternate" type="application/rss+xml" title="a builder's codex · release log" href="https://abcodex.iamkesava.com/rss.xml">
+<link rel="service-doc" href="https://abcodex.iamkesava.com/llms.txt">
+<link rel="api-catalog" href="https://abcodex.iamkesava.com/.well-known/api-catalog">
+<link rel="describedby" href="https://abcodex.iamkesava.com/.well-known/agent-permissions.json">
+<link rel="me" href="https://github.com/k3sava">
+<link rel="me" href="https://www.linkedin.com/in/k3sava">
+<link rel="me" href="https://iamkesava.com/">
+<link rel="author" href="https://iamkesava.com/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+/* Static page styling — self-contained so the HTML reads cleanly without
+   the SPA's stylesheet (which targets different selectors). Carries the
+   codex typography palette but in a layout tuned for crawlers + readers. */
+:root{--paper:#f3f5ee;--paper-2:#e6ebe0;--ink:#0d1410;--ink-2:#2a3530;--muted:#6b7868;--accent:#1f9d55;--accent-2:#15803d;--line:#0d141022;--line-2:#0d141012}
+*{box-sizing:border-box;margin:0;padding:0}
+*:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
+body{font-family:Inter,system-ui,sans-serif;background:var(--paper);color:var(--ink);margin:0;-webkit-font-smoothing:antialiased;line-height:1.55}
+.skip-link{position:fixed;top:-100px;left:8px;z-index:100;padding:10px 14px;background:var(--ink);color:var(--paper);font-family:JetBrains Mono,monospace;font-size:.74rem;text-decoration:none;border-radius:6px;transition:top .15s ease}
+.skip-link:focus{top:8px;outline:2px solid var(--accent);outline-offset:2px}
+main:focus{outline:none}
+.static-topbar{display:flex;align-items:center;justify-content:space-between;padding:14px 24px;border-bottom:1px solid var(--line-2);background:color-mix(in oklab,var(--paper) 92%,transparent);backdrop-filter:blur(8px);position:sticky;top:0;z-index:10}
+.static-topbar .brand{font-family:Newsreader,Georgia,serif;font-weight:500;font-size:1.05rem;letter-spacing:-.01em;color:var(--ink);text-decoration:none;display:flex;align-items:center;gap:8px}
+.static-topbar .brand:hover{color:var(--accent-2)}
+.static-topbar .brand .dot{width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 8px color-mix(in oklab,var(--accent) 60%,transparent)}
+.static-topbar nav{display:flex;gap:18px;font-family:JetBrains Mono,monospace;font-size:.72rem}
+.static-topbar nav a{color:var(--muted);text-decoration:none}
+.static-topbar nav a:hover{color:var(--ink)}
+main.static{max-width:880px;margin:0 auto;padding:48px 24px 120px}
+.static-crumbs{font-family:JetBrains Mono,monospace;font-size:.7rem;color:var(--muted);margin-bottom:18px}
+.static-crumbs a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:1px;transition:color .2s,border-color .2s}
+.static-crumbs a:hover{color:var(--accent);border-bottom-color:currentColor}
+main.static h1{font-family:Newsreader,Georgia,serif;font-weight:400;font-size:clamp(2rem,4vw,3rem);letter-spacing:-.02em;line-height:1.12;margin-bottom:18px;color:var(--ink)}
+main.static h2{font-family:Newsreader,Georgia,serif;font-weight:400;font-size:1.5rem;margin:1.8em 0 .5em;line-height:1.25;color:var(--ink);scroll-margin-top:72px}
+main.static h3{font-family:Newsreader,Georgia,serif;font-weight:400;font-size:1.15rem;margin:1.4em 0 .4em;color:var(--ink);scroll-margin-top:72px}
+main.static p{margin:.7em 0;line-height:1.65;max-width:72ch;color:var(--ink-2)}
+main.static a{color:var(--ink);border-bottom:1px solid var(--line);padding-bottom:1px;text-decoration:none;transition:color .2s,border-color .2s}
+main.static a:hover{color:var(--accent);border-bottom-color:currentColor}
+main.static a.inline-cross-ref{font-family:Newsreader,serif}
+main.static ul,main.static ol{padding-left:1.5em;margin:.5em 0 1em 0;display:flex;flex-direction:column;gap:.45em}
+main.static li{padding-left:.15em;color:var(--ink-2);line-height:1.6}
+main.static blockquote{margin:1.6em 0;padding:.6em 0 .6em 20px;border-left:3px solid var(--accent);color:var(--ink-2);font-style:italic;font-family:Newsreader,Georgia,serif;font-size:1.05rem;line-height:1.55}
+main.static strong{color:var(--ink);font-weight:600}
+.md-table-wrap{overflow-x:auto;margin:1.6em 0;border-radius:5px;border:1px solid color-mix(in oklab,var(--accent) 20%,var(--line))}
+.md-table{width:100%;border-collapse:collapse;font-size:.88rem;line-height:1.5}
+.md-table thead th{background:color-mix(in oklab,var(--accent) 9%,var(--paper));color:var(--ink);font-family:JetBrains Mono,monospace;font-size:.68rem;font-weight:600;text-transform:uppercase;letter-spacing:.07em;padding:10px 16px;text-align:left;border-bottom:2px solid color-mix(in oklab,var(--accent) 22%,var(--paper))}
+.md-table td{padding:9px 16px;border-bottom:1px solid var(--line-2);color:var(--ink-2);vertical-align:top}
+.md-table tbody tr:last-child td{border-bottom:none}
+.md-table tbody tr:hover{background:color-mix(in oklab,var(--accent) 4%,var(--paper))}
+.md-table th:first-child,.md-table td:first-child{white-space:nowrap}
+.step-num-badge{font-family:JetBrains Mono,monospace;font-size:1.9rem;line-height:1;color:var(--accent);opacity:.5;font-weight:700;flex-shrink:0;min-width:2.6ch;letter-spacing:-.02em}
+.pb-step{padding:28px 0;margin:0;border-top:1px solid var(--line-2)}
+.pb-step:first-of-type{border-top:none;padding-top:0}
+.pb-step h3{display:flex;align-items:baseline;gap:16px;margin-top:0;margin-bottom:.65em;font-size:1.08rem;font-weight:700}
+.pb-step>p:first-of-type{margin-top:0}
+main.static article>h2{margin-top:2.4em}
+main.static article>h2:first-child{margin-top:0}
+main.static article hr{border:none;text-align:center;margin:48px 0;color:var(--muted);font-family:JetBrains Mono,monospace;font-size:.85rem;letter-spacing:.3em}
+main.static article hr::after{content:"· · ·"}
+main.static blockquote.pb-operator-quote{border-left:none;padding:20px 24px;background:color-mix(in oklab,var(--accent) 5%,var(--paper));border-radius:6px;font-style:normal;margin:1.8em 0}
+main.static blockquote.pb-operator-quote p:first-child{font-family:Newsreader,Georgia,serif;font-size:1.1rem;font-style:italic;color:var(--ink);margin-bottom:10px;line-height:1.5}
+main.static blockquote.pb-operator-quote p:not(:first-child),main.static blockquote.pb-operator-quote .pb-quote-attr{font-family:Newsreader,Georgia,serif;font-size:.85rem;font-style:normal;color:var(--muted);margin:.2em 0;line-height:1.4}
+main.static blockquote.pb-operator-quote .pb-quote-attr .inline-cross-ref{font-size:inherit;color:var(--accent);font-family:inherit;border-bottom-color:transparent}
+main.static blockquote.pb-operator-quote .pb-quote-attr .inline-cross-ref:hover{color:var(--accent-2);border-bottom-color:currentColor}
+.pb-insight-chips{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:.4em 0 28px}
+.pb-insight-chips-label{font-family:JetBrains Mono,monospace;font-size:.6rem;letter-spacing:.1em;color:var(--muted);text-transform:uppercase;font-weight:600;margin-right:4px;white-space:nowrap}
+.pb-insight-chip{font-family:Newsreader,Georgia,serif;font-size:.85rem;color:var(--ink-2);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:2px 12px;transition:border-color .15s,color .15s;display:inline-block}
+.pb-insight-chip:hover{color:var(--accent);border-color:var(--accent);border-bottom-color:var(--accent)}
+.pb-toc{margin:0 0 44px;padding:20px 24px;background:var(--paper-2);border-radius:5px;border:1px solid var(--line)}
+.pb-toc-label{font-family:JetBrains Mono,monospace;font-size:.6rem;letter-spacing:.1em;color:var(--muted);text-transform:uppercase;font-weight:600;margin-bottom:14px}
+.pb-toc ol{padding:0;margin:0;list-style:none;display:flex;flex-direction:column;gap:2px;counter-reset:toc}
+.pb-toc li{padding:0;margin:0;display:flex;align-items:baseline;gap:10px}
+.pb-toc li::before{counter-increment:toc;content:counter(toc,decimal-leading-zero);font-family:JetBrains Mono,monospace;font-size:.62rem;color:var(--muted);min-width:20px}
+.pb-toc a{font-family:Newsreader,Georgia,serif;font-size:1rem;color:var(--ink-2);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:1px;transition:color .15s,border-color .15s;line-height:1.45}
+.pb-toc a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+h2#failure-modes+ul,h2#what-goes-wrong+ul{list-style:none;padding-left:0;margin-top:.8em}
+h2#failure-modes+ul li,h2#what-goes-wrong+ul li{border-top:1px solid var(--line-2);padding:14px 0;padding-left:0;margin:0;color:var(--ink-2);line-height:1.5}
+h2#failure-modes+ul li:first-child,h2#what-goes-wrong+ul li:first-child{border-top:none;padding-top:0}
+h2#failure-modes+ul li strong:first-child,h2#what-goes-wrong+ul li strong:first-child{font-family:JetBrains Mono,monospace;font-size:.7rem;color:var(--accent);text-transform:uppercase;letter-spacing:.06em;font-weight:600;display:block;margin-bottom:2px}
+h2#outputs+ol,h2#what-you-get+ol{list-style:none;padding-left:0;counter-reset:outputs;margin-top:.8em}
+h2#outputs+ol li,h2#what-you-get+ol li{counter-increment:outputs;display:flex;gap:14px;align-items:baseline;padding:10px 0;border-top:1px solid var(--line-2);color:var(--ink-2);line-height:1.6;margin:0}
+h2#outputs+ol li:first-child,h2#what-you-get+ol li:first-child{border-top:none;padding-top:0}
+h2#outputs+ol li::before,h2#what-you-get+ol li::before{content:counter(outputs,decimal-leading-zero);font-family:JetBrains Mono,monospace;font-size:.7rem;color:var(--accent);opacity:.7;min-width:20px;flex-shrink:0}
+.pb-layout{display:block}
+.pb-article-col{display:block}
+.pb-sidebar{display:none}
+main.static code{font-family:JetBrains Mono,monospace;font-size:.85em;background:color-mix(in oklab,var(--ink) 6%,transparent);padding:1px 6px;border-radius:3px}
+main.static pre{background:color-mix(in oklab,var(--ink) 4%,transparent);padding:14px 16px;border-radius:6px;overflow-x:auto;margin:1em 0}
+main.static pre code{background:transparent;padding:0}
+.static-meta{font-family:JetBrains Mono,monospace;font-size:.78rem;color:var(--muted);margin:0 0 8px;padding:8px 0;border-bottom:1px solid var(--line-2)}
+.static-meta a{font-family:inherit;color:var(--ink-2);border-bottom:0}
+.static-meta a:hover{color:var(--accent)}
+.static-tldr{margin:28px 0 32px;padding:20px 24px;border-left:3px solid var(--accent);background:var(--paper-2);border-radius:0 8px 8px 0}
+.static-tldr-label{font-family:JetBrains Mono,monospace;font-size:.62rem;letter-spacing:.12em;color:var(--accent-2);text-transform:uppercase;margin-bottom:10px;font-weight:600}
+.static-tldr-claim{font-family:Newsreader,serif;font-size:1.2rem;line-height:1.4;color:var(--ink);font-weight:500}
+.static-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:40px;padding-top:24px;border-top:1px solid var(--line)}
+.static-actions a,.static-actions button{display:inline-flex;align-items:center;gap:8px;padding:9px 16px;border:1px solid var(--line);border-radius:999px;color:var(--ink-2);text-decoration:none;font-family:JetBrains Mono,monospace;font-size:.72rem;background:transparent;cursor:pointer;transition:background .15s,border-color .15s,color .15s}
+.static-actions a:hover,.static-actions button:hover{border-color:var(--accent);color:var(--accent-2);background:color-mix(in oklab,var(--accent) 8%,transparent)}
+.static-actions .primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.static-actions .primary:hover{background:var(--accent-2);border-color:var(--accent-2);color:#fff}
+.static-cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;margin:18px 0}
+.static-card{padding:14px 16px;border:1px solid var(--line);border-radius:6px;text-decoration:none;color:var(--ink);transition:border-color .15s,transform .15s}
+.static-card:hover{border-color:var(--accent);transform:translateY(-1px)}
+.static-card .tier{font-family:JetBrains Mono,monospace;font-size:.6rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px}
+.static-card-title{font-family:Newsreader,serif;font-size:1rem;line-height:1.3}
+.static-eyebrow{font-family:JetBrains Mono,monospace;font-size:.7rem;color:var(--accent);text-transform:uppercase;letter-spacing:.12em;font-weight:600;margin-bottom:14px}
+.static-lede{font-family:Newsreader,Georgia,serif;font-size:1.2rem;line-height:1.55;color:var(--ink-2);margin:0 0 28px;max-width:60ch}
+.static-lede a{color:var(--accent-2)}
+.static-op-index{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:6px 16px}
+.static-op-index li{display:flex;justify-content:space-between;align-items:baseline;gap:8px;padding:4px 0}
+.static-op-index .static-op-count{font-family:JetBrains Mono,monospace;font-size:.68rem;color:var(--muted)}
+.static-pat-list{list-style:none;padding:0;display:flex;flex-direction:column;gap:8px}
+.static-pat-list li{padding:8px 12px;border-radius:6px;background:color-mix(in oklab,var(--paper-2) 50%,transparent);display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.static-pat-list .static-pat-count{font-family:JetBrains Mono,monospace;font-size:.68rem;color:var(--muted);white-space:nowrap}
+.static-rel-list{list-style:none;padding:0;display:flex;flex-direction:column;gap:6px}
+.static-rel-list li{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:8px 0;border-bottom:1px solid var(--line-2)}
+.static-rel-list li:last-child{border-bottom:0}
+.static-rel-list a{display:flex;gap:16px;align-items:baseline;flex:1;border:0}
+.static-rel-list a:hover .static-rel-title{color:var(--accent-2)}
+.static-rel-date{font-family:JetBrains Mono,monospace;font-size:.78rem;color:var(--muted);min-width:90px}
+.static-rel-title{font-family:Newsreader,serif;font-size:1.05rem;color:var(--ink)}
+.static-rel-counts{font-family:JetBrains Mono,monospace;font-size:.68rem;color:var(--muted);white-space:nowrap}
+.static-related{margin-top:56px;padding-top:32px;border-top:1px solid var(--line)}
+.static-related h2{font-family:Newsreader,serif;font-weight:500;font-size:1.35rem;line-height:1.25;margin:0 0 22px}
+.static-related-group{margin-bottom:28px}
+.static-related-group:last-child{margin-bottom:0}
+.static-related-label{font-family:JetBrains Mono,monospace;font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:12px;font-weight:600}
+.static-domains{display:flex;flex-wrap:wrap;gap:8px 10px;font-family:JetBrains Mono,monospace;font-size:.74rem;margin:0;padding:0}
+.static-domains a{color:var(--ink-2);text-decoration:none;padding:4px 12px;border:1px solid var(--line);border-radius:999px;transition:border-color .12s,color .12s,background .12s}
+.static-domains a:hover{border-color:var(--accent);color:var(--accent-2);background:color-mix(in oklab,var(--accent) 8%,transparent)}
+.static-footer{max-width:880px;margin:0 auto;padding:32px 24px 64px;border-top:1px solid var(--line-2);font-family:JetBrains Mono,monospace;font-size:.72rem;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px}
+.static-footer a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid transparent}
+.static-footer a:hover{color:var(--accent);border-bottom-color:currentColor}
+@media (prefers-color-scheme:dark){
+  :root{--paper:#0a0e0a;--paper-2:#0d1410;--ink:#e6ecdf;--ink-2:#c5cbbe;--muted:#7a8174;--accent:#3aaf6d;--accent-2:#52c084;--line:#ffffff22;--line-2:#ffffff10}
+}
+@media (max-width:680px){
+  .static-topbar nav{display:none}
+  main.static{padding:32px 18px 80px}
+  .static-actions{flex-direction:column;align-items:stretch}
+  .static-actions a,.static-actions button{justify-content:center}
+}
+@media print{
+  .static-topbar,.static-footer,.static-actions,.skip-link{display:none !important}
+  main.static{max-width:none;padding:0}
+  main.static h1{font-size:1.8rem}
+  main.static h2{font-size:1.2rem;page-break-after:avoid}
+  main.static a{color:#000;border-bottom:none}
+  main.static a[href^="http"]::after{content:" (" attr(href) ")";font-size:.78em;color:#555}
+  .static-related-group{break-inside:avoid}
+  .static-card{break-inside:avoid}
+}
+
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"AboutPage","name":"About a builder's codex","url":"https://abcodex.iamkesava.com/about/","publisher":{"@id":"https://abcodex.iamkesava.com/#org"},"speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".static-lede"]}},{"@type":"Organization","@id":"https://abcodex.iamkesava.com/#org","name":"abcodex","url":"https://abcodex.iamkesava.com","logo":{"@type":"ImageObject","url":"https://abcodex.iamkesava.com/og.png"},"founder":{"@id":"https://iamkesava.com/#kesava"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"about","item":"https://abcodex.iamkesava.com/about/"}]}]}</script>
+</head>
+<body>
+<a class="skip-link" href="#main">skip to content</a>
+<header class="static-topbar">
+  <a class="brand" href="https://abcodex.iamkesava.com/"><span class="dot" aria-hidden="true"></span>a builder's codex</a>
+  <nav aria-label="Primary">
+    <a href="https://abcodex.iamkesava.com/operators/">operators</a>
+    <a href="https://abcodex.iamkesava.com/patterns/">patterns</a>
+    <a href="https://abcodex.iamkesava.com/playbooks/">playbooks</a>
+    <a href="https://abcodex.iamkesava.com/today/">today</a>
+    <a href="https://abcodex.iamkesava.com/#/about">about</a>
+  </nav>
+</header>
+<main class="static" id="main" tabindex="-1">
+<div class="static-crumbs"><a href="https://abcodex.iamkesava.com/">codex</a> · about</div>
+      <p class="static-eyebrow">about</p>
+      <h1>About a builder's codex</h1>
+      <p class="static-lede">A library of usable insights from people who shipped something. Every idea attached to the person who said it, the place they said it, and the date.</p>
+
+      <h2>What this is, in one paragraph</h2>
+      <p>You are learning a craft. Product marketing. Growth. Design. Building with AI. The smart move is to read what people who have done it think. The problem is the good thinking is scattered across podcasts, posts, talks, books, and threads. By the time you find a useful idea, you have forgotten where it came from, who said it, and whether it was even theirs. So you cannot go back to verify it. You cannot cite it cleanly. You cannot tell when an idea has been re-said by ten different people (a real signal) versus invented by one (a hot take).</p>
+      <p>This codex fixes that. Every insight is one idea from one named person, with a primary source URL and a date. We add three things the source usually skips. Why it works (mechanism). When it applies (conditions). When it fails (counter-evidence). So you can use it, not just read it.</p>
+
+      <h2>How to read an insight</h2>
+      <p>Every insight has the same shape. <strong>Claim</strong> states the idea in one sentence. <strong>Mechanism</strong> explains why it works. The underlying causal model. <strong>Conditions</strong> says when it applies and when it doesn't. <strong>Evidence</strong> is the operator's quote or example, with the source. <strong>Signals</strong> are the things you'd see in your own work if it's working. <strong>Counter-evidence</strong> is where it fails or who disagrees. <strong>Cross-references</strong> link to related insights.</p>
+      <p>If you only have a minute, read the Claim and skip the rest. If you're considering acting on the idea, read Conditions. If you want to know whether to trust it, read Evidence and Counter-evidence.</p>
+
+      <h2>What you can do here</h2>
+      <ul>
+        <li><strong>Search</strong>. From the interactive view, hit ⌘K or / from anywhere. Type a phrase, an operator's name, or a domain.</li>
+        <li><strong>Find convergence</strong>. The <a href="https://abcodex.iamkesava.com/patterns/">patterns</a> page surfaces ideas where three or more operators independently agree.</li>
+        <li><strong>Run the play</strong>. The <a href="https://abcodex.iamkesava.com/playbooks/">playbooks</a> page distills methodology you can run on Monday. HowTo schema attached.</li>
+        <li><strong>Cite it</strong>. Every insight has copy-citation, copy-as-markdown, and the original source link.</li>
+      </ul>
+
+      <h2>The corpus right now</h2>
+      <ul>
+        <li><strong>825</strong> insights across <strong>47</strong> domains</li>
+        <li><strong>470</strong> operator profiles</li>
+        <li><strong>41</strong> synthesis patterns (three or more operator convergences)</li>
+        <li><strong>11</strong> documented contradictions (where operators disagree)</li>
+        <li><strong>27</strong> methodology playbooks</li>
+        <li><strong>333</strong> Tier A claims (the highest-confidence, best-attributed)</li>
+      </ul>
+
+      <h2>The discipline</h2>
+      <p>Every claim traces to its primary source. Nothing is paraphrased without attribution. Nothing is invented. If we are not sure of a date, we say "unknown" rather than guess. Where operators disagree, we document the disagreement as a contradiction. Where multiple operators converge, we document the convergence as a synthesis pattern. The codex is opinionated about epistemics so you don't have to be.</p>
+
+      <h2>For agents and other tools</h2>
+      <p>The corpus is built to be readable by AI search engines and other automated tools. <a href="https://abcodex.iamkesava.com/insight-library/INDEX.json">INDEX.json</a> is the canonical machine-readable index. Every record carries id, path, operator, source_url, source_date, domain, lifecycle, and tier. <a href="https://abcodex.iamkesava.com/llms.txt">llms.txt</a> documents the structure. <a href="https://abcodex.iamkesava.com/.well-known/agent-permissions.json">agent-permissions.json</a> declares the licensing terms (MIT, attribution required).</p>
+      <p>Every insight has a static URL at <code>abcodex.iamkesava.com/ins/&lt;id&gt;/</code> with full content plus Schema.org structured data, so crawlers and AI search agents can read the page without executing JavaScript.</p>
+
+      <h2>License</h2>
+      <p>Source on <a href="https://github.com/k3sava/abcodex" rel="noopener">GitHub</a>. Released MIT. Raw sources retain their original copyright. The codex archives short excerpts under fair use, always with attribution and a link to the canonical source.</p>
+
+      <div class="static-actions"><a class="primary" href="https://abcodex.iamkesava.com/#/about">Open the interactive view →</a><a href="https://abcodex.iamkesava.com/operators/">Browse operators →</a><a href="https://abcodex.iamkesava.com/playbooks/">Browse playbooks →</a></div>
+</main>
+
+<footer class="static-footer">
+  <div class="static-feeds"><a href="https://abcodex.iamkesava.com/llms.txt" rel="noopener">llms.txt</a> · <a href="https://abcodex.iamkesava.com/sitemap.xml" rel="noopener">sitemap</a> · <a href="https://abcodex.iamkesava.com/rss.xml" rel="noopener">rss</a> · <a href="https://abcodex.iamkesava.com/insight-library/INDEX.json" rel="noopener">index.json</a></div>
+  <nav aria-label="Sister sites" class="static-sister"><a href="https://apps.iamkesava.com/">apps</a> · <a href="https://tools.iamkesava.com/">tools</a> · <a href="https://toys.iamkesava.com/">toys</a> · <span aria-current="page">codex</span></nav>
+  <div>made by <a href="https://iamkesava.com" rel="noopener author">kesava</a> · <a href="https://github.com/k3sava/abcodex" rel="noopener">github</a></div>
+</footer>
+</body>
+</html>

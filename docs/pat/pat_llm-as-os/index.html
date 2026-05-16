@@ -161,6 +161,16 @@ main.static pre code{background:transparent;padding:0}
   .static-actions{flex-direction:column;align-items:stretch}
   .static-actions a,.static-actions button{justify-content:center}
 }
+@media print{
+  .static-topbar,.static-footer,.static-actions,.skip-link{display:none !important}
+  main.static{max-width:none;padding:0}
+  main.static h1{font-size:1.8rem}
+  main.static h2{font-size:1.2rem;page-break-after:avoid}
+  main.static a{color:#000;border-bottom:none}
+  main.static a[href^="http"]::after{content:" (" attr(href) ")";font-size:.78em;color:#555}
+  .static-related-group{break-inside:avoid}
+  .static-card{break-inside:avoid}
+}
 
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"LLM-as-OS, post-training as moat","url":"https://abcodex.iamkesava.com/pat/pat_llm-as-os/","mainEntityOfPage":"https://abcodex.iamkesava.com/pat/pat_llm-as-os/","datePublished":"2026-05-01","keywords":"ai-native, product, strategy-bets","license":"https://opensource.org/licenses/MIT","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1","article p:first-of-type"]},"publisher":{"@type":"Organization","@id":"https://abcodex.iamkesava.com/#org","name":"abcodex","url":"https://abcodex.iamkesava.com","founder":{"@id":"https://iamkesava.com/#kesava"}}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"patterns","item":"https://abcodex.iamkesava.com/patterns/"},{"@type":"ListItem","position":3,"name":"LLM-as-OS, post-training as moat","item":"https://abcodex.iamkesava.com/pat/pat_llm-as-os/"}]},{"@type":"ItemList","name":"Cards in pattern: LLM-as-OS, post-training as moat","numberOfItems":6,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://abcodex.iamkesava.com/ins/ins_llms-are-new-os-agents-are-apps/","name":"LLM platform is the new OS, agents are the new apps, MCP registries are the new app stores"},{"@type":"ListItem","position":2,"url":"https://abcodex.iamkesava.com/ins/ins_post-training-as-the-moat/","name":"The economic moat in AI is post-training on proprietary data, not pre-training a base model"},{"@type":"ListItem","position":3,"url":"https://abcodex.iamkesava.com/ins/ins_software-is-not-a-moat/","name":"Software is not a moat, ecosystems, hardware, and distribution are"},{"@type":"ListItem","position":4,"url":"https://abcodex.iamkesava.com/ins/ins_intelligence-into-things-that-already-exist/","name":"Position AI as intelligence put into things that already exist, not as a new thing"},{"@type":"ListItem","position":5,"url":"https://abcodex.iamkesava.com/ins/ins_commoditize-the-complement-ai/","name":"AI labs are running the commoditize-the-complement playbook; tag features as core or complement quarterly"},{"@type":"ListItem","position":6,"url":"https://abcodex.iamkesava.com/ins/ins_capability-overhang-product-problem/","name":"In AI products, capability overhang is the central growth problem"}]}]}</script>

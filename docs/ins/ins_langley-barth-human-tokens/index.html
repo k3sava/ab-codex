@@ -161,6 +161,16 @@ main.static pre code{background:transparent;padding:0}
   .static-actions{flex-direction:column;align-items:stretch}
   .static-actions a,.static-actions button{justify-content:center}
 }
+@media print{
+  .static-topbar,.static-footer,.static-actions,.skip-link{display:none !important}
+  main.static{max-width:none;padding:0}
+  main.static h1{font-size:1.8rem}
+  main.static h2{font-size:1.2rem;page-break-after:avoid}
+  main.static a{color:#000;border-bottom:none}
+  main.static a[href^="http"]::after{content:" (" attr(href) ")";font-size:.78em;color:#555}
+  .static-related-group{break-inside:avoid}
+  .static-card{break-inside:avoid}
+}
 
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://abcodex.iamkesava.com/ins/ins_langley-barth-human-tokens/#article","headline":"Product marketers should think of their energy and focus as 'human tokens' to be spent wisely.","datePublished":"2026-04-10","dateModified":"2026-05-03","author":[{"@type":"Person","@id":"https://abcodex.iamkesava.com/o/langley-barth/#person","name":"Langley Barth","url":"https://abcodex.iamkesava.com/o/langley-barth/","jobTitle":"Staff PMM @ Intuit | I turn customer insight into decisions, not decks | GTM · Positioning · Launches | Top 100 PMM Influencer | Navy Vet"}],"isBasedOn":{"@type":"CreativeWork","url":"https://www.linkedin.com/feed/update/urn:li:activity:7443578214645485569/","name":"Product marketers should think of their energy and focus as 'human tokens' to be","encodingFormat":"thread","datePublished":"2026-04-10"},"publisher":{"@id":"https://abcodex.iamkesava.com/#org"},"url":"https://abcodex.iamkesava.com/ins/ins_langley-barth-human-tokens/","mainEntityOfPage":"https://abcodex.iamkesava.com/ins/ins_langley-barth-human-tokens/","keywords":"pmm","license":"https://opensource.org/licenses/MIT","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".static-tldr-claim"]},"additionalType":"https://abcodex.iamkesava.com/tier/C"},{"@type":"Organization","@id":"https://abcodex.iamkesava.com/#org","name":"abcodex","url":"https://abcodex.iamkesava.com","logo":{"@type":"ImageObject","url":"https://abcodex.iamkesava.com/og.png"},"founder":{"@id":"https://iamkesava.com/#kesava"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"operators","item":"https://abcodex.iamkesava.com/operators/"},{"@type":"ListItem","position":3,"name":"Langley Barth","item":"https://abcodex.iamkesava.com/o/langley-barth/"},{"@type":"ListItem","position":4,"name":"Product marketers should think of their energy and focus as 'human tokens' to be spent wisely.","item":"https://abcodex.iamkesava.com/ins/ins_langley-barth-human-tokens/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Mechanism","acceptedAnswer":{"@type":"Answer","text":"The analogy helps PMMs prioritize their limited cognitive and emotional bandwidth, especially when juggling urgent work and personal life. It reframes productivity as resource management rather than just time management."}}]}]}</script>

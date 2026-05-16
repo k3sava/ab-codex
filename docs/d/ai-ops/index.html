@@ -161,6 +161,16 @@ main.static pre code{background:transparent;padding:0}
   .static-actions{flex-direction:column;align-items:stretch}
   .static-actions a,.static-actions button{justify-content:center}
 }
+@media print{
+  .static-topbar,.static-footer,.static-actions,.skip-link{display:none !important}
+  main.static{max-width:none;padding:0}
+  main.static h1{font-size:1.8rem}
+  main.static h2{font-size:1.2rem;page-break-after:avoid}
+  main.static a{color:#000;border-bottom:none}
+  main.static a[href^="http"]::after{content:" (" attr(href) ")";font-size:.78em;color:#555}
+  .static-related-group{break-inside:avoid}
+  .static-card{break-inside:avoid}
+}
 
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"DefinedTerm","name":"ai-ops","inDefinedTermSet":"https://abcodex.iamkesava.com/","description":"Domain in abcodex. 4 insights from 4 operators.","url":"https://abcodex.iamkesava.com/d/ai-ops/"},{"@type":"CollectionPage","name":"ai-ops · abcodex","url":"https://abcodex.iamkesava.com/d/ai-ops/","about":{"@type":"DefinedTerm","name":"ai-ops"},"publisher":{"@type":"Organization","@id":"https://abcodex.iamkesava.com/#org","name":"abcodex","url":"https://abcodex.iamkesava.com","founder":{"@id":"https://iamkesava.com/#kesava"}},"hasPart":[{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_anthropic-skills-as-vertical-distribution-unit/","name":"Anthropic is treating Skills and Cookbooks as the unit of vertical agent distribution, not one-off integrations","author":{"@type":"Person","name":"Anthropic"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_kyle-poyar-continuous-monitoring-agents/","name":"GTM automation shifted from triggered batch automations to continuous-monitoring agents in under 18 months. The agent decides when to act.","author":{"@type":"Person","name":"Kyle Poyar"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_maja-voje-substrate-first-content-engineering/","name":"90% of AI content system output quality comes from the knowledge fed in, not from agent sophistication. One canonical artifact, many consumers.","author":{"@type":"Person","name":"Maja Voje"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_phil-schmid-four-subagent-patterns/","name":"Four subagent patterns are settling as standard: Inline Tool, Fan-Out, Agent Pool, and Teams. Each adds control surface at a real debugging cost.","author":{"@type":"Person","name":"Phil Schmid"}}]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"browse","item":"https://abcodex.iamkesava.com/browse/"},{"@type":"ListItem","position":3,"name":"ai-ops","item":"https://abcodex.iamkesava.com/d/ai-ops/"}]}]}</script>

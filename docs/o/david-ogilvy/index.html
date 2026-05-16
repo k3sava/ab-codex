@@ -161,6 +161,16 @@ main.static pre code{background:transparent;padding:0}
   .static-actions{flex-direction:column;align-items:stretch}
   .static-actions a,.static-actions button{justify-content:center}
 }
+@media print{
+  .static-topbar,.static-footer,.static-actions,.skip-link{display:none !important}
+  main.static{max-width:none;padding:0}
+  main.static h1{font-size:1.8rem}
+  main.static h2{font-size:1.2rem;page-break-after:avoid}
+  main.static a{color:#000;border-bottom:none}
+  main.static a[href^="http"]::after{content:" (" attr(href) ")";font-size:.78em;color:#555}
+  .static-related-group{break-inside:avoid}
+  .static-card{break-inside:avoid}
+}
 
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://abcodex.iamkesava.com/o/david-ogilvy/#person","name":"David Ogilvy","url":"https://abcodex.iamkesava.com/o/david-ogilvy/","description":"Founder Ogilvy & Mather (1948); widely recognised as \"the Father of Advertising\"; Author of Confessions of an Advertising Man (1963) and Ogilvy on Advertising (1983); Pioneer of research-driven creative; brand image as long-term asset; long-form copy; Inducted into the Advertising Hall of Fame; received D&AD President's Award; numerous Cannes Lions","sameAs":["https://www.ogilvy.com/about/our-history","https://en.wikiquote.org/wiki/David_Ogilvy"],"mainEntityOfPage":"https://abcodex.iamkesava.com/o/david-ogilvy/"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"operators","item":"https://abcodex.iamkesava.com/operators/"},{"@type":"ListItem","position":3,"name":"David Ogilvy","item":"https://abcodex.iamkesava.com/o/david-ogilvy/"}]}]}</script>

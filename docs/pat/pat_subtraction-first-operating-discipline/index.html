@@ -161,6 +161,16 @@ main.static pre code{background:transparent;padding:0}
   .static-actions{flex-direction:column;align-items:stretch}
   .static-actions a,.static-actions button{justify-content:center}
 }
+@media print{
+  .static-topbar,.static-footer,.static-actions,.skip-link{display:none !important}
+  main.static{max-width:none;padding:0}
+  main.static h1{font-size:1.8rem}
+  main.static h2{font-size:1.2rem;page-break-after:avoid}
+  main.static a{color:#000;border-bottom:none}
+  main.static a[href^="http"]::after{content:" (" attr(href) ")";font-size:.78em;color:#555}
+  .static-related-group{break-inside:avoid}
+  .static-card{break-inside:avoid}
+}
 
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Subtraction-first operating discipline","url":"https://abcodex.iamkesava.com/pat/pat_subtraction-first-operating-discipline/","mainEntityOfPage":"https://abcodex.iamkesava.com/pat/pat_subtraction-first-operating-discipline/","datePublished":"2026-05-05","keywords":"strategy, product, leadership, founder-craft","license":"https://opensource.org/licenses/MIT","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1","article p:first-of-type"]},"publisher":{"@type":"Organization","@id":"https://abcodex.iamkesava.com/#org","name":"abcodex","url":"https://abcodex.iamkesava.com","founder":{"@id":"https://iamkesava.com/#kesava"}}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"patterns","item":"https://abcodex.iamkesava.com/patterns/"},{"@type":"ListItem","position":3,"name":"Subtraction-first operating discipline","item":"https://abcodex.iamkesava.com/pat/pat_subtraction-first-operating-discipline/"}]},{"@type":"ItemList","name":"Cards in pattern: Subtraction-first operating discipline","numberOfItems":5,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://abcodex.iamkesava.com/ins/ins_taleb-via-negativa/","name":"Improvement comes from removing harm, not adding good, addition introduces unknown failure modes; subtraction does not"},{"@type":"ListItem","position":2,"url":"https://abcodex.iamkesava.com/ins/ins_taleb-iatrogenics/","name":"Iatrogenics, when the intervention causes more harm than the disease, most \"fixes\" in complex systems are net-negative"},{"@type":"ListItem","position":3,"url":"https://abcodex.iamkesava.com/ins/ins_invert-always-invert/","name":"Invert, always invert: instead of \"how do I succeed?\" ask \"what would guarantee failure?\""},{"@type":"ListItem","position":4,"url":"https://abcodex.iamkesava.com/ins/ins_circle-of-competence/","name":"Knowing what you don't know beats being brilliant, the discipline is the boundary, not the expansion"},{"@type":"ListItem","position":5,"url":"https://abcodex.iamkesava.com/ins/ins_offer-and-market-as-highest-roi-lever/","name":"When growth stalls, fix the offer or change the market, never spend more on ads to amplify a weak offer"}]}]}</script>

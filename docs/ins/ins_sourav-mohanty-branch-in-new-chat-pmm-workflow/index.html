@@ -161,6 +161,16 @@ main.static pre code{background:transparent;padding:0}
   .static-actions{flex-direction:column;align-items:stretch}
   .static-actions a,.static-actions button{justify-content:center}
 }
+@media print{
+  .static-topbar,.static-footer,.static-actions,.skip-link{display:none !important}
+  main.static{max-width:none;padding:0}
+  main.static h1{font-size:1.8rem}
+  main.static h2{font-size:1.2rem;page-break-after:avoid}
+  main.static a{color:#000;border-bottom:none}
+  main.static a[href^="http"]::after{content:" (" attr(href) ")";font-size:.78em;color:#555}
+  .static-related-group{break-inside:avoid}
+  .static-card{break-inside:avoid}
+}
 
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://abcodex.iamkesava.com/ins/ins_sourav-mohanty-branch-in-new-chat-pmm-workflow/#article","headline":"Branch-in-new-chat enables PMMs to scale strategy to assets without chaos","datePublished":"2026-04-10","dateModified":"2026-05-03","author":[{"@type":"Person","@id":"https://abcodex.iamkesava.com/o/sourav-mohanty/#person","name":"Sourav Mohanty","url":"https://abcodex.iamkesava.com/o/sourav-mohanty/","jobTitle":"B2B Positioning & Messaging; AI-native PMM workflow"}],"isBasedOn":{"@type":"CreativeWork","url":"https://www.linkedin.com/feed/update/urn:li:activity:7371527208772964356/","name":"Branch-in-new-chat workflow for PMMs (LinkedIn comment)","encodingFormat":"thread","datePublished":"2026-04-10"},"publisher":{"@id":"https://abcodex.iamkesava.com/#org"},"url":"https://abcodex.iamkesava.com/ins/ins_sourav-mohanty-branch-in-new-chat-pmm-workflow/","mainEntityOfPage":"https://abcodex.iamkesava.com/ins/ins_sourav-mohanty-branch-in-new-chat-pmm-workflow/","keywords":"pmm, ai-native","license":"https://opensource.org/licenses/MIT","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".static-tldr-claim"]},"additionalType":"https://abcodex.iamkesava.com/tier/B"},{"@type":"Organization","@id":"https://abcodex.iamkesava.com/#org","name":"abcodex","url":"https://abcodex.iamkesava.com","logo":{"@type":"ImageObject","url":"https://abcodex.iamkesava.com/og.png"},"founder":{"@id":"https://iamkesava.com/#kesava"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"operators","item":"https://abcodex.iamkesava.com/operators/"},{"@type":"ListItem","position":3,"name":"Sourav Mohanty","item":"https://abcodex.iamkesava.com/o/sourav-mohanty/"},{"@type":"ListItem","position":4,"name":"Branch-in-new-chat enables PMMs to scale strategy to assets without chaos","item":"https://abcodex.iamkesava.com/ins/ins_sourav-mohanty-branch-in-new-chat-pmm-workflow/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Mechanism","acceptedAnswer":{"@type":"Answer","text":"The branching preserves full context (prompts, uploads, images, Deep Research results) so you can spin off focused workstreams. A stable prefix taxonomy (STR, MSG, PER, etc.) makes search and custom GPT references easy. One purpose per branch prevents confusion, and archiving dead ends keeps the workspace clean."}}]}]}</script>

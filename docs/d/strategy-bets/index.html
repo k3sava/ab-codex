@@ -161,6 +161,16 @@ main.static pre code{background:transparent;padding:0}
   .static-actions{flex-direction:column;align-items:stretch}
   .static-actions a,.static-actions button{justify-content:center}
 }
+@media print{
+  .static-topbar,.static-footer,.static-actions,.skip-link{display:none !important}
+  main.static{max-width:none;padding:0}
+  main.static h1{font-size:1.8rem}
+  main.static h2{font-size:1.2rem;page-break-after:avoid}
+  main.static a{color:#000;border-bottom:none}
+  main.static a[href^="http"]::after{content:" (" attr(href) ")";font-size:.78em;color:#555}
+  .static-related-group{break-inside:avoid}
+  .static-card{break-inside:avoid}
+}
 
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"DefinedTerm","name":"strategy-bets","inDefinedTermSet":"https://abcodex.iamkesava.com/","description":"Domain in abcodex. 5 insights from 5 operators.","url":"https://abcodex.iamkesava.com/d/strategy-bets/"},{"@type":"CollectionPage","name":"strategy-bets · abcodex","url":"https://abcodex.iamkesava.com/d/strategy-bets/","about":{"@type":"DefinedTerm","name":"strategy-bets"},"publisher":{"@type":"Organization","@id":"https://abcodex.iamkesava.com/#org","name":"abcodex","url":"https://abcodex.iamkesava.com","founder":{"@id":"https://iamkesava.com/#kesava"}},"hasPart":[{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_build-for-model-six-months-out/","name":"Build for the model six months out, not the one that ships today","author":{"@type":"Person","name":"Boris Cherny"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_distribution-platform-cycles/","name":"Every distribution platform follows a four-step cycle; cycles are getting shorter","author":{"@type":"Person","name":"Brian Balfour"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_economic-turing-test-for-ai/","name":"The Economic Turing Test, would you hire the agent if you didn't know it was a machine?","author":{"@type":"Person","name":"Benjamin Mann"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_lead-bullets-and-cannonballs/","name":"Growth needs both lead bullets and cannonballs, the laziness trap is shipping only lead bullets","author":{"@type":"Person","name":"Adriel Frederick"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_outcomes-pricing-restructures-saas/","name":"Agents push SaaS from per-seat to outcomes-based pricing; the incentive flip changes everything","author":{"@type":"Person","name":"Bret Taylor"}}]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"browse","item":"https://abcodex.iamkesava.com/browse/"},{"@type":"ListItem","position":3,"name":"strategy-bets","item":"https://abcodex.iamkesava.com/d/strategy-bets/"}]}]}</script>

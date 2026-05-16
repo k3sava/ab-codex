@@ -161,6 +161,16 @@ main.static pre code{background:transparent;padding:0}
   .static-actions{flex-direction:column;align-items:stretch}
   .static-actions a,.static-actions button{justify-content:center}
 }
+@media print{
+  .static-topbar,.static-footer,.static-actions,.skip-link{display:none !important}
+  main.static{max-width:none;padding:0}
+  main.static h1{font-size:1.8rem}
+  main.static h2{font-size:1.2rem;page-break-after:avoid}
+  main.static a{color:#000;border-bottom:none}
+  main.static a[href^="http"]::after{content:" (" attr(href) ")";font-size:.78em;color:#555}
+  .static-related-group{break-inside:avoid}
+  .static-card{break-inside:avoid}
+}
 
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Diagnose before executing, refuse the playbook ask","url":"https://abcodex.iamkesava.com/pat/pat_diagnose-before-execute/","mainEntityOfPage":"https://abcodex.iamkesava.com/pat/pat_diagnose-before-execute/","datePublished":"2026-05-01","keywords":"pmm, product, founder-operator","license":"https://opensource.org/licenses/MIT","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1","article p:first-of-type"]},"publisher":{"@type":"Organization","@id":"https://abcodex.iamkesava.com/#org","name":"abcodex","url":"https://abcodex.iamkesava.com","founder":{"@id":"https://iamkesava.com/#kesava"}}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"patterns","item":"https://abcodex.iamkesava.com/patterns/"},{"@type":"ListItem","position":3,"name":"Diagnose before executing, refuse the playbook ask","item":"https://abcodex.iamkesava.com/pat/pat_diagnose-before-execute/"}]},{"@type":"ItemList","name":"Cards in pattern: Diagnose before executing, refuse the playbook ask","numberOfItems":5,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://abcodex.iamkesava.com/ins/ins_date-diagnostic-framework/","name":"Refuse the playbook ask, run DATE: Diagnose, Analyze, Take a different path, Experiment"},{"@type":"ListItem","position":2,"url":"https://abcodex.iamkesava.com/ins/ins_understand-then-identify-then-execute/","name":"Lead with understand-work, not identify-and-justify, data informs understanding, not the reverse"},{"@type":"ListItem","position":3,"url":"https://abcodex.iamkesava.com/ins/ins_influence-is-discovery-not-conviction/","name":"Treat upward influence as a discovery interview, not a sales pitch"},{"@type":"ListItem","position":4,"url":"https://abcodex.iamkesava.com/ins/ins_three-divergent-pr-faqs/","name":"Bring three divergent PR-FAQs to a strategy decision, not one"},{"@type":"ListItem","position":5,"url":"https://abcodex.iamkesava.com/ins/ins_going-deep-to-bedrock/","name":"Push past expert opinion until you reach the actual law of physics or contract"}]}]}</script>

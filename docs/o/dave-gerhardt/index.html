@@ -161,6 +161,16 @@ main.static pre code{background:transparent;padding:0}
   .static-actions{flex-direction:column;align-items:stretch}
   .static-actions a,.static-actions button{justify-content:center}
 }
+@media print{
+  .static-topbar,.static-footer,.static-actions,.skip-link{display:none !important}
+  main.static{max-width:none;padding:0}
+  main.static h1{font-size:1.8rem}
+  main.static h2{font-size:1.2rem;page-break-after:avoid}
+  main.static a{color:#000;border-bottom:none}
+  main.static a[href^="http"]::after{content:" (" attr(href) ")";font-size:.78em;color:#555}
+  .static-related-group{break-inside:avoid}
+  .static-card{break-inside:avoid}
+}
 
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://abcodex.iamkesava.com/o/dave-gerhardt/#person","name":"Dave Gerhardt","url":"https://abcodex.iamkesava.com/o/dave-gerhardt/","description":"Founder and CEO of Exit Five (the largest private community for B2B marketers); former VP Marketing at Drift ($1B exit) and CMO at Privy ($100M+ exit); host of the B2B Marketing with Dave Gerhardt podcast; built DGMG into a media brand for B2B marketing education","sameAs":["https://www.linkedin.com/in/davegerhardt/","https://exitfive.com/"],"mainEntityOfPage":"https://abcodex.iamkesava.com/o/dave-gerhardt/"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"operators","item":"https://abcodex.iamkesava.com/operators/"},{"@type":"ListItem","position":3,"name":"Dave Gerhardt","item":"https://abcodex.iamkesava.com/o/dave-gerhardt/"}]}]}</script>

@@ -161,6 +161,16 @@ main.static pre code{background:transparent;padding:0}
   .static-actions{flex-direction:column;align-items:stretch}
   .static-actions a,.static-actions button{justify-content:center}
 }
+@media print{
+  .static-topbar,.static-footer,.static-actions,.skip-link{display:none !important}
+  main.static{max-width:none;padding:0}
+  main.static h1{font-size:1.8rem}
+  main.static h2{font-size:1.2rem;page-break-after:avoid}
+  main.static a{color:#000;border-bottom:none}
+  main.static a[href^="http"]::after{content:" (" attr(href) ")";font-size:.78em;color:#555}
+  .static-related-group{break-inside:avoid}
+  .static-card{break-inside:avoid}
+}
 
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"DefinedTerm","name":"operations","inDefinedTermSet":"https://abcodex.iamkesava.com/","description":"Domain in abcodex. 1 insights from 1 operators.","url":"https://abcodex.iamkesava.com/d/operations/"},{"@type":"CollectionPage","name":"operations · abcodex","url":"https://abcodex.iamkesava.com/d/operations/","about":{"@type":"DefinedTerm","name":"operations"},"publisher":{"@type":"Organization","@id":"https://abcodex.iamkesava.com/#org","name":"abcodex","url":"https://abcodex.iamkesava.com","founder":{"@id":"https://iamkesava.com/#kesava"}},"hasPart":[{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_pradeep-dhayalan-operations-excellence-advocate/","name":"Drives operational excellence in contact centers through structured transitions","author":{"@type":"Person","name":"Pradeep Dhayalan"}}]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"browse","item":"https://abcodex.iamkesava.com/browse/"},{"@type":"ListItem","position":3,"name":"operations","item":"https://abcodex.iamkesava.com/d/operations/"}]}]}</script>

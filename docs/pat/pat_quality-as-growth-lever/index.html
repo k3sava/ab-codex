@@ -161,6 +161,16 @@ main.static pre code{background:transparent;padding:0}
   .static-actions{flex-direction:column;align-items:stretch}
   .static-actions a,.static-actions button{justify-content:center}
 }
+@media print{
+  .static-topbar,.static-footer,.static-actions,.skip-link{display:none !important}
+  main.static{max-width:none;padding:0}
+  main.static h1{font-size:1.8rem}
+  main.static h2{font-size:1.2rem;page-break-after:avoid}
+  main.static a{color:#000;border-bottom:none}
+  main.static a[href^="http"]::after{content:" (" attr(href) ")";font-size:.78em;color:#555}
+  .static-related-group{break-inside:avoid}
+  .static-card{break-inside:avoid}
+}
 
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Quality and friction-as-feature are growth levers, not constraints","url":"https://abcodex.iamkesava.com/pat/pat_quality-as-growth-lever/","mainEntityOfPage":"https://abcodex.iamkesava.com/pat/pat_quality-as-growth-lever/","datePublished":"2026-05-01","keywords":"growth, product, design","license":"https://opensource.org/licenses/MIT","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1","article p:first-of-type"]},"publisher":{"@type":"Organization","@id":"https://abcodex.iamkesava.com/#org","name":"abcodex","url":"https://abcodex.iamkesava.com","founder":{"@id":"https://iamkesava.com/#kesava"}}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"patterns","item":"https://abcodex.iamkesava.com/patterns/"},{"@type":"ListItem","position":3,"name":"Quality and friction-as-feature are growth levers, not constraints","item":"https://abcodex.iamkesava.com/pat/pat_quality-as-growth-lever/"}]},{"@type":"ItemList","name":"Cards in pattern: Quality and friction-as-feature are growth levers, not constraints","numberOfItems":6,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://abcodex.iamkesava.com/ins/ins_quality-as-growth-lever/","name":"Brand and quality are growth levers, not constraints on growth"},{"@type":"ListItem","position":2,"url":"https://abcodex.iamkesava.com/ins/ins_friction-as-feature/","name":"Add friction when it helps users decide whether the product is for them"},{"@type":"ListItem","position":3,"url":"https://abcodex.iamkesava.com/ins/ins_right-friction-beats-no-friction/","name":"Keep friction that helps users understand the product; cut the rest"},{"@type":"ListItem","position":4,"url":"https://abcodex.iamkesava.com/ins/ins_progressive-trust-onboarding/","name":"Onboard agents the way you onboard an EA: progressive trust, named tiers"},{"@type":"ListItem","position":5,"url":"https://abcodex.iamkesava.com/ins/ins_marginal-user-methodology/","name":"Design for the marginal user, the person on the cusp of converting in the worst conditions"},{"@type":"ListItem","position":6,"url":"https://abcodex.iamkesava.com/ins/ins_repair-as-primary-relationship-strategy/","name":"Secure relationships are built by repair after rupture, not by avoiding rupture"}]}]}</script>

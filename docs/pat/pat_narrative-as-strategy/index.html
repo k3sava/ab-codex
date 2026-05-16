@@ -161,6 +161,16 @@ main.static pre code{background:transparent;padding:0}
   .static-actions{flex-direction:column;align-items:stretch}
   .static-actions a,.static-actions button{justify-content:center}
 }
+@media print{
+  .static-topbar,.static-footer,.static-actions,.skip-link{display:none !important}
+  main.static{max-width:none;padding:0}
+  main.static h1{font-size:1.8rem}
+  main.static h2{font-size:1.2rem;page-break-after:avoid}
+  main.static a{color:#000;border-bottom:none}
+  main.static a[href^="http"]::after{content:" (" attr(href) ")";font-size:.78em;color:#555}
+  .static-related-group{break-inside:avoid}
+  .static-card{break-inside:avoid}
+}
 
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Company story IS the strategy, name the shift, run the audit","url":"https://abcodex.iamkesava.com/pat/pat_narrative-as-strategy/","mainEntityOfPage":"https://abcodex.iamkesava.com/pat/pat_narrative-as-strategy/","datePublished":"2026-05-01","keywords":"pmm, gtm, founder-operator","license":"https://opensource.org/licenses/MIT","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1","article p:first-of-type"]},"publisher":{"@type":"Organization","@id":"https://abcodex.iamkesava.com/#org","name":"abcodex","url":"https://abcodex.iamkesava.com","founder":{"@id":"https://iamkesava.com/#kesava"}}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"patterns","item":"https://abcodex.iamkesava.com/patterns/"},{"@type":"ListItem","position":3,"name":"Company story IS the strategy, name the shift, run the audit","item":"https://abcodex.iamkesava.com/pat/pat_narrative-as-strategy/"}]},{"@type":"ItemList","name":"Cards in pattern: Company story IS the strategy, name the shift, run the audit","numberOfItems":6,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://abcodex.iamkesava.com/ins/ins_company-story-is-the-strategy/","name":"Run a monthly narrative-drift audit across decks, homepage, and release notes"},{"@type":"ListItem","position":2,"url":"https://abcodex.iamkesava.com/ins/ins_old-game-to-new-game-narrative/","name":"Sell the world-shift, not the product comparison"},{"@type":"ListItem","position":3,"url":"https://abcodex.iamkesava.com/ins/ins_name-the-shift-concisely/","name":"Compress the shift to 1–3 words even when it loses fidelity"},{"@type":"ListItem","position":4,"url":"https://abcodex.iamkesava.com/ins/ins_obstacles-as-gates-not-problems/","name":"Frame features as obstacles to a new game, not problems to be solved"},{"@type":"ListItem","position":5,"url":"https://abcodex.iamkesava.com/ins/ins_pain-solution-proof-interleaved-pitch/","name":"Pitch a vision as pain → solution → proof, interleaved per beat, not three sequential acts"},{"@type":"ListItem","position":6,"url":"https://abcodex.iamkesava.com/ins/ins_setup-follow-through-pitch/","name":"Sales pitches need a Setup before the Follow-Through; most pitches skip the Setup"}]}]}</script>

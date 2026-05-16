@@ -538,6 +538,16 @@ main.static pre code{background:transparent;padding:0}
   .static-actions{flex-direction:column;align-items:stretch}
   .static-actions a,.static-actions button{justify-content:center}
 }
+@media print{
+  .static-topbar,.static-footer,.static-actions,.skip-link{display:none !important}
+  main.static{max-width:none;padding:0}
+  main.static h1{font-size:1.8rem}
+  main.static h2{font-size:1.2rem;page-break-after:avoid}
+  main.static a{color:#000;border-bottom:none}
+  main.static a[href^="http"]::after{content:" (" attr(href) ")";font-size:.78em;color:#555}
+  .static-related-group{break-inside:avoid}
+  .static-card{break-inside:avoid}
+}
 ${extraStyle || ""}
 </style>
 ${ld}
@@ -1384,6 +1394,84 @@ ${relatedGroup("Cards on both sides", conCards.slice(0, 12).map(cardTile).join("
       <p class="static-lede">${list.length} releases since ${oldestDate}. Daily ingests, prompted batches, depth passes. Subscribe via <a href="${SITE_URL}/rss.xml">RSS</a>.</p>
       ${sectionEls}`;
     await listShell("today", "See what changed in the codex this week · release log", `${list.length} releases in abcodex, grouped by week. Daily ingests, prompted batches, depth passes. RSS feed available.`, body);
+  }
+
+  // === static /about/ — crawler-visible mirror of the SPA about route ===
+  // The SPA already serves /#/about but agents that don't execute JS see an
+  // empty body. Static page carries the full prose plus stats baked in at
+  // build time.
+  {
+    const STATS = {
+      cards: INDEX.insights.length,
+      operators: INDEX.operators.length,
+      patterns: INDEX.patterns.length,
+      contradictions: (INDEX.contradictions || []).length,
+      playbooks: (INDEX.playbooks || []).length,
+      tierA: INDEX.insights.filter(c => c.tier === "A").length,
+      domains: new Set(INDEX.insights.flatMap(c => c.domain || [])).size,
+    };
+    const aboutBody = `<div class="static-crumbs"><a href="${SITE_URL}/">codex</a> · about</div>
+      <p class="static-eyebrow">about</p>
+      <h1>About a builder's codex</h1>
+      <p class="static-lede">A library of usable insights from people who shipped something. Every idea attached to the person who said it, the place they said it, and the date.</p>
+
+      <h2>What this is, in one paragraph</h2>
+      <p>You are learning a craft. Product marketing. Growth. Design. Building with AI. The smart move is to read what people who have done it think. The problem is the good thinking is scattered across podcasts, posts, talks, books, and threads. By the time you find a useful idea, you have forgotten where it came from, who said it, and whether it was even theirs. So you cannot go back to verify it. You cannot cite it cleanly. You cannot tell when an idea has been re-said by ten different people (a real signal) versus invented by one (a hot take).</p>
+      <p>This codex fixes that. Every insight is one idea from one named person, with a primary source URL and a date. We add three things the source usually skips. Why it works (mechanism). When it applies (conditions). When it fails (counter-evidence). So you can use it, not just read it.</p>
+
+      <h2>How to read an insight</h2>
+      <p>Every insight has the same shape. <strong>Claim</strong> states the idea in one sentence. <strong>Mechanism</strong> explains why it works. The underlying causal model. <strong>Conditions</strong> says when it applies and when it doesn't. <strong>Evidence</strong> is the operator's quote or example, with the source. <strong>Signals</strong> are the things you'd see in your own work if it's working. <strong>Counter-evidence</strong> is where it fails or who disagrees. <strong>Cross-references</strong> link to related insights.</p>
+      <p>If you only have a minute, read the Claim and skip the rest. If you're considering acting on the idea, read Conditions. If you want to know whether to trust it, read Evidence and Counter-evidence.</p>
+
+      <h2>What you can do here</h2>
+      <ul>
+        <li><strong>Search</strong>. From the interactive view, hit ⌘K or / from anywhere. Type a phrase, an operator's name, or a domain.</li>
+        <li><strong>Find convergence</strong>. The <a href="${SITE_URL}/patterns/">patterns</a> page surfaces ideas where three or more operators independently agree.</li>
+        <li><strong>Run the play</strong>. The <a href="${SITE_URL}/playbooks/">playbooks</a> page distills methodology you can run on Monday. HowTo schema attached.</li>
+        <li><strong>Cite it</strong>. Every insight has copy-citation, copy-as-markdown, and the original source link.</li>
+      </ul>
+
+      <h2>The corpus right now</h2>
+      <ul>
+        <li><strong>${STATS.cards}</strong> insights across <strong>${STATS.domains}</strong> domains</li>
+        <li><strong>${STATS.operators}</strong> operator profiles</li>
+        <li><strong>${STATS.patterns}</strong> synthesis patterns (three or more operator convergences)</li>
+        <li><strong>${STATS.contradictions}</strong> documented contradictions (where operators disagree)</li>
+        <li><strong>${STATS.playbooks}</strong> methodology playbooks</li>
+        <li><strong>${STATS.tierA}</strong> Tier A claims (the highest-confidence, best-attributed)</li>
+      </ul>
+
+      <h2>The discipline</h2>
+      <p>Every claim traces to its primary source. Nothing is paraphrased without attribution. Nothing is invented. If we are not sure of a date, we say "unknown" rather than guess. Where operators disagree, we document the disagreement as a contradiction. Where multiple operators converge, we document the convergence as a synthesis pattern. The codex is opinionated about epistemics so you don't have to be.</p>
+
+      <h2>For agents and other tools</h2>
+      <p>The corpus is built to be readable by AI search engines and other automated tools. <a href="${SITE_URL}/insight-library/INDEX.json">INDEX.json</a> is the canonical machine-readable index. Every record carries id, path, operator, source_url, source_date, domain, lifecycle, and tier. <a href="${SITE_URL}/llms.txt">llms.txt</a> documents the structure. <a href="${SITE_URL}/.well-known/agent-permissions.json">agent-permissions.json</a> declares the licensing terms (MIT, attribution required).</p>
+      <p>Every insight has a static URL at <code>abcodex.iamkesava.com/ins/&lt;id&gt;/</code> with full content plus Schema.org structured data, so crawlers and AI search agents can read the page without executing JavaScript.</p>
+
+      <h2>License</h2>
+      <p>Source on <a href="https://github.com/k3sava/abcodex" rel="noopener">GitHub</a>. Released MIT. Raw sources retain their original copyright. The codex archives short excerpts under fair use, always with attribution and a link to the canonical source.</p>
+
+      <div class="static-actions"><a class="primary" href="${SITE_URL}/#/about">Open the interactive view →</a><a href="${SITE_URL}/operators/">Browse operators →</a><a href="${SITE_URL}/playbooks/">Browse playbooks →</a></div>`;
+    await writeOne({
+      outPath: join(DOCS, "about", "index.html"),
+      title: "About a builder's codex",
+      description: "About a builder's codex. A primary-source library of operator insights. Atomic claims, named operators, verifiable sources. MIT-licensed, AI-readable.",
+      canonical: `${SITE_URL}/about/`,
+      hashRoute: `#/about`,
+      jsonLd: {
+        "@context": "https://schema.org",
+        "@graph": [
+          { "@type": "AboutPage", "name": "About a builder's codex", "url": `${SITE_URL}/about/`, "publisher": { "@id": ORG_CODEX_ID }, "speakable": { "@type": "SpeakableSpecification", "cssSelector": ["h1", ".static-lede"] } },
+          { "@type": "Organization", "@id": ORG_CODEX_ID, "name": "abcodex", "url": SITE_URL, "logo": { "@type": "ImageObject", "url": `${SITE_URL}/og.png` }, "founder": { "@id": PERSON_KESAVA_ID } },
+          { "@type": "BreadcrumbList", "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "abcodex", "item": SITE_URL + "/" },
+            { "@type": "ListItem", "position": 2, "name": "about", "item": `${SITE_URL}/about/` },
+          ] },
+        ],
+      },
+      ogImage: `${SITE_URL}/og.png`,
+      body: aboutBody,
+    });
   }
 
   // === domain pages — one per unique domain across the corpus ===

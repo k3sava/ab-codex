@@ -2596,24 +2596,36 @@ async function today(){
   }, { passive: true });
 }
 
-// Update <title> and <meta description> per route — better SEO/AEO surface and
-// matches the descriptive-link best practice the corpus documents.
-function setPageMeta(title, description){
+// Update <title>, meta description, canonical, og:url, og:image per route.
+// canonicalPath ('/ins/foo/' etc) points crawlers at the static page that
+// carries the full @graph; ogImage swaps in the per-route OG card.
+function setPageMeta(title, description, canonicalPath, ogImage){
   const fullTitle = title ? `${title} · a builder's codex` : `a builder's codex · operator insight library`;
   document.title = fullTitle;
-  const set = (selector, value) => {
+  const set = (selector, attr, value) => {
     const el = document.querySelector(selector);
-    if (el && value) el.setAttribute('content', value);
+    if (el && value) el.setAttribute(attr, value);
   };
   if (description){
-    set('meta[name="description"]', description);
-    set('meta[property="og:description"]', description);
-    set('meta[name="twitter:description"]', description);
+    set('meta[name="description"]', 'content', description);
+    set('meta[property="og:description"]', 'content', description);
+    set('meta[name="twitter:description"]', 'content', description);
   }
-  set('meta[property="og:title"]', fullTitle);
-  set('meta[name="twitter:title"]', fullTitle);
-  const url = `https://abcodex.iamkesava.com/${location.hash || '#/'}`;
-  set('meta[property="og:url"]', url);
+  set('meta[property="og:title"]', 'content', fullTitle);
+  set('meta[name="twitter:title"]', 'content', fullTitle);
+  // Canonical points at the static page. AI agents that fetch the SPA see the
+  // real URL and crawl there for the full schema graph.
+  const SITE = 'https://abcodex.iamkesava.com';
+  const canonical = canonicalPath ? `${SITE}${canonicalPath}` : `${SITE}/`;
+  set('link[rel="canonical"]', 'href', canonical);
+  set('meta[property="og:url"]', 'content', canonical);
+  if (ogImage){
+    set('meta[property="og:image"]', 'content', ogImage);
+    set('meta[name="twitter:image"]', 'content', ogImage);
+  } else {
+    set('meta[property="og:image"]', 'content', `${SITE}/og.png`);
+    set('meta[name="twitter:image"]', 'content', `${SITE}/og.png`);
+  }
 }
 
 // Page tools — site-wide share + listen on detail pages that don't have an
@@ -2627,44 +2639,45 @@ function updatePageTools(r){
 }
 
 function setMetaForRoute(r, anchor){
-  if (r==='/'||r==='') return setPageMeta(null, 'A primary-source library of operator insights. Atomic claims attributed to named operators with verifiable sources.');
-  if (r==='/today') return setPageMeta('release log', 'What is new in the codex. Daily ingests, prompted batches, and depth passes from inception forward.');
-  if (r==='/timeline') return setPageMeta('timeline', `${cards.filter(c=>/^\d{4}-\d{2}/.test(c.source_date||'')).length} dated insights across the corpus, density-scaled by month.`);
-  if (r==='/operators') return setPageMeta('operators', `${operators.length} operator profiles. Each one a named voice with attributed claims.`);
-  if (r==='/patterns') return setPageMeta('patterns', `${patterns.length} synthesis patterns where 3+ operators converge on the same idea from different angles.`);
-  if (r==='/playbooks') return setPageMeta('playbooks', `${playbooks.length} methodology playbooks distilled across the corpus.`);
-  if (r==='/browse' || r==='/carousel') return setPageMeta('browse', 'Filter insight cards by tier or domain; sort by date, operator, tier.');
-  if (r==='/map' || r==='/graph') return setPageMeta('map', 'Interactive force graph: operators outside, domains in the middle, insights orbiting between.');
-  if (r==='/flash') return setPageMeta('flash', 'One card at a time. Prev / next / shuffle.');
-  if (r==='/about') return setPageMeta('about', 'About a builder\'s codex. Primary-source library of operator insights.');
+  const SITE = 'https://abcodex.iamkesava.com';
+  if (r==='/'||r==='') return setPageMeta(null, 'A primary-source library of operator insights. Atomic claims attributed to named operators with verifiable sources.', '/');
+  if (r==='/today') return setPageMeta('release log', 'What is new in the codex. Daily ingests, prompted batches, and depth passes from inception forward.', '/today/');
+  if (r==='/timeline') return setPageMeta('timeline', `${cards.filter(c=>/^\d{4}-\d{2}/.test(c.source_date||'')).length} dated insights across the corpus, density-scaled by month.`, '/#/timeline');
+  if (r==='/operators') return setPageMeta('operators', `${operators.length} operator profiles. Each one a named voice with attributed claims.`, '/operators/');
+  if (r==='/patterns') return setPageMeta('patterns', `${patterns.length} synthesis patterns where 3+ operators converge on the same idea from different angles.`, '/patterns/');
+  if (r==='/playbooks') return setPageMeta('playbooks', `${playbooks.length} methodology playbooks distilled across the corpus.`, '/playbooks/');
+  if (r==='/browse' || r==='/carousel') return setPageMeta('browse', 'Filter insight cards by tier or domain; sort by date, operator, tier.', '/#/browse');
+  if (r==='/map' || r==='/graph') return setPageMeta('map', 'Interactive force graph: operators outside, domains in the middle, insights orbiting between.', '/#/map');
+  if (r==='/flash') return setPageMeta('flash', 'One card at a time. Prev / next / shuffle.', '/#/flash');
+  if (r==='/about') return setPageMeta('about', 'About a builder\'s codex. Primary-source library of operator insights.', '/about/');
   if (r.startsWith('/ins/')){
     const id = decodeURIComponent(r.slice(5));
     const c = cards.find(x => x.id === id);
-    if (c) return setPageMeta(c.claim, `${c.operator}: "${c.claim}" (${c.source_type || 'source'}, ${c.source_date || 'undated'}).`);
+    if (c) return setPageMeta(c.claim, `${c.operator}: "${c.claim}" (${c.source_type || 'source'}, ${c.source_date || 'undated'}).`, `/ins/${c.id}/`, `${SITE}/og/ins/${c.id}.svg`);
   }
   if (r.startsWith('/o/')){
     const slug = decodeURIComponent(r.slice(3));
     const op = operators.find(o => o.slug === slug);
-    if (op) return setPageMeta(op.name, `${op.name} on a builder's codex. Operator profile, insights, and primary sources.`);
+    if (op) return setPageMeta(op.name, `${op.name} on a builder's codex. Operator profile, insights, and primary sources.`, `/o/${op.slug}/`, `${SITE}/og/o/${op.slug}.svg`);
   }
   if (r.startsWith('/pat/')){
     const id = decodeURIComponent(r.slice(5));
     const p = patterns.find(x => x.id === id);
-    if (p) return setPageMeta(p.title, `Synthesis pattern: ${p.title}`);
+    if (p) return setPageMeta(p.title, `Synthesis pattern: ${p.title}`, `/pat/${p.id}/`, `${SITE}/og/pat/${p.id}.svg`);
   }
   if (r.startsWith('/play/')){
     const id = decodeURIComponent(r.slice(6));
     const p = playbooks.find(x => x.id === id);
-    if (p) return setPageMeta(p.title, `Playbook: ${p.title}`);
+    if (p) return setPageMeta(p.title, `Playbook: ${p.title}`, `/play/${p.id}/`, `${SITE}/og/play/${p.id}.svg`);
   }
   if (r.startsWith('/con/')){
     const id = decodeURIComponent(r.slice(5));
     const c = contradictions.find(x => x.id === id);
-    if (c) return setPageMeta(c.title, `Contradiction: ${c.title}`);
+    if (c) return setPageMeta(c.title, `Contradiction: ${c.title}`, `/con/${c.id}/`, `${SITE}/og/con/${c.id}.svg`);
   }
   if (r.startsWith('/d/')){
     const d = decodeURIComponent(r.slice(3));
-    return setPageMeta(d, `Domain: ${d}. Operator insights tagged ${d}.`);
+    return setPageMeta(d, `Domain: ${d}. Operator insights tagged ${d}.`, `/d/${d}/`, `${SITE}/og/d/${d}.svg`);
   }
   setPageMeta(null, null);
 }

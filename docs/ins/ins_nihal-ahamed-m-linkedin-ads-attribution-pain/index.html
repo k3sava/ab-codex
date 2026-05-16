@@ -161,6 +161,16 @@ main.static pre code{background:transparent;padding:0}
   .static-actions{flex-direction:column;align-items:stretch}
   .static-actions a,.static-actions button{justify-content:center}
 }
+@media print{
+  .static-topbar,.static-footer,.static-actions,.skip-link{display:none !important}
+  main.static{max-width:none;padding:0}
+  main.static h1{font-size:1.8rem}
+  main.static h2{font-size:1.2rem;page-break-after:avoid}
+  main.static a{color:#000;border-bottom:none}
+  main.static a[href^="http"]::after{content:" (" attr(href) ")";font-size:.78em;color:#555}
+  .static-related-group{break-inside:avoid}
+  .static-card{break-inside:avoid}
+}
 
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://abcodex.iamkesava.com/ins/ins_nihal-ahamed-m-linkedin-ads-attribution-pain/#article","headline":"LinkedIn Ads attribution is a spreadsheet nightmare that AI can solve","datePublished":"2026-04-10","dateModified":"2026-05-03","author":[{"@type":"Person","@id":"https://abcodex.iamkesava.com/o/nihal-ahamed-m/#person","name":"Nihal Ahamed M","url":"https://abcodex.iamkesava.com/o/nihal-ahamed-m/","jobTitle":"Growth at Stitchflow"}],"isBasedOn":{"@type":"CreativeWork","url":"https://www.linkedin.com/feed/update/urn:li:activity:7406238430680178688/","name":"LinkedIn Ads attribution is a spreadsheet nightmare that AI can solve","encodingFormat":"thread","datePublished":"2026-04-10"},"publisher":{"@id":"https://abcodex.iamkesava.com/#org"},"url":"https://abcodex.iamkesava.com/ins/ins_nihal-ahamed-m-linkedin-ads-attribution-pain/","mainEntityOfPage":"https://abcodex.iamkesava.com/ins/ins_nihal-ahamed-m-linkedin-ads-attribution-pain/","keywords":"pmm","license":"https://opensource.org/licenses/MIT","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".static-tldr-claim"]},"additionalType":"https://abcodex.iamkesava.com/tier/B"},{"@type":"Organization","@id":"https://abcodex.iamkesava.com/#org","name":"abcodex","url":"https://abcodex.iamkesava.com","logo":{"@type":"ImageObject","url":"https://abcodex.iamkesava.com/og.png"},"founder":{"@id":"https://iamkesava.com/#kesava"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"operators","item":"https://abcodex.iamkesava.com/operators/"},{"@type":"ListItem","position":3,"name":"Nihal Ahamed M","item":"https://abcodex.iamkesava.com/o/nihal-ahamed-m/"},{"@type":"ListItem","position":4,"name":"LinkedIn Ads attribution is a spreadsheet nightmare that AI can solve","item":"https://abcodex.iamkesava.com/ins/ins_nihal-ahamed-m-linkedin-ads-attribution-pain/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Mechanism","acceptedAnswer":{"@type":"Answer","text":"The operator argues that traditional LinkedIn Ads reporting forces consultants to jump between Campaign Manager, export CSVs, and use ChatGPT, yet still struggle to answer basic questions about account engagement and revenue influence. Zena (an AI analyst) eliminates this by answering performance questions in seconds without dashboards or manual data wrangling."}}]}]}</script>
