@@ -1,29 +1,33 @@
 {
-  "generated_at": "2026-05-15T03:15:01.418Z",
+  "generated_at": "2026-05-16T03:16:28.639Z",
   "counts": {
-    "insights": 820,
-    "operators": 468,
+    "insights": 825,
+    "operators": 470,
     "raw_sources": 209,
     "patterns": 41,
     "contradictions": 11,
     "playbooks": 27,
-    "daily": 13
+    "daily": 14
   },
   "latest_daily": {
-    "path": "daily/2026-05-15.md",
-    "date": "2026-05-15",
-    "title": "Earn the citation, hold the floor, retire the position metric",
-    "summary": "Four new cards from Lily Ray, Aleyda Solis, Eli Schwartz, and Aakash Gupta. Ray and Solis converge on the structural architecture of AEO visibility from opposite directions. Schwartz names the measurement construct that is dissolving beneath the whole category. Gupta gives a one-sentence test that changes how you scope a skills library.",
+    "path": "daily/2026-05-16.md",
+    "date": "2026-05-16",
+    "title": "Five new insights: recovery floors, AI consensus, and task-driven minimalism",
+    "summary": "Five new cards from five operators. Rewind names the chilling effect that recovery gaps create on AI adoption. Packy McCormick and Nicolas Cole converge on distinctiveness as the post-AI scarcity from independent angles. Pawel Huryn and Chris Orlob arrive at the same minimalist discipline applied to skill acquisition and outreach sequencing.",
     "sources": [
-      "morning research scan 2026-05-15"
+      "morning research scan 2026-05-16"
     ],
     "insights_added": [
-      "ins_lily-ray-geo-penalty-multi-surface-cascade",
-      "ins_aleyda-solis-aeo-offsite-corroboration-floor",
-      "ins_eli-schwartz-personalized-search-dissolves-position",
-      "ins_aakash-gupta-paste-twice-test"
+      "ins_rewind-ai-adoption-chilling-effect",
+      "ins_mccormick-ai-makes-consensus-cheap",
+      "ins_nicolas-cole-voc-source-llm-assembly",
+      "ins_pawel-huryn-task-driven-skill-minimalism",
+      "ins_chris-orlob-five-touch-sequence"
     ],
-    "operators_added": "",
+    "operators_added": [
+      "rewind",
+      "nicolas-cole"
+    ],
     "patterns_added": [],
     "playbooks_added": []
   },
@@ -3815,6 +3819,34 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_chris-orlob-five-touch-sequence.md",
+      "id": "ins_chris-orlob-five-touch-sequence",
+      "operator": "Chris Orlob",
+      "operator_role": "B2B sales educator and founder",
+      "co_operators": [],
+      "source_url": "unknown",
+      "source_type": "post",
+      "source_title": "",
+      "source_date": "2026-05-16",
+      "captured_date": "2026-05-16",
+      "domain": [
+        "sales-enablement",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "acquisition"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 4, evidence: 2, transferability: 4, source: 2 }",
+      "tier": "B",
+      "related": [
+        "ins_competency-analytics-over-activity-dashboards"
+      ],
+      "raw_ref": "",
+      "title": "Each outbound touch must build on the prior, not restate it; the 2nd and 3rd touches double reply rates when this holds"
     },
     {
       "path": "insights/ins_ciana-abdollahian-vibe-coded-customer-discovery-tool.md",
@@ -11948,6 +11980,37 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_mccormick-ai-makes-consensus-cheap.md",
+      "id": "ins_mccormick-ai-makes-consensus-cheap",
+      "operator": "Packy McCormick",
+      "operator_role": "Writer and investor, Not Boring",
+      "co_operators": [],
+      "source_url": "https://www.notboring.co/p/riding-the-leopard",
+      "source_type": "essay",
+      "source_title": "Riding the Leopard",
+      "source_date": "2026-05-13",
+      "captured_date": "2026-05-16",
+      "domain": [
+        "brand",
+        "content-marketing",
+        "pmm"
+      ],
+      "lifecycle": [
+        "positioning",
+        "messaging"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 2, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_brendan-hufford-four-content-failure-modes",
+        "ins_swyx-scaling-without-slop"
+      ],
+      "raw_ref": "",
+      "title": "AI makes consensus the default output; distinctiveness is now the only scarce input"
+    },
+    {
       "path": "insights/ins_media-first-business.md",
       "id": "ins_media-first-business",
       "operator": "Matt Gray",
@@ -13125,6 +13188,37 @@
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md",
       "title": "You never know how far it can take you"
+    },
+    {
+      "path": "insights/ins_nicolas-cole-voc-source-llm-assembly.md",
+      "id": "ins_nicolas-cole-voc-source-llm-assembly",
+      "operator": "Nicolas Cole",
+      "operator_role": "Writer and growth educator, Write With AI newsletter",
+      "co_operators": [],
+      "source_url": "https://writewithai.substack.com/p/build-and-launch-a-voc-landing-page",
+      "source_type": "essay",
+      "source_title": "Build and Launch a VOC Landing Page",
+      "source_date": "2026-05-07",
+      "captured_date": "2026-05-16",
+      "domain": [
+        "content-marketing",
+        "pmm",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "messaging",
+        "activation"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_voc-first-then-positioning",
+        "ins_jtbd-interviews-surface-customer-language"
+      ],
+      "raw_ref": "",
+      "title": "Customer language is the source material for conversion copy; the LLM is the assembly layer, not the author"
     },
     {
       "path": "insights/ins_nicolas-schell-turn-triggers-into-revenue.md",
@@ -14345,6 +14439,36 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_pawel-huryn-task-driven-skill-minimalism.md",
+      "id": "ins_pawel-huryn-task-driven-skill-minimalism",
+      "operator": "Pawel Huryn",
+      "operator_role": "Product manager and writer, Product Compass",
+      "co_operators": [],
+      "source_url": "https://www.productcompass.pm/p/claude-code-beginners-guide",
+      "source_type": "essay",
+      "source_title": "Claude Code Beginner's Guide",
+      "source_date": "2026-05-12",
+      "captured_date": "2026-05-16",
+      "domain": [
+        "pmm",
+        "product-management",
+        "ai-tools"
+      ],
+      "lifecycle": [
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 4, evidence: 2, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_aakash-gupta-paste-twice-test",
+        "ins_bottleneck-is-context-not-capability"
+      ],
+      "raw_ref": "",
+      "title": "Start with no AI skills installed and add one only when a real task forces it"
     },
     {
       "path": "insights/ins_peer-mentorship-supply-scaling.md",
@@ -16590,6 +16714,34 @@
       "related": [],
       "raw_ref": "raw/linkedin/pmm-mining/linkedin-saved-posts-2026-04-10.md",
       "title": "A role-targeted headline below the name is the first ATS+human filter"
+    },
+    {
+      "path": "insights/ins_rewind-ai-adoption-chilling-effect.md",
+      "id": "ins_rewind-ai-adoption-chilling-effect",
+      "operator": "Rewind",
+      "operator_role": "SaaS backup and recovery platform",
+      "co_operators": [],
+      "source_url": "unknown",
+      "source_type": "post",
+      "source_title": "When an AI coding agent closes 400 Jira issues by mistake",
+      "source_date": "2026-05-15",
+      "captured_date": "2026-05-16",
+      "domain": [
+        "ai-tools",
+        "product-marketing",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "positioning",
+        "adoption"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "Recovery gaps create a chilling effect on AI agent adoption inside organizations"
     },
     {
       "path": "insights/ins_rich-context-beats-sophisticated-agents.md",
@@ -28335,6 +28487,23 @@
       "title": "Nick Abraham"
     },
     {
+      "path": "operators/nicolas-cole/README.md",
+      "slug": "nicolas-cole",
+      "name": "Nicolas Cole",
+      "roles": [
+        "\"Writer and growth educator",
+        "Write With AI newsletter\""
+      ],
+      "domains_active": [
+        "content-marketing",
+        "growth-demand",
+        "pmm"
+      ],
+      "captured_first": "2026-05-16",
+      "external": "{ newsletter: \"https://writewithai.substack.com\" }",
+      "title": "Nicolas Cole"
+    },
+    {
       "path": "operators/nicolas-schell/README.md",
       "name": "Nicolas Schell",
       "slug": "nicolas-schell",
@@ -29028,6 +29197,22 @@
       "captured_first": "2026-05-03",
       "external": "",
       "title": "Renae McBride"
+    },
+    {
+      "path": "operators/rewind/README.md",
+      "slug": "rewind",
+      "name": "Rewind",
+      "roles": [
+        "SaaS backup and recovery platform; repositioning as SaaS Resilience Platform for AI agent deployments"
+      ],
+      "domains_active": [
+        "product-marketing",
+        "ai-tools",
+        "growth-demand"
+      ],
+      "captured_first": "2026-05-16",
+      "external": "{  }",
+      "title": "Rewind"
     },
     {
       "path": "operators/richard-king/README.md",
@@ -34561,8 +34746,8 @@
       "id": "pat_context-not-capability",
       "title": "Context, not capability, is the bottleneck",
       "captured_date": "2026-05-01",
-      "last_updated": "2026-05-15",
-      "convergence_count": "10",
+      "last_updated": "2026-05-16",
+      "convergence_count": "11",
       "tier": "A",
       "uses_cards": [
         "ins_bottleneck-is-context-not-capability",
@@ -34574,7 +34759,8 @@
         "ins_maja-voje-substrate-first-content-engineering",
         "ins_poyar-voje-context-engineering-gap",
         "ins_anthropic-claude-code-subagents-haiku-routing",
-        "ins_aakash-gupta-paste-twice-test"
+        "ins_aakash-gupta-paste-twice-test",
+        "ins_pawel-huryn-task-driven-skill-minimalism"
       ],
       "domains": [
         "ai-native",
@@ -34675,8 +34861,8 @@
       "id": "pat_differentiation-vs-sameness",
       "title": "Differentiation requires three checks, different, better, matters",
       "captured_date": "2026-05-01",
-      "last_updated": "2026-05-10",
-      "convergence_count": "6",
+      "last_updated": "2026-05-16",
+      "convergence_count": "7",
       "tier": "B",
       "uses_cards": [
         "ins_different-better-and-matters",
@@ -34684,7 +34870,8 @@
         "ins_test-positioning-in-live-sales-pitch",
         "ins_use-case-epiphany-as-marketing-job",
         "ins_brendan-hufford-four-content-failure-modes",
-        "ins_swyx-scaling-without-slop"
+        "ins_swyx-scaling-without-slop",
+        "ins_mccormick-ai-makes-consensus-cheap"
       ],
       "domains": [
         "pmm",
@@ -34778,7 +34965,8 @@
       "id": "pat_frontline-as-pmm-substrate",
       "title": "Frontline customer contact is the PMM substrate",
       "captured_date": "2026-05-01",
-      "convergence_count": "5",
+      "last_updated": "2026-05-16",
+      "convergence_count": "9",
       "tier": "A",
       "uses_cards": [
         "ins_jtbd-interviews-surface-customer-language",
@@ -34788,7 +34976,8 @@
         "ins_3s-content-from-sales-success-support",
         "ins_test-positioning-in-live-sales-pitch",
         "ins_zappos-rotation-through-support",
-        "ins_pov-led-outbound"
+        "ins_pov-led-outbound",
+        "ins_nicolas-cole-voc-source-llm-assembly"
       ],
       "domains": [
         "pmm",
@@ -35093,7 +35282,8 @@
       "id": "pat_sales-as-engineered-system-not-art",
       "title": "Sales is an engineered system, not individual art",
       "captured_date": "2026-05-05",
-      "convergence_count": "4",
+      "last_updated": "2026-05-16",
+      "convergence_count": "15",
       "tier": "A",
       "uses_cards": [
         "ins_roberge-sales-as-engineering-discipline",
@@ -35109,7 +35299,8 @@
         "ins_voss-thats-right-breakthrough",
         "ins_voss-black-swans-discovered-in-process",
         "ins_voss-accusation-audit",
-        "ins_altman-belief-as-sales-engine"
+        "ins_altman-belief-as-sales-engine",
+        "ins_chris-orlob-five-touch-sequence"
       ],
       "domains": [
         "sales-cs",
@@ -36106,6 +36297,28 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-05-16.md",
+      "date": "2026-05-16",
+      "title": "Five new insights: recovery floors, AI consensus, and task-driven minimalism",
+      "summary": "Five new cards from five operators. Rewind names the chilling effect that recovery gaps create on AI adoption. Packy McCormick and Nicolas Cole converge on distinctiveness as the post-AI scarcity from independent angles. Pawel Huryn and Chris Orlob arrive at the same minimalist discipline applied to skill acquisition and outreach sequencing.",
+      "sources": [
+        "morning research scan 2026-05-16"
+      ],
+      "insights_added": [
+        "ins_rewind-ai-adoption-chilling-effect",
+        "ins_mccormick-ai-makes-consensus-cheap",
+        "ins_nicolas-cole-voc-source-llm-assembly",
+        "ins_pawel-huryn-task-driven-skill-minimalism",
+        "ins_chris-orlob-five-touch-sequence"
+      ],
+      "operators_added": [
+        "rewind",
+        "nicolas-cole"
+      ],
+      "patterns_added": [],
+      "playbooks_added": []
+    },
     {
       "path": "daily/2026-05-15.md",
       "date": "2026-05-15",

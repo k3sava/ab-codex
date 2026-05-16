@@ -1,24 +1,50 @@
 {
-  "generated_at": "2026-05-15T03:15:01.446Z",
+  "generated_at": "2026-05-16T03:16:28.685Z",
   "latest_daily": {
-    "path": "daily/2026-05-15.md",
-    "date": "2026-05-15",
-    "title": "Earn the citation, hold the floor, retire the position metric",
-    "summary": "Four new cards from Lily Ray, Aleyda Solis, Eli Schwartz, and Aakash Gupta. Ray and Solis converge on the structural architecture of AEO visibility from opposite directions. Schwartz names the measurement construct that is dissolving beneath the whole category. Gupta gives a one-sentence test that changes how you scope a skills library.",
+    "path": "daily/2026-05-16.md",
+    "date": "2026-05-16",
+    "title": "Five new insights: recovery floors, AI consensus, and task-driven minimalism",
+    "summary": "Five new cards from five operators. Rewind names the chilling effect that recovery gaps create on AI adoption. Packy McCormick and Nicolas Cole converge on distinctiveness as the post-AI scarcity from independent angles. Pawel Huryn and Chris Orlob arrive at the same minimalist discipline applied to skill acquisition and outreach sequencing.",
     "sources": [
-      "morning research scan 2026-05-15"
+      "morning research scan 2026-05-16"
     ],
     "insights_added": [
-      "ins_lily-ray-geo-penalty-multi-surface-cascade",
-      "ins_aleyda-solis-aeo-offsite-corroboration-floor",
-      "ins_eli-schwartz-personalized-search-dissolves-position",
-      "ins_aakash-gupta-paste-twice-test"
+      "ins_rewind-ai-adoption-chilling-effect",
+      "ins_mccormick-ai-makes-consensus-cheap",
+      "ins_nicolas-cole-voc-source-llm-assembly",
+      "ins_pawel-huryn-task-driven-skill-minimalism",
+      "ins_chris-orlob-five-touch-sequence"
     ],
-    "operators_added": "",
+    "operators_added": [
+      "rewind",
+      "nicolas-cole"
+    ],
     "patterns_added": [],
     "playbooks_added": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-05-16.md",
+      "date": "2026-05-16",
+      "title": "Five new insights: recovery floors, AI consensus, and task-driven minimalism",
+      "summary": "Five new cards from five operators. Rewind names the chilling effect that recovery gaps create on AI adoption. Packy McCormick and Nicolas Cole converge on distinctiveness as the post-AI scarcity from independent angles. Pawel Huryn and Chris Orlob arrive at the same minimalist discipline applied to skill acquisition and outreach sequencing.",
+      "sources": [
+        "morning research scan 2026-05-16"
+      ],
+      "insights_added": [
+        "ins_rewind-ai-adoption-chilling-effect",
+        "ins_mccormick-ai-makes-consensus-cheap",
+        "ins_nicolas-cole-voc-source-llm-assembly",
+        "ins_pawel-huryn-task-driven-skill-minimalism",
+        "ins_chris-orlob-five-touch-sequence"
+      ],
+      "operators_added": [
+        "rewind",
+        "nicolas-cole"
+      ],
+      "patterns_added": [],
+      "playbooks_added": []
+    },
     {
       "path": "daily/2026-05-15.md",
       "date": "2026-05-15",

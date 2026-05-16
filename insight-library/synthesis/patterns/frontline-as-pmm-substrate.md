@@ -2,9 +2,10 @@
 id: pat_frontline-as-pmm-substrate
 title: Frontline customer contact is the PMM substrate
 captured_date: 2026-05-01
-convergence_count: 5
+last_updated: 2026-05-16
+convergence_count: 9
 tier: A
-uses_cards: [ins_jtbd-interviews-surface-customer-language, ins_sales-team-detects-positioning-failure-first, ins_market-to-product-product-to-market, ins_pricing-needs-weekly-customer-calls, ins_3s-content-from-sales-success-support, ins_test-positioning-in-live-sales-pitch, ins_zappos-rotation-through-support, ins_pov-led-outbound]
+uses_cards: [ins_jtbd-interviews-surface-customer-language, ins_sales-team-detects-positioning-failure-first, ins_market-to-product-product-to-market, ins_pricing-needs-weekly-customer-calls, ins_3s-content-from-sales-success-support, ins_test-positioning-in-live-sales-pitch, ins_zappos-rotation-through-support, ins_pov-led-outbound, ins_nicolas-cole-voc-source-llm-assembly]
 domains: [pmm, sales-cs, research]
 ---
 

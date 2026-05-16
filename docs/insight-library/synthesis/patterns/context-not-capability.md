@@ -2,10 +2,10 @@
 id: pat_context-not-capability
 title: Context, not capability, is the bottleneck
 captured_date: 2026-05-01
-last_updated: 2026-05-15
-convergence_count: 10
+last_updated: 2026-05-16
+convergence_count: 11
 tier: A
-uses_cards: [ins_bottleneck-is-context-not-capability, ins_llm-wiki-pattern, ins_personal-pattern-hoarding, ins_red-green-tdd-shorthand-for-agents, ins_dotclaude-as-deployable-artifact, ins_remove-features-as-models-improve, ins_maja-voje-substrate-first-content-engineering, ins_poyar-voje-context-engineering-gap, ins_anthropic-claude-code-subagents-haiku-routing, ins_aakash-gupta-paste-twice-test]
+uses_cards: [ins_bottleneck-is-context-not-capability, ins_llm-wiki-pattern, ins_personal-pattern-hoarding, ins_red-green-tdd-shorthand-for-agents, ins_dotclaude-as-deployable-artifact, ins_remove-features-as-models-improve, ins_maja-voje-substrate-first-content-engineering, ins_poyar-voje-context-engineering-gap, ins_anthropic-claude-code-subagents-haiku-routing, ins_aakash-gupta-paste-twice-test, ins_pawel-huryn-task-driven-skill-minimalism]
 domains: [ai-native, engineering]
 ---
 

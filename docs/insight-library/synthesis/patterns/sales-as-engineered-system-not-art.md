@@ -2,9 +2,10 @@
 id: pat_sales-as-engineered-system-not-art
 title: Sales is an engineered system, not individual art — Roberge, Skok, Voss, and Altman on the structural design of repeatable revenue
 captured_date: 2026-05-05
-convergence_count: 4
+last_updated: 2026-05-16
+convergence_count: 15
 tier: A
-uses_cards: [ins_roberge-sales-as-engineering-discipline, ins_roberge-structured-training, ins_roberge-data-driven-coaching, ins_roberge-premature-scaling, ins_roberge-technology-feedback-loop, ins_coachability-beats-experience, ins_skok-salesperson-unit-economics, ins_skok-sales-rep-failure-rate, ins_voss-mirroring-forces-elaboration, ins_voss-tactical-empathy-labels, ins_voss-thats-right-breakthrough, ins_voss-black-swans-discovered-in-process, ins_voss-accusation-audit, ins_altman-belief-as-sales-engine]
+uses_cards: [ins_roberge-sales-as-engineering-discipline, ins_roberge-structured-training, ins_roberge-data-driven-coaching, ins_roberge-premature-scaling, ins_roberge-technology-feedback-loop, ins_coachability-beats-experience, ins_skok-salesperson-unit-economics, ins_skok-sales-rep-failure-rate, ins_voss-mirroring-forces-elaboration, ins_voss-tactical-empathy-labels, ins_voss-thats-right-breakthrough, ins_voss-black-swans-discovered-in-process, ins_voss-accusation-audit, ins_altman-belief-as-sales-engine, ins_chris-orlob-five-touch-sequence]
 domains: [sales-cs, gtm, leadership, ai-native]
 ---
 

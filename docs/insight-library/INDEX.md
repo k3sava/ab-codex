@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-05-15. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-05-16. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 820 insight cards
-- 468 operator profiles
+- 825 insight cards
+- 470 operator profiles
 - 209 raw source files
 - 41 synthesis patterns
 - 11 contradictions
@@ -347,7 +347,7 @@ _Generated 2026-05-15. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (415)
+### Tier B (420)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -431,6 +431,7 @@ _Generated 2026-05-15. Auto-built from frontmatter — do not edit by hand._
 - [`ins_casey-hill-structural-prominence-llm-citations`](insights/ins_casey-hill-structural-prominence-llm-citations.md) — Nav and footer placement is a first-class LLM relevance signal, independent of page content. _(Casey Hill)_
 - [`ins_changing-everything-faster-than-most`](insights/ins_changing-everything-faster-than-most.md) — AI is changing everything. Faster than most people are ready for _(Dan Murphy)_
 - [`ins_chirayu-akotiya-content-engine-scaling`](insights/ins_chirayu-akotiya-content-engine-scaling.md) — Replace the marketing org with a growth team to fix GTM alignment _(Chirayu Akotiya)_
+- [`ins_chris-orlob-five-touch-sequence`](insights/ins_chris-orlob-five-touch-sequence.md) — Each outbound touch must build on the prior, not restate it; the 2nd and 3rd touches double reply rates when this holds _(Chris Orlob)_
 - [`ins_ciana-abdollahian-vibe-coded-customer-discovery-tool`](insights/ins_ciana-abdollahian-vibe-coded-customer-discovery-tool.md) — Vibe-coding a lightweight internal tool solves the 'I need a customer who' request gap. _(Ciana Abdollahian)_
 - [`ins_claude-plus-crm-plus-orchestration-stack`](insights/ins_claude-plus-crm-plus-orchestration-stack.md) — AI tools combine with CRMs through orchestration; they do not replace them _(Maja Voje)_
 - [`ins_code-node-utilizes-api-key`](insights/ins_code-node-utilizes-api-key.md) — This code node utilizes your API key and User ID to establish a connection with your Ic _(Suprava Sabat)_
@@ -582,6 +583,7 @@ _Generated 2026-05-15. Auto-built from frontmatter — do not edit by hand._
 - [`ins_marketing-debt-compounds-after-every-sprint`](insights/ins_marketing-debt-compounds-after-every-sprint.md) — Marketing debt is the gap between your actual product and your marketing footprint, and it compounds silently after every sprint _(Aatir Abdul Rauf)_
 - [`ins_max-schoening-agency-over-skills`](insights/ins_max-schoening-agency-over-skills.md) — Agency, not skills, separates people who thrive from those who fall behind. Skills are acquirable and AI-generatable; self-direction is not. _(Max Schoening)_
 - [`ins_mayuresh-patole-ai-should-not-lower-the-bar`](insights/ins_mayuresh-patole-ai-should-not-lower-the-bar.md) — AI presentation tools must preserve credibility, not make work look disposable. _(Mayuresh Patole)_
+- [`ins_mccormick-ai-makes-consensus-cheap`](insights/ins_mccormick-ai-makes-consensus-cheap.md) — AI makes consensus the default output; distinctiveness is now the only scarce input _(Packy McCormick)_
 - [`ins_media-first-business`](insights/ins_media-first-business.md) — Build media-first: long-form for trust, short-form for discovery, newsletter for retention, community for conversion _(Matt Gray)_
 - [`ins_megha-sharma-founders-need-end-to-end-gtm`](insights/ins_megha-sharma-founders-need-end-to-end-gtm.md) — Founders who need brand positioning always end up asking for lead generation, so offer both. _(Megha Sharma)_
 - [`ins_mental-models-as-os-not-library`](insights/ins_mental-models-as-os-not-library.md) — Mental models compound only if they run automatically, looking up the right model in the moment is too slow _(Charlie Munger)_
@@ -605,6 +607,7 @@ _Generated 2026-05-15. Auto-built from frontmatter — do not edit by hand._
 - [`ins_neumeier-strategic-pyramid`](insights/ins_neumeier-strategic-pyramid.md) — Purpose at the top (forever), mission and vision in the middle (5-20 years), tactics at the bottom (1-3 years) _(Marty Neumeier)_
 - [`ins_never-imagined-chocolate-bar-could`](insights/ins_never-imagined-chocolate-bar-could.md) — I never imagined a ₹50 chocolate bar could teach a ₹10 crore marketing lesson _(Sulagna Das)_
 - [`ins_never-know-how-far-can`](insights/ins_never-know-how-far-can.md) — You never know how far it can take you _(Nalin Senthamil)_
+- [`ins_nicolas-cole-voc-source-llm-assembly`](insights/ins_nicolas-cole-voc-source-llm-assembly.md) — Customer language is the source material for conversion copy; the LLM is the assembly layer, not the author _(Nicolas Cole)_
 - [`ins_nicolas-schell-turn-triggers-into-revenue`](insights/ins_nicolas-schell-turn-triggers-into-revenue.md) — Most teams chase wrong triggers and send generic emails that kill reply rates. _(Nicolas Schell)_
 - [`ins_nihal-ahamed-m-linkedin-ads-attribution-pain`](insights/ins_nihal-ahamed-m-linkedin-ads-attribution-pain.md) — LinkedIn Ads attribution is a spreadsheet nightmare that AI can solve _(Nihal Ahamed M)_
 - [`ins_nine-out-ten-companies-skip`](insights/ins_nine-out-ten-companies-skip.md) — Nine out of ten companies skip product updates entirely. Most of the ones that do publi _(Brian Sierakowski)_
@@ -624,6 +627,7 @@ _Generated 2026-05-15. Auto-built from frontmatter — do not edit by hand._
 - [`ins_parag-pathak-leadership-philosophy-clarity-purpose`](insights/ins_parag-pathak-leadership-philosophy-clarity-purpose.md) — Leadership philosophy: surround yourself with exceptional people, stay close to customer problems, lead with clarity and conviction _(Parag Pathak)_
 - [`ins_pavithra-krishnaswamy-pay-it-forward-pmm-job-hunt`](insights/ins_pavithra-krishnaswamy-pay-it-forward-pmm-job-hunt.md) — PMMs should pay it forward by offering 1:1 support during job hunts _(Pavithra Krishnaswamy)_
 - [`ins_pavithra-krishnaswamy-sisyphean-pmm-journey`](insights/ins_pavithra-krishnaswamy-sisyphean-pmm-journey.md) — Nobody chose product marketing, it chooses you _(Pavithra Krishnaswamy)_
+- [`ins_pawel-huryn-task-driven-skill-minimalism`](insights/ins_pawel-huryn-task-driven-skill-minimalism.md) — Start with no AI skills installed and add one only when a real task forces it _(Pawel Huryn)_
 - [`ins_peer-mentorship-supply-scaling`](insights/ins_peer-mentorship-supply-scaling.md) — Use peer mentorship instead of HR overhead to scale supply quality _(Benjamin Lauzier)_
 - [`ins_persistence-channels-vs-hit-or-miss`](insights/ins_persistence-channels-vs-hit-or-miss.md) — Persistence channels compound; hit-or-miss channels don't. Originate in the first, accelerate in the second. _(Julian Shapiro)_
 - [`ins_phil-schmid-four-subagent-patterns`](insights/ins_phil-schmid-four-subagent-patterns.md) — Four subagent patterns are settling as standard: Inline Tool, Fan-Out, Agent Pool, and Teams. Each adds control surface at a real debugging cost. _(Phil Schmid)_
@@ -663,6 +667,7 @@ _Generated 2026-05-15. Auto-built from frontmatter — do not edit by hand._
 - [`ins_relational-keywords-replace-internal-language`](insights/ins_relational-keywords-replace-internal-language.md) — The exact words customers use should replace internal terminology in every piece of copy _(Adrienne Barnes)_
 - [`ins_relevance-engineering-not-content-problem`](insights/ins_relevance-engineering-not-content-problem.md) — GEO is an information-retrieval engineering problem, not a content problem _(Mike King)_
 - [`ins_reps-want-questions-not-dashboards`](insights/ins_reps-want-questions-not-dashboards.md) — Sellers don't want a better dashboard, they want to ask the deal questions _(Yamini Rangan)_
+- [`ins_rewind-ai-adoption-chilling-effect`](insights/ins_rewind-ai-adoption-chilling-effect.md) — Recovery gaps create a chilling effect on AI agent adoption inside organizations _(Rewind)_
 - [`ins_rich-context-beats-sophisticated-agents`](insights/ins_rich-context-beats-sophisticated-agents.md) — Simple agents reading rich, specific context outperform complex agents reading thin context _(Maja Voje)_
 - [`ins_ricky-sangra-leo-polonsky-george`](insights/ins_ricky-sangra-leo-polonsky-george.md) — Ricky Sangra Leo Polonsky George Griffiths Jerry Broll Katie Schratz Thanks for your co _(Rohit Agarwal)_
 - [`ins_roberge-technology-feedback-loop`](insights/ins_roberge-technology-feedback-loop.md) — Instrument every buyer interaction so the data feeds back into the four formulas, sales technology compounds, it doesn't just record _(Mark Roberge)_
@@ -1160,6 +1165,7 @@ _Generated 2026-05-15. Auto-built from frontmatter — do not edit by hand._
 - [Neil Rackham](operators/neil-rackham/README.md)
 - [Nemanja Jovančić](operators/nemanja-jovan-i/README.md)
 - [Nick Abraham](operators/nick-abraham/README.md)
+- [Nicolas Cole](operators/nicolas-cole/README.md)
 - [Nicolas Schell](operators/nicolas-schell/README.md)
 - [Nihal Ahamed M](operators/nihal-ahamed-m/README.md)
 - [Nik Sharma](operators/nik-sharma/README.md)
@@ -1199,6 +1205,7 @@ _Generated 2026-05-15. Auto-built from frontmatter — do not edit by hand._
 - [Reforge](operators/reforge/README.md)
 - [Reigan Combs](operators/reigan-combs/README.md)
 - [Renae McBride](operators/renae-mcbride/README.md)
+- [Rewind](operators/rewind/README.md)
 - [Richard King](operators/richard-king/README.md)
 - [Robert Rose](operators/robert-rose/README.md)
 - [Rohit Agarwal](operators/rohit-agarwal/README.md)
@@ -1324,16 +1331,16 @@ _Generated 2026-05-15. Auto-built from frontmatter — do not edit by hand._
 - [`pat_behavioral-pricing-architecture`](synthesis/patterns/behavioral-pricing-architecture.md) — Pricing is a behavioral-architecture problem (5 ops) [Tier A]
 - [`pat_build-for-next-model`](synthesis/patterns/build-for-next-model.md) — Build for the next model, not the current one (6 ops) [Tier A]
 - [`pat_buyer-mindset-not-product-features`](synthesis/patterns/buyer-mindset-not-product-features.md) — Sell to the buyer's mindset, not to product features (5 ops) [Tier A]
-- [`pat_context-not-capability`](synthesis/patterns/context-not-capability.md) — Context, not capability, is the bottleneck (10 ops) [Tier A]
+- [`pat_context-not-capability`](synthesis/patterns/context-not-capability.md) — Context, not capability, is the bottleneck (11 ops) [Tier A]
 - [`pat_copywriting-craft-fundamentals`](synthesis/patterns/copywriting-craft-fundamentals.md) — Copywriting craft is built on five reinforcing fundamentals (6 ops) [Tier A]
 - [`pat_decision-quality-through-process-not-willpower`](synthesis/patterns/decision-quality-through-process-not-willpower.md) — Decision quality at scale comes from process, not willpower (4 ops) [Tier A]
 - [`pat_diagnose-before-execute`](synthesis/patterns/diagnose-before-execute.md) — Diagnose before executing, refuse the playbook ask (4 ops) [Tier A]
-- [`pat_differentiation-vs-sameness`](synthesis/patterns/differentiation-vs-sameness.md) — Differentiation requires three checks, different, better, matters (6 ops) [Tier B]
+- [`pat_differentiation-vs-sameness`](synthesis/patterns/differentiation-vs-sameness.md) — Differentiation requires three checks, different, better, matters (7 ops) [Tier B]
 - [`pat_distribution-as-moat`](synthesis/patterns/distribution-as-moat.md) — Distribution and earned channels are the new moat (5 ops) [Tier A]
 - [`pat_economic-turing-test-rev-per-employee`](synthesis/patterns/economic-turing-test-rev-per-employee.md) — The Economic Turing Test, outcomes pricing, agent labor, revenue per employee (3 ops) [Tier A]
 - [`pat_eval-as-data-analysis`](synthesis/patterns/eval-as-data-analysis.md) — Evals are data analysis, single judge, binary rubrics, error analysis first (3 ops) [Tier A]
 - [`pat_execution-cheap-judgement-scarce`](synthesis/patterns/execution-cheap-judgement-scarce.md) — Execution is becoming free; judgement is the part that doesn't compress (4 ops) [Tier A]
-- [`pat_frontline-as-pmm-substrate`](synthesis/patterns/frontline-as-pmm-substrate.md) — Frontline customer contact is the PMM substrate (5 ops) [Tier A]
+- [`pat_frontline-as-pmm-substrate`](synthesis/patterns/frontline-as-pmm-substrate.md) — Frontline customer contact is the PMM substrate (9 ops) [Tier A]
 - [`pat_generalists-with-taste`](synthesis/patterns/generalists-with-taste.md) — Generalists with taste, shipping end-to-end (5 ops) [Tier A]
 - [`pat_llm-as-os`](synthesis/patterns/llm-as-os.md) — LLM-as-OS, post-training as moat (4 ops) [Tier A]
 - [`pat_make-implicit-explicit`](synthesis/patterns/make-implicit-explicit.md) — Make the implicit explicit (5 ops) [Tier A]
@@ -1347,7 +1354,7 @@ _Generated 2026-05-15. Auto-built from frontmatter — do not edit by hand._
 - [`pat_quality-as-growth-lever`](synthesis/patterns/quality-as-growth-lever.md) — Quality and friction-as-feature are growth levers, not constraints (4 ops) [Tier A]
 - [`pat_rapport-surfaces-what-research-cannot`](synthesis/patterns/rapport-surfaces-what-research-cannot.md) — Rapport surfaces what research cannot (3 ops) [Tier A]
 - [`pat_research-preview-cadence`](synthesis/patterns/research-preview-and-cadence.md) — Research preview, frontier programs, seasons not roadmaps (3 ops) [Tier B]
-- [`pat_sales-as-engineered-system-not-art`](synthesis/patterns/sales-as-engineered-system-not-art.md) — Sales is an engineered system, not individual art (4 ops) [Tier A]
+- [`pat_sales-as-engineered-system-not-art`](synthesis/patterns/sales-as-engineered-system-not-art.md) — Sales is an engineered system, not individual art (15 ops) [Tier A]
 - [`pat_specific-knowledge-and-circle-of-competence`](synthesis/patterns/specific-knowledge-and-circle-of-competence.md) — Specific knowledge × circle of competence: the moat is the boundary (3 ops) [Tier A]
 - [`pat_specificity-becomes-profitable`](synthesis/patterns/specificity-becomes-profitable.md) — Specificity becomes profitable, long tail, niche, segment-aware pricing (3 ops) [Tier B]
 - [`pat_status-quo-is-the-competitor`](synthesis/patterns/status-quo-is-the-competitor.md) — Status quo / no-decision is the real competitor (6 ops) [Tier A]
