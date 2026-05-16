@@ -3,14 +3,14 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest — 2026-05-16 · 5 insights · 2 operators
+### Latest · 2026-05-16 · 5 insights · 2 operators
 
-**Five new insights: recovery floors, AI consensus, and task-driven minimalism** — Five new cards from five operators. Rewind names the chilling effect that recovery gaps create on AI adoption. Packy McCormick and Nicolas Cole converge on distinctiveness as the post-AI scarcity from independent angles. Pawel Huryn and Chris Orlob arrive at the same minimalist discipline applied to skill acquisition and outreach sequencing.
+**Five new insights: recovery floors, AI consensus, and task-driven minimalism.** Five new cards from five operators. Rewind names the chilling effect that recovery gaps create on AI adoption. Packy McCormick and Nicolas Cole converge on distinctiveness as the post-AI scarcity from independent angles. Pawel Huryn and Chris Orlob arrive at the same minimalist discipline applied to skill acquisition and outreach sequencing.
 
 [Read what landed →](insight-library/daily/2026-05-16.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
-A primary-source library of operator insights — atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
+A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
 
 ## What's in here today
 
@@ -55,7 +55,7 @@ Press `⌘K` (or `Ctrl-K`) anywhere to search across operators, claims, and patt
 
 ## What you'll find
 
-Cross-domain operator wisdom across Product, PMM, GTM, Growth, Design, Engineering, AI-native operating, Leadership, Sales/CS, Research, and Founder craft. A structured, primary-source record of what operators have published — with the source URL attached to every claim.
+Cross-domain operator wisdom across Product, PMM, GTM, Growth, Design, Engineering, AI-native operating, Leadership, Sales/CS, Research, and Founder craft. A structured, primary-source record of what operators have published, with the source URL attached to every claim.
 
 A few of the operators currently in the corpus: April Dunford, Andrej Karpathy, Claire Vo, Cat Wu, Boris Cherny, Yamini Rangan, Kieran Flanagan, Elena Verna, Andy Raskin, Bob Moesta, Annie Duke, Aleyda Solis, Mike King, Kevin Indig, Brian Balfour, Brian Halligan, Bret Taylor, Jessica Fain, Ethan Mollick, Lily Ray, Simon Willison, Sherwin Wu, Asha Sharma, Anton Osika, Patrick Campbell, Charlie Munger, Daniel Kahneman, Naval Ravikant, and many more.
 
@@ -64,24 +64,24 @@ A few of the operators currently in the corpus: April Dunford, Andrej Karpathy, 
 ```
 abcodex/
 ├── insight-library/
-│   ├── 00_meta/        — schema, taxonomy, scoring model, ingest protocol
-│   ├── insights/       — atomic insight cards (one claim each)
-│   ├── operators/      — operator profiles
-│   ├── synthesis/      — patterns + contradictions + coverage matrix
-│   ├── playbooks/      — methodology documents
-│   ├── raw/            — archived primary sources
-│   ├── INDEX.md        — human-readable index
-│   └── INDEX.json      — machine-readable index (the site reads this)
-├── docs/               — the interactive site
+│   ├── 00_meta/        · schema, taxonomy, scoring model, ingest protocol
+│   ├── insights/       · atomic insight cards (one claim each)
+│   ├── operators/      · operator profiles
+│   ├── synthesis/      · patterns + contradictions + coverage matrix
+│   ├── playbooks/      · methodology documents
+│   ├── raw/            · archived primary sources
+│   ├── INDEX.md        · human-readable index
+│   └── INDEX.json      · machine-readable index (the site reads this)
+├── docs/               · the interactive site
 └── scripts/
-    └── build-index.mjs — regenerates INDEX.md/INDEX.json from frontmatter
+    └── build-index.mjs · regenerates INDEX.md/INDEX.json from frontmatter
 ```
 
 ## Using the corpus from another project
 
 The `INDEX.json` at `insight-library/INDEX.json` is the canonical index. Every record carries `id`, `path`, `operator`, `source_url`, `source_date`, `domain`, `lifecycle`, `tier`. Read it directly, link to cards by id, or fetch their markdown bodies at the listed paths.
 
-If you only want a subset, filter `INDEX.json` by `tier`, `domain`, or `operator`. Don't copy the cards into your own repo — link to them so updates propagate.
+If you only want a subset, filter `INDEX.json` by `tier`, `domain`, or `operator`. Don't copy the cards into your own repo. Link to them so updates propagate.
 
 ## Contributing
 

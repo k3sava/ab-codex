@@ -18,14 +18,14 @@ Four operators from completely separate lanes, agent frameworks, LLM evals, AI r
 - Andrej Karpathy, `ins_judgment-vs-understanding`. "You can outsource your thinking, but you can't outsource your understanding." Verification is the new human comparative advantage. Companion: `ins_capability-spikes-where-verification-loops-exist`. Capability spikes where labs already have data, rewards, and verification loops.
 - Harrison Chase, `ins_traces-need-feedback-to-learn`. A trace tells you what happened, not whether it was good. Trace plus feedback is the minimum learning unit.
 - Eugene Yan, `ins_mine-transcripts-to-promote-config`. Mine session transcripts for promotable patterns; the corpus is the gym. Companion: `ins_make-verification-easy-ai-production`. Make the verification path the easy path so it actually gets done.
-- Hamel Husain, `ins_error-analysis-highest-leverage-eval-step`. Open-coding failure samples before building the judge is the high-leverage eval step PMs skip. "Error analysis is the step that most people skip in evals, the thing that's going to give you extreme leverage as a PM."
+- Hamel Husain, `ins_error-analysis-highest-leverage-eval-step`. Open-coding failure samples before building the judge is the eval step PMs skip, and the one that moves their evals the most. "Error analysis is the step that most people skip in evals, the thing that's going to give you extreme leverage as a PM."
 - Anthropic, `ins_outcomes-grader-agent-evaluation`. A separate grader agent in its own context window evaluates output against a success rubric before anything ships. +8.4% docx, +10.1% pptx in internal testing. "Agents do their best work when they know what 'good' looks like."
 
 ## Variation
 - Karpathy frames it as a *role redesign*: humans move from production to verification.
 - Chase frames it as an *infrastructure requirement*: feedback bound to traces is the missing primitive in most observability stacks.
 - Yan frames it as an *operational practice*: transcript review and promotion-as-PR is how the loop closes in real work.
-- Husain frames it as a *methodology*: a six-step open-coding-then-judge sequence with TPR/TNR validation against human labels. Error analysis is the step PMs skip and the one that gives the most leverage.
+- Husain frames it as a *methodology*: a six-step open-coding-then-judge sequence with TPR/TNR validation against human labels. Error analysis is the step PMs skip, and the one that moves their evals the most.
 - Anthropic frames it as a *platform feature*: separate grader agents and review gates as first-class primitives in Managed Agents.
 - Convergence: all five say execution is solved, verification is not, and any system that doesn't wire verification into the trace at design time will accumulate logs without learning.
 

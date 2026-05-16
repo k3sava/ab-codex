@@ -2125,7 +2125,7 @@ function about(){
 
     <h2>For agents and other tools</h2>
     <p>The corpus is built to be readable by AI search engines and other automated tools. <a href='https://abcodex.iamkesava.com/insight-library/INDEX.json'>INDEX.json</a> is the canonical machine-readable index. Every record carries id, path, operator, source_url, source_date, domain, lifecycle, and tier. <a href='https://abcodex.iamkesava.com/llms.txt'>llms.txt</a> documents the structure. <a href='https://abcodex.iamkesava.com/.well-known/agent-permissions.json'>agent-permissions.json</a> declares the licensing terms (MIT, attribution required).</p>
-    <p>Every insight has a static URL at <code>codex.iamkesava.com/ins/&lt;id&gt;/</code> with full content plus Schema.org structured data, so crawlers and AI search agents can read the page without executing JavaScript.</p>
+    <p>Every insight has a static URL at <code>abcodex.iamkesava.com/ins/&lt;id&gt;/</code> with full content plus Schema.org structured data, so crawlers and AI search agents can read the page without executing JavaScript.</p>
 
     <h2>License</h2>
     <p>Source on <a href='https://github.com/k3sava/abcodex' target='_blank' rel='noopener'>GitHub</a>. Released MIT. Raw sources retain their original copyright. The codex archives short excerpts under fair use, always with attribution and a link to the canonical source.</p>

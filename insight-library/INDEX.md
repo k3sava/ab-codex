@@ -1402,6 +1402,6 @@ _Generated 2026-05-16. Auto-built from frontmatter — do not edit by hand._
 - [PMM coaching framework playbook](playbooks/messaging/pmm-coaching-framework.md)
 - [Narrative compose playbook](playbooks/narrative/narrative-compose.md)
 - [Positioning Document — full pipeline](playbooks/positioning/positioning-document.md)
-- [The Pricing-as-Strategic-Function Playbook](playbooks/pricing/the-pricing-as-strategic-function-playbook.md)
+- [Run pricing as a function, not a sales-team task](playbooks/pricing/the-pricing-as-strategic-function-playbook.md)
 - [The Tactical Empathy Discovery Playbook](playbooks/sales-discovery/the-tactical-empathy-discovery-playbook.md)
 - [Sales enablement playbook](playbooks/sales-enablement/sales-enablement.md)

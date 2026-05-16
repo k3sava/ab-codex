@@ -336,9 +336,9 @@ async function main() {
       const counted = bits.length ? bits.join(" · ") : "no new entries";
       const latestPath = ld.path; // e.g. "daily/2026-05-06.md"
       const latestBlock = [
-        `### Latest — ${ld.date} · ${counted}`,
+        `### Latest · ${ld.date} · ${counted}`,
         ``,
-        `**${ld.title ?? "What's new"}** — ${ld.summary ?? ""}`,
+        `**${ld.title ?? "What's new"}.** ${ld.summary ?? ""}`,
         ``,
         `[Read what landed →](insight-library/${latestPath}) · [See on the site →](https://abcodex.iamkesava.com/#/today)`,
       ].join("\n");
