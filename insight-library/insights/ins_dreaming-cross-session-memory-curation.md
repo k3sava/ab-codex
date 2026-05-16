@@ -42,6 +42,6 @@ Announced as a gated research preview at Code with Claude, May 6, 2026. The feat
 Scheduled extraction without a review gate becomes unaudited automated memory. Low session volume produces noisy signal with poor pattern quality. The extraction process can surface coincidental patterns rather than causal ones.
 
 ## Cross-references
-- `ins_outcomes-grader-agent-evaluation` (Anthropic): paired feature — Outcomes closes the output loop, Dreaming closes the memory loop
+- `ins_outcomes-grader-agent-evaluation` (Anthropic): paired feature, Outcomes closes the output loop, Dreaming closes the memory loop
 - `ins_traces-need-feedback-to-learn` (Harrison Chase): traces without feedback are incomplete; Dreaming applies that principle to persistent state
 - `ins_mine-transcripts-to-promote-config`: mining transcripts to promote patterns into config

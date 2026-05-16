@@ -44,6 +44,6 @@ Solis analyzed citation patterns across five ecommerce subverticals. Citation so
 For categories where third-party corroboration infrastructure is thin (new product types, niche B2B verticals), on-site quality remains the primary differentiator. The off-site-first principle is strongest in mature ecommerce categories.
 
 ## Cross-references
-- [[ins_lily-ray-geo-penalty-multi-surface-cascade]] — Ray's complementary frame: self-promotional tactics cascade penalties across every AI surface simultaneously
-- [[ins_aeo-three-layer-presence-readiness-impact]] — Solis's prior card on three-layer AEO measurement
-- [[ins_crawlability-shapes-everything]] — Solis's prior card on crawlability as the prerequisite floor
+- [[ins_lily-ray-geo-penalty-multi-surface-cascade]], Ray's complementary frame: self-promotional tactics cascade penalties across every AI surface simultaneously
+- [[ins_aeo-three-layer-presence-readiness-impact]], Solis's prior card on three-layer AEO measurement
+- [[ins_crawlability-shapes-everything]], Solis's prior card on crawlability as the prerequisite floor

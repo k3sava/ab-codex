@@ -8,6 +8,8 @@ cd "$ROOT"
 
 echo "→ validate corpus"
 node scripts/validate.mjs
+echo "→ voice-lint (informational; set STRICT=1 to gate)"
+node scripts/voice-lint.mjs | tail -5 || true
 echo "→ stage corpus into docs/"
 mkdir -p docs/insight-library
 rm -rf docs/insight-library/insights docs/insight-library/operators docs/insight-library/synthesis docs/insight-library/playbooks docs/insight-library/daily docs/insight-library/00_meta 2>/dev/null || true
