@@ -35,7 +35,11 @@
    codex typography palette but in a layout tuned for crawlers + readers. */
 :root{--paper:#f3f5ee;--paper-2:#e6ebe0;--ink:#0d1410;--ink-2:#2a3530;--muted:#6b7868;--accent:#1f9d55;--accent-2:#15803d;--line:#0d141022;--line-2:#0d141012}
 *{box-sizing:border-box;margin:0;padding:0}
+*:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
 body{font-family:Inter,system-ui,sans-serif;background:var(--paper);color:var(--ink);margin:0;-webkit-font-smoothing:antialiased;line-height:1.55}
+.skip-link{position:fixed;top:-100px;left:8px;z-index:100;padding:10px 14px;background:var(--ink);color:var(--paper);font-family:JetBrains Mono,monospace;font-size:.74rem;text-decoration:none;border-radius:6px;transition:top .15s ease}
+.skip-link:focus{top:8px;outline:2px solid var(--accent);outline-offset:2px}
+main:focus{outline:none}
 .static-topbar{display:flex;align-items:center;justify-content:space-between;padding:14px 24px;border-bottom:1px solid var(--line-2);background:color-mix(in oklab,var(--paper) 92%,transparent);backdrop-filter:blur(8px);position:sticky;top:0;z-index:10}
 .static-topbar .brand{font-family:Newsreader,Georgia,serif;font-weight:500;font-size:1.05rem;letter-spacing:-.01em;color:var(--ink);text-decoration:none;display:flex;align-items:center;gap:8px}
 .static-topbar .brand:hover{color:var(--accent-2)}
@@ -120,6 +124,31 @@ main.static pre code{background:transparent;padding:0}
 .static-card:hover{border-color:var(--accent);transform:translateY(-1px)}
 .static-card .tier{font-family:JetBrains Mono,monospace;font-size:.6rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px}
 .static-card-title{font-family:Newsreader,serif;font-size:1rem;line-height:1.3}
+.static-eyebrow{font-family:JetBrains Mono,monospace;font-size:.7rem;color:var(--accent);text-transform:uppercase;letter-spacing:.12em;font-weight:600;margin-bottom:14px}
+.static-lede{font-family:Newsreader,Georgia,serif;font-size:1.2rem;line-height:1.55;color:var(--ink-2);margin:0 0 28px;max-width:60ch}
+.static-lede a{color:var(--accent-2)}
+.static-op-index{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:6px 16px}
+.static-op-index li{display:flex;justify-content:space-between;align-items:baseline;gap:8px;padding:4px 0}
+.static-op-index .static-op-count{font-family:JetBrains Mono,monospace;font-size:.68rem;color:var(--muted)}
+.static-pat-list{list-style:none;padding:0;display:flex;flex-direction:column;gap:8px}
+.static-pat-list li{padding:8px 12px;border-radius:6px;background:color-mix(in oklab,var(--paper-2) 50%,transparent);display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.static-pat-list .static-pat-count{font-family:JetBrains Mono,monospace;font-size:.68rem;color:var(--muted);white-space:nowrap}
+.static-rel-list{list-style:none;padding:0;display:flex;flex-direction:column;gap:6px}
+.static-rel-list li{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:8px 0;border-bottom:1px solid var(--line-2)}
+.static-rel-list li:last-child{border-bottom:0}
+.static-rel-list a{display:flex;gap:16px;align-items:baseline;flex:1;border:0}
+.static-rel-list a:hover .static-rel-title{color:var(--accent-2)}
+.static-rel-date{font-family:JetBrains Mono,monospace;font-size:.78rem;color:var(--muted);min-width:90px}
+.static-rel-title{font-family:Newsreader,serif;font-size:1.05rem;color:var(--ink)}
+.static-rel-counts{font-family:JetBrains Mono,monospace;font-size:.68rem;color:var(--muted);white-space:nowrap}
+.static-related{margin-top:56px;padding-top:32px;border-top:1px solid var(--line)}
+.static-related h2{font-family:Newsreader,serif;font-weight:500;font-size:1.35rem;line-height:1.25;margin:0 0 22px}
+.static-related-group{margin-bottom:28px}
+.static-related-group:last-child{margin-bottom:0}
+.static-related-label{font-family:JetBrains Mono,monospace;font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:12px;font-weight:600}
+.static-domains{display:flex;flex-wrap:wrap;gap:8px 10px;font-family:JetBrains Mono,monospace;font-size:.74rem;margin:0;padding:0}
+.static-domains a{color:var(--ink-2);text-decoration:none;padding:4px 12px;border:1px solid var(--line);border-radius:999px;transition:border-color .12s,color .12s,background .12s}
+.static-domains a:hover{border-color:var(--accent);color:var(--accent-2);background:color-mix(in oklab,var(--accent) 8%,transparent)}
 .static-footer{max-width:880px;margin:0 auto;padding:32px 24px 64px;border-top:1px solid var(--line-2);font-family:JetBrains Mono,monospace;font-size:.72rem;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px}
 .static-footer a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid transparent}
 .static-footer a:hover{color:var(--accent);border-bottom-color:currentColor}
@@ -132,14 +161,25 @@ main.static pre code{background:transparent;padding:0}
   .static-actions{flex-direction:column;align-items:stretch}
   .static-actions a,.static-actions button{justify-content:center}
 }
+@media print{
+  .static-topbar,.static-footer,.static-actions,.skip-link{display:none !important}
+  main.static{max-width:none;padding:0}
+  main.static h1{font-size:1.8rem}
+  main.static h2{font-size:1.2rem;page-break-after:avoid}
+  main.static a{color:#000;border-bottom:none}
+  main.static a[href^="http"]::after{content:" (" attr(href) ")";font-size:.78em;color:#555}
+  .static-related-group{break-inside:avoid}
+  .static-card{break-inside:avoid}
+}
 
 </style>
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Person","name":"Aparna Chennapragada","url":"https://abcodex.iamkesava.com/o/aparna-chennapragada/","description":"CPO, Microsoft (AI product strategy, productivity); Former CPO, Robinhood; Former VP of Product, Google","sameAs":["https://www.linkedin.com/in/aparnacd"]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"operators","item":"https://abcodex.iamkesava.com/operators/"},{"@type":"ListItem","position":3,"name":"Aparna Chennapragada","item":"https://abcodex.iamkesava.com/o/aparna-chennapragada/"}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://abcodex.iamkesava.com/o/aparna-chennapragada/#person","name":"Aparna Chennapragada","url":"https://abcodex.iamkesava.com/o/aparna-chennapragada/","description":"CPO, Microsoft (AI product strategy, productivity); Former CPO, Robinhood; Former VP of Product, Google","sameAs":["https://www.linkedin.com/in/aparnacd"],"mainEntityOfPage":"https://abcodex.iamkesava.com/o/aparna-chennapragada/"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"operators","item":"https://abcodex.iamkesava.com/operators/"},{"@type":"ListItem","position":3,"name":"Aparna Chennapragada","item":"https://abcodex.iamkesava.com/o/aparna-chennapragada/"}]}]}</script>
 </head>
 <body>
+<a class="skip-link" href="#main">skip to content</a>
 <header class="static-topbar">
   <a class="brand" href="https://abcodex.iamkesava.com/"><span class="dot" aria-hidden="true"></span>a builder's codex</a>
-  <nav>
+  <nav aria-label="Primary">
     <a href="https://abcodex.iamkesava.com/operators/">operators</a>
     <a href="https://abcodex.iamkesava.com/patterns/">patterns</a>
     <a href="https://abcodex.iamkesava.com/playbooks/">playbooks</a>
@@ -147,7 +187,7 @@ main.static pre code{background:transparent;padding:0}
     <a href="https://abcodex.iamkesava.com/#/about">about</a>
   </nav>
 </header>
-<main class="static">
+<main class="static" id="main" tabindex="-1">
 <div class="static-crumbs"><a href="https://abcodex.iamkesava.com/">codex</a> · <a href="https://abcodex.iamkesava.com/operators/">operators</a> · Aparna Chennapragada</div><h1>Aparna Chennapragada</h1><article><h2 id="bio">Bio</h2>
 <p>Aparna Chennapragada. Chief Product Officer at Microsoft, leading AI product strategy across productivity tools. Former CPO at Robinhood and former VP of Product at Google. Public reference voice for the "NLX is the new UX" thesis and the Frontier-cohort tiered-rollout pattern in enterprise software.</p>
 
@@ -169,7 +209,11 @@ main.static pre code{background:transparent;padding:0}
 <ul>
 <li>2026-04-28, Lenny's Podcast, "NLX is the new UX, living in the future, taste over roadmaps" (<code>raw/podcasts/aparna-chennapragada--nlx-is-the-new-ux--2026-04-28.md</code>)</li>
 </ul>
-</article><h2>Insights · 2</h2><div class="static-cards-grid"><a class="static-card" href="https://abcodex.iamkesava.com/ins/ins_frontier-program-tiered-rollout/"><div class="tier">Tier B · product · leadership</div><div class="static-card-title">Run a Frontier cohort, early-adopter access to bleeding-edge features, in parallel with normal rollout</div></a><a class="static-card" href="https://abcodex.iamkesava.com/ins/ins_nlx-is-the-new-ux/"><div class="tier">Tier A · design-ux · ai-native</div><div class="static-card-title">Natural language is the interface; conversation flow is the design surface</div></a></div><div class="static-actions">
+</article><h2>Insights · 2</h2><div class="static-cards-grid"><a class="static-card" href="https://abcodex.iamkesava.com/ins/ins_frontier-program-tiered-rollout/"><div class="tier">Tier B · product · leadership</div><div class="static-card-title">Run a Frontier cohort, early-adopter access to bleeding-edge features, in parallel with normal rollout</div></a><a class="static-card" href="https://abcodex.iamkesava.com/ins/ins_nlx-is-the-new-ux/"><div class="tier">Tier A · design-ux · ai-native</div><div class="static-card-title">Natural language is the interface; conversation flow is the design surface</div></a></div><section class="static-related"><h2>Where this operator connects</h2>
+<div class="static-related-group"><div class="static-related-label">Domains</div><p class="static-domains"><a href="https://abcodex.iamkesava.com/d/product/">product</a> · <a href="https://abcodex.iamkesava.com/d/leadership/">leadership</a> · <a href="https://abcodex.iamkesava.com/d/gtm/">gtm</a> · <a href="https://abcodex.iamkesava.com/d/design-ux/">design-ux</a> · <a href="https://abcodex.iamkesava.com/d/ai-native/">ai-native</a></p></div>
+<div class="static-related-group"><div class="static-related-label">Patterns this operator contributes to</div><div class="static-cards-grid"><a class="static-card" href="https://abcodex.iamkesava.com/pat/pat_agents-as-product-users/"><div class="tier">Pattern · product · design</div><div class="static-card-title">Agents are first-class users, design for output, not navigation</div></a><a class="static-card" href="https://abcodex.iamkesava.com/pat/pat_research-preview-cadence/"><div class="tier">Pattern · product · launch</div><div class="static-card-title">Research preview, frontier programs, seasons not roadmaps</div></a></div></div>
+
+</section><div class="static-actions">
       <a class="primary" href="https://abcodex.iamkesava.com/#/o/aparna-chennapragada">Open the interactive profile →</a>
       <span style="font-family:JetBrains Mono,monospace;font-size:.72rem;color:var(--muted);align-self:center"><a href="https://www.linkedin.com/in/aparnacd" rel="external nofollow">linkedin</a></span>
     </div>
@@ -178,7 +222,7 @@ main.static pre code{background:transparent;padding:0}
 <footer class="static-footer">
   <div class="static-feeds"><a href="https://abcodex.iamkesava.com/llms.txt" rel="noopener">llms.txt</a> · <a href="https://abcodex.iamkesava.com/sitemap.xml" rel="noopener">sitemap</a> · <a href="https://abcodex.iamkesava.com/rss.xml" rel="noopener">rss</a> · <a href="https://abcodex.iamkesava.com/insight-library/INDEX.json" rel="noopener">index.json</a></div>
   <nav aria-label="Sister sites" class="static-sister"><a href="https://apps.iamkesava.com/">apps</a> · <a href="https://tools.iamkesava.com/">tools</a> · <a href="https://toys.iamkesava.com/">toys</a> · <span aria-current="page">codex</span></nav>
-  <div>made by <a href="https://iamkesava.com" rel="noopener author">kesava</a> · <a href="https://github.com/k3sava/ab-codex" rel="noopener">github</a></div>
+  <div>made by <a href="https://iamkesava.com" rel="noopener author">kesava</a> · <a href="https://github.com/k3sava/abcodex" rel="noopener">github</a></div>
 </footer>
 </body>
 </html>

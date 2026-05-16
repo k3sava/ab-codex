@@ -44,6 +44,6 @@ Ray documented specific patterns already being enforced in 2026: self-promotiona
 AI surfaces investing in independent indexing would reduce this cascade over time. The degree of coupling is not publicly confirmed by any lab and may vary by surface and query type.
 
 ## Cross-references
-- [[ins_aleyda-solis-aeo-offsite-corroboration-floor]] — Solis's complementary frame: the real optimization surface is off-site, not on-site
-- [[ins_manual-action-propagates-to-ai-surfaces]] — earlier card on the same mechanical claim
-- [[ins_lily-ray-aeo-seo-continuity]] — Ray's prior card on SEO and AEO as a continuous surface
+- [[ins_aleyda-solis-aeo-offsite-corroboration-floor]], Solis's complementary frame: the real optimization surface is off-site, not on-site
+- [[ins_manual-action-propagates-to-ai-surfaces]], earlier card on the same mechanical claim
+- [[ins_lily-ray-aeo-seo-continuity]], Ray's prior card on SEO and AEO as a continuous surface

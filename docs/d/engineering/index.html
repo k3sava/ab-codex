@@ -35,7 +35,11 @@
    codex typography palette but in a layout tuned for crawlers + readers. */
 :root{--paper:#f3f5ee;--paper-2:#e6ebe0;--ink:#0d1410;--ink-2:#2a3530;--muted:#6b7868;--accent:#1f9d55;--accent-2:#15803d;--line:#0d141022;--line-2:#0d141012}
 *{box-sizing:border-box;margin:0;padding:0}
+*:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
 body{font-family:Inter,system-ui,sans-serif;background:var(--paper);color:var(--ink);margin:0;-webkit-font-smoothing:antialiased;line-height:1.55}
+.skip-link{position:fixed;top:-100px;left:8px;z-index:100;padding:10px 14px;background:var(--ink);color:var(--paper);font-family:JetBrains Mono,monospace;font-size:.74rem;text-decoration:none;border-radius:6px;transition:top .15s ease}
+.skip-link:focus{top:8px;outline:2px solid var(--accent);outline-offset:2px}
+main:focus{outline:none}
 .static-topbar{display:flex;align-items:center;justify-content:space-between;padding:14px 24px;border-bottom:1px solid var(--line-2);background:color-mix(in oklab,var(--paper) 92%,transparent);backdrop-filter:blur(8px);position:sticky;top:0;z-index:10}
 .static-topbar .brand{font-family:Newsreader,Georgia,serif;font-weight:500;font-size:1.05rem;letter-spacing:-.01em;color:var(--ink);text-decoration:none;display:flex;align-items:center;gap:8px}
 .static-topbar .brand:hover{color:var(--accent-2)}
@@ -120,6 +124,31 @@ main.static pre code{background:transparent;padding:0}
 .static-card:hover{border-color:var(--accent);transform:translateY(-1px)}
 .static-card .tier{font-family:JetBrains Mono,monospace;font-size:.6rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px}
 .static-card-title{font-family:Newsreader,serif;font-size:1rem;line-height:1.3}
+.static-eyebrow{font-family:JetBrains Mono,monospace;font-size:.7rem;color:var(--accent);text-transform:uppercase;letter-spacing:.12em;font-weight:600;margin-bottom:14px}
+.static-lede{font-family:Newsreader,Georgia,serif;font-size:1.2rem;line-height:1.55;color:var(--ink-2);margin:0 0 28px;max-width:60ch}
+.static-lede a{color:var(--accent-2)}
+.static-op-index{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:6px 16px}
+.static-op-index li{display:flex;justify-content:space-between;align-items:baseline;gap:8px;padding:4px 0}
+.static-op-index .static-op-count{font-family:JetBrains Mono,monospace;font-size:.68rem;color:var(--muted)}
+.static-pat-list{list-style:none;padding:0;display:flex;flex-direction:column;gap:8px}
+.static-pat-list li{padding:8px 12px;border-radius:6px;background:color-mix(in oklab,var(--paper-2) 50%,transparent);display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.static-pat-list .static-pat-count{font-family:JetBrains Mono,monospace;font-size:.68rem;color:var(--muted);white-space:nowrap}
+.static-rel-list{list-style:none;padding:0;display:flex;flex-direction:column;gap:6px}
+.static-rel-list li{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:8px 0;border-bottom:1px solid var(--line-2)}
+.static-rel-list li:last-child{border-bottom:0}
+.static-rel-list a{display:flex;gap:16px;align-items:baseline;flex:1;border:0}
+.static-rel-list a:hover .static-rel-title{color:var(--accent-2)}
+.static-rel-date{font-family:JetBrains Mono,monospace;font-size:.78rem;color:var(--muted);min-width:90px}
+.static-rel-title{font-family:Newsreader,serif;font-size:1.05rem;color:var(--ink)}
+.static-rel-counts{font-family:JetBrains Mono,monospace;font-size:.68rem;color:var(--muted);white-space:nowrap}
+.static-related{margin-top:56px;padding-top:32px;border-top:1px solid var(--line)}
+.static-related h2{font-family:Newsreader,serif;font-weight:500;font-size:1.35rem;line-height:1.25;margin:0 0 22px}
+.static-related-group{margin-bottom:28px}
+.static-related-group:last-child{margin-bottom:0}
+.static-related-label{font-family:JetBrains Mono,monospace;font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:12px;font-weight:600}
+.static-domains{display:flex;flex-wrap:wrap;gap:8px 10px;font-family:JetBrains Mono,monospace;font-size:.74rem;margin:0;padding:0}
+.static-domains a{color:var(--ink-2);text-decoration:none;padding:4px 12px;border:1px solid var(--line);border-radius:999px;transition:border-color .12s,color .12s,background .12s}
+.static-domains a:hover{border-color:var(--accent);color:var(--accent-2);background:color-mix(in oklab,var(--accent) 8%,transparent)}
 .static-footer{max-width:880px;margin:0 auto;padding:32px 24px 64px;border-top:1px solid var(--line-2);font-family:JetBrains Mono,monospace;font-size:.72rem;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px}
 .static-footer a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid transparent}
 .static-footer a:hover{color:var(--accent);border-bottom-color:currentColor}
@@ -132,14 +161,25 @@ main.static pre code{background:transparent;padding:0}
   .static-actions{flex-direction:column;align-items:stretch}
   .static-actions a,.static-actions button{justify-content:center}
 }
+@media print{
+  .static-topbar,.static-footer,.static-actions,.skip-link{display:none !important}
+  main.static{max-width:none;padding:0}
+  main.static h1{font-size:1.8rem}
+  main.static h2{font-size:1.2rem;page-break-after:avoid}
+  main.static a{color:#000;border-bottom:none}
+  main.static a[href^="http"]::after{content:" (" attr(href) ")";font-size:.78em;color:#555}
+  .static-related-group{break-inside:avoid}
+  .static-card{break-inside:avoid}
+}
 
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"DefinedTerm","name":"engineering","inDefinedTermSet":"https://abcodex.iamkesava.com/","description":"Domain in abcodex. 41 insights from 28 operators.","url":"https://abcodex.iamkesava.com/d/engineering/"},{"@type":"CollectionPage","name":"engineering · abcodex","url":"https://abcodex.iamkesava.com/d/engineering/","about":{"@type":"DefinedTerm","name":"engineering"},"publisher":{"@type":"Organization","@id":"https://abcodex.iamkesava.com/#org","name":"abcodex","url":"https://abcodex.iamkesava.com","founder":{"@id":"https://iamkesava.com/#kesava"}},"hasPart":[{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_10-80-10-ai-workflow/","name":"10-80-10: human direction, AI execution, human polish","author":{"@type":"Person","name":"Arvid Kahl"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_100-percent-automation-rule/","name":"An automation that works 95% of the time is not an automation","author":{"@type":"Person","name":"Cat Wu"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_advisor-tool-replaces-ensemble/","name":"Advisor-tool replaces ensemble-of-3 stability hacks at near-Sonnet rates","author":{"@type":"Person","name":"Cat Wu"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_agentic-engine-optimization-6-layer/","name":"Agent-first content has six platform layers, access, discovery, capability, format, token, UX bridge","author":{"@type":"Person","name":"Addy Osmani"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_ai-judgment-and-taste-emerging/","name":"AI has crossed the threshold to something indistinguishable from judgment and taste, winners will know what to build, not how","author":{"@type":"Person","name":"Matt Shumer"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_all-problems-become-people-problems/","name":"Above a certain level, every problem is a people problem","author":{"@type":"Person","name":"Silvia Botros"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_anand-karunan-machine-learning-engineer/","name":"Building production ML systems at scale","author":{"@type":"Person","name":"Anand Karunan"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_bottleneck-is-context-not-capability/","name":"When the agent isn't doing what you want, fix the context, not the model","author":{"@type":"Person","name":"Sherwin Wu"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_build-for-next-model-not-current/","name":"Build for the model six months out, the current model will eat your scaffolding","author":{"@type":"Person","name":"Sherwin Wu"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_capability-spikes-where-verification-loops-exist/","name":"AI capability is not evenly distributed, it spikes where labs have data, rewards, and verification loops","author":{"@type":"Person","name":"Andrej Karpathy"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_cccd-continuous-calibration/","name":"Continuous Calibration, Continuous Development (CCCD) is the operating loop for AI products","author":{"@type":"Person","name":"Aishwarya Naresh Reganti"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_code-and-media-permissionless-leverage/","name":"Code and media are the only forms of leverage that don't require asking, labour and capital both come gated","author":{"@type":"Person","name":"Naval Ravikant"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_dark-factory-pattern/","name":"The dark factory: nobody reads the code, gated by a simulated QA swarm","author":{"@type":"Person","name":"Simon Willison"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_dileep-krishna-automation-maintenance-bottleneck/","name":"Test automation that can't adapt to product changes creates a maintenance burden worse than manual testing.","author":{"@type":"Person","name":"Dileep Krishna"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_dont-box-the-model-in/","name":"Give the model tools and a goal; do not hard-code the workflow","author":{"@type":"Person","name":"Boris Cherny"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_evals-are-data-analysis-on-llm-apps/","name":"Evals are systematic data analysis on your LLM application, start with error analysis, not tests","author":{"@type":"Person","name":"Hamel Husain"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_glue-work-is-staff-leadership/","name":"Glue work is technical leadership, not a tax on the IC","author":{"@type":"Person","name":"Tanya Reilly"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_ilya-azovtsev-n8n-mcp-claude-gtm-automation/","name":"n8n + MCP + Claude lets GTM teams build workflows in plain English.","author":{"@type":"Person","name":"🇺🇦 Ilya Azovtsev"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_judgment-vs-understanding/","name":"You can outsource thinking, but not understanding, verification is the new human job","author":{"@type":"Person","name":"Andrej Karpathy"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_kesava-mandiga-cheap-tier-delegation/","name":"Cheap external model for grunt work; Claude only sees judgment","author":{"@type":"Person","name":"Kesava Mandiga"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_llm-as-judge-binary-not-likert/","name":"Build LLM-as-judge as binary true/false, one judge per pesky failure mode, and validate against human labels","author":{"@type":"Person","name":"Hamel Husain"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_llm-wiki-pattern/","name":"An LLM should maintain a wiki, not re-derive knowledge per query","author":{"@type":"Person","name":"Andrej Karpathy"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_middle-is-hollowing-out/","name":"The middle is hollowing out, execution gets automated, leaving spec-writing and verification as the high-value human tasks","author":{"@type":"Person","name":"Eugene Yan"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_mine-transcripts-to-promote-config/","name":"Close the feedback loop by mining session transcripts for patterns to promote into config","author":{"@type":"Person","name":"Eugene Yan"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_november-2025-coding-inflection/","name":"November 2025 was the qualitative threshold, coding agents now almost always do what you tell them","author":{"@type":"Person","name":"Simon Willison"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_open-coding-then-axial-coding/","name":"Sample 100+ traces, write one free-form note per trace, let an LLM cluster the notes, humans first, machines second","author":{"@type":"Person","name":"Hamel Husain"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_personal-pattern-hoarding/","name":"Hoard a personal repository of things that worked, coding agents will recombine them","author":{"@type":"Person","name":"Simon Willison"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_planning-fallacy-launch-timelines/","name":"The planning fallacy guarantees every launch timeline is optimistic, the fix is the outside view","author":{"@type":"Person","name":"Daniel Kahneman"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_principal-ic-is-force-multiplier/","name":"A principal IC is a force multiplier, not a more-senior senior","author":{"@type":"Person","name":"Silvia Botros"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_red-green-tdd-shorthand-for-agents/","name":"Encode jargon shorthand once, save tokens forever","author":{"@type":"Person","name":"Simon Willison"}}]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"browse","item":"https://abcodex.iamkesava.com/browse/"},{"@type":"ListItem","position":3,"name":"engineering","item":"https://abcodex.iamkesava.com/d/engineering/"}]}]}</script>
 </head>
 <body>
+<a class="skip-link" href="#main">skip to content</a>
 <header class="static-topbar">
   <a class="brand" href="https://abcodex.iamkesava.com/"><span class="dot" aria-hidden="true"></span>a builder's codex</a>
-  <nav>
+  <nav aria-label="Primary">
     <a href="https://abcodex.iamkesava.com/operators/">operators</a>
     <a href="https://abcodex.iamkesava.com/patterns/">patterns</a>
     <a href="https://abcodex.iamkesava.com/playbooks/">playbooks</a>
@@ -147,10 +187,11 @@ main.static pre code{background:transparent;padding:0}
     <a href="https://abcodex.iamkesava.com/#/about">about</a>
   </nav>
 </header>
-<main class="static">
+<main class="static" id="main" tabindex="-1">
 <div class="static-crumbs"><a href="https://abcodex.iamkesava.com/">codex</a> · <a href="https://abcodex.iamkesava.com/browse/">browse</a> · engineering</div>
-        <p class="static-eyebrow" style="font-family:JetBrains Mono,monospace;font-size:.75rem;color:var(--accent);text-transform:uppercase;letter-spacing:.1em">domain</p>
-        <h1>engineering</h1>
+        <p class="static-eyebrow">domain · engineering</p>
+        <h1>Engineer for the system that actually runs</h1>
+        <p class="static-lede">Architecture, AI codegen, evals, agents, infra. From engineers who shipped at scale.</p>
         <p class="static-meta">41 cards · 28 operators · 29 tier-A claims · 5 synthesis patterns.</p>
         <h2>Strongest claims</h2><ol class="static-strongs"><li><a href="https://abcodex.iamkesava.com/ins/ins_agentic-engine-optimization-6-layer/"><strong>Agent-first content has six platform layers, access, discovery, capability, format, token, UX bridge</strong> <em style="color:var(--muted);font-style:normal">Addy Osmani</em></a></li><li><a href="https://abcodex.iamkesava.com/ins/ins_bottleneck-is-context-not-capability/"><strong>When the agent isn&#39;t doing what you want, fix the context, not the model</strong> <em style="color:var(--muted);font-style:normal">Sherwin Wu</em></a></li><li><a href="https://abcodex.iamkesava.com/ins/ins_build-for-next-model-not-current/"><strong>Build for the model six months out, the current model will eat your scaffolding</strong> <em style="color:var(--muted);font-style:normal">Sherwin Wu</em></a></li><li><a href="https://abcodex.iamkesava.com/ins/ins_capability-spikes-where-verification-loops-exist/"><strong>AI capability is not evenly distributed, it spikes where labs have data, rewards, and verification loops</strong> <em style="color:var(--muted);font-style:normal">Andrej Karpathy</em></a></li><li><a href="https://abcodex.iamkesava.com/ins/ins_cccd-continuous-calibration/"><strong>Continuous Calibration, Continuous Development (CCCD) is the operating loop for AI products</strong> <em style="color:var(--muted);font-style:normal">Aishwarya Naresh Reganti</em></a></li><li><a href="https://abcodex.iamkesava.com/ins/ins_code-and-media-permissionless-leverage/"><strong>Code and media are the only forms of leverage that don&#39;t require asking, labour and capital both come gated</strong> <em style="color:var(--muted);font-style:normal">Naval Ravikant</em></a></li></ol>
 <h2>Adjacent domains</h2><ul><li><a href="https://abcodex.iamkesava.com/d/ai-native/">ai-native</a> · 31 co-occurrences</li><li><a href="https://abcodex.iamkesava.com/d/leadership/">leadership</a> · 12 co-occurrences</li><li><a href="https://abcodex.iamkesava.com/d/product/">product</a> · 12 co-occurrences</li><li><a href="https://abcodex.iamkesava.com/d/research/">research</a> · 6 co-occurrences</li><li><a href="https://abcodex.iamkesava.com/d/growth/">growth</a> · 2 co-occurrences</li><li><a href="https://abcodex.iamkesava.com/d/founder-craft/">founder-craft</a> · 2 co-occurrences</li><li><a href="https://abcodex.iamkesava.com/d/gtm/">gtm</a> · 2 co-occurrences</li><li><a href="https://abcodex.iamkesava.com/d/founder-operator/">founder-operator</a> · 1 co-occurrences</li></ul>
@@ -161,7 +202,7 @@ main.static pre code{background:transparent;padding:0}
 <footer class="static-footer">
   <div class="static-feeds"><a href="https://abcodex.iamkesava.com/llms.txt" rel="noopener">llms.txt</a> · <a href="https://abcodex.iamkesava.com/sitemap.xml" rel="noopener">sitemap</a> · <a href="https://abcodex.iamkesava.com/rss.xml" rel="noopener">rss</a> · <a href="https://abcodex.iamkesava.com/insight-library/INDEX.json" rel="noopener">index.json</a></div>
   <nav aria-label="Sister sites" class="static-sister"><a href="https://apps.iamkesava.com/">apps</a> · <a href="https://tools.iamkesava.com/">tools</a> · <a href="https://toys.iamkesava.com/">toys</a> · <span aria-current="page">codex</span></nav>
-  <div>made by <a href="https://iamkesava.com" rel="noopener author">kesava</a> · <a href="https://github.com/k3sava/ab-codex" rel="noopener">github</a></div>
+  <div>made by <a href="https://iamkesava.com" rel="noopener author">kesava</a> · <a href="https://github.com/k3sava/abcodex" rel="noopener">github</a></div>
 </footer>
 </body>
 </html>

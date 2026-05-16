@@ -46,6 +46,6 @@ Skills with vague descriptions were not triggered at the right moment. Skills wi
 The test applies specifically to Claude's description-matching invocation architecture. Other AI systems with different routing mechanisms (explicit tool calls, user-initiated slash commands) do not have the description-as-routing-layer problem in the same form.
 
 ## Cross-references
-- [[ins_bottleneck-is-context-not-capability]] — Sherwin Wu: when the agent isn't doing what you want, fix the context, not the model
-- [[ins_dotclaude-as-deployable-artifact]] — on treating .claude configurations as deployable artifacts with named owners
-- [[ins_anthropic-skills-as-vertical-distribution-unit]] — Anthropic treating skills as the unit of vertical agent distribution
+- [[ins_bottleneck-is-context-not-capability]], Sherwin Wu: when the agent isn't doing what you want, fix the context, not the model
+- [[ins_dotclaude-as-deployable-artifact]], on treating .claude configurations as deployable artifacts with named owners
+- [[ins_anthropic-skills-as-vertical-distribution-unit]], Anthropic treating skills as the unit of vertical agent distribution

@@ -24,7 +24,7 @@ raw_ref:
 Deploy a separate grader agent in its own context window to evaluate whether output meets a defined success rubric. The grader runs independently of the generator and has no access to the generator's reasoning chain, only the output.
 
 ## Mechanism
-When a grader shares context with the generator, it inherits the generator's blind spots. A separate context window forces independent evaluation against the rubric. The rubric — not the generator — determines pass or fail. This creates a closed feedback loop: the generator produces, the grader measures, the delta drives improvement without scaling manual review linearly with volume.
+When a grader shares context with the generator, it inherits the generator's blind spots. A separate context window forces independent evaluation against the rubric. The rubric, not the generator, determines pass or fail. This creates a closed feedback loop: the generator produces, the grader measures, the delta drives improvement without scaling manual review linearly with volume.
 
 ## Conditions
 Holds when: the task has a defined, measurable success rubric. Output format is consistent enough for the grader to evaluate. The grader can access necessary ground truth or reference material.
@@ -46,4 +46,4 @@ For tasks without a verifiable rubric, adding a grader adds latency and cost wit
 ## Cross-references
 - `ins_traces-need-feedback-to-learn` (Harrison Chase): traces without outcome feedback are incomplete raw material
 - `ins_error-analysis-highest-leverage-eval-step` (Hamel Husain): error analysis is the highest-leverage eval step most teams skip
-- `ins_dreaming-cross-session-memory-curation` (Anthropic): paired feature — Outcomes closes the output loop, Dreaming closes the memory loop
+- `ins_dreaming-cross-session-memory-curation` (Anthropic): paired feature, Outcomes closes the output loop, Dreaming closes the memory loop

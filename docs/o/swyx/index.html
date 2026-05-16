@@ -35,7 +35,11 @@
    codex typography palette but in a layout tuned for crawlers + readers. */
 :root{--paper:#f3f5ee;--paper-2:#e6ebe0;--ink:#0d1410;--ink-2:#2a3530;--muted:#6b7868;--accent:#1f9d55;--accent-2:#15803d;--line:#0d141022;--line-2:#0d141012}
 *{box-sizing:border-box;margin:0;padding:0}
+*:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
 body{font-family:Inter,system-ui,sans-serif;background:var(--paper);color:var(--ink);margin:0;-webkit-font-smoothing:antialiased;line-height:1.55}
+.skip-link{position:fixed;top:-100px;left:8px;z-index:100;padding:10px 14px;background:var(--ink);color:var(--paper);font-family:JetBrains Mono,monospace;font-size:.74rem;text-decoration:none;border-radius:6px;transition:top .15s ease}
+.skip-link:focus{top:8px;outline:2px solid var(--accent);outline-offset:2px}
+main:focus{outline:none}
 .static-topbar{display:flex;align-items:center;justify-content:space-between;padding:14px 24px;border-bottom:1px solid var(--line-2);background:color-mix(in oklab,var(--paper) 92%,transparent);backdrop-filter:blur(8px);position:sticky;top:0;z-index:10}
 .static-topbar .brand{font-family:Newsreader,Georgia,serif;font-weight:500;font-size:1.05rem;letter-spacing:-.01em;color:var(--ink);text-decoration:none;display:flex;align-items:center;gap:8px}
 .static-topbar .brand:hover{color:var(--accent-2)}
@@ -120,6 +124,31 @@ main.static pre code{background:transparent;padding:0}
 .static-card:hover{border-color:var(--accent);transform:translateY(-1px)}
 .static-card .tier{font-family:JetBrains Mono,monospace;font-size:.6rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px}
 .static-card-title{font-family:Newsreader,serif;font-size:1rem;line-height:1.3}
+.static-eyebrow{font-family:JetBrains Mono,monospace;font-size:.7rem;color:var(--accent);text-transform:uppercase;letter-spacing:.12em;font-weight:600;margin-bottom:14px}
+.static-lede{font-family:Newsreader,Georgia,serif;font-size:1.2rem;line-height:1.55;color:var(--ink-2);margin:0 0 28px;max-width:60ch}
+.static-lede a{color:var(--accent-2)}
+.static-op-index{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:6px 16px}
+.static-op-index li{display:flex;justify-content:space-between;align-items:baseline;gap:8px;padding:4px 0}
+.static-op-index .static-op-count{font-family:JetBrains Mono,monospace;font-size:.68rem;color:var(--muted)}
+.static-pat-list{list-style:none;padding:0;display:flex;flex-direction:column;gap:8px}
+.static-pat-list li{padding:8px 12px;border-radius:6px;background:color-mix(in oklab,var(--paper-2) 50%,transparent);display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.static-pat-list .static-pat-count{font-family:JetBrains Mono,monospace;font-size:.68rem;color:var(--muted);white-space:nowrap}
+.static-rel-list{list-style:none;padding:0;display:flex;flex-direction:column;gap:6px}
+.static-rel-list li{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:8px 0;border-bottom:1px solid var(--line-2)}
+.static-rel-list li:last-child{border-bottom:0}
+.static-rel-list a{display:flex;gap:16px;align-items:baseline;flex:1;border:0}
+.static-rel-list a:hover .static-rel-title{color:var(--accent-2)}
+.static-rel-date{font-family:JetBrains Mono,monospace;font-size:.78rem;color:var(--muted);min-width:90px}
+.static-rel-title{font-family:Newsreader,serif;font-size:1.05rem;color:var(--ink)}
+.static-rel-counts{font-family:JetBrains Mono,monospace;font-size:.68rem;color:var(--muted);white-space:nowrap}
+.static-related{margin-top:56px;padding-top:32px;border-top:1px solid var(--line)}
+.static-related h2{font-family:Newsreader,serif;font-weight:500;font-size:1.35rem;line-height:1.25;margin:0 0 22px}
+.static-related-group{margin-bottom:28px}
+.static-related-group:last-child{margin-bottom:0}
+.static-related-label{font-family:JetBrains Mono,monospace;font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:12px;font-weight:600}
+.static-domains{display:flex;flex-wrap:wrap;gap:8px 10px;font-family:JetBrains Mono,monospace;font-size:.74rem;margin:0;padding:0}
+.static-domains a{color:var(--ink-2);text-decoration:none;padding:4px 12px;border:1px solid var(--line);border-radius:999px;transition:border-color .12s,color .12s,background .12s}
+.static-domains a:hover{border-color:var(--accent);color:var(--accent-2);background:color-mix(in oklab,var(--accent) 8%,transparent)}
 .static-footer{max-width:880px;margin:0 auto;padding:32px 24px 64px;border-top:1px solid var(--line-2);font-family:JetBrains Mono,monospace;font-size:.72rem;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px}
 .static-footer a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid transparent}
 .static-footer a:hover{color:var(--accent);border-bottom-color:currentColor}
@@ -132,14 +161,25 @@ main.static pre code{background:transparent;padding:0}
   .static-actions{flex-direction:column;align-items:stretch}
   .static-actions a,.static-actions button{justify-content:center}
 }
+@media print{
+  .static-topbar,.static-footer,.static-actions,.skip-link{display:none !important}
+  main.static{max-width:none;padding:0}
+  main.static h1{font-size:1.8rem}
+  main.static h2{font-size:1.2rem;page-break-after:avoid}
+  main.static a{color:#000;border-bottom:none}
+  main.static a[href^="http"]::after{content:" (" attr(href) ")";font-size:.78em;color:#555}
+  .static-related-group{break-inside:avoid}
+  .static-card{break-inside:avoid}
+}
 
 </style>
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Person","name":"Swyx (Shawn Wang)","url":"https://abcodex.iamkesava.com/o/swyx/","description":"Founder of Latent Space (top AI engineering newsletter/podcast, 10M+ readers); creator of AI Engineer Summit; former engineer at Vercel/Netlify/AWS; coined 'AI Engineer' as a distinct role","sameAs":["https://www.swyx.io/","https://lspace.swyx.io/"]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"operators","item":"https://abcodex.iamkesava.com/operators/"},{"@type":"ListItem","position":3,"name":"Swyx (Shawn Wang)","item":"https://abcodex.iamkesava.com/o/swyx/"}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://abcodex.iamkesava.com/o/swyx/#person","name":"Swyx (Shawn Wang)","url":"https://abcodex.iamkesava.com/o/swyx/","description":"Founder of Latent Space (top AI engineering newsletter/podcast, 10M+ readers); creator of AI Engineer Summit; former engineer at Vercel/Netlify/AWS; coined 'AI Engineer' as a distinct role","sameAs":["https://www.swyx.io/","https://lspace.swyx.io/"],"mainEntityOfPage":"https://abcodex.iamkesava.com/o/swyx/"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"operators","item":"https://abcodex.iamkesava.com/operators/"},{"@type":"ListItem","position":3,"name":"Swyx (Shawn Wang)","item":"https://abcodex.iamkesava.com/o/swyx/"}]}]}</script>
 </head>
 <body>
+<a class="skip-link" href="#main">skip to content</a>
 <header class="static-topbar">
   <a class="brand" href="https://abcodex.iamkesava.com/"><span class="dot" aria-hidden="true"></span>a builder's codex</a>
-  <nav>
+  <nav aria-label="Primary">
     <a href="https://abcodex.iamkesava.com/operators/">operators</a>
     <a href="https://abcodex.iamkesava.com/patterns/">patterns</a>
     <a href="https://abcodex.iamkesava.com/playbooks/">playbooks</a>
@@ -147,7 +187,7 @@ main.static pre code{background:transparent;padding:0}
     <a href="https://abcodex.iamkesava.com/#/about">about</a>
   </nav>
 </header>
-<main class="static">
+<main class="static" id="main" tabindex="-1">
 <div class="static-crumbs"><a href="https://abcodex.iamkesava.com/">codex</a> · <a href="https://abcodex.iamkesava.com/operators/">operators</a> · Swyx (Shawn Wang)</div><h1>Swyx (Shawn Wang)</h1><article><h2 id="bio">Bio</h2>
 <p>Swyx's defining contribution is the concept of the "AI Engineer" as a distinct professional identity, separate from both ML engineers (who build models) and traditional software engineers (who build deterministic applications). His Software 3.0 thesis argues that we are transitioning from Software 1.0 (code written by humans), through Software 2.0 (models trained on data, per Karpathy), to Software 3.0 where LLMs serve as the runtime and natural language becomes the programming interface. The AI Engineer sits at this intersection: a software engineer who builds AI-powered products using foundation models as building blocks, rather than training models from scratch.</p>
 
@@ -172,7 +212,11 @@ main.static pre code{background:transparent;padding:0}
 <li>2026-04, <code>software-30-and-the-ai-engineer-landscape-talk-notes-slides.md</code> (operator essay archive)</li>
 <li>2026-04, <code>cognition-the-devin-is-in-the-details.md</code> (operator essay archive)</li>
 </ul>
-</article><h2>Insights · 1</h2><div class="static-cards-grid"><a class="static-card" href="https://abcodex.iamkesava.com/ins/ins_swyx-scaling-without-slop/"><div class="tier">Tier B · content-strategy · ai-gtm</div><div class="static-card-title">In AI content, the quality lever is curation and a distinct point of view, not output volume.</div></a></div><div class="static-actions">
+</article><h2>Insights · 1</h2><div class="static-cards-grid"><a class="static-card" href="https://abcodex.iamkesava.com/ins/ins_swyx-scaling-without-slop/"><div class="tier">Tier B · content-strategy · ai-gtm</div><div class="static-card-title">In AI content, the quality lever is curation and a distinct point of view, not output volume.</div></a></div><section class="static-related"><h2>Where this operator connects</h2>
+<div class="static-related-group"><div class="static-related-label">Domains</div><p class="static-domains"><a href="https://abcodex.iamkesava.com/d/content-strategy/">content-strategy</a> · <a href="https://abcodex.iamkesava.com/d/ai-gtm/">ai-gtm</a></p></div>
+<div class="static-related-group"><div class="static-related-label">Patterns this operator contributes to</div><div class="static-cards-grid"><a class="static-card" href="https://abcodex.iamkesava.com/pat/pat_differentiation-vs-sameness/"><div class="tier">Pattern · pmm · gtm</div><div class="static-card-title">Differentiation requires three checks, different, better, matters</div></a></div></div>
+
+</section><div class="static-actions">
       <a class="primary" href="https://abcodex.iamkesava.com/#/o/swyx">Open the interactive profile →</a>
       <span style="font-family:JetBrains Mono,monospace;font-size:.72rem;color:var(--muted);align-self:center"><a href="https://www.swyx.io/" rel="external nofollow">website</a> · <a href="https://lspace.swyx.io/" rel="external nofollow">newsletter</a></span>
     </div>
@@ -181,7 +225,7 @@ main.static pre code{background:transparent;padding:0}
 <footer class="static-footer">
   <div class="static-feeds"><a href="https://abcodex.iamkesava.com/llms.txt" rel="noopener">llms.txt</a> · <a href="https://abcodex.iamkesava.com/sitemap.xml" rel="noopener">sitemap</a> · <a href="https://abcodex.iamkesava.com/rss.xml" rel="noopener">rss</a> · <a href="https://abcodex.iamkesava.com/insight-library/INDEX.json" rel="noopener">index.json</a></div>
   <nav aria-label="Sister sites" class="static-sister"><a href="https://apps.iamkesava.com/">apps</a> · <a href="https://tools.iamkesava.com/">tools</a> · <a href="https://toys.iamkesava.com/">toys</a> · <span aria-current="page">codex</span></nav>
-  <div>made by <a href="https://iamkesava.com" rel="noopener author">kesava</a> · <a href="https://github.com/k3sava/ab-codex" rel="noopener">github</a></div>
+  <div>made by <a href="https://iamkesava.com" rel="noopener author">kesava</a> · <a href="https://github.com/k3sava/abcodex" rel="noopener">github</a></div>
 </footer>
 </body>
 </html>

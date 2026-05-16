@@ -9,7 +9,7 @@ uses_cards: [ins_company-story-is-the-strategy, ins_homepage-five-second-trinity
 originating_operators: [april-dunford, anthony-pierri, emily-kramer, martina-lauchengco, ayo-omojola, bob-moesta, andy-raskin, gartner-research]
 ---
 
-# Positioning Document — full pipeline
+# Positioning Document, full pipeline
 
 Positioning is a strategic bet, not a test. You can A/B test copy. You can test messaging angles. You cannot A/B test who you are and who you're for.
 
@@ -306,7 +306,7 @@ The audit is a 30-minute read across three documents. The cost of skipping it co
 
 ## Common failure modes
 
-**Outcomes-led homepage.** "Build pipeline and close more revenue." Every sales tool says this. Lead with the capability — what someone actually does with the product.
+**Outcomes-led homepage.** "Build pipeline and close more revenue." Every sales tool says this. Lead with the capability, what someone actually does with the product.
 
 **Clever copy that says nothing.** Clarity beats cleverness. If a visitor can't say what you do after 5 seconds, the copy failed, not the reader.
 

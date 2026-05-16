@@ -14,7 +14,7 @@ external:
 # April Dunford
 
 ## Bio
-April Dunford is the foremost practitioner-theorist of product positioning in B2B technology. Her central contribution is transforming positioning from a vague brand exercise into a structured, repeatable methodology with a specific workflow. She decomposes positioning into five components, Competitive Alternatives, Differentiated Features/Capabilities, Customer Value, Target Customer Segmentation, and Market Category, and insists they must be worked in that exact order.
+April Dunford is the foremost practitioner-theorist of product positioning in B2B technology. She turned positioning from a brand exercise into a structured, repeatable method with a specific workflow. She breaks it into five components, Competitive Alternatives, Differentiated Features/Capabilities, Customer Value, Target Customer Segmentation, and Market Category, and insists they must be worked in that exact order.
 
 ## Operating themes
 - **Operating thesis:** Positioning is not a creative exercise but a structured, customer-centric analysis that follows a specific workflow order, starting with competitive alternatives and ending with market category selection.

@@ -750,7 +750,7 @@ _Generated 2026-05-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_voc-first-then-positioning`](insights/ins_voc-first-then-positioning.md) — Customer language first, positioning built upward from it, not the reverse _(Momoko Price)_
 - [`ins_voice-agent-call-volume-recovery`](insights/ins_voice-agent-call-volume-recovery.md) — A first AI voice agent shipped solo for a real customer _(Kubi Rich)_
 - [`ins_want-product-marketing-drive-revenue`](insights/ins_want-product-marketing-drive-revenue.md) — If you want product marketing to drive revenue without sales involvement, you have to r _(Hattie the PMM)_
-- [`ins_was-always-kind-awesome-now`](insights/ins_was-always-kind-awesome-now.md) — n8n was always kind of awesome, now - it's easy to use for everyone _(🇺🇦 Ilya Azovtsev - I help with SaaS Growth)_
+- [`ins_was-always-kind-awesome-now`](insights/ins_was-always-kind-awesome-now.md) — n8n was always kind of awesome, now - it's easy to use for everyone _(Ilya Azovtsev)_
 - [`ins_what-happened-when-stopped-fighting`](insights/ins_what-happened-when-stopped-fighting.md) — This is what happened when we stopped fighting how LLMs think _(Rabi Shanker Guha)_
 - [`ins_when-understood-sales-training-just`](insights/ins_when-understood-sales-training-just.md) — That's when I understood that sales training is just 10% of the equation _(Akshaya Sampath)_
 - [`ins_when-was-laid-off-here`](insights/ins_when-was-laid-off-here.md) — When I was laid off here is what I did to find a job in 15 days _(Sandeep Kochhar)_
@@ -1401,7 +1401,7 @@ _Generated 2026-05-16. Auto-built from frontmatter — do not edit by hand._
 - [Messaging matrix playbook](playbooks/messaging/messaging-matrix.md)
 - [PMM coaching framework playbook](playbooks/messaging/pmm-coaching-framework.md)
 - [Narrative compose playbook](playbooks/narrative/narrative-compose.md)
-- [Positioning Document — full pipeline](playbooks/positioning/positioning-document.md)
-- [The Pricing-as-Strategic-Function Playbook](playbooks/pricing/the-pricing-as-strategic-function-playbook.md)
+- [Positioning Document, full pipeline](playbooks/positioning/positioning-document.md)
+- [Run pricing as a function, not a sales-team task](playbooks/pricing/the-pricing-as-strategic-function-playbook.md)
 - [The Tactical Empathy Discovery Playbook](playbooks/sales-discovery/the-tactical-empathy-discovery-playbook.md)
 - [Sales enablement playbook](playbooks/sales-enablement/sales-enablement.md)

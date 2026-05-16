@@ -143,7 +143,7 @@ The capability layer also tells you what to demo. Not the feature. What the user
 
 ### 9. Build the messaging house. Exactly three pillars.
 
-Structure: one overall value proposition — one sentence in buyer language — supported by exactly three pillars. Each pillar is a named benefit. Under each pillar sits the feature that enables it, a proof point, and ideally a customer quote.
+Structure: one overall value proposition, one sentence in buyer language, supported by exactly three pillars. Each pillar is a named benefit. Under each pillar sits the feature that enables it, a proof point, and ideally a customer quote.
 
 Three pillars. No more. If you have four or five value themes, choose the three that matter most to the champion. The others can live in dedicated landing pages or persona-specific content.
 

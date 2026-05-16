@@ -1,19 +1,19 @@
 ---
 id: pb_pricing-as-strategic-function-playbook
-title: The Pricing-as-Strategic-Function Playbook — Simon, Ramanujam, Skok, and Hormozi integrated into a usable pricing operating routine
+title: Run pricing as a function, not a sales-team task. Simon, Ramanujam, Skok, and Hormozi integrated into a usable pricing operating routine
 captured_date: 2026-05-05
 operators: [Hermann Simon, Madhavan Ramanujam, David Skok, Alex Hormozi]
 uses_cards: [ins_one-percent-price-eight-percent-profit, ins_simon-pricing-is-structural-org-failure, ins_simon-discounting-most-dangerous-practice, ins_simon-single-price-always-suboptimal, ins_simon-formal-pricing-process, ins_simon-premium-price-champion, ins_price-before-product, ins_ramanujam-three-wtp-questions, ins_ramanujam-feature-shock, ins_ramanujam-minivation, ins_ramanujam-leaders-fillers-killers, ins_ramanujam-ai-pricing-against-labor-budgets, ins_ltv-cac-ratio-and-cash-flow-trough, ins_skok-negative-churn, ins_value-equation-grand-slam-offer, ins_premium-pricing-virtuous-cycle]
 domains: [pmm, gtm, strategy, product]
 ---
 
-# The Pricing-as-Strategic-Function Playbook
+# Run pricing as a function, not a sales-team task
 
 > An integrated operating routine drawn from Simon (the macro architecture), Ramanujam (the WTP research method), Skok (the SaaS unit economics), and Hormozi (the offer construction). Pairs with `pat_pricing-as-the-most-leveraged-org-failure`.
 
 ## Premise
 
-Pricing produces the highest ROI of any business function (Simon: 1% price → 8-11% profit) and receives the lowest investment of any strategic lever. Most companies handle pricing as a tactical sales-team task, leaving the leverage on the table for years. The fix is not a workshop or a consulting engagement; it is to install pricing as a permanent strategic function with its own owner, process, research method, and metrics.
+Pricing produces the highest ROI of any business function (Simon: 1% price → 8-11% profit) and gets the lowest investment of any business lever. Most companies treat pricing as a tactical sales-team task. The fix: install pricing as a permanent function with its own owner, process, research method, and metrics.
 
 ## The four pillars
 
@@ -112,7 +112,7 @@ Card: `ins_ramanujam-ai-pricing-against-labor-budgets`.
 
 ## Counter-stances
 
-- **Network-effect categories** (marketplaces, social platforms, certain consumer apps) sometimes win with low or zero pricing because user count is the value. The pricing-leverage frame is bounded by category structure.
+- **Network-effect categories** (marketplaces, social platforms, certain consumer apps) sometimes win with low or zero pricing because user count is the value. This frame is bounded by category structure.
 - **Pre-PMF stages** are too early for formal pricing process; iteration speed matters more than process discipline.
 - **Highly regulated industries** have pricing decisions made externally; the framework applies only to the components the company controls.
 

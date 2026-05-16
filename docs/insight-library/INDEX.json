@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T03:16:28.639Z",
+  "generated_at": "2026-05-16T18:44:17.078Z",
   "counts": {
     "insights": 825,
     "operators": 470,
@@ -21874,7 +21874,7 @@
     {
       "path": "insights/ins_was-always-kind-awesome-now.md",
       "id": "ins_was-always-kind-awesome-now",
-      "operator": "🇺🇦 Ilya Azovtsev - I help with SaaS Growth",
+      "operator": "Ilya Azovtsev",
       "operator_role": "Co-founder of GrowthBand | SaaS Growth Advisor",
       "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7366161220640374785/",
       "source_type": "thread",
@@ -36176,7 +36176,7 @@
     {
       "path": "playbooks/positioning/positioning-document.md",
       "id": "pb_positioning-document",
-      "title": "Positioning Document — full pipeline",
+      "title": "Positioning Document, full pipeline",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
       "depth": "full",
@@ -36210,7 +36210,7 @@
     {
       "path": "playbooks/pricing/the-pricing-as-strategic-function-playbook.md",
       "id": "pb_pricing-as-strategic-function-playbook",
-      "title": "The Pricing-as-Strategic-Function Playbook",
+      "title": "Run pricing as a function, not a sales-team task",
       "captured_date": "2026-05-05",
       "operators": [
         "Hermann Simon",

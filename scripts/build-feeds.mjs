@@ -373,35 +373,39 @@ Last updated: ${today}.
   await writeFile(join(DOCS, "llms.txt"), llms);
 
   // === search-index.json — every searchable resource ===
-  // Was a hand-written 3-entry stub. Now regenerated from INDEX.json so ⌘K
-  // search covers the entire corpus.
+  // `url` is the canonical static URL that carries the full Schema.org @graph.
+  // `appUrl` is the SPA hash route for interactive consumers. AI agents and
+  // crawlers follow `url`; the SPA's own search may follow `appUrl` if it
+  // wants the rich view.
   const searchIndex = [];
   for (const i of INDEX.insights){
     searchIndex.push({
       type: "insight", id: i.id, title: i.title || i.id,
       operator: i.operator || "", domain: i.domain || [],
       tier: i.tier || "C", date: i.source_date || "",
-      url: `/#/ins/${i.id}`,
+      url: `/ins/${i.id}/`,
+      appUrl: `/#/ins/${i.id}`,
     });
   }
   for (const o of INDEX.operators){
     searchIndex.push({
       type: "operator", slug: o.slug, name: o.name || o.slug,
       domains: o.domains_active || [],
-      url: `/#/o/${o.slug}`,
+      url: `/o/${o.slug}/`,
+      appUrl: `/#/o/${o.slug}`,
     });
   }
   for (const p of INDEX.patterns){
-    if (p.id) searchIndex.push({ type: "pattern", id: p.id, title: p.title || p.id, url: `/#/pat/${p.id}` });
+    if (p.id) searchIndex.push({ type: "pattern", id: p.id, title: p.title || p.id, url: `/pat/${p.id}/`, appUrl: `/#/pat/${p.id}` });
   }
   for (const c of (INDEX.contradictions || [])){
-    if (c.id) searchIndex.push({ type: "contradiction", id: c.id, title: c.title || c.id, url: `/#/con/${c.id}` });
+    if (c.id) searchIndex.push({ type: "contradiction", id: c.id, title: c.title || c.id, url: `/con/${c.id}/`, appUrl: `/#/con/${c.id}` });
   }
   for (const p of (INDEX.playbooks || [])){
-    if (p.id) searchIndex.push({ type: "playbook", id: p.id, title: p.title || p.id, url: `/#/play/${p.id}` });
+    if (p.id) searchIndex.push({ type: "playbook", id: p.id, title: p.title || p.id, url: `/play/${p.id}/`, appUrl: `/#/play/${p.id}` });
   }
   for (const d of (INDEX.daily || [])){
-    searchIndex.push({ type: "release", id: d.date, title: d.title || `release ${d.date}`, date: d.date, url: `/#/today#r-${d.date}` });
+    searchIndex.push({ type: "release", id: d.date, title: d.title || `release ${d.date}`, date: d.date, url: `/today/${d.date}/`, appUrl: `/#/today#r-${d.date}` });
   }
   await writeFile(join(DOCS, "search-index.json"), JSON.stringify(searchIndex));
 

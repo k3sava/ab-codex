@@ -46,6 +46,6 @@ Personalization is active in Gemini-powered surfaces and tracking for expansion 
 Google has not formally confirmed position personalization as a broad policy for non-logged-in users. Some practitioners argue personalization applies primarily within logged-in sessions, leaving anonymous searches more stable. Personalization depth varies by query type.
 
 ## Cross-references
-- [[ins_aeo-citation-rotation-makes-snapshots-worthless]] — Solis's prior card on citation counts rotating week-to-week: point-in-time snapshots are noise
-- [[ins_rebaseline-quarterly-not-pin-to-snapshot]] — on avoiding static snapshots in fast-moving AI contexts
-- [[ins_aeo-three-layer-presence-readiness-impact]] — Solis's three-layer AEO measurement framework as a more durable alternative
+- [[ins_aeo-citation-rotation-makes-snapshots-worthless]], Solis's prior card on citation counts rotating week-to-week: point-in-time snapshots are noise
+- [[ins_rebaseline-quarterly-not-pin-to-snapshot]], on avoiding static snapshots in fast-moving AI contexts
+- [[ins_aeo-three-layer-presence-readiness-impact]], Solis's three-layer AEO measurement framework as a more durable alternative

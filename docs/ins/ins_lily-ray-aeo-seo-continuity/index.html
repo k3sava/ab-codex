@@ -35,7 +35,11 @@
    codex typography palette but in a layout tuned for crawlers + readers. */
 :root{--paper:#f3f5ee;--paper-2:#e6ebe0;--ink:#0d1410;--ink-2:#2a3530;--muted:#6b7868;--accent:#1f9d55;--accent-2:#15803d;--line:#0d141022;--line-2:#0d141012}
 *{box-sizing:border-box;margin:0;padding:0}
+*:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
 body{font-family:Inter,system-ui,sans-serif;background:var(--paper);color:var(--ink);margin:0;-webkit-font-smoothing:antialiased;line-height:1.55}
+.skip-link{position:fixed;top:-100px;left:8px;z-index:100;padding:10px 14px;background:var(--ink);color:var(--paper);font-family:JetBrains Mono,monospace;font-size:.74rem;text-decoration:none;border-radius:6px;transition:top .15s ease}
+.skip-link:focus{top:8px;outline:2px solid var(--accent);outline-offset:2px}
+main:focus{outline:none}
 .static-topbar{display:flex;align-items:center;justify-content:space-between;padding:14px 24px;border-bottom:1px solid var(--line-2);background:color-mix(in oklab,var(--paper) 92%,transparent);backdrop-filter:blur(8px);position:sticky;top:0;z-index:10}
 .static-topbar .brand{font-family:Newsreader,Georgia,serif;font-weight:500;font-size:1.05rem;letter-spacing:-.01em;color:var(--ink);text-decoration:none;display:flex;align-items:center;gap:8px}
 .static-topbar .brand:hover{color:var(--accent-2)}
@@ -120,6 +124,31 @@ main.static pre code{background:transparent;padding:0}
 .static-card:hover{border-color:var(--accent);transform:translateY(-1px)}
 .static-card .tier{font-family:JetBrains Mono,monospace;font-size:.6rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px}
 .static-card-title{font-family:Newsreader,serif;font-size:1rem;line-height:1.3}
+.static-eyebrow{font-family:JetBrains Mono,monospace;font-size:.7rem;color:var(--accent);text-transform:uppercase;letter-spacing:.12em;font-weight:600;margin-bottom:14px}
+.static-lede{font-family:Newsreader,Georgia,serif;font-size:1.2rem;line-height:1.55;color:var(--ink-2);margin:0 0 28px;max-width:60ch}
+.static-lede a{color:var(--accent-2)}
+.static-op-index{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:6px 16px}
+.static-op-index li{display:flex;justify-content:space-between;align-items:baseline;gap:8px;padding:4px 0}
+.static-op-index .static-op-count{font-family:JetBrains Mono,monospace;font-size:.68rem;color:var(--muted)}
+.static-pat-list{list-style:none;padding:0;display:flex;flex-direction:column;gap:8px}
+.static-pat-list li{padding:8px 12px;border-radius:6px;background:color-mix(in oklab,var(--paper-2) 50%,transparent);display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.static-pat-list .static-pat-count{font-family:JetBrains Mono,monospace;font-size:.68rem;color:var(--muted);white-space:nowrap}
+.static-rel-list{list-style:none;padding:0;display:flex;flex-direction:column;gap:6px}
+.static-rel-list li{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:8px 0;border-bottom:1px solid var(--line-2)}
+.static-rel-list li:last-child{border-bottom:0}
+.static-rel-list a{display:flex;gap:16px;align-items:baseline;flex:1;border:0}
+.static-rel-list a:hover .static-rel-title{color:var(--accent-2)}
+.static-rel-date{font-family:JetBrains Mono,monospace;font-size:.78rem;color:var(--muted);min-width:90px}
+.static-rel-title{font-family:Newsreader,serif;font-size:1.05rem;color:var(--ink)}
+.static-rel-counts{font-family:JetBrains Mono,monospace;font-size:.68rem;color:var(--muted);white-space:nowrap}
+.static-related{margin-top:56px;padding-top:32px;border-top:1px solid var(--line)}
+.static-related h2{font-family:Newsreader,serif;font-weight:500;font-size:1.35rem;line-height:1.25;margin:0 0 22px}
+.static-related-group{margin-bottom:28px}
+.static-related-group:last-child{margin-bottom:0}
+.static-related-label{font-family:JetBrains Mono,monospace;font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:12px;font-weight:600}
+.static-domains{display:flex;flex-wrap:wrap;gap:8px 10px;font-family:JetBrains Mono,monospace;font-size:.74rem;margin:0;padding:0}
+.static-domains a{color:var(--ink-2);text-decoration:none;padding:4px 12px;border:1px solid var(--line);border-radius:999px;transition:border-color .12s,color .12s,background .12s}
+.static-domains a:hover{border-color:var(--accent);color:var(--accent-2);background:color-mix(in oklab,var(--accent) 8%,transparent)}
 .static-footer{max-width:880px;margin:0 auto;padding:32px 24px 64px;border-top:1px solid var(--line-2);font-family:JetBrains Mono,monospace;font-size:.72rem;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px}
 .static-footer a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid transparent}
 .static-footer a:hover{color:var(--accent);border-bottom-color:currentColor}
@@ -132,14 +161,25 @@ main.static pre code{background:transparent;padding:0}
   .static-actions{flex-direction:column;align-items:stretch}
   .static-actions a,.static-actions button{justify-content:center}
 }
+@media print{
+  .static-topbar,.static-footer,.static-actions,.skip-link{display:none !important}
+  main.static{max-width:none;padding:0}
+  main.static h1{font-size:1.8rem}
+  main.static h2{font-size:1.2rem;page-break-after:avoid}
+  main.static a{color:#000;border-bottom:none}
+  main.static a[href^="http"]::after{content:" (" attr(href) ")";font-size:.78em;color:#555}
+  .static-related-group{break-inside:avoid}
+  .static-card{break-inside:avoid}
+}
 
 </style>
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"The signals that earn blue-link rankings are the same ones that earn AI-generated answer citations, making AEO an extension of SEO discipline, not a replacement.","datePublished":"2026-05-10","dateModified":"2026-05-10","author":[{"@type":"Person","name":"Lily Ray","jobTitle":"VP of SEO, Amsive"}],"isBasedOn":"https://www.affiliatesummit.com/blogs/the-state-of-ai-and-seo-in-2026-with-lily-ray","publisher":{"@type":"Organization","@id":"https://abcodex.iamkesava.com/#org","name":"abcodex","url":"https://abcodex.iamkesava.com","logo":{"@type":"ImageObject","url":"https://abcodex.iamkesava.com/og.png"},"founder":{"@id":"https://iamkesava.com/#kesava"}},"url":"https://abcodex.iamkesava.com/ins/ins_lily-ray-aeo-seo-continuity/","mainEntityOfPage":"https://abcodex.iamkesava.com/ins/ins_lily-ray-aeo-seo-continuity/","keywords":"seo, aeo, content-strategy","license":"https://opensource.org/licenses/MIT","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".static-tldr-claim"]},"additionalType":"https://abcodex.iamkesava.com/tier/B"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"operators","item":"https://abcodex.iamkesava.com/operators/"},{"@type":"ListItem","position":3,"name":"Lily Ray","item":"https://abcodex.iamkesava.com/o/lily-ray/"},{"@type":"ListItem","position":4,"name":"The signals that earn blue-link rankings are the same ones that earn AI-generated answer citations, making AEO an extension of SEO discipline, not a replacement.","item":"https://abcodex.iamkesava.com/ins/ins_lily-ray-aeo-seo-continuity/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Mechanism","acceptedAnswer":{"@type":"Answer","text":"AI systems trained on web data privilege the same quality signals that search engines use to rank pages: crawlability, topical authority, clear document structure, and evidence of original expertise. The output format changes from a ranked list to an inline citation, but the selection mechanism operates on the same substrate. Operators who have built genuine domain authority and clear site architecture do not need to restart. They add AEO-specific layers (structured answer blocks, FAQ schema, passage-level answer clarity) on top of existing work."}},{"@type":"Question","name":"Conditions","acceptedAnswer":{"@type":"Answer","text":"Holds when: existing SEO investment has focused on genuine topical depth, crawlability, and original expertise rather than keyword density or backlink volume alone."}},{"@type":"Question","name":"Evidence","acceptedAnswer":{"@type":"Answer","text":"Keynote at Affiliate Summit West 2026. Lily Ray is VP of SEO at Amsive and one of the practitioners cited most frequently in both traditional SEO and AI search literature."}},{"@type":"Question","name":"Signals","acceptedAnswer":{"@type":"Answer","text":"Existing high-quality SEO content appears in AI-generated answers without modification"}},{"@type":"Question","name":"Counter-evidence","acceptedAnswer":{"@type":"Answer","text":"Some AEO-specific signals require incremental work beyond standard SEO: concise answer blocks, structured data markup, and passage-level formatting tuned for extraction. Teams focused entirely on long-form prose without structured answer layers may find their citation rates lower than their ranking positions predict. The continuity claim holds for the foundation, not for every tactic."}}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://abcodex.iamkesava.com/ins/ins_lily-ray-aeo-seo-continuity/#article","headline":"The signals that earn blue-link rankings are the same ones that earn AI-generated answer citations, making AEO an extension of SEO discipline, not a replacement.","datePublished":"2026-05-10","dateModified":"2026-05-10","author":[{"@type":"Person","@id":"https://abcodex.iamkesava.com/o/lily-ray/#person","name":"Lily Ray","url":"https://abcodex.iamkesava.com/o/lily-ray/","jobTitle":"VP of SEO, Amsive"}],"isBasedOn":{"@type":"CreativeWork","url":"https://www.affiliatesummit.com/blogs/the-state-of-ai-and-seo-in-2026-with-lily-ray","name":"The State of AI and SEO in 2026","encodingFormat":"talk","datePublished":"2026-05-10"},"publisher":{"@id":"https://abcodex.iamkesava.com/#org"},"url":"https://abcodex.iamkesava.com/ins/ins_lily-ray-aeo-seo-continuity/","mainEntityOfPage":"https://abcodex.iamkesava.com/ins/ins_lily-ray-aeo-seo-continuity/","keywords":"seo, aeo, content-strategy","license":"https://opensource.org/licenses/MIT","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".static-tldr-claim"]},"additionalType":"https://abcodex.iamkesava.com/tier/B"},{"@type":"Organization","@id":"https://abcodex.iamkesava.com/#org","name":"abcodex","url":"https://abcodex.iamkesava.com","logo":{"@type":"ImageObject","url":"https://abcodex.iamkesava.com/og.png"},"founder":{"@id":"https://iamkesava.com/#kesava"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"operators","item":"https://abcodex.iamkesava.com/operators/"},{"@type":"ListItem","position":3,"name":"Lily Ray","item":"https://abcodex.iamkesava.com/o/lily-ray/"},{"@type":"ListItem","position":4,"name":"The signals that earn blue-link rankings are the same ones that earn AI-generated answer citations, making AEO an extension of SEO discipline, not a replacement.","item":"https://abcodex.iamkesava.com/ins/ins_lily-ray-aeo-seo-continuity/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Mechanism","acceptedAnswer":{"@type":"Answer","text":"AI systems trained on web data privilege the same quality signals that search engines use to rank pages: crawlability, topical authority, clear document structure, and evidence of original expertise. The output format changes from a ranked list to an inline citation, but the selection mechanism operates on the same substrate. Operators who have built genuine domain authority and clear site architecture do not need to restart. They add AEO-specific layers (structured answer blocks, FAQ schema, passage-level answer clarity) on top of existing work."}},{"@type":"Question","name":"Conditions","acceptedAnswer":{"@type":"Answer","text":"Holds when: existing SEO investment has focused on genuine topical depth, crawlability, and original expertise rather than keyword density or backlink volume alone."}},{"@type":"Question","name":"Evidence","acceptedAnswer":{"@type":"Answer","text":"Keynote at Affiliate Summit West 2026. Lily Ray is VP of SEO at Amsive and one of the practitioners cited most frequently in both traditional SEO and AI search literature."}},{"@type":"Question","name":"Signals","acceptedAnswer":{"@type":"Answer","text":"Existing high-quality SEO content appears in AI-generated answers without modification"}},{"@type":"Question","name":"Counter-evidence","acceptedAnswer":{"@type":"Answer","text":"Some AEO-specific signals require incremental work beyond standard SEO: concise answer blocks, structured data markup, and passage-level formatting tuned for extraction. Teams focused entirely on long-form prose without structured answer layers may find their citation rates lower than their ranking positions predict. The continuity claim holds for the foundation, not for every tactic."}}]}]}</script>
 </head>
 <body>
+<a class="skip-link" href="#main">skip to content</a>
 <header class="static-topbar">
   <a class="brand" href="https://abcodex.iamkesava.com/"><span class="dot" aria-hidden="true"></span>a builder's codex</a>
-  <nav>
+  <nav aria-label="Primary">
     <a href="https://abcodex.iamkesava.com/operators/">operators</a>
     <a href="https://abcodex.iamkesava.com/patterns/">patterns</a>
     <a href="https://abcodex.iamkesava.com/playbooks/">playbooks</a>
@@ -147,7 +187,7 @@ main.static pre code{background:transparent;padding:0}
     <a href="https://abcodex.iamkesava.com/#/about">about</a>
   </nav>
 </header>
-<main class="static">
+<main class="static" id="main" tabindex="-1">
 <div class="static-crumbs"><a href="https://abcodex.iamkesava.com/">codex</a> · <a href="https://abcodex.iamkesava.com/operators/">operators</a> · <a href="https://abcodex.iamkesava.com/o/lily-ray/">Lily Ray</a> · ins_lily-ray-aeo-seo-continuity</div><h1>The signals that earn blue-link rankings are the same ones that earn AI-generated answer citations, making AEO an extension of SEO discipline, not a replacement.</h1><p class="static-meta">By <a href="https://abcodex.iamkesava.com/o/lily-ray/">Lily Ray</a> · VP of SEO, Amsive · 2026-05-10 · talk · <a href="https://www.affiliatesummit.com/blogs/the-state-of-ai-and-seo-in-2026-with-lily-ray" rel="external nofollow">The State of AI and SEO in 2026</a></p><div class="static-tldr">
     <div class="static-tldr-label">Tier B · TL;DR</div>
     <div class="static-tldr-claim">The signals that earn blue-link rankings are the same ones that earn AI-generated answer citations, making AEO an extension of SEO discipline, not a replacement.</div>
@@ -185,7 +225,13 @@ main.static pre code{background:transparent;padding:0}
 <li>ins_crawlability-shapes-everything, Aleyda Solis</li>
 <li>ins_aeo-is-gtm-capability, Maja Voje</li>
 </ul>
-</article><div class="static-actions">
+</article><section class="static-related"><h2>Where this connects</h2>
+<div class="static-related-group"><div class="static-related-label">Domains</div><p class="static-domains"><a href="https://abcodex.iamkesava.com/d/seo/">seo</a> · <a href="https://abcodex.iamkesava.com/d/aeo/">aeo</a> · <a href="https://abcodex.iamkesava.com/d/content-strategy/">content-strategy</a></p></div>
+<div class="static-related-group"><div class="static-related-label">More from Lily Ray</div><div class="static-cards-grid"><a class="static-card" href="https://abcodex.iamkesava.com/ins/ins_ai-slop-loop/"><div class="tier">Tier A · growth · ai-native</div><div class="static-card-title">A single seeded fake claim can self-confirm in AI Overviews</div></a><a class="static-card" href="https://abcodex.iamkesava.com/ins/ins_lily-ray-firsthand-experience-ai-overviews/"><div class="tier">Tier B · content-strategy · seo</div><div class="static-card-title">First-hand experience is a distinct AEO primitive that drives additional clicks from AI Overviews and AI Mode, not just an E-E-A-T input signal</div></a><a class="static-card" href="https://abcodex.iamkesava.com/ins/ins_lily-ray-geo-penalty-multi-surface-cascade/"><div class="tier">Tier A · aeo · seo</div><div class="static-card-title">A Google penalty removes a page from every AI surface at once, not just Google search</div></a><a class="static-card" href="https://abcodex.iamkesava.com/ins/ins_owned-brand-authority-organic-moat/"><div class="tier">Tier A · growth · pmm</div><div class="static-card-title">Owned-brand authority is now the only defensible organic asset, middleman content layers erode regardless of quality</div></a></div></div>
+<div class="static-related-group"><div class="static-related-label">Where this converges</div><div class="static-cards-grid"><a class="static-card" href="https://abcodex.iamkesava.com/pat/pat_aeo-triangle/"><div class="tier">Pattern · pmm · growth</div><div class="static-card-title">The AEO triangle, presence, relevance, manual-action propagation</div></a></div></div>
+
+<div class="static-related-group"><div class="static-related-label">Related insights</div><div class="static-cards-grid"><a class="static-card" href="https://abcodex.iamkesava.com/ins/ins_lily-ray-firsthand-experience-ai-overviews/"><div class="tier">Tier B · content-strategy · seo</div><div class="static-card-title">First-hand experience is a distinct AEO primitive that drives additional clicks from AI Overviews and AI Mode, not just an E-E-A-T input signal</div></a><a class="static-card" href="https://abcodex.iamkesava.com/ins/ins_aeo-three-layer-presence-readiness-impact/"><div class="tier">Tier A · growth · pmm</div><div class="static-card-title">Measure AI search on three layers: Presence, Readiness, Business Impact</div></a><a class="static-card" href="https://abcodex.iamkesava.com/ins/ins_crawlability-shapes-everything/"><div class="tier">Tier B · growth-demand · content</div><div class="static-card-title">In the AI-search era, crawlability shapes everything</div></a><a class="static-card" href="https://abcodex.iamkesava.com/ins/ins_aeo-is-gtm-capability/"><div class="tier">Tier B · pmm · gtm</div><div class="static-card-title">AEO is a GTM capability, not an SEO experiment</div></a></div></div>
+</section><div class="static-actions">
       <a class="primary" href="https://abcodex.iamkesava.com/#/ins/ins_lily-ray-aeo-seo-continuity">Open the interactive view →</a>
       <a href="https://www.affiliatesummit.com/blogs/the-state-of-ai-and-seo-in-2026-with-lily-ray" rel="external nofollow">View original source →</a>
       <a href="https://raw.githubusercontent.com/k3sava/abcodex/main/insight-library/insights/ins_lily-ray-aeo-seo-continuity.md" rel="noopener">Markdown source →</a>
@@ -195,7 +241,7 @@ main.static pre code{background:transparent;padding:0}
 <footer class="static-footer">
   <div class="static-feeds"><a href="https://abcodex.iamkesava.com/llms.txt" rel="noopener">llms.txt</a> · <a href="https://abcodex.iamkesava.com/sitemap.xml" rel="noopener">sitemap</a> · <a href="https://abcodex.iamkesava.com/rss.xml" rel="noopener">rss</a> · <a href="https://abcodex.iamkesava.com/insight-library/INDEX.json" rel="noopener">index.json</a></div>
   <nav aria-label="Sister sites" class="static-sister"><a href="https://apps.iamkesava.com/">apps</a> · <a href="https://tools.iamkesava.com/">tools</a> · <a href="https://toys.iamkesava.com/">toys</a> · <span aria-current="page">codex</span></nav>
-  <div>made by <a href="https://iamkesava.com" rel="noopener author">kesava</a> · <a href="https://github.com/k3sava/ab-codex" rel="noopener">github</a></div>
+  <div>made by <a href="https://iamkesava.com" rel="noopener author">kesava</a> · <a href="https://github.com/k3sava/abcodex" rel="noopener">github</a></div>
 </footer>
 </body>
 </html>
