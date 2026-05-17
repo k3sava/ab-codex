@@ -3,9 +3,9 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-05-16 · 5 insights · 2 operators
+### Latest · 2026-05-17 · 9 insights
 
-**Five new insights: recovery floors, AI consensus, and task-driven minimalism.** Five new cards from five operators. Rewind names the chilling effect that recovery gaps create on AI adoption. Packy McCormick and Nicolas Cole converge on distinctiveness as the post-AI scarcity from independent angles. Pawel Huryn and Chris Orlob arrive at the same minimalist discipline applied to skill acquisition and outreach sequencing.
+**ingest 2026-05-17: +9 insights, +0 operators.** Nine new cards. AEO fractures into citation, traffic, and IP protection as three separate jobs. The judgment ceiling holds as execution costs drop. One strong data set on customer marketing as systematic listening.
 
 [Read what landed →](insight-library/daily/2026-05-17.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
