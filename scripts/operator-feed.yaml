@@ -9,6 +9,33 @@
 operators:
 
   # ── PMM / GTM ──────────────────────────────────────────────────────────────
+  - slug: tamara-grominsky
+    name: "Tamara Grominsky"
+    lane: pmm-gtm-experts
+    source: "https://newsletter.pmmcamp.com/"
+    source_type: newsletter
+    notes: "PMM Camp founder. Positioning, launch strategy, PMM career frameworks. Active community + newsletter."
+
+  - slug: richard-king
+    name: "Richard King"
+    lane: pmm-gtm-experts
+    source: "https://productmarketingalliance.substack.com/"
+    source_type: substack
+    notes: "Product Marketing Alliance. Broad PMM practitioner signal."
+
+  - slug: chris-walker
+    name: "Chris Walker"
+    lane: demand-gen-gtm
+    source: "https://www.linkedin.com/in/chriswalkermktg/"
+    source_type: linkedin
+    notes: "Refine Labs founder. Dark social, demand creation vs lead capture, B2B GTM methodology. Very high GTM signal."
+
+  - slug: jason-oakley
+    name: "Jason Oakley"
+    lane: pmm-gtm-experts
+    source: "https://www.linkedin.com/in/oakleyjason/"
+    source_type: linkedin
+    notes: "PMM practitioner. Practical PMM execution, internal comms, positioning frameworks."
   - slug: aatir-abdul-rauf
     name: "Aatir Abdul Rauf"
     lane: pmm-gtm-experts
@@ -117,6 +144,42 @@ operators:
     lane: product-gtm-experts
     source: "https://productled.com/"
     source_type: blog
+
+  # ── Product Management ─────────────────────────────────────────────────────
+  - slug: john-cutler
+    name: "John Cutler"
+    lane: product-thinking
+    source: "https://cutlefish.substack.com/"
+    source_type: substack
+    notes: "The Beautiful Mess. Product ops, org dynamics, systems thinking. Weekly. Contrarian, high-signal."
+
+  - slug: marty-cagan
+    name: "Marty Cagan"
+    lane: product-thinking
+    source: "https://www.svpg.com/articles/"
+    source_type: blog
+    notes: "SVPG. Product operating model, empowered teams. Wrote Inspired/Empowered/Transformed. Essential for PM strategy."
+
+  - slug: teresa-torres
+    name: "Teresa Torres"
+    lane: product-thinking
+    source: "https://www.producttalk.org/blog/"
+    source_type: blog
+    notes: "Continuous discovery, opportunity solution trees. Product Talk. High-signal for product-led approaches."
+
+  - slug: melissa-perri
+    name: "Melissa Perri"
+    lane: product-thinking
+    source: "https://melissaperri.com/blog"
+    source_type: blog
+    notes: "Produx Labs. Product ops, product strategy, org design. Author of Escaping the Build Trap."
+
+  - slug: jason-knight
+    name: "Jason Knight"
+    lane: product-thinking
+    source: "https://www.jasonknight.co.uk/"
+    source_type: blog
+    notes: "One Knight in Product. Contrarian PM takes, challenges popular frameworks. Good signal for what NOT to copy."
 
   # ── AI / Dev / Tech ────────────────────────────────────────────────────────
   - slug: andrej-karpathy
@@ -503,6 +566,18 @@ communities:
     source: "https://www.reddit.com/r/startups/top.json?t=week&limit=25"
     source_type: reddit
     focus: "Founding, early GTM, product-market fit. Filter for AI-relevant or positioning threads."
+
+  - slug: r-productmanagement
+    name: "r/ProductManagement"
+    source: "https://www.reddit.com/r/ProductManagement/top.json?t=week&limit=25"
+    source_type: reddit
+    focus: "PM career, frameworks, discovery, roadmaps. Filter for debates on product strategy, AI in PM, positioning."
+
+  - slug: r-b2bmarketing
+    name: "r/B2Bmarketing"
+    source: "https://www.reddit.com/r/b2bmarketing/top.json?t=week&limit=25"
+    source_type: reddit
+    focus: "B2B GTM, demand gen, content, ABM. High signal for consulting + PMM consulting positioning."
 
   # Side Projects / Indie Apps
   - slug: r-sideproject
