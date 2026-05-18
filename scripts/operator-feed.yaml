@@ -438,3 +438,124 @@ operators:
     source: "https://www.linkedin.com/in/yaminirangan/"
     source_type: linkedin
     notes: "HubSpot CEO. Watch for earnings calls, keynotes, and LinkedIn posts on GTM + AI."
+
+# ── Communities ────────────────────────────────────────────────────────────────
+# Scan these for high-signal threads, not individual operators.
+# Use Reddit JSON API (reddit.com/r/{slug}/top.json?t=week&limit=25) for subreddits.
+# For HN: search.ycombinator.com or algolia HN search API.
+# For others: WebFetch the source URL.
+
+communities:
+
+  # AI / LLMs / Claude / Codex
+  - slug: r-localllama
+    name: "r/LocalLLaMA"
+    source: "https://www.reddit.com/r/LocalLLaMA/top.json?t=week&limit=25"
+    source_type: reddit
+    focus: "Open-weight models, inference, hardware, quantization. 722k members. High technical signal."
+
+  - slug: r-claudeai
+    name: "r/ClaudeAI"
+    source: "https://www.reddit.com/r/ClaudeAI/top.json?t=week&limit=25"
+    source_type: reddit
+    focus: "Claude usage patterns, Claude Code workflows, limits, bugs, experiments. Direct product signal."
+
+  - slug: r-ai-agents
+    name: "r/AI_Agents"
+    source: "https://www.reddit.com/r/AI_Agents/top.json?t=week&limit=25"
+    source_type: reddit
+    focus: "Agentic workflows, failure modes, security, real-world deployments. Relevant to miniu + substrate."
+
+  - slug: r-machinelearning
+    name: "r/MachineLearning"
+    source: "https://www.reddit.com/r/MachineLearning/top.json?t=week&limit=25"
+    source_type: reddit
+    focus: "Research papers, evals, training. Filter for applied/product-relevant threads."
+
+  - slug: r-promptengineering
+    name: "r/PromptEngineering"
+    source: "https://www.reddit.com/r/PromptEngineering/top.json?t=week&limit=25"
+    source_type: reddit
+    focus: "Practical prompting tactics, output quality, workflow hacks."
+
+  - slug: hacker-news
+    name: "Hacker News"
+    source: "https://hn.algolia.com/api/v1/search?tags=story&query=AI+LLM+Claude+agent&numericFilters=created_at_i>__7DAYS_AGO__"
+    source_type: hn
+    focus: "Filter for AI/LLM/Claude/agent launches and Show HN posts. High signal on what builders are shipping."
+    notes: "Replace __7DAYS_AGO__ with Unix timestamp 7 days ago in Bash: $(date -d '7 days ago' +%s) or $(date -v-7d +%s) on macOS."
+
+  # GTM / PMM / SaaS
+  - slug: r-saas
+    name: "r/SaaS"
+    source: "https://www.reddit.com/r/SaaS/top.json?t=week&limit=25"
+    source_type: reddit
+    focus: "SaaS founders, GTM, pricing, growth. Filter for AI-native or PMM-relevant threads."
+
+  - slug: r-marketing
+    name: "r/marketing"
+    source: "https://www.reddit.com/r/marketing/top.json?t=week&limit=25"
+    source_type: reddit
+    focus: "1.8M members. GTM tactics, campaigns, AI in marketing. Broad signal."
+
+  - slug: r-startups
+    name: "r/startups"
+    source: "https://www.reddit.com/r/startups/top.json?t=week&limit=25"
+    source_type: reddit
+    focus: "Founding, early GTM, product-market fit. Filter for AI-relevant or positioning threads."
+
+  # Side Projects / Indie Apps
+  - slug: r-sideproject
+    name: "r/SideProject"
+    source: "https://www.reddit.com/r/SideProject/top.json?t=week&limit=25"
+    source_type: reddit
+    focus: "Makers sharing projects. Useful for launch patterns, positioning, what resonates. Relevant to ticks, oolala, Innie."
+
+  - slug: indie-hackers
+    name: "Indie Hackers"
+    source: "https://www.indiehackers.com/products?sorting=newest"
+    source_type: web
+    focus: "Product launches, revenue milestones, growth stories. Signal for consulting + app studio positioning."
+
+  - slug: product-hunt
+    name: "Product Hunt"
+    source: "https://www.producthunt.com/leaderboard/daily"
+    source_type: web
+    focus: "New launches. Watch for AI tools, iOS apps, productivity. Competitive + inspiration signal."
+
+  - slug: r-iosapps
+    name: "r/iOSProgramming"
+    source: "https://www.reddit.com/r/iOSProgramming/top.json?t=week&limit=25"
+    source_type: reddit
+    focus: "iOS dev, SwiftUI, App Store. Relevant to Innie, oolala, Pemberley builds."
+
+  # Web Design / Graphic Arts / Creative
+  - slug: r-web-design
+    name: "r/web_design"
+    source: "https://www.reddit.com/r/web_design/top.json?t=week&limit=25"
+    source_type: reddit
+    focus: "Web design trends, typography, layout, tooling. Signal for toys/tools subdomains + portfolio design."
+
+  - slug: r-ui-design
+    name: "r/UI_Design"
+    source: "https://www.reddit.com/r/UI_Design/top.json?t=week&limit=25"
+    source_type: reddit
+    focus: "UI patterns, interaction design, design systems. Relevant to Diggy design system + ab-codex UX."
+
+  - slug: r-graphic-design
+    name: "r/graphic_design"
+    source: "https://www.reddit.com/r/graphic_design/top.json?t=week&limit=25"
+    source_type: reddit
+    focus: "Visual design, illustration, branding. Inspiration for Potion, kami studio, creative projects."
+
+  - slug: dribbble-trending
+    name: "Dribbble Trending"
+    source: "https://dribbble.com/shots/popular"
+    source_type: web
+    focus: "Popular design shots. Visual direction for UI work. Check for AI-generated design trends."
+
+  - slug: codrops
+    name: "Codrops"
+    source: "https://tympanus.net/codrops/category/tutorials/"
+    source_type: web
+    focus: "Creative web experiments, CSS/WebGL techniques. High signal for toys.iamkesava.com effects inspiration."
