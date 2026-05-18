@@ -1,0 +1,440 @@
+# operator-feed.yaml
+# Canonical operator list for ab-codex + cloud Routine scanning.
+# Each entry is a distinct publishing entity to monitor for insights.
+# source: canonical URL to check first (blog/substack root, not a specific post).
+# For LinkedIn-only operators, the Routine searches by name.
+# Lanes are routing tags, not strict categories.
+# Generated 2026-05-18. Update when operators change platforms.
+
+operators:
+
+  # ── PMM / GTM ──────────────────────────────────────────────────────────────
+  - slug: aatir-abdul-rauf
+    name: "Aatir Abdul Rauf"
+    lane: pmm-gtm-experts
+    source: "https://www.linkedin.com/in/aatirar/"
+    source_type: linkedin
+
+  - slug: andy-raskin
+    name: "Andy Raskin"
+    lane: pmm-gtm-experts
+    source: "https://andyraskin.com/"
+    source_type: blog
+
+  - slug: anthony-pierri
+    name: "Anthony Pierri"
+    lane: pmm-gtm-experts
+    source: "https://www.linkedin.com/in/anthonypierri/"
+    source_type: linkedin
+
+  - slug: april-dunford
+    name: "April Dunford"
+    lane: pmm-gtm-experts
+    source: "https://aprildunford.substack.com/"
+    source_type: substack
+
+  - slug: dave-gerhardt
+    name: "Dave Gerhardt"
+    lane: pmm-gtm-experts
+    source: "https://www.exitfive.com/"
+    source_type: blog
+
+  - slug: emily-pick
+    name: "Emily Pick"
+    lane: pmm-gtm-experts
+    source: "https://www.linkedin.com/in/emilypick/"
+    source_type: linkedin
+
+  - slug: maja-voje
+    name: "Maja Voje"
+    lane: pmm-gtm-experts
+    source: "https://knowledge.gtmstrategist.com/"
+    source_type: substack
+
+  - slug: rory-woodbridge
+    name: "Rory Woodbridge"
+    lane: pmm-gtm-experts
+    source: "https://productmarketer.substack.com/"
+    source_type: substack
+
+  - slug: sangram-vajre
+    name: "Sangram Vajre"
+    lane: pmm-gtm-experts
+    source: "https://www.linkedin.com/in/sangramvajre/"
+    source_type: linkedin
+
+  - slug: yi-lin-pei
+    name: "Yi Lin Pei"
+    lane: pmm-gtm-experts
+    source: "https://www.courageous-careers.com/"
+    source_type: substack
+
+  # ── Product GTM ────────────────────────────────────────────────────────────
+  - slug: aakash-gupta
+    name: "Aakash Gupta"
+    lane: product-gtm-experts
+    source: "https://substack.com/@aakashgupta"
+    source_type: substack
+
+  - slug: elena-verna
+    name: "Elena Verna"
+    lane: product-gtm-experts
+    source: "https://www.elenaverna.com/"
+    source_type: substack
+
+  - slug: kieran-flanagan
+    name: "Kieran Flanagan"
+    lane: product-gtm-experts
+    source: "https://www.kieranflanagan.io/"
+    source_type: substack
+
+  - slug: lenny-rachitsky
+    name: "Lenny Rachitsky"
+    lane: product-gtm-experts
+    source: "https://www.lennysnewsletter.com/"
+    source_type: substack
+
+  - slug: pawel-huryn
+    name: "Pawel Huryn"
+    lane: product-gtm-experts
+    source: "https://www.productcompass.pm/"
+    source_type: substack
+
+  - slug: rahul-vohra
+    name: "Rahul Vohra"
+    lane: product-gtm-experts
+    source: "https://blog.superhuman.com/"
+    source_type: blog
+
+  - slug: shreyas-doshi
+    name: "Shreyas Doshi"
+    lane: product-gtm-experts
+    source: "https://www.linkedin.com/in/shreyasdoshi/"
+    source_type: linkedin
+
+  - slug: wes-bush
+    name: "Wes Bush"
+    lane: product-gtm-experts
+    source: "https://productled.com/"
+    source_type: blog
+
+  # ── AI / Dev / Tech ────────────────────────────────────────────────────────
+  - slug: andrej-karpathy
+    name: "Andrej Karpathy"
+    lane: ai-native-marketing-org
+    source: "https://karpathy.bearblog.dev/"
+    source_type: blog
+    notes: "Also posts on X (@karpathy). High signal on AI direction."
+
+  - slug: dan-shipper
+    name: "Dan Shipper"
+    lane: ai-native-marketing-org
+    source: "https://every.to/chain-of-thought"
+    source_type: substack
+
+  - slug: drew-breunig
+    name: "Drew Breunig"
+    lane: agent-frameworks
+    source: "https://www.dbreunig.com/"
+    source_type: blog
+
+  - slug: ethan-mollick
+    name: "Ethan Mollick"
+    lane: ai-native-marketing-org
+    source: "https://www.oneusefulthing.org/"
+    source_type: substack
+
+  - slug: harrison-chase
+    name: "Harrison Chase"
+    lane: agent-frameworks
+    source: "https://www.langchain.com/blog"
+    source_type: blog
+
+  - slug: langchain
+    name: "LangChain Blog"
+    lane: agent-frameworks
+    source: "https://www.langchain.com/blog"
+    source_type: blog
+
+  - slug: packy-mccormick
+    name: "Packy McCormick"
+    lane: ai-native-marketing-org
+    source: "https://www.notboring.co/"
+    source_type: substack
+
+  - slug: phil-schmid
+    name: "Philipp Schmid"
+    lane: agent-frameworks
+    source: "https://www.philschmid.de/"
+    source_type: blog
+
+  - slug: shawn-wang-swyx
+    name: "Shawn Wang (Swyx)"
+    lane: agent-frameworks
+    source: "https://www.latent.space/"
+    source_type: substack
+    notes: "Also posts on X (@swyx) and smol.ai."
+
+  - slug: simon-willison
+    name: "Simon Willison"
+    lane: prompt-engineering-craft
+    source: "https://simonwillison.net/"
+    source_type: blog
+
+  - slug: alex-kantrowitz
+    name: "Alex Kantrowitz"
+    lane: ai-native-marketing-org
+    source: "https://www.bigtechnology.com/"
+    source_type: substack
+
+  - slug: aaron-levie
+    name: "Aaron Levie"
+    lane: ai-native-marketing-org
+    source: "https://www.linkedin.com/in/aaronlevie/"
+    source_type: linkedin
+
+  - slug: naval-ravikant
+    name: "Naval Ravikant"
+    lane: ai-native-marketing-org
+    source: "https://nav.al/"
+    source_type: blog
+    notes: "Also posts on X (@naval). Infrequent but high-signal."
+
+  # ── SEO / AEO ─────────────────────────────────────────────────────────────
+  - slug: aleyda-solis
+    name: "Aleyda Solis"
+    lane: aeo-llm-search-experts
+    source: "https://seofomo.co/"
+    source_type: newsletter
+
+  - slug: barry-schwartz
+    name: "Barry Schwartz"
+    lane: aeo-llm-search-experts
+    source: "https://searchengineland.com/author/barry-schwartz"
+    source_type: blog
+
+  - slug: brendan-hufford
+    name: "Brendan Hufford"
+    lane: seo-experts
+    source: "https://www.linkedin.com/in/brendanhufford/"
+    source_type: linkedin
+
+  - slug: brian-dean
+    name: "Brian Dean"
+    lane: aeo-llm-search-experts
+    source: "https://backlinko.com/blog"
+    source_type: blog
+
+  - slug: casey-hill
+    name: "Casey Hill"
+    lane: aeo-llm-search-experts
+    source: "https://www.growthunhinged.com/"
+    source_type: substack
+
+  - slug: eli-schwartz
+    name: "Eli Schwartz"
+    lane: seo-experts
+    source: "https://www.productledseo.com/"
+    source_type: substack
+
+  - slug: glenn-gabe
+    name: "Glenn Gabe"
+    lane: seo-experts
+    source: "https://www.gsqi.com/marketing-blog/"
+    source_type: blog
+
+  - slug: google-search-blog
+    name: "Google Search Blog"
+    lane: aeo-llm-search-experts
+    source: "https://developers.google.com/search/blog"
+    source_type: blog
+
+  - slug: ipullrank-blog
+    name: "iPullRank Blog"
+    lane: aeo-llm-search-experts
+    source: "https://ipullrank.com/blog"
+    source_type: blog
+
+  - slug: kevin-indig
+    name: "Kevin Indig"
+    lane: aeo-llm-search-experts
+    source: "https://www.growth-memo.com/"
+    source_type: substack
+
+  - slug: lily-ray
+    name: "Lily Ray"
+    lane: aeo-llm-search-experts
+    source: "https://www.linkedin.com/in/lily-ray-44219032/"
+    source_type: linkedin
+
+  - slug: mark-williams-cook
+    name: "Mark Williams-Cook"
+    lane: seo-experts
+    source: "https://coreupdates.com/"
+    source_type: blog
+
+  - slug: mike-king
+    name: "Mike King (iPullRank)"
+    lane: aeo-llm-search-experts
+    source: "https://ipullrank.com/"
+    source_type: blog
+
+  - slug: openai-blog
+    name: "OpenAI Blog"
+    lane: aeo-llm-search-experts
+    source: "https://openai.com/news/"
+    source_type: blog
+
+  - slug: perplexity-hub
+    name: "Perplexity Hub"
+    lane: aeo-llm-search-experts
+    source: "https://www.perplexity.ai/hub"
+    source_type: blog
+
+  - slug: rand-fishkin
+    name: "Rand Fishkin"
+    lane: seo-experts
+    source: "https://sparktoro.com/blog/"
+    source_type: blog
+
+  - slug: schema-org-releases
+    name: "Schema.org Releases"
+    lane: aeo-llm-search-experts
+    source: "https://schema.org/docs/releases.html"
+    source_type: docs
+    notes: "Check for new schema types relevant to AEO."
+
+  - slug: anthropic-news
+    name: "Anthropic News"
+    lane: aeo-llm-search-experts
+    source: "https://www.anthropic.com/news"
+    source_type: blog
+
+  # ── Performance / Growth ───────────────────────────────────────────────────
+  - slug: andrew-capland
+    name: "Andrew Capland"
+    lane: performance-marketing-experts
+    source: "https://www.deliveringvalue.co/"
+    source_type: substack
+
+  - slug: andrew-chen
+    name: "Andrew Chen"
+    lane: performance-marketing-experts
+    source: "https://a16z.com/author/andrew-chen/"
+    source_type: blog
+
+  - slug: demand-curve
+    name: "Demand Curve"
+    lane: performance-marketing-experts
+    source: "https://www.demandcurve.com/newsletters"
+    source_type: newsletter
+
+  - slug: eric-seufert
+    name: "Eric Seufert"
+    lane: performance-marketing-experts
+    source: "https://mobiledevmemo.com/"
+    source_type: blog
+
+  # ── Pricing / Packaging ────────────────────────────────────────────────────
+  - slug: kyle-poyar
+    name: "Kyle Poyar"
+    lane: pricing-packaging-strategy
+    source: "https://www.growthunhinged.com/"
+    source_type: substack
+
+  - slug: tomasz-tunguz
+    name: "Tomasz Tunguz"
+    lane: pricing-packaging-strategy
+    source: "https://www.tomtunguz.com/"
+    source_type: blog
+
+  # ── Inbound Sales ──────────────────────────────────────────────────────────
+  - slug: jason-lemkin
+    name: "Jason Lemkin"
+    lane: inbound-sales-experts
+    source: "https://www.saastr.com/author/jasonl/"
+    source_type: blog
+
+  - slug: pete-caputa
+    name: "Pete Caputa"
+    lane: inbound-sales-experts
+    source: "https://www.linkedin.com/in/pc4media/"
+    source_type: linkedin
+
+  # ── Outbound Sales ─────────────────────────────────────────────────────────
+  - slug: chris-orlob
+    name: "Chris Orlob"
+    lane: outbound-sales-experts
+    source: "https://www.linkedin.com/in/chrisorlob/"
+    source_type: linkedin
+
+  - slug: collin-stewart
+    name: "Collin Stewart"
+    lane: outbound-sales-experts
+    source: "https://predictablerevenue.com/blog/"
+    source_type: blog
+
+  - slug: florin-tatulea
+    name: "Florin Tatulea"
+    lane: outbound-sales-experts
+    source: "https://salesflo.substack.com/"
+    source_type: substack
+
+  # ── Humanizing AI Copy ─────────────────────────────────────────────────────
+  - slug: ann-handley
+    name: "Ann Handley"
+    lane: humanizing-ai-copy
+    source: "https://annhandley.com/"
+    source_type: blog
+
+  - slug: joanna-wiebe
+    name: "Joanna Wiebe"
+    lane: humanizing-ai-copy
+    source: "https://copyhackers.com/"
+    source_type: blog
+
+  - slug: joel-klettke
+    name: "Joel Klettke"
+    lane: humanizing-ai-copy
+    source: "https://www.linkedin.com/in/joelklettke/"
+    source_type: linkedin
+
+  - slug: nicolas-cole
+    name: "Nicolas Cole"
+    lane: humanizing-ai-copy
+    source: "https://writewithai.substack.com/"
+    source_type: substack
+
+  # ── Creator / Influencer ───────────────────────────────────────────────────
+  - slug: amanda-natividad
+    name: "Amanda Natividad"
+    lane: creator-influencer-marketing
+    source: "https://www.linkedin.com/in/amandanat/"
+    source_type: linkedin
+
+  - slug: justin-welsh
+    name: "Justin Welsh"
+    lane: creator-influencer-marketing
+    source: "https://www.justinwelsh.me/newsletter"
+    source_type: newsletter
+
+  # ── LLM Evals / Reliability ────────────────────────────────────────────────
+  - slug: eugene-yan
+    name: "Eugene Yan"
+    lane: llm-evals-reliability
+    source: "https://eugeneyan.com/"
+    source_type: blog
+
+  - slug: hamel-husain
+    name: "Hamel Husain"
+    lane: llm-evals-reliability
+    source: "https://hamel.dev/"
+    source_type: blog
+
+  # ── AI-Native Marketing Effectiveness ─────────────────────────────────────
+  - slug: yamini-rangan
+    name: "Yamini Rangan"
+    lane: ai-native-marketing-effectiveness
+    source: "https://www.linkedin.com/in/yaminirangan/"
+    source_type: linkedin
+    notes: "HubSpot CEO. Watch for earnings calls, keynotes, and LinkedIn posts on GTM + AI."
