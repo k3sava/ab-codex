@@ -2,9 +2,10 @@
 id: pat_diagnose-before-execute
 title: Diagnose before executing — refuse the playbook ask
 captured_date: 2026-05-01
-convergence_count: 4
+last_updated: 2026-05-19
+convergence_count: 6
 tier: A
-uses_cards: [ins_date-diagnostic-framework, ins_understand-then-identify-then-execute, ins_influence-is-discovery-not-conviction, ins_three-divergent-pr-faqs, ins_going-deep-to-bedrock]
+uses_cards: [ins_date-diagnostic-framework, ins_understand-then-identify-then-execute, ins_influence-is-discovery-not-conviction, ins_three-divergent-pr-faqs, ins_going-deep-to-bedrock, ins_doshi-truth-one-level-down]
 domains: [pmm, product, founder-operator]
 ---
 

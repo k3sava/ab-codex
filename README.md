@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-05-17 · 9 insights
+### Latest · 2026-05-19 · 2 insights · 1 operator
 
-**ingest 2026-05-17: +9 insights, +0 operators.** Nine new cards. AEO fractures into citation, traffic, and IP protection as three separate jobs. The judgment ceiling holds as execution costs drop. One strong data set on customer marketing as systematic listening.
+**One level down: two operators on why surface-level matching misses what matters.** Two new insights, two synthesis patterns updated, one new operator. One meta-theme ran through both: surface-level matching fails where depth is needed. Shreyas Doshi names it for strategy. Anthropic names it for security.
 
-[Read what landed →](insight-library/daily/2026-05-17.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-05-19.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,8 +15,8 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **834** insight cards
-- **470** operator profiles
+- **836** insight cards
+- **471** operator profiles
 - **41** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
 - **27** methodology playbooks
@@ -33,7 +33,7 @@ The site at [abcodex.iamkesava.com](https://abcodex.iamkesava.com/) gives you se
 |------|---------------|
 | [Home](https://abcodex.iamkesava.com/) | Tier A claims and a domain index |
 | [Map](https://abcodex.iamkesava.com/#/map) | Visual graph: operators outside, domains in the middle, insights orbiting between |
-| [Operators](https://abcodex.iamkesava.com/#/operators) | All 470 profiles, sorted by card count |
+| [Operators](https://abcodex.iamkesava.com/#/operators) | All 471 profiles, sorted by card count |
 | [Patterns](https://abcodex.iamkesava.com/#/patterns) | Where 3+ operators converge on the same claim |
 | [Browse](https://abcodex.iamkesava.com/#/browse) | Filter by tier or domain, sort by date / operator / tier |
 | [Timeline](https://abcodex.iamkesava.com/#/timeline) | Newest captures first |

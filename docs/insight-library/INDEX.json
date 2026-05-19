@@ -1,34 +1,29 @@
 {
-  "generated_at": "2026-05-17T03:41:23.081Z",
+  "generated_at": "2026-05-19T03:15:28.022Z",
   "counts": {
-    "insights": 834,
-    "operators": 470,
+    "insights": 836,
+    "operators": 471,
     "raw_sources": 209,
     "patterns": 41,
     "contradictions": 11,
     "playbooks": 27,
-    "daily": 15
+    "daily": 16
   },
   "latest_daily": {
-    "path": "daily/2026-05-17.md",
-    "date": "2026-05-17",
-    "title": "ingest 2026-05-17: +9 insights, +0 operators",
-    "summary": "Nine new cards. AEO fractures into citation, traffic, and IP protection as three separate jobs. The judgment ceiling holds as execution costs drop. One strong data set on customer marketing as systematic listening.",
+    "path": "daily/2026-05-19.md",
+    "date": "2026-05-19",
+    "title": "One level down: two operators on why surface-level matching misses what matters",
+    "summary": "Two new insights, two synthesis patterns updated, one new operator. One meta-theme ran through both: surface-level matching fails where depth is needed. Shreyas Doshi names it for strategy. Anthropic names it for security.",
     "sources": [
-      "morning research scan 2026-05-17"
+      "morning research scan 2026-05-19"
     ],
     "insights_added": [
-      "ins_mike-king-llm-cloaking-ip-protection",
-      "ins_mike-king-markdown-serving-llm-crawlers",
-      "ins_fishkin-natividad-measurement-reframe-not-clicks",
-      "ins_gerhardt-customer-marketing-listening-program",
-      "ins_sangram-vajre-fractional-packaging-gap",
-      "ins_sangram-vajre-ai-multiplies-existing-alignment",
-      "ins_rory-woodbridge-pmm-craft-common-language",
-      "ins_pierri-batch-transcripts-produce-fabrications",
-      "ins_aleyda-solis-ai-links-not-automatically-traffic"
+      "ins_doshi-truth-one-level-down",
+      "ins_anthropic-claude-security-data-flow-scanning"
     ],
-    "operators_added": "",
+    "operators_added": [
+      "shreyas-doshi"
+    ],
     "patterns_added": [],
     "playbooks_added": []
   },
@@ -2053,6 +2048,35 @@
       ],
       "raw_ref": "",
       "title": "Claude Code subagents run in isolated context windows with model routing, enabling cost-optimized bulk delegation without polluting the orchestrator session"
+    },
+    {
+      "path": "insights/ins_anthropic-claude-security-data-flow-scanning.md",
+      "id": "ins_anthropic-claude-security-data-flow-scanning",
+      "operator": "Anthropic",
+      "operator_role": "AI safety company and model developer",
+      "co_operators": [],
+      "source_url": "https://www.anthropic.com/news/claude-code-security",
+      "source_type": "post",
+      "source_title": "Claude Code Security",
+      "source_date": "2026-05-19",
+      "captured_date": "2026-05-19",
+      "domain": [
+        "product",
+        "engineering"
+      ],
+      "lifecycle": [
+        "product-development"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 3, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_anthropic-claude-code-subagents-haiku-routing",
+        "ins_dark-factory-pattern"
+      ],
+      "raw_ref": "",
+      "title": "Security scanning via data flow tracing finds business logic flaws that pattern-matching tools miss for years"
     },
     {
       "path": "insights/ins_anthropic-routines-cloud-agent-tasks.md",
@@ -5744,6 +5768,36 @@
       ],
       "raw_ref": "raw/podcasts/boris-cherny--claude-code-after-coding-solved--2026-04-27.md",
       "title": "Give the model tools and a goal; do not hard-code the workflow"
+    },
+    {
+      "path": "insights/ins_doshi-truth-one-level-down.md",
+      "id": "ins_doshi-truth-one-level-down",
+      "operator": "Shreyas Doshi",
+      "operator_role": "Product advisor and writer",
+      "co_operators": [],
+      "source_url": "https://shreyasdoshi.substack.com/p/get-to-the-core-of-the-thing",
+      "source_type": "essay",
+      "source_title": "Get to the Core of the Thing",
+      "source_date": "2026-05-16",
+      "captured_date": "2026-05-19",
+      "domain": [
+        "pmm",
+        "positioning"
+      ],
+      "lifecycle": [
+        "discovery",
+        "positioning"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "A",
+      "related": [
+        "ins_going-deep-to-bedrock",
+        "ins_sangram-vajre-fractional-packaging-gap"
+      ],
+      "raw_ref": "",
+      "title": "Three customer stories beat every strategic framework because the truth is always one level down"
     },
     {
       "path": "insights/ins_dotclaude-as-deployable-artifact.md",
@@ -30292,6 +30346,22 @@
       "title": "Shivangi Sahu"
     },
     {
+      "path": "operators/shreyas-doshi/README.md",
+      "slug": "shreyas-doshi",
+      "name": "Shreyas Doshi",
+      "roles": [
+        "Product advisor and writer"
+      ],
+      "domains_active": [
+        "pmm",
+        "positioning",
+        "product-strategy"
+      ],
+      "captured_first": "2026-05-19",
+      "external": "{ newsletter: \"https://shreyasdoshi.substack.com\" }",
+      "title": "Shreyas Doshi"
+    },
+    {
       "path": "operators/shruti-kapoor/README.md",
       "name": "Shruti Kapoor",
       "slug": "shruti-kapoor",
@@ -35121,14 +35191,16 @@
       "id": "pat_diagnose-before-execute",
       "title": "Diagnose before executing, refuse the playbook ask",
       "captured_date": "2026-05-01",
-      "convergence_count": "4",
+      "last_updated": "2026-05-19",
+      "convergence_count": "6",
       "tier": "A",
       "uses_cards": [
         "ins_date-diagnostic-framework",
         "ins_understand-then-identify-then-execute",
         "ins_influence-is-discovery-not-conviction",
         "ins_three-divergent-pr-faqs",
-        "ins_going-deep-to-bedrock"
+        "ins_going-deep-to-bedrock",
+        "ins_doshi-truth-one-level-down"
       ],
       "domains": [
         "pmm",
@@ -35752,8 +35824,8 @@
       "id": "pat_verification-as-human-job",
       "title": "Verification, not execution, is the irreplaceable human job",
       "captured_date": "2026-05-06",
-      "last_updated": "2026-05-17",
-      "convergence_count": "12",
+      "last_updated": "2026-05-19",
+      "convergence_count": "13",
       "tier": "A",
       "uses_cards": [
         "ins_judgment-vs-understanding",
@@ -35767,7 +35839,8 @@
         "ins_breunig-agentic-code-free-as-puppies",
         "ins_willison-reliability-erodes-review-discipline",
         "ins_breunig-harness-lock-in-model-layer",
-        "ins_pierri-batch-transcripts-produce-fabrications"
+        "ins_pierri-batch-transcripts-produce-fabrications",
+        "ins_anthropic-claude-security-data-flow-scanning"
       ],
       "domains": [
         "ai-native",
@@ -36581,6 +36654,24 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-05-19.md",
+      "date": "2026-05-19",
+      "title": "One level down: two operators on why surface-level matching misses what matters",
+      "summary": "Two new insights, two synthesis patterns updated, one new operator. One meta-theme ran through both: surface-level matching fails where depth is needed. Shreyas Doshi names it for strategy. Anthropic names it for security.",
+      "sources": [
+        "morning research scan 2026-05-19"
+      ],
+      "insights_added": [
+        "ins_doshi-truth-one-level-down",
+        "ins_anthropic-claude-security-data-flow-scanning"
+      ],
+      "operators_added": [
+        "shreyas-doshi"
+      ],
+      "patterns_added": [],
+      "playbooks_added": []
+    },
     {
       "path": "daily/2026-05-17.md",
       "date": "2026-05-17",

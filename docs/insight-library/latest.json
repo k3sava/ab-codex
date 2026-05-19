@@ -1,29 +1,42 @@
 {
-  "generated_at": "2026-05-17T03:41:23.090Z",
+  "generated_at": "2026-05-19T03:15:28.063Z",
   "latest_daily": {
-    "path": "daily/2026-05-17.md",
-    "date": "2026-05-17",
-    "title": "ingest 2026-05-17: +9 insights, +0 operators",
-    "summary": "Nine new cards. AEO fractures into citation, traffic, and IP protection as three separate jobs. The judgment ceiling holds as execution costs drop. One strong data set on customer marketing as systematic listening.",
+    "path": "daily/2026-05-19.md",
+    "date": "2026-05-19",
+    "title": "One level down: two operators on why surface-level matching misses what matters",
+    "summary": "Two new insights, two synthesis patterns updated, one new operator. One meta-theme ran through both: surface-level matching fails where depth is needed. Shreyas Doshi names it for strategy. Anthropic names it for security.",
     "sources": [
-      "morning research scan 2026-05-17"
+      "morning research scan 2026-05-19"
     ],
     "insights_added": [
-      "ins_mike-king-llm-cloaking-ip-protection",
-      "ins_mike-king-markdown-serving-llm-crawlers",
-      "ins_fishkin-natividad-measurement-reframe-not-clicks",
-      "ins_gerhardt-customer-marketing-listening-program",
-      "ins_sangram-vajre-fractional-packaging-gap",
-      "ins_sangram-vajre-ai-multiplies-existing-alignment",
-      "ins_rory-woodbridge-pmm-craft-common-language",
-      "ins_pierri-batch-transcripts-produce-fabrications",
-      "ins_aleyda-solis-ai-links-not-automatically-traffic"
+      "ins_doshi-truth-one-level-down",
+      "ins_anthropic-claude-security-data-flow-scanning"
     ],
-    "operators_added": "",
+    "operators_added": [
+      "shreyas-doshi"
+    ],
     "patterns_added": [],
     "playbooks_added": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-05-19.md",
+      "date": "2026-05-19",
+      "title": "One level down: two operators on why surface-level matching misses what matters",
+      "summary": "Two new insights, two synthesis patterns updated, one new operator. One meta-theme ran through both: surface-level matching fails where depth is needed. Shreyas Doshi names it for strategy. Anthropic names it for security.",
+      "sources": [
+        "morning research scan 2026-05-19"
+      ],
+      "insights_added": [
+        "ins_doshi-truth-one-level-down",
+        "ins_anthropic-claude-security-data-flow-scanning"
+      ],
+      "operators_added": [
+        "shreyas-doshi"
+      ],
+      "patterns_added": [],
+      "playbooks_added": []
+    },
     {
       "path": "daily/2026-05-17.md",
       "date": "2026-05-17",

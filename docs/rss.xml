@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 17 May 2026 03:41:23 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2026 03:15:31 GMT</lastBuildDate>
+    <item>
+      <title>One level down: two operators on why surface-level matching misses what matters</title>
+      <link>https://abcodex.iamkesava.com/today/2026-05-19/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-05-19/</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+      <description>Two new insights, two synthesis patterns updated, one new operator. One meta-theme ran through both: surface-level matching fails where depth is needed. Shreyas Doshi names it for strategy. Anthropic names it for security.</description>
+    </item>
     <item>
       <title>ingest 2026-05-17: +9 insights, +0 operators</title>
       <link>https://abcodex.iamkesava.com/today/2026-05-17/</link>

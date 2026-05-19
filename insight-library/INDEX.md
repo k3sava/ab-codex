@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-05-17. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-05-19. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 834 insight cards
-- 470 operator profiles
+- 836 insight cards
+- 471 operator profiles
 - 209 raw source files
 - 41 synthesis patterns
 - 11 contradictions
@@ -12,7 +12,7 @@ _Generated 2026-05-17. Auto-built from frontmatter — do not edit by hand._
 
 ## Insights by tier
 
-### Tier A (333)
+### Tier A (334)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -78,6 +78,7 @@ _Generated 2026-05-17. Auto-built from frontmatter — do not edit by hand._
 - [`ins_dixon-no-decision-87-percent-indecision`](insights/ins_dixon-no-decision-87-percent-indecision.md) — 40-60% of B2B deals are lost to "no decision", and 87% of deals show medium-to-high indecision _(Matt Dixon)_
 - [`ins_dixon-sales-experience-drives-loyalty`](insights/ins_dixon-sales-experience-drives-loyalty.md) — 53% of customer loyalty is driven by the sales experience itself, not brand, product, price, or service _(Matt Dixon)_
 - [`ins_dont-box-the-model-in`](insights/ins_dont-box-the-model-in.md) — Give the model tools and a goal; do not hard-code the workflow _(Boris Cherny)_
+- [`ins_doshi-truth-one-level-down`](insights/ins_doshi-truth-one-level-down.md) — Three customer stories beat every strategic framework because the truth is always one level down _(Shreyas Doshi)_
 - [`ins_dreaming-cross-session-memory-curation`](insights/ins_dreaming-cross-session-memory-curation.md) — Scheduled cross-session transcript reading extracts patterns and proposes memory updates for human review before they land _(Anthropic)_
 - [`ins_each-prospect-gets-scored-based`](insights/ins_each-prospect-gets-scored-based.md) — Each prospect gets scored 1-10 based on company fit, role relevance, how good their eng _(Prerona Basu)_
 - [`ins_earned-channels-over-algorithm-channels`](insights/ins_earned-channels-over-algorithm-channels.md) — Build earned channels, every dollar in algorithm channels makes Google richer, not you _(Elena Verna)_
@@ -347,7 +348,7 @@ _Generated 2026-05-17. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (428)
+### Tier B (429)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -392,6 +393,7 @@ _Generated 2026-05-17. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ankita-agarwal-duolingo-product-feedback`](insights/ins_ankita-agarwal-duolingo-product-feedback.md) — Duolingo's gamification helps but lacks adaptive difficulty and grammar depth for serious learners _(Ankita Agarwal)_
 - [`ins_anonymous-benchmark-rescues-roi-evidence`](insights/ins_anonymous-benchmark-rescues-roi-evidence.md) — Anonymous benchmark stats unlock ROI proof when named-customer attribution is blocked _(Jason Oakley)_
 - [`ins_anthropic-claude-code-subagents-haiku-routing`](insights/ins_anthropic-claude-code-subagents-haiku-routing.md) — Claude Code subagents run in isolated context windows with model routing, enabling cost-optimized bulk delegation without polluting the orchestrator session _(Anthropic)_
+- [`ins_anthropic-claude-security-data-flow-scanning`](insights/ins_anthropic-claude-security-data-flow-scanning.md) — Security scanning via data flow tracing finds business logic flaws that pattern-matching tools miss for years _(Anthropic)_
 - [`ins_anthropic-routines-cloud-agent-tasks`](insights/ins_anthropic-routines-cloud-agent-tasks.md) — Claude Code Routines separates cloud-hosted scheduled agent tasks from local compute, enabling event-triggered agent work on Anthropic's servers without the user's machine being online. _(Anthropic)_
 - [`ins_anthropic-skills-as-vertical-distribution-unit`](insights/ins_anthropic-skills-as-vertical-distribution-unit.md) — Anthropic is treating Skills and Cookbooks as the unit of vertical agent distribution, not one-off integrations _(Anthropic)_
 - [`ins_ariely-pennies-a-day-effect`](insights/ins_ariely-pennies-a-day-effect.md) — Pennies-a-day, framing an annual price as daily trivializes the cost _(Dan Ariely)_
@@ -1259,6 +1261,7 @@ _Generated 2026-05-17. Auto-built from frontmatter — do not edit by hand._
 - [Shireesh Gupta](operators/shireesh-gupta/README.md)
 - [Shivangi Gautam](operators/shivangi-gautam/README.md)
 - [Shivangi Sahu](operators/shivangi-sahu/README.md)
+- [Shreyas Doshi](operators/shreyas-doshi/README.md)
 - [Shruti Kapoor](operators/shruti-kapoor/README.md)
 - [Shruti Padala](operators/shruti-padala/README.md)
 - [Shruti Vashi](operators/shruti-vashi/README.md)
@@ -1343,7 +1346,7 @@ _Generated 2026-05-17. Auto-built from frontmatter — do not edit by hand._
 - [`pat_context-not-capability`](synthesis/patterns/context-not-capability.md) — Context, not capability, is the bottleneck (11 ops) [Tier A]
 - [`pat_copywriting-craft-fundamentals`](synthesis/patterns/copywriting-craft-fundamentals.md) — Copywriting craft is built on five reinforcing fundamentals (6 ops) [Tier A]
 - [`pat_decision-quality-through-process-not-willpower`](synthesis/patterns/decision-quality-through-process-not-willpower.md) — Decision quality at scale comes from process, not willpower (4 ops) [Tier A]
-- [`pat_diagnose-before-execute`](synthesis/patterns/diagnose-before-execute.md) — Diagnose before executing, refuse the playbook ask (4 ops) [Tier A]
+- [`pat_diagnose-before-execute`](synthesis/patterns/diagnose-before-execute.md) — Diagnose before executing, refuse the playbook ask (6 ops) [Tier A]
 - [`pat_differentiation-vs-sameness`](synthesis/patterns/differentiation-vs-sameness.md) — Differentiation requires three checks, different, better, matters (7 ops) [Tier B]
 - [`pat_distribution-as-moat`](synthesis/patterns/distribution-as-moat.md) — Distribution and earned channels are the new moat (5 ops) [Tier A]
 - [`pat_economic-turing-test-rev-per-employee`](synthesis/patterns/economic-turing-test-rev-per-employee.md) — The Economic Turing Test, outcomes pricing, agent labor, revenue per employee (3 ops) [Tier A]
@@ -1371,7 +1374,7 @@ _Generated 2026-05-17. Auto-built from frontmatter — do not edit by hand._
 - [`pat_substrate-runs-loop-humans-run-alignment`](synthesis/patterns/substrate-runs-loop-humans-run-alignment.md) — Substrate runs the loop; humans run alignment and taste (7 ops) [Tier A]
 - [`pat_subtraction-first-operating-discipline`](synthesis/patterns/subtraction-first-operating-discipline.md) — Subtraction-first operating discipline (3 ops) [Tier A]
 - [`pat_sustainability-beats-optimisation`](synthesis/patterns/sustainability-beats-optimisation.md) — Sustainability beats optimisation (5 ops) [Tier A]
-- [`pat_verification-as-human-job`](synthesis/patterns/verification-as-human-job.md) — Verification, not execution, is the irreplaceable human job (12 ops) [Tier A]
+- [`pat_verification-as-human-job`](synthesis/patterns/verification-as-human-job.md) — Verification, not execution, is the irreplaceable human job (13 ops) [Tier A]
 
 ## Contradictions
 - [`con_agents-as-team-vs-tools`](synthesis/contradictions/agents-as-team-vs-agents-as-tools.md) — Agents-as-team vs. agents-as-tools
